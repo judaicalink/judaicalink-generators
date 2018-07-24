@@ -1,0 +1,244 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix jl: <http://data.judaicalink.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.judaicalink.org/data/occupation/Court_Jew> a jl:Occupation ;
+    jl:hasLabel "Court_Jew" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Court_Jews> .
+
+<http://data.judaicalink.org/data/occupation/Hazzan> a jl:Occupation ;
+    jl:hasLabel "Hazzan" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Hazzans> .
+
+<http://data.judaicalink.org/data/occupation/Hebrew_Bible_people> a jl:Occupation ;
+    jl:hasLabel "Hebrew_Bible_people" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Hebrew_Bible_people> .
+
+<http://data.judaicalink.org/data/occupation/Judaic_scholar> a jl:Occupation ;
+    jl:hasLabel "Judaic_scholar" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Judaic_scholars> .
+
+<http://data.judaicalink.org/data/occupation/Mohel> a jl:Occupation ;
+    jl:hasLabel "Mohel" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Mohel> .
+
+<http://data.judaicalink.org/data/occupation/Prophets_in_Judaism> a jl:Occupation ;
+    jl:hasLabel "Prophets_in_Judaism" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Prophets_in_Judaism> .
+
+<http://data.judaicalink.org/data/occupation/Rebbetzin> a jl:Occupation ;
+    jl:hasLabel "Rebbetzin" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Rebbetzins> .
+
+<http://data.judaicalink.org/data/occupation/activist> a jl:Occupation ;
+    jl:hasLabel "activist" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_activists> .
+
+<http://data.judaicalink.org/data/occupation/architect> a jl:Occupation ;
+    jl:hasLabel "architect" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_architects> .
+
+<http://data.judaicalink.org/data/occupation/art_collector> a jl:Occupation ;
+    jl:hasLabel "art_collector" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_art_collectors> .
+
+<http://data.judaicalink.org/data/occupation/artist> a jl:Occupation ;
+    jl:hasLabel "artist" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_artists> .
+
+<http://data.judaicalink.org/data/occupation/chess_player> a jl:Occupation ;
+    jl:hasLabel "chess_player" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_chess_players> .
+
+<http://data.judaicalink.org/data/occupation/composer> a jl:Occupation ;
+    jl:hasLabel "composer" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_composers> .
+
+<http://data.judaicalink.org/data/occupation/educator> a jl:Occupation ;
+    jl:hasLabel "educator" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_educators> .
+
+<http://data.judaicalink.org/data/occupation/engineer> a jl:Occupation ;
+    jl:hasLabel "engineer" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_engineers> .
+
+<http://data.judaicalink.org/data/occupation/explorer> a jl:Occupation ;
+    jl:hasLabel "explorer" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_explorers> .
+
+<http://data.judaicalink.org/data/occupation/fashion_designer> a jl:Occupation ;
+    jl:hasLabel "fashion_designer" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_fashion_designers> .
+
+<http://data.judaicalink.org/data/occupation/historian> a jl:Occupation ;
+    jl:hasLabel "historian" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_historians> .
+
+<http://data.judaicalink.org/data/occupation/inventor> a jl:Occupation ;
+    jl:hasLabel "inventor" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_inventors> .
+
+<http://data.judaicalink.org/data/occupation/military_personnel> a jl:Occupation ;
+    jl:hasLabel "military_personnel" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_military_personnel> .
+
+<http://data.judaicalink.org/data/occupation/musician> a jl:Occupation ;
+    jl:hasLabel "musician" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_musicians> .
+
+<http://data.judaicalink.org/data/occupation/philanthropist> a jl:Occupation ;
+    jl:hasLabel "philanthropist" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_philanthropists> .
+
+<http://data.judaicalink.org/data/occupation/philosopher> a jl:Occupation ;
+    jl:hasLabel "philosopher" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_philosophers> .
+
+<http://data.judaicalink.org/data/occupation/physician> a jl:Occupation ;
+    jl:hasLabel "physician" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_physicians> .
+
+<http://data.judaicalink.org/data/occupation/poet> a jl:Occupation ;
+    jl:hasLabel "poet" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_poets> .
+
+<http://data.judaicalink.org/data/occupation/politician> a jl:Occupation ;
+    jl:hasLabel "politician" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_politicians> .
+
+<http://data.judaicalink.org/data/occupation/priest> a jl:Occupation ;
+    jl:hasLabel "priest" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_priests> .
+
+<http://data.judaicalink.org/data/occupation/psychiatrist> a jl:Occupation ;
+    jl:hasLabel "psychiatrist" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_psychiatrists> .
+
+<http://data.judaicalink.org/data/occupation/religious_leader> a jl:Occupation ;
+    jl:hasLabel "religious_leader" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_religious_leaders> .
+
+<http://data.judaicalink.org/data/occupation/scholar> a jl:Occupation ;
+    jl:hasLabel "scholar" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_scholars> .
+
+<http://data.judaicalink.org/data/occupation/scientist> a jl:Occupation ;
+    jl:hasLabel "scientist" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_scientists> .
+
+<http://data.judaicalink.org/data/occupation/singer> a jl:Occupation ;
+    jl:hasLabel "singer" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_singers> .
+
+<http://data.judaicalink.org/data/occupation/sportspeople> a jl:Occupation ;
+    jl:hasLabel "sportspeople" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_sportspeople> .
+
+<http://data.judaicalink.org/data/occupation/writer> a jl:Occupation ;
+    jl:hasLabel "writer" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:Jewish_writers> .
+	
+<http://data.judaicalink.org/data/occupation/Rabbi> a jl:Occupation ;
+    jl:hasLabel "Rabbi" ;
+    jl:relatedSubject <http://dbpedia.org/resource/Category:10th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:11th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:12th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:13th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:14th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:15th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:16th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:17th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:18th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:19th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:1st-century_BC_rabbis>,
+        <http://dbpedia.org/resource/Category:1st-century_rabbis>,
+        <http://dbpedia.org/resource/Category:20th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:21st-century_rabbis>,
+        <http://dbpedia.org/resource/Category:2nd-century_BC_rabbis>,
+        <http://dbpedia.org/resource/Category:2nd-century_rabbis>,
+        <http://dbpedia.org/resource/Category:3rd-century_BC_rabbis>,
+        <http://dbpedia.org/resource/Category:3rd-century_rabbis>,
+        <http://dbpedia.org/resource/Category:4th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:5th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:6th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:7th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:8th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:9th-century_rabbis>,
+        <http://dbpedia.org/resource/Category:American_rabbis>,
+        <http://dbpedia.org/resource/Category:Argentine_rabbis>,
+        <http://dbpedia.org/resource/Category:Assassinated_rabbis>,
+        <http://dbpedia.org/resource/Category:Australian_rabbis>,
+        <http://dbpedia.org/resource/Category:Austrian_rabbis>,
+        <http://dbpedia.org/resource/Category:Austro-Hungarian_rabbis>,
+        <http://dbpedia.org/resource/Category:Belarusian_rabbis>,
+        <http://dbpedia.org/resource/Category:Belgian_rabbis>,
+        <http://dbpedia.org/resource/Category:Bosnia_and_Herzegovina_rabbis>,
+        <http://dbpedia.org/resource/Category:Brazilian_rabbis>,
+        <http://dbpedia.org/resource/Category:British_rabbis>,
+        <http://dbpedia.org/resource/Category:Bukharan_rabbis>,
+        <http://dbpedia.org/resource/Category:Bulgarian_rabbis>,
+        <http://dbpedia.org/resource/Category:Canadian_rabbis>,
+        <http://dbpedia.org/resource/Category:Chief_rabbis>,
+        <http://dbpedia.org/resource/Category:Chinese_rabbis>,
+        <http://dbpedia.org/resource/Category:Conservative_rabbis_by_nationality>,
+        <http://dbpedia.org/resource/Category:Croatian_rabbis>,
+        <http://dbpedia.org/resource/Category:Cuban_rabbis>,
+        <http://dbpedia.org/resource/Category:Cypriot_rabbis>,
+        <http://dbpedia.org/resource/Category:Czech_rabbis>,
+        <http://dbpedia.org/resource/Category:Danish_rabbis>,
+        <http://dbpedia.org/resource/Category:Dutch_rabbis>,
+        <http://dbpedia.org/resource/Category:Egyptian_rabbis>,
+        <http://dbpedia.org/resource/Category:French_rabbis>,
+        <http://dbpedia.org/resource/Category:German_rabbis>,
+        <http://dbpedia.org/resource/Category:Greek_rabbis>,
+        <http://dbpedia.org/resource/Category:Hungarian_rabbis>,
+        <http://dbpedia.org/resource/Category:Indian_rabbis>,
+        <http://dbpedia.org/resource/Category:Iranian_rabbis>,
+        <http://dbpedia.org/resource/Category:Iraqi_rabbis>,
+        <http://dbpedia.org/resource/Category:Irish_rabbis>,
+        <http://dbpedia.org/resource/Category:Israeli_rabbis>,
+        <http://dbpedia.org/resource/Category:Italian_rabbis>,
+        <http://dbpedia.org/resource/Category:Jamaican_rabbis>,
+        <http://dbpedia.org/resource/Category:Latvian_rabbis>,
+        <http://dbpedia.org/resource/Category:Lebanese_rabbis>,
+        <http://dbpedia.org/resource/Category:Liberal_rabbis_by_nationality>,
+        <http://dbpedia.org/resource/Category:Libyan_rabbis>,
+        <http://dbpedia.org/resource/Category:Lithuanian_rabbis>,
+        <http://dbpedia.org/resource/Category:Mexican_rabbis>,
+        <http://dbpedia.org/resource/Category:Moldovan_rabbis>,
+        <http://dbpedia.org/resource/Category:Montenegro_rabbis>,
+        <http://dbpedia.org/resource/Category:Moroccan_rabbis>,
+        <http://dbpedia.org/resource/Category:New_Zealand_rabbis>,
+        <http://dbpedia.org/resource/Category:Norwegian_rabbis>,
+        <http://dbpedia.org/resource/Category:Orthodox_rabbis_by_nationality>,
+        <http://dbpedia.org/resource/Category:Ottoman_rabbis>,
+        <http://dbpedia.org/resource/Category:Polish_rabbis>,
+        <http://dbpedia.org/resource/Category:Portuguese_rabbis>,
+        <http://dbpedia.org/resource/Category:Rabbis_in_Jerusalem>,
+        <http://dbpedia.org/resource/Category:Rabbis_in_Mandatory_Palestine>,
+        <http://dbpedia.org/resource/Category:Rabbis_in_Ottoman_Palestine>,
+        <http://dbpedia.org/resource/Category:Rabbis_who_died_in_the_Holocaust>,
+        <http://dbpedia.org/resource/Category:Reform_rabbis_by_nationality>,
+        <http://dbpedia.org/resource/Category:Romanian_rabbis>,
+        <http://dbpedia.org/resource/Category:Russian_rabbis>,
+        <http://dbpedia.org/resource/Category:Sephardi_rabbis>,
+        <http://dbpedia.org/resource/Category:Slovak_rabbis>,
+        <http://dbpedia.org/resource/Category:Slovenian_rabbis>,
+        <http://dbpedia.org/resource/Category:South_African_rabbis>,
+        <http://dbpedia.org/resource/Category:Spanish_rabbis>,
+        <http://dbpedia.org/resource/Category:Swazi_rabbis>,
+        <http://dbpedia.org/resource/Category:Swedish_rabbis>,
+        <http://dbpedia.org/resource/Category:Swiss_rabbis>,
+        <http://dbpedia.org/resource/Category:Taiwanese_rabbis>,
+        <http://dbpedia.org/resource/Category:Talmud_rabbis>,
+        <http://dbpedia.org/resource/Category:Tunisian_rabbis>,
+        <http://dbpedia.org/resource/Category:Turkish_rabbis>,
+        <http://dbpedia.org/resource/Category:Ukrainian_rabbis>,
+        <http://dbpedia.org/resource/Category:Uruguayan_rabbis>,
+        <http://dbpedia.org/resource/Category:Venezuelan_rabbis>,
+        <http://dbpedia.org/resource/Category:Yemenite_rabbis> .
+

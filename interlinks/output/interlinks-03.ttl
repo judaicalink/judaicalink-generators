@@ -1,0 +1,1317 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix jl: <http://data.judaicalink.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.judaicalink.org/data/bhr/Ehrenfeld_Nathan> owl:sameAs <http://data.judaicalink.org/data/yivo/Ehrenfeld_Nathan> .
+
+<http://data.judaicalink.org/data/bhr/Friesenhausen_David> owl:sameAs <http://data.judaicalink.org/data/yivo/Friesenhausen_David> .
+
+<http://data.judaicalink.org/data/bhr/Hildesheimer_Esriel> owl:sameAs <http://data.judaicalink.org/data/yivo/Hildesheimer_Esriel> .
+
+<http://data.judaicalink.org/data/bhr/Hildesheimer_Esriel-1> owl:sameAs <http://data.judaicalink.org/data/yivo/Hildesheimer_Esriel> .
+
+<http://data.judaicalink.org/data/bhr/Jastrow_Markus> owl:sameAs <http://data.judaicalink.org/data/yivo/Jastrow_Markus> .
+
+<http://data.judaicalink.org/data/bhr/Rülf_Isaak> owl:sameAs <http://data.judaicalink.org/data/yivo/Rulf_Isaak> .
+
+<http://data.judaicalink.org/data/bhr/Rülf_Isaak-1> owl:sameAs <http://data.judaicalink.org/data/yivo/Rulf_Isaak> .
+
+<http://data.judaicalink.org/data/dbpedia/Abba_Kovner> owl:sameAs <http://data.judaicalink.org/data/yivo/Kovner_Abba> .
+
+<http://data.judaicalink.org/data/dbpedia/Adam> owl:sameAs <http://data.judaicalink.org/data/yivo/Adam> .
+
+<http://data.judaicalink.org/data/dbpedia/Adam_Czerniaków> owl:sameAs <http://data.judaicalink.org/data/yivo/Czerniakow_Adam> .
+
+<http://data.judaicalink.org/data/dbpedia/Aharon_Roth> owl:sameAs <http://data.judaicalink.org/data/yivo/Roth_Aharon> .
+
+<http://data.judaicalink.org/data/dbpedia/Akiba_Rubinstein> owl:sameAs <http://data.judaicalink.org/data/yivo/Rubinstein_Akiba> .
+
+<http://data.judaicalink.org/data/dbpedia/Alfréd_Hajós> owl:sameAs <http://data.judaicalink.org/data/yivo/Hajos_Alfred> .
+
+<http://data.judaicalink.org/data/dbpedia/Antal_Szerb> owl:sameAs <http://data.judaicalink.org/data/yivo/Szerb_Antal> .
+
+<http://data.judaicalink.org/data/dbpedia/Bolesław_Leśmian> owl:sameAs <http://data.judaicalink.org/data/yivo/Lesmian_Boleslaw> .
+
+<http://data.judaicalink.org/data/dbpedia/El_Lissitzky> owl:sameAs <http://data.judaicalink.org/data/yivo/Lissitzky_El> .
+
+<http://data.judaicalink.org/data/dbpedia/Emanuel_Ringelblum> owl:sameAs <http://data.judaicalink.org/data/yivo/Ringelblum_Emanuel> .
+
+<http://data.judaicalink.org/data/dbpedia/Felix_Aderca> owl:sameAs <http://data.judaicalink.org/data/yivo/Aderca_Felix> .
+
+<http://data.judaicalink.org/data/dbpedia/František_Gellner> owl:sameAs <http://data.judaicalink.org/data/yivo/Gellner_Frantisek> .
+
+<http://data.judaicalink.org/data/dbpedia/Franz_Werfel> owl:sameAs <http://data.judaicalink.org/data/yivo/Werfel_Franz> .
+
+<http://data.judaicalink.org/data/dbpedia/Gershon_Ashkenazi> owl:sameAs <http://data.judaicalink.org/data/yivo/Ashkenazi_Gershon> .
+
+<http://data.judaicalink.org/data/dbpedia/Gershon_Sirota> owl:sameAs <http://data.judaicalink.org/data/yivo/Sirota_Gershon> .
+
+<http://data.judaicalink.org/data/dbpedia/Hans_Kohn> owl:sameAs <http://data.judaicalink.org/data/yivo/Kohn_Hans> .
+
+<http://data.judaicalink.org/data/dbpedia/Herz_Homberg> owl:sameAs <http://data.judaicalink.org/data/yivo/Homberg_Herz> .
+
+<http://data.judaicalink.org/data/dbpedia/Hillel_Lichtenstein> owl:sameAs <http://data.judaicalink.org/data/yivo/Lichtenstein_Hillel> .
+
+<http://data.judaicalink.org/data/dbpedia/Hipolit_Wawelberg> owl:sameAs <http://data.judaicalink.org/data/yivo/Wawelberg_Hipolit> .
+
+<http://data.judaicalink.org/data/dbpedia/Hugo_Salus> owl:sameAs <http://data.judaicalink.org/data/yivo/Salus_Hugo> .
+
+<http://data.judaicalink.org/data/dbpedia/Ilarie_Voronca> owl:sameAs <http://data.judaicalink.org/data/yivo/Voronca_Ilarie> .
+
+<http://data.judaicalink.org/data/dbpedia/Isaac_Babel> owl:sameAs <http://data.judaicalink.org/data/yivo/Babel_Isaac> .
+
+<http://data.judaicalink.org/data/dbpedia/Izaak_Kramsztyk> owl:sameAs <http://data.judaicalink.org/data/yivo/Kramsztyk_Izaak> .
+
+<http://data.judaicalink.org/data/dbpedia/Jan_Brzechwa> owl:sameAs <http://data.judaicalink.org/data/yivo/Brzechwa_Jan> .
+
+<http://data.judaicalink.org/data/dbpedia/Janusz_Korczak> owl:sameAs <http://data.judaicalink.org/data/yivo/Korczak_Janusz> .
+
+<http://data.judaicalink.org/data/dbpedia/Jiří_Langer> owl:sameAs <http://data.judaicalink.org/data/yivo/Langer_Jiri> .
+
+<http://data.judaicalink.org/data/dbpedia/Julian_Stryjkowski> owl:sameAs <http://data.judaicalink.org/data/yivo/Stryjkowski_Julian> .
+
+<http://data.judaicalink.org/data/dbpedia/Józef_Mieses> owl:sameAs <http://data.judaicalink.org/data/yivo/Mieses_Jozef> .
+
+<http://data.judaicalink.org/data/dbpedia/Lajos_Blau> owl:sameAs <http://data.judaicalink.org/data/yivo/Blau_Lajos> .
+
+<http://data.judaicalink.org/data/dbpedia/Leah_Goldberg> owl:sameAs <http://data.judaicalink.org/data/yivo/Goldberg_Leah> .
+
+<http://data.judaicalink.org/data/dbpedia/Lipót_Baumhorn> owl:sameAs <http://data.judaicalink.org/data/yivo/Baumhorn_Lipot> .
+
+<http://data.judaicalink.org/data/dbpedia/Marc_Chagall> owl:sameAs <http://data.judaicalink.org/data/yivo/Chagall_Marc> .
+
+<http://data.judaicalink.org/data/dbpedia/Miklós_Radnóti> owl:sameAs <http://data.judaicalink.org/data/yivo/Radnoti_Miklos> .
+
+<http://data.judaicalink.org/data/dbpedia/Milán_Füst> owl:sameAs <http://data.judaicalink.org/data/yivo/Fust_Milan> .
+
+<http://data.judaicalink.org/data/dbpedia/Moritz_Hartmann> owl:sameAs <http://data.judaicalink.org/data/yivo/Hartmann_Moritz> .
+
+<http://data.judaicalink.org/data/dbpedia/Moses_Gaster> owl:sameAs <http://data.judaicalink.org/data/yivo/Gaster_Moses> .
+
+<http://data.judaicalink.org/data/dbpedia/Ozjasz_Thon> owl:sameAs <http://data.judaicalink.org/data/yivo/Thon_Ozjasz> .
+
+<http://data.judaicalink.org/data/dbpedia/Paul_Celan> owl:sameAs <http://data.judaicalink.org/data/yivo/Celan_Paul> .
+
+<http://data.judaicalink.org/data/dbpedia/Sarah_Schenirer> owl:sameAs <http://data.judaicalink.org/data/yivo/Schenirer_Sarah> .
+
+<http://data.judaicalink.org/data/dbpedia/Shtadlan> owl:sameAs <http://data.judaicalink.org/data/yivo/Shtadlan> .
+
+<http://data.judaicalink.org/data/dbpedia/Siegfried_Kapper> owl:sameAs <http://data.judaicalink.org/data/yivo/Kapper_Siegfried> .
+
+<http://data.judaicalink.org/data/dbpedia/Simon_Bacher> owl:sameAs <http://data.judaicalink.org/data/yivo/Bacher_Simon> .
+
+<http://data.judaicalink.org/data/dbpedia/Simon_Dubnow> owl:sameAs <http://data.judaicalink.org/data/yivo/Dubnow_Simon> .
+
+<http://data.judaicalink.org/data/dbpedia/Szymon_Askenazy> owl:sameAs <http://data.judaicalink.org/data/yivo/Askenazy_Szymon> .
+
+<http://data.judaicalink.org/data/dbpedia/Sándor_Bihari> owl:sameAs <http://data.judaicalink.org/data/yivo/Bihari_Sandor> .
+
+<http://data.judaicalink.org/data/dbpedia/Sándor_Scheiber> owl:sameAs <http://data.judaicalink.org/data/yivo/Scheiber_Sandor> .
+
+<http://data.judaicalink.org/data/dbpedia/Temerl_Bergson> owl:sameAs <http://data.judaicalink.org/data/yivo/Bergson_Temerl> .
+
+<http://data.judaicalink.org/data/dbpedia/Zigu_Ornea> owl:sameAs <http://data.judaicalink.org/data/yivo/Ornea_Zigu> .
+
+<http://data.judaicalink.org/data/djh/haas-willy> owl:sameAs <http://data.judaicalink.org/data/yivo/Haas_Willy> .
+
+<http://data.judaicalink.org/data/gnd/101723793X> owl:sameAs <http://data.judaicalink.org/data/yivo/Sicher_Gustav> .
+
+<http://data.judaicalink.org/data/gnd/1026668743> owl:sameAs <http://data.judaicalink.org/data/yivo/Ebner_Mayer> .
+
+<http://data.judaicalink.org/data/gnd/117269794> owl:sameAs <http://data.judaicalink.org/data/yivo/Weinreich_Max> .
+
+<http://data.judaicalink.org/data/gnd/117507164> owl:sameAs <http://data.judaicalink.org/data/bhr/Kaufmann_Jakob> .
+
+<http://data.judaicalink.org/data/gnd/118533800> owl:sameAs <http://data.judaicalink.org/data/yivo/Fleck_Ludwik> .
+
+<http://data.judaicalink.org/data/gnd/11857647X> owl:sameAs <http://data.judaicalink.org/data/yivo/Maimon_Salomon> .
+
+<http://data.judaicalink.org/data/gnd/118614649> owl:sameAs <http://data.judaicalink.org/data/yivo/Singer_Isaac_Bashevis> .
+
+<http://data.judaicalink.org/data/gnd/118646036> owl:sameAs <http://data.judaicalink.org/data/yivo/Asch_Sholem> .
+
+<http://data.judaicalink.org/data/gnd/118943308> owl:sameAs <http://data.judaicalink.org/data/yivo/Blecher_M> .
+
+<http://data.judaicalink.org/data/gnd/11901002X> owl:sameAs <http://data.judaicalink.org/data/yivo/Ravitch_Melech> .
+
+<http://data.judaicalink.org/data/gnd/119117908> owl:sameAs <http://data.judaicalink.org/data/yivo/Vishniac_Roman> .
+
+<http://data.judaicalink.org/data/gnd/119183706> owl:sameAs <http://data.judaicalink.org/data/yivo/Eliyahu_ben_Shelomoh_Zalman> .
+
+<http://data.judaicalink.org/data/gnd/119549794> owl:sameAs <http://data.judaicalink.org/data/yivo/Hartglas_Apolinary> .
+
+<http://data.judaicalink.org/data/gnd/120421887> owl:sameAs <http://data.judaicalink.org/data/yivo/Buber_Salomon> .
+
+<http://data.judaicalink.org/data/gnd/128567325> owl:sameAs <http://data.judaicalink.org/data/yivo/Molodowsky_Kadia> .
+
+<http://data.judaicalink.org/data/gnd/129443468> owl:sameAs <http://data.judaicalink.org/data/yivo/Herrmann_Hugo> .
+
+<http://data.judaicalink.org/data/gnd/13830842X> owl:sameAs <http://data.judaicalink.org/data/yivo/Braude_Markus> .
+
+<http://data.judaicalink.org/data/gnd/139266569> owl:sameAs <http://data.judaicalink.org/data/yivo/Gintsburg_Mordekhai_Aharon> .
+
+<http://data.judaicalink.org/data/gnd/140450408> owl:sameAs <http://data.judaicalink.org/data/yivo/Joselewicz_Berek> .
+
+<http://data.judaicalink.org/data/bhr/Adler_Nathan> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Nathan_Adler> .
+
+<http://data.judaicalink.org/data/bhr/Adler_Samuel> owl:sameAs <http://data.judaicalink.org/data/gnd/116008393> .
+
+<http://data.judaicalink.org/data/bhr/Alexander_Isaak> owl:sameAs <http://data.judaicalink.org/data/gnd/120105756> .
+
+<http://data.judaicalink.org/data/bhr/Altmann_Adolf> owl:sameAs <http://data.judaicalink.org/data/gnd/171949366> .
+
+<http://data.judaicalink.org/data/bhr/Altmann_Alexander> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Alexander_Altmann> .
+
+<http://data.judaicalink.org/data/bhr/Appel_Meyer> owl:sameAs <http://data.judaicalink.org/data/gnd/1022147935> .
+
+<http://data.judaicalink.org/data/bhr/Aron_Arnaud> owl:sameAs <http://data.judaicalink.org/data/gnd/1102968692> .
+
+<http://data.judaicalink.org/data/bhr/Auerbach_Abraham> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Abraham_Auerbach> .
+
+<http://data.judaicalink.org/data/bhr/Auerbach_Heimann> owl:sameAs <http://data.judaicalink.org/data/gnd/1035462761> .
+
+<http://data.judaicalink.org/data/bhr/Back_Samuel> owl:sameAs <http://data.judaicalink.org/data/gnd/139703705> .
+
+<http://data.judaicalink.org/data/bhr/Baeck_Samuel> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Samuel_Baeck> .
+
+<http://data.judaicalink.org/data/bhr/Baeck_Samuel-1> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Samuel_Baeck> .
+
+<http://data.judaicalink.org/data/bhr/Bamberger_Isaac> owl:sameAs <http://data.judaicalink.org/data/gnd/134106229> .
+
+<http://data.judaicalink.org/data/bhr/Berger_Heinrich> owl:sameAs <http://data.judaicalink.org/data/gnd/103859846X> .
+
+<http://data.judaicalink.org/data/bhr/Berkovits_Eliezer> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Eliezer_Berkovits> .
+
+<http://data.judaicalink.org/data/bhr/Berlin_Saul> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Saul_Berlin> .
+
+<http://data.judaicalink.org/data/bhr/Berliner_Abraham> owl:sameAs <http://data.judaicalink.org/data/gnd/11613612X> .
+
+<http://data.judaicalink.org/data/bhr/Bernays_Isaak> owl:sameAs <http://data.judaicalink.org/data/djh/bernays-isaak> .
+
+<http://data.judaicalink.org/data/bhr/Bing_Abraham> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Abraham_Bing> .
+
+<http://data.judaicalink.org/data/bhr/Bloch_MosesLöb> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Moses_Löb_Bloch> .
+
+<http://data.judaicalink.org/data/bhr/Blumenthal_Adolf> owl:sameAs <http://data.judaicalink.org/data/gnd/1060078155> .
+
+<http://data.judaicalink.org/data/bhr/Braun_IsraelChaim> owl:sameAs <http://data.judaicalink.org/data/gnd/1022089013> .
+
+<http://data.judaicalink.org/data/bhr/Breuer_Joseph> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Joseph_Breuer> .
+
+<http://data.judaicalink.org/data/bhr/Brüll_Nehemiah> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Nehemiah_Brüll> .
+
+<http://data.judaicalink.org/data/bhr/Carlebach_Ephraim> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Ephraim_Carlebach> .
+
+<http://data.judaicalink.org/data/bhr/Coblenz_Felix> owl:sameAs <http://data.judaicalink.org/data/gnd/1055234470> .
+
+<http://data.judaicalink.org/data/bhr/Cohen_Raphael> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Raphael_Cohen> .
+
+<http://data.judaicalink.org/data/bhr/Cohn_John> owl:sameAs <http://data.judaicalink.org/data/gnd/1059889587> .
+
+<http://data.judaicalink.org/data/bhr/Deutsch_David-1> owl:sameAs <http://data.judaicalink.org/data/gnd/121770095> .
+
+<http://data.judaicalink.org/data/bhr/Deutsch_Israel> owl:sameAs <http://data.judaicalink.org/data/gnd/1053062125> .
+
+<http://data.judaicalink.org/data/bhr/Donath_Leopold> owl:sameAs <http://data.judaicalink.org/data/gnd/1055183973> .
+
+<http://data.judaicalink.org/data/bhr/Ehrentheil_Adolf> owl:sameAs <http://data.judaicalink.org/data/gnd/1069962961> .
+
+<http://data.judaicalink.org/data/bhr/Ehrlich_Adolf> owl:sameAs <http://data.judaicalink.org/data/gnd/1051900611> .
+
+<http://data.judaicalink.org/data/bhr/Ehrmann_Daniel> owl:sameAs <http://data.judaicalink.org/data/gnd/1068842040> .
+
+<http://data.judaicalink.org/data/bhr/Einhorn_David> owl:sameAs <http://data.judaicalink.org/data/gnd/119333503> .
+
+<http://data.judaicalink.org/data/bhr/Eisler_Leopold> owl:sameAs <http://data.judaicalink.org/data/gnd/13860066X> .
+
+<http://data.judaicalink.org/data/bhr/Enoch_SamuelDavid> owl:sameAs <http://data.judaicalink.org/data/djh/enoch-samuel-david> .
+
+<http://data.judaicalink.org/data/bhr/Enoch_SamuelDavid-1> owl:sameAs <http://data.judaicalink.org/data/djh/enoch-samuel-david> .
+
+<http://data.judaicalink.org/data/bhr/Eppenstein_Simon> owl:sameAs <http://data.judaicalink.org/data/gnd/139733876> .
+
+<http://data.judaicalink.org/data/bhr/Fassel_HirschBär> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Hirsch_Bär_Fassel>,
+        <http://data.judaicalink.org/data/yivo/Fassel_Hirsch_Bar> .
+
+<http://data.judaicalink.org/data/bhr/Felsenthal_Bernhard> owl:sameAs <http://data.judaicalink.org/data/gnd/136828884> .
+
+<http://data.judaicalink.org/data/bhr/Formstecher_Salomon> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Salomon_Formstecher> .
+
+<http://data.judaicalink.org/data/bhr/Formstecher_Salomon-1> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Salomon_Formstecher> .
+
+<http://data.judaicalink.org/data/bhr/Frankel_Zacharias> owl:sameAs <http://data.judaicalink.org/data/gnd/116715804> .
+
+<http://data.judaicalink.org/data/bhr/Freimann_IsraelMeir> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Israel_Meir_Freimann> .
+
+<http://data.judaicalink.org/data/bhr/Freimann_IsraelMeir-1> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Israel_Meir_Freimann> .
+
+<http://data.judaicalink.org/data/bhr/Friediger_Max> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Max_Friediger> .
+
+<http://data.judaicalink.org/data/bhr/Friedlander_Israel> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Israel_Friedlander> .
+
+<http://data.judaicalink.org/data/bhr/Geiger_Abraham> owl:sameAs <http://data.judaicalink.org/data/gnd/11933304X> .
+
+<http://data.judaicalink.org/data/bhr/Geiger_Abraham-1> owl:sameAs <http://data.judaicalink.org/data/gnd/11933304X> .
+
+<http://data.judaicalink.org/data/bhr/Geis_RobertRaphael> owl:sameAs <http://data.judaicalink.org/data/gnd/118690094> .
+
+<http://data.judaicalink.org/data/bhr/Gersfeld_Jakob-Joseph> owl:sameAs <http://data.judaicalink.org/data/gnd/1046272861> .
+
+<http://data.judaicalink.org/data/bhr/Ginsburger_Moses> owl:sameAs <http://data.judaicalink.org/data/gnd/139814728> .
+
+<http://data.judaicalink.org/data/bhr/Goldberg_JakobMoses> owl:sameAs <http://data.judaicalink.org/data/gnd/1027336922> .
+
+<http://data.judaicalink.org/data/bhr/Goldmann_Felix> owl:sameAs <http://data.judaicalink.org/data/gnd/143060791> .
+
+<http://data.judaicalink.org/data/bhr/Goldmann_Moses-Moritz> owl:sameAs <http://data.judaicalink.org/data/gnd/1103163728> .
+
+<http://data.judaicalink.org/data/bhr/Goldschmidt_Israel-1> owl:sameAs <http://data.judaicalink.org/data/gnd/116756586> .
+
+<http://data.judaicalink.org/data/bhr/Goldschmidt_Salomon-1> owl:sameAs <http://data.judaicalink.org/data/gnd/1081953616> .
+
+<http://data.judaicalink.org/data/bhr/Goldschmidt_Salomon-2> owl:sameAs <http://data.judaicalink.org/data/gnd/1111521018> .
+
+<http://data.judaicalink.org/data/bhr/Gottheil_Gustav> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Gustav_Gottheil> .
+
+<http://data.judaicalink.org/data/bhr/Gronemann_Selig> owl:sameAs <http://data.judaicalink.org/data/gnd/143575120> .
+
+<http://data.judaicalink.org/data/bhr/Gross_Heinrich> owl:sameAs <http://data.judaicalink.org/data/gnd/120926350> .
+
+<http://data.judaicalink.org/data/bhr/Gross_Heinrich-1> owl:sameAs <http://data.judaicalink.org/data/gnd/120926350> .
+
+<http://data.judaicalink.org/data/bhr/Guttmann_Julius> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Julius_Guttmann> .
+
+<http://data.judaicalink.org/data/bhr/Güdemann_Moritz> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Moritz_Güdemann> .
+
+<http://data.judaicalink.org/data/bhr/Güdemann_Moritz-1> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Moritz_Güdemann> .
+
+<http://data.judaicalink.org/data/bhr/Halevy_Isaac> owl:sameAs <http://data.judaicalink.org/data/gnd/132587025> .
+
+<http://data.judaicalink.org/data/bhr/Herzfeld_Levi> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Levi_Herzfeld> .
+
+<http://data.judaicalink.org/data/bhr/Herzfeld_Levi-1> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Levi_Herzfeld> .
+
+<http://data.judaicalink.org/data/bhr/Hess_Mendel> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Mendel_Hess> .
+
+<http://data.judaicalink.org/data/bhr/Hirsch_SamsonRaphael-1> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Samson_Raphael_Hirsch> .
+
+<http://data.judaicalink.org/data/bhr/Hoffmann_DavidZvi> owl:sameAs <http://data.judaicalink.org/data/dbpedia/David_Zvi_Hoffmann> .
+
+<http://data.judaicalink.org/data/bhr/Holdheim_Samuel> owl:sameAs <http://data.judaicalink.org/data/gnd/124434541> .
+
+<http://data.judaicalink.org/data/bhr/Hollander_Jakob> owl:sameAs <http://data.judaicalink.org/data/gnd/105120951X> .
+
+<http://data.judaicalink.org/data/bhr/Hollander_Jakob-1> owl:sameAs <http://data.judaicalink.org/data/gnd/105120951X> .
+
+<http://data.judaicalink.org/data/bhr/Holzer_Paul> owl:sameAs <http://data.judaicalink.org/data/djh/holzer-paul> .
+
+<http://data.judaicalink.org/data/bhr/Italiener_Bruno> owl:sameAs <http://data.judaicalink.org/data/djh/italiener-bruno> .
+
+<http://data.judaicalink.org/data/bhr/Jacob_Benno> owl:sameAs <http://data.judaicalink.org/data/gnd/119554151> .
+
+<http://data.judaicalink.org/data/bhr/Jacobi_Hosea> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Hosea_Jacobi> .
+
+<http://data.judaicalink.org/data/bhr/Jacobson_Israel> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Israel_Jacobson> .
+
+<http://data.judaicalink.org/data/bhr/Jacobson_Moses> owl:sameAs <http://data.judaicalink.org/data/gnd/102673973X> .
+
+<http://data.judaicalink.org/data/bhr/Jellinek_Adolf> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Adolf_Jellinek> .
+
+<http://data.judaicalink.org/data/bhr/Jonas_Regina> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Regina_Jonas> .
+
+<http://data.judaicalink.org/data/bhr/Joël_Manuel> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Manuel_Joël> .
+
+<http://data.judaicalink.org/data/bhr/Kalir_Joseph> owl:sameAs <http://data.judaicalink.org/data/gnd/118984993> .
+
+<http://data.judaicalink.org/data/bhr/Kalisch_Isidor> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Isidor_Kalisch> .
+
+<http://data.judaicalink.org/data/bhr/Klemperer_Wilhelm> owl:sameAs <http://data.judaicalink.org/data/gnd/1020661259> .
+
+<http://data.judaicalink.org/data/bhr/Kober_Adolf> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Adolf_Kober> .
+
+<http://data.judaicalink.org/data/bhr/Kohler_Kaufmann> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Kaufmann_Kohler> .
+
+<http://data.judaicalink.org/data/bhr/Kohlmeyer_Hermann> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Hermann_Kohlmeyer> .
+
+<http://data.judaicalink.org/data/bhr/Kohn_Abraham> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Abraham_Kohn> .
+
+<http://data.judaicalink.org/data/bhr/Kohn_Abraham-1> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Abraham_Kohn> .
+
+<http://data.judaicalink.org/data/bhr/Kohn_Jakob> owl:sameAs <http://data.judaicalink.org/data/gnd/1030281815> .
+
+<http://data.judaicalink.org/data/bhr/Kohn_Samuel> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Samuel_Kohn> .
+
+<http://data.judaicalink.org/data/bhr/Kohn_Samuel-1> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Samuel_Kohn> .
+
+<http://data.judaicalink.org/data/bhr/Kroner_Hermann> owl:sameAs <http://data.judaicalink.org/data/gnd/1054962537> .
+
+<http://data.judaicalink.org/data/bhr/Kroner_Theodor> owl:sameAs <http://data.judaicalink.org/data/gnd/137108583> .
+
+<http://data.judaicalink.org/data/bhr/Landau_Ezechiel> owl:sameAs <http://data.judaicalink.org/data/gnd/13164145X> .
+
+<http://data.judaicalink.org/data/bhr/Landsberger_Julius> owl:sameAs <http://data.judaicalink.org/data/gnd/141651911> .
+
+<http://data.judaicalink.org/data/bhr/Lazarus_Leiser> owl:sameAs <http://data.judaicalink.org/data/gnd/136544142> .
+
+<http://data.judaicalink.org/data/bhr/Leimdörfer_David> owl:sameAs <http://data.judaicalink.org/data/djh/leimd%C3%B6rfer-david> .
+
+<http://data.judaicalink.org/data/bhr/Lengsfelder_Salomon> owl:sameAs <http://data.judaicalink.org/data/gnd/106074113X> .
+
+<http://data.judaicalink.org/data/bhr/Levi_Benedikt> owl:sameAs <http://data.judaicalink.org/data/gnd/1068374322> .
+
+<http://data.judaicalink.org/data/bhr/Lewin_Adolf-1> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Adolf_Lewin> .
+
+<http://data.judaicalink.org/data/bhr/Lewin_Moses> owl:sameAs <http://data.judaicalink.org/data/gnd/1057741485> .
+
+<http://data.judaicalink.org/data/bhr/Lewinsky_Abraham> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Abraham_Lewinsky> .
+
+<http://data.judaicalink.org/data/bhr/Lewysohn_Abraham> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Abraham_Lewysohn> .
+
+<http://data.judaicalink.org/data/bhr/Lewysohn_Ludwig> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Ludwig_Lewysohn> .
+
+<http://data.judaicalink.org/data/bhr/Lichtschein_Ludwig> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Ludwig_Lichtschein> .
+
+<http://data.judaicalink.org/data/bhr/Lilienthal_Max> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Max_Lilienthal>,
+        <http://data.judaicalink.org/data/yivo/Lilienthal_Max> .
+
+<http://data.judaicalink.org/data/bhr/Löw_Leopold> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Leopold_Löw>,
+        <http://data.judaicalink.org/data/yivo/Low_Leopold> .
+
+<http://data.judaicalink.org/data/bhr/Mannheimer_David> owl:sameAs <http://data.judaicalink.org/data/gnd/1022729039> .
+
+<http://data.judaicalink.org/data/bhr/Margulies_SamuelHirsch> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Samuel_Hirsch_Margulies> .
+
+<http://data.judaicalink.org/data/bhr/Maybaum_Ignaz> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Ignaz_Maybaum> .
+
+<http://data.judaicalink.org/data/bhr/Meldola_Abraham> owl:sameAs <http://data.judaicalink.org/data/djh/meldola-abraham> .
+
+<http://data.judaicalink.org/data/bhr/Meyer_Seligmann> owl:sameAs <http://data.judaicalink.org/data/gnd/1038227453> .
+
+<http://data.judaicalink.org/data/bhr/Nathan_NathanMax> owl:sameAs <http://data.judaicalink.org/data/djh/nathan-nathan-max> .
+
+<http://data.judaicalink.org/data/bhr/Netter_Nathan> owl:sameAs <http://data.judaicalink.org/data/gnd/105520914X> .
+
+<http://data.judaicalink.org/data/bhr/Neuda_Abraham> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Abraham_Neuda>,
+        <http://data.judaicalink.org/data/yivo/Neuda_Abraham> .
+
+<http://data.judaicalink.org/data/bhr/Norden_Joseph> owl:sameAs <http://data.judaicalink.org/data/djh/norden-joseph> .
+
+<http://data.judaicalink.org/data/bhr/Perles_Felix> owl:sameAs <http://data.judaicalink.org/data/gnd/116079576> .
+
+<http://data.judaicalink.org/data/bhr/Perles_Joseph> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Joseph_Perles> .
+
+<http://data.judaicalink.org/data/bhr/Perles_Joseph-1> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Joseph_Perles> .
+
+<http://data.judaicalink.org/data/bhr/Pollak_Joachim> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Joachim_Pollak> .
+
+<http://data.judaicalink.org/data/bhr/Porges_Nathan> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Nathan_Porges> .
+
+<http://data.judaicalink.org/data/bhr/Prinz_Joachim> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Joachim_Prinz> .
+
+<http://data.judaicalink.org/data/bhr/Rahmer_Moritz> owl:sameAs <http://data.judaicalink.org/data/gnd/139789006> .
+
+<http://data.judaicalink.org/data/bhr/Rieger_Paul> owl:sameAs <http://data.judaicalink.org/data/gnd/139714847> .
+
+<http://data.judaicalink.org/data/bhr/Rosenberg_Samuel> owl:sameAs <http://data.judaicalink.org/data/gnd/1028431910> .
+
+<http://data.judaicalink.org/data/bhr/Rosenfeld_SamsonWolf> owl:sameAs <http://data.judaicalink.org/data/gnd/121034909> .
+
+<http://data.judaicalink.org/data/bhr/Rosenthal_Ludwig> owl:sameAs <http://data.judaicalink.org/data/gnd/1024687775> .
+
+<http://data.judaicalink.org/data/bhr/Rosenzweig_Adolf> owl:sameAs <http://data.judaicalink.org/data/gnd/1055390537> .
+
+<http://data.judaicalink.org/data/bhr/Rothschild_David> owl:sameAs <http://data.judaicalink.org/data/gnd/117723231> .
+
+<http://data.judaicalink.org/data/bhr/Sachs_Michael> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Michael_Sachs> .
+
+<http://data.judaicalink.org/data/bhr/Salomonski_Martin> owl:sameAs <http://data.judaicalink.org/data/gnd/141248920> .
+
+<http://data.judaicalink.org/data/bhr/Samuel_Salomon> owl:sameAs <http://data.judaicalink.org/data/gnd/118844016> .
+
+<http://data.judaicalink.org/data/bhr/Schiffer_Sinai> owl:sameAs <http://data.judaicalink.org/data/gnd/1022980262> .
+
+<http://data.judaicalink.org/data/bhr/Schlesinger_Abraham> owl:sameAs <http://data.judaicalink.org/data/gnd/1026544823> .
+
+<http://data.judaicalink.org/data/bhr/Schmiedl_Adolf> owl:sameAs <http://data.judaicalink.org/data/gnd/1031221158> .
+
+<http://data.judaicalink.org/data/bhr/Schorsch_Emil> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Emil_Schorsch> .
+
+<http://data.judaicalink.org/data/bhr/Schotten_Samuel> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Samuel_Schotten> .
+
+<http://data.judaicalink.org/data/bhr/Schotten_Samuel-1> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Samuel_Schotten> .
+
+<http://data.judaicalink.org/data/bhr/Schreiber_Emanuel> owl:sameAs <http://data.judaicalink.org/data/gnd/1032617101> .
+
+<http://data.judaicalink.org/data/bhr/Schreiber_Hermann> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Hermann_Schreiber> .
+
+<http://data.judaicalink.org/data/bhr/Schwarz_Hayum> owl:sameAs <http://data.judaicalink.org/data/gnd/12321419X> .
+
+<http://data.judaicalink.org/data/bhr/Schwarz_Israel> owl:sameAs <http://data.judaicalink.org/data/gnd/1011578166> .
+
+<http://data.judaicalink.org/data/bhr/Silberstein_Michael> owl:sameAs <http://data.judaicalink.org/data/gnd/1027647871> .
+
+<http://data.judaicalink.org/data/bhr/Silberstein_Siegfried> owl:sameAs <http://data.judaicalink.org/data/gnd/117384879> .
+
+<http://data.judaicalink.org/data/bhr/Sofer_Moses> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Moses_Sofer> .
+
+<http://data.judaicalink.org/data/bhr/Spitzer_Samuel> owl:sameAs <http://data.judaicalink.org/data/djh/spitzer-samuel> .
+
+<http://data.judaicalink.org/data/bhr/Stein_Abraham-1> owl:sameAs <http://data.judaicalink.org/data/gnd/137371438> .
+
+<http://data.judaicalink.org/data/bhr/Stein_Leopold> owl:sameAs <http://data.judaicalink.org/data/gnd/117243027> .
+
+<http://data.judaicalink.org/data/bhr/Stern_Anschel> owl:sameAs <http://data.judaicalink.org/data/djh/stern-anschel> .
+
+<http://data.judaicalink.org/data/bhr/Stern_Anschel-1> owl:sameAs <http://data.judaicalink.org/data/djh/stern-anschel> .
+
+<http://data.judaicalink.org/data/bhr/Treitel_Leopold> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Leopold_Treitel> .
+
+<http://data.judaicalink.org/data/bhr/Trepp_Leo> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Leo_Trepp> .
+
+<http://data.judaicalink.org/data/bhr/Unger_JoachimJakob> owl:sameAs <http://data.judaicalink.org/data/gnd/138076200> .
+
+<http://data.judaicalink.org/data/bhr/Unna_Isak> owl:sameAs <http://data.judaicalink.org/data/gnd/117310212> .
+
+<http://data.judaicalink.org/data/bhr/Vogelstein_Hermann> owl:sameAs <http://data.judaicalink.org/data/gnd/139792589> .
+
+<http://data.judaicalink.org/data/bhr/Wallerstein_Josua> owl:sameAs <http://data.judaicalink.org/data/gnd/1026361001> .
+
+<http://data.judaicalink.org/data/bhr/Weinberg_Magnus> owl:sameAs <http://data.judaicalink.org/data/gnd/117262277> .
+
+<http://data.judaicalink.org/data/dbpedia/Abraham_Auerbach> owl:sameAs <http://data.judaicalink.org/data/bhr/Auerbach_Abraham> .
+
+<http://data.judaicalink.org/data/dbpedia/Abraham_Bing> owl:sameAs <http://data.judaicalink.org/data/bhr/Bing_Abraham> .
+
+<http://data.judaicalink.org/data/dbpedia/Abraham_Lewinsky> owl:sameAs <http://data.judaicalink.org/data/bhr/Lewinsky_Abraham> .
+
+<http://data.judaicalink.org/data/dbpedia/Abraham_Lewysohn> owl:sameAs <http://data.judaicalink.org/data/bhr/Lewysohn_Abraham> .
+
+<http://data.judaicalink.org/data/dbpedia/Abraham_Neuda> owl:sameAs <http://data.judaicalink.org/data/bhr/Neuda_Abraham>,
+        <http://data.judaicalink.org/data/yivo/Neuda_Abraham> .
+
+<http://data.judaicalink.org/data/dbpedia/Ada_Aharoni> owl:sameAs <http://data.judaicalink.org/data/gnd/1076406424> .
+
+<http://data.judaicalink.org/data/dbpedia/Adi_Shamir> owl:sameAs <http://data.judaicalink.org/data/gnd/1077764499> .
+
+<http://data.judaicalink.org/data/dbpedia/Adolf_Jellinek> owl:sameAs <http://data.judaicalink.org/data/bhr/Jellinek_Adolf> .
+
+<http://data.judaicalink.org/data/dbpedia/Adolf_Kober> owl:sameAs <http://data.judaicalink.org/data/bhr/Kober_Adolf> .
+
+<http://data.judaicalink.org/data/dbpedia/Adolf_Kurrein> owl:sameAs <http://data.judaicalink.org/data/gnd/127882197> .
+
+<http://data.judaicalink.org/data/dbpedia/Al_Jolson> owl:sameAs <http://data.judaicalink.org/data/gnd/118864270> .
+
+<http://data.judaicalink.org/data/dbpedia/Albert_M._Greenfield> owl:sameAs <http://data.judaicalink.org/data/gnd/1065278977> .
+
+<http://data.judaicalink.org/data/dbpedia/Alejandra_Pizarnik> owl:sameAs <http://data.judaicalink.org/data/gnd/119374951> .
+
+<http://data.judaicalink.org/data/dbpedia/Alexander_Altmann> owl:sameAs <http://data.judaicalink.org/data/bhr/Altmann_Alexander> .
+
+<http://data.judaicalink.org/data/dbpedia/Alexander_Bogen> owl:sameAs <http://data.judaicalink.org/data/gnd/119259486> .
+
+<http://data.judaicalink.org/data/dbpedia/Alexander_Kohut> owl:sameAs <http://data.judaicalink.org/data/gnd/137101597> .
+
+<http://data.judaicalink.org/data/dbpedia/Alice_Herz-Sommer> owl:sameAs <http://data.judaicalink.org/data/gnd/132204231> .
+
+<http://data.judaicalink.org/data/dbpedia/Amnon_Yariv> owl:sameAs <http://data.judaicalink.org/data/gnd/138499799> .
+
+<http://data.judaicalink.org/data/dbpedia/Arieh_Warshel> owl:sameAs <http://data.judaicalink.org/data/gnd/1044287136> .
+
+<http://data.judaicalink.org/data/dbpedia/Aron_Freimann> owl:sameAs <http://data.judaicalink.org/data/gnd/116750057> .
+
+<http://data.judaicalink.org/data/dbpedia/Arthur_Biram> owl:sameAs <http://data.judaicalink.org/data/gnd/102171645> .
+
+<http://data.judaicalink.org/data/dbpedia/Arthur_Hertzberg> owl:sameAs <http://data.judaicalink.org/data/gnd/12182909X> .
+
+<http://data.judaicalink.org/data/dbpedia/Aryeh_Kaplan> owl:sameAs <http://data.judaicalink.org/data/gnd/13241077X> .
+
+<http://data.judaicalink.org/data/dbpedia/Baruch_Zuckerman> owl:sameAs <http://data.judaicalink.org/data/gnd/1077527985> .
+
+<http://data.judaicalink.org/data/dbpedia/Benny_Morris> owl:sameAs <http://data.judaicalink.org/data/gnd/12403988X> .
+
+<http://data.judaicalink.org/data/dbpedia/Bernard_Lazare> owl:sameAs <http://data.judaicalink.org/data/gnd/120813874> .
+
+<http://data.judaicalink.org/data/dbpedia/Binyamin_Lau> owl:sameAs <http://data.judaicalink.org/data/gnd/1016551231> .
+
+<http://data.judaicalink.org/data/dbpedia/Boris_Schatz> owl:sameAs <http://data.judaicalink.org/data/gnd/119183730> .
+
+<http://data.judaicalink.org/data/dbpedia/Cecil_Roth> owl:sameAs <http://data.judaicalink.org/data/gnd/119339714> .
+
+<http://data.judaicalink.org/data/dbpedia/Chaim_Kiewe> owl:sameAs <http://data.judaicalink.org/data/gnd/123013836> .
+
+<http://data.judaicalink.org/data/dbpedia/Daniel_Kluger> owl:sameAs <http://data.judaicalink.org/data/gnd/132326442> .
+
+<http://data.judaicalink.org/data/dbpedia/David_Kaufmann> owl:sameAs <http://data.judaicalink.org/data/gnd/119249197>,
+        <http://data.judaicalink.org/data/yivo/Kaufmann_David> .
+
+<http://data.judaicalink.org/data/dbpedia/David_Nieto> owl:sameAs <http://data.judaicalink.org/data/gnd/142803723> .
+
+<http://data.judaicalink.org/data/dbpedia/David_Simonsen> owl:sameAs <http://data.judaicalink.org/data/gnd/119131447> .
+
+<http://data.judaicalink.org/data/dbpedia/David_Zvi_Hoffmann> owl:sameAs <http://data.judaicalink.org/data/bhr/Hoffmann_DavidZvi> .
+
+<http://data.judaicalink.org/data/dbpedia/Doron_Rabinovici> owl:sameAs <http://data.judaicalink.org/data/gnd/115832874> .
+
+<http://data.judaicalink.org/data/dbpedia/Edmond_Safra> owl:sameAs <http://data.judaicalink.org/data/gnd/129568880> .
+
+<http://data.judaicalink.org/data/dbpedia/Eliezer_Berkovits> owl:sameAs <http://data.judaicalink.org/data/bhr/Berkovits_Eliezer> .
+
+<http://data.judaicalink.org/data/dbpedia/Eliezer_Steinbarg> owl:sameAs <http://data.judaicalink.org/data/gnd/119376431> .
+
+<http://data.judaicalink.org/data/dbpedia/Elkan_Nathan_Adler> owl:sameAs <http://data.judaicalink.org/data/gnd/119398761> .
+
+<http://data.judaicalink.org/data/dbpedia/Emil_Schorsch> owl:sameAs <http://data.judaicalink.org/data/bhr/Schorsch_Emil> .
+
+<http://data.judaicalink.org/data/dbpedia/Ephraim_Carlebach> owl:sameAs <http://data.judaicalink.org/data/bhr/Carlebach_Ephraim> .
+
+<http://data.judaicalink.org/data/dbpedia/Erich_Mendelsohn> owl:sameAs <http://data.judaicalink.org/data/gnd/11858071X> .
+
+<http://data.judaicalink.org/data/dbpedia/Erwin_Panofsky> owl:sameAs <http://data.judaicalink.org/data/djh/panofsky-erwin> .
+
+<http://data.judaicalink.org/data/dbpedia/Esther_Shalev-Gerz> owl:sameAs <http://data.judaicalink.org/data/gnd/119238608> .
+
+<http://data.judaicalink.org/data/dbpedia/Eveline_Goodman-Thau> owl:sameAs <http://data.judaicalink.org/data/gnd/124604935> .
+
+<http://data.judaicalink.org/data/dbpedia/Ezra_Orion> owl:sameAs <http://data.judaicalink.org/data/gnd/1064972144> .
+
+<http://data.judaicalink.org/data/dbpedia/Franz_Rosenzweig> owl:sameAs <http://data.judaicalink.org/data/gnd/118602802> .
+
+<http://data.judaicalink.org/data/dbpedia/Gary_Bertini> owl:sameAs <http://data.judaicalink.org/data/gnd/129884545> .
+
+<http://data.judaicalink.org/data/dbpedia/Gene_Simmons> owl:sameAs <http://data.judaicalink.org/data/gnd/123437709> .
+
+<http://data.judaicalink.org/data/dbpedia/Gershom_Scholem> owl:sameAs <http://data.judaicalink.org/data/gnd/118610295> .
+
+<http://data.judaicalink.org/data/dbpedia/Gilad_Atzmon> owl:sameAs <http://data.judaicalink.org/data/gnd/12844844X> .
+
+<http://data.judaicalink.org/data/dbpedia/Gotthard_Deutsch> owl:sameAs <http://data.judaicalink.org/data/gnd/1050460162> .
+
+<http://data.judaicalink.org/data/dbpedia/Grace_Aguilar> owl:sameAs <http://data.judaicalink.org/data/gnd/12231624X> .
+
+<http://data.judaicalink.org/data/dbpedia/Gustav_Gottheil> owl:sameAs <http://data.judaicalink.org/data/bhr/Gottheil_Gustav> .
+
+<http://data.judaicalink.org/data/dbpedia/Harry_Austryn_Wolfson> owl:sameAs <http://data.judaicalink.org/data/gnd/123348323> .
+
+<http://data.judaicalink.org/data/dbpedia/Hayyim_ben_Isaac_Raphael_Alfandari> owl:sameAs <http://data.judaicalink.org/data/gnd/130134155> .
+
+<http://data.judaicalink.org/data/dbpedia/Herman_Branover> owl:sameAs <http://data.judaicalink.org/data/gnd/119078694> .
+
+<http://data.judaicalink.org/data/dbpedia/Hermann_Gollancz> owl:sameAs <http://data.judaicalink.org/data/gnd/143487388> .
+
+<http://data.judaicalink.org/data/dbpedia/Hermann_Kohlmeyer> owl:sameAs <http://data.judaicalink.org/data/bhr/Kohlmeyer_Hermann> .
+
+<http://data.judaicalink.org/data/dbpedia/Hermann_Schreiber> owl:sameAs <http://data.judaicalink.org/data/bhr/Schreiber_Hermann> .
+
+<http://data.judaicalink.org/data/dbpedia/Hermann_Wassertrilling> owl:sameAs <http://data.judaicalink.org/data/gnd/1023025299> .
+
+<http://data.judaicalink.org/data/dbpedia/Hirsch_Bär_Fassel> owl:sameAs <http://data.judaicalink.org/data/bhr/Fassel_HirschBär>,
+        <http://data.judaicalink.org/data/yivo/Fassel_Hirsch_Bar> .
+
+<http://data.judaicalink.org/data/dbpedia/Hosea_Jacobi> owl:sameAs <http://data.judaicalink.org/data/bhr/Jacobi_Hosea> .
+
+<http://data.judaicalink.org/data/dbpedia/Ignaz_Maybaum> owl:sameAs <http://data.judaicalink.org/data/bhr/Maybaum_Ignaz> .
+
+<http://data.judaicalink.org/data/dbpedia/Isaac_Aboab_da_Fonseca> owl:sameAs <http://data.judaicalink.org/data/gnd/130223751> .
+
+<http://data.judaicalink.org/data/dbpedia/Isidor_Kalisch> owl:sameAs <http://data.judaicalink.org/data/bhr/Kalisch_Isidor> .
+
+<http://data.judaicalink.org/data/dbpedia/Israel_Friedlander> owl:sameAs <http://data.judaicalink.org/data/bhr/Friedlander_Israel> .
+
+<http://data.judaicalink.org/data/dbpedia/Israel_Jacobson> owl:sameAs <http://data.judaicalink.org/data/bhr/Jacobson_Israel> .
+
+<http://data.judaicalink.org/data/dbpedia/Jacob_Glatstein> owl:sameAs <http://data.judaicalink.org/data/gnd/118717731> .
+
+<http://data.judaicalink.org/data/dbpedia/Jehuda_Reinharz> owl:sameAs <http://data.judaicalink.org/data/gnd/109875842> .
+
+<http://data.judaicalink.org/data/dbpedia/Joachim_Pollak> owl:sameAs <http://data.judaicalink.org/data/bhr/Pollak_Joachim> .
+
+<http://data.judaicalink.org/data/dbpedia/Joachim_Prinz> owl:sameAs <http://data.judaicalink.org/data/bhr/Prinz_Joachim> .
+
+<http://data.judaicalink.org/data/dbpedia/Joseph_Breuer> owl:sameAs <http://data.judaicalink.org/data/bhr/Breuer_Joseph> .
+
+<http://data.judaicalink.org/data/dbpedia/Joseph_Carlebach> owl:sameAs <http://data.judaicalink.org/data/gnd/119066823> .
+
+<http://data.judaicalink.org/data/dbpedia/Joseph_Jacobs> owl:sameAs <http://data.judaicalink.org/data/gnd/11937479X> .
+
+<http://data.judaicalink.org/data/dbpedia/Joseph_Klausner> owl:sameAs <http://data.judaicalink.org/data/gnd/124132820> .
+
+<http://data.judaicalink.org/data/dbpedia/Joseph_Perl> owl:sameAs <http://data.judaicalink.org/data/gnd/119163357> .
+
+<http://data.judaicalink.org/data/dbpedia/Judah_Leib_Gordon> owl:sameAs <http://data.judaicalink.org/data/gnd/128775114> .
+
+<http://data.judaicalink.org/data/dbpedia/Judith_Butler> owl:sameAs <http://data.judaicalink.org/data/gnd/119237873> .
+
+<http://data.judaicalink.org/data/dbpedia/Judith_Plaskow> owl:sameAs <http://data.judaicalink.org/data/gnd/1025721101> .
+
+<http://data.judaicalink.org/data/dbpedia/Julius_Guttmann> owl:sameAs <http://data.judaicalink.org/data/bhr/Guttmann_Julius> .
+
+<http://data.judaicalink.org/data/dbpedia/Kaufmann_Kohler> owl:sameAs <http://data.judaicalink.org/data/bhr/Kohler_Kaufmann> .
+
+<http://data.judaicalink.org/data/dbpedia/Kopel_Kahana> owl:sameAs <http://data.judaicalink.org/data/gnd/140423516> .
+
+<http://data.judaicalink.org/data/dbpedia/Leib_Glantz> owl:sameAs <http://data.judaicalink.org/data/gnd/134811208> .
+
+<http://data.judaicalink.org/data/dbpedia/Leo_Trepp> owl:sameAs <http://data.judaicalink.org/data/bhr/Trepp_Leo> .
+
+<http://data.judaicalink.org/data/dbpedia/Leopold_Löw> owl:sameAs <http://data.judaicalink.org/data/bhr/Löw_Leopold>,
+        <http://data.judaicalink.org/data/yivo/Low_Leopold> .
+
+<http://data.judaicalink.org/data/dbpedia/Leopold_Treitel> owl:sameAs <http://data.judaicalink.org/data/bhr/Treitel_Leopold> .
+
+<http://data.judaicalink.org/data/dbpedia/Louis_Ginzberg> owl:sameAs <http://data.judaicalink.org/data/gnd/12366750X> .
+
+<http://data.judaicalink.org/data/dbpedia/Louis_Guttman> owl:sameAs <http://data.judaicalink.org/data/gnd/1017289492> .
+
+<http://data.judaicalink.org/data/dbpedia/Louis_Lewandowski> owl:sameAs <http://data.judaicalink.org/data/gnd/128690615> .
+
+<http://data.judaicalink.org/data/dbpedia/Lucien_Wolf> owl:sameAs <http://data.judaicalink.org/data/gnd/118942883> .
+
+<http://data.judaicalink.org/data/dbpedia/Ludwig_Lewysohn> owl:sameAs <http://data.judaicalink.org/data/bhr/Lewysohn_Ludwig> .
+
+<http://data.judaicalink.org/data/dbpedia/Ludwig_Lichtschein> owl:sameAs <http://data.judaicalink.org/data/bhr/Lichtschein_Ludwig> .
+
+<http://data.judaicalink.org/data/dbpedia/Manuel_Joël> owl:sameAs <http://data.judaicalink.org/data/bhr/Joël_Manuel> .
+
+<http://data.judaicalink.org/data/dbpedia/Marcel_Janco> owl:sameAs <http://data.judaicalink.org/data/gnd/118711695> .
+
+<http://data.judaicalink.org/data/dbpedia/Marcus_Jastrow> owl:sameAs <http://data.judaicalink.org/data/gnd/102745013> .
+
+<http://data.judaicalink.org/data/dbpedia/Max_Friediger> owl:sameAs <http://data.judaicalink.org/data/bhr/Friediger_Max> .
+
+<http://data.judaicalink.org/data/dbpedia/Max_Lilienthal> owl:sameAs <http://data.judaicalink.org/data/bhr/Lilienthal_Max>,
+        <http://data.judaicalink.org/data/yivo/Lilienthal_Max> .
+
+<http://data.judaicalink.org/data/dbpedia/Menahem_Azariah_da_Fano> owl:sameAs <http://data.judaicalink.org/data/gnd/131826875> .
+
+<http://data.judaicalink.org/data/dbpedia/Mendel_Hess> owl:sameAs <http://data.judaicalink.org/data/bhr/Hess_Mendel> .
+
+<http://data.judaicalink.org/data/dbpedia/Meyer_Kayserling> owl:sameAs <http://data.judaicalink.org/data/gnd/116141115> .
+
+<http://data.judaicalink.org/data/dbpedia/Michael_Evenari> owl:sameAs <http://data.judaicalink.org/data/gnd/118824430> .
+
+<http://data.judaicalink.org/data/dbpedia/Michael_Sachs> owl:sameAs <http://data.judaicalink.org/data/bhr/Sachs_Michael> .
+
+<http://data.judaicalink.org/data/dbpedia/Michael_Wolffsohn> owl:sameAs <http://data.judaicalink.org/data/gnd/115601260> .
+
+<http://data.judaicalink.org/data/dbpedia/Mike_Brant> owl:sameAs <http://data.judaicalink.org/data/gnd/11895945X> .
+
+<http://data.judaicalink.org/data/dbpedia/Moritz_Henle> owl:sameAs <http://data.judaicalink.org/data/djh/henle-moritz> .
+
+<http://data.judaicalink.org/data/dbpedia/Morris_Rosenfeld> owl:sameAs <http://data.judaicalink.org/data/gnd/119277948> .
+
+<http://data.judaicalink.org/data/dbpedia/Moses_Löb_Bloch> owl:sameAs <http://data.judaicalink.org/data/bhr/Bloch_MosesLöb> .
+
+<http://data.judaicalink.org/data/dbpedia/Moses_Schorr> owl:sameAs <http://data.judaicalink.org/data/gnd/119354241> .
+
+<http://data.judaicalink.org/data/dbpedia/Moses_Sofer> owl:sameAs <http://data.judaicalink.org/data/bhr/Sofer_Moses> .
+
+<http://data.judaicalink.org/data/dbpedia/Moshe_Safdie> owl:sameAs <http://data.judaicalink.org/data/gnd/119440814> .
+
+<http://data.judaicalink.org/data/dbpedia/Moshe_Wallach> owl:sameAs <http://data.judaicalink.org/data/gnd/1054728151> .
+
+<http://data.judaicalink.org/data/dbpedia/Moshe_Ya'alon> owl:sameAs <http://data.judaicalink.org/data/gnd/1082105406> .
+
+<http://data.judaicalink.org/data/dbpedia/Nahum_Norbert_Glatzer> owl:sameAs <http://data.judaicalink.org/data/gnd/119011085> .
+
+<http://data.judaicalink.org/data/dbpedia/Nathan_Marcus_Adler> owl:sameAs <http://data.judaicalink.org/data/gnd/116008369> .
+
+<http://data.judaicalink.org/data/dbpedia/Nathan_Porges> owl:sameAs <http://data.judaicalink.org/data/bhr/Porges_Nathan> .
+
+<http://data.judaicalink.org/data/dbpedia/Nehemiah_Brüll> owl:sameAs <http://data.judaicalink.org/data/bhr/Brüll_Nehemiah> .
+
+<http://data.judaicalink.org/data/dbpedia/Raphael_Cohen> owl:sameAs <http://data.judaicalink.org/data/bhr/Cohen_Raphael> .
+
+<http://data.judaicalink.org/data/dbpedia/Raphael_Israeli> owl:sameAs <http://data.judaicalink.org/data/gnd/143874101> .
+
+<http://data.judaicalink.org/data/dbpedia/Regina_Jonas> owl:sameAs <http://data.judaicalink.org/data/bhr/Jonas_Regina> .
+
+<http://data.judaicalink.org/data/dbpedia/Robert_Weltsch> owl:sameAs <http://data.judaicalink.org/data/gnd/11863111X>,
+        <http://data.judaicalink.org/data/yivo/Weltsch_Robert> .
+
+<http://data.judaicalink.org/data/dbpedia/Salcia_Landmann> owl:sameAs <http://data.judaicalink.org/data/gnd/116677953> .
+
+<http://data.judaicalink.org/data/dbpedia/Samuel_Bak> owl:sameAs <http://data.judaicalink.org/data/gnd/118506072> .
+
+<http://data.judaicalink.org/data/dbpedia/Samuel_Hirsch_Margulies> owl:sameAs <http://data.judaicalink.org/data/bhr/Margulies_SamuelHirsch> .
+
+<http://data.judaicalink.org/data/dbpedia/Saul_Berlin> owl:sameAs <http://data.judaicalink.org/data/bhr/Berlin_Saul> .
+
+<http://data.judaicalink.org/data/dbpedia/Shimon_Schwab> owl:sameAs <http://data.judaicalink.org/data/gnd/133163903> .
+
+<http://data.judaicalink.org/data/dbpedia/Siegmund_Salfeld> owl:sameAs <http://data.judaicalink.org/data/gnd/139064516> .
+
+<http://data.judaicalink.org/data/dbpedia/Simon_Wiesenthal> owl:sameAs <http://data.judaicalink.org/data/gnd/118632655> .
+
+<http://data.judaicalink.org/data/dbpedia/Solomon_David_Sassoon> owl:sameAs <http://data.judaicalink.org/data/gnd/139307850> .
+
+<http://data.judaicalink.org/data/dbpedia/Theodor_Herzl> owl:sameAs <http://data.judaicalink.org/data/gnd/118550241> .
+
+<http://data.judaicalink.org/data/dbpedia/Theodore_Bikel> owl:sameAs <http://data.judaicalink.org/data/gnd/119262665> .
+
+<http://data.judaicalink.org/data/dbpedia/Umberto_Cassuto> owl:sameAs <http://data.judaicalink.org/data/gnd/135601916> .
+
+<http://data.judaicalink.org/data/dbpedia/Werner_van_der_Zyl> owl:sameAs <http://data.judaicalink.org/data/gnd/172477476> .
+
+<http://data.judaicalink.org/data/dbpedia/Wolf_Heidenheim> owl:sameAs <http://data.judaicalink.org/data/gnd/122702964> .
+
+<http://data.judaicalink.org/data/dbpedia/Yehoash_(Blumgarten)> owl:sameAs <http://data.judaicalink.org/data/gnd/119010011> .
+
+<http://data.judaicalink.org/data/dbpedia/Yitzchak_Meir_Helfgot> owl:sameAs <http://data.judaicalink.org/data/gnd/143369709> .
+
+<http://data.judaicalink.org/data/dbpedia/Yitzhak_Frenkel> owl:sameAs <http://data.judaicalink.org/data/gnd/141088656> .
+
+<http://data.judaicalink.org/data/dbpedia/Zadoc_Kahn> owl:sameAs <http://data.judaicalink.org/data/gnd/133958809> .
+
+<http://data.judaicalink.org/data/dbpedia/Zalman_Schachter-Shalomi> owl:sameAs <http://data.judaicalink.org/data/gnd/131974041> .
+
+<http://data.judaicalink.org/data/dbpedia/Ze'ev_Raban> owl:sameAs <http://data.judaicalink.org/data/gnd/123926300> .
+
+<http://data.judaicalink.org/data/dbpedia/Zigi_Ben-Haim> owl:sameAs <http://data.judaicalink.org/data/gnd/174182899> .
+
+<http://data.judaicalink.org/data/djh/bernays-isaak> owl:sameAs <http://data.judaicalink.org/data/bhr/Bernays_Isaak> .
+
+<http://data.judaicalink.org/data/djh/goldstein-harry> owl:sameAs <http://data.judaicalink.org/data/gnd/123960738> .
+
+<http://data.judaicalink.org/data/djh/goral-sternheim-arie> owl:sameAs <http://data.judaicalink.org/data/gnd/119365863> .
+
+<http://data.judaicalink.org/data/djh/henle-moritz> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Moritz_Henle> .
+
+<http://data.judaicalink.org/data/djh/holzer-paul> owl:sameAs <http://data.judaicalink.org/data/bhr/Holzer_Paul> .
+
+<http://data.judaicalink.org/data/djh/italiener-bruno> owl:sameAs <http://data.judaicalink.org/data/bhr/Italiener_Bruno> .
+
+<http://data.judaicalink.org/data/djh/leimd%C3%B6rfer-david> owl:sameAs <http://data.judaicalink.org/data/bhr/Leimdörfer_David> .
+
+<http://data.judaicalink.org/data/djh/meldola-abraham> owl:sameAs <http://data.judaicalink.org/data/bhr/Meldola_Abraham> .
+
+<http://data.judaicalink.org/data/djh/mendelssohn-joseph> owl:sameAs <http://data.judaicalink.org/data/gnd/116877219> .
+
+<http://data.judaicalink.org/data/djh/nathan-nathan-max> owl:sameAs <http://data.judaicalink.org/data/bhr/Nathan_NathanMax> .
+
+<http://data.judaicalink.org/data/djh/norden-joseph> owl:sameAs <http://data.judaicalink.org/data/bhr/Norden_Joseph> .
+
+<http://data.judaicalink.org/data/djh/panofsky-erwin> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Erwin_Panofsky> .
+
+<http://data.judaicalink.org/data/djh/spitzer-samuel> owl:sameAs <http://data.judaicalink.org/data/bhr/Spitzer_Samuel> .
+
+<http://data.judaicalink.org/data/gnd/1011578166> owl:sameAs <http://data.judaicalink.org/data/bhr/Schwarz_Israel> .
+
+<http://data.judaicalink.org/data/gnd/1016551231> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Binyamin_Lau> .
+
+<http://data.judaicalink.org/data/gnd/1017289492> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Louis_Guttman> .
+
+<http://data.judaicalink.org/data/gnd/1020661259> owl:sameAs <http://data.judaicalink.org/data/bhr/Klemperer_Wilhelm> .
+
+<http://data.judaicalink.org/data/gnd/102171645> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Arthur_Biram> .
+
+<http://data.judaicalink.org/data/gnd/1022089013> owl:sameAs <http://data.judaicalink.org/data/bhr/Braun_IsraelChaim> .
+
+<http://data.judaicalink.org/data/gnd/1022147935> owl:sameAs <http://data.judaicalink.org/data/bhr/Appel_Meyer> .
+
+<http://data.judaicalink.org/data/gnd/1022729039> owl:sameAs <http://data.judaicalink.org/data/bhr/Mannheimer_David> .
+
+<http://data.judaicalink.org/data/gnd/1022980262> owl:sameAs <http://data.judaicalink.org/data/bhr/Schiffer_Sinai> .
+
+<http://data.judaicalink.org/data/gnd/1023025299> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Hermann_Wassertrilling> .
+
+<http://data.judaicalink.org/data/gnd/1024687775> owl:sameAs <http://data.judaicalink.org/data/bhr/Rosenthal_Ludwig> .
+
+<http://data.judaicalink.org/data/gnd/1025721101> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Judith_Plaskow> .
+
+<http://data.judaicalink.org/data/gnd/1026361001> owl:sameAs <http://data.judaicalink.org/data/bhr/Wallerstein_Josua> .
+
+<http://data.judaicalink.org/data/gnd/1026544823> owl:sameAs <http://data.judaicalink.org/data/bhr/Schlesinger_Abraham> .
+
+<http://data.judaicalink.org/data/gnd/102673973X> owl:sameAs <http://data.judaicalink.org/data/bhr/Jacobson_Moses> .
+
+<http://data.judaicalink.org/data/gnd/1027336922> owl:sameAs <http://data.judaicalink.org/data/bhr/Goldberg_JakobMoses> .
+
+<http://data.judaicalink.org/data/gnd/102745013> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Marcus_Jastrow> .
+
+<http://data.judaicalink.org/data/gnd/1027647871> owl:sameAs <http://data.judaicalink.org/data/bhr/Silberstein_Michael> .
+
+<http://data.judaicalink.org/data/gnd/1028431910> owl:sameAs <http://data.judaicalink.org/data/bhr/Rosenberg_Samuel> .
+
+<http://data.judaicalink.org/data/gnd/1030281815> owl:sameAs <http://data.judaicalink.org/data/bhr/Kohn_Jakob> .
+
+<http://data.judaicalink.org/data/gnd/1031221158> owl:sameAs <http://data.judaicalink.org/data/bhr/Schmiedl_Adolf> .
+
+<http://data.judaicalink.org/data/gnd/1032617101> owl:sameAs <http://data.judaicalink.org/data/bhr/Schreiber_Emanuel> .
+
+<http://data.judaicalink.org/data/gnd/1035462761> owl:sameAs <http://data.judaicalink.org/data/bhr/Auerbach_Heimann> .
+
+<http://data.judaicalink.org/data/gnd/1038227453> owl:sameAs <http://data.judaicalink.org/data/bhr/Meyer_Seligmann> .
+
+<http://data.judaicalink.org/data/gnd/103859846X> owl:sameAs <http://data.judaicalink.org/data/bhr/Berger_Heinrich> .
+
+<http://data.judaicalink.org/data/gnd/1044287136> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Arieh_Warshel> .
+
+<http://data.judaicalink.org/data/gnd/1046272861> owl:sameAs <http://data.judaicalink.org/data/bhr/Gersfeld_Jakob-Joseph> .
+
+<http://data.judaicalink.org/data/gnd/1050460162> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Gotthard_Deutsch> .
+
+<http://data.judaicalink.org/data/gnd/1051900611> owl:sameAs <http://data.judaicalink.org/data/bhr/Ehrlich_Adolf> .
+
+<http://data.judaicalink.org/data/gnd/1053062125> owl:sameAs <http://data.judaicalink.org/data/bhr/Deutsch_Israel> .
+
+<http://data.judaicalink.org/data/gnd/1054728151> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Moshe_Wallach> .
+
+<http://data.judaicalink.org/data/gnd/1054962537> owl:sameAs <http://data.judaicalink.org/data/bhr/Kroner_Hermann> .
+
+<http://data.judaicalink.org/data/gnd/1055183973> owl:sameAs <http://data.judaicalink.org/data/bhr/Donath_Leopold> .
+
+<http://data.judaicalink.org/data/gnd/105520914X> owl:sameAs <http://data.judaicalink.org/data/bhr/Netter_Nathan> .
+
+<http://data.judaicalink.org/data/gnd/1055234470> owl:sameAs <http://data.judaicalink.org/data/bhr/Coblenz_Felix> .
+
+<http://data.judaicalink.org/data/gnd/1055390537> owl:sameAs <http://data.judaicalink.org/data/bhr/Rosenzweig_Adolf> .
+
+<http://data.judaicalink.org/data/gnd/1057741485> owl:sameAs <http://data.judaicalink.org/data/bhr/Lewin_Moses> .
+
+<http://data.judaicalink.org/data/gnd/1059889587> owl:sameAs <http://data.judaicalink.org/data/bhr/Cohn_John> .
+
+<http://data.judaicalink.org/data/gnd/1060078155> owl:sameAs <http://data.judaicalink.org/data/bhr/Blumenthal_Adolf> .
+
+<http://data.judaicalink.org/data/gnd/106074113X> owl:sameAs <http://data.judaicalink.org/data/bhr/Lengsfelder_Salomon> .
+
+<http://data.judaicalink.org/data/gnd/1064972144> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Ezra_Orion> .
+
+<http://data.judaicalink.org/data/gnd/1065278977> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Albert_M._Greenfield> .
+
+<http://data.judaicalink.org/data/gnd/1068374322> owl:sameAs <http://data.judaicalink.org/data/bhr/Levi_Benedikt> .
+
+<http://data.judaicalink.org/data/gnd/1068842040> owl:sameAs <http://data.judaicalink.org/data/bhr/Ehrmann_Daniel> .
+
+<http://data.judaicalink.org/data/gnd/1069962961> owl:sameAs <http://data.judaicalink.org/data/bhr/Ehrentheil_Adolf> .
+
+<http://data.judaicalink.org/data/gnd/1076406424> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Ada_Aharoni> .
+
+<http://data.judaicalink.org/data/gnd/1077527985> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Baruch_Zuckerman> .
+
+<http://data.judaicalink.org/data/gnd/1077764499> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Adi_Shamir> .
+
+<http://data.judaicalink.org/data/gnd/1081953616> owl:sameAs <http://data.judaicalink.org/data/bhr/Goldschmidt_Salomon-1> .
+
+<http://data.judaicalink.org/data/gnd/1082105406> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Moshe_Ya'alon> .
+
+<http://data.judaicalink.org/data/gnd/109875842> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Jehuda_Reinharz> .
+
+<http://data.judaicalink.org/data/gnd/1102968692> owl:sameAs <http://data.judaicalink.org/data/bhr/Aron_Arnaud> .
+
+<http://data.judaicalink.org/data/gnd/1103163728> owl:sameAs <http://data.judaicalink.org/data/bhr/Goldmann_Moses-Moritz> .
+
+<http://data.judaicalink.org/data/gnd/1111521018> owl:sameAs <http://data.judaicalink.org/data/bhr/Goldschmidt_Salomon-2> .
+
+<http://data.judaicalink.org/data/gnd/115601260> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Michael_Wolffsohn> .
+
+<http://data.judaicalink.org/data/gnd/115832874> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Doron_Rabinovici> .
+
+<http://data.judaicalink.org/data/gnd/116008369> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Nathan_Marcus_Adler> .
+
+<http://data.judaicalink.org/data/gnd/116008393> owl:sameAs <http://data.judaicalink.org/data/bhr/Adler_Samuel> .
+
+<http://data.judaicalink.org/data/gnd/116079576> owl:sameAs <http://data.judaicalink.org/data/bhr/Perles_Felix> .
+
+<http://data.judaicalink.org/data/gnd/11613612X> owl:sameAs <http://data.judaicalink.org/data/bhr/Berliner_Abraham> .
+
+<http://data.judaicalink.org/data/gnd/116141115> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Meyer_Kayserling> .
+
+<http://data.judaicalink.org/data/gnd/116677953> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Salcia_Landmann> .
+
+<http://data.judaicalink.org/data/gnd/116715804> owl:sameAs <http://data.judaicalink.org/data/bhr/Frankel_Zacharias> .
+
+<http://data.judaicalink.org/data/gnd/116750057> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Aron_Freimann> .
+
+<http://data.judaicalink.org/data/gnd/116756586> owl:sameAs <http://data.judaicalink.org/data/bhr/Goldschmidt_Israel-1> .
+
+<http://data.judaicalink.org/data/gnd/116877219> owl:sameAs <http://data.judaicalink.org/data/djh/mendelssohn-joseph> .
+
+<http://data.judaicalink.org/data/gnd/116971207> owl:sameAs <http://data.judaicalink.org/data/bhr/Lewin_Adolf> .
+
+<http://data.judaicalink.org/data/gnd/117243027> owl:sameAs <http://data.judaicalink.org/data/bhr/Stein_Leopold> .
+
+<http://data.judaicalink.org/data/gnd/117262277> owl:sameAs <http://data.judaicalink.org/data/bhr/Weinberg_Magnus> .
+
+<http://data.judaicalink.org/data/gnd/117310212> owl:sameAs <http://data.judaicalink.org/data/bhr/Unna_Isak> .
+
+<http://data.judaicalink.org/data/gnd/117384879> owl:sameAs <http://data.judaicalink.org/data/bhr/Silberstein_Siegfried> .
+
+<http://data.judaicalink.org/data/gnd/117723231> owl:sameAs <http://data.judaicalink.org/data/bhr/Rothschild_David> .
+
+<http://data.judaicalink.org/data/gnd/118506072> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Samuel_Bak> .
+
+<http://data.judaicalink.org/data/gnd/118550241> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Theodor_Herzl> .
+
+<http://data.judaicalink.org/data/gnd/11858071X> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Erich_Mendelsohn> .
+
+<http://data.judaicalink.org/data/gnd/118602802> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Franz_Rosenzweig> .
+
+<http://data.judaicalink.org/data/gnd/118610295> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Gershom_Scholem> .
+
+<http://data.judaicalink.org/data/gnd/11863111X> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Robert_Weltsch> .
+
+<http://data.judaicalink.org/data/gnd/118632655> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Simon_Wiesenthal> .
+
+<http://data.judaicalink.org/data/gnd/118690094> owl:sameAs <http://data.judaicalink.org/data/bhr/Geis_RobertRaphael> .
+
+<http://data.judaicalink.org/data/gnd/118711695> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Marcel_Janco> .
+
+<http://data.judaicalink.org/data/gnd/118717731> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Jacob_Glatstein> .
+
+<http://data.judaicalink.org/data/gnd/118824430> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Michael_Evenari> .
+
+<http://data.judaicalink.org/data/gnd/118844016> owl:sameAs <http://data.judaicalink.org/data/bhr/Samuel_Salomon> .
+
+<http://data.judaicalink.org/data/gnd/118864270> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Al_Jolson> .
+
+<http://data.judaicalink.org/data/gnd/118942883> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Lucien_Wolf> .
+
+<http://data.judaicalink.org/data/gnd/11895945X> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Mike_Brant> .
+
+<http://data.judaicalink.org/data/gnd/118984993> owl:sameAs <http://data.judaicalink.org/data/bhr/Kalir_Joseph> .
+
+<http://data.judaicalink.org/data/gnd/119010011> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Yehoash_(Blumgarten)> .
+
+<http://data.judaicalink.org/data/gnd/119011085> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Nahum_Norbert_Glatzer> .
+
+<http://data.judaicalink.org/data/gnd/119066823> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Joseph_Carlebach> .
+
+<http://data.judaicalink.org/data/gnd/119078694> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Herman_Branover> .
+
+<http://data.judaicalink.org/data/gnd/119131447> owl:sameAs <http://data.judaicalink.org/data/dbpedia/David_Simonsen> .
+
+<http://data.judaicalink.org/data/gnd/119163357> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Joseph_Perl> .
+
+<http://data.judaicalink.org/data/gnd/119183730> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Boris_Schatz> .
+
+<http://data.judaicalink.org/data/gnd/119237873> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Judith_Butler> .
+
+<http://data.judaicalink.org/data/gnd/119238608> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Esther_Shalev-Gerz> .
+
+<http://data.judaicalink.org/data/gnd/119249197> owl:sameAs <http://data.judaicalink.org/data/dbpedia/David_Kaufmann> .
+
+<http://data.judaicalink.org/data/gnd/119259486> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Alexander_Bogen> .
+
+<http://data.judaicalink.org/data/gnd/119262665> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Theodore_Bikel> .
+
+<http://data.judaicalink.org/data/gnd/119277948> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Morris_Rosenfeld> .
+
+<http://data.judaicalink.org/data/gnd/119333503> owl:sameAs <http://data.judaicalink.org/data/bhr/Einhorn_David> .
+
+<http://data.judaicalink.org/data/gnd/119339714> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Cecil_Roth> .
+
+<http://data.judaicalink.org/data/gnd/119354241> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Moses_Schorr> .
+
+<http://data.judaicalink.org/data/gnd/119356066> owl:sameAs <http://data.judaicalink.org/data/bhr/Adler_Nathan-1>,
+        <http://data.judaicalink.org/data/dbpedia/Nathan_Adler> .
+
+<http://data.judaicalink.org/data/gnd/119365863> owl:sameAs <http://data.judaicalink.org/data/djh/goral-sternheim-arie> .
+
+<http://data.judaicalink.org/data/gnd/11937479X> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Joseph_Jacobs> .
+
+<http://data.judaicalink.org/data/gnd/119374951> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Alejandra_Pizarnik> .
+
+<http://data.judaicalink.org/data/gnd/119376431> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Eliezer_Steinbarg> .
+
+<http://data.judaicalink.org/data/gnd/119398761> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Elkan_Nathan_Adler> .
+
+<http://data.judaicalink.org/data/gnd/119440814> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Moshe_Safdie> .
+
+<http://data.judaicalink.org/data/gnd/119554151> owl:sameAs <http://data.judaicalink.org/data/bhr/Jacob_Benno> .
+
+<http://data.judaicalink.org/data/gnd/120105756> owl:sameAs <http://data.judaicalink.org/data/bhr/Alexander_Isaak> .
+
+<http://data.judaicalink.org/data/gnd/120813874> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Bernard_Lazare> .
+
+<http://data.judaicalink.org/data/gnd/121034909> owl:sameAs <http://data.judaicalink.org/data/bhr/Rosenfeld_SamsonWolf> .
+
+<http://data.judaicalink.org/data/gnd/121770095> owl:sameAs <http://data.judaicalink.org/data/bhr/Deutsch_David-1> .
+
+<http://data.judaicalink.org/data/gnd/12182909X> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Arthur_Hertzberg> .
+
+<http://data.judaicalink.org/data/gnd/12231624X> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Grace_Aguilar> .
+
+<http://data.judaicalink.org/data/gnd/122702964> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Wolf_Heidenheim> .
+
+<http://data.judaicalink.org/data/gnd/123013836> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Chaim_Kiewe> .
+
+<http://data.judaicalink.org/data/gnd/12321419X> owl:sameAs <http://data.judaicalink.org/data/bhr/Schwarz_Hayum> .
+
+<http://data.judaicalink.org/data/gnd/123348323> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Harry_Austryn_Wolfson> .
+
+<http://data.judaicalink.org/data/gnd/123437709> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Gene_Simmons> .
+
+<http://data.judaicalink.org/data/gnd/12366750X> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Louis_Ginzberg> .
+
+<http://data.judaicalink.org/data/gnd/123926300> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Ze'ev_Raban> .
+
+<http://data.judaicalink.org/data/gnd/123960738> owl:sameAs <http://data.judaicalink.org/data/djh/goldstein-harry> .
+
+<http://data.judaicalink.org/data/gnd/12403988X> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Benny_Morris> .
+
+<http://data.judaicalink.org/data/gnd/124132820> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Joseph_Klausner> .
+
+<http://data.judaicalink.org/data/gnd/124434541> owl:sameAs <http://data.judaicalink.org/data/bhr/Holdheim_Samuel> .
+
+<http://data.judaicalink.org/data/gnd/124604935> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Eveline_Goodman-Thau> .
+
+<http://data.judaicalink.org/data/gnd/127882197> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Adolf_Kurrein> .
+
+<http://data.judaicalink.org/data/gnd/12844844X> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Gilad_Atzmon> .
+
+<http://data.judaicalink.org/data/gnd/128690615> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Louis_Lewandowski> .
+
+<http://data.judaicalink.org/data/gnd/128775114> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Judah_Leib_Gordon> .
+
+<http://data.judaicalink.org/data/gnd/129568880> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Edmond_Safra> .
+
+<http://data.judaicalink.org/data/gnd/129884545> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Gary_Bertini> .
+
+<http://data.judaicalink.org/data/gnd/130134155> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Hayyim_ben_Isaac_Raphael_Alfandari> .
+
+<http://data.judaicalink.org/data/gnd/130223751> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Isaac_Aboab_da_Fonseca> .
+
+<http://data.judaicalink.org/data/gnd/13164145X> owl:sameAs <http://data.judaicalink.org/data/bhr/Landau_Ezechiel> .
+
+<http://data.judaicalink.org/data/gnd/131826875> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Menahem_Azariah_da_Fano> .
+
+<http://data.judaicalink.org/data/gnd/131974041> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Zalman_Schachter-Shalomi> .
+
+<http://data.judaicalink.org/data/gnd/132204231> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Alice_Herz-Sommer> .
+
+<http://data.judaicalink.org/data/gnd/132326442> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Daniel_Kluger> .
+
+<http://data.judaicalink.org/data/gnd/13241077X> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Aryeh_Kaplan> .
+
+<http://data.judaicalink.org/data/gnd/132587025> owl:sameAs <http://data.judaicalink.org/data/bhr/Halevy_Isaac> .
+
+<http://data.judaicalink.org/data/gnd/132706644> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Abraham_Kohn>,
+        <http://data.judaicalink.org/data/yivo/Kohn_Abraham> .
+
+<http://data.judaicalink.org/data/gnd/133163903> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Shimon_Schwab> .
+
+<http://data.judaicalink.org/data/gnd/133958809> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Zadoc_Kahn> .
+
+<http://data.judaicalink.org/data/gnd/134106229> owl:sameAs <http://data.judaicalink.org/data/bhr/Bamberger_Isaac> .
+
+<http://data.judaicalink.org/data/gnd/134811208> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Leib_Glantz> .
+
+<http://data.judaicalink.org/data/gnd/135601916> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Umberto_Cassuto> .
+
+<http://data.judaicalink.org/data/gnd/136544142> owl:sameAs <http://data.judaicalink.org/data/bhr/Lazarus_Leiser> .
+
+<http://data.judaicalink.org/data/gnd/136828884> owl:sameAs <http://data.judaicalink.org/data/bhr/Felsenthal_Bernhard> .
+
+<http://data.judaicalink.org/data/gnd/137101597> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Alexander_Kohut> .
+
+<http://data.judaicalink.org/data/gnd/137108583> owl:sameAs <http://data.judaicalink.org/data/bhr/Kroner_Theodor> .
+
+<http://data.judaicalink.org/data/gnd/137371438> owl:sameAs <http://data.judaicalink.org/data/bhr/Stein_Abraham-1> .
+
+<http://data.judaicalink.org/data/gnd/138076200> owl:sameAs <http://data.judaicalink.org/data/bhr/Unger_JoachimJakob> .
+
+<http://data.judaicalink.org/data/gnd/138499799> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Amnon_Yariv> .
+
+<http://data.judaicalink.org/data/gnd/13860066X> owl:sameAs <http://data.judaicalink.org/data/bhr/Eisler_Leopold> .
+
+<http://data.judaicalink.org/data/gnd/139064516> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Siegmund_Salfeld> .
+
+<http://data.judaicalink.org/data/gnd/139307850> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Solomon_David_Sassoon> .
+
+<http://data.judaicalink.org/data/gnd/139703705> owl:sameAs <http://data.judaicalink.org/data/bhr/Back_Samuel> .
+
+<http://data.judaicalink.org/data/gnd/139714847> owl:sameAs <http://data.judaicalink.org/data/bhr/Rieger_Paul> .
+
+<http://data.judaicalink.org/data/gnd/139733876> owl:sameAs <http://data.judaicalink.org/data/bhr/Eppenstein_Simon> .
+
+<http://data.judaicalink.org/data/gnd/139789006> owl:sameAs <http://data.judaicalink.org/data/bhr/Rahmer_Moritz> .
+
+<http://data.judaicalink.org/data/gnd/139792589> owl:sameAs <http://data.judaicalink.org/data/bhr/Vogelstein_Hermann> .
+
+<http://data.judaicalink.org/data/gnd/139814728> owl:sameAs <http://data.judaicalink.org/data/bhr/Ginsburger_Moses> .
+
+<http://data.judaicalink.org/data/gnd/140423516> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Kopel_Kahana> .
+
+<http://data.judaicalink.org/data/gnd/141088656> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Yitzhak_Frenkel> .
+
+<http://data.judaicalink.org/data/gnd/141248920> owl:sameAs <http://data.judaicalink.org/data/bhr/Salomonski_Martin> .
+
+<http://data.judaicalink.org/data/gnd/141651911> owl:sameAs <http://data.judaicalink.org/data/bhr/Landsberger_Julius> .
+
+<http://data.judaicalink.org/data/gnd/142803723> owl:sameAs <http://data.judaicalink.org/data/dbpedia/David_Nieto> .
+
+<http://data.judaicalink.org/data/gnd/143060791> owl:sameAs <http://data.judaicalink.org/data/bhr/Goldmann_Felix> .
+
+<http://data.judaicalink.org/data/gnd/143369709> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Yitzchak_Meir_Helfgot> .
+
+<http://data.judaicalink.org/data/gnd/143487388> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Hermann_Gollancz> .
+
+<http://data.judaicalink.org/data/gnd/143575120> owl:sameAs <http://data.judaicalink.org/data/bhr/Gronemann_Selig> .
+
+<http://data.judaicalink.org/data/gnd/143874101> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Raphael_Israeli> .
+
+<http://data.judaicalink.org/data/gnd/171949366> owl:sameAs <http://data.judaicalink.org/data/bhr/Altmann_Adolf> .
+
+<http://data.judaicalink.org/data/gnd/172477476> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Werner_van_der_Zyl> .
+
+<http://data.judaicalink.org/data/gnd/174182899> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Zigi_Ben-Haim> .
+
+<http://data.judaicalink.org/data/bhr/Adler_Hermann> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Hermann_Adler>,
+        <http://data.judaicalink.org/data/gnd/116008148> .
+
+<http://data.judaicalink.org/data/bhr/Adler_Nathan-1> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Nathan_Adler> .
+
+<http://data.judaicalink.org/data/bhr/Alexandersohn_Jonathan> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Jonathan_Alexandersohn>,
+        <http://data.judaicalink.org/data/gnd/1068782498> .
+
+<http://data.judaicalink.org/data/bhr/Baeck_Leo> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Leo_Baeck>,
+        <http://data.judaicalink.org/data/gnd/118505777> .
+
+<http://data.judaicalink.org/data/bhr/Carmoly_Eliakim> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Eliakim_Carmoly>,
+        <http://data.judaicalink.org/data/gnd/101528258X> .
+
+<http://data.judaicalink.org/data/bhr/Grunwald_Max> owl:sameAs <http://data.judaicalink.org/data/djh/grunwald-max>,
+        <http://data.judaicalink.org/data/gnd/116901373> .
+
+<http://data.judaicalink.org/data/bhr/Hirsch_SamsonRaphael> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Samson_Raphael_Hirsch>,
+        <http://data.judaicalink.org/data/gnd/118774522> .
+
+<http://data.judaicalink.org/data/bhr/Hirsch_Samuel> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Samuel_Hirsch>,
+        <http://data.judaicalink.org/data/gnd/117747955> .
+
+<http://data.judaicalink.org/data/bhr/Lewin_Adolf> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Adolf_Lewin>,
+        <http://data.judaicalink.org/data/gnd/116971207> .
+
+<http://data.judaicalink.org/data/bhr/Mielziner_Moses> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Moses_Mielziner>,
+        <http://data.judaicalink.org/data/gnd/138382468> .
+
+<http://data.judaicalink.org/data/bhr/Philippson_Ludwig> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Ludwig_Philippson>,
+        <http://data.judaicalink.org/data/gnd/116176288> .
+
+<http://data.judaicalink.org/data/dbpedia/Adolf_Lewin> owl:sameAs <http://data.judaicalink.org/data/bhr/Lewin_Adolf>,
+        <http://data.judaicalink.org/data/bhr/Lewin_Adolf-1> .
+
+<http://data.judaicalink.org/data/dbpedia/Eliakim_Carmoly> owl:sameAs <http://data.judaicalink.org/data/bhr/Carmoly_Eliakim>,
+        <http://data.judaicalink.org/data/gnd/101528258X> .
+
+<http://data.judaicalink.org/data/dbpedia/Hermann_Adler> owl:sameAs <http://data.judaicalink.org/data/bhr/Adler_Hermann>,
+        <http://data.judaicalink.org/data/gnd/116008148> .
+
+<http://data.judaicalink.org/data/dbpedia/Israel_Meir_Freimann> owl:sameAs <http://data.judaicalink.org/data/bhr/Freimann_IsraelMeir>,
+        <http://data.judaicalink.org/data/bhr/Freimann_IsraelMeir-1> .
+
+<http://data.judaicalink.org/data/dbpedia/Jonathan_Alexandersohn> owl:sameAs <http://data.judaicalink.org/data/bhr/Alexandersohn_Jonathan>,
+        <http://data.judaicalink.org/data/gnd/1068782498> .
+
+<http://data.judaicalink.org/data/dbpedia/Joseph_Perles> owl:sameAs <http://data.judaicalink.org/data/bhr/Perles_Joseph>,
+        <http://data.judaicalink.org/data/bhr/Perles_Joseph-1> .
+
+<http://data.judaicalink.org/data/dbpedia/Leo_Baeck> owl:sameAs <http://data.judaicalink.org/data/bhr/Baeck_Leo>,
+        <http://data.judaicalink.org/data/gnd/118505777> .
+
+<http://data.judaicalink.org/data/dbpedia/Levi_Herzfeld> owl:sameAs <http://data.judaicalink.org/data/bhr/Herzfeld_Levi>,
+        <http://data.judaicalink.org/data/bhr/Herzfeld_Levi-1> .
+
+<http://data.judaicalink.org/data/dbpedia/Ludwig_Philippson> owl:sameAs <http://data.judaicalink.org/data/bhr/Philippson_Ludwig>,
+        <http://data.judaicalink.org/data/gnd/116176288> .
+
+<http://data.judaicalink.org/data/dbpedia/Moritz_Güdemann> owl:sameAs <http://data.judaicalink.org/data/bhr/Güdemann_Moritz>,
+        <http://data.judaicalink.org/data/bhr/Güdemann_Moritz-1> .
+
+<http://data.judaicalink.org/data/dbpedia/Moses_Mielziner> owl:sameAs <http://data.judaicalink.org/data/bhr/Mielziner_Moses>,
+        <http://data.judaicalink.org/data/gnd/138382468> .
+
+<http://data.judaicalink.org/data/dbpedia/Salomon_Formstecher> owl:sameAs <http://data.judaicalink.org/data/bhr/Formstecher_Salomon>,
+        <http://data.judaicalink.org/data/bhr/Formstecher_Salomon-1> .
+
+<http://data.judaicalink.org/data/dbpedia/Samuel_Baeck> owl:sameAs <http://data.judaicalink.org/data/bhr/Baeck_Samuel>,
+        <http://data.judaicalink.org/data/bhr/Baeck_Samuel-1> .
+
+<http://data.judaicalink.org/data/dbpedia/Samuel_Hirsch> owl:sameAs <http://data.judaicalink.org/data/bhr/Hirsch_Samuel>,
+        <http://data.judaicalink.org/data/gnd/117747955> .
+
+<http://data.judaicalink.org/data/dbpedia/Samuel_Kohn> owl:sameAs <http://data.judaicalink.org/data/bhr/Kohn_Samuel>,
+        <http://data.judaicalink.org/data/bhr/Kohn_Samuel-1> .
+
+<http://data.judaicalink.org/data/dbpedia/Samuel_Schotten> owl:sameAs <http://data.judaicalink.org/data/bhr/Schotten_Samuel>,
+        <http://data.judaicalink.org/data/bhr/Schotten_Samuel-1> .
+
+<http://data.judaicalink.org/data/djh/enoch-samuel-david> owl:sameAs <http://data.judaicalink.org/data/bhr/Enoch_SamuelDavid>,
+        <http://data.judaicalink.org/data/bhr/Enoch_SamuelDavid-1> .
+
+<http://data.judaicalink.org/data/djh/grunwald-max> owl:sameAs <http://data.judaicalink.org/data/bhr/Grunwald_Max>,
+        <http://data.judaicalink.org/data/gnd/116901373> .
+
+<http://data.judaicalink.org/data/djh/stern-anschel> owl:sameAs <http://data.judaicalink.org/data/bhr/Stern_Anschel>,
+        <http://data.judaicalink.org/data/bhr/Stern_Anschel-1> .
+
+<http://data.judaicalink.org/data/gnd/101528258X> owl:sameAs <http://data.judaicalink.org/data/bhr/Carmoly_Eliakim>,
+        <http://data.judaicalink.org/data/dbpedia/Eliakim_Carmoly> .
+
+<http://data.judaicalink.org/data/gnd/105120951X> owl:sameAs <http://data.judaicalink.org/data/bhr/Hollander_Jakob>,
+        <http://data.judaicalink.org/data/bhr/Hollander_Jakob-1> .
+
+<http://data.judaicalink.org/data/gnd/1068782498> owl:sameAs <http://data.judaicalink.org/data/bhr/Alexandersohn_Jonathan>,
+        <http://data.judaicalink.org/data/dbpedia/Jonathan_Alexandersohn> .
+
+<http://data.judaicalink.org/data/gnd/116008148> owl:sameAs <http://data.judaicalink.org/data/bhr/Adler_Hermann>,
+        <http://data.judaicalink.org/data/dbpedia/Hermann_Adler> .
+
+<http://data.judaicalink.org/data/gnd/116176288> owl:sameAs <http://data.judaicalink.org/data/bhr/Philippson_Ludwig>,
+        <http://data.judaicalink.org/data/dbpedia/Ludwig_Philippson> .
+
+<http://data.judaicalink.org/data/gnd/116901373> owl:sameAs <http://data.judaicalink.org/data/bhr/Grunwald_Max>,
+        <http://data.judaicalink.org/data/djh/grunwald-max> .
+
+<http://data.judaicalink.org/data/gnd/117747955> owl:sameAs <http://data.judaicalink.org/data/bhr/Hirsch_Samuel>,
+        <http://data.judaicalink.org/data/dbpedia/Samuel_Hirsch> .
+
+<http://data.judaicalink.org/data/gnd/118505777> owl:sameAs <http://data.judaicalink.org/data/bhr/Baeck_Leo>,
+        <http://data.judaicalink.org/data/dbpedia/Leo_Baeck> .
+
+<http://data.judaicalink.org/data/gnd/118774522> owl:sameAs <http://data.judaicalink.org/data/bhr/Hirsch_SamsonRaphael>,
+        <http://data.judaicalink.org/data/dbpedia/Samson_Raphael_Hirsch> .
+
+<http://data.judaicalink.org/data/gnd/11933304X> owl:sameAs <http://data.judaicalink.org/data/bhr/Geiger_Abraham>,
+        <http://data.judaicalink.org/data/bhr/Geiger_Abraham-1> .
+
+<http://data.judaicalink.org/data/gnd/120926350> owl:sameAs <http://data.judaicalink.org/data/bhr/Gross_Heinrich>,
+        <http://data.judaicalink.org/data/bhr/Gross_Heinrich-1> .
+
+<http://data.judaicalink.org/data/gnd/138382468> owl:sameAs <http://data.judaicalink.org/data/bhr/Mielziner_Moses>,
+        <http://data.judaicalink.org/data/dbpedia/Moses_Mielziner> .
+
+<http://data.judaicalink.org/data/bhr/Salomon_Gotthold> owl:sameAs <http://data.judaicalink.org/data/dbpedia/Gotthold_Salomon>,
+        <http://data.judaicalink.org/data/djh/salomon-gotthold>,
+        <http://data.judaicalink.org/data/gnd/11676712X> .
+
+<http://data.judaicalink.org/data/dbpedia/Abraham_Kohn> owl:sameAs <http://data.judaicalink.org/data/bhr/Kohn_Abraham>,
+        <http://data.judaicalink.org/data/bhr/Kohn_Abraham-1>,
+        <http://data.judaicalink.org/data/gnd/132706644>,
+        <http://data.judaicalink.org/data/yivo/Kohn_Abraham> .
+
+<http://data.judaicalink.org/data/dbpedia/Gotthold_Salomon> owl:sameAs <http://data.judaicalink.org/data/bhr/Salomon_Gotthold>,
+        <http://data.judaicalink.org/data/djh/salomon-gotthold>,
+        <http://data.judaicalink.org/data/gnd/11676712X> .
+
+<http://data.judaicalink.org/data/dbpedia/Nathan_Adler> owl:sameAs <http://data.judaicalink.org/data/bhr/Adler_Nathan>,
+        <http://data.judaicalink.org/data/bhr/Adler_Nathan-1>,
+        <http://data.judaicalink.org/data/gnd/119356066> .
+
+<http://data.judaicalink.org/data/dbpedia/Samson_Raphael_Hirsch> owl:sameAs <http://data.judaicalink.org/data/bhr/Hirsch_SamsonRaphael>,
+        <http://data.judaicalink.org/data/bhr/Hirsch_SamsonRaphael-1>,
+        <http://data.judaicalink.org/data/gnd/118774522> .
+
+<http://data.judaicalink.org/data/djh/salomon-gotthold> owl:sameAs <http://data.judaicalink.org/data/bhr/Salomon_Gotthold>,
+        <http://data.judaicalink.org/data/dbpedia/Gotthold_Salomon>,
+        <http://data.judaicalink.org/data/gnd/11676712X> .
+
+<http://data.judaicalink.org/data/gnd/11676712X> owl:sameAs <http://data.judaicalink.org/data/bhr/Salomon_Gotthold>,
+        <http://data.judaicalink.org/data/dbpedia/Gotthold_Salomon>,
+        <http://data.judaicalink.org/data/djh/salomon-gotthold> .
+

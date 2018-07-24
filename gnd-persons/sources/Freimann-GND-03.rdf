@@ -1,0 +1,2987 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix jl: <http://data.judaicalink.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.judaicalink.org/data/gnd/100369235> a foaf:Person ;
+    gndo:gndIdentifier "100369235" ;
+    owl:sameAs <http://d-nb.info/gnd/100369235> ;
+    skos:prefLabel "Leon, Gottlieb von" .
+
+<http://data.judaicalink.org/data/gnd/1011416956> a foaf:Person ;
+    gndo:gndIdentifier "1011416956" ;
+    owl:sameAs <http://d-nb.info/gnd/1011416956> ;
+    skos:prefLabel "Pohlmann, Walter" .
+
+<http://data.judaicalink.org/data/gnd/1012270882> a foaf:Person ;
+    gndo:gndIdentifier "1012270882" ;
+    owl:sameAs <http://d-nb.info/gnd/1012270882> ;
+    skos:prefLabel "Hausmeister, Max" .
+
+<http://data.judaicalink.org/data/gnd/1012407225> a foaf:Person ;
+    gndo:gndIdentifier "1012407225" ;
+    owl:sameAs <http://d-nb.info/gnd/1012407225> ;
+    skos:prefLabel "Rosenthal, Berthold" .
+
+<http://data.judaicalink.org/data/gnd/1015081401> a foaf:Person ;
+    gndo:gndIdentifier "1015081401" ;
+    owl:sameAs <http://d-nb.info/gnd/1015081401> ;
+    skos:prefLabel "Hecht, Emanuel" .
+
+<http://data.judaicalink.org/data/gnd/1016630956> a foaf:Person ;
+    gndo:gndIdentifier "1016630956" ;
+    owl:sameAs <http://d-nb.info/gnd/1016630956> ;
+    skos:prefLabel "Tilgner, Gottfried" .
+
+<http://data.judaicalink.org/data/gnd/1017132410> a foaf:Person ;
+    gndo:gndIdentifier "1017132410" ;
+    owl:sameAs <http://d-nb.info/gnd/1017132410> ;
+    skos:prefLabel "Augusti, Ernst Friedrich Anton" .
+
+<http://data.judaicalink.org/data/gnd/1017735972> a foaf:Person ;
+    gndo:gndIdentifier "1017735972" ;
+    owl:sameAs <http://d-nb.info/gnd/1017735972> ;
+    skos:prefLabel "Kutschera, Hugo" .
+
+<http://data.judaicalink.org/data/gnd/10187782X> a foaf:Person ;
+    gndo:gndIdentifier "10187782X" ;
+    owl:sameAs <http://d-nb.info/gnd/10187782X> ;
+    skos:prefLabel "Friedemann, Edmund" .
+
+<http://data.judaicalink.org/data/gnd/1018919155> a foaf:Person ;
+    gndo:gndIdentifier "1018919155" ;
+    owl:sameAs <http://d-nb.info/gnd/1018919155> ;
+    skos:prefLabel "Laser, S. M." .
+
+<http://data.judaicalink.org/data/gnd/101892837> a foaf:Person ;
+    gndo:gndIdentifier "101892837" ;
+    owl:sameAs <http://d-nb.info/gnd/101892837> ;
+    skos:prefLabel "Harder, Hans Wilhelm" .
+
+<http://data.judaicalink.org/data/gnd/1019871121> a foaf:Person ;
+    gndo:gndIdentifier "1019871121" ;
+    owl:sameAs <http://d-nb.info/gnd/1019871121> ;
+    skos:prefLabel "Zuns, Julius" .
+
+<http://data.judaicalink.org/data/gnd/101987337X> a foaf:Person ;
+    gndo:gndIdentifier "101987337X" ;
+    owl:sameAs <http://d-nb.info/gnd/101987337X> ;
+    skos:prefLabel "Meinig, Christian Gottlieb" .
+
+<http://data.judaicalink.org/data/gnd/1020702001> a foaf:Person ;
+    gndo:gndIdentifier "1020702001" ;
+    owl:sameAs <http://d-nb.info/gnd/1020702001> ;
+    skos:prefLabel "Mansch, Philipp" .
+
+<http://data.judaicalink.org/data/gnd/1022870319> a foaf:Person ;
+    gndo:gndIdentifier "1022870319" ;
+    owl:sameAs <http://d-nb.info/gnd/1022870319> ;
+    skos:prefLabel "Merunowicz, Teofil" .
+
+<http://data.judaicalink.org/data/gnd/102295296X> a foaf:Person ;
+    gndo:gndIdentifier "102295296X" ;
+    owl:sameAs <http://d-nb.info/gnd/102295296X> ;
+    skos:prefLabel "Girbal, Enrique Claudio" .
+
+<http://data.judaicalink.org/data/gnd/1023072475> a foaf:Person ;
+    gndo:gndIdentifier "1023072475" ;
+    owl:sameAs <http://d-nb.info/gnd/1023072475> ;
+    skos:prefLabel "Holst, Johann Ludolf" .
+
+<http://data.judaicalink.org/data/gnd/1023313308> a foaf:Person ;
+    gndo:gndIdentifier "1023313308" ;
+    owl:sameAs <http://d-nb.info/gnd/1023313308> ;
+    skos:prefLabel "Sommerfeld, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/1024205452> a foaf:Person ;
+    gndo:gndIdentifier "1024205452" ;
+    owl:sameAs <http://d-nb.info/gnd/1024205452> ;
+    skos:prefLabel "Jacobson, J. H." .
+
+<http://data.judaicalink.org/data/gnd/1024686493> a foaf:Person ;
+    gndo:gndIdentifier "1024686493" ;
+    owl:sameAs <http://d-nb.info/gnd/1024686493> ;
+    skos:prefLabel "Friedemann, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/1025106865> a foaf:Person ;
+    gndo:gndIdentifier "1025106865" ;
+    owl:sameAs <http://d-nb.info/gnd/1025106865> ;
+    skos:prefLabel "Plantavit, de la Pause Jean de" .
+
+<http://data.judaicalink.org/data/gnd/1025366484> a foaf:Person ;
+    gndo:gndIdentifier "1025366484" ;
+    owl:sameAs <http://d-nb.info/gnd/1025366484> ;
+    skos:prefLabel "Steinthal, Salomon" .
+
+<http://data.judaicalink.org/data/gnd/1026173841> a foaf:Person ;
+    gndo:gndIdentifier "1026173841" ;
+    owl:sameAs <http://d-nb.info/gnd/1026173841> ;
+    skos:prefLabel "Lowositz, Isaac B." .
+
+<http://data.judaicalink.org/data/gnd/1032910070> a foaf:Person ;
+    gndo:gndIdentifier "1032910070" ;
+    owl:sameAs <http://d-nb.info/gnd/1032910070> ;
+    skos:prefLabel "Aron, Arnold" .
+
+<http://data.judaicalink.org/data/gnd/1033433845> a foaf:Person ;
+    gndo:gndIdentifier "1033433845" ;
+    owl:sameAs <http://d-nb.info/gnd/1033433845> ;
+    skos:prefLabel "Bamberger, Naphtalie" .
+
+<http://data.judaicalink.org/data/gnd/1033993328> a foaf:Person ;
+    gndo:gndIdentifier "1033993328" ;
+    owl:sameAs <http://d-nb.info/gnd/1033993328> ;
+    skos:prefLabel "Friedland, Nathan" .
+
+<http://data.judaicalink.org/data/gnd/1034731270> a foaf:Person ;
+    gndo:gndIdentifier "1034731270" ;
+    owl:sameAs <http://d-nb.info/gnd/1034731270> ;
+    skos:prefLabel "Goldberg, Hirsch" .
+
+<http://data.judaicalink.org/data/gnd/1035177048> a foaf:Person ;
+    gndo:gndIdentifier "1035177048" ;
+    owl:sameAs <http://d-nb.info/gnd/1035177048> ;
+    skos:prefLabel "Westphal, Gustav" .
+
+<http://data.judaicalink.org/data/gnd/1038429390> a foaf:Person ;
+    gndo:gndIdentifier "1038429390" ;
+    owl:sameAs <http://d-nb.info/gnd/1038429390> ;
+    skos:prefLabel "Flanter, Emil" .
+
+<http://data.judaicalink.org/data/gnd/103856428X> a foaf:Person ;
+    gndo:gndIdentifier "103856428X" ;
+    owl:sameAs <http://d-nb.info/gnd/103856428X> ;
+    skos:prefLabel "Kohler, Max James" .
+
+<http://data.judaicalink.org/data/gnd/104113316> a foaf:Person ;
+    gndo:gndIdentifier "104113316" ;
+    owl:sameAs <http://d-nb.info/gnd/104113316> ;
+    skos:prefLabel "Pinner, Ephraim Moses" .
+
+<http://data.judaicalink.org/data/gnd/104268786> a foaf:Person ;
+    gndo:gndIdentifier "104268786" ;
+    owl:sameAs <http://d-nb.info/gnd/104268786> ;
+    skos:prefLabel "Torczyner, Harry" .
+
+<http://data.judaicalink.org/data/gnd/1044166886> a foaf:Person ;
+    gndo:gndIdentifier "1044166886" ;
+    owl:sameAs <http://d-nb.info/gnd/1044166886> ;
+    skos:prefLabel "Marx, Gertrud" .
+
+<http://data.judaicalink.org/data/gnd/104417188X> a foaf:Person ;
+    gndo:gndIdentifier "104417188X" ;
+    owl:sameAs <http://d-nb.info/gnd/104417188X> ;
+    skos:prefLabel "Schwadron, Abraham" .
+
+<http://data.judaicalink.org/data/gnd/1044245182> a foaf:Person ;
+    gndo:gndIdentifier "1044245182" ;
+    owl:sameAs <http://d-nb.info/gnd/1044245182> ;
+    skos:prefLabel "Sarsowsky, Abraham" .
+
+<http://data.judaicalink.org/data/gnd/1044407352> a foaf:Person ;
+    gndo:gndIdentifier "1044407352" ;
+    owl:sameAs <http://d-nb.info/gnd/1044407352> ;
+    skos:prefLabel "Kreppel, Jonas" .
+
+<http://data.judaicalink.org/data/gnd/1044697288> a foaf:Person ;
+    gndo:gndIdentifier "1044697288" ;
+    owl:sameAs <http://d-nb.info/gnd/1044697288> ;
+    skos:prefLabel "Wanie, Paul" .
+
+<http://data.judaicalink.org/data/gnd/1046635344> a foaf:Person ;
+    gndo:gndIdentifier "1046635344" ;
+    owl:sameAs <http://d-nb.info/gnd/1046635344> ;
+    skos:prefLabel "Steglich, Ernst Adolf" .
+
+<http://data.judaicalink.org/data/gnd/1046733184> a foaf:Person ;
+    gndo:gndIdentifier "1046733184" ;
+    owl:sameAs <http://d-nb.info/gnd/1046733184> ;
+    skos:prefLabel "Sandler, Neumann" .
+
+<http://data.judaicalink.org/data/gnd/104734842X> a foaf:Person ;
+    gndo:gndIdentifier "104734842X" ;
+    owl:sameAs <http://d-nb.info/gnd/104734842X> ;
+    skos:prefLabel "Brandin, Louis" .
+
+<http://data.judaicalink.org/data/gnd/1049227204> a foaf:Person ;
+    gndo:gndIdentifier "1049227204" ;
+    owl:sameAs <http://d-nb.info/gnd/1049227204> ;
+    skos:prefLabel "Weil, A." .
+
+<http://data.judaicalink.org/data/gnd/1050251393> a foaf:Person ;
+    gndo:gndIdentifier "1050251393" ;
+    owl:sameAs <http://d-nb.info/gnd/1050251393> ;
+    skos:prefLabel "Bodelschwingh, Franz von" .
+
+<http://data.judaicalink.org/data/gnd/1050460162> a foaf:Person ;
+    gndo:gndIdentifier "1050460162" ;
+    owl:sameAs <http://d-nb.info/gnd/1050460162> ;
+    skos:prefLabel "Deutsch, Gotthard" .
+
+<http://data.judaicalink.org/data/gnd/1051508053> a foaf:Person ;
+    gndo:gndIdentifier "1051508053" ;
+    owl:sameAs <http://d-nb.info/gnd/1051508053> ;
+    skos:prefLabel "Wolff, S. A." .
+
+<http://data.judaicalink.org/data/gnd/1051728495> a foaf:Person ;
+    gndo:gndIdentifier "1051728495" ;
+    owl:sameAs <http://d-nb.info/gnd/1051728495> ;
+    skos:prefLabel "Ferdinand-Lop, S." .
+
+<http://data.judaicalink.org/data/gnd/1053003722> a foaf:Person ;
+    gndo:gndIdentifier "1053003722" ;
+    owl:sameAs <http://d-nb.info/gnd/1053003722> ;
+    skos:prefLabel "Schwarz, Jason L." .
+
+<http://data.judaicalink.org/data/gnd/1053045786> a foaf:Person ;
+    gndo:gndIdentifier "1053045786" ;
+    owl:sameAs <http://d-nb.info/gnd/1053045786> ;
+    skos:prefLabel "Duschinsky, Charles" .
+
+<http://data.judaicalink.org/data/gnd/105327873X> a foaf:Person ;
+    gndo:gndIdentifier "105327873X" ;
+    owl:sameAs <http://d-nb.info/gnd/105327873X> ;
+    skos:prefLabel "Heymann, Aron Hirsch" .
+
+<http://data.judaicalink.org/data/gnd/1053285515> a foaf:Person ;
+    gndo:gndIdentifier "1053285515" ;
+    owl:sameAs <http://d-nb.info/gnd/1053285515> ;
+    skos:prefLabel "Feldman, William Moses" .
+
+<http://data.judaicalink.org/data/gnd/1053292554> a foaf:Person ;
+    gndo:gndIdentifier "1053292554" ;
+    owl:sameAs <http://d-nb.info/gnd/1053292554> ;
+    skos:prefLabel "Mieses, Isaak" .
+
+<http://data.judaicalink.org/data/gnd/1053292708> a foaf:Person ;
+    gndo:gndIdentifier "1053292708" ;
+    owl:sameAs <http://d-nb.info/gnd/1053292708> ;
+    skos:prefLabel "Raisin, Max" .
+
+<http://data.judaicalink.org/data/gnd/105329283X> a foaf:Person ;
+    gndo:gndIdentifier "105329283X" ;
+    owl:sameAs <http://d-nb.info/gnd/105329283X> ;
+    skos:prefLabel "Jacobson, Wolf S." .
+
+<http://data.judaicalink.org/data/gnd/1054961085> a foaf:Person ;
+    gndo:gndIdentifier "1054961085" ;
+    owl:sameAs <http://d-nb.info/gnd/1054961085> ;
+    skos:prefLabel "Stusslieb, Ernst" .
+
+<http://data.judaicalink.org/data/gnd/1054967997> a foaf:Person ;
+    gndo:gndIdentifier "1054967997" ;
+    owl:sameAs <http://d-nb.info/gnd/1054967997> ;
+    skos:prefLabel "Schwechten, Eduard" .
+
+<http://data.judaicalink.org/data/gnd/1055089284> a foaf:Person ;
+    gndo:gndIdentifier "1055089284" ;
+    owl:sameAs <http://d-nb.info/gnd/1055089284> ;
+    skos:prefLabel "Stokes, Henry Paine" .
+
+<http://data.judaicalink.org/data/gnd/1055104488> a foaf:Person ;
+    gndo:gndIdentifier "1055104488" ;
+    owl:sameAs <http://d-nb.info/gnd/1055104488> ;
+    skos:prefLabel "Tereg, Josef" .
+
+<http://data.judaicalink.org/data/gnd/1055119035> a foaf:Person ;
+    gndo:gndIdentifier "1055119035" ;
+    owl:sameAs <http://d-nb.info/gnd/1055119035> ;
+    skos:prefLabel "Pawel-Rammingen, Alexander" .
+
+<http://data.judaicalink.org/data/gnd/105514627X> a foaf:Person ;
+    gndo:gndIdentifier "105514627X" ;
+    owl:sameAs <http://d-nb.info/gnd/105514627X> ;
+    skos:prefLabel "Zeitlin, William" .
+
+<http://data.judaicalink.org/data/gnd/1055156852> a foaf:Person ;
+    gndo:gndIdentifier "1055156852" ;
+    owl:sameAs <http://d-nb.info/gnd/1055156852> ;
+    skos:prefLabel "Melamed, Samuel Max" .
+
+<http://data.judaicalink.org/data/gnd/1055169296> a foaf:Person ;
+    gndo:gndIdentifier "1055169296" ;
+    owl:sameAs <http://d-nb.info/gnd/1055169296> ;
+    skos:prefLabel "Jacobus, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/105519617X> a foaf:Person ;
+    gndo:gndIdentifier "105519617X" ;
+    owl:sameAs <http://d-nb.info/gnd/105519617X> ;
+    skos:prefLabel "Levin, Moritz" .
+
+<http://data.judaicalink.org/data/gnd/1055233393> a foaf:Person ;
+    gndo:gndIdentifier "1055233393" ;
+    owl:sameAs <http://d-nb.info/gnd/1055233393> ;
+    skos:prefLabel "Krauskopf, Joseph" .
+
+<http://data.judaicalink.org/data/gnd/1055234470> a foaf:Person ;
+    gndo:gndIdentifier "1055234470" ;
+    owl:sameAs <http://d-nb.info/gnd/1055234470> ;
+    skos:prefLabel "Coblenz, Felix" .
+
+<http://data.judaicalink.org/data/gnd/1055241507> a foaf:Person ;
+    gndo:gndIdentifier "1055241507" ;
+    owl:sameAs <http://d-nb.info/gnd/1055241507> ;
+    skos:prefLabel "Vulliaud, Paul" .
+
+<http://data.judaicalink.org/data/gnd/1055250255> a foaf:Person ;
+    gndo:gndIdentifier "1055250255" ;
+    owl:sameAs <http://d-nb.info/gnd/1055250255> ;
+    skos:prefLabel "Nawratzki, Kurt" .
+
+<http://data.judaicalink.org/data/gnd/1055263985> a foaf:Person ;
+    gndo:gndIdentifier "1055263985" ;
+    owl:sameAs <http://d-nb.info/gnd/1055263985> ;
+    skos:prefLabel "Kannengieser, Alphonse" .
+
+<http://data.judaicalink.org/data/gnd/1055290966> a foaf:Person ;
+    gndo:gndIdentifier "1055290966" ;
+    owl:sameAs <http://d-nb.info/gnd/1055290966> ;
+    skos:prefLabel "Manfrin, Pietro" .
+
+<http://data.judaicalink.org/data/gnd/1055381198> a foaf:Person ;
+    gndo:gndIdentifier "1055381198" ;
+    owl:sameAs <http://d-nb.info/gnd/1055381198> ;
+    skos:prefLabel "Fowler, Henry Thatcher" .
+
+<http://data.judaicalink.org/data/gnd/1055382151> a foaf:Person ;
+    gndo:gndIdentifier "1055382151" ;
+    owl:sameAs <http://d-nb.info/gnd/1055382151> ;
+    skos:prefLabel "Pace, Edward" .
+
+<http://data.judaicalink.org/data/gnd/1055382348> a foaf:Person ;
+    gndo:gndIdentifier "1055382348" ;
+    owl:sameAs <http://d-nb.info/gnd/1055382348> ;
+    skos:prefLabel "Walde, Bernhard" .
+
+<http://data.judaicalink.org/data/gnd/1055382550> a foaf:Person ;
+    gndo:gndIdentifier "1055382550" ;
+    owl:sameAs <http://d-nb.info/gnd/1055382550> ;
+    skos:prefLabel "Templer, Bernhard" .
+
+<http://data.judaicalink.org/data/gnd/1055387234> a foaf:Person ;
+    gndo:gndIdentifier "1055387234" ;
+    owl:sameAs <http://d-nb.info/gnd/1055387234> ;
+    skos:prefLabel "Popper, William" .
+
+<http://data.judaicalink.org/data/gnd/1055388303> a foaf:Person ;
+    gndo:gndIdentifier "1055388303" ;
+    owl:sameAs <http://d-nb.info/gnd/1055388303> ;
+    skos:prefLabel "Green, Max" .
+
+<http://data.judaicalink.org/data/gnd/105538894X> a foaf:Person ;
+    gndo:gndIdentifier "105538894X" ;
+    owl:sameAs <http://d-nb.info/gnd/105538894X> ;
+    skos:prefLabel "Braunschweiger, Moses" .
+
+<http://data.judaicalink.org/data/gnd/1055390537> a foaf:Person ;
+    gndo:gndIdentifier "1055390537" ;
+    owl:sameAs <http://d-nb.info/gnd/1055390537> ;
+    skos:prefLabel "Rosenzweig, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/1055400303> a foaf:Person ;
+    gndo:gndIdentifier "1055400303" ;
+    owl:sameAs <http://d-nb.info/gnd/1055400303> ;
+    skos:prefLabel "Cholewa, von Pawlikowski Constantin" .
+
+<http://data.judaicalink.org/data/gnd/1055401008> a foaf:Person ;
+    gndo:gndIdentifier "1055401008" ;
+    owl:sameAs <http://d-nb.info/gnd/1055401008> ;
+    skos:prefLabel "Thiele, A. F." .
+
+<http://data.judaicalink.org/data/gnd/1055402659> a foaf:Person ;
+    gndo:gndIdentifier "1055402659" ;
+    owl:sameAs <http://d-nb.info/gnd/1055402659> ;
+    skos:prefLabel "Heilbut, A." .
+
+<http://data.judaicalink.org/data/gnd/1055403779> a foaf:Person ;
+    gndo:gndIdentifier "1055403779" ;
+    owl:sameAs <http://d-nb.info/gnd/1055403779> ;
+    skos:prefLabel "Gastfreund, Isaac" .
+
+<http://data.judaicalink.org/data/gnd/1055407502> a foaf:Person ;
+    gndo:gndIdentifier "1055407502" ;
+    owl:sameAs <http://d-nb.info/gnd/1055407502> ;
+    skos:prefLabel "Levi, Benedetto" .
+
+<http://data.judaicalink.org/data/gnd/1055407529> a foaf:Person ;
+    gndo:gndIdentifier "1055407529" ;
+    owl:sameAs <http://d-nb.info/gnd/1055407529> ;
+    skos:prefLabel "Baumgarten, Emanuel" .
+
+<http://data.judaicalink.org/data/gnd/1055409203> a foaf:Person ;
+    gndo:gndIdentifier "1055409203" ;
+    owl:sameAs <http://d-nb.info/gnd/1055409203> ;
+    skos:prefLabel "Feldman, Asher" .
+
+<http://data.judaicalink.org/data/gnd/1055418199> a foaf:Person ;
+    gndo:gndIdentifier "1055418199" ;
+    owl:sameAs <http://d-nb.info/gnd/1055418199> ;
+    skos:prefLabel "Gerber, Wenzel J." .
+
+<http://data.judaicalink.org/data/gnd/1055431675> a foaf:Person ;
+    gndo:gndIdentifier "1055431675" ;
+    owl:sameAs <http://d-nb.info/gnd/1055431675> ;
+    skos:prefLabel "Krupnik, Baruch" .
+
+<http://data.judaicalink.org/data/gnd/1055431713> a foaf:Person ;
+    gndo:gndIdentifier "1055431713" ;
+    owl:sameAs <http://d-nb.info/gnd/1055431713> ;
+    skos:prefLabel "Levias, Caspar" .
+
+<http://data.judaicalink.org/data/gnd/1055453946> a foaf:Person ;
+    gndo:gndIdentifier "1055453946" ;
+    owl:sameAs <http://d-nb.info/gnd/1055453946> ;
+    skos:prefLabel "Jones, Thomas John" .
+
+<http://data.judaicalink.org/data/gnd/1055489924> a foaf:Person ;
+    gndo:gndIdentifier "1055489924" ;
+    owl:sameAs <http://d-nb.info/gnd/1055489924> ;
+    skos:prefLabel "Kraetzschmar, Richard" .
+
+<http://data.judaicalink.org/data/gnd/1055491910> a foaf:Person ;
+    gndo:gndIdentifier "1055491910" ;
+    owl:sameAs <http://d-nb.info/gnd/1055491910> ;
+    skos:prefLabel "Otto, Friedrich Karl" .
+
+<http://data.judaicalink.org/data/gnd/1055496637> a foaf:Person ;
+    gndo:gndIdentifier "1055496637" ;
+    owl:sameAs <http://d-nb.info/gnd/1055496637> ;
+    skos:prefLabel "Gugenheimer, Raphael" .
+
+<http://data.judaicalink.org/data/gnd/1055502246> a foaf:Person ;
+    gndo:gndIdentifier "1055502246" ;
+    owl:sameAs <http://d-nb.info/gnd/1055502246> ;
+    skos:prefLabel "Assa" .
+
+<http://data.judaicalink.org/data/gnd/1055524045> a foaf:Person ;
+    gndo:gndIdentifier "1055524045" ;
+    owl:sameAs <http://d-nb.info/gnd/1055524045> ;
+    skos:prefLabel "Francolm, Isaac Assur" .
+
+<http://data.judaicalink.org/data/gnd/1055580301> a foaf:Person ;
+    gndo:gndIdentifier "1055580301" ;
+    owl:sameAs <http://d-nb.info/gnd/1055580301> ;
+    skos:prefLabel "Peschmann, Johann Daniel" .
+
+<http://data.judaicalink.org/data/gnd/105691999X> a foaf:Person ;
+    gndo:gndIdentifier "105691999X" ;
+    owl:sameAs <http://d-nb.info/gnd/105691999X> ;
+    skos:prefLabel "Ehrentheil, Moritz" .
+
+<http://data.judaicalink.org/data/gnd/1057554693> a foaf:Person ;
+    gndo:gndIdentifier "1057554693" ;
+    owl:sameAs <http://d-nb.info/gnd/1057554693> ;
+    skos:prefLabel "Magnus, Katie" .
+
+<http://data.judaicalink.org/data/gnd/1057567507> a foaf:Person ;
+    gndo:gndIdentifier "1057567507" ;
+    owl:sameAs <http://d-nb.info/gnd/1057567507> ;
+    skos:prefLabel "Oko, Adolph S." .
+
+<http://data.judaicalink.org/data/gnd/1057580805> a foaf:Person ;
+    gndo:gndIdentifier "1057580805" ;
+    owl:sameAs <http://d-nb.info/gnd/1057580805> ;
+    skos:prefLabel "Lucien-Brun, Henry" .
+
+<http://data.judaicalink.org/data/gnd/1057741485> a foaf:Person ;
+    gndo:gndIdentifier "1057741485" ;
+    owl:sameAs <http://d-nb.info/gnd/1057741485> ;
+    skos:prefLabel "Lewin, Moses" .
+
+<http://data.judaicalink.org/data/gnd/1058987739> a foaf:Person ;
+    gndo:gndIdentifier "1058987739" ;
+    owl:sameAs <http://d-nb.info/gnd/1058987739> ;
+    skos:prefLabel "Seeligmann, Sigmund" .
+
+<http://data.judaicalink.org/data/gnd/106282654X> a foaf:Person ;
+    gndo:gndIdentifier "106282654X" ;
+    owl:sameAs <http://d-nb.info/gnd/106282654X> ;
+    skos:prefLabel "Schleßinger, L." .
+
+<http://data.judaicalink.org/data/gnd/1064967043> a foaf:Person ;
+    gndo:gndIdentifier "1064967043" ;
+    owl:sameAs <http://d-nb.info/gnd/1064967043> ;
+    skos:prefLabel "Bass, Ernst" .
+
+<http://data.judaicalink.org/data/gnd/1065697341> a foaf:Person ;
+    gndo:gndIdentifier "1065697341" ;
+    owl:sameAs <http://d-nb.info/gnd/1065697341> ;
+    skos:prefLabel "Bodemeyer, Hildebrand" .
+
+<http://data.judaicalink.org/data/gnd/1067195033> a foaf:Person ;
+    gndo:gndIdentifier "1067195033" ;
+    owl:sameAs <http://d-nb.info/gnd/1067195033> ;
+    skos:prefLabel "Herzberg, Isaak" .
+
+<http://data.judaicalink.org/data/gnd/1067647651> a foaf:Person ;
+    gndo:gndIdentifier "1067647651" ;
+    owl:sameAs <http://d-nb.info/gnd/1067647651> ;
+    skos:prefLabel "Bretzfeld, Majer" .
+
+<http://data.judaicalink.org/data/gnd/1067657770> a foaf:Person ;
+    gndo:gndIdentifier "1067657770" ;
+    owl:sameAs <http://d-nb.info/gnd/1067657770> ;
+    skos:prefLabel "Birkenstein, Elias" .
+
+<http://data.judaicalink.org/data/gnd/1068410655> a foaf:Person ;
+    gndo:gndIdentifier "1068410655" ;
+    owl:sameAs <http://d-nb.info/gnd/1068410655> ;
+    skos:prefLabel "Loeb, Moritz A." .
+
+<http://data.judaicalink.org/data/gnd/1071550225> a foaf:Person ;
+    gndo:gndIdentifier "1071550225" ;
+    owl:sameAs <http://d-nb.info/gnd/1071550225> ;
+    skos:prefLabel "Kortum, Ernst Traugott von" .
+
+<http://data.judaicalink.org/data/gnd/1073387755> a foaf:Person ;
+    gndo:gndIdentifier "1073387755" ;
+    owl:sameAs <http://d-nb.info/gnd/1073387755> ;
+    skos:prefLabel "Ellinger, S." .
+
+<http://data.judaicalink.org/data/gnd/1073494764> a foaf:Person ;
+    gndo:gndIdentifier "1073494764" ;
+    owl:sameAs <http://d-nb.info/gnd/1073494764> ;
+    skos:prefLabel "Grumbkow, Richard von" .
+
+<http://data.judaicalink.org/data/gnd/1073524841> a foaf:Person ;
+    gndo:gndIdentifier "1073524841" ;
+    owl:sameAs <http://d-nb.info/gnd/1073524841> ;
+    skos:prefLabel "Geiger, Raymond" .
+
+<http://data.judaicalink.org/data/gnd/1076058906> a foaf:Person ;
+    gndo:gndIdentifier "1076058906" ;
+    owl:sameAs <http://d-nb.info/gnd/1076058906> ;
+    skos:prefLabel "Fink, R." .
+
+<http://data.judaicalink.org/data/gnd/1076745091> a foaf:Person ;
+    gndo:gndIdentifier "1076745091" ;
+    owl:sameAs <http://d-nb.info/gnd/1076745091> ;
+    skos:prefLabel "Blach, Samuel" .
+
+<http://data.judaicalink.org/data/gnd/1077374143> a foaf:Person ;
+    gndo:gndIdentifier "1077374143" ;
+    owl:sameAs <http://d-nb.info/gnd/1077374143> ;
+    skos:prefLabel "Goldschmidt, Caroline" .
+
+<http://data.judaicalink.org/data/gnd/1077531311> a foaf:Person ;
+    gndo:gndIdentifier "1077531311" ;
+    owl:sameAs <http://d-nb.info/gnd/1077531311> ;
+    skos:prefLabel "Briess, Ignaz" .
+
+<http://data.judaicalink.org/data/gnd/1079552294> a foaf:Person ;
+    gndo:gndIdentifier "1079552294" ;
+    owl:sameAs <http://d-nb.info/gnd/1079552294> ;
+    skos:prefLabel "Taubert, Wilhelm" .
+
+<http://data.judaicalink.org/data/gnd/1081391111> a foaf:Person ;
+    gndo:gndIdentifier "1081391111" ;
+    owl:sameAs <http://d-nb.info/gnd/1081391111> ;
+    skos:prefLabel "Badt, Benno" .
+
+<http://data.judaicalink.org/data/gnd/1081941375> a foaf:Person ;
+    gndo:gndIdentifier "1081941375" ;
+    owl:sameAs <http://d-nb.info/gnd/1081941375> ;
+    skos:prefLabel "Hellwitz, Levi Lazar" .
+
+<http://data.judaicalink.org/data/gnd/1089140029> a foaf:Person ;
+    gndo:gndIdentifier "1089140029" ;
+    owl:sameAs <http://d-nb.info/gnd/1089140029> ;
+    skos:prefLabel "Corbella, Ramon" .
+
+<http://data.judaicalink.org/data/gnd/1089383541> a foaf:Person ;
+    gndo:gndIdentifier "1089383541" ;
+    owl:sameAs <http://d-nb.info/gnd/1089383541> ;
+    skos:prefLabel "Astruc, Elie Aristide" .
+
+<http://data.judaicalink.org/data/gnd/1089516118> a foaf:Person ;
+    gndo:gndIdentifier "1089516118" ;
+    owl:sameAs <http://d-nb.info/gnd/1089516118> ;
+    skos:prefLabel "Arigita, y Lasa Mariano" .
+
+<http://data.judaicalink.org/data/gnd/1096197278> a foaf:Person ;
+    gndo:gndIdentifier "1096197278" ;
+    owl:sameAs <http://d-nb.info/gnd/1096197278> ;
+    skos:prefLabel "Marx, Lehmann" .
+
+<http://data.judaicalink.org/data/gnd/1108833209> a foaf:Person ;
+    gndo:gndIdentifier "1108833209" ;
+    owl:sameAs <http://d-nb.info/gnd/1108833209> ;
+    skos:prefLabel "Gossel, J." .
+
+<http://data.judaicalink.org/data/gnd/1116982161> a foaf:Person ;
+    gndo:gndIdentifier "1116982161" ;
+    owl:sameAs <http://d-nb.info/gnd/1116982161> ;
+    skos:prefLabel "Spiethoff, Gustav" .
+
+<http://data.judaicalink.org/data/gnd/111917368X> a foaf:Person ;
+    gndo:gndIdentifier "111917368X" ;
+    owl:sameAs <http://d-nb.info/gnd/111917368X> ;
+    skos:prefLabel "Sacchi, Federico" .
+
+<http://data.judaicalink.org/data/gnd/113058039> a foaf:Person ;
+    gndo:gndIdentifier "113058039" ;
+    owl:sameAs <http://d-nb.info/gnd/113058039> ;
+    skos:prefLabel "Coudenhove-Kalergi, Heinrich" .
+
+<http://data.judaicalink.org/data/gnd/113744269> a foaf:Person ;
+    gndo:gndIdentifier "113744269" ;
+    owl:sameAs <http://d-nb.info/gnd/113744269> ;
+    skos:prefLabel "Roest, Meir" .
+
+<http://data.judaicalink.org/data/gnd/1145355013> a foaf:Person ;
+    gndo:gndIdentifier "1145355013" ;
+    owl:sameAs <http://d-nb.info/gnd/1145355013> ;
+    skos:prefLabel "Berliner, Ludwig" .
+
+<http://data.judaicalink.org/data/gnd/1145936148> a foaf:Person ;
+    gndo:gndIdentifier "1145936148" ;
+    owl:sameAs <http://d-nb.info/gnd/1145936148> ;
+    skos:prefLabel "Busse, Eduard" .
+
+<http://data.judaicalink.org/data/gnd/114600981X> a foaf:Person ;
+    gndo:gndIdentifier "114600981X" ;
+    owl:sameAs <http://d-nb.info/gnd/114600981X> ;
+    skos:prefLabel "Lewy, Immanuel" .
+
+<http://data.judaicalink.org/data/gnd/1146110987> a foaf:Person ;
+    gndo:gndIdentifier "1146110987" ;
+    owl:sameAs <http://d-nb.info/gnd/1146110987> ;
+    skos:prefLabel "Friedmann, Joseph" .
+
+<http://data.judaicalink.org/data/gnd/115554068> a foaf:Person ;
+    gndo:gndIdentifier "115554068" ;
+    owl:sameAs <http://d-nb.info/gnd/115554068> ;
+    skos:prefLabel "Gog, Gregor" .
+
+<http://data.judaicalink.org/data/gnd/115741208> a foaf:Person ;
+    gndo:gndIdentifier "115741208" ;
+    owl:sameAs <http://d-nb.info/gnd/115741208> ;
+    skos:prefLabel "Philippi, Johann Albrecht" .
+
+<http://data.judaicalink.org/data/gnd/115745548> a foaf:Person ;
+    gndo:gndIdentifier "115745548" ;
+    owl:sameAs <http://d-nb.info/gnd/115745548> ;
+    skos:prefLabel "Neubauer, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/11601119X> a foaf:Person ;
+    gndo:gndIdentifier "11601119X" ;
+    owl:sameAs <http://d-nb.info/gnd/11601119X> ;
+    skos:prefLabel "Paalzow, Christian Ludwig" .
+
+<http://data.judaicalink.org/data/gnd/116015934> a foaf:Person ;
+    gndo:gndIdentifier "116015934" ;
+    owl:sameAs <http://d-nb.info/gnd/116015934> ;
+    skos:prefLabel "Daiches, Samuel" .
+
+<http://data.judaicalink.org/data/gnd/11602450X> a foaf:Person ;
+    gndo:gndIdentifier "11602450X" ;
+    owl:sameAs <http://d-nb.info/gnd/11602450X> ;
+    skos:prefLabel "Kaim, Isidor" .
+
+<http://data.judaicalink.org/data/gnd/116042788> a foaf:Person ;
+    gndo:gndIdentifier "116042788" ;
+    owl:sameAs <http://d-nb.info/gnd/116042788> ;
+    skos:prefLabel "Baldensperger, Wilhelm" .
+
+<http://data.judaicalink.org/data/gnd/116076054> a foaf:Person ;
+    gndo:gndIdentifier "116076054" ;
+    owl:sameAs <http://d-nb.info/gnd/116076054> ;
+    skos:prefLabel "Barzilai, Giuseppe" .
+
+<http://data.judaicalink.org/data/gnd/116102500> a foaf:Person ;
+    gndo:gndIdentifier "116102500" ;
+    owl:sameAs <http://d-nb.info/gnd/116102500> ;
+    skos:prefLabel "Berner, Albert Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/116117818> a foaf:Person ;
+    gndo:gndIdentifier "116117818" ;
+    owl:sameAs <http://d-nb.info/gnd/116117818> ;
+    skos:prefLabel "Bendavid, Lazarus" .
+
+<http://data.judaicalink.org/data/gnd/11612363X> a foaf:Person ;
+    gndo:gndIdentifier "11612363X" ;
+    owl:sameAs <http://d-nb.info/gnd/11612363X> ;
+    skos:prefLabel "Bentzel-Sternau, Christian Ernst von" .
+
+<http://data.judaicalink.org/data/gnd/11615795X> a foaf:Person ;
+    gndo:gndIdentifier "11615795X" ;
+    owl:sameAs <http://d-nb.info/gnd/11615795X> ;
+    skos:prefLabel "Beugnot, Arthur Auguste de" .
+
+<http://data.judaicalink.org/data/gnd/11616607X> a foaf:Person ;
+    gndo:gndIdentifier "11616607X" ;
+    owl:sameAs <http://d-nb.info/gnd/11616607X> ;
+    skos:prefLabel "Bierling, Friedrich Wilhelm" .
+
+<http://data.judaicalink.org/data/gnd/116188758> a foaf:Person ;
+    gndo:gndIdentifier "116188758" ;
+    owl:sameAs <http://d-nb.info/gnd/116188758> ;
+    skos:prefLabel "Pinner, Felix" .
+
+<http://data.judaicalink.org/data/gnd/116206136> a foaf:Person ;
+    gndo:gndIdentifier "116206136" ;
+    owl:sameAs <http://d-nb.info/gnd/116206136> ;
+    skos:prefLabel "Klatzkin, Jakob" .
+
+<http://data.judaicalink.org/data/gnd/11621709X> a foaf:Person ;
+    gndo:gndIdentifier "11621709X" ;
+    owl:sameAs <http://d-nb.info/gnd/11621709X> ;
+    skos:prefLabel "Dresch, Leonhard von" .
+
+<http://data.judaicalink.org/data/gnd/116243708> a foaf:Person ;
+    gndo:gndIdentifier "116243708" ;
+    owl:sameAs <http://d-nb.info/gnd/116243708> ;
+    skos:prefLabel "Dukmeyer, Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/11630734X> a foaf:Person ;
+    gndo:gndIdentifier "11630734X" ;
+    owl:sameAs <http://d-nb.info/gnd/11630734X> ;
+    skos:prefLabel "Pudor, Heinrich" .
+
+<http://data.judaicalink.org/data/gnd/116309105> a foaf:Person ;
+    gndo:gndIdentifier "116309105" ;
+    owl:sameAs <http://d-nb.info/gnd/116309105> ;
+    skos:prefLabel "Kohut, Adolph" .
+
+<http://data.judaicalink.org/data/gnd/116312084> a foaf:Person ;
+    gndo:gndIdentifier "116312084" ;
+    owl:sameAs <http://d-nb.info/gnd/116312084> ;
+    skos:prefLabel "Anklam, Karl" .
+
+<http://data.judaicalink.org/data/gnd/116316713> a foaf:Person ;
+    gndo:gndIdentifier "116316713" ;
+    owl:sameAs <http://d-nb.info/gnd/116316713> ;
+    skos:prefLabel "Apt, Max" .
+
+<http://data.judaicalink.org/data/gnd/116361190> a foaf:Person ;
+    gndo:gndIdentifier "116361190" ;
+    owl:sameAs <http://d-nb.info/gnd/116361190> ;
+    skos:prefLabel "Asher, David" .
+
+<http://data.judaicalink.org/data/gnd/116373229> a foaf:Person ;
+    gndo:gndIdentifier "116373229" ;
+    owl:sameAs <http://d-nb.info/gnd/116373229> ;
+    skos:prefLabel "Galliner, Arthur" .
+
+<http://data.judaicalink.org/data/gnd/116382511> a foaf:Person ;
+    gndo:gndIdentifier "116382511" ;
+    owl:sameAs <http://d-nb.info/gnd/116382511> ;
+    skos:prefLabel "Ehrenberg, Philipp" .
+
+<http://data.judaicalink.org/data/gnd/116383747> a foaf:Person ;
+    gndo:gndIdentifier "116383747" ;
+    owl:sameAs <http://d-nb.info/gnd/116383747> ;
+    skos:prefLabel "Ehrenpreis, Marcus" .
+
+<http://data.judaicalink.org/data/gnd/116420847> a foaf:Person ;
+    gndo:gndIdentifier "116420847" ;
+    owl:sameAs <http://d-nb.info/gnd/116420847> ;
+    skos:prefLabel "Halpern, Georg" .
+
+<http://data.judaicalink.org/data/gnd/116428716> a foaf:Person ;
+    gndo:gndIdentifier "116428716" ;
+    owl:sameAs <http://d-nb.info/gnd/116428716> ;
+    skos:prefLabel "Reis, Eduard" .
+
+<http://data.judaicalink.org/data/gnd/116456876> a foaf:Person ;
+    gndo:gndIdentifier "116456876" ;
+    owl:sameAs <http://d-nb.info/gnd/116456876> ;
+    skos:prefLabel "Caro, Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/116482699> a foaf:Person ;
+    gndo:gndIdentifier "116482699" ;
+    owl:sameAs <http://d-nb.info/gnd/116482699> ;
+    skos:prefLabel "Feuchtwanger, Sigbert" .
+
+<http://data.judaicalink.org/data/gnd/116521368> a foaf:Person ;
+    gndo:gndIdentifier "116521368" ;
+    owl:sameAs <http://d-nb.info/gnd/116521368> ;
+    skos:prefLabel "Haubrich, Fritz" .
+
+<http://data.judaicalink.org/data/gnd/11652961X> a foaf:Person ;
+    gndo:gndIdentifier "11652961X" ;
+    owl:sameAs <http://d-nb.info/gnd/11652961X> ;
+    skos:prefLabel "Erbt, Wilhelm" .
+
+<http://data.judaicalink.org/data/gnd/116540729> a foaf:Person ;
+    gndo:gndIdentifier "116540729" ;
+    owl:sameAs <http://d-nb.info/gnd/116540729> ;
+    skos:prefLabel "Riegler, Georg" .
+
+<http://data.judaicalink.org/data/gnd/116586982> a foaf:Person ;
+    gndo:gndIdentifier "116586982" ;
+    owl:sameAs <http://d-nb.info/gnd/116586982> ;
+    skos:prefLabel "Flad, Johann M." .
+
+<http://data.judaicalink.org/data/gnd/116615427> a foaf:Person ;
+    gndo:gndIdentifier "116615427" ;
+    owl:sameAs <http://d-nb.info/gnd/116615427> ;
+    skos:prefLabel "Ghillany, Friedrich Wilhelm" .
+
+<http://data.judaicalink.org/data/gnd/116629096> a foaf:Person ;
+    gndo:gndIdentifier "116629096" ;
+    owl:sameAs <http://d-nb.info/gnd/116629096> ;
+    skos:prefLabel "Cohn, Berthold" .
+
+<http://data.judaicalink.org/data/gnd/116658118> a foaf:Person ;
+    gndo:gndIdentifier "116658118" ;
+    owl:sameAs <http://d-nb.info/gnd/116658118> ;
+    skos:prefLabel "Gleichmann, Johann Zacharias" .
+
+<http://data.judaicalink.org/data/gnd/116671394> a foaf:Person ;
+    gndo:gndIdentifier "116671394" ;
+    owl:sameAs <http://d-nb.info/gnd/116671394> ;
+    skos:prefLabel "Landauer, Georg" .
+
+<http://data.judaicalink.org/data/gnd/116679026> a foaf:Person ;
+    gndo:gndIdentifier "116679026" ;
+    owl:sameAs <http://d-nb.info/gnd/116679026> ;
+    skos:prefLabel "Helbig, Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/116687797> a foaf:Person ;
+    gndo:gndIdentifier "116687797" ;
+    owl:sameAs <http://d-nb.info/gnd/116687797> ;
+    skos:prefLabel "Majer, Johann Christian" .
+
+<http://data.judaicalink.org/data/gnd/116693509> a foaf:Person ;
+    gndo:gndIdentifier "116693509" ;
+    owl:sameAs <http://d-nb.info/gnd/116693509> ;
+    skos:prefLabel "Heman, Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/116717769> a foaf:Person ;
+    gndo:gndIdentifier "116717769" ;
+    owl:sameAs <http://d-nb.info/gnd/116717769> ;
+    skos:prefLabel "Henrici, Ernst" .
+
+<http://data.judaicalink.org/data/gnd/11674040X> a foaf:Person ;
+    gndo:gndIdentifier "11674040X" ;
+    owl:sameAs <http://d-nb.info/gnd/11674040X> ;
+    skos:prefLabel "Sachs, Nathan" .
+
+<http://data.judaicalink.org/data/gnd/116775165> a foaf:Person ;
+    gndo:gndIdentifier "116775165" ;
+    owl:sameAs <http://d-nb.info/gnd/116775165> ;
+    skos:prefLabel "Gorsleben, Rudolf John" .
+
+<http://data.judaicalink.org/data/gnd/116786949> a foaf:Person ;
+    gndo:gndIdentifier "116786949" ;
+    owl:sameAs <http://d-nb.info/gnd/116786949> ;
+    skos:prefLabel "Heyden, Eduard" .
+
+<http://data.judaicalink.org/data/gnd/116787732> a foaf:Person ;
+    gndo:gndIdentifier "116787732" ;
+    owl:sameAs <http://d-nb.info/gnd/116787732> ;
+    skos:prefLabel "Goslar, Hans" .
+
+<http://data.judaicalink.org/data/gnd/11686088X> a foaf:Person ;
+    gndo:gndIdentifier "11686088X" ;
+    owl:sameAs <http://d-nb.info/gnd/11686088X> ;
+    skos:prefLabel "Groener, Maria" .
+
+<http://data.judaicalink.org/data/gnd/11694210X> a foaf:Person ;
+    gndo:gndIdentifier "11694210X" ;
+    owl:sameAs <http://d-nb.info/gnd/11694210X> ;
+    skos:prefLabel "Nestle, Erwin" .
+
+<http://data.judaicalink.org/data/gnd/11696104X> a foaf:Person ;
+    gndo:gndIdentifier "11696104X" ;
+    owl:sameAs <http://d-nb.info/gnd/11696104X> ;
+    skos:prefLabel "Leven, Narcisse" .
+
+<http://data.judaicalink.org/data/gnd/116968516> a foaf:Person ;
+    gndo:gndIdentifier "116968516" ;
+    owl:sameAs <http://d-nb.info/gnd/116968516> ;
+    skos:prefLabel "Levy, M." .
+
+<http://data.judaicalink.org/data/gnd/116969628> a foaf:Person ;
+    gndo:gndIdentifier "116969628" ;
+    owl:sameAs <http://d-nb.info/gnd/116969628> ;
+    skos:prefLabel "Holthof, Ludwig" .
+
+<http://data.judaicalink.org/data/gnd/116971711> a foaf:Person ;
+    gndo:gndIdentifier "116971711" ;
+    owl:sameAs <http://d-nb.info/gnd/116971711> ;
+    skos:prefLabel "Lewin, Samuel" .
+
+<http://data.judaicalink.org/data/gnd/11698239X> a foaf:Person ;
+    gndo:gndIdentifier "11698239X" ;
+    owl:sameAs <http://d-nb.info/gnd/11698239X> ;
+    skos:prefLabel "Zepler, Georg" .
+
+<http://data.judaicalink.org/data/gnd/11698628X> a foaf:Person ;
+    gndo:gndIdentifier "11698628X" ;
+    owl:sameAs <http://d-nb.info/gnd/11698628X> ;
+    skos:prefLabel "Lichtheim, Richard" .
+
+<http://data.judaicalink.org/data/gnd/117026964> a foaf:Person ;
+    gndo:gndIdentifier "117026964" ;
+    owl:sameAs <http://d-nb.info/gnd/117026964> ;
+    skos:prefLabel "Miedel, Julius" .
+
+<http://data.judaicalink.org/data/gnd/11708882X> a foaf:Person ;
+    gndo:gndIdentifier "11708882X" ;
+    owl:sameAs <http://d-nb.info/gnd/11708882X> ;
+    skos:prefLabel "Schaab, Karl Anton" .
+
+<http://data.judaicalink.org/data/gnd/11710115X> a foaf:Person ;
+    gndo:gndIdentifier "11710115X" ;
+    owl:sameAs <http://d-nb.info/gnd/11710115X> ;
+    skos:prefLabel "Schaible, Karl Heinrich" .
+
+<http://data.judaicalink.org/data/gnd/117109207> a foaf:Person ;
+    gndo:gndIdentifier "117109207" ;
+    owl:sameAs <http://d-nb.info/gnd/117109207> ;
+    skos:prefLabel "Scharff, von Scharffenstein Hermann" .
+
+<http://data.judaicalink.org/data/gnd/117116327> a foaf:Person ;
+    gndo:gndIdentifier "117116327" ;
+    owl:sameAs <http://d-nb.info/gnd/117116327> ;
+    skos:prefLabel "Walch, Carl Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/117118249> a foaf:Person ;
+    gndo:gndIdentifier "117118249" ;
+    owl:sameAs <http://d-nb.info/gnd/117118249> ;
+    skos:prefLabel "Waldeck, Oskar" .
+
+<http://data.judaicalink.org/data/gnd/117149411> a foaf:Person ;
+    gndo:gndIdentifier "117149411" ;
+    owl:sameAs <http://d-nb.info/gnd/117149411> ;
+    skos:prefLabel "Wassermann-Speyer, Julie" .
+
+<http://data.judaicalink.org/data/gnd/11717534X> a foaf:Person ;
+    gndo:gndIdentifier "11717534X" ;
+    owl:sameAs <http://d-nb.info/gnd/11717534X> ;
+    skos:prefLabel "Jonas, Emile" .
+
+<http://data.judaicalink.org/data/gnd/117224251> a foaf:Person ;
+    gndo:gndIdentifier "117224251" ;
+    owl:sameAs <http://d-nb.info/gnd/117224251> ;
+    skos:prefLabel "Scheuer, Oskar Franz" .
+
+<http://data.judaicalink.org/data/gnd/117282014> a foaf:Person ;
+    gndo:gndIdentifier "117282014" ;
+    owl:sameAs <http://d-nb.info/gnd/117282014> ;
+    skos:prefLabel "Schlatter, Georg Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/11729120X> a foaf:Person ;
+    gndo:gndIdentifier "11729120X" ;
+    owl:sameAs <http://d-nb.info/gnd/11729120X> ;
+    skos:prefLabel "Weiss, Karl Theodor" .
+
+<http://data.judaicalink.org/data/gnd/117293032> a foaf:Person ;
+    gndo:gndIdentifier "117293032" ;
+    owl:sameAs <http://d-nb.info/gnd/117293032> ;
+    skos:prefLabel "Lueder, August Ferdinand" .
+
+<http://data.judaicalink.org/data/gnd/117306215> a foaf:Person ;
+    gndo:gndIdentifier "117306215" ;
+    owl:sameAs <http://d-nb.info/gnd/117306215> ;
+    skos:prefLabel "Wertheimer, Josef" .
+
+<http://data.judaicalink.org/data/gnd/117328464> a foaf:Person ;
+    gndo:gndIdentifier "117328464" ;
+    owl:sameAs <http://d-nb.info/gnd/117328464> ;
+    skos:prefLabel "Schliepmann, Hans" .
+
+<http://data.judaicalink.org/data/gnd/117330205> a foaf:Person ;
+    gndo:gndIdentifier "117330205" ;
+    owl:sameAs <http://d-nb.info/gnd/117330205> ;
+    skos:prefLabel "Schlosser, Hieronymus Peter" .
+
+<http://data.judaicalink.org/data/gnd/117331791> a foaf:Person ;
+    gndo:gndIdentifier "117331791" ;
+    owl:sameAs <http://d-nb.info/gnd/117331791> ;
+    skos:prefLabel "Weyden, Ernst" .
+
+<http://data.judaicalink.org/data/gnd/117337668> a foaf:Person ;
+    gndo:gndIdentifier "117337668" ;
+    owl:sameAs <http://d-nb.info/gnd/117337668> ;
+    skos:prefLabel "Wickersheimer, Ernest" .
+
+<http://data.judaicalink.org/data/gnd/117343366> a foaf:Person ;
+    gndo:gndIdentifier "117343366" ;
+    owl:sameAs <http://d-nb.info/gnd/117343366> ;
+    skos:prefLabel "Weldler-Steinberg, Augusta" .
+
+<http://data.judaicalink.org/data/gnd/11735399X> a foaf:Person ;
+    gndo:gndIdentifier "11735399X" ;
+    owl:sameAs <http://d-nb.info/gnd/11735399X> ;
+    skos:prefLabel "Alsberg, Moritz" .
+
+<http://data.judaicalink.org/data/gnd/11737380X> a foaf:Person ;
+    gndo:gndIdentifier "11737380X" ;
+    owl:sameAs <http://d-nb.info/gnd/11737380X> ;
+    skos:prefLabel "Sulzbach, Walter" .
+
+<http://data.judaicalink.org/data/gnd/117387568> a foaf:Person ;
+    gndo:gndIdentifier "117387568" ;
+    owl:sameAs <http://d-nb.info/gnd/117387568> ;
+    skos:prefLabel "Simchowitz, Sascha" .
+
+<http://data.judaicalink.org/data/gnd/117481033> a foaf:Person ;
+    gndo:gndIdentifier "117481033" ;
+    owl:sameAs <http://d-nb.info/gnd/117481033> ;
+    skos:prefLabel "Spanier, Moritz" .
+
+<http://data.judaicalink.org/data/gnd/11753929> a foaf:Person ;
+    gndo:gndIdentifier "11753929" ;
+    owl:sameAs <http://d-nb.info/gnd/11753929> ;
+    skos:prefLabel "Krafft, Albrecht" .
+
+<http://data.judaicalink.org/data/gnd/117540927> a foaf:Person ;
+    gndo:gndIdentifier "117540927" ;
+    owl:sameAs <http://d-nb.info/gnd/117540927> ;
+    skos:prefLabel "Malo, Charles" .
+
+<http://data.judaicalink.org/data/gnd/117575097> a foaf:Person ;
+    gndo:gndIdentifier "117575097" ;
+    owl:sameAs <http://d-nb.info/gnd/117575097> ;
+    skos:prefLabel "Landau, Richard" .
+
+<http://data.judaicalink.org/data/gnd/117648949> a foaf:Person ;
+    gndo:gndIdentifier "117648949" ;
+    owl:sameAs <http://d-nb.info/gnd/117648949> ;
+    skos:prefLabel "Spanier, Arthur" .
+
+<http://data.judaicalink.org/data/gnd/117736562> a foaf:Person ;
+    gndo:gndIdentifier "117736562" ;
+    owl:sameAs <http://d-nb.info/gnd/117736562> ;
+    skos:prefLabel "Graetzer, Jonas" .
+
+<http://data.judaicalink.org/data/gnd/117741280> a foaf:Person ;
+    gndo:gndIdentifier "117741280" ;
+    owl:sameAs <http://d-nb.info/gnd/117741280> ;
+    skos:prefLabel "Makower, Hermann" .
+
+<http://data.judaicalink.org/data/gnd/11774297X> a foaf:Person ;
+    gndo:gndIdentifier "11774297X" ;
+    owl:sameAs <http://d-nb.info/gnd/11774297X> ;
+    skos:prefLabel "Rosenhaupt, Moritz" .
+
+<http://data.judaicalink.org/data/gnd/11775160X> a foaf:Person ;
+    gndo:gndIdentifier "11775160X" ;
+    owl:sameAs <http://d-nb.info/gnd/11775160X> ;
+    skos:prefLabel "Creizenach, Michael" .
+
+<http://data.judaicalink.org/data/gnd/11809503X> a foaf:Person ;
+    gndo:gndIdentifier "11809503X" ;
+    owl:sameAs <http://d-nb.info/gnd/11809503X> ;
+    skos:prefLabel "Beer, Bernhard" .
+
+<http://data.judaicalink.org/data/gnd/118153862> a foaf:Person ;
+    gndo:gndIdentifier "118153862" ;
+    owl:sameAs <http://d-nb.info/gnd/118153862> ;
+    skos:prefLabel "Berliner, Cora" .
+
+<http://data.judaicalink.org/data/gnd/11852576X> a foaf:Person ;
+    gndo:gndIdentifier "11852576X" ;
+    owl:sameAs <http://d-nb.info/gnd/11852576X> ;
+    skos:prefLabel "Dingler, Hugo" .
+
+<http://data.judaicalink.org/data/gnd/11853601X> a foaf:Person ;
+    gndo:gndIdentifier "11853601X" ;
+    owl:sameAs <http://d-nb.info/gnd/11853601X> ;
+    skos:prefLabel "Fries, Jakob Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/11857485X> a foaf:Person ;
+    gndo:gndIdentifier "11857485X" ;
+    owl:sameAs <http://d-nb.info/gnd/11857485X> ;
+    skos:prefLabel "Ludendorff, Mathilde" .
+
+<http://data.judaicalink.org/data/gnd/11857566X> a foaf:Person ;
+    gndo:gndIdentifier "11857566X" ;
+    owl:sameAs <http://d-nb.info/gnd/11857566X> ;
+    skos:prefLabel "Macaulay, Thomas Babington" .
+
+<http://data.judaicalink.org/data/gnd/11859480X> a foaf:Person ;
+    gndo:gndIdentifier "11859480X" ;
+    owl:sameAs <http://d-nb.info/gnd/11859480X> ;
+    skos:prefLabel "Planck, Karl Christian" .
+
+<http://data.judaicalink.org/data/gnd/11863111X> a foaf:Person ;
+    gndo:gndIdentifier "11863111X" ;
+    owl:sameAs <http://d-nb.info/gnd/11863111X> ;
+    skos:prefLabel "Weltsch, Robert" .
+
+<http://data.judaicalink.org/data/gnd/118631616> a foaf:Person ;
+    gndo:gndIdentifier "118631616" ;
+    owl:sameAs <http://d-nb.info/gnd/118631616> ;
+    skos:prefLabel "Brunner, Constantin" .
+
+<http://data.judaicalink.org/data/gnd/11864341X> a foaf:Person ;
+    gndo:gndIdentifier "11864341X" ;
+    owl:sameAs <http://d-nb.info/gnd/11864341X> ;
+    skos:prefLabel "Wolfenstein, Alfred" .
+
+<http://data.judaicalink.org/data/gnd/118646036> a foaf:Person ;
+    gndo:gndIdentifier "118646036" ;
+    owl:sameAs <http://d-nb.info/gnd/118646036> ;
+    skos:prefLabel "Asch, Sholem" .
+
+<http://data.judaicalink.org/data/gnd/11865005X> a foaf:Person ;
+    gndo:gndIdentifier "11865005X" ;
+    owl:sameAs <http://d-nb.info/gnd/11865005X> ;
+    skos:prefLabel "Argens, Jean-Baptiste de Boyer d'" .
+
+<http://data.judaicalink.org/data/gnd/118678957> a foaf:Person ;
+    gndo:gndIdentifier "118678957" ;
+    owl:sameAs <http://d-nb.info/gnd/118678957> ;
+    skos:prefLabel "Daumer, Georg Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/118728970> a foaf:Person ;
+    gndo:gndIdentifier "118728970" ;
+    owl:sameAs <http://d-nb.info/gnd/118728970> ;
+    skos:prefLabel "Lombroso, Cesare" .
+
+<http://data.judaicalink.org/data/gnd/118738658> a foaf:Person ;
+    gndo:gndIdentifier "118738658" ;
+    owl:sameAs <http://d-nb.info/gnd/118738658> ;
+    skos:prefLabel "Neumann, Salomon" .
+
+<http://data.judaicalink.org/data/gnd/118754629> a foaf:Person ;
+    gndo:gndIdentifier "118754629" ;
+    owl:sameAs <http://d-nb.info/gnd/118754629> ;
+    skos:prefLabel "Scheppler, Franz Joseph Karl" .
+
+<http://data.judaicalink.org/data/gnd/11877364X> a foaf:Person ;
+    gndo:gndIdentifier "11877364X" ;
+    owl:sameAs <http://d-nb.info/gnd/11877364X> ;
+    skos:prefLabel "Heijermans, Herman" .
+
+<http://data.judaicalink.org/data/gnd/118774522> a foaf:Person ;
+    gndo:gndIdentifier "118774522" ;
+    owl:sameAs <http://d-nb.info/gnd/118774522> ;
+    skos:prefLabel "Hirsch, Samson Raphael" .
+
+<http://data.judaicalink.org/data/gnd/11878465X> a foaf:Person ;
+    gndo:gndIdentifier "11878465X" ;
+    owl:sameAs <http://d-nb.info/gnd/11878465X> ;
+    skos:prefLabel "Montefiore, Claude J." .
+
+<http://data.judaicalink.org/data/gnd/118791168> a foaf:Person ;
+    gndo:gndIdentifier "118791168" ;
+    owl:sameAs <http://d-nb.info/gnd/118791168> ;
+    skos:prefLabel "Leo, R." .
+
+<http://data.judaicalink.org/data/gnd/118857819> a foaf:Person ;
+    gndo:gndIdentifier "118857819" ;
+    owl:sameAs <http://d-nb.info/gnd/118857819> ;
+    skos:prefLabel "Bumm, Anton" .
+
+<http://data.judaicalink.org/data/gnd/118861557> a foaf:Person ;
+    gndo:gndIdentifier "118861557" ;
+    owl:sameAs <http://d-nb.info/gnd/118861557> ;
+    skos:prefLabel "Wohlgemuth, Josef" .
+
+<http://data.judaicalink.org/data/gnd/118880683> a foaf:Person ;
+    gndo:gndIdentifier "118880683" ;
+    owl:sameAs <http://d-nb.info/gnd/118880683> ;
+    skos:prefLabel "Rost, Hans" .
+
+<http://data.judaicalink.org/data/gnd/118918958> a foaf:Person ;
+    gndo:gndIdentifier "118918958" ;
+    owl:sameAs <http://d-nb.info/gnd/118918958> ;
+    skos:prefLabel "Boekman, Emanuel" .
+
+<http://data.judaicalink.org/data/gnd/118942883> a foaf:Person ;
+    gndo:gndIdentifier "118942883" ;
+    owl:sameAs <http://d-nb.info/gnd/118942883> ;
+    skos:prefLabel "Wolf, Lucien" .
+
+<http://data.judaicalink.org/data/gnd/11910203X> a foaf:Person ;
+    gndo:gndIdentifier "11910203X" ;
+    owl:sameAs <http://d-nb.info/gnd/11910203X> ;
+    skos:prefLabel "Petrie, William M. Flinders" .
+
+<http://data.judaicalink.org/data/gnd/11910962X> a foaf:Person ;
+    gndo:gndIdentifier "11910962X" ;
+    owl:sameAs <http://d-nb.info/gnd/11910962X> ;
+    skos:prefLabel "Mieses, Mathias" .
+
+<http://data.judaicalink.org/data/gnd/119131447> a foaf:Person ;
+    gndo:gndIdentifier "119131447" ;
+    owl:sameAs <http://d-nb.info/gnd/119131447> ;
+    skos:prefLabel "Simonsen, David" .
+
+<http://data.judaicalink.org/data/gnd/119194724> a foaf:Person ;
+    gndo:gndIdentifier "119194724" ;
+    owl:sameAs <http://d-nb.info/gnd/119194724> ;
+    skos:prefLabel "Rosenow, Emil" .
+
+<http://data.judaicalink.org/data/gnd/11920830X> a foaf:Person ;
+    gndo:gndIdentifier "11920830X" ;
+    owl:sameAs <http://d-nb.info/gnd/11920830X> ;
+    skos:prefLabel "Kirschner, Emanuel" .
+
+<http://data.judaicalink.org/data/gnd/119300583> a foaf:Person ;
+    gndo:gndIdentifier "119300583" ;
+    owl:sameAs <http://d-nb.info/gnd/119300583> ;
+    skos:prefLabel "Deckert, Josef" .
+
+<http://data.judaicalink.org/data/gnd/119307561> a foaf:Person ;
+    gndo:gndIdentifier "119307561" ;
+    owl:sameAs <http://d-nb.info/gnd/119307561> ;
+    skos:prefLabel "Mommert, Carl" .
+
+<http://data.judaicalink.org/data/gnd/11937224X> a foaf:Person ;
+    gndo:gndIdentifier "11937224X" ;
+    owl:sameAs <http://d-nb.info/gnd/11937224X> ;
+    skos:prefLabel "Oyʿerbakh, Mosheh" .
+
+<http://data.judaicalink.org/data/gnd/119373009> a foaf:Person ;
+    gndo:gndIdentifier "119373009" ;
+    owl:sameAs <http://d-nb.info/gnd/119373009> ;
+    skos:prefLabel "Luzzatto, Gino" .
+
+<http://data.judaicalink.org/data/gnd/11937479X> a foaf:Person ;
+    gndo:gndIdentifier "11937479X" ;
+    owl:sameAs <http://d-nb.info/gnd/11937479X> ;
+    skos:prefLabel "Jacobs, Joseph" .
+
+<http://data.judaicalink.org/data/gnd/119390043> a foaf:Person ;
+    gndo:gndIdentifier "119390043" ;
+    owl:sameAs <http://d-nb.info/gnd/119390043> ;
+    skos:prefLabel "Farinelli, Arturo" .
+
+<http://data.judaicalink.org/data/gnd/119398761> a foaf:Person ;
+    gndo:gndIdentifier "119398761" ;
+    owl:sameAs <http://d-nb.info/gnd/119398761> ;
+    skos:prefLabel "Adler, Elkan Nathan" .
+
+<http://data.judaicalink.org/data/gnd/119456605> a foaf:Person ;
+    gndo:gndIdentifier "119456605" ;
+    owl:sameAs <http://d-nb.info/gnd/119456605> ;
+    skos:prefLabel "Balfour, Arthur James" .
+
+<http://data.judaicalink.org/data/gnd/119458403> a foaf:Person ;
+    gndo:gndIdentifier "119458403" ;
+    owl:sameAs <http://d-nb.info/gnd/119458403> ;
+    skos:prefLabel "Cansinos-Asséns, Rafael" .
+
+<http://data.judaicalink.org/data/gnd/11947042X> a foaf:Person ;
+    gndo:gndIdentifier "11947042X" ;
+    owl:sameAs <http://d-nb.info/gnd/11947042X> ;
+    skos:prefLabel "Donath, Adolph" .
+
+<http://data.judaicalink.org/data/gnd/11980252X> a foaf:Person ;
+    gndo:gndIdentifier "11980252X" ;
+    owl:sameAs <http://d-nb.info/gnd/11980252X> ;
+    skos:prefLabel "Reuchlin, Anton" .
+
+<http://data.judaicalink.org/data/gnd/120163683> a foaf:Person ;
+    gndo:gndIdentifier "120163683" ;
+    owl:sameAs <http://d-nb.info/gnd/120163683> ;
+    skos:prefLabel "Wolfssohn, Aaron" .
+
+<http://data.judaicalink.org/data/gnd/120682761> a foaf:Person ;
+    gndo:gndIdentifier "120682761" ;
+    owl:sameAs <http://d-nb.info/gnd/120682761> ;
+    skos:prefLabel "Davidson, Wolf" .
+
+<http://data.judaicalink.org/data/gnd/120813874> a foaf:Person ;
+    gndo:gndIdentifier "120813874" ;
+    owl:sameAs <http://d-nb.info/gnd/120813874> ;
+    skos:prefLabel "Lazare, Bernard" .
+
+<http://data.judaicalink.org/data/gnd/120928116> a foaf:Person ;
+    gndo:gndIdentifier "120928116" ;
+    owl:sameAs <http://d-nb.info/gnd/120928116> ;
+    skos:prefLabel "Zunser, Eliakum" .
+
+<http://data.judaicalink.org/data/gnd/12097715X> a foaf:Person ;
+    gndo:gndIdentifier "12097715X" ;
+    owl:sameAs <http://d-nb.info/gnd/12097715X> ;
+    skos:prefLabel "Spano, Giovanni" .
+
+<http://data.judaicalink.org/data/gnd/121796833> a foaf:Person ;
+    gndo:gndIdentifier "121796833" ;
+    owl:sameAs <http://d-nb.info/gnd/121796833> ;
+    skos:prefLabel "Wasilewski, Leon" .
+
+<http://data.judaicalink.org/data/gnd/12231624X> a foaf:Person ;
+    gndo:gndIdentifier "12231624X" ;
+    owl:sameAs <http://d-nb.info/gnd/12231624X> ;
+    skos:prefLabel "Aguilar, Grace" .
+
+<http://data.judaicalink.org/data/gnd/12245846X> a foaf:Person ;
+    gndo:gndIdentifier "12245846X" ;
+    owl:sameAs <http://d-nb.info/gnd/12245846X> ;
+    skos:prefLabel "Lichtenstein, Ignac" .
+
+<http://data.judaicalink.org/data/gnd/12246673X> a foaf:Person ;
+    gndo:gndIdentifier "12246673X" ;
+    owl:sameAs <http://d-nb.info/gnd/12246673X> ;
+    skos:prefLabel "Lemm, Alfred" .
+
+<http://data.judaicalink.org/data/gnd/12261335X> a foaf:Person ;
+    gndo:gndIdentifier "12261335X" ;
+    owl:sameAs <http://d-nb.info/gnd/12261335X> ;
+    skos:prefLabel "Kol, Henri Hubert van" .
+
+<http://data.judaicalink.org/data/gnd/12321033X> a foaf:Person ;
+    gndo:gndIdentifier "12321033X" ;
+    owl:sameAs <http://d-nb.info/gnd/12321033X> ;
+    skos:prefLabel "Henriques, Henry S. Q." .
+
+<http://data.judaicalink.org/data/gnd/12321419X> a foaf:Person ;
+    gndo:gndIdentifier "12321419X" ;
+    owl:sameAs <http://d-nb.info/gnd/12321419X> ;
+    skos:prefLabel "Schwarz, Hayum" .
+
+<http://data.judaicalink.org/data/gnd/123384850> a foaf:Person ;
+    gndo:gndIdentifier "123384850" ;
+    owl:sameAs <http://d-nb.info/gnd/123384850> ;
+    skos:prefLabel "Bonetti, Carlo" .
+
+<http://data.judaicalink.org/data/gnd/123654459> a foaf:Person ;
+    gndo:gndIdentifier "123654459" ;
+    owl:sameAs <http://d-nb.info/gnd/123654459> ;
+    skos:prefLabel "Pereyra, Abraham" .
+
+<http://data.judaicalink.org/data/gnd/12366750X> a foaf:Person ;
+    gndo:gndIdentifier "12366750X" ;
+    owl:sameAs <http://d-nb.info/gnd/12366750X> ;
+    skos:prefLabel "Ginzberg, Louis" .
+
+<http://data.judaicalink.org/data/gnd/124206921> a foaf:Person ;
+    gndo:gndIdentifier "124206921" ;
+    owl:sameAs <http://d-nb.info/gnd/124206921> ;
+    skos:prefLabel "Hartmann, Friedrich Traugott" .
+
+<http://data.judaicalink.org/data/gnd/124211399> a foaf:Person ;
+    gndo:gndIdentifier "124211399" ;
+    owl:sameAs <http://d-nb.info/gnd/124211399> ;
+    skos:prefLabel "Rosenberg, Artur" .
+
+<http://data.judaicalink.org/data/gnd/12421326X> a foaf:Person ;
+    gndo:gndIdentifier "12421326X" ;
+    owl:sameAs <http://d-nb.info/gnd/12421326X> ;
+    skos:prefLabel "Berkowitz, Henry" .
+
+<http://data.judaicalink.org/data/gnd/12430155X> a foaf:Person ;
+    gndo:gndIdentifier "12430155X" ;
+    owl:sameAs <http://d-nb.info/gnd/12430155X> ;
+    skos:prefLabel "Landauer, Karl" .
+
+<http://data.judaicalink.org/data/gnd/12431886X> a foaf:Person ;
+    gndo:gndIdentifier "12431886X" ;
+    owl:sameAs <http://d-nb.info/gnd/12431886X> ;
+    skos:prefLabel "Bernard, Christoph David" .
+
+<http://data.judaicalink.org/data/gnd/124360998> a foaf:Person ;
+    gndo:gndIdentifier "124360998" ;
+    owl:sameAs <http://d-nb.info/gnd/124360998> ;
+    skos:prefLabel "Herrmann, Leo" .
+
+<http://data.judaicalink.org/data/gnd/124404170> a foaf:Person ;
+    gndo:gndIdentifier "124404170" ;
+    owl:sameAs <http://d-nb.info/gnd/124404170> ;
+    skos:prefLabel "Ben-Ze'ēv, Yehûdâ L." .
+
+<http://data.judaicalink.org/data/gnd/124431259> a foaf:Person ;
+    gndo:gndIdentifier "124431259" ;
+    owl:sameAs <http://d-nb.info/gnd/124431259> ;
+    skos:prefLabel "Kaznelson, Siegmund" .
+
+<http://data.judaicalink.org/data/gnd/124730949> a foaf:Person ;
+    gndo:gndIdentifier "124730949" ;
+    owl:sameAs <http://d-nb.info/gnd/124730949> ;
+    skos:prefLabel "Naumann, Max" .
+
+<http://data.judaicalink.org/data/gnd/12484880X> a foaf:Person ;
+    gndo:gndIdentifier "12484880X" ;
+    owl:sameAs <http://d-nb.info/gnd/12484880X> ;
+    skos:prefLabel "Lippe, Chayim D." .
+
+<http://data.judaicalink.org/data/gnd/12496527X> a foaf:Person ;
+    gndo:gndIdentifier "12496527X" ;
+    owl:sameAs <http://d-nb.info/gnd/12496527X> ;
+    skos:prefLabel "Zedner, Josef" .
+
+<http://data.judaicalink.org/data/gnd/125001592> a foaf:Person ;
+    gndo:gndIdentifier "125001592" ;
+    owl:sameAs <http://d-nb.info/gnd/125001592> ;
+    skos:prefLabel "Cohen, Israel" .
+
+<http://data.judaicalink.org/data/gnd/125307470> a foaf:Person ;
+    gndo:gndIdentifier "125307470" ;
+    owl:sameAs <http://d-nb.info/gnd/125307470> ;
+    skos:prefLabel "Kruk, Joseph" .
+
+<http://data.judaicalink.org/data/gnd/125532040> a foaf:Person ;
+    gndo:gndIdentifier "125532040" ;
+    owl:sameAs <http://d-nb.info/gnd/125532040> ;
+    skos:prefLabel "Levy, Bernhard" .
+
+<http://data.judaicalink.org/data/gnd/12563272X> a foaf:Person ;
+    gndo:gndIdentifier "12563272X" ;
+    owl:sameAs <http://d-nb.info/gnd/12563272X> ;
+    skos:prefLabel "Gonsiorowski, Herbert" .
+
+<http://data.judaicalink.org/data/gnd/125810806> a foaf:Person ;
+    gndo:gndIdentifier "125810806" ;
+    owl:sameAs <http://d-nb.info/gnd/125810806> ;
+    skos:prefLabel "Schamschon, Jakob" .
+
+<http://data.judaicalink.org/data/gnd/12637807X> a foaf:Person ;
+    gndo:gndIdentifier "12637807X" ;
+    owl:sameAs <http://d-nb.info/gnd/12637807X> ;
+    skos:prefLabel "Scheinhaus, Leon" .
+
+<http://data.judaicalink.org/data/gnd/126391017> a foaf:Person ;
+    gndo:gndIdentifier "126391017" ;
+    owl:sameAs <http://d-nb.info/gnd/126391017> ;
+    skos:prefLabel "Hellenbach, Lazar von" .
+
+<http://data.judaicalink.org/data/gnd/126502498> a foaf:Person ;
+    gndo:gndIdentifier "126502498" ;
+    owl:sameAs <http://d-nb.info/gnd/126502498> ;
+    skos:prefLabel "Joerges, Ernst" .
+
+<http://data.judaicalink.org/data/gnd/126601747> a foaf:Person ;
+    gndo:gndIdentifier "126601747" ;
+    owl:sameAs <http://d-nb.info/gnd/126601747> ;
+    skos:prefLabel "Leiser, Walter" .
+
+<http://data.judaicalink.org/data/gnd/126618526> a foaf:Person ;
+    gndo:gndIdentifier "126618526" ;
+    owl:sameAs <http://d-nb.info/gnd/126618526> ;
+    skos:prefLabel "Levinstein, Gustav" .
+
+<http://data.judaicalink.org/data/gnd/126647976> a foaf:Person ;
+    gndo:gndIdentifier "126647976" ;
+    owl:sameAs <http://d-nb.info/gnd/126647976> ;
+    skos:prefLabel "Nobel, Gabriel" .
+
+<http://data.judaicalink.org/data/gnd/126691649> a foaf:Person ;
+    gndo:gndIdentifier "126691649" ;
+    owl:sameAs <http://d-nb.info/gnd/126691649> ;
+    skos:prefLabel "Kann, J. H." .
+
+<http://data.judaicalink.org/data/gnd/12694542X> a foaf:Person ;
+    gndo:gndIdentifier "12694542X" ;
+    owl:sameAs <http://d-nb.info/gnd/12694542X> ;
+    skos:prefLabel "Simonis, Henry S." .
+
+<http://data.judaicalink.org/data/gnd/126968500> a foaf:Person ;
+    gndo:gndIdentifier "126968500" ;
+    owl:sameAs <http://d-nb.info/gnd/126968500> ;
+    skos:prefLabel "Spinner, Salomon" .
+
+<http://data.judaicalink.org/data/gnd/127091068> a foaf:Person ;
+    gndo:gndIdentifier "127091068" ;
+    owl:sameAs <http://d-nb.info/gnd/127091068> ;
+    skos:prefLabel "Rothholz, Julius" .
+
+<http://data.judaicalink.org/data/gnd/12719293X> a foaf:Person ;
+    gndo:gndIdentifier "12719293X" ;
+    owl:sameAs <http://d-nb.info/gnd/12719293X> ;
+    skos:prefLabel "Hirsch, Naphtali" .
+
+<http://data.judaicalink.org/data/gnd/127300880> a foaf:Person ;
+    gndo:gndIdentifier "127300880" ;
+    owl:sameAs <http://d-nb.info/gnd/127300880> ;
+    skos:prefLabel "Weisl, Wolfgang" .
+
+<http://data.judaicalink.org/data/gnd/12730648X> a foaf:Person ;
+    gndo:gndIdentifier "12730648X" ;
+    owl:sameAs <http://d-nb.info/gnd/12730648X> ;
+    skos:prefLabel "Wengeroff, Pauline" .
+
+<http://data.judaicalink.org/data/gnd/12741570X> a foaf:Person ;
+    gndo:gndIdentifier "12741570X" ;
+    owl:sameAs <http://d-nb.info/gnd/12741570X> ;
+    skos:prefLabel "Chinenberg, A." .
+
+<http://data.judaicalink.org/data/gnd/127456422> a foaf:Person ;
+    gndo:gndIdentifier "127456422" ;
+    owl:sameAs <http://d-nb.info/gnd/127456422> ;
+    skos:prefLabel "Falb, Alfred" .
+
+<http://data.judaicalink.org/data/gnd/12748695X> a foaf:Person ;
+    gndo:gndIdentifier "12748695X" ;
+    owl:sameAs <http://d-nb.info/gnd/12748695X> ;
+    skos:prefLabel "Schimmer, Gustav Adolph" .
+
+<http://data.judaicalink.org/data/gnd/12751385X> a foaf:Person ;
+    gndo:gndIdentifier "12751385X" ;
+    owl:sameAs <http://d-nb.info/gnd/12751385X> ;
+    skos:prefLabel "Gemoll, Martin" .
+
+<http://data.judaicalink.org/data/gnd/12751466X> a foaf:Person ;
+    gndo:gndIdentifier "12751466X" ;
+    owl:sameAs <http://d-nb.info/gnd/12751466X> ;
+    skos:prefLabel "Bender, Stanislaus" .
+
+<http://data.judaicalink.org/data/gnd/127631887> a foaf:Person ;
+    gndo:gndIdentifier "127631887" ;
+    owl:sameAs <http://d-nb.info/gnd/127631887> ;
+    skos:prefLabel "Friedmann, Filip" .
+
+<http://data.judaicalink.org/data/gnd/127631925> a foaf:Person ;
+    gndo:gndIdentifier "127631925" ;
+    owl:sameAs <http://d-nb.info/gnd/127631925> ;
+    skos:prefLabel "Friedmann, Lazarus" .
+
+<http://data.judaicalink.org/data/gnd/127695346> a foaf:Person ;
+    gndo:gndIdentifier "127695346" ;
+    owl:sameAs <http://d-nb.info/gnd/127695346> ;
+    skos:prefLabel "Mainzer, Moritz" .
+
+<http://data.judaicalink.org/data/gnd/12770566X> a foaf:Person ;
+    gndo:gndIdentifier "12770566X" ;
+    owl:sameAs <http://d-nb.info/gnd/12770566X> ;
+    skos:prefLabel "Cassuto, Alfonso" .
+
+<http://data.judaicalink.org/data/gnd/12775086X> a foaf:Person ;
+    gndo:gndIdentifier "12775086X" ;
+    owl:sameAs <http://d-nb.info/gnd/12775086X> ;
+    skos:prefLabel "Pick, Seligmann" .
+
+<http://data.judaicalink.org/data/gnd/127836004> a foaf:Person ;
+    gndo:gndIdentifier "127836004" ;
+    owl:sameAs <http://d-nb.info/gnd/127836004> ;
+    skos:prefLabel "Dessauer, Julius Heinrich" .
+
+<http://data.judaicalink.org/data/gnd/127863478> a foaf:Person ;
+    gndo:gndIdentifier "127863478" ;
+    owl:sameAs <http://d-nb.info/gnd/127863478> ;
+    skos:prefLabel "Wollsteiner, Max" .
+
+<http://data.judaicalink.org/data/gnd/127895779> a foaf:Person ;
+    gndo:gndIdentifier "127895779" ;
+    owl:sameAs <http://d-nb.info/gnd/127895779> ;
+    skos:prefLabel "Obermeyer, Jacob" .
+
+<http://data.judaicalink.org/data/gnd/12828059X> a foaf:Person ;
+    gndo:gndIdentifier "12828059X" ;
+    owl:sameAs <http://d-nb.info/gnd/12828059X> ;
+    skos:prefLabel "Metmann, Leo" .
+
+<http://data.judaicalink.org/data/gnd/128690615> a foaf:Person ;
+    gndo:gndIdentifier "128690615" ;
+    owl:sameAs <http://d-nb.info/gnd/128690615> ;
+    skos:prefLabel "Lewandowski, Louis" .
+
+<http://data.judaicalink.org/data/gnd/129021962> a foaf:Person ;
+    gndo:gndIdentifier "129021962" ;
+    owl:sameAs <http://d-nb.info/gnd/129021962> ;
+    skos:prefLabel "Lund, Johann" .
+
+<http://data.judaicalink.org/data/gnd/12935578X> a foaf:Person ;
+    gndo:gndIdentifier "12935578X" ;
+    owl:sameAs <http://d-nb.info/gnd/12935578X> ;
+    skos:prefLabel "Levy, Josef B." .
+
+<http://data.judaicalink.org/data/gnd/129360368> a foaf:Person ;
+    gndo:gndIdentifier "129360368" ;
+    owl:sameAs <http://d-nb.info/gnd/129360368> ;
+    skos:prefLabel "Freund, Ismar" .
+
+<http://data.judaicalink.org/data/gnd/129521779> a foaf:Person ;
+    gndo:gndIdentifier "129521779" ;
+    owl:sameAs <http://d-nb.info/gnd/129521779> ;
+    skos:prefLabel "Oppenheim, James" .
+
+<http://data.judaicalink.org/data/gnd/12977524X> a foaf:Person ;
+    gndo:gndIdentifier "12977524X" ;
+    owl:sameAs <http://d-nb.info/gnd/12977524X> ;
+    skos:prefLabel "Sabaneev, Leonid L." .
+
+<http://data.judaicalink.org/data/gnd/129841676> a foaf:Person ;
+    gndo:gndIdentifier "129841676" ;
+    owl:sameAs <http://d-nb.info/gnd/129841676> ;
+    skos:prefLabel "Henle, Elkan" .
+
+<http://data.judaicalink.org/data/gnd/13001415X> a foaf:Person ;
+    gndo:gndIdentifier "13001415X" ;
+    owl:sameAs <http://d-nb.info/gnd/13001415X> ;
+    skos:prefLabel "Difenbach, Georg Gustav" .
+
+<http://data.judaicalink.org/data/gnd/130204803> a foaf:Person ;
+    gndo:gndIdentifier "130204803" ;
+    owl:sameAs <http://d-nb.info/gnd/130204803> ;
+    skos:prefLabel "Josephson, Ragnar" .
+
+<http://data.judaicalink.org/data/gnd/130273856> a foaf:Person ;
+    gndo:gndIdentifier "130273856" ;
+    owl:sameAs <http://d-nb.info/gnd/130273856> ;
+    skos:prefLabel "Adler, L." .
+
+<http://data.judaicalink.org/data/gnd/130332089> a foaf:Person ;
+    gndo:gndIdentifier "130332089" ;
+    owl:sameAs <http://d-nb.info/gnd/130332089> ;
+    skos:prefLabel "Worms, Simon Wolf" .
+
+<http://data.judaicalink.org/data/gnd/131829297> a foaf:Person ;
+    gndo:gndIdentifier "131829297" ;
+    owl:sameAs <http://d-nb.info/gnd/131829297> ;
+    skos:prefLabel "Kohn, Maier" .
+
+<http://data.judaicalink.org/data/gnd/13223887X> a foaf:Person ;
+    gndo:gndIdentifier "13223887X" ;
+    owl:sameAs <http://d-nb.info/gnd/13223887X> ;
+    skos:prefLabel "Deinard, Ephraim" .
+
+<http://data.judaicalink.org/data/gnd/13286682X> a foaf:Person ;
+    gndo:gndIdentifier "13286682X" ;
+    owl:sameAs <http://d-nb.info/gnd/13286682X> ;
+    skos:prefLabel "Dembo, Isaak Aleksandrovich" .
+
+<http://data.judaicalink.org/data/gnd/133214672> a foaf:Person ;
+    gndo:gndIdentifier "133214672" ;
+    owl:sameAs <http://d-nb.info/gnd/133214672> ;
+    skos:prefLabel "Barbeck, Hugo" .
+
+<http://data.judaicalink.org/data/gnd/134051955> a foaf:Person ;
+    gndo:gndIdentifier "134051955" ;
+    owl:sameAs <http://d-nb.info/gnd/134051955> ;
+    skos:prefLabel "Hildesheimer, Hirsch" .
+
+<http://data.judaicalink.org/data/gnd/13406514X> a foaf:Person ;
+    gndo:gndIdentifier "13406514X" ;
+    owl:sameAs <http://d-nb.info/gnd/13406514X> ;
+    skos:prefLabel "Singer, Irma" .
+
+<http://data.judaicalink.org/data/gnd/136200877> a foaf:Person ;
+    gndo:gndIdentifier "136200877" ;
+    owl:sameAs <http://d-nb.info/gnd/136200877> ;
+    skos:prefLabel "Gugenheimer, Joseph" .
+
+<http://data.judaicalink.org/data/gnd/13648736X> a foaf:Person ;
+    gndo:gndIdentifier "13648736X" ;
+    owl:sameAs <http://d-nb.info/gnd/13648736X> ;
+    skos:prefLabel "Gerzon, Jacob" .
+
+<http://data.judaicalink.org/data/gnd/136572723> a foaf:Person ;
+    gndo:gndIdentifier "136572723" ;
+    owl:sameAs <http://d-nb.info/gnd/136572723> ;
+    skos:prefLabel "Friedmann, Aron" .
+
+<http://data.judaicalink.org/data/gnd/136577741> a foaf:Person ;
+    gndo:gndIdentifier "136577741" ;
+    owl:sameAs <http://d-nb.info/gnd/136577741> ;
+    skos:prefLabel "Heß, Michael" .
+
+<http://data.judaicalink.org/data/gnd/136585426> a foaf:Person ;
+    gndo:gndIdentifier "136585426" ;
+    owl:sameAs <http://d-nb.info/gnd/136585426> ;
+    skos:prefLabel "Bloch, Simon" .
+
+<http://data.judaicalink.org/data/gnd/13678478X> a foaf:Person ;
+    gndo:gndIdentifier "13678478X" ;
+    owl:sameAs <http://d-nb.info/gnd/13678478X> ;
+    skos:prefLabel "Deutsch, Simon" .
+
+<http://data.judaicalink.org/data/gnd/136828884> a foaf:Person ;
+    gndo:gndIdentifier "136828884" ;
+    owl:sameAs <http://d-nb.info/gnd/136828884> ;
+    skos:prefLabel "Felsenthal, Bernhard" .
+
+<http://data.judaicalink.org/data/gnd/136896669> a foaf:Person ;
+    gndo:gndIdentifier "136896669" ;
+    owl:sameAs <http://d-nb.info/gnd/136896669> ;
+    skos:prefLabel "Modlinger, Samuel" .
+
+<http://data.judaicalink.org/data/gnd/13694504X> a foaf:Person ;
+    gndo:gndIdentifier "13694504X" ;
+    owl:sameAs <http://d-nb.info/gnd/13694504X> ;
+    skos:prefLabel "Goldsmid, Francis Henry" .
+
+<http://data.judaicalink.org/data/gnd/137033192> a foaf:Person ;
+    gndo:gndIdentifier "137033192" ;
+    owl:sameAs <http://d-nb.info/gnd/137033192> ;
+    skos:prefLabel "Krochmal, Abraham" .
+
+<http://data.judaicalink.org/data/gnd/137259492> a foaf:Person ;
+    gndo:gndIdentifier "137259492" ;
+    owl:sameAs <http://d-nb.info/gnd/137259492> ;
+    skos:prefLabel "Mannheimer, Moses" .
+
+<http://data.judaicalink.org/data/gnd/13726786X> a foaf:Person ;
+    gndo:gndIdentifier "13726786X" ;
+    owl:sameAs <http://d-nb.info/gnd/13726786X> ;
+    skos:prefLabel "Becker, Rafael" .
+
+<http://data.judaicalink.org/data/gnd/137302169> a foaf:Person ;
+    gndo:gndIdentifier "137302169" ;
+    owl:sameAs <http://d-nb.info/gnd/137302169> ;
+    skos:prefLabel "Altona, Christian" .
+
+<http://data.judaicalink.org/data/gnd/137921616> a foaf:Person ;
+    gndo:gndIdentifier "137921616" ;
+    owl:sameAs <http://d-nb.info/gnd/137921616> ;
+    skos:prefLabel "Zuckermann, Benedict" .
+
+<http://data.judaicalink.org/data/gnd/137926510> a foaf:Person ;
+    gndo:gndIdentifier "137926510" ;
+    owl:sameAs <http://d-nb.info/gnd/137926510> ;
+    skos:prefLabel "Del, Monte Crescenzo" .
+
+<http://data.judaicalink.org/data/gnd/137990162> a foaf:Person ;
+    gndo:gndIdentifier "137990162" ;
+    owl:sameAs <http://d-nb.info/gnd/137990162> ;
+    skos:prefLabel "Carocci, Guido" .
+
+<http://data.judaicalink.org/data/gnd/13825477X> a foaf:Person ;
+    gndo:gndIdentifier "13825477X" ;
+    owl:sameAs <http://d-nb.info/gnd/13825477X> ;
+    skos:prefLabel "Blondheim, David S." .
+
+<http://data.judaicalink.org/data/gnd/138752311> a foaf:Person ;
+    gndo:gndIdentifier "138752311" ;
+    owl:sameAs <http://d-nb.info/gnd/138752311> ;
+    skos:prefLabel "Peyser, Alfred" .
+
+<http://data.judaicalink.org/data/gnd/139064516> a foaf:Person ;
+    gndo:gndIdentifier "139064516" ;
+    owl:sameAs <http://d-nb.info/gnd/139064516> ;
+    skos:prefLabel "Salfeld, Siegmund" .
+
+<http://data.judaicalink.org/data/gnd/139266984> a foaf:Person ;
+    gndo:gndIdentifier "139266984" ;
+    owl:sameAs <http://d-nb.info/gnd/139266984> ;
+    skos:prefLabel "Rosenstock, Moritz" .
+
+<http://data.judaicalink.org/data/gnd/139461582> a foaf:Person ;
+    gndo:gndIdentifier "139461582" ;
+    owl:sameAs <http://d-nb.info/gnd/139461582> ;
+    skos:prefLabel "Rabinowitsch, Sara" .
+
+<http://data.judaicalink.org/data/gnd/139538380> a foaf:Person ;
+    gndo:gndIdentifier "139538380" ;
+    owl:sameAs <http://d-nb.info/gnd/139538380> ;
+    skos:prefLabel "Scherbel, Simon" .
+
+<http://data.judaicalink.org/data/gnd/139619852> a foaf:Person ;
+    gndo:gndIdentifier "139619852" ;
+    owl:sameAs <http://d-nb.info/gnd/139619852> ;
+    skos:prefLabel "Wiener, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/139703705> a foaf:Person ;
+    gndo:gndIdentifier "139703705" ;
+    owl:sameAs <http://d-nb.info/gnd/139703705> ;
+    skos:prefLabel "Back, Samuel" .
+
+<http://data.judaicalink.org/data/gnd/139705260> a foaf:Person ;
+    gndo:gndIdentifier "139705260" ;
+    owl:sameAs <http://d-nb.info/gnd/139705260> ;
+    skos:prefLabel "Mandl, Simon" .
+
+<http://data.judaicalink.org/data/gnd/139734570> a foaf:Person ;
+    gndo:gndIdentifier "139734570" ;
+    owl:sameAs <http://d-nb.info/gnd/139734570> ;
+    skos:prefLabel "Weinstein, Nachman Izaak" .
+
+<http://data.judaicalink.org/data/gnd/139789006> a foaf:Person ;
+    gndo:gndIdentifier "139789006" ;
+    owl:sameAs <http://d-nb.info/gnd/139789006> ;
+    skos:prefLabel "Rahmer, Moritz" .
+
+<http://data.judaicalink.org/data/gnd/139862668> a foaf:Person ;
+    gndo:gndIdentifier "139862668" ;
+    owl:sameAs <http://d-nb.info/gnd/139862668> ;
+    skos:prefLabel "Schapiro, Israel" .
+
+<http://data.judaicalink.org/data/gnd/13991272X> a foaf:Person ;
+    gndo:gndIdentifier "13991272X" ;
+    owl:sameAs <http://d-nb.info/gnd/13991272X> ;
+    skos:prefLabel "Loeb, Isidore" .
+
+<http://data.judaicalink.org/data/gnd/14002123X> a foaf:Person ;
+    gndo:gndIdentifier "14002123X" ;
+    owl:sameAs <http://d-nb.info/gnd/14002123X> ;
+    skos:prefLabel "Petuchowski, Marcus" .
+
+<http://data.judaicalink.org/data/gnd/140190015> a foaf:Person ;
+    gndo:gndIdentifier "140190015" ;
+    owl:sameAs <http://d-nb.info/gnd/140190015> ;
+    skos:prefLabel "Wolff, L." .
+
+<http://data.judaicalink.org/data/gnd/140199993> a foaf:Person ;
+    gndo:gndIdentifier "140199993" ;
+    owl:sameAs <http://d-nb.info/gnd/140199993> ;
+    skos:prefLabel "Nobel, Israel" .
+
+<http://data.judaicalink.org/data/gnd/140205152> a foaf:Person ;
+    gndo:gndIdentifier "140205152" ;
+    owl:sameAs <http://d-nb.info/gnd/140205152> ;
+    skos:prefLabel "Leszynsky, Rudolf" .
+
+<http://data.judaicalink.org/data/gnd/14027541X> a foaf:Person ;
+    gndo:gndIdentifier "14027541X" ;
+    owl:sameAs <http://d-nb.info/gnd/14027541X> ;
+    skos:prefLabel "Sperling, Arthur Gotthard" .
+
+<http://data.judaicalink.org/data/gnd/140591834> a foaf:Person ;
+    gndo:gndIdentifier "140591834" ;
+    owl:sameAs <http://d-nb.info/gnd/140591834> ;
+    skos:prefLabel "Costa, Israel" .
+
+<http://data.judaicalink.org/data/gnd/140966587> a foaf:Person ;
+    gndo:gndIdentifier "140966587" ;
+    owl:sameAs <http://d-nb.info/gnd/140966587> ;
+    skos:prefLabel "Anton, Carl" .
+
+<http://data.judaicalink.org/data/gnd/141248920> a foaf:Person ;
+    gndo:gndIdentifier "141248920" ;
+    owl:sameAs <http://d-nb.info/gnd/141248920> ;
+    skos:prefLabel "Salomonski, Martin" .
+
+<http://data.judaicalink.org/data/gnd/14152278X> a foaf:Person ;
+    gndo:gndIdentifier "14152278X" ;
+    owl:sameAs <http://d-nb.info/gnd/14152278X> ;
+    skos:prefLabel "Wiener, Samuel" .
+
+<http://data.judaicalink.org/data/gnd/141623829> a foaf:Person ;
+    gndo:gndIdentifier "141623829" ;
+    owl:sameAs <http://d-nb.info/gnd/141623829> ;
+    skos:prefLabel "Wohlgemuth, Josef" .
+
+<http://data.judaicalink.org/data/gnd/14167993X> a foaf:Person ;
+    gndo:gndIdentifier "14167993X" ;
+    owl:sameAs <http://d-nb.info/gnd/14167993X> ;
+    skos:prefLabel "Wolfart, Johann Heinrich" .
+
+<http://data.judaicalink.org/data/gnd/143206303> a foaf:Person ;
+    gndo:gndIdentifier "143206303" ;
+    owl:sameAs <http://d-nb.info/gnd/143206303> ;
+    skos:prefLabel "Lippe, Karpel" .
+
+<http://data.judaicalink.org/data/gnd/143215248> a foaf:Person ;
+    gndo:gndIdentifier "143215248" ;
+    owl:sameAs <http://d-nb.info/gnd/143215248> ;
+    skos:prefLabel "Bondi, Jonas H." .
+
+<http://data.judaicalink.org/data/gnd/143231146> a foaf:Person ;
+    gndo:gndIdentifier "143231146" ;
+    owl:sameAs <http://d-nb.info/gnd/143231146> ;
+    skos:prefLabel "Lehmann, Oscar" .
+
+<http://data.judaicalink.org/data/gnd/143352385> a foaf:Person ;
+    gndo:gndIdentifier "143352385" ;
+    owl:sameAs <http://d-nb.info/gnd/143352385> ;
+    skos:prefLabel "Martorelli, Luigi" .
+
+<http://data.judaicalink.org/data/gnd/143487388> a foaf:Person ;
+    gndo:gndIdentifier "143487388" ;
+    owl:sameAs <http://d-nb.info/gnd/143487388> ;
+    skos:prefLabel "Gollancz, Hermann" .
+
+<http://data.judaicalink.org/data/gnd/143599496> a foaf:Person ;
+    gndo:gndIdentifier "143599496" ;
+    owl:sameAs <http://d-nb.info/gnd/143599496> ;
+    skos:prefLabel "Weisslovits, Nathan" .
+
+<http://data.judaicalink.org/data/gnd/143974459> a foaf:Person ;
+    gndo:gndIdentifier "143974459" ;
+    owl:sameAs <http://d-nb.info/gnd/143974459> ;
+    skos:prefLabel "Neubaur, Leonhard" .
+
+<http://data.judaicalink.org/data/gnd/158609239> a foaf:Person ;
+    gndo:gndIdentifier "158609239" ;
+    owl:sameAs <http://d-nb.info/gnd/158609239> ;
+    skos:prefLabel "Elmaleh, Abraham" .
+
+<http://data.judaicalink.org/data/gnd/172069289> a foaf:Person ;
+    gndo:gndIdentifier "172069289" ;
+    owl:sameAs <http://d-nb.info/gnd/172069289> ;
+    skos:prefLabel "Epstein, Louis M." .
+
+<http://data.judaicalink.org/data/gnd/172215161> a foaf:Person ;
+    gndo:gndIdentifier "172215161" ;
+    owl:sameAs <http://d-nb.info/gnd/172215161> ;
+    skos:prefLabel "Lacretelle, Pierre Louis" .
+
+<http://data.judaicalink.org/data/gnd/172299578> a foaf:Person ;
+    gndo:gndIdentifier "172299578" ;
+    owl:sameAs <http://d-nb.info/gnd/172299578> ;
+    skos:prefLabel "Paasch, Carl" .
+
+<http://data.judaicalink.org/data/gnd/17230461X> a foaf:Person ;
+    gndo:gndIdentifier "17230461X" ;
+    owl:sameAs <http://d-nb.info/gnd/17230461X> ;
+    skos:prefLabel "Webb-Peploe, Annie" .
+
+<http://data.judaicalink.org/data/gnd/172314054> a foaf:Person ;
+    gndo:gndIdentifier "172314054" ;
+    owl:sameAs <http://d-nb.info/gnd/172314054> ;
+    skos:prefLabel "Prins, Izak" .
+
+<http://data.judaicalink.org/data/gnd/172642124> a foaf:Person ;
+    gndo:gndIdentifier "172642124" ;
+    owl:sameAs <http://d-nb.info/gnd/172642124> ;
+    skos:prefLabel "Schwartz, Jean" .
+
+<http://data.judaicalink.org/data/gnd/172916003> a foaf:Person ;
+    gndo:gndIdentifier "172916003" ;
+    owl:sameAs <http://d-nb.info/gnd/172916003> ;
+    skos:prefLabel "Marcus, Ahron" .
+
+<http://data.judaicalink.org/data/gnd/173100333> a foaf:Person ;
+    gndo:gndIdentifier "173100333" ;
+    owl:sameAs <http://d-nb.info/gnd/173100333> ;
+    skos:prefLabel "Morpurgo, Edgardo" .
+
+<http://data.judaicalink.org/data/gnd/173267181> a foaf:Person ;
+    gndo:gndIdentifier "173267181" ;
+    owl:sameAs <http://d-nb.info/gnd/173267181> ;
+    skos:prefLabel "Sterling, Ada" .
+
+<http://data.judaicalink.org/data/gnd/173697909> a foaf:Person ;
+    gndo:gndIdentifier "173697909" ;
+    owl:sameAs <http://d-nb.info/gnd/173697909> ;
+    skos:prefLabel "Fluegel, Maurice" .
+
+<http://data.judaicalink.org/data/gnd/17377444X> a foaf:Person ;
+    gndo:gndIdentifier "17377444X" ;
+    owl:sameAs <http://d-nb.info/gnd/17377444X> ;
+    skos:prefLabel "Corcos, Hezekiah Manoah Hayyim" .
+
+<http://data.judaicalink.org/data/gnd/174070020> a foaf:Person ;
+    gndo:gndIdentifier "174070020" ;
+    owl:sameAs <http://d-nb.info/gnd/174070020> ;
+    skos:prefLabel "Engelbert, Sally" .
+
+<http://data.judaicalink.org/data/gnd/174077718> a foaf:Person ;
+    gndo:gndIdentifier "174077718" ;
+    owl:sameAs <http://d-nb.info/gnd/174077718> ;
+    skos:prefLabel "Feilchenfeld, Werner" .
+
+<http://data.judaicalink.org/data/gnd/174131208> a foaf:Person ;
+    gndo:gndIdentifier "174131208" ;
+    owl:sameAs <http://d-nb.info/gnd/174131208> ;
+    skos:prefLabel "Rush, Joseph" .
+
+<http://data.judaicalink.org/data/gnd/174163681> a foaf:Person ;
+    gndo:gndIdentifier "174163681" ;
+    owl:sameAs <http://d-nb.info/gnd/174163681> ;
+    skos:prefLabel "Friedlander, Gerald" .
+
+<http://data.judaicalink.org/data/gnd/174250452> a foaf:Person ;
+    gndo:gndIdentifier "174250452" ;
+    owl:sameAs <http://d-nb.info/gnd/174250452> ;
+    skos:prefLabel "Mylius, Carl Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/189432020> a foaf:Person ;
+    gndo:gndIdentifier "189432020" ;
+    owl:sameAs <http://d-nb.info/gnd/189432020> ;
+    skos:prefLabel "Maser, Karl" .
+
+<http://data.judaicalink.org/data/gnd/87134926> a foaf:Person ;
+    gndo:gndIdentifier "87134926" ;
+    owl:sameAs <http://d-nb.info/gnd/87134926> ;
+    skos:prefLabel "Samuel, Herbert" .
+
+<http://data.judaicalink.org/data/gnd/10036666X> a foaf:Person ;
+    gndo:gndIdentifier "10036666X" ;
+    owl:sameAs <http://d-nb.info/gnd/10036666X> ;
+    skos:prefLabel "Juynboll, Theodoor Willem Jan" .
+
+<http://data.judaicalink.org/data/gnd/100401791> a foaf:Person ;
+    gndo:gndIdentifier "100401791" ;
+    owl:sameAs <http://d-nb.info/gnd/100401791> ;
+    skos:prefLabel "Schultens, Albert" .
+
+<http://data.judaicalink.org/data/gnd/1011578166> a foaf:Person ;
+    gndo:gndIdentifier "1011578166" ;
+    owl:sameAs <http://d-nb.info/gnd/1011578166> ;
+    skos:prefLabel "Schwarz, Israel" .
+
+<http://data.judaicalink.org/data/gnd/101256195X> a foaf:Person ;
+    gndo:gndIdentifier "101256195X" ;
+    owl:sameAs <http://d-nb.info/gnd/101256195X> ;
+    skos:prefLabel "Steckelmacher, Moritz" .
+
+<http://data.judaicalink.org/data/gnd/1014633354> a foaf:Person ;
+    gndo:gndIdentifier "1014633354" ;
+    owl:sameAs <http://d-nb.info/gnd/1014633354> ;
+    skos:prefLabel "Schwarz, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/101528258X> a foaf:Person ;
+    gndo:gndIdentifier "101528258X" ;
+    owl:sameAs <http://d-nb.info/gnd/101528258X> ;
+    skos:prefLabel "Carmoly, Eliakim" .
+
+<http://data.judaicalink.org/data/gnd/1017099847> a foaf:Person ;
+    gndo:gndIdentifier "1017099847" ;
+    owl:sameAs <http://d-nb.info/gnd/1017099847> ;
+    skos:prefLabel "Fischer, Bernard" .
+
+<http://data.judaicalink.org/data/gnd/1018902899> a foaf:Person ;
+    gndo:gndIdentifier "1018902899" ;
+    owl:sameAs <http://d-nb.info/gnd/1018902899> ;
+    skos:prefLabel "Wagner, Martin" .
+
+<http://data.judaicalink.org/data/gnd/1019587113> a foaf:Person ;
+    gndo:gndIdentifier "1019587113" ;
+    owl:sameAs <http://d-nb.info/gnd/1019587113> ;
+    skos:prefLabel "Lolli, Eude" .
+
+<http://data.judaicalink.org/data/gnd/1020661259> a foaf:Person ;
+    gndo:gndIdentifier "1020661259" ;
+    owl:sameAs <http://d-nb.info/gnd/1020661259> ;
+    skos:prefLabel "Klemperer, Wilhelm" .
+
+<http://data.judaicalink.org/data/gnd/1020695757> a foaf:Person ;
+    gndo:gndIdentifier "1020695757" ;
+    owl:sameAs <http://d-nb.info/gnd/1020695757> ;
+    skos:prefLabel "Stern, Ludwig" .
+
+<http://data.judaicalink.org/data/gnd/1022729039> a foaf:Person ;
+    gndo:gndIdentifier "1022729039" ;
+    owl:sameAs <http://d-nb.info/gnd/1022729039> ;
+    skos:prefLabel "Mannheimer, David" .
+
+<http://data.judaicalink.org/data/gnd/1022869922> a foaf:Person ;
+    gndo:gndIdentifier "1022869922" ;
+    owl:sameAs <http://d-nb.info/gnd/1022869922> ;
+    skos:prefLabel "Goldschmidt, Josef" .
+
+<http://data.judaicalink.org/data/gnd/1022980262> a foaf:Person ;
+    gndo:gndIdentifier "1022980262" ;
+    owl:sameAs <http://d-nb.info/gnd/1022980262> ;
+    skos:prefLabel "Schiffer, Sinai" .
+
+<http://data.judaicalink.org/data/gnd/1024687775> a foaf:Person ;
+    gndo:gndIdentifier "1024687775" ;
+    owl:sameAs <http://d-nb.info/gnd/1024687775> ;
+    skos:prefLabel "Rosenthal, Ludwig" .
+
+<http://data.judaicalink.org/data/gnd/10259466X> a foaf:Person ;
+    gndo:gndIdentifier "10259466X" ;
+    owl:sameAs <http://d-nb.info/gnd/10259466X> ;
+    skos:prefLabel "Kaempf, Saul I." .
+
+<http://data.judaicalink.org/data/gnd/1026361001> a foaf:Person ;
+    gndo:gndIdentifier "1026361001" ;
+    owl:sameAs <http://d-nb.info/gnd/1026361001> ;
+    skos:prefLabel "Wallerstein, Josua" .
+
+<http://data.judaicalink.org/data/gnd/1026544823> a foaf:Person ;
+    gndo:gndIdentifier "1026544823" ;
+    owl:sameAs <http://d-nb.info/gnd/1026544823> ;
+    skos:prefLabel "Schlesinger, Abraham" .
+
+<http://data.judaicalink.org/data/gnd/102673973X> a foaf:Person ;
+    gndo:gndIdentifier "102673973X" ;
+    owl:sameAs <http://d-nb.info/gnd/102673973X> ;
+    skos:prefLabel "Jacobson, Moses" .
+
+<http://data.judaicalink.org/data/gnd/1027647871> a foaf:Person ;
+    gndo:gndIdentifier "1027647871" ;
+    owl:sameAs <http://d-nb.info/gnd/1027647871> ;
+    skos:prefLabel "Silberstein, Michael" .
+
+<http://data.judaicalink.org/data/gnd/1031221158> a foaf:Person ;
+    gndo:gndIdentifier "1031221158" ;
+    owl:sameAs <http://d-nb.info/gnd/1031221158> ;
+    skos:prefLabel "Schmiedl, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/1032617101> a foaf:Person ;
+    gndo:gndIdentifier "1032617101" ;
+    owl:sameAs <http://d-nb.info/gnd/1032617101> ;
+    skos:prefLabel "Schreiber, Emanuel" .
+
+<http://data.judaicalink.org/data/gnd/1032813857> a foaf:Person ;
+    gndo:gndIdentifier "1032813857" ;
+    owl:sameAs <http://d-nb.info/gnd/1032813857> ;
+    skos:prefLabel "Schreiner, Martin" .
+
+<http://data.judaicalink.org/data/gnd/1033143006> a foaf:Person ;
+    gndo:gndIdentifier "1033143006" ;
+    owl:sameAs <http://d-nb.info/gnd/1033143006> ;
+    skos:prefLabel "Schulbaum, Moses" .
+
+<http://data.judaicalink.org/data/gnd/1035462761> a foaf:Person ;
+    gndo:gndIdentifier "1035462761" ;
+    owl:sameAs <http://d-nb.info/gnd/1035462761> ;
+    skos:prefLabel "Auerbach, Heimann" .
+
+<http://data.judaicalink.org/data/gnd/1037386302> a foaf:Person ;
+    gndo:gndIdentifier "1037386302" ;
+    owl:sameAs <http://d-nb.info/gnd/1037386302> ;
+    skos:prefLabel "Wolff, Maurice" .
+
+<http://data.judaicalink.org/data/gnd/1038227453> a foaf:Person ;
+    gndo:gndIdentifier "1038227453" ;
+    owl:sameAs <http://d-nb.info/gnd/1038227453> ;
+    skos:prefLabel "Meyer, Seligmann" .
+
+<http://data.judaicalink.org/data/gnd/103859846X> a foaf:Person ;
+    gndo:gndIdentifier "103859846X" ;
+    owl:sameAs <http://d-nb.info/gnd/103859846X> ;
+    skos:prefLabel "Berger, Heinrich" .
+
+<http://data.judaicalink.org/data/gnd/10406448X> a foaf:Person ;
+    gndo:gndIdentifier "10406448X" ;
+    owl:sameAs <http://d-nb.info/gnd/10406448X> ;
+    skos:prefLabel "Waeyen, Johannes van der" .
+
+<http://data.judaicalink.org/data/gnd/104268026> a foaf:Person ;
+    gndo:gndIdentifier "104268026" ;
+    owl:sameAs <http://d-nb.info/gnd/104268026> ;
+    skos:prefLabel "Lehmann, Johann Georg" .
+
+<http://data.judaicalink.org/data/gnd/104286547> a foaf:Person ;
+    gndo:gndIdentifier "104286547" ;
+    owl:sameAs <http://d-nb.info/gnd/104286547> ;
+    skos:prefLabel "Hottinger, Johann Heinrich" .
+
+<http://data.judaicalink.org/data/gnd/1044594926> a foaf:Person ;
+    gndo:gndIdentifier "1044594926" ;
+    owl:sameAs <http://d-nb.info/gnd/1044594926> ;
+    skos:prefLabel "Danby, Herbert" .
+
+<http://data.judaicalink.org/data/gnd/1048451216> a foaf:Person ;
+    gndo:gndIdentifier "1048451216" ;
+    owl:sameAs <http://d-nb.info/gnd/1048451216> ;
+    skos:prefLabel "Tedeschi, Marco" .
+
+<http://data.judaicalink.org/data/gnd/1050572904> a foaf:Person ;
+    gndo:gndIdentifier "1050572904" ;
+    owl:sameAs <http://d-nb.info/gnd/1050572904> ;
+    skos:prefLabel "Wertheimer, Joseph" .
+
+<http://data.judaicalink.org/data/gnd/1050675959> a foaf:Person ;
+    gndo:gndIdentifier "1050675959" ;
+    owl:sameAs <http://d-nb.info/gnd/1050675959> ;
+    skos:prefLabel "Fischer, Markus" .
+
+<http://data.judaicalink.org/data/gnd/1051900611> a foaf:Person ;
+    gndo:gndIdentifier "1051900611" ;
+    owl:sameAs <http://d-nb.info/gnd/1051900611> ;
+    skos:prefLabel "Ehrlich, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/1053062125> a foaf:Person ;
+    gndo:gndIdentifier "1053062125" ;
+    owl:sameAs <http://d-nb.info/gnd/1053062125> ;
+    skos:prefLabel "Deutsch, Israel" .
+
+<http://data.judaicalink.org/data/gnd/1053926081> a foaf:Person ;
+    gndo:gndIdentifier "1053926081" ;
+    owl:sameAs <http://d-nb.info/gnd/1053926081> ;
+    skos:prefLabel "Chodowski, Salomo" .
+
+<http://data.judaicalink.org/data/gnd/1054962537> a foaf:Person ;
+    gndo:gndIdentifier "1054962537" ;
+    owl:sameAs <http://d-nb.info/gnd/1054962537> ;
+    skos:prefLabel "Kroner, Hermann" .
+
+<http://data.judaicalink.org/data/gnd/1055141731> a foaf:Person ;
+    gndo:gndIdentifier "1055141731" ;
+    owl:sameAs <http://d-nb.info/gnd/1055141731> ;
+    skos:prefLabel "Schwab, Moise" .
+
+<http://data.judaicalink.org/data/gnd/1055183973> a foaf:Person ;
+    gndo:gndIdentifier "1055183973" ;
+    owl:sameAs <http://d-nb.info/gnd/1055183973> ;
+    skos:prefLabel "Donath, Leopold" .
+
+<http://data.judaicalink.org/data/gnd/1055202404> a foaf:Person ;
+    gndo:gndIdentifier "1055202404" ;
+    owl:sameAs <http://d-nb.info/gnd/1055202404> ;
+    skos:prefLabel "Berger, Philippe" .
+
+<http://data.judaicalink.org/data/gnd/105520914X> a foaf:Person ;
+    gndo:gndIdentifier "105520914X" ;
+    owl:sameAs <http://d-nb.info/gnd/105520914X> ;
+    skos:prefLabel "Netter, Nathan" .
+
+<http://data.judaicalink.org/data/gnd/1055283560> a foaf:Person ;
+    gndo:gndIdentifier "1055283560" ;
+    owl:sameAs <http://d-nb.info/gnd/1055283560> ;
+    skos:prefLabel "Murawski, Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/1055390502> a foaf:Person ;
+    gndo:gndIdentifier "1055390502" ;
+    owl:sameAs <http://d-nb.info/gnd/1055390502> ;
+    skos:prefLabel "Katz, Albert" .
+
+<http://data.judaicalink.org/data/gnd/1055402640> a foaf:Person ;
+    gndo:gndIdentifier "1055402640" ;
+    owl:sameAs <http://d-nb.info/gnd/1055402640> ;
+    skos:prefLabel "Mieses, Josef" .
+
+<http://data.judaicalink.org/data/gnd/1055414355> a foaf:Person ;
+    gndo:gndIdentifier "1055414355" ;
+    owl:sameAs <http://d-nb.info/gnd/1055414355> ;
+    skos:prefLabel "Adler, Michael" .
+
+<http://data.judaicalink.org/data/gnd/1055435425> a foaf:Person ;
+    gndo:gndIdentifier "1055435425" ;
+    owl:sameAs <http://d-nb.info/gnd/1055435425> ;
+    skos:prefLabel "Loewe, Louis" .
+
+<http://data.judaicalink.org/data/gnd/1059889587> a foaf:Person ;
+    gndo:gndIdentifier "1059889587" ;
+    owl:sameAs <http://d-nb.info/gnd/1059889587> ;
+    skos:prefLabel "Cohn, John" .
+
+<http://data.judaicalink.org/data/gnd/106074113X> a foaf:Person ;
+    gndo:gndIdentifier "106074113X" ;
+    owl:sameAs <http://d-nb.info/gnd/106074113X> ;
+    skos:prefLabel "Lengsfelder, Salomon" .
+
+<http://data.judaicalink.org/data/gnd/106282654X> a foaf:Person ;
+    gndo:gndIdentifier "106282654X" ;
+    owl:sameAs <http://d-nb.info/gnd/106282654X> ;
+    skos:prefLabel "Schleßinger, L." .
+
+<http://data.judaicalink.org/data/gnd/1064856276> a foaf:Person ;
+    gndo:gndIdentifier "1064856276" ;
+    owl:sameAs <http://d-nb.info/gnd/1064856276> ;
+    skos:prefLabel "Adler, Abraham" .
+
+<http://data.judaicalink.org/data/gnd/1068374322> a foaf:Person ;
+    gndo:gndIdentifier "1068374322" ;
+    owl:sameAs <http://d-nb.info/gnd/1068374322> ;
+    skos:prefLabel "Levi, Benedikt" .
+
+<http://data.judaicalink.org/data/gnd/1068782498> a foaf:Person ;
+    gndo:gndIdentifier "1068782498" ;
+    owl:sameAs <http://d-nb.info/gnd/1068782498> ;
+    skos:prefLabel "Alexandersohn, Jonathan" .
+
+<http://data.judaicalink.org/data/gnd/1068842040> a foaf:Person ;
+    gndo:gndIdentifier "1068842040" ;
+    owl:sameAs <http://d-nb.info/gnd/1068842040> ;
+    skos:prefLabel "Ehrmann, Daniel" .
+
+<http://data.judaicalink.org/data/gnd/1069962961> a foaf:Person ;
+    gndo:gndIdentifier "1069962961" ;
+    owl:sameAs <http://d-nb.info/gnd/1069962961> ;
+    skos:prefLabel "Ehrentheil, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/1072389169> a foaf:Person ;
+    gndo:gndIdentifier "1072389169" ;
+    owl:sameAs <http://d-nb.info/gnd/1072389169> ;
+    skos:prefLabel "Winter, David Alexander" .
+
+<http://data.judaicalink.org/data/gnd/1073885577> a foaf:Person ;
+    gndo:gndIdentifier "1073885577" ;
+    owl:sameAs <http://d-nb.info/gnd/1073885577> ;
+    skos:prefLabel "Frank, Abraham Salomon" .
+
+<http://data.judaicalink.org/data/gnd/10762527X> a foaf:Person ;
+    gndo:gndIdentifier "10762527X" ;
+    owl:sameAs <http://d-nb.info/gnd/10762527X> ;
+    skos:prefLabel "Gall, August von" .
+
+<http://data.judaicalink.org/data/gnd/1081081538> a foaf:Person ;
+    gndo:gndIdentifier "1081081538" ;
+    owl:sameAs <http://d-nb.info/gnd/1081081538> ;
+    skos:prefLabel "Goitein, Hirsch" .
+
+<http://data.judaicalink.org/data/gnd/1081944412> a foaf:Person ;
+    gndo:gndIdentifier "1081944412" ;
+    owl:sameAs <http://d-nb.info/gnd/1081944412> ;
+    skos:prefLabel "Stein, Leopold" .
+
+<http://data.judaicalink.org/data/gnd/1081953616> a foaf:Person ;
+    gndo:gndIdentifier "1081953616" ;
+    owl:sameAs <http://d-nb.info/gnd/1081953616> ;
+    skos:prefLabel "Goldschmidt, Salomon" .
+
+<http://data.judaicalink.org/data/gnd/1082354171> a foaf:Person ;
+    gndo:gndIdentifier "1082354171" ;
+    owl:sameAs <http://d-nb.info/gnd/1082354171> ;
+    skos:prefLabel "Stier, Josef" .
+
+<http://data.judaicalink.org/data/gnd/1090291728> a foaf:Person ;
+    gndo:gndIdentifier "1090291728" ;
+    owl:sameAs <http://d-nb.info/gnd/1090291728> ;
+    skos:prefLabel "Robertson, William" .
+
+<http://data.judaicalink.org/data/gnd/1101973749> a foaf:Person ;
+    gndo:gndIdentifier "1101973749" ;
+    owl:sameAs <http://d-nb.info/gnd/1101973749> ;
+    skos:prefLabel "Weichmann, Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/1102968692> a foaf:Person ;
+    gndo:gndIdentifier "1102968692" ;
+    owl:sameAs <http://d-nb.info/gnd/1102968692> ;
+    skos:prefLabel "Aron, Arnaud" .
+
+<http://data.judaicalink.org/data/gnd/110656814> a foaf:Person ;
+    gndo:gndIdentifier "110656814" ;
+    owl:sameAs <http://d-nb.info/gnd/110656814> ;
+    skos:prefLabel "Fischer, Bernard" .
+
+<http://data.judaicalink.org/data/gnd/1111521018> a foaf:Person ;
+    gndo:gndIdentifier "1111521018" ;
+    owl:sameAs <http://d-nb.info/gnd/1111521018> ;
+    skos:prefLabel "Goldschmidt, Salomon" .
+
+<http://data.judaicalink.org/data/gnd/115847170> a foaf:Person ;
+    gndo:gndIdentifier "115847170" ;
+    owl:sameAs <http://d-nb.info/gnd/115847170> ;
+    skos:prefLabel "Cohn, Emil" .
+
+<http://data.judaicalink.org/data/gnd/116008148> a foaf:Person ;
+    gndo:gndIdentifier "116008148" ;
+    owl:sameAs <http://d-nb.info/gnd/116008148> ;
+    skos:prefLabel "Adler, Hermann" .
+
+<http://data.judaicalink.org/data/gnd/116008393> a foaf:Person ;
+    gndo:gndIdentifier "116008393" ;
+    owl:sameAs <http://d-nb.info/gnd/116008393> ;
+    skos:prefLabel "Adler, Samuel" .
+
+<http://data.judaicalink.org/data/gnd/116079576> a foaf:Person ;
+    gndo:gndIdentifier "116079576" ;
+    owl:sameAs <http://d-nb.info/gnd/116079576> ;
+    skos:prefLabel "Perles, Felix" .
+
+<http://data.judaicalink.org/data/gnd/11611634X> a foaf:Person ;
+    gndo:gndIdentifier "11611634X" ;
+    owl:sameAs <http://d-nb.info/gnd/11611634X> ;
+    skos:prefLabel "Dietz, Alexander" .
+
+<http://data.judaicalink.org/data/gnd/11612783X> a foaf:Person ;
+    gndo:gndIdentifier "11612783X" ;
+    owl:sameAs <http://d-nb.info/gnd/11612783X> ;
+    skos:prefLabel "Dillmann, August" .
+
+<http://data.judaicalink.org/data/gnd/11613612X> a foaf:Person ;
+    gndo:gndIdentifier "11613612X" ;
+    owl:sameAs <http://d-nb.info/gnd/11613612X> ;
+    skos:prefLabel "Berliner, Abraham" .
+
+<http://data.judaicalink.org/data/gnd/116141115> a foaf:Person ;
+    gndo:gndIdentifier "116141115" ;
+    owl:sameAs <http://d-nb.info/gnd/116141115> ;
+    skos:prefLabel "Kayserling, Meyer" .
+
+<http://data.judaicalink.org/data/gnd/116176288> a foaf:Person ;
+    gndo:gndIdentifier "116176288" ;
+    owl:sameAs <http://d-nb.info/gnd/116176288> ;
+    skos:prefLabel "Philippson, Ludwig" .
+
+<http://data.judaicalink.org/data/gnd/11621595X> a foaf:Person ;
+    gndo:gndIdentifier "11621595X" ;
+    owl:sameAs <http://d-nb.info/gnd/11621595X> ;
+    skos:prefLabel "Bodenschatz, Johann Christoph Georg" .
+
+<http://data.judaicalink.org/data/gnd/11622732X> a foaf:Person ;
+    gndo:gndIdentifier "11622732X" ;
+    owl:sameAs <http://d-nb.info/gnd/11622732X> ;
+    skos:prefLabel "Kley, Eduard" .
+
+<http://data.judaicalink.org/data/gnd/116266899> a foaf:Person ;
+    gndo:gndIdentifier "116266899" ;
+    owl:sameAs <http://d-nb.info/gnd/116266899> ;
+    skos:prefLabel "Bosse, Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/116401400> a foaf:Person ;
+    gndo:gndIdentifier "116401400" ;
+    owl:sameAs <http://d-nb.info/gnd/116401400> ;
+    skos:prefLabel "Cahn, Michael" .
+
+<http://data.judaicalink.org/data/gnd/116468106> a foaf:Person ;
+    gndo:gndIdentifier "116468106" ;
+    owl:sameAs <http://d-nb.info/gnd/116468106> ;
+    skos:prefLabel "Caspari, Wilhelm" .
+
+<http://data.judaicalink.org/data/gnd/116504455> a foaf:Person ;
+    gndo:gndIdentifier "116504455" ;
+    owl:sameAs <http://d-nb.info/gnd/116504455> ;
+    skos:prefLabel "Cheyne, Thomas K." .
+
+<http://data.judaicalink.org/data/gnd/11650899X> a foaf:Person ;
+    gndo:gndIdentifier "11650899X" ;
+    owl:sameAs <http://d-nb.info/gnd/11650899X> ;
+    skos:prefLabel "Richel, Arthur" .
+
+<http://data.judaicalink.org/data/gnd/116521260> a foaf:Person ;
+    gndo:gndIdentifier "116521260" ;
+    owl:sameAs <http://d-nb.info/gnd/116521260> ;
+    skos:prefLabel "Gelbhaus, Sigmund" .
+
+<http://data.judaicalink.org/data/gnd/116558539> a foaf:Person ;
+    gndo:gndIdentifier "116558539" ;
+    owl:sameAs <http://d-nb.info/gnd/116558539> ;
+    skos:prefLabel "Fischer, Karl" .
+
+<http://data.judaicalink.org/data/gnd/116563923> a foaf:Person ;
+    gndo:gndIdentifier "116563923" ;
+    owl:sameAs <http://d-nb.info/gnd/116563923> ;
+    skos:prefLabel "Riem, Andreas" .
+
+<http://data.judaicalink.org/data/gnd/116572736> a foaf:Person ;
+    gndo:gndIdentifier "116572736" ;
+    owl:sameAs <http://d-nb.info/gnd/116572736> ;
+    skos:prefLabel "Hehn, Johannes" .
+
+<http://data.judaicalink.org/data/gnd/11660042X> a foaf:Person ;
+    gndo:gndIdentifier "11660042X" ;
+    owl:sameAs <http://d-nb.info/gnd/11660042X> ;
+    skos:prefLabel "Fleischer, Heinrich Leberecht" .
+
+<http://data.judaicalink.org/data/gnd/116660147> a foaf:Person ;
+    gndo:gndIdentifier "116660147" ;
+    owl:sameAs <http://d-nb.info/gnd/116660147> ;
+    skos:prefLabel "Heinemann, Jeremias" .
+
+<http://data.judaicalink.org/data/gnd/11671767X> a foaf:Person ;
+    gndo:gndIdentifier "11671767X" ;
+    owl:sameAs <http://d-nb.info/gnd/11671767X> ;
+    skos:prefLabel "Frankfurter, Salomon" .
+
+<http://data.judaicalink.org/data/gnd/116750057> a foaf:Person ;
+    gndo:gndIdentifier "116750057" ;
+    owl:sameAs <http://d-nb.info/gnd/116750057> ;
+    skos:prefLabel "Freimann, Aron" .
+
+<http://data.judaicalink.org/data/gnd/116756586> a foaf:Person ;
+    gndo:gndIdentifier "116756586" ;
+    owl:sameAs <http://d-nb.info/gnd/116756586> ;
+    skos:prefLabel "Goldschmidt, Israel" .
+
+<http://data.judaicalink.org/data/gnd/11676712X> a foaf:Person ;
+    gndo:gndIdentifier "11676712X" ;
+    owl:sameAs <http://d-nb.info/gnd/11676712X> ;
+    skos:prefLabel "Salomon, Gotthold" .
+
+<http://data.judaicalink.org/data/gnd/11679724X> a foaf:Person ;
+    gndo:gndIdentifier "11679724X" ;
+    owl:sameAs <http://d-nb.info/gnd/11679724X> ;
+    skos:prefLabel "Friedlaender, Israel" .
+
+<http://data.judaicalink.org/data/gnd/116895845> a foaf:Person ;
+    gndo:gndIdentifier "116895845" ;
+    owl:sameAs <http://d-nb.info/gnd/116895845> ;
+    skos:prefLabel "Scholl, Carl" .
+
+<http://data.judaicalink.org/data/gnd/116901373> a foaf:Person ;
+    gndo:gndIdentifier "116901373" ;
+    owl:sameAs <http://d-nb.info/gnd/116901373> ;
+    skos:prefLabel "Grunwald, Max" .
+
+<http://data.judaicalink.org/data/gnd/116963964> a foaf:Person ;
+    gndo:gndIdentifier "116963964" ;
+    owl:sameAs <http://d-nb.info/gnd/116963964> ;
+    skos:prefLabel "Zange, Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/116971207> a foaf:Person ;
+    gndo:gndIdentifier "116971207" ;
+    owl:sameAs <http://d-nb.info/gnd/116971207> ;
+    skos:prefLabel "Lewin, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/117057231> a foaf:Person ;
+    gndo:gndIdentifier "117057231" ;
+    owl:sameAs <http://d-nb.info/gnd/117057231> ;
+    skos:prefLabel "Jaeger, Johannes" .
+
+<http://data.judaicalink.org/data/gnd/11706940X> a foaf:Person ;
+    gndo:gndIdentifier "11706940X" ;
+    owl:sameAs <http://d-nb.info/gnd/11706940X> ;
+    skos:prefLabel "Nowack, Wilhelm" .
+
+<http://data.judaicalink.org/data/gnd/117078816> a foaf:Person ;
+    gndo:gndIdentifier "117078816" ;
+    owl:sameAs <http://d-nb.info/gnd/117078816> ;
+    skos:prefLabel "Schroeder, Nikolaus Wilhelm" .
+
+<http://data.judaicalink.org/data/gnd/11715900X> a foaf:Person ;
+    gndo:gndIdentifier "11715900X" ;
+    owl:sameAs <http://d-nb.info/gnd/11715900X> ;
+    skos:prefLabel "Weber, Georg" .
+
+<http://data.judaicalink.org/data/gnd/117162485> a foaf:Person ;
+    gndo:gndIdentifier "117162485" ;
+    owl:sameAs <http://d-nb.info/gnd/117162485> ;
+    skos:prefLabel "Johlson, Josef" .
+
+<http://data.judaicalink.org/data/gnd/11718991X> a foaf:Person ;
+    gndo:gndIdentifier "11718991X" ;
+    owl:sameAs <http://d-nb.info/gnd/11718991X> ;
+    skos:prefLabel "Buxtorf, Johann" .
+
+<http://data.judaicalink.org/data/gnd/117243027> a foaf:Person ;
+    gndo:gndIdentifier "117243027" ;
+    owl:sameAs <http://d-nb.info/gnd/117243027> ;
+    skos:prefLabel "Stein, Leopold" .
+
+<http://data.judaicalink.org/data/gnd/117243426> a foaf:Person ;
+    gndo:gndIdentifier "117243426" ;
+    owl:sameAs <http://d-nb.info/gnd/117243426> ;
+    skos:prefLabel "Stein, Ludwig" .
+
+<http://data.judaicalink.org/data/gnd/11724421X> a foaf:Person ;
+    gndo:gndIdentifier "11724421X" ;
+    owl:sameAs <http://d-nb.info/gnd/11724421X> ;
+    skos:prefLabel "Stein, Siegmund Theodor" .
+
+<http://data.judaicalink.org/data/gnd/117262277> a foaf:Person ;
+    gndo:gndIdentifier "117262277" ;
+    owl:sameAs <http://d-nb.info/gnd/117262277> ;
+    skos:prefLabel "Weinberg, Magnus" .
+
+<http://data.judaicalink.org/data/gnd/117310212> a foaf:Person ;
+    gndo:gndIdentifier "117310212" ;
+    owl:sameAs <http://d-nb.info/gnd/117310212> ;
+    skos:prefLabel "Unna, Isak" .
+
+<http://data.judaicalink.org/data/gnd/117317748> a foaf:Person ;
+    gndo:gndIdentifier "117317748" ;
+    owl:sameAs <http://d-nb.info/gnd/117317748> ;
+    skos:prefLabel "Wessely, Wolfgang" .
+
+<http://data.judaicalink.org/data/gnd/11732275X> a foaf:Person ;
+    gndo:gndIdentifier "11732275X" ;
+    owl:sameAs <http://d-nb.info/gnd/11732275X> ;
+    skos:prefLabel "Ussermann, Aemilian" .
+
+<http://data.judaicalink.org/data/gnd/117351075> a foaf:Person ;
+    gndo:gndIdentifier "117351075" ;
+    owl:sameAs <http://d-nb.info/gnd/117351075> ;
+    skos:prefLabel "Thomsen, Peter" .
+
+<http://data.judaicalink.org/data/gnd/11736746X> a foaf:Person ;
+    gndo:gndIdentifier "11736746X" ;
+    owl:sameAs <http://d-nb.info/gnd/11736746X> ;
+    skos:prefLabel "Schwarz, Karl" .
+
+<http://data.judaicalink.org/data/gnd/117474010> a foaf:Person ;
+    gndo:gndIdentifier "117474010" ;
+    owl:sameAs <http://d-nb.info/gnd/117474010> ;
+    skos:prefLabel "Seligmann, Caesar" .
+
+<http://data.judaicalink.org/data/gnd/117723231> a foaf:Person ;
+    gndo:gndIdentifier "117723231" ;
+    owl:sameAs <http://d-nb.info/gnd/117723231> ;
+    skos:prefLabel "Rothschild, David" .
+
+<http://data.judaicalink.org/data/gnd/117747955> a foaf:Person ;
+    gndo:gndIdentifier "117747955" ;
+    owl:sameAs <http://d-nb.info/gnd/117747955> ;
+    skos:prefLabel "Hirsch, Samuel" .
+
+<http://data.judaicalink.org/data/gnd/11775160X> a foaf:Person ;
+    gndo:gndIdentifier "11775160X" ;
+    owl:sameAs <http://d-nb.info/gnd/11775160X> ;
+    skos:prefLabel "Creizenach, Michael" .
+
+<http://data.judaicalink.org/data/gnd/118516663> a foaf:Person ;
+    gndo:gndIdentifier "118516663" ;
+    owl:sameAs <http://d-nb.info/gnd/118516663> ;
+    skos:prefLabel "Buchholz, Friedrich" .
+
+<http://data.judaicalink.org/data/gnd/118566318> a foaf:Person ;
+    gndo:gndIdentifier "118566318" ;
+    owl:sameAs <http://d-nb.info/gnd/118566318> ;
+    skos:prefLabel "Krause, Gerhard" .
+
+<http://data.judaicalink.org/data/gnd/11866753X> a foaf:Person ;
+    gndo:gndIdentifier "11866753X" ;
+    owl:sameAs <http://d-nb.info/gnd/11866753X> ;
+    skos:prefLabel "Cattaneo, Carlo" .
+
+<http://data.judaicalink.org/data/gnd/11867482X> a foaf:Person ;
+    gndo:gndIdentifier "11867482X" ;
+    owl:sameAs <http://d-nb.info/gnd/11867482X> ;
+    skos:prefLabel "Brunner, Peter" .
+
+<http://data.judaicalink.org/data/gnd/118682857> a foaf:Person ;
+    gndo:gndIdentifier "118682857" ;
+    owl:sameAs <http://d-nb.info/gnd/118682857> ;
+    skos:prefLabel "Ewald, Heinrich" .
+
+<http://data.judaicalink.org/data/gnd/118683977> a foaf:Person ;
+    gndo:gndIdentifier "118683977" ;
+    owl:sameAs <http://d-nb.info/gnd/118683977> ;
+    skos:prefLabel "Fleury, Claude" .
+
+<http://data.judaicalink.org/data/gnd/118768778> a foaf:Person ;
+    gndo:gndIdentifier "118768778" ;
+    owl:sameAs <http://d-nb.info/gnd/118768778> ;
+    skos:prefLabel "Vitringa, Campegius" .
+
+<http://data.judaicalink.org/data/gnd/11880846X> a foaf:Person ;
+    gndo:gndIdentifier "11880846X" ;
+    owl:sameAs <http://d-nb.info/gnd/11880846X> ;
+    skos:prefLabel "Zimmern, Heinrich" .
+
+<http://data.judaicalink.org/data/gnd/11884704X> a foaf:Person ;
+    gndo:gndIdentifier "11884704X" ;
+    owl:sameAs <http://d-nb.info/gnd/11884704X> ;
+    skos:prefLabel "Krug, Wilhelm Traugott" .
+
+<http://data.judaicalink.org/data/gnd/11884976X> a foaf:Person ;
+    gndo:gndIdentifier "11884976X" ;
+    owl:sameAs <http://d-nb.info/gnd/11884976X> ;
+    skos:prefLabel "Bamberger, Seligmann Baer" .
+
+<http://data.judaicalink.org/data/gnd/11891703X> a foaf:Person ;
+    gndo:gndIdentifier "11891703X" ;
+    owl:sameAs <http://d-nb.info/gnd/11891703X> ;
+    skos:prefLabel "Silver, Abba Hillel" .
+
+<http://data.judaicalink.org/data/gnd/119199351> a foaf:Person ;
+    gndo:gndIdentifier "119199351" ;
+    owl:sameAs <http://d-nb.info/gnd/119199351> ;
+    skos:prefLabel "Pistorius, Johann" .
+
+<http://data.judaicalink.org/data/gnd/119249197> a foaf:Person ;
+    gndo:gndIdentifier "119249197" ;
+    owl:sameAs <http://d-nb.info/gnd/119249197> ;
+    skos:prefLabel "Kaufmann, David" .
+
+<http://data.judaicalink.org/data/gnd/11933304X> a foaf:Person ;
+    gndo:gndIdentifier "11933304X" ;
+    owl:sameAs <http://d-nb.info/gnd/11933304X> ;
+    skos:prefLabel "Geiger, Abraham" .
+
+<http://data.judaicalink.org/data/gnd/119354241> a foaf:Person ;
+    gndo:gndIdentifier "119354241" ;
+    owl:sameAs <http://d-nb.info/gnd/119354241> ;
+    skos:prefLabel "Schorr, Moses" .
+
+<http://data.judaicalink.org/data/gnd/119354780> a foaf:Person ;
+    gndo:gndIdentifier "119354780" ;
+    owl:sameAs <http://d-nb.info/gnd/119354780> ;
+    skos:prefLabel "Buxtorf, Johann" .
+
+<http://data.judaicalink.org/data/gnd/11937224X> a foaf:Person ;
+    gndo:gndIdentifier "11937224X" ;
+    owl:sameAs <http://d-nb.info/gnd/11937224X> ;
+    skos:prefLabel "Oyʿerbakh, Mosheh" .
+
+<http://data.judaicalink.org/data/gnd/119402734> a foaf:Person ;
+    gndo:gndIdentifier "119402734" ;
+    owl:sameAs <http://d-nb.info/gnd/119402734> ;
+    skos:prefLabel "Strack, Hermann L." .
+
+<http://data.judaicalink.org/data/gnd/119405504> a foaf:Person ;
+    gndo:gndIdentifier "119405504" ;
+    owl:sameAs <http://d-nb.info/gnd/119405504> ;
+    skos:prefLabel "Schulz, Johann Heinrich" .
+
+<http://data.judaicalink.org/data/gnd/119458403> a foaf:Person ;
+    gndo:gndIdentifier "119458403" ;
+    owl:sameAs <http://d-nb.info/gnd/119458403> ;
+    skos:prefLabel "Cansinos-Assens, Rafael" .
+
+<http://data.judaicalink.org/data/gnd/120527685> a foaf:Person ;
+    gndo:gndIdentifier "120527685" ;
+    owl:sameAs <http://d-nb.info/gnd/120527685> ;
+    skos:prefLabel "Holtzmann, Oskar" .
+
+<http://data.judaicalink.org/data/gnd/121770095> a foaf:Person ;
+    gndo:gndIdentifier "121770095" ;
+    owl:sameAs <http://d-nb.info/gnd/121770095> ;
+    skos:prefLabel "Deutsch, David" .
+
+<http://data.judaicalink.org/data/gnd/12184353X> a foaf:Person ;
+    gndo:gndIdentifier "12184353X" ;
+    owl:sameAs <http://d-nb.info/gnd/12184353X> ;
+    skos:prefLabel "Hildesheimer, Esra Esriel" .
+
+<http://data.judaicalink.org/data/gnd/122160843> a foaf:Person ;
+    gndo:gndIdentifier "122160843" ;
+    owl:sameAs <http://d-nb.info/gnd/122160843> ;
+    skos:prefLabel "Levi, Giuseppe" .
+
+<http://data.judaicalink.org/data/gnd/12270049X> a foaf:Person ;
+    gndo:gndIdentifier "12270049X" ;
+    owl:sameAs <http://d-nb.info/gnd/12270049X> ;
+    skos:prefLabel "Marracci, Lodovico" .
+
+<http://data.judaicalink.org/data/gnd/123851629> a foaf:Person ;
+    gndo:gndIdentifier "123851629" ;
+    owl:sameAs <http://d-nb.info/gnd/123851629> ;
+    skos:prefLabel "Bischoff, Erich" .
+
+<http://data.judaicalink.org/data/gnd/123876400> a foaf:Person ;
+    gndo:gndIdentifier "123876400" ;
+    owl:sameAs <http://d-nb.info/gnd/123876400> ;
+    skos:prefLabel "Brody, Heinrich" .
+
+<http://data.judaicalink.org/data/gnd/12430575X> a foaf:Person ;
+    gndo:gndIdentifier "12430575X" ;
+    owl:sameAs <http://d-nb.info/gnd/12430575X> ;
+    skos:prefLabel "Margaritha, Anton" .
+
+<http://data.judaicalink.org/data/gnd/124404170> a foaf:Person ;
+    gndo:gndIdentifier "124404170" ;
+    owl:sameAs <http://d-nb.info/gnd/124404170> ;
+    skos:prefLabel "Bensew, J. L." .
+
+<http://data.judaicalink.org/data/gnd/124436579> a foaf:Person ;
+    gndo:gndIdentifier "124436579" ;
+    owl:sameAs <http://d-nb.info/gnd/124436579> ;
+    skos:prefLabel "Prideaux, Humphrey" .
+
+<http://data.judaicalink.org/data/gnd/124487009> a foaf:Person ;
+    gndo:gndIdentifier "124487009" ;
+    owl:sameAs <http://d-nb.info/gnd/124487009> ;
+    skos:prefLabel "Allix, Pierre" .
+
+<http://data.judaicalink.org/data/gnd/12485382X> a foaf:Person ;
+    gndo:gndIdentifier "12485382X" ;
+    owl:sameAs <http://d-nb.info/gnd/12485382X> ;
+    skos:prefLabel "Galatino, Pietro" .
+
+<http://data.judaicalink.org/data/gnd/12685601X> a foaf:Person ;
+    gndo:gndIdentifier "12685601X" ;
+    owl:sameAs <http://d-nb.info/gnd/12685601X> ;
+    skos:prefLabel "Rosenfeld, Moritz" .
+
+<http://data.judaicalink.org/data/gnd/127153152> a foaf:Person ;
+    gndo:gndIdentifier "127153152" ;
+    owl:sameAs <http://d-nb.info/gnd/127153152> ;
+    skos:prefLabel "Lattes, Dante" .
+
+<http://data.judaicalink.org/data/gnd/127882197> a foaf:Person ;
+    gndo:gndIdentifier "127882197" ;
+    owl:sameAs <http://d-nb.info/gnd/127882197> ;
+    skos:prefLabel "Kurrein, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/12915105X> a foaf:Person ;
+    gndo:gndIdentifier "12915105X" ;
+    owl:sameAs <http://d-nb.info/gnd/12915105X> ;
+    skos:prefLabel "Eberhard, Otto" .
+
+<http://data.judaicalink.org/data/gnd/12916609X> a foaf:Person ;
+    gndo:gndIdentifier "12916609X" ;
+    owl:sameAs <http://d-nb.info/gnd/12916609X> ;
+    skos:prefLabel "Cappel, Louis" .
+
+<http://data.judaicalink.org/data/gnd/129329460> a foaf:Person ;
+    gndo:gndIdentifier "129329460" ;
+    owl:sameAs <http://d-nb.info/gnd/129329460> ;
+    skos:prefLabel "Reich, Wilhelm" .
+
+<http://data.judaicalink.org/data/gnd/12954759X> a foaf:Person ;
+    gndo:gndIdentifier "12954759X" ;
+    owl:sameAs <http://d-nb.info/gnd/12954759X> ;
+    skos:prefLabel "Venetianer, Ludwig" .
+
+<http://data.judaicalink.org/data/gnd/130556890> a foaf:Person ;
+    gndo:gndIdentifier "130556890" ;
+    owl:sameAs <http://d-nb.info/gnd/130556890> ;
+    skos:prefLabel "Bamberger, Salomon" .
+
+<http://data.judaicalink.org/data/gnd/13160564X> a foaf:Person ;
+    gndo:gndIdentifier "13160564X" ;
+    owl:sameAs <http://d-nb.info/gnd/13160564X> ;
+    skos:prefLabel "Iken, Conrad" .
+
+<http://data.judaicalink.org/data/gnd/131639684> a foaf:Person ;
+    gndo:gndIdentifier "131639684" ;
+    owl:sameAs <http://d-nb.info/gnd/131639684> ;
+    skos:prefLabel "Langer, Georg" .
+
+<http://data.judaicalink.org/data/gnd/13164145X> a foaf:Person ;
+    gndo:gndIdentifier "13164145X" ;
+    owl:sameAs <http://d-nb.info/gnd/13164145X> ;
+    skos:prefLabel "Landau, Ezechiel" .
+
+<http://data.judaicalink.org/data/gnd/131883968> a foaf:Person ;
+    gndo:gndIdentifier "131883968" ;
+    owl:sameAs <http://d-nb.info/gnd/131883968> ;
+    skos:prefLabel "Eckstein, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/133125165> a foaf:Person ;
+    gndo:gndIdentifier "133125165" ;
+    owl:sameAs <http://d-nb.info/gnd/133125165> ;
+    skos:prefLabel "Spencer, John" .
+
+<http://data.judaicalink.org/data/gnd/133524019> a foaf:Person ;
+    gndo:gndIdentifier "133524019" ;
+    owl:sameAs <http://d-nb.info/gnd/133524019> ;
+    skos:prefLabel "Stern, Moritz" .
+
+<http://data.judaicalink.org/data/gnd/133761061> a foaf:Person ;
+    gndo:gndIdentifier "133761061" ;
+    owl:sameAs <http://d-nb.info/gnd/133761061> ;
+    skos:prefLabel "Cohn, Arthur" .
+
+<http://data.judaicalink.org/data/gnd/133958809> a foaf:Person ;
+    gndo:gndIdentifier "133958809" ;
+    owl:sameAs <http://d-nb.info/gnd/133958809> ;
+    skos:prefLabel "Kahn, Zadoc" .
+
+<http://data.judaicalink.org/data/gnd/134106229> a foaf:Person ;
+    gndo:gndIdentifier "134106229" ;
+    owl:sameAs <http://d-nb.info/gnd/134106229> ;
+    skos:prefLabel "Bamberger, Isaac" .
+
+<http://data.judaicalink.org/data/gnd/136544142> a foaf:Person ;
+    gndo:gndIdentifier "136544142" ;
+    owl:sameAs <http://d-nb.info/gnd/136544142> ;
+    skos:prefLabel "Lazarus, Leiser" .
+
+<http://data.judaicalink.org/data/gnd/136577741> a foaf:Person ;
+    gndo:gndIdentifier "136577741" ;
+    owl:sameAs <http://d-nb.info/gnd/136577741> ;
+    skos:prefLabel "Hess, Michael" .
+
+<http://data.judaicalink.org/data/gnd/137101597> a foaf:Person ;
+    gndo:gndIdentifier "137101597" ;
+    owl:sameAs <http://d-nb.info/gnd/137101597> ;
+    skos:prefLabel "Kohut, Alexander" .
+
+<http://data.judaicalink.org/data/gnd/137108583> a foaf:Person ;
+    gndo:gndIdentifier "137108583" ;
+    owl:sameAs <http://d-nb.info/gnd/137108583> ;
+    skos:prefLabel "Kroner, Theodor" .
+
+<http://data.judaicalink.org/data/gnd/137360711> a foaf:Person ;
+    gndo:gndIdentifier "137360711" ;
+    owl:sameAs <http://d-nb.info/gnd/137360711> ;
+    skos:prefLabel "Friedeberg, Meyer" .
+
+<http://data.judaicalink.org/data/gnd/137371438> a foaf:Person ;
+    gndo:gndIdentifier "137371438" ;
+    owl:sameAs <http://d-nb.info/gnd/137371438> ;
+    skos:prefLabel "Stein, Abraham" .
+
+<http://data.judaicalink.org/data/gnd/13759383X> a foaf:Person ;
+    gndo:gndIdentifier "13759383X" ;
+    owl:sameAs <http://d-nb.info/gnd/13759383X> ;
+    skos:prefLabel "Klemperer, Gutmann" .
+
+<http://data.judaicalink.org/data/gnd/138183023> a foaf:Person ;
+    gndo:gndIdentifier "138183023" ;
+    owl:sameAs <http://d-nb.info/gnd/138183023> ;
+    skos:prefLabel "Munk, Meier" .
+
+<http://data.judaicalink.org/data/gnd/138382468> a foaf:Person ;
+    gndo:gndIdentifier "138382468" ;
+    owl:sameAs <http://d-nb.info/gnd/138382468> ;
+    skos:prefLabel "Mielziner, Moses" .
+
+<http://data.judaicalink.org/data/gnd/13860066X> a foaf:Person ;
+    gndo:gndIdentifier "13860066X" ;
+    owl:sameAs <http://d-nb.info/gnd/13860066X> ;
+    skos:prefLabel "Eisler, Leopold" .
+
+<http://data.judaicalink.org/data/gnd/13927605X> a foaf:Person ;
+    gndo:gndIdentifier "13927605X" ;
+    owl:sameAs <http://d-nb.info/gnd/13927605X> ;
+    skos:prefLabel "Steinersdorff, Johann Christian" .
+
+<http://data.judaicalink.org/data/gnd/139714413> a foaf:Person ;
+    gndo:gndIdentifier "139714413" ;
+    owl:sameAs <http://d-nb.info/gnd/139714413> ;
+    skos:prefLabel "Doctor, Max" .
+
+<http://data.judaicalink.org/data/gnd/139714847> a foaf:Person ;
+    gndo:gndIdentifier "139714847" ;
+    owl:sameAs <http://d-nb.info/gnd/139714847> ;
+    skos:prefLabel "Rieger, Paul" .
+
+<http://data.judaicalink.org/data/gnd/139792589> a foaf:Person ;
+    gndo:gndIdentifier "139792589" ;
+    owl:sameAs <http://d-nb.info/gnd/139792589> ;
+    skos:prefLabel "Vogelstein, Hermann" .
+
+<http://data.judaicalink.org/data/gnd/139814728> a foaf:Person ;
+    gndo:gndIdentifier "139814728" ;
+    owl:sameAs <http://d-nb.info/gnd/139814728> ;
+    skos:prefLabel "Ginsburger, Moses" .
+
+<http://data.judaicalink.org/data/gnd/139891811> a foaf:Person ;
+    gndo:gndIdentifier "139891811" ;
+    owl:sameAs <http://d-nb.info/gnd/139891811> ;
+    skos:prefLabel "Gousset, Jacques" .
+
+<http://data.judaicalink.org/data/gnd/14027488X> a foaf:Person ;
+    gndo:gndIdentifier "14027488X" ;
+    owl:sameAs <http://d-nb.info/gnd/14027488X> ;
+    skos:prefLabel "Hafner, Johann Peter" .
+
+<http://data.judaicalink.org/data/gnd/140475338> a foaf:Person ;
+    gndo:gndIdentifier "140475338" ;
+    owl:sameAs <http://d-nb.info/gnd/140475338> ;
+    skos:prefLabel "Seeger, Heinrich" .
+
+<http://data.judaicalink.org/data/gnd/140966587> a foaf:Person ;
+    gndo:gndIdentifier "140966587" ;
+    owl:sameAs <http://d-nb.info/gnd/140966587> ;
+    skos:prefLabel "Anton, Karl" .
+
+<http://data.judaicalink.org/data/gnd/141623829> a foaf:Person ;
+    gndo:gndIdentifier "141623829" ;
+    owl:sameAs <http://d-nb.info/gnd/141623829> ;
+    skos:prefLabel "Wohlgemuth, Joseph" .
+
+<http://data.judaicalink.org/data/gnd/141651911> a foaf:Person ;
+    gndo:gndIdentifier "141651911" ;
+    owl:sameAs <http://d-nb.info/gnd/141651911> ;
+    skos:prefLabel "Landsberger, Julius" .
+
+<http://data.judaicalink.org/data/gnd/143060791> a foaf:Person ;
+    gndo:gndIdentifier "143060791" ;
+    owl:sameAs <http://d-nb.info/gnd/143060791> ;
+    skos:prefLabel "Goldmann, Felix" .
+
+<http://data.judaicalink.org/data/gnd/143575120> a foaf:Person ;
+    gndo:gndIdentifier "143575120" ;
+    owl:sameAs <http://d-nb.info/gnd/143575120> ;
+    skos:prefLabel "Gronemann, Selig" .
+
+<http://data.judaicalink.org/data/gnd/14363142X> a foaf:Person ;
+    gndo:gndIdentifier "14363142X" ;
+    owl:sameAs <http://d-nb.info/gnd/14363142X> ;
+    skos:prefLabel "Sachs, Senior" .
+
+<http://data.judaicalink.org/data/gnd/143894056> a foaf:Person ;
+    gndo:gndIdentifier "143894056" ;
+    owl:sameAs <http://d-nb.info/gnd/143894056> ;
+    skos:prefLabel "Lemans, Moses",
+        "Mulder, Samuel Israel" .
+
+<http://data.judaicalink.org/data/gnd/143916556> a foaf:Person ;
+    gndo:gndIdentifier "143916556" ;
+    owl:sameAs <http://d-nb.info/gnd/143916556> ;
+    skos:prefLabel "Roth, Aron" .
+
+<http://data.judaicalink.org/data/gnd/171949366> a foaf:Person ;
+    gndo:gndIdentifier "171949366" ;
+    owl:sameAs <http://d-nb.info/gnd/171949366> ;
+    skos:prefLabel "Altmann, Adolf" .
+
+<http://data.judaicalink.org/data/gnd/172993555> a foaf:Person ;
+    gndo:gndIdentifier "172993555" ;
+    owl:sameAs <http://d-nb.info/gnd/172993555> ;
+    skos:prefLabel "Cohen, Benjamin" .
+
+<http://data.judaicalink.org/data/gnd/173361390> a foaf:Person ;
+    gndo:gndIdentifier "173361390" ;
+    owl:sameAs <http://d-nb.info/gnd/173361390> ;
+    skos:prefLabel "Smith, George" .
+
+<http://data.judaicalink.org/data/gnd/173833446> a foaf:Person ;
+    gndo:gndIdentifier "173833446" ;
+    owl:sameAs <http://d-nb.info/gnd/173833446> ;
+    skos:prefLabel "Mulder, Samuel Israel" .
+
+<http://data.judaicalink.org/data/gnd/174077084> a foaf:Person ;
+    gndo:gndIdentifier "174077084" ;
+    owl:sameAs <http://d-nb.info/gnd/174077084> ;
+    skos:prefLabel "Ziegler, Ignaz" .
+
+<http://data.judaicalink.org/data/gnd/174084145> a foaf:Person ;
+    gndo:gndIdentifier "174084145" ;
+    owl:sameAs <http://d-nb.info/gnd/174084145> ;
+    skos:prefLabel "Cohen, Abraham" .
+
+<http://data.judaicalink.org/data/gnd/174137273> a foaf:Person ;
+    gndo:gndIdentifier "174137273" ;
+    owl:sameAs <http://d-nb.info/gnd/174137273> ;
+    skos:prefLabel "Ubach, Bonaventura" .
+
+<http://data.judaicalink.org/data/gnd/1760934X> a foaf:Person ;
+    gndo:gndIdentifier "1760934X" ;
+    owl:sameAs <http://d-nb.info/gnd/1760934X> ;
+    skos:prefLabel "Boehmer, Julius" .
