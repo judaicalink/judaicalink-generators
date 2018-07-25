@@ -26,3 +26,5 @@ The file Freimann-GND-enriched-05.ttl is generated using Freimann-GND-enrich.py 
 
 
 Using the scrip and the Freimann-GND-03.rdf file, the final file is generated in 5 stages as can be seen in the script: Freimann-GND-enriched-01.ttl , 02, 03, 04 and 05. In each stage a different query is used inorder to enrich the data with as much further information as possible from GND.    
+
+The UB-gnd.py script along with the tp-records_gnd-ids.csv file, as the input file, was used to generate the ub-authors.ttl file. The csv file was provided by the University Library of Frankfurt which contains the list of all the authors of the library collection who had a TP GND-id. The generated turtle file, contains all the authors along with their information extracted from GND. The output file is added to the JudaicaLink datasets.
