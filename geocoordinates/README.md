@@ -6,9 +6,9 @@
 The python script Location-coor-02-02.py is used to assign the geo-coordinates of all the cities which are stated in the JudaicaLink datasets either as birth location or death location. 
 To do so, all these cities are looked up in the GND and if found the geo-coordinated as well as the GND-id of the location is assigned to them.  
 
-There are cases where there are multiple coordinates assigned to the same location. Based on the expert opinion, if there are two coordinates for the same location; if the absolute value of their subtraction is <0.01 they can be considered the same. 
-
-If there are more than 2 coordinates then the mean values of latitudes and longitudes are calculated. 
+There are cases where there are multiple coordinates assigned to the same location. Based on the expert opinion, if there are two coordinates for the same location; if the absolute value of their subtraction is <0.01 they can be considered the same. If there are more than 2 coordinates then the mean values of latitudes and longitudes are calculated. 
 
 To deal with these cases, script Location-coor-03.py is used. 
+
+Now the dataset contains in total 2,701 locations along with their coordinates and GND-ids. 
 
