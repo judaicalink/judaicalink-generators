@@ -23,3 +23,5 @@ Then the generated_person_dbpedia_modified_gnd.ttl file was used to extract furt
 For this purpose the generated_persons-DBPedia-enrich.py script was used and the final file with all information is generated_persons_DBPedia_enriched_02.ttl (the generated_persons_DBPedia_enriched_01.ttl is an intermediate output file which is then used for creating the final file). 
 
 All the generated files are in the output folder and the scripts are in scripts folder. 
+
+Using EntityFacts-01.py script the dataset has been linked to the Entity Facts corresponding entries and has been further enriched with the sameAs links extracted from the Entity Facts. The links are added to the graph. 

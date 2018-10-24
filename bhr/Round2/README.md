@@ -23,3 +23,5 @@ file with all the information, including the sameAs links. This file is uploaded
 
 
 All the output files can be found in output folder and all the scripts can be found in scripts folder. 
+
+Using EntityFacts-01.py script the dataset has been linked to the Entity Facts corresponding entries and has been further enriched with the sameAs links extracted from the Entity Facts. The links are added to the graph. 
