@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+__pycache__
+authorities-name_lds.ttl
+authorities-person_lds_20190213.ttl
+cooc.json
