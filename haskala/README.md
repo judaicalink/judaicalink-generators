@@ -8,7 +8,7 @@ The Haskala dataset is generated using two sources, Haskala.net (https://www.uni
 I used 2 csv files from each source, provided by Annette, to create the dataset in rdf format. The input files and scripts are in input and scripts folders. 
 Then the generated files were enriched with their corresponding GND entry information when available using the following SPARQL queries. The script (GND-enrich-02) was used to generate the final enriched rdf file. 
 
-
+```
 INSERT
 { GRAPH <http://maral.wisslab.org/graphs/haskala>
   { ?x jl:birthLocation ?placebn .
@@ -36,6 +36,6 @@ where{
   ?placed gndo:preferredNameForThePlaceOrGeographicName ?placedn. 
   }}
 
-
+```
 
 
