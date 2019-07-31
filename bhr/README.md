@@ -18,4 +18,4 @@ Part 1: Die Rabbiner der Emanzipationszeit in den deutschen, böhmischen und gro
 
 Part 2: Die Rabbiner im Deutschen Reich (1871 – 1945), edited by Katrin Nele Jansen.
 
-We have trasnformed this encyclopedia into JudaicaLink dataset format in two stages which you can read in more deatils in corresponding folders (Round1, Round2). 
+We have transformed this encyclopedia into JudaicaLink dataset format in two stages which you can read in more details in corresponding folders (Round1, Round2). 
