@@ -49,3 +49,41 @@ BEHAVIOR:
           2. the current cluster is a subset of the old entity page cluster, thus the latter has to be splitted and a new entity page minted ("SPLIT" and "CREATE NEW").
       3. the current cluster maps to *more than one* old entity pages. A new entity page is minted ("CREATE NEW") and assigned to the current cluster, while each old entity page is either splitted or merged into the new one ("SPLIT", "MERGE" cases).  
 4. The new updated Entity Pages RDF graph is created and stored along with all other outputs.
+  
+  
+
+**`label_selector.ipynb`** 
+
+The notebook takes as input the entity page inverted index and returns, where available, for each entity page, a preferred label and a set of alternative labels along with their language tag. Example:
+
+```
+<http://data.judaicalink.org/data/ep/1000008> skos:altLabel "Jehoszua",
+        "Thon, Abraham Osias",
+        "Thon, Jehoshua",
+        "Thon, Joshua",
+        "Thon, Ozjasz",
+        "Thon, Ozjasz Yehoshua",
+        "Thon, Y.",
+        "ṬHʾN, Yehôšuaʿ",
+        "Ṭhon, Yehoshua̕",
+        "טהאן, יהושע",
+        "Osias Thon"@de,
+        "Ozjasz Thon"@en,
+        "Ozjasz Thon"@pl,
+        "Тхон, Осия"@ru ;
+    skos:prefLabel "Thon, Osias" .
+
+```
+INPUT:  
+	`ep_inv_index.pickle`: entity page inverted index  
+
+OUTPUT:  
+	`ep_labels.ttl`: rdf dataset of preferred and alternative labels for entity pages  
+	
+
+BEHAVIOR:  
+  
+For each entity page, all labels are first collected from the related entities, then the (pref) label is chosen according to the following criteria:
+1. the gnd (Gemeinsame Normdatei) label, given its accuracy;
+2. the most frequent label;
+3. in case of ties, the first label, in alphabetic order.
