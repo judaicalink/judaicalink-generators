@@ -54,7 +54,7 @@ BEHAVIOR:
 
 **`label_selector.ipynb`** 
 
-The notebook takes as input the entity page inverted index and returns, where available, for each entity page, a preferred label and a set of alternative labels along with their language tag. Example:
+The script returns, where available, for each entity page, a preferred label and a set of alternative labels along with their language tag. Example:
 
 ```
 <http://data.judaicalink.org/data/ep/1000008> skos:altLabel "Jehoszua",
@@ -74,8 +74,6 @@ The notebook takes as input the entity page inverted index and returns, where av
     skos:prefLabel "Thon, Osias" .
 
 ```
-INPUT:  
-	`ep_inv_index.pickle`: entity page inverted index  
 
 OUTPUT:  
 	`ep_labels.ttl`: rdf dataset of preferred and alternative labels for entity pages  
@@ -86,4 +84,31 @@ BEHAVIOR:
 For each entity page, all labels are first collected from the related entities, then the (pref) label is chosen according to the following criteria:
 1. the gnd (Gemeinsame Normdatei) label, given its accuracy;
 2. the most frequent label;
-3. in case of ties, the first label, in alphabetic order.
+3. in case of ties, the first label, in alphabetic order.  
+  
+  
+
+**`person_selector.ipynb`**  
+
+The script qualifies an entity page as a person, based on the information collected from the corresponding entities. For each entity belonging to an entity page, it checks if the entity is a `foaf:Person` or if it has a birth/death date. Example:  
+
+```
+<http://data.judaicalink.org/data/ep/2603230> a foaf:Person . 
+```  
+
+OUTPUT:  
+	`ep_persons.ttl`: rdf dataset of entity pages corresponding to persons.  
+	
+
+	
+	
+**`location_selector.ipynb`**
+
+The script qualifies an entity page as a location, based on the information collected from the corresponding single entities. For each entity belonging to an entity page, it checks if the entity has geographic coordinates associated or if it is the object of a birth/deathLocation property. Example:
+
+```
+<http://data.judaicalink.org/data/ep/1044403> a dbo:Place .
+```  
+
+OUTPUT:  
+	`ep_locations.ttl`: rdf dataset of entity pages corresponding to locations.  
