@@ -112,3 +112,17 @@ The script qualifies an entity page as a location, based on the information coll
 
 OUTPUT:  
 	`ep_locations.ttl`: rdf dataset of entity pages corresponding to locations.  
+	
+	
+**`subcategorization.ipynb`**
+
+The script creates triples for subcategorizing native/local Judaicalink resources in relation with Entity Pages, this way distinguishing them from external resources (for example links to other knowledge graphs such as dbpedia, GND, wikidata, etc). For this purpose the `jl:represents` property is used. This dataset is used by pubby in order to show the users the correspondence between an entity page and the local Judaicalink resources.   
+Example:   
+
+```
+<http://data.judaicalink.org/data/ep/1000000> jl:represents <http://data.judaicalink.org/data/bhr/Oppenheim_David>,
+        <http://data.judaicalink.org/data/yivo/Oppenheim_David> .
+```   
+
+OUTPUT:   
+	`subcategorization.ttl`: rdf dataset of correspondences between entity pages and Judaicalink local resoruces.
