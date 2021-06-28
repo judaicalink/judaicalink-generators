@@ -1,0 +1,4072 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix jl: <http://data.judaicalink.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.judaicalink.org/data/haskala/(Feder)-Guttmann_Tuvia> a foaf:Person ;
+    gndo:gndIdentifier "1065848021?" ;
+    jl:hasPublication <https://www.haskala-library.net//books/להט-החרב>,
+        <https://www.haskala-library.net//books/ספר-בית-נאמן> ;
+    owl:sameAs <http://d-nb.info/gnd/1065848021?>,
+        <https://viaf.org/viaf/12245599>,
+        <https://www.haskala-library.net/people/feder-guttmann-tuvia-פדר-טוביה> ;
+    skos:altLabel "פדר, טוביה" ;
+    skos:prefLabel "(Feder)-Guttmann, Tuvia" .
+
+<http://data.judaicalink.org/data/haskala/Aaron_Halle-Wolfssohn> a foaf:Person ;
+    gndo:gndIdentifier "120163683" ;
+    jl:birthDate "1754",
+        "1756" ;
+    jl:birthLocation "Halle (Saale)",
+        "Nieder-Ehnheim" ;
+    jl:deathDate "1835",
+        "21.03.1835" ;
+    jl:deathLocation "Fürth (Bayern)",
+        "Fürth" ;
+    owl:sameAs <http://d-nb.info/gnd/120163683>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/halle-wolfsohn.html> ;
+    skos:altLabel "Aaron ben Wolf Halle",
+        "Aharon ben Ṿolf Hale",
+        "Aharon ben-Wolf",
+        "Aron ben Wolf Halle",
+        "Ben Ṿolf, Aharon",
+        "Ben-Ṿolf, Aharon, mi-Halle",
+        "Ben-Ṿolf, Ahron",
+        "Ben-Wolf, Aron",
+        "Halle, A. Wolfsohn-",
+        "Halle, Aaron Wolfsohn-",
+        "Halle, Aaron ben Wolf",
+        "Halle-Wolfssohn, Aaron",
+        "Halle-Wolfssohn, Aharon",
+        "Volfson, Aaron",
+        "Volfzohn",
+        "Ṿolfson, Aharon ben Zeʾev, mi-Haleh",
+        "Ṿolfson, Ahron ben Zev",
+        "Ṿolfszohn, Aharon",
+        "WWLPSWN, Aharon",
+        "Wolfsohn, Aaron",
+        "Wolfsohn, Ahron ben Wolf",
+        "Wolfsohn, Aron",
+        "Wolfsohn-Halle, A.",
+        "Wolfsohn-Halle, Aaron",
+        "Wolfssohn, Aaron",
+        "Wolfssohn, Ahron",
+        "Wolfssohn, Aron",
+        "Wolfssohn, Arone",
+        "Wolfs̀sohn",
+        "בן וואלף, אהרון",
+        "בן-וואלף, אברון, מהאללי",
+        "בן־וואלף, אהרן",
+        "וואלפסזאהן, אהר",
+        "וולפסון, אהרן בן זאב, מהלה" ;
+    skos:prefLabel "Halle-Wolfssohn, Aaron" .
+
+<http://data.judaicalink.org/data/haskala/Aaron_Joseph_Philipp> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/שיר-תודה>,
+        <https://www.haskala-library.net//books/תפלה-1806> ;
+    owl:sameAs <http://viaf.org/viaf/297651133>,
+        <https://www.haskala-library.net/people/aaron-joseph-philipp-אהרן-יוסף> ;
+    skos:altLabel "אהרן, יוסף" ;
+    skos:prefLabel "Aaron, Joseph Philipp" .
+
+<http://data.judaicalink.org/data/haskala/Ackord_Elias> a foaf:Person ;
+    gndo:gndIdentifier "101319344X" ;
+    jl:hasPublication <https://www.haskala-library.net//books/die-juden-oder-die-nothwendige-reformation-der-juden-der-republik-polen> ;
+    owl:sameAs <http://d-nb.info/gnd/101319344X>,
+        <http://viaf.org/viaf/171990530>,
+        <https://www.haskala-library.net/people/ackord-elias-אקורד-אליהו> ;
+    skos:altLabel "Ackord, Elias",
+        "אקורד, אליהו" ;
+    skos:prefLabel "Ackord, Elias" .
+
+<http://data.judaicalink.org/data/haskala/Alexander_Isaak> a foaf:Person ;
+    gndo:gndIdentifier "120105756" ;
+    jl:birthDate "1722" ;
+    jl:deathDate "1802" ;
+    jl:hasPublication <https://www.haskala-library.net//books/abhandlung-von-der-freiheit-des-menschen>,
+        <https://www.haskala-library.net//books/einheitsgedichte>,
+        <https://www.haskala-library.net//books/salomo-und-joseph-ii>,
+        <https://www.haskala-library.net//books/verein-der-mosaischen-geseze-mit-dem-talmud-zwey-abhandlungen>,
+        <https://www.haskala-library.net//books/von-dem-daseyn-gottes-die-selbst-redende-vernunft>,
+        <https://www.haskala-library.net//books/wahrheiten-zur-göttlichen-weisheit> ;
+    owl:sameAs <http://d-nb.info/gnd/120105756>,
+        <http://viaf.org/viaf/194657911>,
+        <https://www.haskala-library.net/people/alexander-isaak-אלכסנדר-יצחק> ;
+    skos:altLabel "Alexander, Isaac",
+        "Alexander, Jiṣḥāq",
+        "Isaak Alexander, Rabbiner",
+        "Isaak Israel",
+        "Jiṣḥāq Alexander",
+        "אלכסנדר, יצחק" ;
+    skos:prefLabel "Alexander, Isaak" .
+
+<http://data.judaicalink.org/data/haskala/Alexander_Levy> a foaf:Person ;
+    gndo:gndIdentifier "115441809X" ;
+    jl:birthDate "1754" ;
+    jl:deathDate "1853" ;
+    jl:hasPublication <https://www.haskala-library.net//books/answer-mr-joshua-van-oven’s-letters-present-state-jewish-poor-london> ;
+    owl:sameAs <http://d-nb.info/gnd/115441809X>,
+        <http://viaf.org/viaf/222152140015511100004>,
+        <https://www.haskala-library.net/people/Alexander-Levy>,
+        <https://www.haskala-library.net/people/alexander-levy-אלכסנדר-לוי> ;
+    skos:altLabel "Alexander, L.",
+        "אלכסנדר, לוי" ;
+    skos:prefLabel "Alexander, Levy" .
+
+<http://data.judaicalink.org/data/haskala/Arnstein_Benedict_David> a foaf:Person ;
+    gndo:gndIdentifier "120963434" ;
+    jl:birthDate "1761-10-15" ;
+    jl:birthLocation "Wien" ;
+    jl:deathDate "1841-01-06" ;
+    jl:deathLocation "Wien" ;
+    jl:hasPublication <https://www.haskala-library.net//books/einige-jüdische-familienscenen-bey-erblickung-des-patents-über-die-freyheiten-welche-die-juden> ;
+    owl:sameAs <http://d-nb.info/gnd/120963434>,
+        <https://viaf.org/viaf/67310902/>,
+        <https://www.haskala-library.net/people/arnstein-benedict-david-ארנשטיין-בנדיקט-דוד> ;
+    skos:altLabel "Arenhof",
+        "Arnstein, Benedikt",
+        "ארנשטיין, בנדיקט דוד" ;
+    skos:prefLabel "Arnstein, Benedict David" .
+
+<http://data.judaicalink.org/data/haskala/Arnstein_Benedikt> a foaf:Person ;
+    gndo:gndIdentifier "120963434" ;
+    jl:birthDate "1761-10-15" ;
+    jl:birthLocation "Wien" ;
+    jl:deathDate "1841-01-06" ;
+    jl:deathLocation "Wien" ;
+    jl:hasPublication <https://www.haskala-library.net//books/אמרי-שפר> ;
+    owl:sameAs <http://d-nb.info/gnd/120963434>,
+        <https://viaf.org/viaf/67310902/>,
+        <https://www.haskala-library.net/people/Arnstein-Benedikt> ;
+    skos:altLabel "Arenhof",
+        "Arnstein, Benedikt" ;
+    skos:prefLabel "Arnstein, Benedikt" .
+
+<http://data.judaicalink.org/data/haskala/AronEmmerich_Gumpertz> a foaf:Person ;
+    gndo:gndIdentifier "136096603" ;
+    jl:birthDate "10.12.1723",
+        "1723" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "10.04.1769",
+        "1769" ;
+    jl:deathLocation "Hamburg" ;
+    owl:sameAs <http://d-nb.info/gnd/136096603>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/gumpertz.html> ;
+    skos:altLabel "Aharon, ha-mekhuneh ʿEmerikh mi-mishpaḥat Gumprakh",
+        "Emmerich, Aharon Salomon",
+        "Emmerich, Aharon Shlomo",
+        "Emrich, Ahron",
+        "Gomperts, Aharon",
+        "Gompertz, Aaron ben Salman Emmerich",
+        "Gomperz, Aaron Emmerich",
+        "Gomperz, Aaron Samuel",
+        "Gomperz, Aaron ben Salman Emmerich",
+        "Gumpertz, A. S.",
+        "Gumpertz, Aaron S.",
+        "Gumpertz, Aaron Salomon",
+        "Gumpertz, Aaron Samuel",
+        "Gumperz, Aaron Emmerich",
+        "Gumperz, Aaron S.",
+        "Gumperz, Aaron Samuel",
+        "Gumperz, Aharon Emmerich",
+        "Gumprakh, Aharon ʿEmerikh",
+        "אהרן, המכונה עמריך ממשפחת גומפרך",
+        "גומפרץ, אהרן עמריך" ;
+    skos:prefLabel "Gumpertz, Aron Emmerich" .
+
+<http://data.judaicalink.org/data/haskala/Asch_Abraham> a foaf:Person ;
+    gndo:gndIdentifier "1055502246" ;
+    jl:hasPublication <https://www.haskala-library.net//books/der-messias-oder-reform-der-juden-religiöser-und-moralischer-hinsicht>,
+        <https://www.haskala-library.net//books/ספר-תורה-כולה> ;
+    owl:sameAs <http://d-nb.info/gnd/1055502246>,
+        <http://viaf.org/viaf/309695362>,
+        <https://www.haskala-library.net/people/asch-abraham-אש-אברהם> ;
+    skos:altLabel "Assa, Rabbi",
+        "אש, אברהם" ;
+    skos:prefLabel "Asch, Abraham" .
+
+<http://data.judaicalink.org/data/haskala/Ascher_Judas> a foaf:Person ;
+    gndo:gndIdentifier "1154885348" ;
+    jl:hasPublication <https://www.haskala-library.net//books/der-judenfreund-oder-auserlesene-anekdoten-schwänke-und-einfälle-von-den-kindern-israels> ;
+    owl:sameAs <http://d-nb.info/gnd/1154885348>,
+        <http://viaf.org/viaf/7152199195314282068>,
+        <https://www.haskala-library.net/people/ascher-judas-אשר-יהודה> ;
+    skos:altLabel "אשר, יהודה" ;
+    skos:prefLabel "Ascher, Judas" .
+
+<http://data.judaicalink.org/data/haskala/Ascher_Saul> a foaf:Person ;
+    gndo:gndIdentifier "118646052" ;
+    jl:birthDate "1767-02-06" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "1822-12-08" ;
+    jl:deathLocation "Berlin" ;
+    jl:hasPublication <https://www.haskala-library.net//books/bemerkungen-über-die-bürgerliche-verbesserung-der-juden>,
+        <https://www.haskala-library.net//books/leviathan-oder-ueber-religion-rücksicht-des-judenthums>,
+        <https://www.haskala-library.net//books/napoleon-oder-über-den-fortschritt-der-regierung> ;
+    owl:sameAs <http://d-nb.info/gnd/118646052>,
+        <https://viaf.org/viaf/42631382/>,
+        <https://www.haskala-library.net/people/ascher-saul-אשר-שאול> ;
+    skos:altLabel "Ascher, S.",
+        "Ašer, Ša'ul",
+        "Saul Ascher",
+        "Theodiscus",
+        "Theodiskus",
+        "אשר, שאול" ;
+    skos:prefLabel "Ascher, Saul" .
+
+<http://data.judaicalink.org/data/haskala/Baras_Simon> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/מערכי-לב> ;
+    owl:sameAs <https://www.haskala-library.net/people/baras-simon-ברז-שמעון> ;
+    skos:altLabel "בר\"ז, שמעון" ;
+    skos:prefLabel "Baras, Simon" .
+
+<http://data.judaicalink.org/data/haskala/Baruch_Schick_of_Shklov> a foaf:Person ;
+    gndo:gndIdentifier "134126033" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-דרך-ישרה>,
+        <https://www.haskala-library.net//books/ספר-יסוד-עולם>,
+        <https://www.haskala-library.net//books/ספר-עמודי-השמים>,
+        <https://www.haskala-library.net//books/ספר-תפארת-אדם>,
+        <https://www.haskala-library.net//books/קנה-המדה> ;
+    owl:sameAs <http://d-nb.info/gnd/134126033>,
+        <https://viaf.org/viaf/200052159>,
+        <https://www.haskala-library.net/people/baruch-schick-shklov-שיק-ברוך-משקלוב> ;
+    skos:altLabel "Baruch ben Jacob",
+        "Barukh",
+        "Barukh ben Yaʿaḳov",
+        "שיק, ברוך משקלוב" ;
+    skos:prefLabel "Baruch Schick of Shklov" .
+
+<http://data.judaicalink.org/data/haskala/Baschwitz> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/מחזור-מנהג-פולין-ליום-כפור-1803> ;
+    owl:sameAs <https://www.haskala-library.net/people/baschwitz-בשוויץ-ברוך> ;
+    skos:altLabel "בשוויץ, ברוך" ;
+    skos:prefLabel "Baschwitz" .
+
+<http://data.judaicalink.org/data/haskala/Baschwitz_Zebi_(Hirsch)_ben_Meir> a foaf:Person ;
+    gndo:gndIdentifier "1135748926" ;
+    jl:birthDate "1753-07-01" ;
+    jl:deathDate "1837-11-26" ;
+    jl:hasPublication <https://www.haskala-library.net//books/בריב-שטעללר-אדער-פתשגן-הכתב> ;
+    owl:sameAs <http://d-nb.info/gnd/1135748926>,
+        <http://viaf.org/viaf/298086840>,
+        <https://www.haskala-library.net/people/baschwitz-zebi-hirsch-ben-meir-בשביץ-צבי-הירש-בן-מאיר> ;
+    skos:altLabel "Baschwitz, Hirsch",
+        "Baschwitz, Hirsch Meyer",
+        "Baschwitz, Zebi Hirsh b. Meir",
+        "Baschwitz, Ẓebi Hirsch",
+        "Bashṿits, Tsevi Hirsh ben Meʾir",
+        "Bashwits, Tsevi Hirsh ben Meʾir",
+        "Baṭshṿi., Tsevi Hirsh ben Meʾir",
+        "באשוויץ, צבי הירש בן מאיר",
+        "בטשווי', צבי הירש בן מאיר",
+        "בטשוויא, צבי הירש בן מאיר",
+        "בשביץ, צבי הירש בן מאיר",
+        "צבי בן מאיר בטשוויא",
+        "צבי הירש בן מאיר" ;
+    skos:prefLabel "Baschwitz, Zebi (Hirsch) ben Meir" .
+
+<http://data.judaicalink.org/data/haskala/Beer_Peter> a foaf:Person ;
+    gndo:gndIdentifier "117582085" ;
+    jl:birthDate "1758" ;
+    jl:birthLocation "Nový Bydžov" ;
+    jl:deathDate "1838" ;
+    jl:deathLocation "Prag" ;
+    jl:hasPublication <https://www.haskala-library.net//books/geschichte-der-juden-von-ihrer-rückkehr-aus-der-babylonischen-gefangenschaft-bis-zur>,
+        <https://www.haskala-library.net//books/rede-gehalten-am-jubelfeste-der-israelitischen-hauptschule-prag-den-10-mai-1812>,
+        <https://www.haskala-library.net//books/בער-פרץ>,
+        <https://www.haskala-library.net//books/דת-ישראל-oder-das-judenthum-1>,
+        <https://www.haskala-library.net//books/דת-ישראל-oder-das-judenthum-2>,
+        <https://www.haskala-library.net//books/כוס-ישועות-oder-kelch-des-heils> ;
+    owl:sameAs <http://d-nb.info/gnd/117582085>,
+        <http://viaf.org/viaf/30317221>,
+        <https://www.haskala-library.net/people/beer-peter-בער-פרץ> ;
+    skos:altLabel "Beer, Perez Ben Isaak",
+        "Nicodemus, Theophile",
+        "Nikodem, Theophil",
+        "בער, פרץ" ;
+    skos:prefLabel "Beer, Peter" .
+
+<http://data.judaicalink.org/data/haskala/Belinfante_Isaac> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/גילת-ורנן>,
+        <https://www.haskala-library.net//books/מנחת-נדבה> ;
+    owl:sameAs <http://viaf.org/viaf/34043088>,
+        <https://www.haskala-library.net/people/belinfante-isaac-בלינפנטי-יצחק> ;
+    skos:altLabel "בלינפנטי, יצחק" ;
+    skos:prefLabel "Belinfante, Isaac" .
+
+<http://data.judaicalink.org/data/haskala/Ben-Jacob_Meir_-_בן> a foaf:Person ;
+    gndo:gndIdentifier "1172564884" ;
+    jl:hasPublication <https://www.haskala-library.net//books/peri-hachedwah> ;
+    owl:sameAs <http://d-nb.info/gnd/1172564884>,
+        <http://viaf.org/viaf/6408154387393930970001>,
+        <https://www.haskala-library.net/people/ben-jacob-meir-בן-יעקב-מאיר> ;
+    skos:altLabel "יעקב, מאיר" ;
+    skos:prefLabel "Ben-Jacob, Meir - בן" .
+
+<http://data.judaicalink.org/data/haskala/Ben_Seew_Juda_Löb_-_בן> a foaf:Person ;
+    gndo:gndIdentifier "124404170" ;
+    jl:birthDate "1764" ;
+    jl:deathDate "1811" ;
+    jl:hasPublication <https://www.haskala-library.net//books/אוצר-השרשים-א>,
+        <https://www.haskala-library.net//books/אוצר-השרשים-ב>,
+        <https://www.haskala-library.net//books/אוצר-השרשים-ג>,
+        <https://www.haskala-library.net//books/בית-הספר-א>,
+        <https://www.haskala-library.net//books/בית-הספר-ב>,
+        <https://www.haskala-library.net//books/האמונות-והדעות>,
+        <https://www.haskala-library.net//books/חכמת-יהושע-בן-סירא>,
+        <https://www.haskala-library.net//books/לוח-הפעלים>,
+        <https://www.haskala-library.net//books/מבוא-אל-מקראי-קדש>,
+        <https://www.haskala-library.net//books/מליצה-לפורים>,
+        <https://www.haskala-library.net//books/קול-רנה>,
+        <https://www.haskala-library.net//books/שיר-כלולות-תקע>,
+        <https://www.haskala-library.net//books/תלמוד-לשון-עברי> ;
+    owl:sameAs <http://d-nb.info/gnd/124404170>,
+        <https://viaf.org/viaf/28003741>,
+        <https://www.haskala-library.net/people/ben-seew-juda-löb-בן-זאב-יהודה-ליב> ;
+    skos:altLabel "Ben Seb, Juda L.",
+        "Ben Seeb, Jehuda Loeb",
+        "Ben Ze'ev, Judah Leib",
+        "Ben Ze'ev, Yehuda Leb",
+        "Ben Ze'ev, Yehudah Leyb",
+        "Ben-Seeb-Jehuda, Loeb",
+        "Ben-Ze'ēv, Yehûdā Lêv",
+        "Ben-Zeēv, Yehûda a Lêv",
+        "Bensef, Juda Loeb",
+        "Bensew, J. L.",
+        "Bensew, Juda Lów",
+        "Benze'eb, Judah Loeb",
+        "Judah Ben Yemini",
+        "Leo Ben Ieminis",
+        "Yehuda Ibn Yemini, mik-Kraka",
+        "Yehudah Leyb ben Binyamin Ze'ev",
+        "Yehûdā Lêb Ben-Zeʾēv",
+        "זאב, יהודה ליב" ;
+    skos:prefLabel "Ben Seew, Juda Löb - בן" .
+
+<http://data.judaicalink.org/data/haskala/Bendavid_Lazarus> a foaf:Person ;
+    gndo:gndIdentifier "116117818" ;
+    jl:birthDate "1762" ;
+    jl:deathDate "1832" ;
+    jl:hasPublication <https://www.haskala-library.net//books/aufsätze-verschiedenen-inhalts>,
+        <https://www.haskala-library.net//books/beweis-dass-heutzutage-den-k-k-staaten-die-juden-zu-kriegsdienst-ebensowohl-verpflichtet-sind>,
+        <https://www.haskala-library.net//books/beyträge-zur-kritik-des-geschmacks>,
+        <https://www.haskala-library.net//books/bildnisse-jetztlebender-berliner-gelehrten-mit-ihren-selbstbiographieen>,
+        <https://www.haskala-library.net//books/etwas-zur-charackteristick-der-juden>,
+        <https://www.haskala-library.net//books/sammlung-der-schriften-die-nationalversammlung-die-juden-und-ihre-bürgerliche-verbesserung>,
+        <https://www.haskala-library.net//books/trauerrede-über-das-ableben-des-weisesten-monarchen-friedrich-des-zweiten>,
+        <https://www.haskala-library.net//books/ueber-die-religion-der-ebräer-vor-moses> ;
+    owl:sameAs <http://d-nb.info/gnd/116117818>,
+        <https://viaf.org/viaf/9889707/>,
+        <https://www.haskala-library.net/people/bendavid-lazarus-בנדוד-לצרוס> ;
+    skos:altLabel "Ben-David, Latsarus",
+        "Ben-Daṿid, Latsarus",
+        "Ben-Dawid, Lasarûs",
+        "Ben-Dāwîd, Laṣārûs",
+        "Bendavid, ...",
+        "בן דוד, אלעזר לאזי",
+        "בנדוד, לצרוס" ;
+    skos:prefLabel "Bendavid, Lazarus" .
+
+<http://data.judaicalink.org/data/haskala/Benedict_Jeitteles> a foaf:Person ;
+    gndo:gndIdentifier "136271170" ;
+    jl:birthDate "1762",
+        "22.04.1762" ;
+    jl:birthLocation "Prag" ;
+    jl:deathDate "18.12.1813",
+        "1813" ;
+    jl:deathLocation "Prag" ;
+    owl:sameAs <http://d-nb.info/gnd/136271170>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/bjeitteles.html> ;
+    skos:altLabel "Jeiteles, Benedict",
+        "Jeitteles, Baruch",
+        "Jeitteles, Baruch ben Jona",
+        "Jeitteles, Baruch ben Jonas",
+        "Jeitteles, Benedict",
+        "Jeiṭeleś, Baruḵ ben Jona",
+        "Jiṭleś, Baruḵ ben Jona",
+        "Yaiṭeleś, Barukh ben Yonah",
+        "Yeiṭeleś, Barukh ben Yonah",
+        "Yeiṭeleś, Baruḵ ben Yona",
+        "Yiṭleś, Barukh ben Yonah",
+        "Yiṭleś, Baruḵ ben Yona",
+        "יטלס, ברוך",
+        "ייטטליש, ברוך",
+        "ייטלש, ברוך בן יהודה",
+        "ײטליס, ברוך",
+        "ײטליס, ברוך בן יונה" ;
+    skos:prefLabel "Jeitteles, Benedict" .
+
+<http://data.judaicalink.org/data/haskala/Berlin_Saul> a foaf:Person ;
+    gndo:gndIdentifier "136442099" ;
+    jl:birthDate "1740" ;
+    jl:deathDate "1794" ;
+    jl:hasPublication <https://www.haskala-library.net//books/אמר-הצעיר>,
+        <https://www.haskala-library.net//books/ספר-זמירות-ישראל-ב>,
+        <https://www.haskala-library.net//books/ספר-מסלול>,
+        <https://www.haskala-library.net//books/ספר-מצפה-יקתאל>,
+        <https://www.haskala-library.net//books/ספר-נתיבות-השלום-ב>,
+        <https://www.haskala-library.net//books/תשובת-הרב-הגאון> ;
+    owl:sameAs <http://d-nb.info/gnd/136442099>,
+        <https://viaf.org/viaf/76189490/>,
+        <https://www.haskala-library.net/people/Berlin-Saul>,
+        <https://www.haskala-library.net/people/berlin-saul-ברלין-שאול> ;
+    skos:altLabel "Berlin, Saul ben Ẓevi Hirsch Levin",
+        "Shaul ben Zvi Hirsh Levin Berlin",
+        "ברלין, שאול",
+        "שאול בן צבי הירש" ;
+    skos:prefLabel "Berlin Saul",
+        "Berlin, Saul" .
+
+<http://data.judaicalink.org/data/haskala/Berr_Isaac_Berr> a foaf:Person ;
+    gndo:gndIdentifier "120082047" ;
+    jl:hasPublication <https://www.haskala-library.net//books/discours-du-sr-isaac-berr-fabricant-de-tabac-membre-du-conseil-municipal-de-nancy-département>,
+        <https://www.haskala-library.net//books/réflexions-sur-la-régénération-complète-des-juifs-en-france> ;
+    owl:sameAs <http://d-nb.info/gnd/120082047>,
+        <https://viaf.org/viaf/79116375/>,
+        <https://www.haskala-library.net/people/berr-isaac-berr-בר-יצחק-בר> ;
+    skos:altLabel "Berr, Berr-Isaac",
+        "Berr, Isaac",
+        "Berr-Isaak, aus Nancy",
+        "Isaac Berr",
+        "בר, יצחק בר" ;
+    skos:prefLabel "Berr, Isaac Berr" .
+
+<http://data.judaicalink.org/data/haskala/Berr_Michel> a foaf:Person ;
+    gndo:gndIdentifier "100037720" ;
+    jl:birthDate "1780" ;
+    jl:birthLocation "Nancy" ;
+    jl:deathDate "1843" ;
+    jl:hasPublication <https://www.haskala-library.net//books/appel-à-la-justice-des-nations-et-des-rois>,
+        <https://www.haskala-library.net//books/lettre-au-rédacteur-du-progresseur> ;
+    owl:sameAs <http://d-nb.info/gnd/100037720>,
+        <https://viaf.org/viaf/61680557>,
+        <https://www.haskala-library.net/people/berr-michel-בר-מיכאל> ;
+    skos:altLabel "Berr, Michel",
+        "Turique, Michel B. de",
+        "Turique, Michel Berr de",
+        "בר, מיכאל" ;
+    skos:prefLabel "Berr, Michel" .
+
+<http://data.judaicalink.org/data/haskala/Bing_Beer_Abraham> a foaf:Person ;
+    gndo:gndIdentifier "130051039" ;
+    jl:birthDate "1752" ;
+    jl:deathDate "1841" ;
+    jl:hasPublication <https://www.haskala-library.net//books/עובד-ותרצה-או-ספרות-מני-קדם> ;
+    owl:sameAs <http://d-nb.info/gnd/130051039>,
+        <https://viaf.org/viaf/282974572>,
+        <https://www.haskala-library.net/people/bing-beer-abraham-בינג-אברהם-בר> ;
+    skos:altLabel "Bing, Avraham",
+        "Binga, Avraham",
+        "בינג, אברהם בר",
+        "בינג, אברהם הלוי" ;
+    skos:prefLabel "Bing, Beer Abraham" .
+
+<http://data.judaicalink.org/data/haskala/Bloch_Marcus_Elieser> a foaf:Person ;
+    gndo:gndIdentifier "118663968" ;
+    jl:birthDate "1723" ;
+    jl:deathDate "1799" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-הגדרים>,
+        <https://www.haskala-library.net//books/ספר-כליל-החשבון> ;
+    owl:sameAs <http://d-nb.info/gnd/118663968>,
+        <https://viaf.org/viaf/12377612>,
+        <https://www.haskala-library.net/people/Bloch-Marcus-Elieser> ;
+    skos:altLabel "Bloch, M. E.",
+        "Bloch, Marc Éliéser",
+        "Bloch, Marcus E.",
+        "Bloch, Marcus Eliesar",
+        "Bloch, Markus Elieser",
+        "Blochius, Marcus E.",
+        "Blochius, Marcus Elieser" ;
+    skos:prefLabel "Bloch, Marcus Elieser" .
+
+<http://data.judaicalink.org/data/haskala/Bock_Moses_Hirsch> a foaf:Person ;
+    gndo:gndIdentifier "131838415" ;
+    jl:birthDate "1775" ;
+    jl:deathDate "1816" ;
+    jl:hasPublication <https://www.haskala-library.net//books/israelitischer-kinderfreund>,
+        <https://www.haskala-library.net//books/israelitischer-kinderfreund-oder-handbuch-der-gemeinnützigsten-wissenschaftlichen-kenntnisse>,
+        <https://www.haskala-library.net//books/מודע-לילדי-בני-ישראל>,
+        <https://www.haskala-library.net//books/שפת-עבר> ;
+    owl:sameAs <http://d-nb.info/gnd/131838415>,
+        <http://viaf.org/viaf/23282937>,
+        <https://www.haskala-library.net/people/bock-moses-hirsch-בוק-משה-בן-צבי> ;
+    skos:altLabel "Bock, M. H.",
+        "Bock, Mose",
+        "Bock, Mose Ben Zebi-Hirsch",
+        "Bock, Mose ben Zebi Hirsch",
+        "Bock, Moses",
+        "Bock, Moses ben Zebi",
+        "Bock, Moses ben Zebi Hirsch",
+        "Bock, Moses ben Zwi",
+        "Bock, Moses ben Zwi Hirsch",
+        "Bock, Mōsé Ben-Sebi",
+        "Boḳ, Mosheh ben Tsevi",
+        "Boḳ, Mosheh ben Tsvi",
+        "Bôq, Moše ben Ṣevî",
+        "Mōšeh ben Ṣebī",
+        "בוק, משה (בן) צבי" ;
+    skos:prefLabel "Bock, Moses Hirsch" .
+
+<http://data.judaicalink.org/data/haskala/Bondi_Mardochai> a foaf:Person ;
+    gndo:gndIdentifier "100756115" ;
+    jl:birthDate "1787-06-16" ;
+    jl:birthLocation "Dresden" ;
+    jl:deathDate "1863-08-07" ;
+    jl:deathLocation "Dresden" ;
+    jl:hasPublication <https://www.haskala-library.net//books/אור-אסתר-oder-beleuchtung-der-im-talmud-von-babylon-und-jerusalem-den-targumim-und-midraschim> ;
+    owl:sameAs <http://d-nb.info/gnd/100756115>,
+        <https://viaf.org/viaf/56964546>,
+        <https://www.haskala-library.net/people/bondi-mardochai-בונדי-מרדכי> ;
+    skos:altLabel "Bondi, Markus",
+        "Bondi, Mordechai",
+        "Bondi, Mordochai",
+        "Bondi, Mordoḵay",
+        "Bondi, Wilhelm",
+        "בונדי, מרדכי" ;
+    skos:prefLabel "Bondi, Mardochai" .
+
+<http://data.judaicalink.org/data/haskala/Bondi_Simon> a foaf:Person ;
+    gndo:gndIdentifier "1053411529" ;
+    jl:hasPublication <https://www.haskala-library.net//books/אמרי-שפר> ;
+    owl:sameAs <http://viaf.org/viaf/9373478>,
+        <https://d-nb.info/gnd/1053411529>,
+        <https://www.haskala-library.net/people/Bondi-Simon> ;
+    skos:prefLabel "Bondi, Simon" .
+
+<http://data.judaicalink.org/data/haskala/Bran_Alexander> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/gesammelte-actenstücke-und-öffentliche-verhandlungen-über-die-verbesserung-der-juden> ;
+    owl:sameAs <http://viaf.org/viaf/313196281>,
+        <https://www.haskala-library.net/people/bran-alexander> ;
+    skos:prefLabel "Bran, Alexander" .
+
+<http://data.judaicalink.org/data/haskala/Breslauer_Mendel> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/אמרי-שפר>,
+        <https://www.haskala-library.net//books/מאמר-צדק-ועוני-או-עוז-הצדק>,
+        <https://www.haskala-library.net//books/תבנית-חברת-שוחרי-הטוב-והתושיה> ;
+    owl:sameAs <https://www.haskala-library.net/people/Breslauer-Mendel> ;
+    skos:prefLabel "Breslauer, Mendel" .
+
+<http://data.judaicalink.org/data/haskala/Buchner_Zeev_Wolf> a foaf:Person ;
+    gndo:gndIdentifier "141302283" ;
+    jl:birthDate "1750" ;
+    jl:birthLocation "Brody" ;
+    jl:deathDate "1820" ;
+    jl:hasPublication <https://www.haskala-library.net//books/כתר-מלכות-לרזבד>,
+        <https://www.haskala-library.net//books/ספר-זבד-המליצה>,
+        <https://www.haskala-library.net//books/ספר-צחות-המליצה>,
+        <https://www.haskala-library.net//books/קול-שמחה-או-נצוח-החכמה>,
+        <https://www.haskala-library.net//books/שיר-ידידות-תקע>,
+        <https://www.haskala-library.net//books/שירי-תהלה-ב> ;
+    owl:sameAs <http://d-nb.info/gnd/141302283>,
+        <https://viaf.org/viaf/53997089>,
+        <https://www.haskala-library.net/people/buchner-zeev-wolf-בוכנר-זאב-וולף> ;
+    skos:altLabel "Razbad",
+        "Wolf ben David Buchner, ha-Kohen",
+        "בוכנר, זאב וולף" ;
+    skos:prefLabel "Buchner, Zeev Wolf" .
+
+<http://data.judaicalink.org/data/haskala/Büschenthal_Lippmann_Moses> a foaf:Person ;
+    gndo:gndIdentifier "117144061" ;
+    jl:birthDate "1784" ;
+    jl:birthLocation "Straßburg" ;
+    jl:deathDate "1818-12-27" ;
+    jl:deathLocation "Berlin" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ein-psalm-bonaparte>,
+        <https://www.haskala-library.net//books/מזמור-שיר-לבאנאפארט> ;
+    owl:sameAs <http://d-nb.info/gnd/117144061>,
+        <http://viaf.org/viaf/40148037>,
+        <https://www.haskala-library.net/people/büschenthal-lippmann-moses-בישנטל-ליפמן-משה> ;
+    skos:altLabel "Büschental, Lippmann M.",
+        "Büschenthal, L. M.",
+        "Büschenthal, Lipman Moses",
+        "Büschenthal, Lippmann M.",
+        "Büschenthal, Lippmann Mosche",
+        "Büschenthal, Lorenz Michael",
+        "Lippmann, Moses",
+        "Lippmann, Moyse",
+        "Moses, Lippmann",
+        "Moyse Lippmann",
+        "בישנטל, ליפמן משה" ;
+    skos:prefLabel "Büschenthal, Lippmann Moses" .
+
+<http://data.judaicalink.org/data/haskala/Cohen_Benjamin_Moses> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-מאזנים>,
+        <https://www.haskala-library.net//books/פרקי-רבי-אליה> ;
+    owl:sameAs <https://www.haskala-library.net/people/cohen-benjamin-moses-כהן-בנימין-משה> ;
+    skos:altLabel "כהן, בנימין משה" ;
+    skos:prefLabel "Cohen, Benjamin Moses" .
+
+<http://data.judaicalink.org/data/haskala/Cohen_Chanania_Elchanan_Chaj> a foaf:Person ;
+    gndo:gndIdentifier "119183803" ;
+    jl:birthDate "1757-11-18" ;
+    jl:birthLocation "Reggio nell'Emilia" ;
+    jl:deathDate "1834-03-29" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ראשית-לקח> ;
+    owl:sameAs <http://d-nb.info/gnd/119183803>,
+        <http://viaf.org/viaf/47003438>,
+        <https://www.haskala-library.net/people/cohen-chanania-elchanan-chaj-כהן-חנניה-אלחנן-חי> ;
+    skos:altLabel "Coen, Anania Graziado Vita",
+        "Coen, Ananio Graziadio Vita",
+        "Coen, Hananiah E.",
+        "Coen, Hananiah Elhanan",
+        "Coèn, Graziadio Vita Anania",
+        "Hak-Kōhēn, Ḥǎnanyā",
+        "Hak-kōhēn, Ḥănanyā",
+        "Hakohen, Hananyah",
+        "Kohen, Hananyah Elhanan",
+        "כהן, חנניה אלחנן חי" ;
+    skos:prefLabel "Cohen, Chanania Elchanan Chaj" .
+
+<http://data.judaicalink.org/data/haskala/Cohen_Salomon_Jacob> a foaf:Person ;
+    gndo:gndIdentifier "136750109" ;
+    jl:birthDate "1772" ;
+    jl:deathDate "1845" ;
+    jl:deathLocation "Hamburg" ;
+    jl:hasPublication <https://www.haskala-library.net//books/דבר-בעתו>,
+        <https://www.haskala-library.net//books/מטעי-קדם-על-אדמת-צפון>,
+        <https://www.haskala-library.net//books/משלי-אגור-א>,
+        <https://www.haskala-library.net//books/תורת-לשון-עברית-א>,
+        <https://www.haskala-library.net//books/תורת-לשון-עברית-ב>,
+        <https://www.haskala-library.net//books/תורת-לשון-עברית-ג> ;
+    owl:sameAs <http://d-nb.info/gnd/136750109>,
+        <https://viaf.org/viaf/97210672>,
+        <https://www.haskala-library.net/people/cohen-salomon-jacob-כהן-שלום> ;
+    skos:altLabel "Cohen, Salomon Jacob",
+        "Cohen, Schalom Jakob",
+        "Ha-Kohen, Shalom",
+        "Schalom ha-Kohen",
+        "כהן, שלום" ;
+    skos:prefLabel "Cohen, Salomon Jacob" .
+
+<http://data.judaicalink.org/data/haskala/Cologna_Abraham_de> a foaf:Person ;
+    gndo:gndIdentifier "1050554280" ;
+    jl:birthDate "1755" ;
+    jl:deathDate "1832" ;
+    jl:hasPublication <https://www.haskala-library.net//books/discorso-pronunziato-nella-grande-sinagoga-di-parigi-alloccasione-dellapertura-del-gran> ;
+    owl:sameAs <http://d-nb.info/gnd/1050554280>,
+        <https://viaf.org/viaf/22274908/>,
+        <https://www.haskala-library.net/people/cologna-abraham-de-קולוניא-אברהם-חי-די> ;
+    skos:altLabel "Cologna, Abraham",
+        "קולוניא, אברהם חי די" ;
+    skos:prefLabel "Cologna, Abraham de" .
+
+<http://data.judaicalink.org/data/haskala/Cöslin_Chajim> a foaf:Person ;
+    gndo:gndIdentifier "105305856X" ;
+    jl:birthDate "1749" ;
+    jl:deathDate "1832" ;
+    jl:hasPublication <https://www.haskala-library.net//books/סדר-לוח-הבנינים-ולוח-משקלי-השמות>,
+        <https://www.haskala-library.net//books/ספר-מסלול> ;
+    owl:sameAs <http://d-nb.info/gnd/105305856X>,
+        <https://viaf.org/viaf/31884615>,
+        <https://www.haskala-library.net/people/cöslin-chajim-קסלין-חיים> ;
+    skos:altLabel "Borchard, J. H.",
+        "Borchardt, Chaim Joachim Naftali",
+        "Coeslin, Ḥayyim",
+        "Cöslin, Chaim ben Naphtali",
+        "Cöslin, Chajim ben Naftali",
+        "Cöslin, Chajim ben Naftali Hirsch",
+        "Cöslin, Ḥayyim ben Naphtali",
+        "Ḥajjim Ben-Naftāli Koeslin",
+        "Ḥayim ben Naftali Hirts Ḳeslin",
+        "Ḥayyim ben Naftālî Hirṣ Qêslîn",
+        "Köslin, Hayyim Ben Naphtali Hirz",
+        "Köslin, Ḥajjīm",
+        "Köslin, Ḥayyîm Ben Naftālî",
+        "Köslin, Ḥayyîm Ben-Naftālî",
+        "Köslin, Naphtali",
+        "Ḳeslin, Ḥayim ben Naftali Hirts",
+        "Qêslîn, Ḥayyim ben Naftālî Hirṣ",
+        "Qʿsljn, Ḥayyîm Ben-Naftālî Hîrṣ",
+        "חיים בן נפתלי הירץ קעסלין",
+        "קסלין, חיים",
+        "קסלין, חיים בן נפתלי הירץ",
+        "קעסלין, חיים",
+        "קעסלין, חיים בן נפתלי הירץ" ;
+    skos:prefLabel "Cöslin, Chajim" .
+
+<http://data.judaicalink.org/data/haskala/David_Friedländer> a foaf:Person ;
+    gndo:gndIdentifier "119463288" ;
+    jl:birthDate "06.12.1750",
+        "1750-12-06" ;
+    jl:birthLocation "Königsberg",
+        "Königsberg" ;
+    jl:deathDate "1834-12-25",
+        "25.12.1834" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/119463288>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/friedlaender.html> ;
+    skos:altLabel "Fiedländer, D.",
+        "Fridlender, Daṿid",
+        "Fridlender, Dāwīd",
+        "Fridlendr, Dawid",
+        "Friedlaender, David",
+        "פרידלענדער, דוד" ;
+    skos:prefLabel "Friedländer, David" .
+
+<http://data.judaicalink.org/data/haskala/David_Oppenheimer> a foaf:Person ;
+    gndo:gndIdentifier "1015480195" ;
+    jl:birthDate "1753",
+        "25.02.1752 oder 1753" ;
+    jl:birthLocation "" ;
+    jl:deathDate "18.11.1815",
+        "1815" ;
+    jl:deathLocation "" ;
+    owl:sameAs <http://d-nb.info/gnd/1015480195>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/david-oppenheimer.html> ;
+    skos:altLabel "Oppenheim, David",
+        "Oppenheimerus, David" ;
+    skos:prefLabel "Oppenheimer, David" .
+
+<http://data.judaicalink.org/data/haskala/Derenburg_Zebi_Hirsch> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/יושבי-תבל> ;
+    owl:sameAs <https://www.haskala-library.net/people/derenburg-zebi-hirsch-דרנבורג-הירש> ;
+    skos:altLabel "דרנבורג, הירש" ;
+    skos:prefLabel "Derenburg, Zebi Hirsch" .
+
+<http://data.judaicalink.org/data/haskala/Dessau_Wolf> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/זה-ספר-פשר-דבר> ;
+    owl:sameAs <http://viaf.org/viaf/284946145>,
+        <https://www.haskala-library.net/people/dessau-wolf-דסאו-וולף> ;
+    skos:altLabel "דסאו, וולף" ;
+    skos:prefLabel "Dessau, Wolf" .
+
+<http://data.judaicalink.org/data/haskala/Dohm_Lewin_Benjamin> a foaf:Person ;
+    gndo:gndIdentifier "1155985435" ;
+    jl:birthDate "1754" ;
+    jl:deathDate "1825" ;
+    jl:hasPublication <https://www.haskala-library.net//books/etwas-zum-schutz-des-angegriffenen-gebrauchs-der-ebräischen-sprache-bei-den-gebeten-der-juden> ;
+    owl:sameAs <http://d-nb.info/gnd/1155985435>,
+        <https://viaf.org/viaf/8148152381806301950006/>,
+        <https://www.haskala-library.net/people/dohm-lewin-benjamin-דוהם-לוין-בנימין> ;
+    skos:altLabel "Dohm, L. B.",
+        "Dohm, Lewin B.",
+        "Dohm, Löbel B.",
+        "Schifrah, Lewin Benjamin",
+        "דוהם, לוין בנימין" ;
+    skos:prefLabel "Dohm, Lewin Benjamin" .
+
+<http://data.judaicalink.org/data/haskala/Dormitzer_Meir_Markus> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/העתקה> ;
+    owl:sameAs <https://www.haskala-library.net/people/dormitzer-meir-markus-דורמיצר-מאיר> ;
+    skos:altLabel "דורמיצר, מאיר" ;
+    skos:prefLabel "Dormitzer, Meir Markus" .
+
+<http://data.judaicalink.org/data/haskala/Driesen_Mordechai> a foaf:Person ;
+    gndo:gndIdentifier "131785494" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-דקדוק-אליהו-הלוי-האשכנזי> ;
+    owl:sameAs <http://d-nb.info/gnd/131785494>,
+        <https://viaf.org/viaf/52831181>,
+        <https://www.haskala-library.net/people/driesen-mordechai-דריזן-מרדכי-בן-שמעיה> ;
+    skos:altLabel "Draizen, Mordekhai Shemaʿyah",
+        "Draizen, Mordekhai ben Shemaʿyah",
+        "Driesen, Mordechai",
+        "Driesen, Mordechai Ben-Schemaja",
+        "Drizen, Mordekhai ben Shemaʿyah",
+        "Drizen, Mordekhai ben Shemaʿyah, mi-Berlin",
+        "Drîzen, Mordĕḵai Šemaʿyā",
+        "Drîzen, Mordĕḵaj Šemaʿjā",
+        "Drīzen, Mordekāi Ben-Šemaʿyā",
+        "Drīzen, Mordekāj Ben-Šemaʿjā",
+        "Mordekhai Ben-Shemaʿyah Drizen",
+        "Mordekhai Shemaʿyah Drizen",
+        "Mordekhai ben Shemaʿyah Drizen, mi-Berlin",
+        "Mordĕḵai Ben-Šemaʿyā Drizen",
+        "Mordĕḵai Ben-Šemaʿyā Drizen, mi-Berlin",
+        "Mordĕḵai Šemaʿyā Drizen",
+        "Mordĕḵaj Ben-Šemaʿjā Drizen",
+        "Mordĕḵaj Ben-Šemaʿjā Drizen, mi-Berlin",
+        "Mordĕḵaj Šemaʿjā Drizen",
+        "דריזן, מרדכי בן שמעיה",
+        "דריזן, מרדכי שמעיה",
+        "מרדכי בן שמעיה דריזן",
+        "מרדכי בן שמעיה דריזן, מברלין" ;
+    skos:prefLabel "Driesen, Mordechai" .
+
+<http://data.judaicalink.org/data/haskala/Dubno_Salomon> a foaf:Person ;
+    gndo:gndIdentifier "133874206" ;
+    jl:birthDate "1738-10-12" ;
+    jl:birthLocation "Dubno (Oblast Rowno)" ;
+    jl:deathDate "1813-06-23" ;
+    jl:hasPublication <https://www.haskala-library.net//books/nachricht-von-der-jüdischen-haupt-und-frey-schule-deßau-1776>,
+        <https://www.haskala-library.net//books/אבל-יחיד>,
+        <https://www.haskala-library.net//books/אהבת-ציון>,
+        <https://www.haskala-library.net//books/לישרים-תהלה>,
+        <https://www.haskala-library.net//books/ספר-ברכת-יוסף>,
+        <https://www.haskala-library.net//books/ספר-נתיבות-השלום-א>,
+        <https://www.haskala-library.net//books/ספר-נתיבות-השלום-ב>,
+        <https://www.haskala-library.net//books/ספר-שערי-נעימה>,
+        <https://www.haskala-library.net//books/עלים-לתרופה>,
+        <https://www.haskala-library.net//books/קול-שמחה>,
+        <https://www.haskala-library.net//books/תיקון-סופרים> ;
+    owl:sameAs <http://d-nb.info/gnd/133874206>,
+        <https://viaf.org/viaf/75054201/>,
+        <https://www.haskala-library.net/people/dubno-salomon-דובנא-שלמה> ;
+    skos:altLabel "Dubna, Shelomoh ben Yoʾel",
+        "Dubna, Šelomo Ben-Joʾel",
+        "Dubna, Šelomo Ben-Yoʾel",
+        "Dubno, Salomo ben Joel",
+        "Dubno, Salomo ben Joel, Bibelkommentator",
+        "Dubno, Salomo, Bibelkommentator",
+        "Dubno, Shelomoh ben Yoʾel",
+        "Dubno, Solomon ben Joel",
+        "Dubno, Šelomo Ben-Joʾel",
+        "Dubno, Šelomo Ben-Yoʾel",
+        "Salomo ben Joel, Bibelkommentator",
+        "Salomo ben Joel, aus Dubno",
+        "Salomo, aus Dubno",
+        "Shelomoh ben Yoʾel Dubna",
+        "Shelomoh ben Yoʾel Dubno",
+        "Shelomoh ben Yoʾel mi-Dubno",
+        "Shelomoh ben Yoʾel, Bibelkommentator",
+        "Shelomoh ben Yoʾel, mi-Dubno",
+        "Shelomoh mi-Dubno",
+        "Shelomoh, mi-Dubno",
+        "Solomon ben Joel, Bibelkommentator",
+        "Solomon ben Joel, of Dubno",
+        "Solomon, of Dubno",
+        "Šelomo Ben-Joʾel Dubna",
+        "Šelomo Ben-Joʾel Dubno",
+        "Šelomo Ben-Yoʾel Dubna",
+        "Šelomo Ben-Yoʾel Dubno",
+        "Šelomo mi-Dubna",
+        "Šelomo mi-Dubno",
+        "דובנא, שלמה",
+        "דובנא, שלמה בן יואל",
+        "דובנה, שלמה",
+        "דובנה, שלמה בן יואל",
+        "שלמה בן יואל דובנה",
+        "שלמה דובנא",
+        "שלמה דובנה",
+        "שלמה מדובנה" ;
+    skos:prefLabel "Dubno, Salomon" .
+
+<http://data.judaicalink.org/data/haskala/EphraimMoses_Kuh> a foaf:Person ;
+    gndo:gndIdentifier "120951711" ;
+    jl:birthDate "1731" ;
+    jl:birthLocation "Breslau" ;
+    jl:deathDate "1790" ;
+    jl:deathLocation "Breslau" ;
+    owl:sameAs <http://d-nb.info/gnd/120951711>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/kuh.html> ;
+    skos:altLabel "Kuh, Ephraim",
+        "Kuh, Ephraim M." ;
+    skos:prefLabel "Kuh, Ephraim Moses" .
+
+<http://data.judaicalink.org/data/haskala/Epstein_Pelte_Moses> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/מה-נכבד-היום-הזה> ;
+    owl:sameAs <https://www.haskala-library.net/people/epstein-pelte-moses-אפשטין-פלטא-בן-משה> ;
+    skos:altLabel "אפשטין, פלטא בן משה" ;
+    skos:prefLabel "Epstein, Pelte Moses" .
+
+<http://data.judaicalink.org/data/haskala/Euchel_Gottleb> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/rede-gehalten-der-versammlung-der-gesellschaft-zur-unterhaltung-einer-jüdischen-freyschule>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-א> ;
+    owl:sameAs <http://viaf.org/viaf/298583259>,
+        <https://www.haskala-library.net/people/euchel-gottleb-אייכל-יחיאל-גוטליב> ;
+    skos:altLabel "אייכל, יחיאל גוטליב" ;
+    skos:prefLabel "Euchel, Gottleb" .
+
+<http://data.judaicalink.org/data/haskala/Euchel_Isaac_Abraham> a foaf:Person ;
+    gndo:gndIdentifier "122891961" ;
+    jl:birthDate "1756" ;
+    jl:deathDate "1804" ;
+    jl:deathLocation "Berlin" ;
+    jl:hasPublication <https://www.haskala-library.net//books/israelitischer-kinderfreund-oder-handbuch-der-gemeinnützigsten-wissenschaftlichen-kenntnisse>,
+        <https://www.haskala-library.net//books/מגלת-חסידים-א>,
+        <https://www.haskala-library.net//books/משלי-אסף-א>,
+        <https://www.haskala-library.net//books/ספר-זמירות-ישראל-ד>,
+        <https://www.haskala-library.net//books/ספר-כליל-החשבון>,
+        <https://www.haskala-library.net//books/ספר-תהלים>,
+        <https://www.haskala-library.net//books/תבנית-חברת-שוחרי-הטוב-והתושיה>,
+        <https://www.haskala-library.net//books/תולדות-רבנו-החכם-משה-בן-מנחם>,
+        <https://www.haskala-library.net//books/תורת-לשון-עברית-א>,
+        <https://www.haskala-library.net//books/תורת-לשון-עברית-ב>,
+        <https://www.haskala-library.net//books/תורת-לשון-עברית-ג> ;
+    owl:sameAs <http://d-nb.info/gnd/122891961>,
+        <http://viaf.org/viaf/34692870>,
+        <https://www.haskala-library.net/people/euchel-isaac-abraham> ;
+    skos:altLabel "Aikhel, Yitsak",
+        "Aikl, Itsik-Yitsak",
+        "Aikl, Itsk",
+        "Aykhel, Itsiḳ",
+        "Aykl, Itsk",
+        "Eichel, Isaac",
+        "Eichel, Isaak",
+        "Euchel, Isaac",
+        "Euchel, Isaak",
+        "Euchel, Isaak Abraham",
+        "Euchel, Isak Abraham",
+        "Euchel, Itzik",
+        "Eykhel, Itsiḳ",
+        "Eyḵel, Îṣāq",
+        "איכל, איצק" ;
+    skos:prefLabel "Euchel, Isaac Abraham" .
+
+<http://data.judaicalink.org/data/haskala/Fischer_Markus> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/קורות-שנות-קדם-א>,
+        <https://www.haskala-library.net//books/קורות-שנות-קדם-ב> ;
+    owl:sameAs <https://www.haskala-library.net/people/fischer-markus-פישר-מאיר> ;
+    skos:altLabel "פישר, מאיר" ;
+    skos:prefLabel "Fischer, Markus" .
+
+<http://data.judaicalink.org/data/haskala/Francia_de_Beaufleury_Louis> a foaf:Person ;
+    gndo:gndIdentifier "103114890" ;
+    jl:birthDate "1746" ;
+    jl:deathDate "1817" ;
+    jl:hasPublication <https://www.haskala-library.net//books/histoire-de-létablissement-des-juifs-à-bordeaux-et-à-bayonne-depuis-1550>,
+        <https://www.haskala-library.net//books/mémoire-à-consulter-et-consultation-pour-les-cytoyens-français-professant-le-culte-judaïque-à> ;
+    owl:sameAs <http://d-nb.info/gnd/103114890>,
+        <https://viaf.org/viaf/73926249/>,
+        <https://www.haskala-library.net/people/francia-de-beaufleury-louis> ;
+    skos:altLabel "Beaufleury, L.-François",
+        "Beaufleury, Louis Francia de",
+        "De Beaufleury, Francia",
+        "Francia de Beaufleury",
+        "Francia de Beaufleury, Louis Salomon",
+        "Francia, Salomon",
+        "Francia-Beaufleury, Louis",
+        "L.F.B." ;
+    skos:prefLabel "Francia de Beaufleury, Louis" .
+
+<http://data.judaicalink.org/data/haskala/Franco_Mendes_David> a foaf:Person ;
+    gndo:gndIdentifier "1146404700" ;
+    jl:birthDate "1713" ;
+    jl:deathDate "1792" ;
+    jl:hasPublication <https://www.haskala-library.net//books/מנחת-נדבה>,
+        <https://www.haskala-library.net//books/ספר-חכמת-שלמה> ;
+    owl:sameAs <http://d-nb.info/gnd/1146404700>,
+        <http://viaf.org/viaf/295374324>,
+        <https://www.haskala-library.net/people/Franco-Mendes-David> ;
+    skos:altLabel "Franco-Mendes, David" ;
+    skos:prefLabel "Franco Mendes, David" .
+
+<http://data.judaicalink.org/data/haskala/Franco_Mendes_David_-_פרנקו> a foaf:Person ;
+    gndo:gndIdentifier "1146404700" ;
+    jl:birthDate "1713" ;
+    jl:deathDate "1792" ;
+    jl:hasPublication <https://www.haskala-library.net//books/גמול-עתליה>,
+        <https://www.haskala-library.net//books/תשועת-ישראל-בידי-יהודית> ;
+    owl:sameAs <http://d-nb.info/gnd/1146404700>,
+        <http://viaf.org/viaf/295374324>,
+        <https://www.haskala-library.net/people/franco-mendes-david-פרנקו-מנדס-דוד> ;
+    skos:altLabel "Franco-Mendes, David",
+        "מנדס, דוד" ;
+    skos:prefLabel "Franco Mendes, David - פרנקו" .
+
+<http://data.judaicalink.org/data/haskala/Friedländer_David> a foaf:Person ;
+    gndo:gndIdentifier "119463288" ;
+    jl:birthDate "1750-12-06" ;
+    jl:birthLocation "Königsberg" ;
+    jl:deathDate "1834-12-25" ;
+    jl:deathLocation "Berlin" ;
+    jl:hasPublication <https://www.haskala-library.net//books/דברי-שלום-ואמת-א>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ד>,
+        <https://www.haskala-library.net//books/זה-ספר-זכר-צדיק>,
+        <https://www.haskala-library.net//books/זענד-שרייבן-אן-דיא-דייטשי-יודן>,
+        <https://www.haskala-library.net//books/לכבוד-הגביר>,
+        <https://www.haskala-library.net//books/מגלת-קהלת>,
+        <https://www.haskala-library.net//books/מודעה>,
+        <https://www.haskala-library.net//books/מכתב-מרפא-לנפש>,
+        <https://www.haskala-library.net//books/ספר-ויעתר-יצחק>,
+        <https://www.haskala-library.net//books/ספר-זמירות-ישראל-ג>,
+        <https://www.haskala-library.net//books/ספר-יסוד-עולם>,
+        <https://www.haskala-library.net//books/ספר-כליל-החשבון>,
+        <https://www.haskala-library.net//books/ספר-מודע-לבינה>,
+        <https://www.haskala-library.net//books/ספר-מנחה-חדשה-י>,
+        <https://www.haskala-library.net//books/ספר-מצפה-יקתאל>,
+        <https://www.haskala-library.net//books/ספר-תהלים>,
+        <https://www.haskala-library.net//books/ספר-תורה-כולה>,
+        <https://www.haskala-library.net//books/פרקי-אבות>,
+        <https://www.haskala-library.net//books/רוח-נכון>,
+        <https://www.haskala-library.net//books/שלמות-וצורת-הנפש-או-קשר-הנפש-עם-הגוף> ;
+    owl:sameAs <http://d-nb.info/gnd/119463288>,
+        <https://viaf.org/viaf/59128359>,
+        <https://www.haskala-library.net/people/friedländer-david> ;
+    skos:altLabel "Fiedländer, D.",
+        "Fridlender, Daṿid",
+        "Fridlender, Dāwīd",
+        "Fridlendr, Dawid",
+        "Friedlaender, David",
+        "פרידלענדער, דוד" ;
+    skos:prefLabel "Friedländer, David" .
+
+<http://data.judaicalink.org/data/haskala/Friedländer_Michael> a foaf:Person ;
+    gndo:gndIdentifier "116797851" ;
+    jl:birthDate "1769" ;
+    jl:birthLocation "Königsberg" ;
+    jl:deathDate "1824-04-04" ;
+    jl:deathLocation "Paris" ;
+    jl:hasPublication <https://www.haskala-library.net//books/entwurf-einer-geschichte-der-armen-und-armenanstalten> ;
+    owl:sameAs <http://d-nb.info/gnd/116797851>,
+        <https://viaf.org/viaf/52450924>,
+        <https://www.haskala-library.net/people/friedländer-michael-פרידענדר-מיכאל> ;
+    skos:altLabel "Friedlaender, Michael",
+        "Friedlander, Michael",
+        "Friedländer, M.",
+        "Friedländer, Ml.",
+        "פרידענדר, מיכאל" ;
+    skos:prefLabel "Friedländer, Michael" .
+
+<http://data.judaicalink.org/data/haskala/Friedländer_Sanwil> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/תבנית-חברת-שוחרי-הטוב-והתושיה> ;
+    owl:sameAs <https://www.haskala-library.net/people/friedländer-sanwil-פרידלנדר-זנוויל-שמואל> ;
+    skos:altLabel "פרידלנדר, זנוויל שמואל" ;
+    skos:prefLabel "Friedländer, Sanwil" .
+
+<http://data.judaicalink.org/data/haskala/Friedrichsfeld_David> a foaf:Person ;
+    gndo:gndIdentifier "1053283369" ;
+    jl:birthDate "1755" ;
+    jl:deathDate "1810" ;
+    jl:hasPublication <https://www.haskala-library.net//books/זאת-חנוכת-הבית>,
+        <https://www.haskala-library.net//books/זה-ספר-זכר-צדיק>,
+        <https://www.haskala-library.net//books/מנחת-אהבים>,
+        <https://www.haskala-library.net//books/קול-מבשר-משמיע-שלום> ;
+    owl:sameAs <http://d-nb.info/gnd/1053283369>,
+        <https://viaf.org/viaf/2033258>,
+        <https://www.haskala-library.net/people/friedrichsfeld-david-פרידריכספלד-דוד> ;
+    skos:altLabel "Fridrikhsfeld, David ben Sevi Hirsh",
+        "Fridrikhsfeld, David ben Tsevi Hirsh",
+        "Fridriḵsfeld, Dāwid Ṣěvî Hîrš",
+        "Friedrichsfeld, David ben Zwi Hirsch",
+        "Hîrš, Dāwid Ṣěvî, Fridriḵsfeld",
+        "פרידריכספלד, דוד" ;
+    skos:prefLabel "Friedrichsfeld, David" .
+
+<http://data.judaicalink.org/data/haskala/Fränkel_David> a foaf:Person ;
+    gndo:gndIdentifier "139754105" ;
+    jl:birthDate "1779-04-20" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "1865-05-18" ;
+    jl:deathLocation "Dessau" ;
+    jl:hasPublication <https://www.haskala-library.net//books/geschichte-der-juden-von-ihrer-rückkehr-aus-der-babylonischen-gefangenschaft-bis-zur>,
+        <https://www.haskala-library.net//books/israelitischer-kinderfreund>,
+        <https://www.haskala-library.net//books/nachricht-von-der-jüdischen-haupt-und-frey-schule-deßau-1804>,
+        <https://www.haskala-library.net//books/תורת-לשון-עברית-א>,
+        <https://www.haskala-library.net//books/תורת-לשון-עברית-ב>,
+        <https://www.haskala-library.net//books/תורת-לשון-עברית-ג> ;
+    owl:sameAs <http://d-nb.info/gnd/139754105>,
+        <https://viaf.org/viaf/102605103>,
+        <https://www.haskala-library.net/people/Frankel-David>,
+        <https://www.haskala-library.net/people/fränkel-david-פרנקל-דוד> ;
+    skos:altLabel "פרנקל, דוד" ;
+    skos:prefLabel "Fränkel, David" .
+
+<http://data.judaicalink.org/data/haskala/Furtado_Abraham> a foaf:Person ;
+    gndo:gndIdentifier "130319406" ;
+    jl:birthDate "1756" ;
+    jl:birthLocation "London" ;
+    jl:deathDate "1817" ;
+    jl:deathLocation "Bordeaux" ;
+    jl:hasPublication <https://www.haskala-library.net//books/discorso-pronunziato-nella-grande-sinagoga-di-parigi-alloccasione-dellapertura-del-gran> ;
+    owl:sameAs <http://d-nb.info/gnd/130319406>,
+        <https://viaf.org/viaf/2627296>,
+        <https://www.haskala-library.net/people/furtado-abraham-פורטאדו-אברהם> ;
+    skos:altLabel "Furtado, l'Ainé",
+        "Furtado-Lainé, Abraham",
+        "Furṭado, Avraham",
+        "Lainé, Abraham Furtado-",
+        "פורטאדו, אברהם" ;
+    skos:prefLabel "Furtado, Abraham" .
+
+<http://data.judaicalink.org/data/haskala/Fürth_Meyer_Elkan> a foaf:Person ;
+    gndo:gndIdentifier "1051507383" ;
+    jl:birthDate "1752" ;
+    jl:birthLocation "Fürth (Bayern)" ;
+    jl:deathDate "1825" ;
+    jl:deathLocation "Arnstein-Sandersleben" ;
+    jl:hasPublication <https://www.haskala-library.net//books/gottes-ehre-und-unser-nutzen-oder-glückseligkeit-im-glauben>,
+        <https://www.haskala-library.net//books/פרפראות-לחכמה>,
+        <https://www.haskala-library.net//books/שלמות-וצורת-הנפש-או-קשר-הנפש-עם-הגוף> ;
+    owl:sameAs <http://d-nb.info/gnd/1051507383>,
+        <https://viaf.org/viaf/1912152684007223430009>,
+        <https://www.haskala-library.net/people/fürth-meyer-elkan-פירדא-אלחנן-מאיר-בן-אברהם> ;
+    skos:altLabel "Firda, Meʾir",
+        "Firda, Meʾir ben Avraham Elḥanan",
+        "Firda, Mē'îr",
+        "Fürth, Mayer E.",
+        "Fürth, Meyer",
+        "פירדא, אלחנן מאיר בן אברהם" ;
+    skos:prefLabel "Fürth, Meyer Elkan" .
+
+<http://data.judaicalink.org/data/haskala/Gerson_Elias> a foaf:Person ;
+    gndo:gndIdentifier "1140542818" ;
+    jl:birthLocation "Pińczów" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-העקרים> ;
+    owl:sameAs <http://d-nb.info/gnd/1140542818>,
+        <http://viaf.org/viaf/306229990>,
+        <https://www.haskala-library.net/people/gerson-elias-אליהו-מפינטשוב> ;
+    skos:altLabel "Elijah ben Moses Gershon",
+        "Eliyahu Mosheh Gershon Tsahalin, mi-Pinṭshov",
+        "Eliyahu ben Mosheh Gershon, mi-Pinṭshov",
+        "Gershon, Elijah ben Moses",
+        "Gershon, Eliyahu Ben Mosheh, mi-Pinṭshiv",
+        "Gershon, Eliyahu Ben Mosheh, mi-Pinṭshov",
+        "Gershon, Eliyahu Ben-Mosheh",
+        "Gerson, Elias",
+        "Tsahalin, Eliyahu ben Mosheh Gershon",
+        "Zahlin, Eliyah ben Moses Gershon",
+        "אליהו בן משה גרשון, מפינטשוב",
+        "אליהו בן משה גרשון, מפינצʹוב",
+        "אליהו מפינטשוב",
+        "גרשון, אליהו בן משה",
+        "גרשון, אליהו בן משה, מפינטשוב",
+        "צאהלין, אליהו בן משה גרשון" ;
+    skos:prefLabel "Gerson, Elias" .
+
+<http://data.judaicalink.org/data/haskala/Graanboom_Izak> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/זאת-חנוכת-הבית> ;
+    owl:sameAs <http://viaf.org/viaf/281317838>,
+        <https://www.haskala-library.net/people/graanboom-izak-גראנבום-יצחק> ;
+    skos:altLabel "גראנבום, יצחק" ;
+    skos:prefLabel "Graanboom, Izak" .
+
+<http://data.judaicalink.org/data/haskala/Hanau_Salomon> a foaf:Person ;
+    gndo:gndIdentifier "131785710" ;
+    jl:birthDate "1687" ;
+    jl:birthLocation "Hanau" ;
+    jl:deathDate "1746-09-15" ;
+    jl:deathLocation "Hannover" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-צוהר-התיבה>,
+        <https://www.haskala-library.net//books/ספר-שערי-זמרה>,
+        <https://www.haskala-library.net//books/קונטרס-קורי-עכביש> ;
+    owl:sameAs <http://d-nb.info/gnd/131785710>,
+        <http://viaf.org/viaf/10988426>,
+        <https://www.haskala-library.net/people/hanau-salomon-הנאו-שלמה-זלמן> ;
+    skos:altLabel "Hakohen, Shelomoh",
+        "Hanau, Salman",
+        "Hanau, Salomo",
+        "Hanau, Salomo Salman",
+        "Hanau, Salomo Salman ben Jehuda",
+        "Hanau, Salomo Salman ben Jehuda Leib",
+        "Hanau, Salomo Salman ben Jehuda Loeb",
+        "Hanau, Salomo Salman ben Jehuda Löb",
+        "Hanau, Salomo Salman ben Jehuda Löb ha-Kohen",
+        "Hanau, Salomon Jehuda Leib Cohen",
+        "Hanau, Solomon Zalman ben Judah Loeb ha-Kohen",
+        "Hanau, Solomon ben Judah",
+        "Hanau, Šelomo S.",
+        "Hanau, Zalmān Selōmō",
+        "Hena, Salman",
+        "Hena, Salomo",
+        "Hena, Salomo ben Jehuda",
+        "Hena, Salomo ben Jehuda Loeb",
+        "Hena, Salomo ben Jehuda Löw",
+        "Hena, Solomon Zalman ben Judah Loeb ha-Kohen",
+        "Hena, Šelômô hak-Kohēn",
+        "Hena, Šlômô hak-Kohēn",
+        "Hena, Zalman",
+        "Hena, Zalmān Selōmō",
+        "Kats, Shelomoh Zalman ben Yehudah Leb",
+        "Kats, Shelomoh Zalman ben Yehudah Leyb",
+        "Katz, Salomo Salman ben Jehuda Leb",
+        "Katz, Salomo Salman ben Jehuda Loeb",
+        "Rezah",
+        "Salman Hanau ben Jehuda Loeb Kohen",
+        "Salman Hena ben Jehuda Loeb Kohen",
+        "Salomo Hanau ben Jehuda Loeb Kohen",
+        "Salomo Salman Hanau ben Jehuda Loeb Kohen",
+        "Salomo Salman Hena ben Jehuda Loeb Kohen",
+        "Salomo Salman ben Jehuda",
+        "Salomo Salman ben Jehuda Leb Katz, aus Hanau",
+        "Salomo Salman ben Jehuda Loeb Katz, aus Hanau",
+        "Salomo Salman ben Jehudah Lib ha-Kohen Hanau",
+        "Salomo ben Jehuda",
+        "Salomo ben Juda",
+        "Salomo ben Juda Loeb ha-Cohen",
+        "Salomon Salman ben Yehuda Löb ha-Kohen Hanau",
+        "Shelomo Zalman Hanau ben Yehuda Loeb Kohen",
+        "Shelomoh Zalman Hanau ben Jehudah Loeb Kohen",
+        "Shelomoh Zalman Hanau ben Yehudah Loeb Kohen",
+        "Shelomoh ha-Kohen",
+        "Solomon ben Juda",
+        "Solomon ben Judah",
+        "Zalman Hena ben Yehuda",
+        "Zalman Hena ben Yehudah",
+        "Zalman Hena ben Yehudah Leb",
+        "Zalman Hena ben Yehudah Leyb",
+        "הנאו, שלמה זלמן" ;
+    skos:prefLabel "Hanau, Salomon" .
+
+<http://data.judaicalink.org/data/haskala/Hart_Jacob> a foaf:Person ;
+    gndo:gndIdentifier "133642062" ;
+    jl:birthDate "1745" ;
+    jl:deathDate "1814" ;
+    jl:hasPublication <https://www.haskala-library.net//books/עין-משפט>,
+        <https://www.haskala-library.net//books/עשרה-מאמרות-א>,
+        <https://www.haskala-library.net//books/עשרה-מאמרות-ב>,
+        <https://www.haskala-library.net//books/עשרה-מאמרות-ג>,
+        <https://www.haskala-library.net//books/עשרה-מאמרות-ה> ;
+    owl:sameAs <http://d-nb.info/gnd/133642062>,
+        <https://viaf.org/viaf/35651199>,
+        <https://www.haskala-library.net/people/hart-jacob-אליקים-בן-אברהם> ;
+    skos:altLabel "Eliakim Ben Abraham",
+        "Eliakim, London",
+        "Elijakim Ben Abraham",
+        "Elijakim Ben-Abraham",
+        "Elijakim Ben-Abraham, mi-London",
+        "Eljakim Ben Abraham",
+        "Eljakim Ben-Abraham",
+        "Eljakim ben Abraham, aus London",
+        "Eljakim, London",
+        "Elyakim Ben Abraham",
+        "Elyakim ben Avraham, mi-London",
+        "Elyaqim Ben Abraham",
+        "Hart, Eliakim ben Abraham",
+        "Hart, Jacob",
+        "אליקים בן אברהם" ;
+    skos:prefLabel "Hart, Jacob" .
+
+<http://data.judaicalink.org/data/haskala/Hartwig_Wessely> a foaf:Person ;
+    gndo:gndIdentifier "119178583" ;
+    jl:birthDate "1725" ;
+    jl:birthLocation "Hamburg[?]" ;
+    jl:deathDate "1804",
+        "28.02.1805" ;
+    jl:deathLocation "Hamburg" ;
+    owl:sameAs <http://d-nb.info/gnd/119178583>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/hwessely.html> ;
+    skos:altLabel "Vaizel, Naftali Hirts",
+        "Vizel, Naftali Hirsh",
+        "Waizel, Naphtali H.",
+        "Weisel, Naphtali H.",
+        "Weisly, Hartwic",
+        "Wesel, Naphtali H.",
+        "Wesseli, Naphtali H.",
+        "Wesseli, Naphtali Hartwig",
+        "Wesseli, Naphtalie H.",
+        "Wesseli, Naphtalie Hartwig",
+        "Wessely, Hartwig",
+        "Wessely, N.",
+        "Wessely, Naftali H.",
+        "Wessely, Naftali Hartwig",
+        "Wessely, Naftali Hartwig Herz",
+        "Wessely, Naftali Herz",
+        "Wessely, Naftali Hirz",
+        "Wessely, Naphtali H.",
+        "Wessely, Naphtali Hartwig",
+        "Wessely, Naphtali Hartwig Herz",
+        "Wessely, Naphtali Hirz",
+        "Wessely, Naphtaly" ;
+    skos:prefLabel "Wessely, Hartwig" .
+
+<http://data.judaicalink.org/data/haskala/Heidenheim_Wolf> a foaf:Person ;
+    gndo:gndIdentifier "122702964" ;
+    jl:birthDate "1757" ;
+    jl:deathDate "1832" ;
+    jl:hasPublication <https://www.haskala-library.net//books/דרכי-נעם>,
+        <https://www.haskala-library.net//books/הפיוטים-והפייטנים>,
+        <https://www.haskala-library.net//books/מבוא-הלשון>,
+        <https://www.haskala-library.net//books/מחזור-לחג-השבועות-1805>,
+        <https://www.haskala-library.net//books/מחזור-מנהג-פולין-ליום-כפור-1803>,
+        <https://www.haskala-library.net//books/מחזור-מנהג-פולין-ליום-ראשון-ושני-של-פסח-1800>,
+        <https://www.haskala-library.net//books/מחזור-מנהג-פולין-ליום-ראשון-של-ראש-השנה-1800>,
+        <https://www.haskala-library.net//books/מחזור-מנהג-פולין-ליום-שביעי-ושמיני-של-פסח-1800>,
+        <https://www.haskala-library.net//books/מחזור-מנהג-פולין-ליום-שני-של-ראש-השנה-1800>,
+        <https://www.haskala-library.net//books/מחזור-מנהג-פולין-לערבית-ליום-כפור-1800>,
+        <https://www.haskala-library.net//books/מחזור-מנהג-פולין-לשמיני-עצרת-ולשמחת-תורה-1805>,
+        <https://www.haskala-library.net//books/תשועת-ישראל-בידי-יהודית> ;
+    owl:sameAs <http://d-nb.info/gnd/122702964>,
+        <http://viaf.org/viaf/69817285>,
+        <https://www.haskala-library.net/people/heidenheim-wolf-הידנהים-וולף> ;
+    skos:altLabel "Haidenhaim, Binyamin Ṿolf",
+        "Haidenhaim, Ṿolf",
+        "Haidenhaim, Zeʾev",
+        "Haidnhaim, Wolf",
+        "Haydenhaym, Ṿolf b.R. Shimʿon Dov ish",
+        "Haydenhaym, Wôlf",
+        "Haydênhaym, Binyāmîn W.",
+        "Haydnhaym, Binyāmîn W.",
+        "Haydnhaym, Wôlf",
+        "Heidenheim, Benjamin Wolf ben Simson",
+        "Heidenheim, Benjamin Zeʾev",
+        "Heidenheim, W.",
+        "Heidenheim, Wolf Ben Simson",
+        "Heidenheim, Wolf Ben-Šimšôn",
+        "Heidnheim, Wolf B.",
+        "Heydenheym, Ṿolf ben Shimshon",
+        "Heydenheym, Wôlf",
+        "Raṿah",
+        "Rawa",
+        "Ṿolf ben Shimshon, Ben ish Haidenhaim",
+        "Ṿolf ben Shimshon, dayan in Hayden Haym",
+        "Ṿolf ben Shimshon, dayan in Heydenheym",
+        "ha-Raṿah",
+        "ha-Rawa",
+        "הידנהים, וולף",
+        "היידנהיים, וואלף" ;
+    skos:prefLabel "Heidenheim, Wolf" .
+
+<http://data.judaicalink.org/data/haskala/Heimann> a foaf:Person ;
+    gndo:gndIdentifier "116660147" ;
+    jl:birthDate "1778-07-20" ;
+    jl:deathDate "1855-10-16" ;
+    jl:deathLocation "Berlin" ;
+    jl:hasPublication <https://www.haskala-library.net//books/israelitischer-kinderfreund>,
+        <https://www.haskala-library.net//books/rede-bei-der-einweihung-des-jakobs-tempels-zu-seesen> ;
+    owl:sameAs <http://d-nb.info/gnd/116660147>,
+        <https://viaf.org/viaf/42594659>,
+        <https://www.haskala-library.net/people/Heimann>,
+        <https://www.haskala-library.net/people/heimann-היימן> ;
+    skos:altLabel "Haineman, Yirmeyahu",
+        "Haynemann, Yeremiyahu",
+        "Heinemann, J.",
+        "Heinemann, Jeremiah",
+        "Heinemann, Jeremias H.",
+        "היימן" ;
+    skos:prefLabel "Heimann" .
+
+<http://data.judaicalink.org/data/haskala/Heinemann_Jermias> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/תודת-אמונת-בית-ישראל> ;
+    owl:sameAs <https://www.haskala-library.net/people/heinemann-jermias-היינמן-ירמיה> ;
+    skos:altLabel "היינמן, ירמיה" ;
+    skos:prefLabel "Heinemann, Jermias" .
+
+<http://data.judaicalink.org/data/haskala/Helft_Levy> a foaf:Person ;
+    gndo:gndIdentifier "1055682082" ;
+    jl:hasPublication <https://www.haskala-library.net//books/rede-bei-der-feier-der-geburt-eines-enkels-des-durchlauchtigsten-herzogs-von-braunschweig> ;
+    owl:sameAs <http://d-nb.info/gnd/1055682082>,
+        <https://viaf.org/viaf/309711093>,
+        <https://www.haskala-library.net/people/helft-levy-הלפט-לוי> ;
+    skos:altLabel "הלפט, לוי" ;
+    skos:prefLabel "Helft, Levy" .
+
+<http://data.judaicalink.org/data/haskala/Henle_Elkan> a foaf:Person ;
+    gndo:gndIdentifier "129841676" ;
+    jl:birthDate "1761" ;
+    jl:deathDate "1833" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ueber-die-verbesserung-des-judenthums>,
+        <https://www.haskala-library.net//books/ueber-die-verfassung-der-juden-im-königreiche-baiern-und-die-verbesserung-derselben-zum-nutzen> ;
+    owl:sameAs <http://d-nb.info/gnd/129841676>,
+        <https://viaf.org/viaf/13399285>,
+        <https://www.haskala-library.net/people/henle-elkan> ;
+    skos:altLabel "Henle, Elkav" ;
+    skos:prefLabel "Henle, Elkan" .
+
+<http://data.judaicalink.org/data/haskala/Henriette_Herz> a foaf:Person ;
+    gndo:gndIdentifier "118550152" ;
+    jl:birthDate "05.09.1764",
+        "1764-09-05" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "1847-10-22",
+        "22.10.1847" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/118550152>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/henriette-herz.html> ;
+    skos:altLabel "Herz, Henriette Julie",
+        "Lemos, Henriette de" ;
+    skos:prefLabel "Herz, Henriette" .
+
+<http://data.judaicalink.org/data/haskala/Herz_Homberg> a foaf:Person ;
+    gndo:gndIdentifier "134020626" ;
+    jl:birthDate "1749-09",
+        "9.1749" ;
+    jl:birthLocation "Lieben",
+        "Prag-Libeň" ;
+    jl:deathDate "1841-08-24",
+        "24.08.1841" ;
+    jl:deathLocation "Prag" ;
+    owl:sameAs <http://d-nb.info/gnd/134020626>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/homberg.html> ;
+    skos:altLabel "Homberg, Herṣ",
+        "Homberg, Herts",
+        "Homberg, Hertz",
+        "Homberg, Herz",
+        "Homberg, Naftali Herz" ;
+    skos:prefLabel "Homberg, Herz" .
+
+<http://data.judaicalink.org/data/haskala/Herz_Marcus> a foaf:Person ;
+    gndo:gndIdentifier "118933876" ;
+    jl:birthDate "1747" ;
+    jl:deathDate "1803" ;
+    jl:hasPublication <https://www.haskala-library.net//books/die-herausgeber-des-hebräischen-sammlers-über-die-frühe-beerdigung-der-juden>,
+        <https://www.haskala-library.net//books/מכתב> ;
+    owl:sameAs <http://d-nb.info/gnd/118933876>,
+        <http://viaf.org/viaf/37046400>,
+        <https://www.haskala-library.net/people/herz-marcus-הרץ-מרכוס> ;
+    skos:altLabel "Hertz, Marcus",
+        "Hertz, Markus",
+        "Herz, M.",
+        "Herz, Marcus",
+        "Herz, Naphtali Markus",
+        "Ōtakustēs",
+        "Ōtchkustēs",
+        "הרץ, מרדכי בן הירץ לוי",
+        "הרץ, מרכוס" ;
+    skos:prefLabel "Herz, Marcus" .
+
+<http://data.judaicalink.org/data/haskala/Hirsch_Isaac> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/שבע-פרקים-הראשונים-של-ספר-מלות-ההגיון> ;
+    owl:sameAs <http://viaf.org/viaf/309666223>,
+        <https://www.haskala-library.net/people/hirsch-isaac-הירש-איצק-ליב> ;
+    skos:altLabel "הירש, איצק ליב" ;
+    skos:prefLabel "Hirsch, Isaac" .
+
+<http://data.judaicalink.org/data/haskala/Hirschel_Moses> a foaf:Person ;
+    gndo:gndIdentifier "144000784" ;
+    jl:birthDate "1754-09-13" ;
+    jl:birthLocation "Breslau" ;
+    jl:deathDate "1823" ;
+    jl:hasPublication <https://www.haskala-library.net//books/apologie-der-menschenrechte-oder-philosophisch-kritische-beleuchtung-der-schrift>,
+        <https://www.haskala-library.net//books/hinterlassene-gedichte-1>,
+        <https://www.haskala-library.net//books/kampf-der-jüdischen-hierarchie-mit-der-vernunft> ;
+    owl:sameAs <http://d-nb.info/gnd/144000784>,
+        <https://viaf.org/viaf/5305084>,
+        <https://www.haskala-library.net/people/hirschel-moses-הירשל-משה> ;
+    skos:altLabel "Herschel, Christian Moritz",
+        "Hirschel, Christian Moritz",
+        "הירשל, משה" ;
+    skos:prefLabel "Hirschel, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Homberg_Herz> a foaf:Person ;
+    gndo:gndIdentifier "134020626" ;
+    jl:birthDate "1749-09" ;
+    jl:birthLocation "Prag-Libeň" ;
+    jl:deathDate "1841-08-24" ;
+    jl:deathLocation "Prag" ;
+    jl:hasPublication <https://www.haskala-library.net//books/bne-zion>,
+        <https://www.haskala-library.net//books/verteidigung-der-jüdischen-nation-gegen-die-den-provinzialblättern-enthaltenen-angriffe>,
+        <https://www.haskala-library.net//books/zwölf-fragen>,
+        <https://www.haskala-library.net//books/אמרי-שפר>,
+        <https://www.haskala-library.net//books/ספר-נתיבות-השלום-ה> ;
+    owl:sameAs <http://d-nb.info/gnd/134020626>,
+        <https://viaf.org/viaf/52893856>,
+        <https://www.haskala-library.net/people/homberg-herz-הרץ-הומברג> ;
+    skos:altLabel "Homberg, Herṣ",
+        "Homberg, Herts",
+        "Homberg, Hertz",
+        "Homberg, Herz",
+        "Homberg, Naftali Herz",
+        "הרץ, הומברג" ;
+    skos:prefLabel "Homberg, Herz" .
+
+<http://data.judaicalink.org/data/haskala/Horowitz_Jehuda> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/מחברת-חיי-הנפש-ונצחיותה>,
+        <https://www.haskala-library.net//books/ספר-היכל-עונג>,
+        <https://www.haskala-library.net//books/ספר-כרם-עין-גדי>,
+        <https://www.haskala-library.net//books/ספר-מגלת-סדרים>,
+        <https://www.haskala-library.net//books/ספר-עמודי-בית-יהודה>,
+        <https://www.haskala-library.net//books/ספר-צל-המעלות>,
+        <https://www.haskala-library.net//books/שדה-תבונה> ;
+    owl:sameAs <https://www.haskala-library.net/people/horowitz-jehuda-הורוויץ-יהודה> ;
+    skos:altLabel "הורוויץ, יהודה" ;
+    skos:prefLabel "Horowitz, Jehuda" .
+
+<http://data.judaicalink.org/data/haskala/Hourwitz_Zalkind> a foaf:Person ;
+    gndo:gndIdentifier "119440229" ;
+    jl:birthDate "1752" ;
+    jl:birthLocation "Lubin" ;
+    jl:deathDate "1812" ;
+    jl:hasPublication <https://www.haskala-library.net//books/apologie-des-juifs-en-réponse-à-la-question> ;
+    owl:sameAs <http://d-nb.info/gnd/119440229>,
+        <https://viaf.org/viaf/20490935>,
+        <https://www.haskala-library.net/people/hourwitz-zalkind-הורביץ-זלקינד> ;
+    skos:altLabel "Hourwitz, Zalkind",
+        "Hurwicz, Zalkind S.",
+        "Hurwitz, Zalkind",
+        "Zalkind-Hourwitz",
+        "Zalkind-Hurwicz",
+        "הורביץ, זלקינד" ;
+    skos:prefLabel "Hourwitz, Zalkind" .
+
+<http://data.judaicalink.org/data/haskala/Hufnagel> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/die-moseide-achtzehn-gesängen> ;
+    owl:sameAs <https://www.haskala-library.net/people/hufnagel-הופנגל> ;
+    skos:altLabel "הופנגל" ;
+    skos:prefLabel "Hufnagel" .
+
+<http://data.judaicalink.org/data/haskala/Hurwitz_Philipp_Lazarus> a foaf:Person ;
+    gndo:gndIdentifier "1153521431" ;
+    jl:hasPublication <https://www.haskala-library.net//books/beleuchtung-der-den-gegenwärtig-bei-dem-geheimen-ober-tribunale-schwebenden-fränkel> ;
+    owl:sameAs <http://d-nb.info/gnd/1153521431>,
+        <http://viaf.org/viaf/97917943>,
+        <https://www.haskala-library.net/people/hurwitz-philipp-lazarus-הורוויץ-פיליפ-לצרוס> ;
+    skos:altLabel "Hurwitz, P. L.",
+        "Hurwitz, Philipp L.",
+        "Hurwiz, Philipp",
+        "הורוויץ, פיליפ לצרוס" ;
+    skos:prefLabel "Hurwitz, Philipp Lazarus" .
+
+<http://data.judaicalink.org/data/haskala/Höchheimer_Simon> a foaf:Person ;
+    gndo:gndIdentifier "11692361X" ;
+    jl:birthDate "1744" ;
+    jl:deathDate "1828" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ueber-moses-mendelsohns-tod> ;
+    owl:sameAs <http://d-nb.info/gnd/11692361X>,
+        <https://viaf.org/viaf/37679967>,
+        <https://www.haskala-library.net/people/höchheimer-simon-הכהיימר-שמעון> ;
+    skos:altLabel "Hochheimer, Simon",
+        "Höchheimer, S.",
+        "הכהיימר, שמעון" ;
+    skos:prefLabel "Höchheimer, Simon" .
+
+<http://data.judaicalink.org/data/haskala/Ignaz_Jeitteles> a foaf:Person ;
+    gndo:gndIdentifier "117614823" ;
+    jl:birthDate "06.09.1783",
+        "1783" ;
+    jl:birthLocation "Prag" ;
+    jl:deathDate "1843",
+        "19.06.1843" ;
+    jl:deathLocation "Wien" ;
+    owl:sameAs <http://d-nb.info/gnd/117614823>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/ijeitteles.html> ;
+    skos:prefLabel "Jeitteles, Ignaz" .
+
+<http://data.judaicalink.org/data/haskala/ImmanuelMoritz_Neumann> a foaf:Person ;
+    gndo:gndIdentifier "137816820" ;
+    jl:birthDate "" ;
+    jl:birthLocation "Brody[?]" ;
+    jl:deathDate "" ;
+    jl:deathLocation "Breslau [?]" ;
+    owl:sameAs <http://d-nb.info/gnd/137816820>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/neumann.html> ;
+    skos:altLabel "Nayman, Yiśraʾel",
+        "Nayman, Yiśraʾel ben Mosheh, mi-Brodi",
+        "Neumann, Immanuel Moritz",
+        "Neumann, Israel",
+        "Neumann, Israel ben Moses",
+        "Neumann, Israel ben Moses, aus Brody",
+        "Neyman, Yiśraʾel",
+        "Neyman, Yiśraʾel ben Mosheh, mi-Brodi",
+        "Yiśraʾel ben Mosheh, mi-Brodi",
+        "ישראל ניימאן בן משה, מבראדי",
+        "נייאמאן, ישראל, מבראדי",
+        "ניימאן, ישראל" ;
+    skos:prefLabel "Neumann, Immanuel Moritz" .
+
+<http://data.judaicalink.org/data/haskala/IsaacAbraham_Euchel> a foaf:Person ;
+    gndo:gndIdentifier "122891961" ;
+    jl:birthDate "17.10.1756",
+        "1756" ;
+    jl:birthLocation "Kopenhagen" ;
+    jl:deathDate "18.06.1804",
+        "1804" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/122891961>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/euchel.html> ;
+    skos:altLabel "Aikhel, Yitsak",
+        "Aikl, Itsik-Yitsak",
+        "Aikl, Itsk",
+        "Aykhel, Itsiḳ",
+        "Aykl, Itsk",
+        "Eichel, Isaac",
+        "Eichel, Isaak",
+        "Euchel, Isaac",
+        "Euchel, Isaak",
+        "Euchel, Isaak Abraham",
+        "Euchel, Isak Abraham",
+        "Euchel, Itzik",
+        "Eykhel, Itsiḳ",
+        "Eyḵel, Îṣāq",
+        "איכל, איצק" ;
+    skos:prefLabel "Euchel, Isaac Abraham" .
+
+<http://data.judaicalink.org/data/haskala/IsaacDaniel_Itzig> a foaf:Person ;
+    gndo:gndIdentifier "136249930" ;
+    jl:birthDate "1750-12-20",
+        "20.12.1750" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "07.07.1806",
+        "1806-07-07" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/136249930>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/isaac-daniel-itzig.html> ;
+    skos:altLabel "Berlin, Isaak Daniel",
+        "Eschwe, Isaak Daniel",
+        "Itzig, Daniel",
+        "Itzig, Isaac Daniel",
+        "Jaffe, Isaak Daniel" ;
+    skos:prefLabel "Itzig, Isaac Daniel" .
+
+<http://data.judaicalink.org/data/haskala/Isaac_Satanow> a foaf:Person ;
+    gndo:gndIdentifier "124154565" ;
+    jl:birthDate "1732",
+        "1733" ;
+    jl:birthLocation "Satanow" ;
+    jl:deathDate "1804",
+        "25.12.1805" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/124154565>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/satanow.html> ;
+    skos:altLabel "Asaf",
+        "Isaac Moses",
+        "Isaac ben Moses, of Satanow",
+        "Isaac, ha-Levi of Satanow",
+        "Satanov, Isaac",
+        "Satanov, Yitshak",
+        "Satanow, Isaac",
+        "Satanow, Isaak",
+        "Satanow, Itzig",
+        "Satanow, Yiṣḥāq",
+        "Saṭanôw, Îṣaq",
+        "Segal, Yitshak",
+        "Yitshak ben Mosheh, ha-Levi mi-Satanov",
+        "Yitshak, Segal mi-Satanov",
+        "Yitshak, ha-Levi Satanov",
+        "Yitsḥaḳ ha-leṿi mi-Satanov",
+        "Yitsḥaḳ leṿi mi-Satanov",
+        "יצחק הלוי מסאטאנוב",
+        "יצחק הלוי מסטנאב",
+        "יצחק סגʹʹל מסטנאב",
+        "יצחק, הלוי מסאטאנוב",
+        "סאטאנוב, איציק",
+        "סאטאנוב, יצחק",
+        "סאנטנאב, איצק",
+        "סטאנוב, יצחק",
+        "סטנאב, איציק",
+        "סטנאב, איצק",
+        "סטנאב, יצחק",
+        "סטנוב, יצחק" ;
+    skos:prefLabel "Satanow, Isaac" .
+
+<http://data.judaicalink.org/data/haskala/Isaak_Alexander> a foaf:Person ;
+    gndo:gndIdentifier "120105756" ;
+    jl:birthDate "17.08.1722",
+        "1722" ;
+    jl:birthLocation " Regensburg" ;
+    jl:deathDate "1802",
+        "Anf. 19. Jhd" ;
+    jl:deathLocation " Regensburg" ;
+    owl:sameAs <http://d-nb.info/gnd/120105756>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/alexander.html> ;
+    skos:altLabel "Alexander, Isaac",
+        "Alexander, Jiṣḥāq",
+        "Isaak Alexander, Rabbiner",
+        "Isaak Israel",
+        "Jiṣḥāq Alexander" ;
+    skos:prefLabel "Alexander, Isaak" .
+
+<http://data.judaicalink.org/data/haskala/Itzig_Isaac_Daniel> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/מודעה>,
+        <https://www.haskala-library.net//books/ספר-מצפה-יקתאל> ;
+    owl:sameAs <https://www.haskala-library.net/people/itzig-isaac-daniel-איציג-יצחק-דניאל> ;
+    skos:altLabel "איציג, יצחק דניאל" ;
+    skos:prefLabel "Itzig, Isaac Daniel" .
+
+<http://data.judaicalink.org/data/haskala/Jacobson_Israel> a foaf:Person ;
+    gndo:gndIdentifier "11704783X" ;
+    jl:birthDate "1768" ;
+    jl:birthLocation "Halberstadt" ;
+    jl:deathDate "1828" ;
+    jl:deathLocation "Berlin" ;
+    jl:hasPublication <https://www.haskala-library.net//books/rede-am-dankfeste-wegen-des-von-seiner-majestät-dem-könige-von-westphalen-den-unterthanen>,
+        <https://www.haskala-library.net//books/unterthänigste-vorstellung-seine-hoheit-den-fürst-primas-der-rheinischen-konföderation-über>,
+        <https://www.haskala-library.net//books/אמרי-שפר>,
+        <https://www.haskala-library.net//books/שפת-עבר> ;
+    owl:sameAs <http://d-nb.info/gnd/11704783X>,
+        <http://viaf.org/viaf/49993026>,
+        <https://www.haskala-library.net/people/Jacobson-Israel> ;
+    skos:altLabel "Jacobsohn, Israel",
+        "Jacobssohn, Israel",
+        "Jacobsson, Israel",
+        "Jakobsohn, Israel" ;
+    skos:prefLabel "Jacobson, Israel" .
+
+<http://data.judaicalink.org/data/haskala/Jaroslaw_Aron> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-נתיבות-השלום-ד>,
+        <https://www.haskala-library.net//books/צחות-בדקדוק> ;
+    owl:sameAs <https://www.haskala-library.net/people/jaroslaw-aron-ירוסלב-אהרן> ;
+    skos:altLabel "ירוסלב, אהרן" ;
+    skos:prefLabel "Jaroslaw, Aron" .
+
+<http://data.judaicalink.org/data/haskala/Jeitteles_Baruch_(Benedict)> a foaf:Person ;
+    gndo:gndIdentifier "136271170" ;
+    jl:birthDate "1762" ;
+    jl:birthLocation "Prag" ;
+    jl:deathDate "1813" ;
+    jl:hasPublication <https://www.haskala-library.net//books/die-kuhpockenimpfung>,
+        <https://www.haskala-library.net//books/דברי-יאזעף-השני-האחרונים>,
+        <https://www.haskala-library.net//books/ספר-האורב>,
+        <https://www.haskala-library.net//books/עמק-הבכא>,
+        <https://www.haskala-library.net//books/שיחה-בין-שנת-תקס-ובין-שנת-תקסא> ;
+    owl:sameAs <http://d-nb.info/gnd/136271170>,
+        <https://viaf.org/viaf/14297138>,
+        <https://www.haskala-library.net/people/jeitteles-baruch-benedict-ייטלש-ברוך> ;
+    skos:altLabel "Jeiteles, Benedict",
+        "Jeitteles, Baruch",
+        "Jeitteles, Baruch ben Jona",
+        "Jeitteles, Baruch ben Jonas",
+        "Jeitteles, Benedict",
+        "Jeiṭeleś, Baruḵ ben Jona",
+        "Jiṭleś, Baruḵ ben Jona",
+        "Yaiṭeleś, Barukh ben Yonah",
+        "Yeiṭeleś, Barukh ben Yonah",
+        "Yeiṭeleś, Baruḵ ben Yona",
+        "Yiṭleś, Barukh ben Yonah",
+        "Yiṭleś, Baruḵ ben Yona",
+        "יטלס, ברוך",
+        "ייטטליש, ברוך",
+        "ייטלש, ברוך",
+        "ייטלש, ברוך בן יהודה",
+        "ײטליס, ברוך",
+        "ײטליס, ברוך בן יונה" ;
+    skos:prefLabel "Jeitteles, Baruch (Benedict)" .
+
+<http://data.judaicalink.org/data/haskala/Jeitteles_Ignaz> a foaf:Person ;
+    gndo:gndIdentifier "117614823" ;
+    jl:birthDate "1783" ;
+    jl:birthLocation "Prag" ;
+    jl:deathDate "1843" ;
+    jl:deathLocation "Wien" ;
+    jl:hasPublication <https://www.haskala-library.net//books/israelitischer-kinderfreund>,
+        <https://www.haskala-library.net//books/jonas-jeitteles>,
+        <https://www.haskala-library.net//books/אמרי-שפר> ;
+    owl:sameAs <http://d-nb.info/gnd/117614823>,
+        <https://viaf.org/viaf/3253069>,
+        <https://www.haskala-library.net/people/Jeitteles-Ignaz>,
+        <https://www.haskala-library.net/people/jeitteles-ignaz-ייטלש-יגנץ> ;
+    skos:altLabel "ייטלש, יגנץ" ;
+    skos:prefLabel "Jeitteles, Ignaz" .
+
+<http://data.judaicalink.org/data/haskala/Jeitteles_Juda> a foaf:Person ;
+    gndo:gndIdentifier "141851996" ;
+    jl:birthDate "1773" ;
+    jl:birthLocation "Prag" ;
+    jl:deathDate "1838" ;
+    jl:deathLocation "Wien" ;
+    jl:hasPublication <https://www.haskala-library.net//books/עמק-הבכא> ;
+    owl:sameAs <http://d-nb.info/gnd/141851996>,
+        <http://viaf.org/viaf/9607976>,
+        <https://www.haskala-library.net/people/jeitteles-juda-ייטלש-יהודה> ;
+    skos:altLabel "Jeiteles, Jehuda Löb",
+        "Jeiteles, Judah",
+        "Jeitteles, Judah ben Jonah",
+        "Jeitteles, Yehudah ben Jonah",
+        "Jeitteles, Yehûdā Ben-Yōnā",
+        "Loeb, Jehuda",
+        "Loeb, Juda",
+        "ייטלש, יהודה" ;
+    skos:prefLabel "Jeitteles, Juda" .
+
+<http://data.judaicalink.org/data/haskala/Kalker_Simon_Isaac> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/קול-רנה-ותודה> ;
+    owl:sameAs <https://viaf.org/viaf/98403507>,
+        <https://www.haskala-library.net/people/kalker-simon-isaac-קלקר-שמעון> ;
+    skos:altLabel "קלקר, שמעון" ;
+    skos:prefLabel "Kalker, Simon Isaac" .
+
+<http://data.judaicalink.org/data/haskala/Kausch_Johann_Joseph> a foaf:Person ;
+    gndo:gndIdentifier "100807402" ;
+    jl:birthDate "1751-11-16" ;
+    jl:deathDate "1825-03-10" ;
+    jl:hasPublication <https://www.haskala-library.net//books/hinterlassene-gedichte-1> ;
+    owl:sameAs <http://d-nb.info/gnd/100807402>,
+        <https://viaf.org/viaf/61582931>,
+        <https://www.haskala-library.net/people/kausch-johann-joseph> ;
+    skos:altLabel "Kausch",
+        "Kausch, J. J.",
+        "Kausch, Jean Joseph",
+        "Kausch, Johann Joseph von" ;
+    skos:prefLabel "Kausch, Johann Joseph" .
+
+<http://data.judaicalink.org/data/haskala/Kerner_Moshe> a foaf:Person ;
+    gndo:gndIdentifier "142370584" ;
+    jl:birthDate "1762" ;
+    jl:deathDate "1836" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-זרע-קודש> ;
+    owl:sameAs <http://d-nb.info/gnd/142370584>,
+        <https://viaf.org/viaf/78650846>,
+        <https://www.haskala-library.net/people/kerner-moshe-קרנר-משה-בן-אליעזר> ;
+    skos:altLabel "Kerner, Mosheh",
+        "Koerner, Moses ben Eliezer Phoebus",
+        "קרנר, משה בן אליעזר" ;
+    skos:prefLabel "Kerner, Moshe" .
+
+<http://data.judaicalink.org/data/haskala/Kohen_Piwana_Josephi> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/זכרון-יוסף> ;
+    owl:sameAs <https://www.haskala-library.net/people/kohen-piwana-josephi-פיבני-יוסף-בן-איזק-כהנא> ;
+    skos:altLabel "פיבני, יוסף בן איזק, כהנא" ;
+    skos:prefLabel "Kohen Piwana, Josephi" .
+
+<http://data.judaicalink.org/data/haskala/Kohn_Salomon> a foaf:Person ;
+    gndo:gndIdentifier "14240330X" ;
+    jl:birthDate "1739" ;
+    jl:birthLocation "Kreis Rawitsch" ;
+    jl:deathDate "1819" ;
+    jl:hasPublication <https://www.haskala-library.net//books/predigt-des-herrn-oberabbiners-rabbi-salomon-kohn> ;
+    owl:sameAs <http://d-nb.info/gnd/14240330X>,
+        <https://viaf.org/viaf/75883756>,
+        <https://www.haskala-library.net/people/kohn-salomon-כהן-משלם-זלמן-בן-שלמה> ;
+    skos:altLabel "Hakohen, Meshulam Zalman",
+        "Kohen, Meshulam Zalman ben Shelomoh",
+        "Kohn, Meshullam Solomon",
+        "Kohn, Salomon Meschullam",
+        "Kōhēn, Mešullām Zalman Ben-Šelōmō",
+        "Maharzakh",
+        "Maharzaḵ",
+        "Meshulam Zalman ben Shelomoh Kohen",
+        "Meshulam Zalman ben Shelomoh ha-Kohen",
+        "Mešullām Zalman Ben-Šelōmō Kōhēn",
+        "Mešullām Zalman Ben-Šelōmō hak-Kōhēn",
+        "ha-Kohen, Meshulam Zalman",
+        "hak-Kōhēn, Mešullām Zalman",
+        "הכהן, משולם זלמן בן שלמה",
+        "הכהן, משלם זלמן בן שלמה",
+        "כהן, משולם זלמן בן שלמה",
+        "כהן, משלם זלמן בן שלמה",
+        "מהרזך",
+        "מהרז״ך",
+        "משולם זלמן בן שלמה הכהן",
+        "משולם זלמן בן שלמה כהן",
+        "משולם זלמן כהן מפיורדא",
+        "משלם זלמן בן שלמה הכהן",
+        "משלם זלמן בן שלמה כהן",
+        "משלם זלמן כהן מפיורדא" ;
+    skos:prefLabel "Kohn, Salomon" .
+
+<http://data.judaicalink.org/data/haskala/Kuh_Ephraim_Moses> a foaf:Person ;
+    gndo:gndIdentifier "120951711" ;
+    jl:birthDate "1731" ;
+    jl:deathDate "1790" ;
+    jl:hasPublication <https://www.haskala-library.net//books/hinterlassene-gedichte-1> ;
+    owl:sameAs <http://d-nb.info/gnd/120951711>,
+        <https://viaf.org/viaf/72237379>,
+        <https://www.haskala-library.net/people/kuh-ephraim-moses-קוה-אפרים> ;
+    skos:altLabel "Kuh, Ephraim",
+        "Kuh, Ephraim M.",
+        "קוה, אפרים" ;
+    skos:prefLabel "Kuh, Ephraim Moses" .
+
+<http://data.judaicalink.org/data/haskala/Landau_Israel> a foaf:Person ;
+    gndo:gndIdentifier "136243770" ;
+    jl:birthDate "1758" ;
+    jl:birthLocation "Prag" ;
+    jl:deathDate "1826" ;
+    jl:deathLocation "Prag" ;
+    jl:hasPublication <https://www.haskala-library.net//books/אגרת-ארחות-עולם>,
+        <https://www.haskala-library.net//books/ספר-חק-לישראל> ;
+    owl:sameAs <http://d-nb.info/gnd/136243770>,
+        <http://viaf.org/viaf/311112317>,
+        <https://www.haskala-library.net/people/landau-israel-לנדא-ישראל> ;
+    skos:altLabel "Landa, Jiśraʾel",
+        "Landa, Jiśraʾel Ben-Jeḥezqʾel",
+        "Landa, Jiśraʾel, hal-Lewi",
+        "Landa, Yiśraʾel",
+        "Landa, Yiśraʾel Ben-Yeḥezqʾel",
+        "Landa, Yiśraʾel ben Yeḥezḳʾel",
+        "Landa, Yiśraʾel, ha-Leṿi",
+        "Landa, Yiśraʾel, hal-Lewi",
+        "Landau, Jiśraʾel",
+        "Landau, Jiśraʾel Ben-Jeḥezqʾel",
+        "Landau, Jiśraʾel Ben-Jeḥezqʾel, hal-Lewi",
+        "Landau, Jiśraʾel, hal-Lewi",
+        "Landau, Yiśraʾel",
+        "Landau, Yiśraʾel Ben-Yeḥezqʾel",
+        "Landau, Yiśraʾel Ben-Yeḥezqʾel, hal-Lewi",
+        "Landau, Yiśraʾel ben Yeḥezḳel",
+        "Landau, Yiśraʾel ben Yeḥezḳel, ha-Leṿi",
+        "Landau, Yiśraʾel, ha-Leṿi",
+        "Landau, Yiśraʾel, hal-Lewi",
+        "ישראל בן יחזקאל הלוי לאנדא",
+        "ישראל הלוי לנדא",
+        "ישראל לנדא",
+        "לאנדא, ישראל בן יחזקאל הלוי",
+        "לנדא, ישראל",
+        "לנדא, ישראל, הלוי" ;
+    skos:prefLabel "Landau, Israel" .
+
+<http://data.judaicalink.org/data/haskala/Landau_Moses_Israel> a foaf:Person ;
+    gndo:gndIdentifier "130216593" ;
+    jl:birthDate "1788-12-28" ;
+    jl:birthLocation "Prag" ;
+    jl:deathDate "1852-05-04" ;
+    jl:deathLocation "Prag" ;
+    jl:hasPublication <https://www.haskala-library.net//books/rede-gehalten-am-jubelfeste-der-israelitischen-hauptschule-prag-den-10-mai-1812> ;
+    owl:sameAs <http://d-nb.info/gnd/130216593>,
+        <https://viaf.org/viaf/77415659>,
+        <https://www.haskala-library.net/people/landau-moses-israel> ;
+    skos:altLabel "LNDʾ, Mošē Yiśrāʾēl",
+        "Landa, Mosheh, ha-Leṿi",
+        "Landau, M. I.",
+        "Landau, M.J.",
+        "Landau, Mose I.",
+        "Landau, Moses",
+        "Landau, Moses Israel",
+        "Landau, Moses J.",
+        "Landau, Moses b. Israel Halevi",
+        "לנדא, משה בן ישראל, הלוי",
+        "לנדא, משה ישראל",
+        "לנדא, משה, הלוי" ;
+    skos:prefLabel "Landau, Moses Israel" .
+
+<http://data.judaicalink.org/data/haskala/Lax_Salomon> a foaf:Person ;
+    gndo:gndIdentifier "1155948777" ;
+    jl:hasPublication <https://www.haskala-library.net//books/elementarunterricht-der-religion-aus-der-natur-und-der-heiligen-geschichte> ;
+    owl:sameAs <http://d-nb.info/gnd/1155948777>,
+        <http://viaf.org/viaf/298820661>,
+        <https://www.haskala-library.net/people/lax-salomon-לקס-שלמה> ;
+    skos:altLabel "לקס, שלמה" ;
+    skos:prefLabel "Lax, Salomon" .
+
+<http://data.judaicalink.org/data/haskala/Lazarus_Bendavid> a foaf:Person ;
+    gndo:gndIdentifier "116117818" ;
+    jl:birthDate "1762" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "1832" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/116117818>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/bendavid.html> ;
+    skos:altLabel "Ben-David, Latsarus",
+        "Ben-Daṿid, Latsarus",
+        "Ben-Dawid, Lasarûs",
+        "Ben-Dāwîd, Laṣārûs",
+        "Bendavid, ...",
+        "בן דוד, אלעזר לאזי" ;
+    skos:prefLabel "Bendavid, Lazarus" .
+
+<http://data.judaicalink.org/data/haskala/Lemans_Moses> a foaf:Person ;
+    gndo:gndIdentifier "143894056" ;
+    jl:birthDate "1785" ;
+    jl:birthLocation "Naarden" ;
+    jl:deathDate "1832" ;
+    jl:hasPublication <https://www.haskala-library.net//books/מאמר-אמרה-צרופה>,
+        <https://www.haskala-library.net//books/שיר-אשר-נמסר-למלכנו> ;
+    owl:sameAs <http://d-nb.info/gnd/143894056>,
+        <https://viaf.org/viaf/61071809>,
+        <https://www.haskala-library.net/people/lemans-moses-למנס-משה> ;
+    skos:altLabel "Lemans, M.",
+        "Lemans, Mosheh",
+        "למנס, משה" ;
+    skos:prefLabel "Lemans, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Lesczinski_Elasar> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/trauer-gedicht-auf-den-tod-ihrer-majestät-der-hochverewigten-regierenden-königin-luise-auguste> ;
+    owl:sameAs <http://viaf.org/viaf/288215793>,
+        <https://www.haskala-library.net/people/lesczinski-elasar-לשצינסקי-אלעזר> ;
+    skos:altLabel "לשצ'ינסקי, אלעזר" ;
+    skos:prefLabel "Lesczinski, Elasar" .
+
+<http://data.judaicalink.org/data/haskala/Levi_Avigdor> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/אגרות>,
+        <https://www.haskala-library.net//books/חותם-תכנית>,
+        <https://www.haskala-library.net//books/ספר-דבר-טוב> ;
+    owl:sameAs <https://viaf.org/viaf/169474192>,
+        <https://www.haskala-library.net/people/levi-avigdor-לוי-אביגדור> ;
+    skos:altLabel "לוי, אביגדור" ;
+    skos:prefLabel "Levi, Avigdor" .
+
+<http://data.judaicalink.org/data/haskala/Levi_Hannover_Raphael> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/לוח-עלות-השחר>,
+        <https://www.haskala-library.net//books/לוחות-העיבור-א>,
+        <https://www.haskala-library.net//books/לוחות-העיבור-ב>,
+        <https://www.haskala-library.net//books/ספר-תכונת-השמים> ;
+    owl:sameAs <http://viaf.org/viaf/283084577>,
+        <https://www.haskala-library.net/people/levi-hannover-raphael-לוי-רפאל-מהנובר> ;
+    skos:altLabel "לוי, רפאל מהנובר" ;
+    skos:prefLabel "Levi, Hannover Raphael" .
+
+<http://data.judaicalink.org/data/haskala/Levi_Joseph_Jasmann_ben_Joel> a foaf:Person ;
+    gndo:gndIdentifier "1081954639" ;
+    jl:birthDate "1748" ;
+    jl:deathDate "1827" ;
+    jl:deathLocation "Wandsbek" ;
+    jl:hasPublication <https://www.haskala-library.net//books/freudiges-loblied-unserm-allergnädigsten-könig-christian-dem-siebenten-und-dessen-thronerben> ;
+    owl:sameAs <http://d-nb.info/gnd/1081954639>,
+        <https://viaf.org/viaf/66145541730896600230/>,
+        <https://www.haskala-library.net/people/levi-joseph-jasmann-ben-joel-לוי-יוסף-יוסמן-בן-יואל> ;
+    skos:altLabel "Jasmann, Joseph Levi Ben Joel",
+        "Jassmann, Joseph",
+        "Josef Jasman Sohn Joel",
+        "Josef Jasman halevi",
+        "Joseph Jasman",
+        "Joseph Jasmann",
+        "Levi, Joseph Jasmann Ben Joel",
+        "Leṿi, Yosef Yosmann ben Yoʾel",
+        "Lewi, Yosef Jasmann ben Yoel",
+        "לוי, יוסף יוסמן בן יואל" ;
+    skos:prefLabel "Levi, Joseph Jasmann ben Joel" .
+
+<http://data.judaicalink.org/data/haskala/Levi_Moses> a foaf:Person ;
+    gndo:gndIdentifier "1055534075" ;
+    jl:hasPublication <https://www.haskala-library.net//books/gründlicher-unterricht-der-jüdischdeutschen-schreibart> ;
+    owl:sameAs <http://d-nb.info/gnd/1055534075>,
+        <https://viaf.org/viaf/309698072>,
+        <https://www.haskala-library.net/people/levi-moses> ;
+    skos:prefLabel "Levi, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Levin_Menachem_Mendel> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-מודע-לבינה>,
+        <https://www.haskala-library.net//books/ספר-רפואת-העם> ;
+    owl:sameAs <http://viaf.org/viaf/20765287>,
+        <https://www.haskala-library.net/people/levin-menachem-mendel-לפין-מנחם-מנדל> ;
+    skos:altLabel "לפין, מנחם מנדל" ;
+    skos:prefLabel "Levin, Menachem Mendel" .
+
+<http://data.judaicalink.org/data/haskala/Levison_George_(Mordechai_Gumpel_Schnaber)_-_שנאבר> a foaf:Person ;
+    gndo:gndIdentifier "132968959" ;
+    jl:deathLocation "Hamburg" ;
+    jl:hasPublication <https://www.haskala-library.net//books/מאמר-התורה-והחכמה>,
+        <https://www.haskala-library.net//books/סלת-מנחה-בלולה>,
+        <https://www.haskala-library.net//books/ספר-תוכחת-מגילה> ;
+    owl:sameAs <http://d-nb.info/gnd/132968959>,
+        <https://www.haskala-library.net/people/levison-george-mordechai-gumpel-schnaber-שנאבר-לויזון-גומפל-מרדכי> ;
+    skos:altLabel "Gumpel, Mordecai",
+        "Gumpel, Mordechai",
+        "Gumpel, Mordechai Halevi",
+        "Gumpel, Mordechai Halevi Levison",
+        "Gumpel, Mordechai Levison",
+        "Gumpel, Mordekaj",
+        "Levisohn, Marcus George",
+        "Levisohn, Mordecai Gumpel Levi",
+        "Levisohn, Mordekaj",
+        "Levison, G.",
+        "Levison, Georg",
+        "Levison, Gumpert",
+        "Levison, Gumperz",
+        "Mordechai Gumpel Halevi",
+        "Mordechai Gumpel Levi ben Jehuda Löb Schnaber",
+        "Mordekaj Gumpel",
+        "Mordekāj Gumpel Ben-Jehūdā Löb Šnober Ben-Gumpel Šnober",
+        "Schnaber, Jehûdā Lēb",
+        "Shnaber, Mordekhai Gumpel ben Yehuda Leyb",
+        "לויזון, גומפל מרדכי" ;
+    skos:prefLabel "Levison, George (Mordechai Gumpel Schnaber) - שנאבר" .
+
+<http://data.judaicalink.org/data/haskala/Levy_Elie> a foaf:Person ;
+    gndo:gndIdentifier "1015979459" ;
+    jl:birthDate "1760" ;
+    jl:deathDate "1826" ;
+    jl:hasPublication <https://www.haskala-library.net//books/השלום-תקסב> ;
+    owl:sameAs <http://d-nb.info/gnd/1015979459>,
+        <http://viaf.org/viaf/46904538>,
+        <https://www.haskala-library.net/people/levy-elie-אליהו-חלפן> ;
+    skos:altLabel "Halévy, Elie",
+        "Levy, Elias",
+        "Levy, Elie",
+        "אליהו חלפן" ;
+    skos:prefLabel "Levy, Elie" .
+
+<http://data.judaicalink.org/data/haskala/Lindau_Baruch_ben_Jehuda_Löb> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/מגלת-חסידים-א>,
+        <https://www.haskala-library.net//books/ספר-כליל-החשבון>,
+        <https://www.haskala-library.net//books/ראשית-למודים-א>,
+        <https://www.haskala-library.net//books/ראשית-למודים-ב>,
+        <https://www.haskala-library.net//books/תבנית-חברת-שוחרי-הטוב-והתושיה> ;
+    owl:sameAs <https://viaf.org/viaf/7126600>,
+        <https://www.haskala-library.net/people/lindau-baruch-ben-jehuda-löb> ;
+    skos:prefLabel "Lindau, Baruch ben Jehuda Löb" .
+
+<http://data.judaicalink.org/data/haskala/Lowe_Johann_Michael_Siegfried> a foaf:Person ;
+    gndo:gndIdentifier "101984759X" ;
+    jl:birthDate "1756-06-24" ;
+    jl:deathDate "1831-05-10" ;
+    jl:hasPublication <https://www.haskala-library.net//books/bildnisse-jetztlebender-berliner-gelehrten-mit-ihren-selbstbiographieen> ;
+    owl:sameAs <http://d-nb.info/gnd/101984759X>,
+        <https://viaf.org/viaf/19950227>,
+        <https://www.haskala-library.net/people/lowe-johann-michael-siegfried> ;
+    skos:altLabel "Loewe, Johann Michael Siegfried",
+        "Lowe",
+        "Lowe, Johann M.",
+        "Lowe, Johann Michael S.",
+        "Lowe, M. S.",
+        "Lowe, Michael S.",
+        "Lowe, Michael Siegfried",
+        "Lowe, Moses Samuel",
+        "Lowe, Siegfried M.",
+        "Lowe, Siegfried Michael",
+        "Löwe, Johann Michael Siegfried",
+        "Löwe, Moses Samuel",
+        "Moses Samuel",
+        "Samuel, Moses" ;
+    skos:prefLabel "Lowe, Johann Michael Siegfried" .
+
+<http://data.judaicalink.org/data/haskala/Luzzatto_Ephraim> a foaf:Person ;
+    gndo:gndIdentifier "136389120" ;
+    jl:birthDate "1729" ;
+    jl:deathDate "1792" ;
+    jl:deathLocation "Lausanne" ;
+    jl:hasPublication <https://www.haskala-library.net//books/אלה-בני-הנעורים>,
+        <https://www.haskala-library.net//books/קול-שחל> ;
+    owl:sameAs <http://d-nb.info/gnd/136389120>,
+        <https://viaf.org/viaf/120789685>,
+        <https://www.haskala-library.net/people/luzzatto-ephraim-לוצטו-אפרים> ;
+    skos:altLabel "LWṢʾṬW, Efrayim",
+        "Lutsato, Efrayim",
+        "Luzzatto, Angelo",
+        "לוצטו, אפרים" ;
+    skos:prefLabel "Luzzatto, Ephraim" .
+
+<http://data.judaicalink.org/data/haskala/Löwe_Joel> a foaf:Person ;
+    gndo:gndIdentifier "117165859" ;
+    jl:birthDate "1760" ;
+    jl:deathDate "1802-02-11" ;
+    jl:hasPublication <https://www.haskala-library.net//books/jeremias-klagegesänge>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ג>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ד>,
+        <https://www.haskala-library.net//books/יונה>,
+        <https://www.haskala-library.net//books/לוחות-בניני-הפעלים-עם-משקלי-השמות>,
+        <https://www.haskala-library.net//books/מגלת-קהלת>,
+        <https://www.haskala-library.net//books/מגלת-שיר-השירים>,
+        <https://www.haskala-library.net//books/סדר-הגדה-על-פסח>,
+        <https://www.haskala-library.net//books/ספר-זמירות-ישראל-א>,
+        <https://www.haskala-library.net//books/ספר-זמירות-ישראל-ב>,
+        <https://www.haskala-library.net//books/ספר-זמירות-ישראל-ג>,
+        <https://www.haskala-library.net//books/ספר-זמירות-ישראל-ד>,
+        <https://www.haskala-library.net//books/ספר-זמירות-ישראל-ה>,
+        <https://www.haskala-library.net//books/ספר-מנחה-טהורה>,
+        <https://www.haskala-library.net//books/עמודי-הלשון>,
+        <https://www.haskala-library.net//books/שרייבן-אן-דיא-ווירדיגן-מיטגלידר-זעמטליכר-חברות-גמילות-חסדים>,
+        <https://www.haskala-library.net//books/תבנית-חברת-שוחרי-הטוב-והתושיה> ;
+    owl:sameAs <http://d-nb.info/gnd/117165859>,
+        <https://viaf.org/viaf/49996113>,
+        <https://www.haskala-library.net/people/löwe-joel-בריל-יואל> ;
+    skos:altLabel "Bary''L, Yo'el",
+        "Bril",
+        "Bril, Joel",
+        "Bril, Jō'ēl",
+        "Bril, Yoʾel",
+        "Bril, Yô'ēl",
+        "Brill, Joel",
+        "Brill, Jō'ēl",
+        "Brill, Yo'el, Bibelkommentator, hebr. Grammatiker",
+        "Brill, Yô'ēl",
+        "Loewe, Joel, Bibelkommentator, hebr. Grammatiker",
+        "Löwe, Joel",
+        "Löwe, Joel Ben Jehuda Löb",
+        "Löwe, Yoel ben Jehuda Löb, Bibelkommentator, hebr. Grammatiker",
+        "Yoʾel b[en] Rʹ Y[ehudah] L[eb]",
+        "Zemirot Yiśraʾel",
+        "ברי\"ל, יואל",
+        "זמירות ישראל",
+        "יואל ב[ן] רʹ י[הודה] ל[יב]",
+        "לעווע, יואל בריל" ;
+    skos:prefLabel "Löwe, Joel" .
+
+<http://data.judaicalink.org/data/haskala/Löwysohn_Salomon> a foaf:Person ;
+    gndo:gndIdentifier "119141329" ;
+    jl:birthDate "1789" ;
+    jl:deathDate "1821" ;
+    jl:hasPublication <https://www.haskala-library.net//books/בית-האוסף>,
+        <https://www.haskala-library.net//books/שיחה-בעולם-הנשמות> ;
+    owl:sameAs <http://d-nb.info/gnd/119141329>,
+        <https://viaf.org/viaf/45105239>,
+        <https://www.haskala-library.net/people/löwysohn-salomon-לוויזון-שלמה> ;
+    skos:altLabel "Levisohn, Šelomo",
+        "Levison, Shlomo",
+        "Levizohn, Shelomoh",
+        "Levizon, Shelomoh",
+        "Leṿizohn, Shelomoh",
+        "Lewisohn, Salomo",
+        "Lewisohn, Szlomo",
+        "Lewisohn, Šelōmō",
+        "Loewisohn, Salomon",
+        "Loewisohn, Solomon",
+        "Löwisohn, Salomon",
+        "Löwisohn, Solomon",
+        "Löwisohn, Šelomo",
+        "S. L.",
+        "לוויזון, שלמה" ;
+    skos:prefLabel "Löwysohn, Salomon" .
+
+<http://data.judaicalink.org/data/haskala/Maimon_Salomon> a foaf:Person ;
+    gndo:gndIdentifier "11857647X" ;
+    jl:birthDate "1753" ;
+    jl:deathDate "1800" ;
+    jl:hasPublication <https://www.haskala-library.net//books/anfangsgründe-der-newtonischen-philosophie>,
+        <https://www.haskala-library.net//books/salomon-maimons-lebensgeschichte-1>,
+        <https://www.haskala-library.net//books/salomon-maimons-lebensgeschichte-2>,
+        <https://www.haskala-library.net//books/מורה-נבוכים-א> ;
+    owl:sameAs <http://d-nb.info/gnd/11857647X>,
+        <https://viaf.org/viaf/68940347>,
+        <https://www.haskala-library.net/people/maimon-salomon-מימון-שלמה> ;
+    skos:altLabel "Ben Josua, Salomon",
+        "Ben-Josua, Salomon",
+        "BenJosua, Salomon",
+        "Joshua, Solomon ben",
+        "Josua, Salomon ben",
+        "Maimon, Salomone",
+        "Maimon, Shelomoh",
+        "Maimon, Solomon",
+        "Maimonas, Saliamonas",
+        "Majmon, Salomon",
+        "Maymon, Salomon",
+        "Maymôn, Šelomo",
+        "Salomon ben Josua",
+        "Shelomoh ben Yehoshua",
+        "Shelomoh ben Yehoshuʿa",
+        "Solomon ben Joshua",
+        "Yehoshua, Shelomoh ben",
+        "Yehoshuʿa, Shelomoh ben",
+        "מימון, שלמה" ;
+    skos:prefLabel "Maimon, Salomon" .
+
+<http://data.judaicalink.org/data/haskala/MarcusElieser_Bloch> a foaf:Person ;
+    gndo:gndIdentifier "118663968" ;
+    jl:birthDate "1723" ;
+    jl:birthLocation "bei Ansbach" ;
+    jl:deathDate "06.08.1799",
+        "1799" ;
+    jl:deathLocation "Karlsbad" ;
+    owl:sameAs <http://d-nb.info/gnd/118663968>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/bloch.html> ;
+    skos:altLabel "Bloch, M. E.",
+        "Bloch, Marc Éliéser",
+        "Bloch, Marcus E.",
+        "Bloch, Marcus Eliesar",
+        "Bloch, Markus Elieser",
+        "Blochius, Marcus E.",
+        "Blochius, Marcus Elieser" ;
+    skos:prefLabel "Bloch, Marcus Elieser" .
+
+<http://data.judaicalink.org/data/haskala/Marcus_(Ilfeld)_Hartog_(Hirsch)> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-דברי-נגידים>,
+        <https://www.haskala-library.net//books/ספר-דרך-ההשגחה> ;
+    owl:sameAs <https://www.haskala-library.net/people/marcus-ilfeld-hartog-hirsch-מרקוס-צבי-הירש-בן-מרדכי> ;
+    skos:altLabel "מרקוס, צבי הירש בן מרדכי" ;
+    skos:prefLabel "Marcus (Ilfeld), Hartog (Hirsch)" .
+
+<http://data.judaicalink.org/data/haskala/Marcus_Herz> a foaf:Person ;
+    gndo:gndIdentifier "118933876" ;
+    jl:birthDate "17.01.1747",
+        "1747" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "1803",
+        "19.01.1803" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/118933876>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/mherz.html> ;
+    skos:altLabel "Hertz, Marcus",
+        "Hertz, Markus",
+        "Herz, M.",
+        "Herz, Marcus",
+        "Herz, Naphtali Markus",
+        "Ōtakustēs",
+        "Ōtchkustēs",
+        "הרץ, מרדכי בן הירץ לוי" ;
+    skos:prefLabel "Herz, Marcus" .
+
+<http://data.judaicalink.org/data/haskala/Marcuse_Moses> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-רפואות-הנקרא-עזר-ישראל> ;
+    owl:sameAs <http://viaf.org/viaf/88295606>,
+        <https://www.haskala-library.net/people/marcuse-moses-מרקוזי-משה> ;
+    skos:altLabel "מרקוזי, משה" ;
+    skos:prefLabel "Marcuse, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Matthieu_Levi> a foaf:Person ;
+    gndo:gndIdentifier "1052797563" ;
+    jl:hasPublication <https://www.haskala-library.net//books/gründlicher-unterricht-der-jüdischdeutschen-schreibart> ;
+    owl:sameAs <http://d-nb.info/gnd/1052797563>,
+        <https://viaf.org/viaf/309602397>,
+        <https://www.haskala-library.net/people/matthieu-levi> ;
+    skos:prefLabel "Matthieu, Levi" .
+
+<http://data.judaicalink.org/data/haskala/Meldola_Abraham> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/קול-הצירים-תחת-השיר> ;
+    owl:sameAs <http://viaf.org/viaf/304951299>,
+        <https://www.haskala-library.net/people/meldola-abraham-מילדולה-אברהם> ;
+    skos:altLabel "מילדולה, אברהם" ;
+    skos:prefLabel "Meldola, Abraham" .
+
+<http://data.judaicalink.org/data/haskala/Mendel_Breslau> a foaf:Person ;
+    gndo:gndIdentifier "1013160606" ;
+    jl:birthDate "",
+        "1786" ;
+    jl:birthLocation "" ;
+    jl:deathDate "",
+        "1829" ;
+    jl:deathLocation "" ;
+    owl:sameAs <http://d-nb.info/gnd/1013160606>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/mendel-breslau.html> ;
+    skos:altLabel "Brese, Mendel",
+        "Breslauer, M.",
+        "Breslauer, Mendel ben Chajim Jehuda",
+        "Bresloyer, Menaḥem Mendel",
+        "Bresselau, Mendel",
+        "Bresslau, Mendel",
+        "Bresslauer, Mendel ben Chajim Jehuda" ;
+    skos:prefLabel "Breslau, Mendel" .
+
+<http://data.judaicalink.org/data/haskala/Mendelssohn_Moses> a foaf:Person ;
+    gndo:gndIdentifier "118580744" ;
+    jl:birthDate "1729-09-06" ;
+    jl:birthLocation "Dessau" ;
+    jl:deathDate "1786-01-04" ;
+    jl:deathLocation "Berlin" ;
+    jl:hasPublication <https://www.haskala-library.net//books/moses-mendelssohns-morgenstunden-oder-vorlesungen-über-das-daseyn-gottes>,
+        <https://www.haskala-library.net//books/אור-לנתיבה>,
+        <https://www.haskala-library.net//books/באור-מלות-ההגיון>,
+        <https://www.haskala-library.net//books/דרוש-על-השלום>,
+        <https://www.haskala-library.net//books/הנפש>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-א>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ג>,
+        <https://www.haskala-library.net//books/זה-ספר-פשר-דבר>,
+        <https://www.haskala-library.net//books/לשון-הזהב>,
+        <https://www.haskala-library.net//books/מגלת-קהלת>,
+        <https://www.haskala-library.net//books/מגלת-שיר-השירים>,
+        <https://www.haskala-library.net//books/ספר-זמירות-ישראל-א>,
+        <https://www.haskala-library.net//books/ספר-זמירות-ישראל-ב>,
+        <https://www.haskala-library.net//books/ספר-זמירות-ישראל-ג>,
+        <https://www.haskala-library.net//books/ספר-זמירות-ישראל-ד>,
+        <https://www.haskala-library.net//books/ספר-יסוד-עולם>,
+        <https://www.haskala-library.net//books/ספר-נתיבות-השלום-א>,
+        <https://www.haskala-library.net//books/ספר-נתיבות-השלום-ב>,
+        <https://www.haskala-library.net//books/ספר-נתיבות-השלום-ג>,
+        <https://www.haskala-library.net//books/ספר-נתיבות-השלום-ד>,
+        <https://www.haskala-library.net//books/ספר-נתיבות-השלום-ה>,
+        <https://www.haskala-library.net//books/ספר-עמודי-בית-יהודה>,
+        <https://www.haskala-library.net//books/עלים-לתרופה>,
+        <https://www.haskala-library.net//books/פעדאן>,
+        <https://www.haskala-library.net//books/קול-רנת-היהודים-אשר-בעיר-שקלאב>,
+        <https://www.haskala-library.net//books/שבע-פרקים-הראשונים-של-ספר-מלות-ההגיון>,
+        <https://www.haskala-library.net//books/שלמות-וצורת-הנפש-או-קשר-הנפש-עם-הגוף>,
+        <https://www.haskala-library.net//books/תהלה-ותודה> ;
+    owl:sameAs <http://d-nb.info/gnd/118580744>,
+        <https://viaf.org/viaf/19681378>,
+        <https://www.haskala-library.net/people/Mendelssohn-Moses> ;
+    skos:altLabel "Ben-Menachem, Moses",
+        "Ben-Menahem, Moses",
+        "Ben-Menaḥem, Moše",
+        "Desa, Mosheh",
+        "Desoi, Moše",
+        "Dessau, Moses",
+        "Dessau, Moše",
+        "Fils de Mendel, Moise",
+        "MŠH BN MNḤM MʿNDL",
+        "Menaḥēm, Mōše Ben-",
+        "Mendel Sohn",
+        "Mendel'son, Moisei",
+        "Mendel, Moise Fils de",
+        "Mendel, Moyse de",
+        "Mendelii Filii, Mosis",
+        "Mendels-Sohn, Mosès",
+        "Mendelsohn, Moisi",
+        "Mendelsohn, Moses",
+        "Mendelson, Mojżes",
+        "Mendelson, Moses",
+        "Mendelson, Mosheh",
+        "Mendelson, Moše",
+        "Mendelsshon, Moses",
+        "Mendelssohn",
+        "Mendelssohn, M.",
+        "Mendelssohn, Moisè",
+        "Mendelssohn, Moisés",
+        "Mendelssohn, Moi͏̈se",
+        "Mendelssohn, Mojzís",
+        "Mendelssohn, Mojžíš",
+        "Mendelssohn, Mose Ben-Menahem",
+        "Mendelssohn, Moses von",
+        "Mendelssohn, Mosè",
+        "Mendelssohn, Mosis",
+        "Mendelssohn, Moše Ben-Menaḥēm",
+        "Mendelszohn, Mosheh ben Menahem",
+        "Mendelszon, Mosheh",
+        "Mendelszon, Moše",
+        "Mendelszoon, Moses",
+        "Mendelszoon, Mozes",
+        "Mendelszôn, Moše",
+        "Mendelzohn, Mozes",
+        "Mèndelssohn, Mosè",
+        "Moi͏̈se fils de Mendel",
+        "Mose Ben-Menahem",
+        "Mose mid-Dessau",
+        "Moses",
+        "Moses ben Menahem",
+        "Moses, aus Dessau",
+        "Moshe ben Menahem mi-Desoya",
+        "Mosheh ben Menahem",
+        "Mosheh ben Menaḥem",
+        "Mosheh mi-Desa",
+        "Mosheh mi-Desoiʾ",
+        "Moše",
+        "Moše Bar-Menaḥem",
+        "Moše Bar-Menaḥēm",
+        "Moše Ben-Menah.̣ēm",
+        "Moše Ben-Menaḥēm",
+        "Moše Dessau",
+        "Moše mi-Desoi'",
+        "Moyse, Moses",
+        "Mōše mi-Dessau",
+        "MʿNDʿLSZʾHN, Mošē",
+        "Rambama\"n",
+        "Rambaman",
+        "Rambeman",
+        "Remad",
+        "בן־מנחם, משה",
+        "דעסאוי, משה",
+        "מדסוי, משה",
+        "מדעסויא בן מנחם מענדל סופר, משה",
+        "מדעסויא, משה",
+        "מנדלסאהן, משה",
+        "מנדלסוהן, משה",
+        "מנדלסון, משה",
+        "מנדלסון, משה בן מנחם",
+        "מנדלסזאן, משה",
+        "מנדלסזון, משה",
+        "מענדעלזאהן, מאזעס",
+        "מענדעלזזאהן, משה",
+        "מענדעלסזאהן, משה",
+        "מענדעלססאהן, משה",
+        "משה בן מנחם",
+        "משה בר מנחם",
+        "משה מדעסויא",
+        "משה מנדלזון",
+        "משה מנדלסון",
+        "רמבמ\"ן מדעסוי",
+        "רמבן" ;
+    skos:prefLabel "Mendelssohn, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Milliaud_Moïse> a foaf:Person ;
+    gndo:gndIdentifier "121699617" ;
+    jl:hasPublication <https://www.haskala-library.net//books/cantique-adresse-napoleon-le-grand-empereur-des-francois-et-roi-ditalie> ;
+    owl:sameAs <http://d-nb.info/gnd/121699617>,
+        <https://viaf.org/viaf/62411118>,
+        <https://www.haskala-library.net/people/milliaud-moïse-מיליו-משה> ;
+    skos:altLabel "מיליו, משה" ;
+    skos:prefLabel "Milliaud, Moïse" .
+
+<http://data.judaicalink.org/data/haskala/Moritz_Karl_Philipp> a foaf:Person ;
+    gndo:gndIdentifier "118584162" ;
+    jl:birthDate "1757-09-15" ;
+    jl:birthLocation "Hameln" ;
+    jl:deathDate "1793-06-26" ;
+    jl:deathLocation "Berlin" ;
+    jl:hasPublication <https://www.haskala-library.net//books/salomon-maimons-lebensgeschichte-1>,
+        <https://www.haskala-library.net//books/salomon-maimons-lebensgeschichte-2> ;
+    owl:sameAs <http://d-nb.info/gnd/118584162>,
+        <http://viaf.org/viaf/66482269>,
+        <https://www.haskala-library.net/people/moritz-karl-philipp-מוריץ-קרל-פיליף> ;
+    skos:altLabel "Moritz",
+        "Moritz, C. P.",
+        "Moritz, Carl P.",
+        "Moritz, Carl Philip",
+        "Moritz, Carl Philipp",
+        "Moritz, Charles P.",
+        "Moritz, Charles Philipp",
+        "Moritz, K. P.",
+        "Moritz, Karl P.",
+        "Moriz, Carl P.",
+        "Moriz, Carl Philip",
+        "Moriz, Karl P.",
+        "מוריץ, קרל פיליף",
+        "모리츠, 칼 필립" ;
+    skos:prefLabel "Moritz, Karl Philipp" .
+
+<http://data.judaicalink.org/data/haskala/Moses_Hirschel> a foaf:Person ;
+    gndo:gndIdentifier "144000784" ;
+    jl:birthDate "1754",
+        "1754-09-13" ;
+    jl:birthLocation "Breslau" ;
+    jl:deathDate "",
+        "1823" ;
+    jl:deathLocation "" ;
+    owl:sameAs <http://d-nb.info/gnd/144000784>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/moses-hirschel.html> ;
+    skos:altLabel "Herschel, Christian Moritz",
+        "Hirschel, Christian Moritz" ;
+    skos:prefLabel "Hirschel, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Moses_Mendelssohn> a foaf:Person ;
+    gndo:gndIdentifier "118580744" ;
+    jl:birthDate "06.09.1729",
+        "1729-09-06" ;
+    jl:birthLocation "Dessau" ;
+    jl:deathDate "04.01.1786",
+        "1786-01-04" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/118580744>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/mendelssohn.html> ;
+    skos:altLabel "Ben-Menachem, Moses",
+        "Ben-Menahem, Moses",
+        "Ben-Menaḥem, Moše",
+        "Desa, Mosheh",
+        "Desoi, Moše",
+        "Dessau, Moses",
+        "Dessau, Moše",
+        "Fils de Mendel, Moise",
+        "MŠH BN MNḤM MʿNDL",
+        "Menaḥēm, Mōše Ben-",
+        "Mendel Sohn",
+        "Mendel'son, Moisei",
+        "Mendel, Moise Fils de",
+        "Mendel, Moyse de",
+        "Mendelii Filii, Mosis",
+        "Mendels-Sohn, Mosès",
+        "Mendelsohn, Moisi",
+        "Mendelsohn, Moses",
+        "Mendelson, Mojżes",
+        "Mendelson, Moses",
+        "Mendelson, Mosheh",
+        "Mendelson, Moše",
+        "Mendelsshon, Moses",
+        "Mendelssohn",
+        "Mendelssohn, M.",
+        "Mendelssohn, Moisè",
+        "Mendelssohn, Moisés",
+        "Mendelssohn, Moi͏̈se",
+        "Mendelssohn, Mojzís",
+        "Mendelssohn, Mojžíš",
+        "Mendelssohn, Mose Ben-Menahem",
+        "Mendelssohn, Moses von",
+        "Mendelssohn, Mosè",
+        "Mendelssohn, Mosis",
+        "Mendelssohn, Moše Ben-Menaḥēm",
+        "Mendelszohn, Mosheh ben Menahem",
+        "Mendelszon, Mosheh",
+        "Mendelszon, Moše",
+        "Mendelszoon, Moses",
+        "Mendelszoon, Mozes",
+        "Mendelszôn, Moše",
+        "Mendelzohn, Mozes",
+        "Mèndelssohn, Mosè",
+        "Moi͏̈se fils de Mendel",
+        "Mose Ben-Menahem",
+        "Mose mid-Dessau",
+        "Moses",
+        "Moses ben Menahem",
+        "Moses, aus Dessau",
+        "Moshe ben Menahem mi-Desoya",
+        "Mosheh ben Menahem",
+        "Mosheh ben Menaḥem",
+        "Mosheh mi-Desa",
+        "Mosheh mi-Desoiʾ",
+        "Moše",
+        "Moše Bar-Menaḥem",
+        "Moše Bar-Menaḥēm",
+        "Moše Ben-Menah.̣ēm",
+        "Moše Ben-Menaḥēm",
+        "Moše Dessau",
+        "Moše mi-Desoi'",
+        "Moyse, Moses",
+        "Mōše mi-Dessau",
+        "MʿNDʿLSZʾHN, Mošē",
+        "Rambama\"n",
+        "Rambaman",
+        "Rambeman",
+        "Remad",
+        "בן־מנחם, משה",
+        "דעסאוי, משה",
+        "מדסוי, משה",
+        "מדעסויא בן מנחם מענדל סופר, משה",
+        "מדעסויא, משה",
+        "מנדלסאהן, משה",
+        "מנדלסוהן, משה",
+        "מנדלסון, משה",
+        "מנדלסון, משה בן מנחם",
+        "מנדלסזאן, משה",
+        "מנדלסזון, משה",
+        "מענדעלזאהן, מאזעס",
+        "מענדעלזזאהן, משה",
+        "מענדעלסזאהן, משה",
+        "מענדעלססאהן, משה",
+        "משה בן מנחם",
+        "משה בר מנחם",
+        "משה מדעסויא",
+        "משה מנדלזון",
+        "משה מנדלסון",
+        "רמבמ\"ן מדעסוי",
+        "רמבן" ;
+    skos:prefLabel "Mendelssohn, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Moses_Philipson> a foaf:Person ;
+    gndo:gndIdentifier "11617448X" ;
+    jl:birthDate "1761-11-20",
+        "20.11.1761" ;
+    jl:birthLocation "Altona" ;
+    jl:deathDate "1850-07-29",
+        "29.07.1850" ;
+    jl:deathLocation "Elberfeld" ;
+    owl:sameAs <http://d-nb.info/gnd/11617448X>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/philipson.html> ;
+    skos:altLabel "David, Moses Alexander",
+        "Philippi, Jacob Martin",
+        "Philippi, Johann Jacob Martin",
+        "Philippson, Johann Jacob Martin",
+        "Philippson, Moses",
+        "Philipson, Johann Jacob Martin",
+        "Philipson, M.",
+        "Philipson, Moses Alexander" ;
+    skos:prefLabel "Philipson, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Moses_Wessely> a foaf:Person ;
+    gndo:gndIdentifier "1022281070" ;
+    jl:birthDate "1737",
+        "1737-03-15" ;
+    jl:birthLocation "Kopenhagen" ;
+    jl:deathDate "1792",
+        "1792-02-29" ;
+    jl:deathLocation "Hamburg" ;
+    owl:sameAs <http://d-nb.info/gnd/1022281070>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/mwessely.html> ;
+    skos:altLabel "Wessely, Mose" ;
+    skos:prefLabel "Wessely, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Moses_von_Gottfried_Jakob_Schaller> a foaf:Person ;
+    gndo:gndIdentifier "117102350" ;
+    jl:birthDate "1762" ;
+    jl:deathDate "1831" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ein-psalm-bonaparte> ;
+    owl:sameAs <http://d-nb.info/gnd/117102350>,
+        <https://viaf.org/viaf/51358373>,
+        <https://www.haskala-library.net/people/moses-von-gottfried-jakob-schaller-שלר-משה-גוטפריד-יעקב> ;
+    skos:altLabel "Schaller, Gefr. Jac.",
+        "Schaller, Geoffroi Jacques",
+        "Schaller, Geoffroy Jacques",
+        "Schaller, Gottfried J.",
+        "Schaller, Gottfried Jacob",
+        "שלר, משה גוטפריד יעקב" ;
+    skos:prefLabel "Moses von Gottfried Jakob Schaller" .
+
+<http://data.judaicalink.org/data/haskala/NaphtaliHerz_Ulmann> a foaf:Person ;
+    gndo:gndIdentifier "1089711913" ;
+    jl:birthDate "1731" ;
+    jl:birthLocation "Mainz" ;
+    jl:deathDate "22.06.1787" ;
+    jl:deathLocation "Den Haag" ;
+    owl:sameAs <http://d-nb.info/gnd/1089711913>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/ulmann.html> ;
+    skos:altLabel "Hirz ben Jehuda Löb Ullmann",
+        "Naftali Hirtz ben Yehudah Leyb Ulman" ;
+    skos:prefLabel "Ulmann, Naphtali Herz" .
+
+<http://data.judaicalink.org/data/haskala/Neumann_Israel_Moses> a foaf:Person ;
+    gndo:gndIdentifier "137816820" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ein-wort-zu-seiner-zeit-die-neuern-ansichten-des-pentateuchs-betreffend>,
+        <https://www.haskala-library.net//books/nahum-neu-übersetzt-und-mit-anmerkungen-versehen>,
+        <https://www.haskala-library.net//books/ספר-מנחה-טהורה> ;
+    owl:sameAs <http://d-nb.info/gnd/137816820>,
+        <https://viaf.org/viaf/85996401>,
+        <https://www.haskala-library.net/people/neumann-israel-moses-נוימן-ישראל-משה> ;
+    skos:altLabel "Nayman, Yiśraʾel",
+        "Nayman, Yiśraʾel ben Mosheh, mi-Brodi",
+        "Neumann, Immanuel Moritz",
+        "Neumann, Israel",
+        "Neumann, Israel ben Moses",
+        "Neumann, Israel ben Moses, aus Brody",
+        "Neyman, Yiśraʾel",
+        "Neyman, Yiśraʾel ben Mosheh, mi-Brodi",
+        "Yiśraʾel ben Mosheh, mi-Brodi",
+        "ישראל ניימאן בן משה, מבראדי",
+        "נוימן, ישראל משה",
+        "נייאמאן, ישראל, מבראדי",
+        "ניימאן, ישראל" ;
+    skos:prefLabel "Neumann, Israel Moses" .
+
+<http://data.judaicalink.org/data/haskala/Neumann_Moses_Samuel> a foaf:Person ;
+    gndo:gndIdentifier "142468045" ;
+    jl:birthDate "1769" ;
+    jl:deathDate "1831-11-29" ;
+    jl:deathLocation "Budapest" ;
+    jl:hasPublication <https://www.haskala-library.net//books/בת-יפתח>,
+        <https://www.haskala-library.net//books/ספר-מעגל-ישר> ;
+    owl:sameAs <http://d-nb.info/gnd/142468045>,
+        <http://viaf.org/viaf/143850204>,
+        <https://www.haskala-library.net/people/neumann-moses-samuel-נוימן-משה-שמואל> ;
+    skos:altLabel "Naiman, Mosheh Shemuʾel",
+        "Neiman, Mosheh Shemuel",
+        "משה שמואל מן מקיצע",
+        "משה שמואל צʹʹן מקיצע",
+        "נוימן, משה שמואל",
+        "נייאמאן, משה שמואל",
+        "נייאמאן, שמואל",
+        "ניימאן, משה שמואל" ;
+    skos:prefLabel "Neumann, Moses Samuel" .
+
+<http://data.judaicalink.org/data/haskala/Oppenheim_Simon_ben_David> a foaf:Person ;
+    gndo:gndIdentifier "1053485425" ;
+    jl:birthDate "1753" ;
+    jl:deathDate "1851" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-עמוד-השחר> ;
+    owl:sameAs <http://d-nb.info/gnd/1053485425>,
+        <https://viaf.org/viaf/34131539/>,
+        <https://www.haskala-library.net/people/oppenheim-simon-ben-david-אופנהים-שמעון-בן-דוד> ;
+    skos:altLabel "Ḳromnoi, Shimʼon",
+        "Oppenhaim, Shim'on",
+        "Oppenheim, Shimʿon ben Daṿid",
+        "Oppenheim, Simeon ben David",
+        "Oppenheim, Simon",
+        "Ôppenhaym, Šimʿôn Ben Dāwid",
+        "אופנהים, שמעון בן דוד",
+        "קרומנוי, שמעון" ;
+    skos:prefLabel "Oppenheim, Simon ben David" .
+
+<http://data.judaicalink.org/data/haskala/Ottensosser_David> a foaf:Person ;
+    gndo:gndIdentifier "138004528" ;
+    jl:birthDate "1784" ;
+    jl:birthLocation "Fürth (Bayern)" ;
+    jl:deathDate "1858" ;
+    jl:deathLocation "Fürth (Bayern)" ;
+    jl:hasPublication <https://www.haskala-library.net//books/predigt-des-herrn-oberabbiners-rabbi-salomon-kohn>,
+        <https://www.haskala-library.net//books/השלום>,
+        <https://www.haskala-library.net//books/סדר-קינות-לתשעה-באב>,
+        <https://www.haskala-library.net//books/ספר-עוללות-הבוחן> ;
+    owl:sameAs <http://d-nb.info/gnd/138004528>,
+        <https://viaf.org/viaf/17133188>,
+        <https://www.haskala-library.net/people/ottensosser-david-אוטנזוסר-דוד> ;
+    skos:altLabel "Ottensooser, David",
+        "Ottensoser, David",
+        "Ottensosser, David b. Zvi Hirsch",
+        "Ottensosser, Dawid",
+        "Ottensosser, Dāwid",
+        "Oṭṭenzoser, Daṿid",
+        "אוטנזוסר, דוד",
+        "אטטענזאסער, דוד" ;
+    skos:prefLabel "Ottensosser, David" .
+
+<http://data.judaicalink.org/data/haskala/Oven_Abraham_van> a foaf:Person ;
+    gndo:gndIdentifier "1176064274" ;
+    jl:hasPublication <https://www.haskala-library.net//books/דרך-איש-ישר> ;
+    owl:sameAs <http://d-nb.info/gnd/1176064274>,
+        <http://viaf.org/viaf/58613277>,
+        <https://www.haskala-library.net/people/oven-abraham-van-אובן-אברהם> ;
+    skos:altLabel "אובן, אברהם" ;
+    skos:prefLabel "Oven, Abraham van" .
+
+<http://data.judaicalink.org/data/haskala/Pappenheimer_Salomon_Seligmann> a foaf:Person ;
+    gndo:gndIdentifier "116031573" ;
+    jl:birthDate "1740" ;
+    jl:birthLocation "Zülz" ;
+    jl:deathDate "1814" ;
+    jl:deathLocation "Breslau" ;
+    jl:hasPublication <https://www.haskala-library.net//books/אגדת-ארבע-כוסות>,
+        <https://www.haskala-library.net//books/חשק-שלמה>,
+        <https://www.haskala-library.net//books/יריעות-שלמה-א>,
+        <https://www.haskala-library.net//books/יריעות-שלמה-ג> ;
+    owl:sameAs <http://d-nb.info/gnd/116031573>,
+        <https://viaf.org/viaf/5672044>,
+        <https://www.haskala-library.net/people/pappenheimer-salomon-seligmann-פאפנהיים-שלמה> ;
+    skos:altLabel "Papenhaim, Shelomoh",
+        "Papenhaim, Shelomoh ben Zeligmann",
+        "Papenhaym, Shelomoh",
+        "Papenhaym, Shlomoh ben Seligman",
+        "Papenheim, Shelomoh",
+        "Papenheym, Salomo",
+        "Papenheym, Shelomoh",
+        "Pappenheim, Salomo",
+        "Pappenheim, Salomo ben Seligmann",
+        "Pappenheim, Salomon",
+        "Pappenheim, Salomon b. Seligman",
+        "Pappenheim, Solomon",
+        "Pappenheim, Šelōmō",
+        "Pappenheim, Šelōmō ben Seligman",
+        "Pappenheimer, Salomon S.",
+        "Pappenheimer, Salomon Seligmann",
+        "Pappenheimer, Solomon Seligmann",
+        "פאפנהיים, שלמה",
+        "פפנהיים, שלמה" ;
+    skos:prefLabel "Pappenheimer, Salomon Seligmann" .
+
+<http://data.judaicalink.org/data/haskala/Pereire_Jacob_Rodrigues> a foaf:Person ;
+    gndo:gndIdentifier "1076743056" ;
+    jl:birthDate "1715-04-11" ;
+    jl:birthLocation "Peniche" ;
+    jl:deathDate "1780-09-15" ;
+    jl:deathLocation "Paris" ;
+    jl:hasPublication <https://www.haskala-library.net//books/lettre-circulaire>,
+        <https://www.haskala-library.net//books/recueil-de-lettres-patentes>,
+        <https://www.haskala-library.net//books/seconde-lettre-circulaire-en-defense-des-juifs-portugais> ;
+    owl:sameAs <http://d-nb.info/gnd/1076743056>,
+        <https://viaf.org/viaf/64033095>,
+        <https://www.haskala-library.net/people/pereire-jacob-rodrigues> ;
+    skos:altLabel "Pereira, Jacob Francisco Rodrigues",
+        "Pereira, Jacobo Rodríguez",
+        "Pereire, Jacob Francisco Rodrigues",
+        "Pereire, Jacob Rodrigues",
+        "Rodrigues Pereira, Jacob",
+        "Rodríguez, Pereira, Jacobo" ;
+    skos:prefLabel "Pereire, Jacob Rodrigues" .
+
+<http://data.judaicalink.org/data/haskala/Peter_Beer> a foaf:Person ;
+    gndo:gndIdentifier "117582085" ;
+    jl:birthDate "1758",
+        "1764" ;
+    jl:birthLocation "Neu-Bydžov",
+        "Nový Bydžov" ;
+    jl:deathDate "1838" ;
+    jl:deathLocation "Prag" ;
+    owl:sameAs <http://d-nb.info/gnd/117582085>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/beer.html> ;
+    skos:altLabel "Beer, Perez Ben Isaak",
+        "Nicodemus, Theophile",
+        "Nikodem, Theophil",
+        "בער, פרץ" ;
+    skos:prefLabel "Beer, Peter" .
+
+<http://data.judaicalink.org/data/haskala/Philippson_Moses> a foaf:Person ;
+    gndo:gndIdentifier "133660044" ;
+    jl:birthDate "1775-05-09" ;
+    jl:deathDate "1814-04-20" ;
+    jl:deathLocation "Dessau" ;
+    jl:hasPublication <https://www.haskala-library.net//books/דרכי-נעם-אדער-איבערזעצונג-פאן-ספר-משלי>,
+        <https://www.haskala-library.net//books/מודע-לבני-בינה-oder-kinderfreund-und-lehrer-1>,
+        <https://www.haskala-library.net//books/ספר-דניאל>,
+        <https://www.haskala-library.net//books/ספר-מנחה-טהורה>,
+        <https://www.haskala-library.net//books/ראשית-למודים-ב>,
+        <https://www.haskala-library.net//books/תורת-לשון-עברית-א>,
+        <https://www.haskala-library.net//books/תורת-לשון-עברית-ב>,
+        <https://www.haskala-library.net//books/תורת-לשון-עברית-ג> ;
+    owl:sameAs <http://d-nb.info/gnd/133660044>,
+        <https://viaf.org/viaf/65202386>,
+        <https://www.haskala-library.net/people/philippson-moses-פיליפסון-משה> ;
+    skos:altLabel "Arnsṿald, Mosheh ben Uri Fayvesh",
+        "Arnswald, Mose ben Uri",
+        "Arnswald, Moses",
+        "Arnswald, Moses ben Uri Feibesch",
+        "Arnswald, Philipp Moses",
+        "Arnswalde, Moses",
+        "Filipson, Mosheh ben Uri Feibush",
+        "Filipson, Moše Ben-Uri Faibuš",
+        "Filipzon, Mosheh ben Uri Feibush",
+        "Filipzon, Moše Ben-Uri Feivuš",
+        "Mosheh ben Uri Faibesh",
+        "Mosheh ben Uri Faibush",
+        "Mosheh ben Uri Feivesh",
+        "Mosheh ben Uri Feivush",
+        "Moše Ben-Uri Faibuš",
+        "Moše Ben-Uri Feivuš",
+        "Moše ben Uri Faibeš",
+        "Moše ben Uri Feiveš",
+        "Philippsohn, Moses",
+        "Philippson, Mose ben Uri",
+        "Philippssohn, Moses",
+        "Philippssohn, Moses ben Uri Faibesh",
+        "Philippssohn, Moses ben Uri Phoebus",
+        "Philippzohn, Mozes",
+        "Philipson, M.",
+        "Philipson, Moses",
+        "Phöbus, Moses ben Uri",
+        "Savagge, Uri",
+        "Uri-Phoebus, Mōšeh b",
+        "ארנסוואלד, משה בן אורי פייבש",
+        "משה בן אורי",
+        "משה בן אורי פייבש",
+        "פהיליפזאן, משה",
+        "פיליפזון, מוזס",
+        "פיליפזון, משה",
+        "פיליפזון, משה בן אורי פייבוש",
+        "פיליפסון, מוזס",
+        "פיליפסון, משה",
+        "פיליפסון, משה בן אורי פייבוש" ;
+    skos:prefLabel "Philippson, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Philipson_Moses> a foaf:Person ;
+    gndo:gndIdentifier "11617448X" ;
+    jl:birthDate "1761-11-20" ;
+    jl:birthLocation "Altona" ;
+    jl:deathDate "1850-07-29" ;
+    jl:deathLocation "Elberfeld" ;
+    jl:hasPublication <https://www.haskala-library.net//books/über-die-verbesserung-des-judeneids> ;
+    owl:sameAs <http://d-nb.info/gnd/11617448X>,
+        <https://viaf.org/viaf/34796661>,
+        <https://www.haskala-library.net/people/philipson-moses-פיליפסון-משה> ;
+    skos:altLabel "David, Moses Alexander",
+        "Philippi, Jacob Martin",
+        "Philippi, Johann Jacob Martin",
+        "Philippson, Johann Jacob Martin",
+        "Philippson, Moses",
+        "Philipson, Johann Jacob Martin",
+        "Philipson, M.",
+        "Philipson, Moses Alexander",
+        "פיליפסון, משה" ;
+    skos:prefLabel "Philipson, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Poper_M.> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/פרקי-רבי-עקיבא> ;
+    owl:sameAs <https://www.haskala-library.net/people/poper-m-פופר-מרדכי> ;
+    skos:altLabel "פופר, מרדכי" ;
+    skos:prefLabel "Poper, M." .
+
+<http://data.judaicalink.org/data/haskala/Raphael_Levi> a foaf:Person ;
+    gndo:gndIdentifier "141485884" ;
+    jl:birthDate "1685" ;
+    jl:birthLocation "Weikersheim/Tauber" ;
+    jl:deathDate "17. Mai 1779",
+        "1779" ;
+    jl:deathLocation "Hannover" ;
+    owl:sameAs <http://d-nb.info/gnd/141485884>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/levi.html> ;
+    skos:altLabel "Levi, Raphael, Hannover",
+        "Rafael ben Jakob Josef Levi",
+        "Refael ben Jacob Joseph Levi" ;
+    skos:prefLabel "Levi, Raphael" .
+
+<http://data.judaicalink.org/data/haskala/Reuben_ben_Abraham_Levi> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/אגרת-הראשון-לחנך-לנער-בכתב-ולשון> ;
+    owl:sameAs <https://viaf.org/viaf/51642351>,
+        <https://www.haskala-library.net/people/reuben-ben-abraham-levi-ראובן-בן-אברהם-לוי> ;
+    skos:altLabel "ראובן בן אברהם לוי" ;
+    skos:prefLabel "Reuben ben Abraham Levi" .
+
+<http://data.judaicalink.org/data/haskala/Riess_Nathan> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/בנות-השיר>,
+        <https://www.haskala-library.net//books/רסיסי-לילה> ;
+    owl:sameAs <http://viaf.org/viaf/283367758>,
+        <https://www.haskala-library.net/people/riess-nathan-ריז-נתן> ;
+    skos:altLabel "ריז, נתן" ;
+    skos:prefLabel "Riess, Nathan" .
+
+<http://data.judaicalink.org/data/haskala/Rodrigues> a foaf:Person ;
+    gndo:gndIdentifier "1157801846" ;
+    jl:hasPublication <https://www.haskala-library.net//books/kehilath-jahacob> ;
+    owl:sameAs <http://d-nb.info/gnd/1157801846>,
+        <http://viaf.org/viaf/90691203>,
+        <https://www.haskala-library.net/people/rodrigues-moreira-jacob> ;
+    skos:altLabel "Moreira, Jacob",
+        "RWDRYGYZ MWRYYRʾ, YʿQB BN ʾBRHM",
+        "Rodrigues Moreira, Jacob",
+        "Rôdrîgêz Môrêîrâ, Yaʿaqōv Ben-Avrāhām" ;
+    skos:prefLabel "Rodrigues" .
+
+<http://data.judaicalink.org/data/haskala/Romanelli_Samuel> a foaf:Person ;
+    gndo:gndIdentifier "132429039" ;
+    jl:birthDate "1757" ;
+    jl:deathDate "1814" ;
+    jl:hasPublication <https://www.haskala-library.net//books/grammatica-ragionata-italiana-ed-ebraica-con-trattato-ed-esempj-di-poesia>,
+        <https://www.haskala-library.net//books/הקולות-יחדלון-או-משפט-שלום>,
+        <https://www.haskala-library.net//books/מחזה-שדי>,
+        <https://www.haskala-library.net//books/משא-בערב>,
+        <https://www.haskala-library.net//books/עלות-המנחה>,
+        <https://www.haskala-library.net//books/רוח-נכון> ;
+    owl:sameAs <http://d-nb.info/gnd/132429039>,
+        <https://viaf.org/viaf/32055012>,
+        <https://www.haskala-library.net/people/romanelli-samuel-רומנלי-שמואל> ;
+    skos:altLabel "Romaneli, Shemuʾel",
+        "Romanelli, Samuel",
+        "Romanelli, Samuel A.",
+        "Romanelli, Samuel Aaron",
+        "Romanelli, Shemuel, of Mantua",
+        "Romanelli, Shemuʾel",
+        "Romanelli, Šemūēl",
+        "Rômanêli, Šemû'el",
+        "Rômânêllî, Semûêl",
+        "רומנלי, שמואל" ;
+    skos:prefLabel "Romanelli, Samuel" .
+
+<http://data.judaicalink.org/data/haskala/SabattiaJoseph_Wolff> a foaf:Person ;
+    gndo:gndIdentifier "121094596" ;
+    jl:birthDate "12.09.1757",
+        "1756" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "1832",
+        "28.02.1832" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/121094596>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/sabattia-j-wolff.html> ;
+    skos:altLabel "Wolff, S. J.",
+        "Wolff, Sabattia Josef",
+        "Wolff, Sabattja Joseph" ;
+    skos:prefLabel "Wolff, Sabattia Joseph" .
+
+<http://data.judaicalink.org/data/haskala/Salomon_Gotthold> a foaf:Person ;
+    gndo:gndIdentifier "11676712X" ;
+    jl:birthDate "1784" ;
+    jl:birthLocation "Arnstein-Sandersleben" ;
+    jl:deathDate "1862" ;
+    jl:deathLocation "Hamburg" ;
+    jl:hasPublication <https://www.haskala-library.net//books/חלקת-מחקק>,
+        <https://www.haskala-library.net//books/ספר-מנחה-טהורה> ;
+    owl:sameAs <http://d-nb.info/gnd/11676712X>,
+        <https://viaf.org/viaf/25362338>,
+        <https://www.haskala-library.net/people/salomon-gotthold-סלומון-גוטהולד> ;
+    skos:altLabel "BenLippmann, Gotthold S.",
+        "Lipman, Shelomo Zalman",
+        "Lipman, Shelomoh Zalman",
+        "Lipman, Šelomo Zalman",
+        "Salberg, G.",
+        "Salberg, Gotthold",
+        "Salomo Salman ben Lipmann Halevi, aus Sandersleben",
+        "Salomon BenLippmann, Gotthold",
+        "Salomon, G.",
+        "Salomon, Gotthold Gustav",
+        "Schlomo Salman ben Lippmann haLewi",
+        "Shelomoh Zalman ben Lipman",
+        "Shelomoh Zalman ben Lipman ha-Leṿi, mi-Zondersleben",
+        "Shelomoh Zalman ben Lipman ha-leṿi",
+        "סלומון, גוטהולד",
+        "סלומון, שלמה זלמן בן ליפמן",
+        "שלמה זלמן בן ליפמן הלוי, מזאנדערסלעבען" ;
+    skos:prefLabel "Salomon, Gotthold" .
+
+<http://data.judaicalink.org/data/haskala/Salomon_Maimon> a foaf:Person ;
+    gndo:gndIdentifier "11857647X" ;
+    jl:birthDate "1753" ;
+    jl:birthLocation "Nieszewicz, Litauen" ;
+    jl:deathDate "1800",
+        "22.11.1800" ;
+    jl:deathLocation "Nieder-Siegersdorf" ;
+    owl:sameAs <http://d-nb.info/gnd/11857647X>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/maimon.html> ;
+    skos:altLabel "Ben Josua, Salomon",
+        "Ben-Josua, Salomon",
+        "BenJosua, Salomon",
+        "Joshua, Solomon ben",
+        "Josua, Salomon ben",
+        "Maimon, Salomone",
+        "Maimon, Shelomoh",
+        "Maimon, Solomon",
+        "Maimonas, Saliamonas",
+        "Majmon, Salomon",
+        "Maymon, Salomon",
+        "Maymôn, Šelomo",
+        "Salomon ben Josua",
+        "Shelomoh ben Yehoshua",
+        "Shelomoh ben Yehoshuʿa",
+        "Solomon ben Joshua",
+        "Yehoshua, Shelomoh ben",
+        "Yehoshuʿa, Shelomoh ben",
+        "מימון, שלמה" ;
+    skos:prefLabel "Maimon, Salomon" .
+
+<http://data.judaicalink.org/data/haskala/Salomon_Marcus_Schiller> a foaf:Person ;
+    gndo:gndIdentifier "121313271" ;
+    jl:birthDate "1820" ;
+    jl:deathDate "1890" ;
+    jl:hasPublication <https://www.haskala-library.net//books/משא-בערב> ;
+    owl:sameAs <http://d-nb.info/gnd/121313271>,
+        <https://viaf.org/viaf/15622638>,
+        <https://www.haskala-library.net/people/salomon-marcus-schiller-szinessy> ;
+    skos:altLabel "Schiller, ...",
+        "Schiller, S. M.",
+        "Schiller, Salomon M.",
+        "Schiller, Salomon Marcus",
+        "Schiller-Szinessy, Salomon Marcus",
+        "Shelomoh ben Meʾir ben Shelomoh ben Menaḥem",
+        "Szinessy",
+        "Szinessy, S. M. Schiller-",
+        "Szinessy, Salomon M.",
+        "Szinessy, Salomon M. Schiller-",
+        "Szinessy, Salomon Marcus Schiller-",
+        "Šĕlōmō ben Mēʾîr" ;
+    skos:prefLabel "Salomon Marcus Schiller" .
+
+<http://data.judaicalink.org/data/haskala/Salomon_Pappenheim> a foaf:Person ;
+    gndo:gndIdentifier "116031573" ;
+    jl:birthDate "02.02.1740",
+        "1740" ;
+    jl:birthLocation "Zülz",
+        "Zülz" ;
+    jl:deathDate "04.03.1814",
+        "1814" ;
+    jl:deathLocation "Breslau" ;
+    owl:sameAs <http://d-nb.info/gnd/116031573>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/salomon-pappenheim.html> ;
+    skos:altLabel "Papenhaim, Shelomoh",
+        "Papenhaim, Shelomoh ben Zeligmann",
+        "Papenhaym, Shelomoh",
+        "Papenhaym, Shlomoh ben Seligman",
+        "Papenheim, Shelomoh",
+        "Papenheym, Salomo",
+        "Papenheym, Shelomoh",
+        "Pappenheim, Salomo",
+        "Pappenheim, Salomo ben Seligmann",
+        "Pappenheim, Salomon",
+        "Pappenheim, Salomon b. Seligman",
+        "Pappenheim, Solomon",
+        "Pappenheim, Šelōmō",
+        "Pappenheim, Šelōmō ben Seligman",
+        "Pappenheimer, Salomon S.",
+        "Pappenheimer, Salomon Seligmann",
+        "Pappenheimer, Solomon Seligmann",
+        "פאפנהיים, שלמה",
+        "פפנהיים, שלמה" ;
+    skos:prefLabel "Pappenheim, Salomon" .
+
+<http://data.judaicalink.org/data/haskala/Samocz_Israel> a foaf:Person ;
+    gndo:gndIdentifier "141825944" ;
+    jl:birthDate "1700" ;
+    jl:deathDate "1772" ;
+    jl:deathLocation "Brody" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-הכוזרי-תקנו>,
+        <https://www.haskala-library.net//books/ספר-נזד-הדמע>,
+        <https://www.haskala-library.net//books/ספר-רוח-חן> ;
+    owl:sameAs <http://d-nb.info/gnd/141825944>,
+        <https://viaf.org/viaf/7252811/>,
+        <https://www.haskala-library.net/people/samocz-israel-זמושץ-ישראל> ;
+    skos:altLabel "Israel ben Moses ha-Levi Zamosc",
+        "Zamosc, Israel ben Moses",
+        "זמושץ, ישראל" ;
+    skos:prefLabel "Samocz, Israel" .
+
+<http://data.judaicalink.org/data/haskala/Satanow_Isaak> a foaf:Person ;
+    gndo:gndIdentifier "124154565" ;
+    jl:birthDate "1732" ;
+    jl:deathDate "1804" ;
+    jl:hasPublication <https://www.haskala-library.net//books/lesebuch-für-jüdische-kinder>,
+        <https://www.haskala-library.net//books/אגרת-אדר-היקר>,
+        <https://www.haskala-library.net//books/אגרת-בית-תפלה>,
+        <https://www.haskala-library.net//books/דברי-ריבות-א>,
+        <https://www.haskala-library.net//books/דברי-ריבות-ב>,
+        <https://www.haskala-library.net//books/להט-החרב>,
+        <https://www.haskala-library.net//books/מגלת-חסידים-א>,
+        <https://www.haskala-library.net//books/מורה-נבוכים-ב>,
+        <https://www.haskala-library.net//books/מורה-נבוכים-ג>,
+        <https://www.haskala-library.net//books/מחברות-עמנואל>,
+        <https://www.haskala-library.net//books/מכתב-מרפא-לנפש>,
+        <https://www.haskala-library.net//books/מנחת-בקורים>,
+        <https://www.haskala-library.net//books/משלי-אסף-א>,
+        <https://www.haskala-library.net//books/משלי-אסף-ב>,
+        <https://www.haskala-library.net//books/משלי-אסף-ג>,
+        <https://www.haskala-library.net//books/נבואת-הילד>,
+        <https://www.haskala-library.net//books/סדר-הגדה-על-פסח>,
+        <https://www.haskala-library.net//books/סדר-סליחה>,
+        <https://www.haskala-library.net//books/ספר-איוב>,
+        <https://www.haskala-library.net//books/ספר-אמרי-בינה>,
+        <https://www.haskala-library.net//books/ספר-הגדרים>,
+        <https://www.haskala-library.net//books/ספר-הגלוי-והחתום>,
+        <https://www.haskala-library.net//books/ספר-הולך-תמים>,
+        <https://www.haskala-library.net//books/ספר-החזיון-א>,
+        <https://www.haskala-library.net//books/ספר-הכוזרי-תקנה>,
+        <https://www.haskala-library.net//books/ספר-המדות-1784>,
+        <https://www.haskala-library.net//books/ספר-המדות-א>,
+        <https://www.haskala-library.net//books/ספר-המדות-ב>,
+        <https://www.haskala-library.net//books/ספר-השרשים-א>,
+        <https://www.haskala-library.net//books/ספר-השרשים-ב>,
+        <https://www.haskala-library.net//books/ספר-ויעתר-יצחק>,
+        <https://www.haskala-library.net//books/ספר-שפתי-רננות>,
+        <https://www.haskala-library.net//books/ספר-תהלים>,
+        <https://www.haskala-library.net//books/פנקס-וכתב-הדת>,
+        <https://www.haskala-library.net//books/קול-שחל>,
+        <https://www.haskala-library.net//books/קונטרס-מספר-הזהר-חיבורא-תניינא>,
+        <https://www.haskala-library.net//books/שיר-ידידות-תקנט>,
+        <https://www.haskala-library.net//books/שירת-דודים>,
+        <https://www.haskala-library.net//books/תפלה-מכל-השנה-תקמה> ;
+    owl:sameAs <http://d-nb.info/gnd/124154565>,
+        <http://viaf.org/viaf/30463531>,
+        <https://viaf.org/viaf/30463531>,
+        <https://www.haskala-library.net/people/Satanow-Isaak>,
+        <https://www.haskala-library.net/people/satanow-isaak-סטנוב-יצחק> ;
+    skos:altLabel "Asaf",
+        "Isaac Moses",
+        "Isaac ben Moses, of Satanow",
+        "Isaac, ha-Levi of Satanow",
+        "Satanov, Isaac",
+        "Satanov, Yitshak",
+        "Satanow, Isaac",
+        "Satanow, Isaak",
+        "Satanow, Itzig",
+        "Satanow, Yiṣḥāq",
+        "Saṭanôw, Îṣaq",
+        "Segal, Yitshak",
+        "Yitshak ben Mosheh, ha-Levi mi-Satanov",
+        "Yitshak, Segal mi-Satanov",
+        "Yitshak, ha-Levi Satanov",
+        "Yitsḥaḳ ha-leṿi mi-Satanov",
+        "Yitsḥaḳ leṿi mi-Satanov",
+        "יצחק הלוי מסאטאנוב",
+        "יצחק הלוי מסטנאב",
+        "יצחק סגʹʹל מסטנאב",
+        "יצחק, הלוי מסאטאנוב",
+        "סאטאנוב, איציק",
+        "סאטאנוב, יצחק",
+        "סאנטנאב, איצק",
+        "סטאנוב, יצחק",
+        "סטנאב, איציק",
+        "סטנאב, איצק",
+        "סטנאב, יצחק",
+        "סטנוב, יצחק" ;
+    skos:prefLabel "Satanow, Isaak" .
+
+<http://data.judaicalink.org/data/haskala/Saul_Ascher> a foaf:Person ;
+    gndo:gndIdentifier "118646052" ;
+    jl:birthDate "1767",
+        "1767-02-06" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "1822",
+        "1822-12-08" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/118646052>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/ascher.html> ;
+    skos:altLabel "Ascher, S.",
+        "Ašer, Ša'ul",
+        "Saul Ascher",
+        "Theodiscus",
+        "Theodiskus" ;
+    skos:prefLabel "Ascher, Saul" .
+
+<http://data.judaicalink.org/data/haskala/Saul_Berlin> a foaf:Person ;
+    gndo:gndIdentifier "136442099" ;
+    jl:birthDate "1740" ;
+    jl:birthLocation "Glogau ?" ;
+    jl:deathDate "1794" ;
+    jl:deathLocation "London" ;
+    owl:sameAs <http://d-nb.info/gnd/136442099>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/berlin.html> ;
+    skos:altLabel "Berlin, Saul ben Ẓevi Hirsch Levin",
+        "Shaul ben Zvi Hirsh Levin Berlin",
+        "שאול בן צבי הירש" ;
+    skos:prefLabel "Berlin, Saul" .
+
+<http://data.judaicalink.org/data/haskala/Schiff_Isaak_Benedix> a foaf:Person ;
+    gndo:gndIdentifier "132003945" ;
+    jl:birthDate "1756" ;
+    jl:deathDate "1829" ;
+    jl:hasPublication <https://www.haskala-library.net//books/דבר-בעתו> ;
+    owl:sameAs <http://d-nb.info/gnd/132003945>,
+        <http://viaf.org/viaf/65154772>,
+        <https://www.haskala-library.net/people/schiff-isaak-benedix-שיף-בנדיט-איצק> ;
+    skos:altLabel "Schiff, Isaac Benedict",
+        "שיף, בנדיט איצק" ;
+    skos:prefLabel "Schiff, Isaak Benedix" .
+
+<http://data.judaicalink.org/data/haskala/Schott_Benedict> a foaf:Person ;
+    gndo:gndIdentifier "136787843" ;
+    jl:birthDate "1763" ;
+    jl:deathDate "1846" ;
+    jl:hasPublication <https://www.haskala-library.net//books/sendschreiben-meine-brüder-die-israeliten-westfalen-die-errichtung-eines-jüdischen>,
+        <https://www.haskala-library.net//books/zaphnath-paneach-oder-sammlung-moralischer-lehren-sprüche-erzählungen-und-gedichte-aus-dem> ;
+    owl:sameAs <http://d-nb.info/gnd/136787843>,
+        <https://viaf.org/viaf/81074093>,
+        <https://www.haskala-library.net/people/schott-benedict> ;
+    skos:altLabel "Schott, Benedikt",
+        "Schottländer, Bendet" ;
+    skos:prefLabel "Schott, Benedict" .
+
+<http://data.judaicalink.org/data/haskala/Schottländer_Benedikt> a foaf:Person ;
+    gndo:gndIdentifier "136787843" ;
+    jl:birthDate "1763" ;
+    jl:deathDate "1846" ;
+    jl:hasPublication <https://www.haskala-library.net//books/תולדות-נח-אדער-געשיכטע-דער-זינדפלוט> ;
+    owl:sameAs <http://d-nb.info/gnd/136787843>,
+        <https://viaf.org/viaf/81074093>,
+        <https://www.haskala-library.net/people/schottländer-benedikt-שוטלנדר-בנדיקט> ;
+    skos:altLabel "Schott, Benedikt",
+        "Schottländer, Bendet",
+        "שוטלנדר, בנדיקט" ;
+    skos:prefLabel "Schottländer, Benedikt" .
+
+<http://data.judaicalink.org/data/haskala/Schulman_Naftali_Hirtz> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/המצאה-חדשה-מדבר-שין>,
+        <https://www.haskala-library.net//books/ספר-מקוה-ישראל> ;
+    owl:sameAs <https://www.haskala-library.net/people/schulman-naftali-hirtz-שולמן-נפתלי-הרץ> ;
+    skos:altLabel "שולמן, נפתלי הרץ" ;
+    skos:prefLabel "Schulman, Naftali Hirtz" .
+
+<http://data.judaicalink.org/data/haskala/Schwab_Abraham_ben_Menachem_Mendel> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-דברי-יושר-א>,
+        <https://www.haskala-library.net//books/ספר-דברי-יושר-ב> ;
+    owl:sameAs <https://www.haskala-library.net/people/schwab-abraham-ben-menachem-mendel-שוואב-אברהם-בן-מנחם-מנדל> ;
+    skos:altLabel "שוואב, אברהם בן מנחם מנדל" ;
+    skos:prefLabel "Schwab, Abraham ben Menachem Mendel" .
+
+<http://data.judaicalink.org/data/haskala/Schwabacher_Heimann> a foaf:Person ;
+    gndo:gndIdentifier "1015507417" ;
+    jl:hasPublication <https://www.haskala-library.net//books/הדרכת-הילד-אדער-ערסטער-אונטערריכט-פיר-קינדער-פאן-דרייא-ביס-פינף-יאהרען>,
+        <https://www.haskala-library.net//books/השלום>,
+        <https://www.haskala-library.net//books/ספר-עוללות-הבוחן> ;
+    owl:sameAs <http://d-nb.info/gnd/1015507417>,
+        <https://viaf.org/viaf/299536026>,
+        <https://www.haskala-library.net/people/schwabacher-heimann-שובכר-חיים-צבי> ;
+    skos:altLabel "Schwabacher, Chaim Hirsch",
+        "Schwabacher, Chajim Hirsch",
+        "Schwabacher, Heiman",
+        "Schwabacher, Ḥayim Hirsh",
+        "Shṿabakher, Ḥayim Hirsh",
+        "Shṿabakher, Ḥayim Tsevi",
+        "Shṿabakher, Ḥayman",
+        "שובכר, חיים צבי",
+        "שוואבאכער, חיימאן" ;
+    skos:prefLabel "Schwabacher, Heimann" .
+
+<http://data.judaicalink.org/data/haskala/Schönemann_Salomo> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/כימיאה-אדער-שיידיקונסט-א>,
+        <https://www.haskala-library.net//books/מנחת-בקורים> ;
+    owl:sameAs <https://www.haskala-library.net/people/schönemann-salomo-שינמן-שלמה> ;
+    skos:altLabel "שינמן, שלמה" ;
+    skos:prefLabel "Schönemann, Salomo" .
+
+<http://data.judaicalink.org/data/haskala/Soldin_Jakob> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-אגרת-הקדש>,
+        <https://www.haskala-library.net//books/ספר-שומר-אמונים> ;
+    owl:sameAs <https://www.haskala-library.net/people/soldin-jakob-זולדין-אליקים-איסרל> ;
+    skos:altLabel "זולדין, אליקים איסרל" ;
+    skos:prefLabel "Soldin, Jakob" .
+
+<http://data.judaicalink.org/data/haskala/Somerhausen_Hirsch_(Hartog)> a foaf:Person ;
+    gndo:gndIdentifier "141536276" ;
+    jl:birthDate "1781" ;
+    jl:deathDate "1853" ;
+    jl:deathLocation "Brüssel" ;
+    jl:hasPublication <https://www.haskala-library.net//books/רודף-מישרים> ;
+    owl:sameAs <http://d-nb.info/gnd/141536276>,
+        <https://viaf.org/viaf/22039052>,
+        <https://www.haskala-library.net/people/somerhausen-hirsch-hartog-זומרהאוזן-הירש> ;
+    skos:altLabel "Somerhausen, Hartog",
+        "Somerhausen, Hirsch",
+        "Somerhausen, Zebi Hirsch ben Simeon",
+        "Sommerhausen, Hirsch",
+        "Sommerhausen, Zebi",
+        "Sommerhaussen, H.",
+        "Zomerhoizen, Tsevi Hirsh",
+        "Zomerhoizen, Tsevi Hirsh ben Shimʿon",
+        "זומרהאוזן, הירש",
+        "זמוהרהויזן, צבי הירש" ;
+    skos:prefLabel "Somerhausen, Hirsch (Hartog)" .
+
+<http://data.judaicalink.org/data/haskala/Spalding> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/die-moseide-achtzehn-gesängen> ;
+    owl:sameAs <https://www.haskala-library.net/people/spalding-שפלדינג> ;
+    skos:altLabel "שפלדינג" ;
+    skos:prefLabel "Spalding" .
+
+<http://data.judaicalink.org/data/haskala/Troplowitz_Joseph_Ephrati> a foaf:Person ;
+    gndo:gndIdentifier "132026619" ;
+    jl:birthDate "1770" ;
+    jl:deathDate "1804" ;
+    jl:hasPublication <https://www.haskala-library.net//books/אלון-בכות>,
+        <https://www.haskala-library.net//books/מלוכת-שאול> ;
+    owl:sameAs <http://d-nb.info/gnd/132026619>,
+        <https://viaf.org/viaf/25752444>,
+        <https://www.haskala-library.net/people/troplowitz-joseph-ephrati-האפרתי-יוסף-מטראפלוויץ> ;
+    skos:altLabel "Efrati, Yosef ha-",
+        "Ha-Efrati, Yosef",
+        "Haefrati, Yosef",
+        "Troploṿits, Yosef",
+        "Troplowitz, Josef Efrati",
+        "האפרתי, יוסף מטראפלוויץ" ;
+    skos:prefLabel "Troplowitz, Joseph Ephrati" .
+
+<http://data.judaicalink.org/data/haskala/Valabregue_Israel-Bernard_de> a foaf:Person ;
+    gndo:gndIdentifier "1168613787" ;
+    jl:hasPublication <https://www.haskala-library.net//books/lettre-ou-reflexions-dun-milord-son-correspondant-paris> ;
+    owl:sameAs <http://d-nb.info/gnd/1168613787>,
+        <https://viaf.org/viaf/37036015>,
+        <https://www.haskala-library.net/people/valabregue-israel-bernard-de-ואלאברג-ישראל-ברנאר-דה> ;
+    skos:altLabel "ואלאברג, ישראל ברנאר דה" ;
+    skos:prefLabel "Valabregue, Israel-Bernard de" .
+
+<http://data.judaicalink.org/data/haskala/Vanoven_Joshua> a foaf:Person ;
+    gndo:gndIdentifier "1156576067" ;
+    jl:birthDate "1766" ;
+    jl:deathDate "1838" ;
+    jl:deathLocation "Liverpool" ;
+    jl:hasPublication <https://www.haskala-library.net//books/letters-present-state-jewish-poor-metropolis> ;
+    owl:sameAs <http://d-nb.info/gnd/1156576067>,
+        <https://viaf.org/viaf/75405449>,
+        <https://www.haskala-library.net/people/vanoven-joshua-ונאובן-יהושע> ;
+    skos:altLabel "ונאובן, יהושע" ;
+    skos:prefLabel "Vanoven, Joshua" .
+
+<http://data.judaicalink.org/data/haskala/Venture_Mardochée> a foaf:Person ;
+    gndo:gndIdentifier "1065662742" ;
+    jl:hasPublication <https://www.haskala-library.net//books/cantique-des-cantiques>,
+        <https://www.haskala-library.net//books/prieres-lusage-des-juifs-portugais-ou-espagnols-1>,
+        <https://www.haskala-library.net//books/prieres-lusage-des-juifs-portugais-ou-espagnols-2>,
+        <https://www.haskala-library.net//books/prieres-lusage-des-juifs-portugais-ou-espagnols-3>,
+        <https://www.haskala-library.net//books/prieres-lusage-des-juifs-portugais-ou-espagnols-4>,
+        <https://www.haskala-library.net//books/prière-prononcée-le-5-mars-1768-par-les-juifs-avignonois-avignonois-de-bordeaux-demeurant-à> ;
+    owl:sameAs <http://d-nb.info/gnd/1065662742>,
+        <https://viaf.org/viaf/56648586>,
+        <https://www.haskala-library.net/people/venture-mardochée-ונטורה-מרדכי> ;
+    skos:altLabel "Ventura, M.",
+        "Ventura, Mordecai",
+        "Venture, Mardochai",
+        "Ṿinturah, Mordekhai",
+        "ונטורה, מרדכי" ;
+    skos:prefLabel "Venture, Mardochée" .
+
+<http://data.judaicalink.org/data/haskala/Wessely_Hartwig> a foaf:Person ;
+    gndo:gndIdentifier "119178583" ;
+    jl:birthDate "1725" ;
+    jl:deathDate "1804" ;
+    jl:hasPublication <https://www.haskala-library.net//books/דברי-שלום-ואמת-ב>,
+        <https://www.haskala-library.net//books/דברי-שלום-ואמת-ג>,
+        <https://www.haskala-library.net//books/דברי-שלום-ואמת-ד>,
+        <https://www.haskala-library.net//books/האמונות-והדעות>,
+        <https://www.haskala-library.net//books/זה-ספר-פשר-דבר>,
+        <https://www.haskala-library.net//books/לכבוד-איש-מהולל>,
+        <https://www.haskala-library.net//books/לכבוד-הגביר>,
+        <https://www.haskala-library.net//books/לכבוד-המושל-הגדול>,
+        <https://www.haskala-library.net//books/מאמר-חקור-דין>,
+        <https://www.haskala-library.net//books/מאמר-מגיד-חדשות>,
+        <https://www.haskala-library.net//books/מזמור-שיר>,
+        <https://www.haskala-library.net//books/מסכת-אבות>,
+        <https://www.haskala-library.net//books/מציאת-הארץ-החדשה-א>,
+        <https://www.haskala-library.net//books/ספר-המדות-א-תקמו>,
+        <https://www.haskala-library.net//books/ספר-חכמת-שלמה>,
+        <https://www.haskala-library.net//books/ספר-נתיבות-השלום-ב>,
+        <https://www.haskala-library.net//books/ספר-נתיבות-השלום-ג>,
+        <https://www.haskala-library.net//books/פעדאן>,
+        <https://www.haskala-library.net//books/קול-נהי>,
+        <https://www.haskala-library.net//books/קול-רנת-היהודים-אשר-בעיר-שקלאב>,
+        <https://www.haskala-library.net//books/שיר-מזמור>,
+        <https://www.haskala-library.net//books/שיר-תקכז>,
+        <https://www.haskala-library.net//books/שירי-תהלות>,
+        <https://www.haskala-library.net//books/שירי-תפארת-א>,
+        <https://www.haskala-library.net//books/שירי-תפארת-ב>,
+        <https://www.haskala-library.net//books/שירי-תפארת-ג>,
+        <https://www.haskala-library.net//books/שירי-תפארת-ד>,
+        <https://www.haskala-library.net//books/שירי-תפארת-ה>,
+        <https://www.haskala-library.net//books/שירים-ורננות>,
+        <https://www.haskala-library.net//books/תהלה-ותודה> ;
+    owl:sameAs <http://d-nb.info/gnd/119178583>,
+        <https://viaf.org/viaf/2605610>,
+        <https://www.haskala-library.net/people/wessely-hartwig-וייזל-נפתלי-הרץ> ;
+    skos:altLabel "Vaizel, Naftali Hirts",
+        "Vizel, Naftali Hirsh",
+        "Waizel, Naphtali H.",
+        "Weisel, Naphtali H.",
+        "Weisly, Hartwic",
+        "Wesel, Naphtali H.",
+        "Wesseli, Naphtali H.",
+        "Wesseli, Naphtali Hartwig",
+        "Wesseli, Naphtalie H.",
+        "Wesseli, Naphtalie Hartwig",
+        "Wessely, Hartwig",
+        "Wessely, N.",
+        "Wessely, Naftali H.",
+        "Wessely, Naftali Hartwig",
+        "Wessely, Naftali Hartwig Herz",
+        "Wessely, Naftali Herz",
+        "Wessely, Naftali Hirz",
+        "Wessely, Naphtali H.",
+        "Wessely, Naphtali Hartwig",
+        "Wessely, Naphtali Hartwig Herz",
+        "Wessely, Naphtali Hirz",
+        "Wessely, Naphtaly",
+        "וייזל, נפתלי הרץ" ;
+    skos:prefLabel "Wessely, Hartwig" .
+
+<http://data.judaicalink.org/data/haskala/Wohl_Levi> a foaf:Person ;
+    gndo:gndIdentifier "1153505835" ;
+    jl:hasPublication <https://www.haskala-library.net//books/balsam-für-die-wunde> ;
+    owl:sameAs <http://d-nb.info/gnd/1153505835>,
+        <http://viaf.org/viaf/284220708>,
+        <https://www.haskala-library.net/people/wohl-levi-וול-יהודה-ליב-בן-צבי-הירש> ;
+    skos:altLabel "Ṿahl, Yehuda Leyb ben Tsevi Hirsh",
+        "Ṿahl, Yehudah Leyb",
+        "Ṿohl, Yehuda Leyb ben Tsevi Hirsh",
+        "Ṿohl, Yehudah L.",
+        "Ṿohl, Yehudah Leib ben Tsevi",
+        "Ṿol, Yehudah Leib ben Tsevi",
+        "Ṿol, Yehudah Leib ben Tsevi Hirsh",
+        "Wahl, Yehuda Leib",
+        "Wohl, Levi Jehuda Löw",
+        "וואהל, יהודא ליב בן צבי הירש",
+        "וול, יהודה ליב בן צבי הירש" ;
+    skos:prefLabel "Wohl, Levi" .
+
+<http://data.judaicalink.org/data/haskala/Wolf_Davidson> a foaf:Person ;
+    gndo:gndIdentifier "120682761" ;
+    jl:birthDate "02.07.1772",
+        "1772" ;
+    jl:birthLocation "" ;
+    jl:deathDate "1800-08-19",
+        "19.08.1800" ;
+    jl:deathLocation "" ;
+    owl:sameAs <http://d-nb.info/gnd/120682761>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/wolf-davidsohn.html> ;
+    skos:altLabel "Davidson, ...",
+        "Davidson, Wolfgang" ;
+    skos:prefLabel "Davidson, Wolf" .
+
+<http://data.judaicalink.org/data/haskala/Wolf_Elcan_Isaac> a foaf:Person ;
+    gndo:gndIdentifier "1024795705" ;
+    jl:hasPublication <https://www.haskala-library.net//books/von-den-krankheiten-der-juden> ;
+    owl:sameAs <http://d-nb.info/gnd/1024795705>,
+        <https://viaf.org/viaf/29882857>,
+        <https://www.haskala-library.net/people/wolf-elcan-isaac-וולף-אלקן-יצחק> ;
+    skos:altLabel "Wolf, Elcan Isaak",
+        "Wolff, Elcan Isaac",
+        "Wolff, Elcan Isaak",
+        "Wolff, Elcan Isac",
+        "וולף, אלקן יצחק" ;
+    skos:prefLabel "Wolf, Elcan Isaac" .
+
+<http://data.judaicalink.org/data/haskala/Wolf_Joseph> a foaf:Person ;
+    gndo:gndIdentifier "137818580" ;
+    jl:birthDate "1762" ;
+    jl:birthLocation "Dessau" ;
+    jl:deathDate "1826" ;
+    jl:deathLocation "Dessau" ;
+    jl:hasPublication <https://www.haskala-library.net//books/nachricht-von-der-jüdischen-haupt-und-frey-schule-deßau-1804>,
+        <https://www.haskala-library.net//books/ספר-דניאל>,
+        <https://www.haskala-library.net//books/ספר-מנחה-טהורה>,
+        <https://www.haskala-library.net//books/ראשית-למודים-ב>,
+        <https://www.haskala-library.net//books/תוכחת-מגולה> ;
+    owl:sameAs <http://d-nb.info/gnd/137818580>,
+        <https://viaf.org/viaf/12704813>,
+        <https://www.haskala-library.net/people/wolf-joseph-וולף-יוסף> ;
+    skos:altLabel "Dessau, Wolf",
+        "Seeb Wolf ben Josef",
+        "Ṿolf ben Yosef",
+        "Ṿolf ben Yosef, mi-Desau",
+        "Ṿolf ben Yosef, mi-Desoi",
+        "Ṿolf ben Yosef, mi-Desoya",
+        "Wolf Ben-Josef",
+        "Wolf Ben-Yosef",
+        "Wolf Ben-Yosef, mi-Desau",
+        "Wolf Ben-Yosef, mi-Desoi",
+        "Wolf Ben-Yosef, mi-Desoya",
+        "Wolf b. Jōsēf",
+        "Wolf ben Joseph",
+        "Wolf ben Joseph Dessau",
+        "Wolf ben Joseph, of Dessau",
+        "Wolf ben Joseph, von Dessau",
+        "Wolf, Josef",
+        "Wolf, Josephus",
+        "Zeʾeb Wolf Ben-Josef",
+        "Zeʾev Ṿolf ben Yosef",
+        "Zeʾev Wolf Ben-Yosef",
+        "וואלף בן יוסף",
+        "וואלף, יוסף, מדעסוי",
+        "וולף בן יוסף",
+        "וולף בן יוסף, מדסאו",
+        "וולף, יוסף",
+        "זאב וואלף בן יוסף",
+        "זאב וולף בן יוסף" ;
+    skos:prefLabel "Wolf, Joseph" .
+
+<http://data.judaicalink.org/data/haskala/Wolfsohn-Halle_Aron> a foaf:Person ;
+    gndo:gndIdentifier "120163683" ;
+    jl:birthDate "1754" ;
+    jl:birthLocation "Halle (Saale)" ;
+    jl:deathDate "1835" ;
+    jl:deathLocation "Fürth (Bayern)" ;
+    jl:hasPublication <https://www.haskala-library.net//books/jeremias-klagegesänge>,
+        <https://www.haskala-library.net//books/jeschurun-oder-unparteyische-beleuchtung-der-dem-judenthume-neuerdings-gemachten-vorwürfe>,
+        <https://www.haskala-library.net//books/אבטליון>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-א>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ג>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ד>,
+        <https://www.haskala-library.net//books/לייכטזין-אונד-פרעממעלייא>,
+        <https://www.haskala-library.net//books/מגילת-אסתר>,
+        <https://www.haskala-library.net//books/מגלת-איכה>,
+        <https://www.haskala-library.net//books/מגלת-רות>,
+        <https://www.haskala-library.net//books/מגלת-שיר-השירים>,
+        <https://www.haskala-library.net//books/ספר-מלכים-א>,
+        <https://www.haskala-library.net//books/ספר-מלכים-ב>,
+        <https://www.haskala-library.net//books/ספר-מנחה-חדשה-י> ;
+    owl:sameAs <http://d-nb.info/gnd/120163683>,
+        <http://viaf.org/viaf/38903996>,
+        <https://www.haskala-library.net/people/wolfsohn-halle-aron-וולפסון-אהרון> ;
+    skos:altLabel "Aaron ben Wolf Halle",
+        "Aharon ben Ṿolf Hale",
+        "Aharon ben-Wolf",
+        "Aron ben Wolf Halle",
+        "Ben Ṿolf, Aharon",
+        "Ben-Ṿolf, Aharon, mi-Halle",
+        "Ben-Ṿolf, Ahron",
+        "Ben-Wolf, Aron",
+        "Halle, A. Wolfsohn-",
+        "Halle, Aaron Wolfsohn-",
+        "Halle, Aaron ben Wolf",
+        "Halle-Wolfssohn, Aaron",
+        "Halle-Wolfssohn, Aharon",
+        "Volfson, Aaron",
+        "Volfzohn",
+        "Ṿolfson, Aharon ben Zeʾev, mi-Haleh",
+        "Ṿolfson, Ahron ben Zev",
+        "Ṿolfszohn, Aharon",
+        "WWLPSWN, Aharon",
+        "Wolfsohn, Aaron",
+        "Wolfsohn, Ahron ben Wolf",
+        "Wolfsohn, Aron",
+        "Wolfsohn-Halle, A.",
+        "Wolfsohn-Halle, Aaron",
+        "Wolfssohn, Aaron",
+        "Wolfssohn, Ahron",
+        "Wolfssohn, Aron",
+        "Wolfssohn, Arone",
+        "Wolfs̀sohn",
+        "בן וואלף, אהרון",
+        "בן-וואלף, אברון, מהאללי",
+        "בן־וואלף, אהרן",
+        "וואלפסזאהן, אהר",
+        "וולפסון, אהרון",
+        "וולפסון, אהרן בן זאב, מהלה" ;
+    skos:prefLabel "Wolfsohn-Halle, Aron" .
+
+<http://data.judaicalink.org/data/haskala/Worms_Ascher_Anschel> a foaf:Person ;
+    gndo:gndIdentifier "141172479" ;
+    jl:birthDate "1695" ;
+    jl:birthLocation "Frankfurt am Main" ;
+    jl:deathDate "1769" ;
+    jl:deathLocation "Frankfurt am Main" ;
+    jl:hasPublication <https://www.haskala-library.net//books/סייג-לתורה>,
+        <https://www.haskala-library.net//books/ספר-מעדני-מלך>,
+        <https://www.haskala-library.net//books/פירוש-על-חד-גדיא> ;
+    owl:sameAs <http://d-nb.info/gnd/141172479>,
+        <https://viaf.org/viaf/162590945>,
+        <https://www.haskala-library.net/people/worms-ascher-anschel-וורמס-אנשיל> ;
+    skos:altLabel "Ben Wolf Worms, Asher Anshel",
+        "Wolf Worms, Asher Anshel ben",
+        "Worms, Aser Anselm",
+        "וורמס, אנשיל" ;
+    skos:prefLabel "Worms, Ascher Anschel" .
+
+<http://data.judaicalink.org/data/haskala/Worms_Wolff> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/סייג-לתורה> ;
+    owl:sameAs <https://www.haskala-library.net/people/worms-wolff-וורמס-וולף> ;
+    skos:altLabel "וורמס, וולף" ;
+    skos:prefLabel "Worms, Wolff" .
+
+<http://data.judaicalink.org/data/haskala/Zirndorffer_Isaac_David> a foaf:Person ;
+    gndo:gndIdentifier "1037606507" ;
+    jl:hasPublication <https://www.haskala-library.net//books/סדר-קינות-לתשעה-באב> ;
+    owl:sameAs <http://d-nb.info/gnd/1037606507>,
+        <https://viaf.org/viaf/304951620>,
+        <https://www.haskala-library.net/people/zirndorffer-isaac-david-צירנדורף-איצק> ;
+    skos:altLabel "Isaac David Zürndorfer",
+        "Isaak ben David aus Zirndorf",
+        "Isaak ben David, aus Zirndorf",
+        "Iṣaq Ben-Dawid Ṣern Dorf",
+        "Iṣaq Ben-Dawid Ṣerndorf",
+        "Iṣiq Ben-Dawid Ṣern Dorf",
+        "Iṣiq Ben-Dawid Ṣerndorf",
+        "Itsaḳ ben Daṿid Tsern Dorf",
+        "Itsaḳ ben Daṿid Tserndorf",
+        "Itsaḳ ben Daṿid Tsirndorf",
+        "Itsiḳ ben Daṿid Tsern Dorf",
+        "Itsiḳ ben Daṿid Tserndorf",
+        "Ṣern Dorf, Iṣaq Ben-Dawid",
+        "Ṣern Dorf, Iṣiq Ben-Dawid",
+        "Ṣerndorf, Iṣaq Ben-Dawid",
+        "Ṣerndorf, Iṣiq Ben-Dawid",
+        "Ṣirndorf, Iṣaq Ben-Dawid",
+        "Tsern Dorf, Itsaḳ ben Daṿid",
+        "Tsern Dorf, Itsiḳ ben Daṿid",
+        "Tserndorf, Itsaḳ ben Daṿid",
+        "Tserndorf, Itsiḳ ben Daṿid",
+        "Tsirendorf, I. D.",
+        "Tsirendorf, Itsaḳ ben Daṿid",
+        "Tsirndorf, Itsaḳ ben Daṿid",
+        "Zirndorf, Isaak",
+        "Zirndorf, Isaak ben David",
+        "Zirndorf, Itzig",
+        "Zirndorf, Izik ben David",
+        "Zirndorfer, Isaak",
+        "Zirndorfer, Itzig",
+        "Zirndorfer, Izik",
+        "Zirndorfer, Izik ben David",
+        "Zirndorffer, Isaac David",
+        "Zirndorffer, Itzig",
+        "Zürndorf, Isaak ben David",
+        "Zürndorfer, Isaac David",
+        "Zürndorfer, Isaak",
+        "Zürndorfer, Isaak ben David",
+        "איצק בן דוד צערן דארף",
+        "איצק בן דוד צערנדארף",
+        "צירנדורף, איצק",
+        "צירענדארף, א. ד.",
+        "צירענדארף, איצק בן דוד",
+        "צערן דארף, איצק בן דוד",
+        "צערנדארף, איצק בן דוד" ;
+    skos:prefLabel "Zirndorffer, Isaac David" .
+
+<http://data.judaicalink.org/data/haskala/אברהם_אבלי_בן_ירמיה> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/מדבר-סין> ;
+    owl:sameAs <http://viaf.org/viaf/308275249>,
+        <https://www.haskala-library.net/people/אברהם-אבלי-בן-ירמיה> ;
+    skos:prefLabel "אברהם אבלי בן ירמיה" .
+
+<http://data.judaicalink.org/data/haskala/אברהם_בן_אליהו> a foaf:Person ;
+    gndo:gndIdentifier "1022545841" ;
+    jl:birthDate "1750" ;
+    jl:deathDate "1808" ;
+    jl:hasPublication <https://www.haskala-library.net//books/גבולות-ארץ> ;
+    owl:sameAs <http://d-nb.info/gnd/1022545841>,
+        <http://viaf.org/viaf/101372048>,
+        <https://www.haskala-library.net/people/אברהם-בן-אליהו> ;
+    skos:altLabel "Abraham Ben-HaGRa\"ʾ",
+        "Abraham ben Elijah",
+        "Abraham ben Elijah, of Vilna",
+        "Abraham ben Elijahu, aus Wilna",
+        "Avraham ben Elijahu",
+        "Avraham ben Elijahu Gaon, aus Wilna",
+        "Avraham ben Elijahu, aus Wilna",
+        "Avraham ben Eliyahu",
+        "Avraham ben Eliyahu, mi-Ṿilna",
+        "Avraham ben Eliyyahu, mi-Wilna",
+        "Avraham ben ha-Gaʾon, mi-Ṿilna",
+        "Avraham ben ha-Gera",
+        "Avrāhām Ben-Eliyyāhû",
+        "Wilna, Abraham",
+        "Wilna, Abraham ben Elijah of",
+        "אברהם בן אליהו, מווילנא",
+        "אברהם בן הגאון, מוילנא",
+        "אברהם בן הגר״א" ;
+    skos:prefLabel "אברהם בן אליהו" .
+
+<http://data.judaicalink.org/data/haskala/אברהם_בן_לאא_כהן_מביסטריץ> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/העתקה> ;
+    owl:sameAs <https://www.haskala-library.net/people/אברהם-בן-לאא-כהן-מביסטריץ> ;
+    skos:prefLabel "אברהם בן לא\"א כהן מביסטריץ" .
+
+<http://data.judaicalink.org/data/haskala/אברהם_ברא_פל> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ג> ;
+    owl:sameAs <https://www.haskala-library.net/people/אברהם-ברא-פל> ;
+    skos:prefLabel "אברהם בר\"א פל" .
+
+<http://data.judaicalink.org/data/haskala/אורי_פיבוש_בן_אריה_ליב> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/מדרש-מלים-לשונות-עברית-ואשכנזית> ;
+    owl:sameAs <http://viaf.org/viaf/308275281>,
+        <https://www.haskala-library.net/people/אורי-פיבוש-בן-אריה-ליב> ;
+    skos:prefLabel "אורי פיבוש בן אריה ליב" .
+
+<http://data.judaicalink.org/data/haskala/אליהו_בן_רפאל_שלמה_הלוי> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/אנקת-השיר> ;
+    owl:sameAs <https://viaf.org/viaf/22101310>,
+        <https://www.haskala-library.net/people/אליהו-בן-רפאל-שלמה-הלוי> ;
+    skos:prefLabel "אליהו בן רפאל שלמה, הלוי" .
+
+<http://data.judaicalink.org/data/haskala/ארענסוואלד_ראובן> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/צחות-בדקדוק> ;
+    owl:sameAs <https://www.haskala-library.net/people/ארענסוואלד-ראובן> ;
+    skos:prefLabel "ארענסוואלד, ראובן" .
+
+<http://data.judaicalink.org/data/haskala/בריל_אלחנן> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/הפטרות-מכל-השנה-א> ;
+    owl:sameAs <https://www.haskala-library.net/people/בריל-אלחנן> ;
+    skos:prefLabel "ברי\"ל, אלחנן" .
+
+<http://data.judaicalink.org/data/haskala/בשוויץ_ברוך> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/מחזור-מנהג-פולין-ליום-ראשון-ושני-של-פסח-1800>,
+        <https://www.haskala-library.net//books/מחזור-מנהג-פולין-ליום-ראשון-של-ראש-השנה-1800>,
+        <https://www.haskala-library.net//books/מחזור-מנהג-פולין-ליום-שביעי-ושמיני-של-פסח-1800>,
+        <https://www.haskala-library.net//books/מחזור-מנהג-פולין-ליום-שני-של-ראש-השנה-1800>,
+        <https://www.haskala-library.net//books/מחזור-מנהג-פולין-לערבית-ליום-כפור-1800>,
+        <https://www.haskala-library.net//books/מחזור-מנהג-פולין-לשמיני-עצרת-ולשמחת-תורה-1805> ;
+    owl:sameAs <https://www.haskala-library.net/people/בשוויץ-ברוך> ;
+    skos:prefLabel "בשוויץ, ברוך" .
+
+<http://data.judaicalink.org/data/haskala/גדליה_מאברזיטצקא> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/הפטרות-מכל-השנה-א>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ד> ;
+    owl:sameAs <https://www.haskala-library.net/people/גדליה-מאברזיטצקא> ;
+    skos:prefLabel "גדליה מאברזיטצקא" .
+
+<http://data.judaicalink.org/data/haskala/גרונדשטין_יעקב_לוי> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/בית-יעקב> ;
+    owl:sameAs <https://www.haskala-library.net/people/גרונדשטין-יעקב-לוי> ;
+    skos:prefLabel "גרונדשטין, יעקב לוי" .
+
+<http://data.judaicalink.org/data/haskala/הורוויץ_פנחס_אליהו> a foaf:Person ;
+    gndo:gndIdentifier "131462563" ;
+    jl:birthDate "1765" ;
+    jl:birthLocation "Lemberg" ;
+    jl:deathDate "1821" ;
+    jl:deathLocation "Krakau" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-הברית-א> ;
+    owl:sameAs <http://d-nb.info/gnd/131462563>,
+        <https://viaf.org/viaf/10979475>,
+        <https://www.haskala-library.net/people/הורוויץ-פנחס-אליהו> ;
+    skos:altLabel "Ben Mēʾîr, Pînḥās Ēliyyāhû",
+        "Ēliyyāhû ben Mēʾîr, Pînḥās",
+        "Hurvits, Pinhas Eliyahu, mi-Vilna",
+        "Hurwitz, Pinchas",
+        "Hurwitz, Pinchas Elias",
+        "Hurwitz, Pinchas Eliyahu",
+        "Hurwitz, Pincus Elias",
+        "Hurwitz, Pinhas Elias",
+        "Hûrviṣ, Pînḥās Ēliyyāhû ben Mēʾîr",
+        "Hûrwiṣ, Pînḥās Ēliyyāhû ben Mēʾîr",
+        "Pinchas Elia ben Meir Wilna",
+        "Pinechas Elijjah ben Meir Hurwiz",
+        "Pînḥās Ēliyyāhû ben Mēʾîr",
+        "Pînḥās Ēliyyāhû, mi-Ṿilna" ;
+    skos:prefLabel "הורוויץ, פנחס אליהו" .
+
+<http://data.judaicalink.org/data/haskala/הכים_אליהו_בן_חיים> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-שבילי-דרקיע> ;
+    owl:sameAs <http://viaf.org/viaf/97210751>,
+        <https://www.haskala-library.net/people/הכים-אליהו-בן-חיים> ;
+    skos:prefLabel "הכים, אליהו בן חיים" .
+
+<http://data.judaicalink.org/data/haskala/הקלירי_שמשון> a foaf:Person ;
+    gndo:gndIdentifier "1154823229" ;
+    jl:birthLocation "Jerusalem" ;
+    jl:hasPublication <https://www.haskala-library.net//books/באור-מלות-ההגיון> ;
+    owl:sameAs <http://d-nb.info/gnd/1154823229>,
+        <https://www.haskala-library.net/people/הקלירי-שמשון> ;
+    skos:altLabel "Kallir, Samson",
+        "Ḳalir, Shimshon",
+        "Qalir, Šimšon",
+        "Qallîr, Šimšon",
+        "Shimshon, ha-Ḳaliri",
+        "ha-Qaliri, Šimšon",
+        "שמשון הקלירי" ;
+    skos:prefLabel "הקלירי, שמשון" .
+
+<http://data.judaicalink.org/data/haskala/חיט_משה_אברהם_בן_ראובן> a foaf:Person ;
+    gndo:gndIdentifier "1070474282" ;
+    jl:birthDate "1759" ;
+    jl:birthLocation "Třebíč" ;
+    jl:deathDate "1840" ;
+    jl:deathLocation "Nikolsburg" ;
+    jl:hasPublication <https://www.haskala-library.net//books/צייט-געשיכטע>,
+        <https://www.haskala-library.net//books/קורות-העתים-א> ;
+    owl:sameAs <http://d-nb.info/gnd/1070474282>,
+        <https://viaf.org/viaf/66415109>,
+        <https://www.haskala-library.net/people/חיט-משה-אברהם-בן-ראובן> ;
+    skos:altLabel "Avraham Hajjat ben Ruben",
+        "Avraham, Trebitsch of Mikulov",
+        "Trebitsch, Abraham ben Reuben",
+        "Trebitsch, Abraham ben Reuben Hayyat",
+        "Trebitsch, Abraham ben Reuven Hayyat",
+        "Trebitsh, Abraham ben Reuben Hayyat" ;
+    skos:prefLabel "חיט, משה אברהם בן ראובן" .
+
+<http://data.judaicalink.org/data/haskala/טהעאדאר_דוד> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/הפטרות-מכל-השנה-א>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ג>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ד> ;
+    owl:sameAs <https://www.haskala-library.net/people/טהעאדאר-דוד> ;
+    skos:prefLabel "טהעאדאר, דוד" .
+
+<http://data.judaicalink.org/data/haskala/יאנוב_שבתי_בן_דוד_יאנוב_שבתי_בן_דוד> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/מאמר-חקור-דין>,
+        <https://www.haskala-library.net//books/פעדאן> ;
+    owl:sameAs <https://www.haskala-library.net/people/יאנוב-שבתי-בן-דוד-יאנוב-שבתי-בן-דוד> ;
+    skos:prefLabel "יאנוב, שבתי בן דוד יאנוב, שבתי בן דוד" .
+
+<http://data.judaicalink.org/data/haskala/יאקב_זב> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ג> ;
+    owl:sameAs <https://www.haskala-library.net/people/יאקב-זב> ;
+    skos:prefLabel "יאקב ז\"ב" .
+
+<http://data.judaicalink.org/data/haskala/יהודה_ליב_בן_משה_מהמבורג> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-אור-עולם-קטן-א> ;
+    owl:sameAs <https://www.haskala-library.net/people/יהודה-ליב-בן-משה-מהמבורג> ;
+    skos:prefLabel "יהודה ליב בן משה מהמבורג" .
+
+<http://data.judaicalink.org/data/haskala/יוסף_שלמה_מליסא> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-בחינות-עולם> ;
+    owl:sameAs <http://viaf.org/viaf/291141206>,
+        <https://www.haskala-library.net/people/יוסף-שלמה-מליסא> ;
+    skos:prefLabel "יוסף שלמה, מליסא" .
+
+<http://data.judaicalink.org/data/haskala/יעקב_עמדן> a foaf:Person ;
+    gndo:gndIdentifier "118989316" ;
+    jl:birthLocation "Hamburg-Altona" ;
+    jl:deathLocation "Hamburg-Altona" ;
+    jl:hasPublication <https://www.haskala-library.net//books/nachricht-von-der-jüdischen-haupt-und-frey-schule-deßau-1776> ;
+    owl:sameAs <http://d-nb.info/gnd/118989316>,
+        <https://viaf.org/viaf/82152450/>,
+        <https://www.haskala-library.net/people/יעקב-עמדן> ;
+    skos:altLabel "Ashkenazi, Jacob Hirsch",
+        "Embden, Jacob",
+        "Emden, Jacob",
+        "Emden, Jacob Herschel Yaåbez",
+        "Emden, Jacob I.",
+        "Emden, Jacob Israel",
+        "Emden, Jacobus",
+        "Emden, Jakob",
+        "Emden, Jakob I.",
+        "Emden, Jakob Israel ben Zebi",
+        "Emden, Jakob Israel ben Zebi Hirsch Aschkenasi",
+        "Emden, Jakob Israel ben Zwi",
+        "Emden, Jaʿacob",
+        "Emden, Jaʿaqōḇ",
+        "Emden, Yakov",
+        "Emden, Yaʿaḳov",
+        "Emdin, Jankev",
+        "Emdin, Jankew",
+        "Emdin, Yaʿaḳov",
+        "Herschel, Jakob",
+        "Hirschel, Jacob",
+        "Hirschel, Jakob I.",
+        "Hirschel, Jakob Israel",
+        "J'B'Ṣ",
+        "Ja'abeṣ",
+        "Jabetz",
+        "Jabez",
+        "Jakob ben Zewi Hirsch Aschkenasi",
+        "Jaʿaqōb ʿEmden Ben Ṣebī",
+        "MʿMDYN, YʿQB",
+        "Ya'bes",
+        "Yaakov Ben-Zevi",
+        "Yabets",
+        "Yavez",
+        "Yaʿaqov Yiśrāʾēl ben Śěvî Hîrš Aškěnazî",
+        "Yaʿaqôv Ben-Yiśrāʾēl Ben-Ṣevî Emden",
+        "Yaʿavets",
+        "Yaʿăqōv BenṢǝvî",
+        "Yaʿbeṣ",
+        "Yaʿveṣ",
+        "YʾQB ʾMDN BN ẒBY",
+        "mē-ʿEmdên, Yaʿăqōv",
+        "ʿEmdên, Yaʿăqōv",
+        "ʿEmdên, Yaʿăqōv Ben Ṣĕvî",
+        "ʿMDN, Yaʿaqôv",
+        "אמדן, יעקב",
+        "יעבץ, יעקב",
+        "יעבץ, יעקב עמדין",
+        "יעב״ץ",
+        "יעקב בן צבי עמדין",
+        "יעקב בן צבי, מעמדין",
+        "יעקב המכונה יעב״ץ",
+        "יעקב יעבץ בן צבי",
+        "יעקב ישראל בן צבי אשכנזי עמדין",
+        "יעקב מעמדין",
+        "יעקב עמדין",
+        "יעקב עמדן",
+        "יעקב עמדען",
+        "יעקבץ",
+        "יעקץ",
+        "מהריעב״ץ",
+        "עמדין, יעקב",
+        "עמדין, יעקב בן צבי",
+        "עמדין, יעקב ישראל בן צבי אשכנזי",
+        "רבינו יעב״ץ" ;
+    skos:prefLabel "יעקב עמדן" .
+
+<http://data.judaicalink.org/data/haskala/ירוחם_בן_ישכר_בער_מלבוב> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-הכוזרי-תקנו> ;
+    owl:sameAs <https://www.haskala-library.net/people/ירוחם-בן-ישכר-בער-מלבוב> ;
+    skos:prefLabel "ירוחם בן ישכר בער מלבוב" .
+
+<http://data.judaicalink.org/data/haskala/לוין_צבי_הירש> a foaf:Person ;
+    gndo:gndIdentifier "102787123" ;
+    jl:birthDate "1721" ;
+    jl:deathDate "1800" ;
+    jl:hasPublication <https://www.haskala-library.net//books/איש-עניו> ;
+    owl:sameAs <http://d-nb.info/gnd/102787123>,
+        <https://viaf.org/viaf/64404821>,
+        <https://www.haskala-library.net/people/לוין-צבי-הירש> ;
+    skos:altLabel "Hirsch ben Arje Löb Berlin, Zebi",
+        "Levin, Hirsch",
+        "Levin, Hirschel",
+        "Lewin, Hirschel, deutscher Rabbiner",
+        "Loebel, Hirsch",
+        "Löbel, Hirsch",
+        "Löbel, Hirsch, deutscher Rabbiner",
+        "Lyon, Hart",
+        "Lyon, Hart, deutscher Rabbiner",
+        "לוין, צבי הירש בן אריה ליב" ;
+    skos:prefLabel "לוין, צבי הירש" .
+
+<http://data.judaicalink.org/data/haskala/מודינה_דוד_בן> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/אור-לוסטרו> ;
+    owl:sameAs <http://viaf.org/viaf/308273466>,
+        <https://www.haskala-library.net/people/מודינה-דוד-בן-ציון-בן-אברהם> ;
+    skos:altLabel "ציון בן אברהם" ;
+    skos:prefLabel "מודינה, דוד בן" .
+
+<http://data.judaicalink.org/data/haskala/מינדן_יהודה_ליב_בן_יואל> a foaf:Person ;
+    gndo:gndIdentifier "141903740" ;
+    jl:deathLocation "Berlin" ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-זכר-רב>,
+        <https://www.haskala-library.net//books/ספר-מלים-לאלוה> ;
+    owl:sameAs <http://d-nb.info/gnd/141903740>,
+        <https://viaf.org/viaf/308273494>,
+        <https://www.haskala-library.net/people/מינדן-יהודה-ליב-בן-יואל> ;
+    skos:altLabel "Minden, Judah Leib ben Joel",
+        "Minden, Judah Löb ben Joel",
+        "Minden, Yehudah Layb ben Yoʾel",
+        "Minden, Yehudah Leyb",
+        "Minden, Yehudah Leyb ben Yoʾel",
+        "Minden, Yehûdā L.",
+        "Yehuda Leyb Minden" ;
+    skos:prefLabel "מינדן, יהודה ליב בן יואל" .
+
+<http://data.judaicalink.org/data/haskala/מענץ_אברהם_יוסף_בן_שמעון_וואלף> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ראשית-למודים-1775> ;
+    owl:sameAs <https://www.haskala-library.net/people/מענץ-אברהם-יוסף-בן-שמעון-וואלף> ;
+    skos:prefLabel "מענץ, אברהם יוסף בן שמעון וואלף" .
+
+<http://data.judaicalink.org/data/haskala/מרגליות_יהודה_ליב_בן_אשר_זליג> a foaf:Person ;
+    gndo:gndIdentifier "103401342" ;
+    jl:birthDate "1747" ;
+    jl:deathDate "1811" ;
+    jl:hasPublication <https://www.haskala-library.net//books/זה-ספר-טוב-ויפה>,
+        <https://www.haskala-library.net//books/מחזור-לחג-השבועות-1805>,
+        <https://www.haskala-library.net//books/ספר-אגרת-המליצה-ומשפט-לשהק>,
+        <https://www.haskala-library.net//books/ספר-אור-עולם>,
+        <https://www.haskala-library.net//books/ספר-עצי-עדן>,
+        <https://www.haskala-library.net//books/פירוש-על-שיר-השירים> ;
+    owl:sameAs <http://d-nb.info/gnd/103401342>,
+        <https://viaf.org/viaf/27478507>,
+        <https://www.haskala-library.net/people/מרגליות-יהודה-ליב-בן-אשר-זליג> ;
+    skos:altLabel "Maharil Margaliyot",
+        "Margaliyot, Maharil",
+        "Margāliyyôt, Yehûdā L.",
+        "Margolioth, Juda Loeb",
+        "Margolioth, Judah Loeb" ;
+    skos:prefLabel "מרגליות, יהודה ליב בן אשר זליג" .
+
+<http://data.judaicalink.org/data/haskala/מרדכי_בן_יצחק_הלוי> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/אשכר-אקריב> ;
+    owl:sameAs <http://viaf.org/viaf/298857219>,
+        <https://www.haskala-library.net/people/מרדכי-בן-יצחק-הלוי> ;
+    skos:prefLabel "מרדכי בן יצחק, הלוי" .
+
+<http://data.judaicalink.org/data/haskala/משה_ברד_פל_משה_ברד_פל> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ג>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ד> ;
+    owl:sameAs <https://www.haskala-library.net/people/משה-ברד-פל-משה-ברד-פל> ;
+    skos:prefLabel "משה בר\"ד פ\"ל משה בר\"ד פ\"ל" .
+
+<http://data.judaicalink.org/data/haskala/משה_צבי_בר_מנחם_מוויהל> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/אמירה-נעימה> ;
+    owl:sameAs <https://www.haskala-library.net/people/משה-צבי-בר-מנחם-מוויהל> ;
+    skos:prefLabel "משה צבי ב\"ר מנחם מוויהל" .
+
+<http://data.judaicalink.org/data/haskala/נבחוביץ_יהודה_ליב> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/קול-שועת-בת-יהודה> ;
+    owl:sameAs <http://viaf.org/viaf/308280223>,
+        <https://www.haskala-library.net/people/נבחוביץ-יהודה-ליב> ;
+    skos:prefLabel "נבחוביץ, יהודה ליב" .
+
+<http://data.judaicalink.org/data/haskala/ננסיך_אברהם_בן_שלמה> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/עלה-תרופה> ;
+    owl:sameAs <http://viaf.org/viaf/297643410>,
+        <https://www.haskala-library.net/people/ננסיך-אברהם-בן-שלמה> ;
+    skos:prefLabel "ננסיך, אברהם בן שלמה" .
+
+<http://data.judaicalink.org/data/haskala/נפתלי_הירץ_בן_יהודה_ליב_מהלברשטט> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-אור-לעת-בקר> ;
+    owl:sameAs <https://www.haskala-library.net/people/נפתלי-הירץ-בן-יהודה-ליב-מהלברשטט> ;
+    skos:prefLabel "נפתלי הירץ בן יהודה ליב, מהלברשטט" .
+
+<http://data.judaicalink.org/data/haskala/פולק_אהרן> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/מלוכת-שאול> ;
+    owl:sameAs <http://viaf.org/viaf/308280873>,
+        <https://www.haskala-library.net/people/פולק-אהרן> ;
+    skos:prefLabel "פולק, אהרן" .
+
+<http://data.judaicalink.org/data/haskala/פועלי_בית_הדפוס_חנוך_נערים> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ברכת-פועלים> ;
+    owl:sameAs <https://www.haskala-library.net/people/פועלי-בית-הדפוס-חנוך-נערים> ;
+    skos:prefLabel "פועלי בית הדפוס חנוך נערים" .
+
+<http://data.judaicalink.org/data/haskala/פיאצה_משה_אהרן_רחמים> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/אורה-ושמחה> ;
+    owl:sameAs <http://viaf.org/viaf/97436179>,
+        <https://www.haskala-library.net/people/פיאצה-משה-אהרן-רחמים> ;
+    skos:prefLabel "פיאצה, משה אהרן רחמים" .
+
+<http://data.judaicalink.org/data/haskala/פנחס_זעליג_בן_אהרן> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/מבחר-הפנינים> ;
+    owl:sameAs <https://www.haskala-library.net/people/פנחס-זעליג-בן-אהרן> ;
+    skos:prefLabel "פנחס זעליג בן אהרן" .
+
+<http://data.judaicalink.org/data/haskala/פרידלנדר_ברד_בונם> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/הפטרות-מכל-השנה-א> ;
+    owl:sameAs <https://www.haskala-library.net/people/פרידלנדר-ברד-בונם> ;
+    skos:prefLabel "פרידלנדר, בר\"ד בונם" .
+
+<http://data.judaicalink.org/data/haskala/פרידלענדר_בונם_ברד_בונם_ברד_פל> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ג>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ד> ;
+    owl:sameAs <https://www.haskala-library.net/people/פרידלענדר-בונם-ברד-בונם-ברד-פל> ;
+    skos:prefLabel "פרידלענדר, בונם בר\"ד בונם בר\"ד פ\"ל" .
+
+<http://data.judaicalink.org/data/haskala/צבי_הירש_בן_מנחם_נחום> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/ספר-הלכה-למעשה> ;
+    owl:sameAs <https://www.haskala-library.net/people/צבי-הירש-בן-מנחם-נחום> ;
+    skos:prefLabel "צבי הירש בן מנחם נחום" .
+
+<http://data.judaicalink.org/data/haskala/ראכנאווע_יוזל> a foaf:Person ;
+    jl:hasPublication <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ג>,
+        <https://www.haskala-library.net//books/הפטרות-מכל-השנה-ד> ;
+    owl:sameAs <https://www.haskala-library.net/people/ראכנאווע-יוזל> ;
+    skos:prefLabel "ראכנאווע, יוזל" .
+
+<http://data.judaicalink.org/data/haskala/שיאר_אברהם_נפתלי_הירץ> a foaf:Person ;
+    gndo:gndIdentifier "1019716401" ;
+    jl:birthDate "1753" ;
+    jl:birthLocation "Frankfurt am Main" ;
+    jl:deathDate "1822" ;
+    jl:deathLocation "Mainz" ;
+    jl:hasPublication <https://www.haskala-library.net//books/אמירה-נעימה> ;
+    owl:sameAs <http://d-nb.info/gnd/1019716401>,
+        <https://viaf.org/viaf/24286909>,
+        <https://www.haskala-library.net/people/שיאר-אברהם-נפתלי-הירץ> ;
+    skos:altLabel "Schayer, Herz Abr. Naftali",
+        "Scheuer, Herz",
+        "Scheuer, Hirz Abraham Naphtali" ;
+    skos:prefLabel "שיאר, אברהם נפתלי הירץ" .
+

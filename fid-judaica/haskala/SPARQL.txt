@@ -1,0 +1,37 @@
+INSERT
+{ GRAPH <http://maral.wisslab.org/graphs/haskala>
+  {# ?x jl:birthLocation ?placebn .
+  ?x jl:deathLocation ?placedn .
+  }
+}
+
+where{
+
+  GRAPH <http://maral.wisslab.org/graphs/haskala> {
+
+    ?x a foaf:Person.
+    ?x owl:sameAs ?id.
+   # optional {?x gndo:gndIdentifier ?gnd}
+    #optional {?x jl:hasPublication ?pub}
+    #?x skos:prefLabel ?pref.
+   #optional {?x skos:altLabel ?alt2}
+   #?x owl:sameAs ?same
+
+
+
+   }
+
+  GRAPH <http://maral.wisslab.org/graphs/gnd>  {
+
+    ?id a gndo:DifferentiatedPerson.
+
+ #?id gndo:variantNameForThePerson ?alt.
+
+  # ?id gndo:dateOfBirth ?dateb.
+  # ?id gndo:dateOfDeath ?dated.
+# ?id gndo:placeOfBirth ?placeb .
+ # ?placeb gndo:preferredNameForThePlaceOrGeographicName ?placebn.
+ ?id gndo:placeOfDeath ?placed.
+  ?placed gndo:preferredNameForThePlaceOrGeographicName ?placedn. 
+
+  }}

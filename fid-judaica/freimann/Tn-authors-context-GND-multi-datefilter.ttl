@@ -1,0 +1,177 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180010006002> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/119199351> ;
+    dc:creator "Pistorius, Johann" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180010201007> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/117262277> ;
+    dc:creator "Weinberg, Magnus" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180010540009> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180010701002> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180010708001> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/117262277> ;
+    dc:creator "Weinberg, Magnus" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180010823011> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/10406448X>,
+        <http://d-nb.info/gnd/139872787> ;
+    dc:creator "Waeyen, Johannes van der" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180010823020> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/10406448X>,
+        <http://d-nb.info/gnd/139872787> ;
+    dc:creator "Waeyen, Johannes van der" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180011309000> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/104286547> ;
+    dc:creator "Hottinger, Johann Heinrich" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180011427017> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180011427027> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180011427038> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180011427040> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180011429018> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180011429022> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180011429034> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180011430002> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180011556001> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1024426734> ;
+    dc:creator "Goldschmidt, Salomon" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180013651009> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1053062125>,
+        <http://d-nb.info/gnd/121770095> ;
+    dc:creator "Deutsch, David",
+        "Deutsch, Israel" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180014494006> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/117262277> ;
+    dc:creator "Weinberg, Magnus" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180014698008> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/117262277> ;
+    dc:creator "Weinberg, Magnus" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180014722007> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/11718991X> ;
+    dc:creator "Buxtorf, Johann" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180015149000> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/117262277> ;
+    dc:creator "Weinberg, Magnus" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180015150012> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/117262277> ;
+    dc:creator "Weinberg, Magnus" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180015150027> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/117262277> ;
+    dc:creator "Weinberg, Magnus" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180170586024> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/104286547> ;
+    dc:creator "Hottinger, Johann Heinrich" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180170590003> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/11718991X> ;
+    dc:creator "Buxtorf, Johann" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-180170691018> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/11718991X> ;
+    dc:creator "Buxtorf, Johann" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30-181040540009> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30:1-100879> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1052974244>,
+        <http://d-nb.info/gnd/137454198> ;
+    dc:creator "Smith, George" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30:1-111218> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30:1-111253> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/117262277> ;
+    dc:creator "Weinberg, Magnus" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30:1-111480> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30:1-112085> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30:1-116570> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1024426734> ;
+    dc:creator "Goldschmidt, Salomon" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30:1-126344> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/11718991X> ;
+    dc:creator "Buxtorf, Johann" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30:1-138509> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/101528258X>,
+        <http://d-nb.info/gnd/108968147X> ;
+    dc:creator "Carmoly, Eliakim" .
+
+<http://nbn-resolving.de/urn:nbn:de:hebis:30:1-171535> a edm:WebResource ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/118861557>,
+        <http://d-nb.info/gnd/141623829> ;
+    dc:creator "Wohlgemuth, Joseph" .
+

@@ -1,0 +1,626 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://d-nb.info/gnd/100294871> a foaf:Person ;
+    skos:prefLabel "Hufnagel, Wilhelm Friedrich" .
+
+<http://d-nb.info/gnd/10031760X> a foaf:Person ;
+    skos:prefLabel "Reelant, Adriaan" .
+
+<http://d-nb.info/gnd/10036666X> a foaf:Person ;
+    skos:prefLabel "Juynboll, Theodoor Willem Jan" .
+
+<http://d-nb.info/gnd/100401791> a foaf:Person ;
+    skos:prefLabel "Schultens, Albert" .
+
+<http://d-nb.info/gnd/1011578166> a foaf:Person ;
+    skos:prefLabel "Schwarz, Israel" .
+
+<http://d-nb.info/gnd/101256195X> a foaf:Person ;
+    skos:prefLabel "Steckelmacher, Moritz" .
+
+<http://d-nb.info/gnd/1014633354> a foaf:Person ;
+    skos:prefLabel "Schwarz, Adolf" .
+
+<http://d-nb.info/gnd/1017099847> a foaf:Person ;
+    skos:prefLabel "Fischer, Bernhard" .
+
+<http://d-nb.info/gnd/1019261102> a foaf:Person ;
+    skos:prefLabel "Schreiner, Martin" .
+
+<http://d-nb.info/gnd/1019587113> a foaf:Person ;
+    skos:prefLabel "Lolli, Eude" .
+
+<http://d-nb.info/gnd/1020661259> a foaf:Person ;
+    skos:prefLabel "Klemperer, Wilhelm" .
+
+<http://d-nb.info/gnd/1022729039> a foaf:Person ;
+    skos:prefLabel "Mannheimer, David" .
+
+<http://d-nb.info/gnd/1022980262> a foaf:Person ;
+    skos:prefLabel "Schiffer, Sinai" .
+
+<http://d-nb.info/gnd/1024687775> a foaf:Person ;
+    skos:prefLabel "Rosenthal, Ludwig" .
+
+<http://d-nb.info/gnd/10259466X> a foaf:Person ;
+    skos:prefLabel "Kaempf, Saul I." .
+
+<http://d-nb.info/gnd/1026361001> a foaf:Person ;
+    skos:prefLabel "Wallerstein, Josua" .
+
+<http://d-nb.info/gnd/1026544823> a foaf:Person ;
+    skos:prefLabel "Schlesinger, Abraham" .
+
+<http://d-nb.info/gnd/102673973X> a foaf:Person ;
+    skos:prefLabel "Jacobson, Moses" .
+
+<http://d-nb.info/gnd/1027647871> a foaf:Person ;
+    skos:prefLabel "Silberstein, Michael" .
+
+<http://d-nb.info/gnd/1028558082> a foaf:Person ;
+    skos:prefLabel "Roth, Aron" .
+
+<http://d-nb.info/gnd/1031221158> a foaf:Person ;
+    skos:prefLabel "Schmiedl, Adolf" .
+
+<http://d-nb.info/gnd/1032617101> a foaf:Person ;
+    skos:prefLabel "Schreiber, Emanuel" .
+
+<http://d-nb.info/gnd/1033143006> a foaf:Person ;
+    skos:prefLabel "Schulbaum, Moses" .
+
+<http://d-nb.info/gnd/1035462761> a foaf:Person ;
+    skos:prefLabel "Auerbach, Heimann" .
+
+<http://d-nb.info/gnd/1037386302> a foaf:Person ;
+    skos:prefLabel "Wolff, Maurice" .
+
+<http://d-nb.info/gnd/1038227453> a foaf:Person ;
+    skos:prefLabel "Meyer, Seligmann" .
+
+<http://d-nb.info/gnd/103859846X> a foaf:Person ;
+    skos:prefLabel "Berger, Heinrich" .
+
+<http://d-nb.info/gnd/104224142> a foaf:Person ;
+    skos:prefLabel "Nagel, Johann Andreas Michael" .
+
+<http://d-nb.info/gnd/104258270X> a foaf:Person ;
+    skos:prefLabel "Simon, ..." .
+
+<http://d-nb.info/gnd/1044145978> a foaf:Person ;
+    skos:prefLabel "Wolf, Albert" .
+
+<http://d-nb.info/gnd/1044594926> a foaf:Person ;
+    skos:prefLabel "Danby, Herbert" .
+
+<http://d-nb.info/gnd/1048451216> a foaf:Person ;
+    skos:prefLabel "Tedeschi, Marco" .
+
+<http://d-nb.info/gnd/1050572904> a foaf:Person ;
+    skos:prefLabel "Wertheimer, Joseph" .
+
+<http://d-nb.info/gnd/1051855381> a foaf:Person ;
+    skos:prefLabel "Frank, Abraham Salomon" .
+
+<http://d-nb.info/gnd/1051900611> a foaf:Person ;
+    skos:prefLabel "Ehrlich, Adolf" .
+
+<http://d-nb.info/gnd/1053062125> a foaf:Person ;
+    skos:prefLabel "Deutsch, Israel" .
+
+<http://d-nb.info/gnd/1053926081> a foaf:Person ;
+    skos:prefLabel "Chodowski, Salomo" .
+
+<http://d-nb.info/gnd/1054962537> a foaf:Person ;
+    skos:prefLabel "Kroner, Hermann" .
+
+<http://d-nb.info/gnd/1055183973> a foaf:Person ;
+    skos:prefLabel "Donath, Leopold" .
+
+<http://d-nb.info/gnd/1055202404> a foaf:Person ;
+    skos:prefLabel "Berger, Philippe" .
+
+<http://d-nb.info/gnd/105520914X> a foaf:Person ;
+    skos:prefLabel "Netter, Nathan" .
+
+<http://d-nb.info/gnd/1055283560> a foaf:Person ;
+    skos:prefLabel "Murawski, Friedrich" .
+
+<http://d-nb.info/gnd/1055390502> a foaf:Person ;
+    skos:prefLabel "Katz, Albert" .
+
+<http://d-nb.info/gnd/1055435425> a foaf:Person ;
+    skos:prefLabel "Loewe, Louis" .
+
+<http://d-nb.info/gnd/1058140434> a foaf:Person ;
+    skos:prefLabel "Calvary, Moses" .
+
+<http://d-nb.info/gnd/1059889587> a foaf:Person ;
+    skos:prefLabel "Cohn, John" .
+
+<http://d-nb.info/gnd/106074113X> a foaf:Person ;
+    skos:prefLabel "Lengsfelder, Salomon" .
+
+<http://d-nb.info/gnd/1061046702> a foaf:Person ;
+    skos:prefLabel "Cohen, Abraham" .
+
+<http://d-nb.info/gnd/106282654X> a foaf:Person ;
+    skos:prefLabel "Schleßinger, L." .
+
+<http://d-nb.info/gnd/1068374322> a foaf:Person ;
+    skos:prefLabel "Levi, Benedikt" .
+
+<http://d-nb.info/gnd/1068782277> a foaf:Person ;
+    skos:prefLabel "Adler, Michael" .
+
+<http://d-nb.info/gnd/1068782498> a foaf:Person ;
+    skos:prefLabel "Alexandersohn, Jonathan" .
+
+<http://d-nb.info/gnd/1068842040> a foaf:Person ;
+    skos:prefLabel "Ehrmann, Daniel" .
+
+<http://d-nb.info/gnd/1069962961> a foaf:Person ;
+    skos:prefLabel "Ehrentheil, Adolf" .
+
+<http://d-nb.info/gnd/1071570307> a foaf:Person ;
+    skos:prefLabel "Cattaneo, Carlo" .
+
+<http://d-nb.info/gnd/1072317575> a foaf:Person ;
+    skos:prefLabel "Langer, Georg" .
+
+<http://d-nb.info/gnd/1072389169> a foaf:Person ;
+    skos:prefLabel "Winter, David Alexander" .
+
+<http://d-nb.info/gnd/1072468875> a foaf:Person ;
+    skos:prefLabel "Richter, Georg" .
+
+<http://d-nb.info/gnd/10762527X> a foaf:Person ;
+    skos:prefLabel "Gall, August von" .
+
+<http://d-nb.info/gnd/1081081538> a foaf:Person ;
+    skos:prefLabel "Goitein, Hirsch" .
+
+<http://d-nb.info/gnd/1082354171> a foaf:Person ;
+    skos:prefLabel "Stier, Josef" .
+
+<http://d-nb.info/gnd/1082789534> a foaf:Person ;
+    skos:prefLabel "Fischer, Markus" .
+
+<http://d-nb.info/gnd/1089702078> a foaf:Person ;
+    skos:prefLabel "Akiba ben Joseph" .
+
+<http://d-nb.info/gnd/1090291728> a foaf:Person ;
+    skos:prefLabel "Robertson, William" .
+
+<http://d-nb.info/gnd/109469990X> a foaf:Person ;
+    skos:prefLabel "Adler, Abraham" .
+
+<http://d-nb.info/gnd/1101973749> a foaf:Person ;
+    skos:prefLabel "Weichmann, Friedrich" .
+
+<http://d-nb.info/gnd/1102968692> a foaf:Person ;
+    skos:prefLabel "Aron, Arnaud" .
+
+<http://d-nb.info/gnd/11566761X> a foaf:Person ;
+    skos:prefLabel "Beck, Matthias Friedrich" .
+
+<http://d-nb.info/gnd/115847170> a foaf:Person ;
+    skos:prefLabel "Cohn, Emil" .
+
+<http://d-nb.info/gnd/116008148> a foaf:Person ;
+    skos:prefLabel "Adler, Hermann" .
+
+<http://d-nb.info/gnd/116008393> a foaf:Person ;
+    skos:prefLabel "Adler, Samuel" .
+
+<http://d-nb.info/gnd/116079576> a foaf:Person ;
+    skos:prefLabel "Perles, Felix" .
+
+<http://d-nb.info/gnd/11612783X> a foaf:Person ;
+    skos:prefLabel "Dillmann, August" .
+
+<http://d-nb.info/gnd/11613612X> a foaf:Person ;
+    skos:prefLabel "Berliner, Abraham" .
+
+<http://d-nb.info/gnd/116141115> a foaf:Person ;
+    skos:prefLabel "Kayserling, Meyer" .
+
+<http://d-nb.info/gnd/116176288> a foaf:Person ;
+    skos:prefLabel "Philippson, Ludwig" .
+
+<http://d-nb.info/gnd/11621595X> a foaf:Person ;
+    skos:prefLabel "Bodenschatz, Johann Christoph Georg" .
+
+<http://d-nb.info/gnd/11622732X> a foaf:Person ;
+    skos:prefLabel "Kley, Eduard" .
+
+<http://d-nb.info/gnd/116266899> a foaf:Person ;
+    skos:prefLabel "Bosse, Friedrich" .
+
+<http://d-nb.info/gnd/116401400> a foaf:Person ;
+    skos:prefLabel "Cahn, Michael" .
+
+<http://d-nb.info/gnd/11645864X> a foaf:Person ;
+    skos:prefLabel "Carpzov, Johann Benedict" .
+
+<http://d-nb.info/gnd/116468106> a foaf:Person ;
+    skos:prefLabel "Caspari, Wilhelm" .
+
+<http://d-nb.info/gnd/116504455> a foaf:Person ;
+    skos:prefLabel "Cheyne, Thomas K." .
+
+<http://d-nb.info/gnd/116521260> a foaf:Person ;
+    skos:prefLabel "Gelbhaus, Sigmund" .
+
+<http://d-nb.info/gnd/116563923> a foaf:Person ;
+    skos:prefLabel "Riem, Andreas" .
+
+<http://d-nb.info/gnd/116572736> a foaf:Person ;
+    skos:prefLabel "Hehn, Johannes" .
+
+<http://d-nb.info/gnd/11660042X> a foaf:Person ;
+    skos:prefLabel "Fleischer, Heinrich Leberecht" .
+
+<http://d-nb.info/gnd/116603615> a foaf:Person ;
+    skos:prefLabel "Geyer, Rudolf" .
+
+<http://d-nb.info/gnd/116660147> a foaf:Person ;
+    skos:prefLabel "Heinemann, Jeremias" .
+
+<http://d-nb.info/gnd/116750057> a foaf:Person ;
+    skos:prefLabel "Freimann, Aron" .
+
+<http://d-nb.info/gnd/116756586> a foaf:Person ;
+    skos:prefLabel "Goldschmidt, Israel" .
+
+<http://d-nb.info/gnd/11676712X> a foaf:Person ;
+    skos:prefLabel "Salomon, Gotthold" .
+
+<http://d-nb.info/gnd/11679724X> a foaf:Person ;
+    skos:prefLabel "Friedlaender, Israel" .
+
+<http://d-nb.info/gnd/116895845> a foaf:Person ;
+    skos:prefLabel "Scholl, Carl" .
+
+<http://d-nb.info/gnd/116901373> a foaf:Person ;
+    skos:prefLabel "Grunwald, Max" .
+
+<http://d-nb.info/gnd/116963964> a foaf:Person ;
+    skos:prefLabel "Zange, Friedrich" .
+
+<http://d-nb.info/gnd/116971207> a foaf:Person ;
+    skos:prefLabel "Lewin, Adolf" .
+
+<http://d-nb.info/gnd/117057231> a foaf:Person ;
+    skos:prefLabel "Jaeger, Johannes" .
+
+<http://d-nb.info/gnd/11706940X> a foaf:Person ;
+    skos:prefLabel "Nowack, Wilhelm" .
+
+<http://d-nb.info/gnd/117078816> a foaf:Person ;
+    skos:prefLabel "Schroeder, Nikolaus Wilhelm" .
+
+<http://d-nb.info/gnd/117162485> a foaf:Person ;
+    skos:prefLabel "Johlson, Josef" .
+
+<http://d-nb.info/gnd/117243027> a foaf:Person ;
+    skos:prefLabel "Stein, Leopold" .
+
+<http://d-nb.info/gnd/117243426> a foaf:Person ;
+    skos:prefLabel "Stein, Ludwig" .
+
+<http://d-nb.info/gnd/11727643X> a foaf:Person ;
+    skos:prefLabel "Stern, Ludwig" .
+
+<http://d-nb.info/gnd/117310212> a foaf:Person ;
+    skos:prefLabel "Unna, Isak" .
+
+<http://d-nb.info/gnd/117317748> a foaf:Person ;
+    skos:prefLabel "Wessely, Wolfgang" .
+
+<http://d-nb.info/gnd/11732275X> a foaf:Person ;
+    skos:prefLabel "Ussermann, Aemilian" .
+
+<http://d-nb.info/gnd/117351075> a foaf:Person ;
+    skos:prefLabel "Thomsen, Peter" .
+
+<http://d-nb.info/gnd/11743972X> a foaf:Person ;
+    skos:prefLabel "Tympe, Johann Gottfried" .
+
+<http://d-nb.info/gnd/117474010> a foaf:Person ;
+    skos:prefLabel "Seligmann, Caesar" .
+
+<http://d-nb.info/gnd/11758987X> a foaf:Person ;
+    skos:prefLabel "Besser, Max" .
+
+<http://d-nb.info/gnd/11760934X> a foaf:Person ;
+    skos:prefLabel "Boehmer, Julius" .
+
+<http://d-nb.info/gnd/117723231> a foaf:Person ;
+    skos:prefLabel "Rothschild, David" .
+
+<http://d-nb.info/gnd/117747955> a foaf:Person ;
+    skos:prefLabel "Hirsch, Samuel" .
+
+<http://d-nb.info/gnd/11775160X> a foaf:Person ;
+    skos:prefLabel "Creizenach, Michael" .
+
+<http://d-nb.info/gnd/11852190X> a foaf:Person ;
+    skos:prefLabel "Conring, Hermann" .
+
+<http://d-nb.info/gnd/118566318> a foaf:Person ;
+    skos:prefLabel "Krause, Gerhard" .
+
+<http://d-nb.info/gnd/11867482X> a foaf:Person ;
+    skos:prefLabel "Brunner, Peter" .
+
+<http://d-nb.info/gnd/118682857> a foaf:Person ;
+    skos:prefLabel "Ewald, Heinrich" .
+
+<http://d-nb.info/gnd/118683977> a foaf:Person ;
+    skos:prefLabel "Fleury, Claude" .
+
+<http://d-nb.info/gnd/11880698X> a foaf:Person ;
+    skos:prefLabel "Wolf, Ernst" .
+
+<http://d-nb.info/gnd/11880846X> a foaf:Person ;
+    skos:prefLabel "Zimmern, Heinrich" .
+
+<http://d-nb.info/gnd/11884704X> a foaf:Person ;
+    skos:prefLabel "Krug, Wilhelm Traugott" .
+
+<http://d-nb.info/gnd/11884976X> a foaf:Person ;
+    skos:prefLabel "Bamberger, Seligmann Baer" .
+
+<http://d-nb.info/gnd/11891703X> a foaf:Person ;
+    skos:prefLabel "Silver, Abba Hillel" .
+
+<http://d-nb.info/gnd/119066823> a foaf:Person ;
+    skos:prefLabel "Carlebach, Joseph" .
+
+<http://d-nb.info/gnd/119249197> a foaf:Person ;
+    skos:prefLabel "Kaufmann, David" .
+
+<http://d-nb.info/gnd/11933304X> a foaf:Person ;
+    skos:prefLabel "Geiger, Abraham" .
+
+<http://d-nb.info/gnd/119354241> a foaf:Person ;
+    skos:prefLabel "Schorr, Moses" .
+
+<http://d-nb.info/gnd/11937224X> a foaf:Person ;
+    skos:prefLabel "Oyʿerbakh, Mosheh" .
+
+<http://d-nb.info/gnd/119402734> a foaf:Person ;
+    skos:prefLabel "Strack, Hermann L." .
+
+<http://d-nb.info/gnd/119405504> a foaf:Person ;
+    skos:prefLabel "Schulz, Johann Heinrich" .
+
+<http://d-nb.info/gnd/120172070> a foaf:Person ;
+    skos:prefLabel "Schmidt, Karl" .
+
+<http://d-nb.info/gnd/120190087> a foaf:Person ;
+    skos:prefLabel "Buchholz, Friedrich" .
+
+<http://d-nb.info/gnd/120527685> a foaf:Person ;
+    skos:prefLabel "Holtzmann, Oskar" .
+
+<http://d-nb.info/gnd/12184353X> a foaf:Person ;
+    skos:prefLabel "Hildesheimer, Esra Esriel" .
+
+<http://d-nb.info/gnd/122160843> a foaf:Person ;
+    skos:prefLabel "Levi, Giuseppe" .
+
+<http://d-nb.info/gnd/122223640> a foaf:Person ;
+    skos:prefLabel "Lehmann, Johann Georg" .
+
+<http://d-nb.info/gnd/12242901X> a foaf:Person ;
+    skos:prefLabel "Delmedigo, Yosef Shelomoh" .
+
+<http://d-nb.info/gnd/12270049X> a foaf:Person ;
+    skos:prefLabel "Marracci, Lodovico" .
+
+<http://d-nb.info/gnd/123161312> a foaf:Person ;
+    skos:prefLabel "Kolb, Franz" .
+
+<http://d-nb.info/gnd/123851629> a foaf:Person ;
+    skos:prefLabel "Bischoff, Erich" .
+
+<http://d-nb.info/gnd/123876400> a foaf:Person ;
+    skos:prefLabel "Brody, Heinrich" .
+
+<http://d-nb.info/gnd/12430575X> a foaf:Person ;
+    skos:prefLabel "Margaritha, Anton" .
+
+<http://d-nb.info/gnd/124436579> a foaf:Person ;
+    skos:prefLabel "Prideaux, Humphrey" .
+
+<http://d-nb.info/gnd/124487009> a foaf:Person ;
+    skos:prefLabel "Allix, Pierre" .
+
+<http://d-nb.info/gnd/12471496X> a foaf:Person ;
+    skos:prefLabel "Bornitius, Christian" .
+
+<http://d-nb.info/gnd/12485382X> a foaf:Person ;
+    skos:prefLabel "Galatino, Pietro" .
+
+<http://d-nb.info/gnd/12685601X> a foaf:Person ;
+    skos:prefLabel "Rosenfeld, Moritz" .
+
+<http://d-nb.info/gnd/127153152> a foaf:Person ;
+    skos:prefLabel "Lattes, Dante" .
+
+<http://d-nb.info/gnd/12777761X> a foaf:Person ;
+    skos:prefLabel "Goldschmidt, Josef" .
+
+<http://d-nb.info/gnd/127882197> a foaf:Person ;
+    skos:prefLabel "Kurrein, Adolf" .
+
+<http://d-nb.info/gnd/12857156X> a foaf:Person ;
+    skos:prefLabel "Grape, Zacharias" .
+
+<http://d-nb.info/gnd/12915105X> a foaf:Person ;
+    skos:prefLabel "Eberhard, Otto" .
+
+<http://d-nb.info/gnd/12916609X> a foaf:Person ;
+    skos:prefLabel "Cappel, Louis" .
+
+<http://d-nb.info/gnd/129329460> a foaf:Person ;
+    skos:prefLabel "Reich, Wilhelm" .
+
+<http://d-nb.info/gnd/12954759X> a foaf:Person ;
+    skos:prefLabel "Venetianer, Ludwig" .
+
+<http://d-nb.info/gnd/129553980> a foaf:Person ;
+    skos:prefLabel "Rieger, Paul" .
+
+<http://d-nb.info/gnd/130381330> a foaf:Person ;
+    skos:prefLabel "Dietz, Alexander" .
+
+<http://d-nb.info/gnd/130472484> a foaf:Person ;
+    skos:prefLabel "Frankfurter, Salomon" .
+
+<http://d-nb.info/gnd/130479276> a foaf:Person ;
+    skos:prefLabel "Klein, Jacob" .
+
+<http://d-nb.info/gnd/130556882> a foaf:Person ;
+    skos:prefLabel "Bamberger, Salomon" .
+
+<http://d-nb.info/gnd/13152304X> a foaf:Person ;
+    skos:prefLabel "Pfeffinger, Daniel" .
+
+<http://d-nb.info/gnd/13160564X> a foaf:Person ;
+    skos:prefLabel "Iken, Conrad" .
+
+<http://d-nb.info/gnd/13164145X> a foaf:Person ;
+    skos:prefLabel "Landau, Ezechiel" .
+
+<http://d-nb.info/gnd/131883968> a foaf:Person ;
+    skos:prefLabel "Eckstein, Adolf" .
+
+<http://d-nb.info/gnd/132103974> a foaf:Person ;
+    skos:prefLabel "Mercier, Jean" .
+
+<http://d-nb.info/gnd/133125165> a foaf:Person ;
+    skos:prefLabel "Spencer, John" .
+
+<http://d-nb.info/gnd/133300161> a foaf:Person ;
+    skos:prefLabel "Fischer, Karl" .
+
+<http://d-nb.info/gnd/133524019> a foaf:Person ;
+    skos:prefLabel "Stern, Moritz" .
+
+<http://d-nb.info/gnd/133761061> a foaf:Person ;
+    skos:prefLabel "Cohn, Arthur" .
+
+<http://d-nb.info/gnd/133958809> a foaf:Person ;
+    skos:prefLabel "Kahn, Zadoc" .
+
+<http://d-nb.info/gnd/134106229> a foaf:Person ;
+    skos:prefLabel "Bamberger, Isaac" .
+
+<http://d-nb.info/gnd/135962404> a foaf:Person ;
+    skos:prefLabel "Kisch, Alexander" .
+
+<http://d-nb.info/gnd/136544142> a foaf:Person ;
+    skos:prefLabel "Lazarus, Leiser" .
+
+<http://d-nb.info/gnd/137101597> a foaf:Person ;
+    skos:prefLabel "Kohut, Alexander" .
+
+<http://d-nb.info/gnd/137108583> a foaf:Person ;
+    skos:prefLabel "Kroner, Theodor" .
+
+<http://d-nb.info/gnd/137360711> a foaf:Person ;
+    skos:prefLabel "Friedeberg, Meyer" .
+
+<http://d-nb.info/gnd/137371438> a foaf:Person ;
+    skos:prefLabel "Stein, Abraham" .
+
+<http://d-nb.info/gnd/13759383X> a foaf:Person ;
+    skos:prefLabel "Klemperer, Gutmann" .
+
+<http://d-nb.info/gnd/138183023> a foaf:Person ;
+    skos:prefLabel "Munk, Meier" .
+
+<http://d-nb.info/gnd/138382468> a foaf:Person ;
+    skos:prefLabel "Mielziner, Moses" .
+
+<http://d-nb.info/gnd/13860066X> a foaf:Person ;
+    skos:prefLabel "Eisler, Leopold" .
+
+<http://d-nb.info/gnd/13927605X> a foaf:Person ;
+    skos:prefLabel "Steinersdorff, Johann Christian" .
+
+<http://d-nb.info/gnd/139714413> a foaf:Person ;
+    skos:prefLabel "Doctor, Max" .
+
+<http://d-nb.info/gnd/139792589> a foaf:Person ;
+    skos:prefLabel "Vogelstein, Hermann" .
+
+<http://d-nb.info/gnd/139814728> a foaf:Person ;
+    skos:prefLabel "Ginsburger, Moses" .
+
+<http://d-nb.info/gnd/139891811> a foaf:Person ;
+    skos:prefLabel "Gousset, Jacques" .
+
+<http://d-nb.info/gnd/14027488X> a foaf:Person ;
+    skos:prefLabel "Hafner, Johann Peter" .
+
+<http://d-nb.info/gnd/140475338> a foaf:Person ;
+    skos:prefLabel "Seeger, Heinrich" .
+
+<http://d-nb.info/gnd/140591834> a foaf:Person ;
+    skos:prefLabel "Costa, Israel" .
+
+<http://d-nb.info/gnd/141651911> a foaf:Person ;
+    skos:prefLabel "Landsberger, Julius" .
+
+<http://d-nb.info/gnd/14302213X> a foaf:Person ;
+    skos:prefLabel "Castiglioni, Vittorio" .
+
+<http://d-nb.info/gnd/143060791> a foaf:Person ;
+    skos:prefLabel "Goldmann, Felix" .
+
+<http://d-nb.info/gnd/143205404> a foaf:Person ;
+    skos:prefLabel "Landau, Leo" .
+
+<http://d-nb.info/gnd/143215248> a foaf:Person ;
+    skos:prefLabel "Bondi, Jonas H." .
+
+<http://d-nb.info/gnd/143575120> a foaf:Person ;
+    skos:prefLabel "Gronemann, Selig" .
+
+<http://d-nb.info/gnd/14363142X> a foaf:Person ;
+    skos:prefLabel "Sachs, Senior" .
+
+<http://d-nb.info/gnd/143894056> a foaf:Person ;
+    skos:prefLabel "Lemans, Moses" .
+
+<http://d-nb.info/gnd/171949366> a foaf:Person ;
+    skos:prefLabel "Altmann, Adolf" .
+
+<http://d-nb.info/gnd/172423414> a foaf:Person ;
+    skos:prefLabel "Taglicht, Israel" .
+
+<http://d-nb.info/gnd/172761573> a foaf:Person ;
+    skos:prefLabel "Hirschfeld, Hartwig" .
+
+<http://d-nb.info/gnd/172993555> a foaf:Person ;
+    skos:prefLabel "Cohen, Benjamin" .
+
+<http://d-nb.info/gnd/173747167> a foaf:Person ;
+    skos:prefLabel "Fischer, Bernard" .
+
+<http://d-nb.info/gnd/174077084> a foaf:Person ;
+    skos:prefLabel "Ziegler, Ignaz" .
+
+<http://d-nb.info/gnd/174137273> a foaf:Person ;
+    skos:prefLabel "Ubach, Bonaventura" .
+

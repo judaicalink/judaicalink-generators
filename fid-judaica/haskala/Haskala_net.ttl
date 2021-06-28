@@ -1,0 +1,364 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix jl: <http://data.judaicalink.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.judaicalink.org/data/haskala/Aaron_Halle-Wolfssohn> a foaf:Person ;
+    gndo:gndIdentifier "120163683" ;
+    jl:Occupation "Schriftsteller, Herausgeber, Lehrer" ;
+    jl:birthDate "1756" ;
+    jl:birthLocation "Nieder-Ehnheim" ;
+    jl:deathDate "21.03.1835" ;
+    jl:deathLocation "Fürth" ;
+    owl:sameAs <http://d-nb.info/gnd/120163683>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/halle-wolfsohn.html> ;
+    skos:prefLabel "Halle-Wolfssohn, Aaron" .
+
+<http://data.judaicalink.org/data/haskala/AronEmmerich_Gumpertz> a foaf:Person ;
+    gndo:gndIdentifier "136096603" ;
+    jl:Occupation "Doktor der Medizin, Sekretär des Präsidenten der Akademie der Wissenschaften Pierre Louis Moreau de Maupertuis" ;
+    jl:birthDate "10.12.1723" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "10.04.1769" ;
+    jl:deathLocation "Hamburg" ;
+    owl:sameAs <http://d-nb.info/gnd/136096603>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/gumpertz.html> ;
+    skos:prefLabel "Gumpertz, Aron Emmerich" .
+
+<http://data.judaicalink.org/data/haskala/Benedict_Jeitteles> a foaf:Person ;
+    gndo:gndIdentifier "136271170" ;
+    jl:Occupation "Rabbiner, Schriftsteller, Arzt" ;
+    jl:birthDate "22.04.1762" ;
+    jl:birthLocation "Prag" ;
+    jl:deathDate "18.12.1813" ;
+    jl:deathLocation "Prag" ;
+    owl:sameAs <http://d-nb.info/gnd/136271170>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/bjeitteles.html> ;
+    skos:prefLabel "Jeitteles, Benedict" .
+
+<http://data.judaicalink.org/data/haskala/David_Friedländer> a foaf:Person ;
+    gndo:gndIdentifier "119463288" ;
+    jl:Occupation "Kaufmann, Schriftsteller, Stadtrat" ;
+    jl:birthDate "06.12.1750" ;
+    jl:birthLocation "Königsberg" ;
+    jl:deathDate "25.12.1834" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/119463288>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/friedlaender.html> ;
+    skos:prefLabel "Friedländer, David" .
+
+<http://data.judaicalink.org/data/haskala/David_Oppenheimer> a foaf:Person ;
+    gndo:gndIdentifier "1015480195" ;
+    jl:Occupation "Arzt, medizinischer Aufklärer" ;
+    jl:birthDate "25.02.1752 oder 1753" ;
+    jl:birthLocation "" ;
+    jl:deathDate "18.11.1815" ;
+    jl:deathLocation "" ;
+    owl:sameAs <http://d-nb.info/gnd/1015480195>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/david-oppenheimer.html> ;
+    skos:prefLabel "Oppenheimer, David" .
+
+<http://data.judaicalink.org/data/haskala/EphraimMoses_Kuh> a foaf:Person ;
+    gndo:gndIdentifier "120951711" ;
+    jl:Occupation "Dichter, Gelehrter, Kaufmann" ;
+    jl:birthDate "1731" ;
+    jl:birthLocation "Breslau" ;
+    jl:deathDate "1790" ;
+    jl:deathLocation "Breslau" ;
+    owl:sameAs <http://d-nb.info/gnd/120951711>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/kuh.html> ;
+    skos:prefLabel "Kuh, Ephraim Moses" .
+
+<http://data.judaicalink.org/data/haskala/Hartwig_Wessely> a foaf:Person ;
+    gndo:gndIdentifier "119178583" ;
+    jl:Occupation "Dichter, Schriftsteller, Kaufmann" ;
+    jl:birthDate "1725" ;
+    jl:birthLocation "Hamburg[?]" ;
+    jl:deathDate "28.02.1805" ;
+    jl:deathLocation "Hamburg" ;
+    owl:sameAs <http://d-nb.info/gnd/119178583>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/hwessely.html> ;
+    skos:prefLabel "Wessely, Hartwig" .
+
+<http://data.judaicalink.org/data/haskala/Henriette_Herz> a foaf:Person ;
+    gndo:gndIdentifier "118550152" ;
+    jl:Occupation "Salonnière" ;
+    jl:birthDate "05.09.1764" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "22.10.1847" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/118550152>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/henriette-herz.html> ;
+    skos:prefLabel "Herz, Henriette" .
+
+<http://data.judaicalink.org/data/haskala/Herz_Homberg> a foaf:Person ;
+    gndo:gndIdentifier "134020626" ;
+    jl:Occupation "Lehrer, Gelehrter, Schriftsteller" ;
+    jl:birthDate "9.1749" ;
+    jl:birthLocation "Lieben" ;
+    jl:deathDate "24.08.1841" ;
+    jl:deathLocation "Prag" ;
+    owl:sameAs <http://d-nb.info/gnd/134020626>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/homberg.html> ;
+    skos:prefLabel "Homberg, Herz" .
+
+<http://data.judaicalink.org/data/haskala/Ignaz_Jeitteles> a foaf:Person ;
+    gndo:gndIdentifier "117614823" ;
+    jl:Occupation "Kaufmann, Schriftsteller" ;
+    jl:birthDate "06.09.1783" ;
+    jl:birthLocation "Prag" ;
+    jl:deathDate "19.06.1843" ;
+    jl:deathLocation "Wien" ;
+    owl:sameAs <http://d-nb.info/gnd/117614823>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/ijeitteles.html> ;
+    skos:prefLabel "Jeitteles, Ignaz" .
+
+<http://data.judaicalink.org/data/haskala/ImmanuelMoritz_Neumann> a foaf:Person ;
+    gndo:gndIdentifier "137816820" ;
+    jl:Occupation "Lehrer, Schriftsteller" ;
+    jl:birthDate "" ;
+    jl:birthLocation "Brody[?]" ;
+    jl:deathDate "" ;
+    jl:deathLocation "Breslau [?]" ;
+    owl:sameAs <http://d-nb.info/gnd/137816820>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/neumann.html> ;
+    skos:prefLabel "Neumann, Immanuel Moritz" .
+
+<http://data.judaicalink.org/data/haskala/IsaacAbraham_Euchel> a foaf:Person ;
+    gndo:gndIdentifier "122891961" ;
+    jl:Occupation "Orientalist, Schriftsteller, Übersetzer, Verleger" ;
+    jl:birthDate "17.10.1756" ;
+    jl:birthLocation "Kopenhagen" ;
+    jl:deathDate "18.06.1804" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/122891961>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/euchel.html> ;
+    skos:prefLabel "Euchel, Isaac Abraham" .
+
+<http://data.judaicalink.org/data/haskala/IsaacDaniel_Itzig> a foaf:Person ;
+    gndo:gndIdentifier "136249930" ;
+    jl:Occupation "Mitbegründer der Jüdischen Freischule und der Orientaltischen Buchdruckerei, Hofbankier und Hofbaurat des preußischen Königs Friedrich Wilhelm II." ;
+    jl:birthDate "20.12.1750" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "07.07.1806" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/136249930>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/isaac-daniel-itzig.html> ;
+    skos:prefLabel "Itzig, Isaac Daniel" .
+
+<http://data.judaicalink.org/data/haskala/Isaac_Satanow> a foaf:Person ;
+    gndo:gndIdentifier "124154565" ;
+    jl:Occupation "Buchdrucker, Schriftsteller" ;
+    jl:birthDate "1733" ;
+    jl:birthLocation "Satanow" ;
+    jl:deathDate "25.12.1805" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/124154565>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/satanow.html> ;
+    skos:prefLabel "Satanow, Isaac" .
+
+<http://data.judaicalink.org/data/haskala/Isaak_Alexander> a foaf:Person ;
+    gndo:gndIdentifier "120105756" ;
+    jl:Occupation "Rabbiner, Schriftsteller" ;
+    jl:birthDate "17.08.1722" ;
+    jl:birthLocation " Regensburg" ;
+    jl:deathDate "Anf. 19. Jhd" ;
+    jl:deathLocation " Regensburg" ;
+    owl:sameAs <http://d-nb.info/gnd/120105756>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/alexander.html> ;
+    skos:prefLabel "Alexander, Isaak" .
+
+<http://data.judaicalink.org/data/haskala/Lazarus_Bendavid> a foaf:Person ;
+    gndo:gndIdentifier "116117818" ;
+    jl:Occupation "Philosoph, Pädagoge" ;
+    jl:birthDate "1762" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "1832" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/116117818>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/bendavid.html> ;
+    skos:prefLabel "Bendavid, Lazarus" .
+
+<http://data.judaicalink.org/data/haskala/MarcusElieser_Bloch> a foaf:Person ;
+    gndo:gndIdentifier "118663968" ;
+    jl:Occupation "Arzt, Ichthyologe, Naturforscher" ;
+    jl:birthDate "1723" ;
+    jl:birthLocation "bei Ansbach" ;
+    jl:deathDate "06.08.1799" ;
+    jl:deathLocation "Karlsbad" ;
+    owl:sameAs <http://d-nb.info/gnd/118663968>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/bloch.html> ;
+    skos:prefLabel "Bloch, Marcus Elieser" .
+
+<http://data.judaicalink.org/data/haskala/Marcus_Herz> a foaf:Person ;
+    gndo:gndIdentifier "118933876" ;
+    jl:Occupation "Arzt, Professor der Philosophie, Schriftsteller" ;
+    jl:birthDate "17.01.1747" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "19.01.1803" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/118933876>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/mherz.html> ;
+    skos:prefLabel "Herz, Marcus" .
+
+<http://data.judaicalink.org/data/haskala/Mendel_Breslau> a foaf:Person ;
+    gndo:gndIdentifier "1013160606" ;
+    jl:Occupation "" ;
+    jl:birthDate "" ;
+    jl:birthLocation "" ;
+    jl:deathDate "" ;
+    jl:deathLocation "" ;
+    owl:sameAs <http://d-nb.info/gnd/1013160606>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/mendel-breslau.html> ;
+    skos:prefLabel "Breslau, Mendel" .
+
+<http://data.judaicalink.org/data/haskala/Moses_Hirschel> a foaf:Person ;
+    gndo:gndIdentifier "144000784" ;
+    jl:Occupation "Kaufmann, Schachlehrer, Schriftsteller" ;
+    jl:birthDate "1754" ;
+    jl:birthLocation "Breslau" ;
+    jl:deathDate "" ;
+    jl:deathLocation "" ;
+    owl:sameAs <http://d-nb.info/gnd/144000784>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/moses-hirschel.html> ;
+    skos:prefLabel "Hirschel, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Moses_Mendelssohn> a foaf:Person ;
+    gndo:gndIdentifier "118580744" ;
+    jl:Occupation "Kaufmann, Dichter, Schriftsteller, Übersetzer" ;
+    jl:birthDate "06.09.1729" ;
+    jl:birthLocation "Dessau" ;
+    jl:deathDate "04.01.1786" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/118580744>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/mendelssohn.html> ;
+    skos:prefLabel "Mendelssohn, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Moses_Philipson> a foaf:Person ;
+    gndo:gndIdentifier "11617448X" ;
+    jl:Occupation "Direktor der Meyer‘schen Schulstiftungen, Buchhalter im “Fideicommisscomtoir” des Bankhauses seines Onkels Meyer Michael David, Dr. phil. h.c., kgl. preuß. Hofrat am Steuerdirektorium in Köln" ;
+    jl:birthDate "20.11.1761" ;
+    jl:birthLocation "Altona" ;
+    jl:deathDate "29.07.1850" ;
+    jl:deathLocation "Elberfeld" ;
+    owl:sameAs <http://d-nb.info/gnd/11617448X>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/philipson.html> ;
+    skos:prefLabel "Philipson, Moses" .
+
+<http://data.judaicalink.org/data/haskala/Moses_Wessely> a foaf:Person ;
+    gndo:gndIdentifier "1022281070" ;
+    jl:Occupation "Großkaufmann" ;
+    jl:birthDate "1737" ;
+    jl:birthLocation "Kopenhagen" ;
+    jl:deathDate "1792" ;
+    jl:deathLocation "Hamburg" ;
+    owl:sameAs <http://d-nb.info/gnd/1022281070>,
+        <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/mwessely.html> ;
+    skos:prefLabel "Wessely, Moses" .
+
+<http://data.judaicalink.org/data/haskala/NaphtaliHerz_Ulmann> a foaf:Person ;
+    gndo:gndIdentifier "1089711913" ;
+    jl:Occupation "Philosoph" ;
+    jl:birthDate "1731" ;
+    jl:birthLocation "Mainz" ;
+    jl:deathDate "22.06.1787" ;
+    jl:deathLocation "Den Haag" ;
+    owl:sameAs <http://d-nb.info/gnd/1089711913>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/ulmann.html> ;
+    skos:prefLabel "Ulmann, Naphtali Herz" .
+
+<http://data.judaicalink.org/data/haskala/Peter_Beer> a foaf:Person ;
+    gndo:gndIdentifier "117582085" ;
+    jl:Occupation "Lehrer, Schriftsteller, Gelehrter" ;
+    jl:birthDate "1764" ;
+    jl:birthLocation "Neu-Bydžov" ;
+    jl:deathDate "1838" ;
+    jl:deathLocation "Prag" ;
+    owl:sameAs <http://d-nb.info/gnd/117582085>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/beer.html> ;
+    skos:prefLabel "Beer, Peter" .
+
+<http://data.judaicalink.org/data/haskala/Raphael_Levi> a foaf:Person ;
+    gndo:gndIdentifier "141485884" ;
+    jl:Occupation "" ;
+    jl:birthDate "1685" ;
+    jl:birthLocation "Weikersheim/Tauber" ;
+    jl:deathDate "17. Mai 1779" ;
+    jl:deathLocation "Hannover" ;
+    owl:sameAs <http://d-nb.info/gnd/141485884>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/levi.html> ;
+    skos:prefLabel "Levi, Raphael" .
+
+<http://data.judaicalink.org/data/haskala/SabattiaJoseph_Wolff> a foaf:Person ;
+    gndo:gndIdentifier "121094596" ;
+    jl:Occupation "Arzt, Schriftsteller" ;
+    jl:birthDate "12.09.1757" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "28.02.1832" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/121094596>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/sabattia-j-wolff.html> ;
+    skos:prefLabel "Wolff, Sabattia Joseph" .
+
+<http://data.judaicalink.org/data/haskala/Salomon_Maimon> a foaf:Person ;
+    gndo:gndIdentifier "11857647X" ;
+    jl:Occupation "Philosoph, Schriftsteller" ;
+    jl:birthDate "1753" ;
+    jl:birthLocation "Nieszewicz, Litauen" ;
+    jl:deathDate "22.11.1800" ;
+    jl:deathLocation "Nieder-Siegersdorf" ;
+    owl:sameAs <http://d-nb.info/gnd/11857647X>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/maimon.html> ;
+    skos:prefLabel "Maimon, Salomon" .
+
+<http://data.judaicalink.org/data/haskala/Salomon_Pappenheim> a foaf:Person ;
+    gndo:gndIdentifier "116031573" ;
+    jl:Occupation "Rabbinatsassessor, Gemeindevorsteher, Schriftsteller" ;
+    jl:birthDate "02.02.1740" ;
+    jl:birthLocation "Zülz" ;
+    jl:deathDate "04.03.1814" ;
+    jl:deathLocation "Breslau" ;
+    owl:sameAs <http://d-nb.info/gnd/116031573>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/salomon-pappenheim.html> ;
+    skos:prefLabel "Pappenheim, Salomon" .
+
+<http://data.judaicalink.org/data/haskala/Saul_Ascher> a foaf:Person ;
+    gndo:gndIdentifier "118646052" ;
+    jl:Occupation "Philosoph, Schriftsteller, Übersetzer " ;
+    jl:birthDate "1767" ;
+    jl:birthLocation "Berlin" ;
+    jl:deathDate "1822" ;
+    jl:deathLocation "Berlin" ;
+    owl:sameAs <http://d-nb.info/gnd/118646052>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/ascher.html> ;
+    skos:prefLabel "Ascher, Saul" .
+
+<http://data.judaicalink.org/data/haskala/Saul_Berlin> a foaf:Person ;
+    gndo:gndIdentifier "136442099" ;
+    jl:Occupation "Talmudist, Schriftsteller" ;
+    jl:birthDate "1740" ;
+    jl:birthLocation "Glogau ?" ;
+    jl:deathDate "1794" ;
+    jl:deathLocation "London" ;
+    owl:sameAs <http://d-nb.info/gnd/136442099>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/berlin.html> ;
+    skos:prefLabel "Berlin, Saul" .
+
+<http://data.judaicalink.org/data/haskala/Wolf_Davidson> a foaf:Person ;
+    gndo:gndIdentifier "120682761" ;
+    jl:Occupation "Arzt, Schriftsteller" ;
+    jl:birthDate "02.07.1772" ;
+    jl:birthLocation "" ;
+    jl:deathDate "19.08.1800" ;
+    jl:deathLocation "" ;
+    owl:sameAs <http://d-nb.info/gnd/120682761>,
+        <https://www.uni-potsdam.de/haskala/haskala-in-biographien/wolf-davidsohn.html> ;
+    skos:prefLabel "Davidson, Wolf" .
+

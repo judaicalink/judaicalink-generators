@@ -1,0 +1,428 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<ub-ffm:item:compactmemory:34303736X> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "34303736X" ;
+    dc:title "[Rezension] / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343042959> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1034340069> ;
+    dc:creator "Keller, Leon" ;
+    dc:identifier "343042959" ;
+    dc:title "J. L. Landau : Short Lectures ... [Rezension] / Leon Keller" .
+
+<ub-ffm:item:compactmemory:343062259> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/124864732> ;
+    dc:creator "Megas" ;
+    dc:identifier "343062259" ;
+    dc:title "Israelitische Glaubens- und Pflichtenlehre ... [Rezension] / Megas" .
+
+<ub-ffm:item:compactmemory:343218658> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/11877977X> ;
+    dc:creator "Levi, Carlo" ;
+    dc:identifier "343218658" ;
+    dc:title "Herr Rabbiner D. J. Elbogen in Florenz schrieb uns / Carlo Levi" .
+
+<ub-ffm:item:compactmemory:343223945> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343223945" ;
+    dc:title "Jüdische Gedanken / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343224011> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343224011" ;
+    dc:title "Kleine Geschichten : (II. Serie) / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343224062> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343224062" ;
+    dc:title "Jüdische Gedanken : II. / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343224070> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343224070" ;
+    dc:title "Jüdische Gedanken / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343224097> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343224097" ;
+    dc:title "Kleine Geschichten : III. Serie / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343224151> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343224151" ;
+    dc:title "Kleine Geschichten / Max Rotter" .
+
+<ub-ffm:item:compactmemory:34322416X> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "34322416X" ;
+    dc:title "Kleine Geschichten : (IV. Serie) / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343224186> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343224186" ;
+    dc:title "Kleine Geschichte / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343224194> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343224194" ;
+    dc:title "Jüdische Gedanken : IV. / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343240785> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343240785" ;
+    dc:title "Zur Charakteristik der jüdischen Kultur / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343241862> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343241862" ;
+    dc:title "Von der inneren Bedeutung des Prophetismus / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343242257> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343242257" ;
+    dc:title "Vom moralischen und künstlerischen Typus : (Eine Parallele zwischen Juden- und Christentum) / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343242737> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343242737" ;
+    dc:title "Der gute Europäer / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343242850> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343242850" ;
+    dc:title "Individuum und Ethos : Eine kurze Betrachtung über Bergson / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343246120> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/11877977X> ;
+    dc:creator "Levi, Carlo" ;
+    dc:identifier "343246120" ;
+    dc:title "Die Juden in Italien / Carlo Levi" .
+
+<ub-ffm:item:compactmemory:34324621X> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/11877977X> ;
+    dc:creator "Levi, Carlo" ;
+    dc:identifier "34324621X" ;
+    dc:title "Die Juden in Italien : II. / Carlo Levi" .
+
+<ub-ffm:item:compactmemory:34325946X> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/142423629> ;
+    dc:creator "Goldschmidt, Ilse" ;
+    dc:identifier "34325946X" ;
+    dc:title "Gründung einer Studentinnenverbindung mit K. C.-Tendenz in Berlin / Ilse Goldschmidt" .
+
+<ub-ffm:item:compactmemory:343284308> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343284308" ;
+    dc:title "Der Krieg und unsere Aussichten / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343284472> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343284472" ;
+    dc:title "Gedanken über die Emanzipation / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343284677> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343284677" ;
+    dc:title "Ethischer Impressionismus / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343287498> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343287498" ;
+    dc:title "Bejahung und Verneinung des Galuth / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343288001> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343288001" ;
+    dc:title "Zur Frage des Prophetismus / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343288362> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343288362" ;
+    dc:title "Die goldene Kette / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343290766> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343290766" ;
+    dc:title "Einige Worte über Hermann Cohen / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343290847> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343290847" ;
+    dc:title "Humanismus / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:34329186X> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "34329186X" ;
+    dc:title "Ein Wort über Achad Haam / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:34329205X> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "34329205X" ;
+    dc:title "Modernes Judentum / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343296977> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/141828927> ;
+    dc:creator "Berger, Berta" ;
+    dc:identifier "343296977" ;
+    dc:title "En Fara / Berta Berger" .
+
+<ub-ffm:item:compactmemory:34330161X> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1035624192> ;
+    dc:creator "Borchardt, Georg" ;
+    dc:identifier "34330161X" ;
+    dc:title "Ein paar Liebermann-Anekdoten / Georg Borchardt" .
+
+<ub-ffm:item:compactmemory:343303019> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1035624192> ;
+    dc:creator "Borchardt, Georg" ;
+    dc:identifier "343303019" ;
+    dc:title "Also ein Jubiläum : Aus: Die Zeitlupe und andere Betrachtungen über Menschen und Dinge [1928] / Georg Borchardt" .
+
+<ub-ffm:item:compactmemory:343334704> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/151364036> ;
+    dc:creator "Zeitlin, Solomon" ;
+    dc:identifier "343334704" ;
+    dc:title "Nennt Megillat Taanit antisadduzäische Gedenktage? / Solomon Zeitlin" .
+
+<ub-ffm:item:compactmemory:343368625> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/137300697> ;
+    dc:creator "Eckstein, Kurt" ;
+    dc:identifier "343368625" ;
+    dc:title "Heinrich Heine / Kurt Eckstein" .
+
+<ub-ffm:item:compactmemory:343383136> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343383136" ;
+    dc:title "Schopenhauer, der Jude / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:34338342X> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "34338342X" ;
+    dc:title "Madonna und Schechina / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343383896> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343383896" ;
+    dc:title "Drei kritische Momente in der jüdischen Geschichte / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343384019> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "343384019" ;
+    dc:title "Probleme des modernen Judentums / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343384205> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1035624192> ;
+    dc:creator "Borchardt, Georg" ;
+    dc:identifier "343384205" ;
+    dc:title "Zur Frage der Westjuden / Georg Borchardt" .
+
+<ub-ffm:item:compactmemory:343387689> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/124864732> ;
+    dc:creator "Megas" ;
+    dc:identifier "343387689" ;
+    dc:title "Historisch-statistischer Bericht über die Juden in Franken ... / Megas" .
+
+<ub-ffm:item:compactmemory:343389894> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/124864732> ;
+    dc:creator "Megas" ;
+    dc:identifier "343389894" ;
+    dc:title "Würzburg: Streben der Regierung für jüdische Schulen / Megas" .
+
+<ub-ffm:item:compactmemory:343390809> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/124864732> ;
+    dc:creator "Megas" ;
+    dc:identifier "343390809" ;
+    dc:title "Jüdische Zustände in Italien : Großherzogthum Toskana / Megas" .
+
+<ub-ffm:item:compactmemory:343390868> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/124864732> ;
+    dc:creator "Megas" ;
+    dc:identifier "343390868" ;
+    dc:title "Jüdische Zustände in Italien : Fortsetzung / Megas" .
+
+<ub-ffm:item:compactmemory:343391007> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/124864732> ;
+    dc:creator "Megas" ;
+    dc:identifier "343391007" ;
+    dc:title "Jüdische Zustände in Italien : Fortsetzung / Megas" .
+
+<ub-ffm:item:compactmemory:343391171> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/124864732> ;
+    dc:creator "Megas" ;
+    dc:identifier "343391171" ;
+    dc:title "Jüdische Zustände in Italien / Megas" .
+
+<ub-ffm:item:compactmemory:343391287> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/124864732> ;
+    dc:creator "Megas" ;
+    dc:identifier "343391287" ;
+    dc:title "Jüdische Zustände in Italien : Schluß / Megas" .
+
+<ub-ffm:item:compactmemory:343397668> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1035624192> ;
+    dc:creator "Borchardt, Georg" ;
+    dc:identifier "343397668" ;
+    dc:title "Max Liebermann / Georg Borchardt" .
+
+<ub-ffm:item:compactmemory:343398133> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1035624192> ;
+    dc:creator "Borchardt, Georg" ;
+    dc:identifier "343398133" ;
+    dc:title "Moses Ezekiel / Georg Borchardt" .
+
+<ub-ffm:item:compactmemory:343398702> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1035624192> ;
+    dc:creator "Borchardt, Georg" ;
+    dc:identifier "343398702" ;
+    dc:title "Isaak Lewithan / Georg Borchardt" .
+
+<ub-ffm:item:compactmemory:343399601> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1035624192> ;
+    dc:creator "Borchardt, Georg" ;
+    dc:identifier "343399601" ;
+    dc:title "Camille Pissarro / Georg Borchardt" .
+
+<ub-ffm:item:compactmemory:34340009X> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1035624192> ;
+    dc:creator "Borchardt, Georg" ;
+    dc:identifier "34340009X" ;
+    dc:title "M. Coschell / Georg Borchardt" .
+
+<ub-ffm:item:compactmemory:343400162> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1035624192> ;
+    dc:creator "Borchardt, Georg" ;
+    dc:identifier "343400162" ;
+    dc:title "Max Fabian / Georg Borchardt" .
+
+<ub-ffm:item:compactmemory:343401630> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1035624192> ;
+    dc:creator "Borchardt, Georg" ;
+    dc:identifier "343401630" ;
+    dc:title "Eugen Spiro / Georg Borchardt" .
+
+<ub-ffm:item:compactmemory:343408686> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/130205907> ;
+    dc:creator "Sylvester" ;
+    dc:identifier "343408686" ;
+    dc:title "Cesare Lombroso / Sylvester" .
+
+<ub-ffm:item:compactmemory:343412195> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1035624192> ;
+    dc:creator "Borchardt, Georg" ;
+    dc:identifier "343412195" ;
+    dc:title "Julie Wolfthorn : Künstlerbild / Georg Borchardt" .
+
+<ub-ffm:item:compactmemory:343428202> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/143482041> ;
+    dc:creator "Hock, Simon" ;
+    dc:identifier "343428202" ;
+    dc:title "Beschreibung des Jubiläums der Gründung der Schule für Israeliten in Prag : (an den Herausgeber der Sulamith) / Simon Hock" .
+
+<ub-ffm:item:compactmemory:343462680> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1051169380> ;
+    dc:creator "Alt, Hugo" ;
+    dc:identifier "343462680" ;
+    dc:title "\"Harfe\" / Hugo Alt" .
+
+<ub-ffm:item:compactmemory:343463725> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343463725" ;
+    dc:title "Die Rassentheorie des Prinzen von Oréans / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343463822> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1051169380> ;
+    dc:creator "Alt, Hugo" ;
+    dc:identifier "343463822" ;
+    dc:title "An die Herren Studierenden! / Hugo Alt" .
+
+<ub-ffm:item:compactmemory:343464020> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343464020" ;
+    dc:title "Symptome / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343466716> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1056991666> ;
+    dc:creator "Tauber, Max" ;
+    dc:identifier "343466716" ;
+    dc:title "Koliner Brief / Max Tauber" .
+
+<ub-ffm:item:compactmemory:34348031X> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/115833692> ;
+    dc:creator "Seligmann, Rafael" ;
+    dc:identifier "34348031X" ;
+    dc:title "Bejahung und Verneinung des Galuth / Rafael Seligmann" .
+
+<ub-ffm:item:compactmemory:343485877> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343485877" ;
+    dc:title "Der Senator Mercier / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343485958> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343485958" ;
+    dc:title "Millionen für - Hülsner / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343486563> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343486563" ;
+    dc:title "Gegen den - kleinsten Mann / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343486911> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343486911" ;
+    dc:title "Kakuschka recte Kohn / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343488051> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/172702720> ;
+    dc:creator "Rotter, Max" ;
+    dc:identifier "343488051" ;
+    dc:title "Der Traum von Monsignore Scheicher / Max Rotter" .
+
+<ub-ffm:item:compactmemory:343491540> a edm:ProvidedCHO ;
+    gndo:gndIdentifier <http://d-nb.info/gnd/1035624192> ;
+    dc:creator "Borchardt, Georg" ;
+    dc:identifier "343491540" ;
+    dc:title "Also - ein Jubiläum / Georg Borchardt" .
+

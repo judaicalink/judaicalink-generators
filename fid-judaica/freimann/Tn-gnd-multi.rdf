@@ -1,0 +1,122 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://d-nb.info/gnd/100142877> a foaf:Person ;
+    skos:prefLabel "Gerhard, Johann Ernst" .
+
+<http://d-nb.info/gnd/101528258X> a foaf:Person ;
+    skos:prefLabel "Carmoly, Eliakim" .
+
+<http://d-nb.info/gnd/1024426734> a foaf:Person ;
+    skos:prefLabel "Goldschmidt, Salomon" .
+
+<http://d-nb.info/gnd/10406448X> a foaf:Person ;
+    skos:prefLabel "Waeyen, Johannes van der" .
+
+<http://d-nb.info/gnd/10412492X> a foaf:Person ;
+    skos:prefLabel "Gerhard, Johann Ernst" .
+
+<http://d-nb.info/gnd/104286547> a foaf:Person ;
+    skos:prefLabel "Hottinger, Johann Heinrich" .
+
+<http://d-nb.info/gnd/104286563> a foaf:Person ;
+    skos:prefLabel "Hottinger, Johann Heinrich" .
+
+<http://d-nb.info/gnd/1052974244> a foaf:Person ;
+    skos:prefLabel "Smith, George" .
+
+<http://d-nb.info/gnd/1055617760> a foaf:Person ;
+    skos:prefLabel "Wagner, Martin" .
+
+<http://d-nb.info/gnd/1068788585> a foaf:Person ;
+    skos:prefLabel "Auerbach, Jakob" .
+
+<http://d-nb.info/gnd/1081953616> a foaf:Person ;
+    skos:prefLabel "Goldschmidt, Salomon" .
+
+<http://d-nb.info/gnd/1082325015> a foaf:Person ;
+    skos:prefLabel "Deutsch, David" .
+
+<http://d-nb.info/gnd/108968147X> a foaf:Person ;
+    skos:prefLabel "Carmoly, Eliakim" .
+
+<http://d-nb.info/gnd/116315318> a foaf:Person ;
+    skos:prefLabel "Anton, Karl" .
+
+<http://d-nb.info/gnd/11718991X> a foaf:Person ;
+    skos:prefLabel "Buxtorf, Johann" .
+
+<http://d-nb.info/gnd/117262277> a foaf:Person ;
+    skos:prefLabel "Weinberg, Magnus" .
+
+<http://d-nb.info/gnd/117684058> a foaf:Person ;
+    skos:prefLabel "Quistorp, Johann" .
+
+<http://d-nb.info/gnd/11773389X> a foaf:Person ;
+    skos:prefLabel "Auerbach, Jakob" .
+
+<http://d-nb.info/gnd/118768778> a foaf:Person ;
+    skos:prefLabel "Vitringa, Campegius" .
+
+<http://d-nb.info/gnd/118861557> a foaf:Person ;
+    skos:prefLabel "Wohlgemuth, Joseph" .
+
+<http://d-nb.info/gnd/119199335> a foaf:Person ;
+    skos:prefLabel "Pistorius, Johann" .
+
+<http://d-nb.info/gnd/119199351> a foaf:Person ;
+    skos:prefLabel "Pistorius, Johann" .
+
+<http://d-nb.info/gnd/119323702> a foaf:Person ;
+    skos:prefLabel "Schwarz, Karl" .
+
+<http://d-nb.info/gnd/119354780> a foaf:Person ;
+    skos:prefLabel "Buxtorf, Johann" .
+
+<http://d-nb.info/gnd/12068943X> a foaf:Person ;
+    skos:prefLabel "Buxtorf, Johann" .
+
+<http://d-nb.info/gnd/121445445> a foaf:Person ;
+    skos:prefLabel "Quistorp, Johann" .
+
+<http://d-nb.info/gnd/121770095> a foaf:Person ;
+    skos:prefLabel "Deutsch, David" .
+
+<http://d-nb.info/gnd/121897281> a foaf:Person ;
+    skos:prefLabel "Hottinger, Johann Heinrich" .
+
+<http://d-nb.info/gnd/121997073> a foaf:Person ;
+    skos:prefLabel "Weber, Georg" .
+
+<http://d-nb.info/gnd/131986600> a foaf:Person ;
+    skos:prefLabel "Schwarz, Karl" .
+
+<http://d-nb.info/gnd/133410781> a foaf:Person ;
+    skos:prefLabel "Weinberg, Magnus" .
+
+<http://d-nb.info/gnd/137454198> a foaf:Person ;
+    skos:prefLabel "Smith, George" .
+
+<http://d-nb.info/gnd/139872787> a foaf:Person ;
+    skos:prefLabel "Waeyen, Johannes van der" .
+
+<http://d-nb.info/gnd/140966587> a foaf:Person ;
+    skos:prefLabel "Anton, Karl" .
+
+<http://d-nb.info/gnd/141106115> a foaf:Person ;
+    skos:prefLabel "Wagner, Martin" .
+
+<http://d-nb.info/gnd/141623829> a foaf:Person ;
+    skos:prefLabel "Wohlgemuth, Joseph" .
+
+<http://d-nb.info/gnd/143171909> a foaf:Person ;
+    skos:prefLabel "Vitringa, Campegius" .
+
+<http://d-nb.info/gnd/172444241> a foaf:Person ;
+    skos:prefLabel "Weber, Georg" .
+
