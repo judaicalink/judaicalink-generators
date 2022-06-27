@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 Generator for epidat. http://steinheim-institut.de/cgi-bin/epidat
 By Benjamin Schnabel, 2022.
