@@ -1,0 +1,1609 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix jl: <http://data.judaicalink.org/ontology/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.judaicalink.org/data/epidat/AbrahamGottschalk> a foaf:Person ;
+    jl:deathDate "1894-11-11" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-20-1" ;
+    jl:occupation "Handelsmann",
+        "Metzger" ;
+    ns1:created "2022-06-27T14:37:18.801700"^^xsd:dateTime ;
+    skos:prefLabel "Abraham Gottschalk" ;
+    foaf:name "Abraham Gottschalk" .
+
+<http://data.judaicalink.org/data/epidat/AharonbenAwrahamHalevi> a foaf:Person ;
+    jl:birthDate "6.10.1793" ;
+    jl:deathDate "1872-08-23" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-6-1" ;
+    jl:occupation "Handelsmann",
+        "Kaufmann",
+        "Krämer" ;
+    ns1:created "2022-06-27T14:37:18.798523"^^xsd:dateTime ;
+    skos:prefLabel "Aharon ben Awraham Halevi" ;
+    foaf:name "Aharon ben Awraham Halevi" .
+
+<http://data.judaicalink.org/data/epidat/AharonbenSchlomoHalevi> a foaf:Person ;
+    jl:deathDate "1899-05-25" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-24-1" ;
+    ns1:created "2022-06-27T14:37:18.802386"^^xsd:dateTime ;
+    skos:prefLabel "Aharon ben Schlomo Halevi" ;
+    foaf:name "Aharon ben Schlomo Halevi" .
+
+<http://data.judaicalink.org/data/epidat/ArjebenJosef> a foaf:Person ;
+    jl:deathDate "1863-03-29" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-105-1" ;
+    ns1:created "2022-06-27T14:37:18.819659"^^xsd:dateTime ;
+    skos:prefLabel "Arje ben Josef" ;
+    foaf:name "Arje ben Josef" .
+
+<http://data.judaicalink.org/data/epidat/AscherbenBinjaminEfraim> a foaf:Person ;
+    jl:birthDate "1824" ;
+    jl:deathDate "1844-04-28" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-1-1" ;
+    jl:occupation "Krämer",
+        "Metzger" ;
+    ns1:created "2022-06-27T14:37:18.796349"^^xsd:dateTime ;
+    skos:prefLabel "Ascher ben Binjamin Efraim" ;
+    foaf:name "Ascher ben Binjamin Efraim" .
+
+<http://data.judaicalink.org/data/epidat/AscherbenElieser> a foaf:Person ;
+    jl:deathDate "1931-03-30" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-54-1" ;
+    jl:occupation "Fleischer",
+        "Metzger" ;
+    ns1:created "2022-06-27T14:37:18.806881"^^xsd:dateTime ;
+    skos:prefLabel "Ascher ben Elieser" ;
+    foaf:name "Ascher ben Elieser" .
+
+<http://data.judaicalink.org/data/epidat/AscherbenMosche> a foaf:Person ;
+    jl:deathDate "1915-02-15" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-32-1" ;
+    jl:occupation "Metzger",
+        "Soldat" ;
+    ns1:created "2022-06-27T14:37:18.803602"^^xsd:dateTime ;
+    skos:prefLabel "Ascher ben Mosche" ;
+    foaf:name "Ascher ben Mosche" .
+
+<http://data.judaicalink.org/data/epidat/AwrahamAbbabenElieser> a foaf:Person ;
+    jl:deathDate "1896-05-12" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-42-1" ;
+    ns1:created "2022-06-27T14:37:18.813784"^^xsd:dateTime ;
+    skos:prefLabel "Awraham Abba ben Elieser" ;
+    foaf:name "Awraham Abba ben Elieser" .
+
+<http://data.judaicalink.org/data/epidat/AwrahamDowbenJosef> a foaf:Person ;
+    jl:deathDate "1855-07-17" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-104-1" ;
+    ns1:created "2022-06-27T14:37:18.819526"^^xsd:dateTime ;
+    skos:prefLabel "Awraham Dow ben Josef" ;
+    foaf:name "Awraham Dow ben Josef" .
+
+<http://data.judaicalink.org/data/epidat/AwrahamDowbenMoscheBernitz> a foaf:Person ;
+    jl:deathDate "1912-03-09" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-7-1" ;
+    ns1:created "2022-06-27T14:37:18.808501"^^xsd:dateTime ;
+    skos:prefLabel "Awraham Dow ben Mosche Bernitz" ;
+    foaf:name "Awraham Dow ben Mosche Bernitz" .
+
+<http://data.judaicalink.org/data/epidat/AwrahambenAsrielHalevi> a foaf:Person ;
+    jl:deathDate "1877-06-16" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-33-1" ;
+    ns1:created "2022-06-27T14:37:18.811790"^^xsd:dateTime ;
+    skos:altLabel "Abraham Israel Levi" ;
+    skos:prefLabel "Awraham ben Asriel Halevi" ;
+    foaf:name "Awraham ben Asriel Halevi" .
+
+<http://data.judaicalink.org/data/epidat/AwrahambenBinjaminSeewHakohenAharonsohn> a foaf:Person ;
+    jl:deathDate "1900-03-17" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-10-1" ;
+    ns1:created "2022-06-27T14:37:18.808843"^^xsd:dateTime ;
+    skos:prefLabel "Awraham ben Binjamin Seew Hakohen Aharonsohn" ;
+    foaf:name "Awraham ben Binjamin Seew Hakohen Aharonsohn" .
+
+<http://data.judaicalink.org/data/epidat/BaruchBaruchsohn> a foaf:Person ;
+    jl:deathDate "1896-02-01" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-23-1" ;
+    ns1:created "2022-06-27T14:37:18.810570"^^xsd:dateTime ;
+    skos:prefLabel "Baruch Baruchsohn" ;
+    foaf:name "Baruch Baruchsohn" .
+
+<http://data.judaicalink.org/data/epidat/BeilabatZvi> a foaf:Person ;
+    jl:deathDate "1927-03-08" ;
+    jl:deathLocation "Adelebsen" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=ad2-13-1" ;
+    ns1:created "2022-06-27T14:37:18.795227"^^xsd:dateTime ;
+    skos:altLabel "Bertha Rothschild" ;
+    skos:prefLabel "Beila bat Zvi" ;
+    foaf:name "Beila bat Zvi" .
+
+<http://data.judaicalink.org/data/epidat/BellaStillbach> a foaf:Person ;
+    jl:deathDate "1859-07-01" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-55-1" ;
+    ns1:created "2022-06-27T14:37:18.815125"^^xsd:dateTime ;
+    skos:altLabel "Paulina Stillbach geb. Selig" ;
+    skos:prefLabel "Bella Stillbach" ;
+    foaf:name "Bella Stillbach" .
+
+<http://data.judaicalink.org/data/epidat/BellabatGerschon> a foaf:Person ;
+    jl:deathDate "1927-09-08" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-47-1" ;
+    ns1:created "2022-06-27T14:37:18.805966"^^xsd:dateTime ;
+    skos:prefLabel "Bella bat Gerschon" ;
+    foaf:name "Bella bat Gerschon" .
+
+<http://data.judaicalink.org/data/epidat/BellabatJizchak> a foaf:Person ;
+    jl:deathDate "1887-03-31" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-39-1" ;
+    ns1:created "2022-06-27T14:37:18.813449"^^xsd:dateTime ;
+    skos:prefLabel "Bella bat Jizchak" ;
+    foaf:name "Bella bat Jizchak" .
+
+<http://data.judaicalink.org/data/epidat/BerkaZilberman> a foaf:Person ;
+    jl:deathDate "1905-12-16" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-96-1" ;
+    ns1:created "2022-06-27T14:37:18.818511"^^xsd:dateTime ;
+    skos:prefLabel "Berka Zilberman" ;
+    foaf:name "Berka Zilberman" .
+
+<http://data.judaicalink.org/data/epidat/BreinebatSchimonFogel> a foaf:Person ;
+    jl:deathDate "1906-09-26" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-98-1" ;
+    ns1:created "2022-06-27T14:37:18.818614"^^xsd:dateTime ;
+    skos:prefLabel "Breine bat Schimon Fogel" ;
+    foaf:name "Breine bat Schimon Fogel" .
+
+<http://data.judaicalink.org/data/epidat/BräunschebatJizchak> a foaf:Person ;
+    jl:deathDate "1889-01-17" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-18-1" ;
+    ns1:created "2022-06-27T14:37:18.800922"^^xsd:dateTime ;
+    skos:prefLabel "Bräunsche bat Jizchak" ;
+    foaf:name "Bräunsche bat Jizchak" .
+
+<http://data.judaicalink.org/data/epidat/BulabatJuda> a foaf:Person ;
+    jl:deathDate "1877-03-07" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-10-1" ;
+    jl:occupation "Lohgerber" ;
+    ns1:created "2022-06-27T14:37:18.799781"^^xsd:dateTime ;
+    skos:prefLabel "Bula bat Juda" ;
+    foaf:name "Bula bat Juda" .
+
+<http://data.judaicalink.org/data/epidat/BulabatZwi> a foaf:Person ;
+    jl:deathDate "1929-01-15" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-49-1" ;
+    ns1:created "2022-06-27T14:37:18.806235"^^xsd:dateTime ;
+    skos:prefLabel "Bula bat Zwi" ;
+    foaf:name "Bula bat Zwi" .
+
+<http://data.judaicalink.org/data/epidat/ChajeRiwkabatJizchak> a foaf:Person ;
+    jl:deathDate "1888-03-14" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-94-1" ;
+    ns1:created "2022-06-27T14:37:18.818277"^^xsd:dateTime ;
+    skos:prefLabel "Chaje Riwka bat Jizchak" ;
+    foaf:name "Chaje Riwka bat Jizchak" .
+
+<http://data.judaicalink.org/data/epidat/ChajebatAwrahamLevi> a foaf:Person ;
+    jl:deathDate "1900-04-17" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-24-2" ;
+    ns1:created "2022-06-27T14:37:18.810778"^^xsd:dateTime ;
+    skos:prefLabel "Chaje bat Awraham Levi" ;
+    foaf:name "Chaje bat Awraham Levi" .
+
+<http://data.judaicalink.org/data/epidat/ChajimbenDanielKleif> a foaf:Person ;
+    jl:deathDate "1839-04-14" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-53-1" ;
+    ns1:created "2022-06-27T14:37:18.814868"^^xsd:dateTime ;
+    skos:prefLabel "Chajim ben Daniel Kleif" ;
+    foaf:name "Chajim ben Daniel Kleif" .
+
+<http://data.judaicalink.org/data/epidat/ChannabatSchalomDowKohen> a foaf:Person ;
+    jl:deathDate "1907-10-25" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-18-2" ;
+    ns1:created "2022-06-27T14:37:18.809865"^^xsd:dateTime ;
+    skos:altLabel "Johanna Cahn" ;
+    skos:prefLabel "Channa bat Schalom Dow Kohen" ;
+    foaf:name "Channa bat Schalom Dow Kohen" .
+
+<http://data.judaicalink.org/data/epidat/ChavabatElieserHalevi> a foaf:Person ;
+    jl:deathDate "1858-08-31" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-219-1" ;
+    ns1:created "2022-06-27T14:37:18.822210"^^xsd:dateTime ;
+    skos:prefLabel "Chava bat Elieser Halevi" ;
+    foaf:name "Chava bat Elieser Halevi" .
+
+<http://data.judaicalink.org/data/epidat/ChienaRabinowitzbatMeirSalz> a foaf:Person ;
+    jl:deathDate "1893-09-15" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-19-1" ;
+    ns1:created "2022-06-27T14:37:18.809974"^^xsd:dateTime ;
+    skos:prefLabel "Chiena Rabinowitz bat Meir Salz" ;
+    foaf:name "Chiena Rabinowitz bat Meir Salz" .
+
+<http://data.judaicalink.org/data/epidat/DanielJosephart?> a foaf:Person ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-76-1" ;
+    ns1:created "2022-06-27T14:37:18.816577"^^xsd:dateTime ;
+    skos:prefLabel "Daniel Josephart?" ;
+    foaf:name "Daniel Josephart?" .
+
+<http://data.judaicalink.org/data/epidat/DavidHilelbenNaftaliHalevi> a foaf:Person ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-90-1" ;
+    ns1:created "2022-06-27T14:37:18.817857"^^xsd:dateTime ;
+    skos:altLabel "David Hilel Berger" ;
+    skos:prefLabel "David Hilel ben Naftali Halevi" ;
+    foaf:name "David Hilel ben Naftali Halevi" .
+
+<http://data.judaicalink.org/data/epidat/DavidbenAscherGumpert> a foaf:Person ;
+    jl:birthDate "28.1.1817" ;
+    jl:deathDate "1875-04-09" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-9-1" ;
+    jl:occupation "Buchbinder" ;
+    ns1:created "2022-06-27T14:37:18.799589"^^xsd:dateTime ;
+    skos:prefLabel "David ben Ascher Gumpert" ;
+    foaf:name "David ben Ascher Gumpert" .
+
+<http://data.judaicalink.org/data/epidat/DavidbenSchlomoHalevi> a foaf:Person ;
+    jl:birthDate "28.8.1853" ;
+    jl:deathDate "1854-12-30" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-2-1" ;
+    jl:occupation "Krämer",
+        "Metzger" ;
+    ns1:created "2022-06-27T14:37:18.796877"^^xsd:dateTime ;
+    skos:prefLabel "David ben Schlomo Halevi" ;
+    foaf:name "David ben Schlomo Halevi" .
+
+<http://data.judaicalink.org/data/epidat/DavidbenZwiHalevi> a foaf:Person ;
+    jl:deathDate "1898-06-25" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-164-1" ;
+    ns1:created "2022-06-27T14:37:18.820375"^^xsd:dateTime ;
+    skos:prefLabel "David ben Zwi Halevi" ;
+    foaf:name "David ben Zwi Halevi" .
+
+<http://data.judaicalink.org/data/epidat/DorisHerzberg> a foaf:Person ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-12-1" ;
+    ns1:created "2022-06-27T14:37:18.809065"^^xsd:dateTime ;
+    skos:prefLabel "Doris Herzberg" ;
+    foaf:name "Doris Herzberg" .
+
+<http://data.judaicalink.org/data/epidat/DovidMordechaiMeirsohn> a foaf:Person ;
+    jl:deathDate "1917-03-28" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-89-1" ;
+    ns1:created "2022-06-27T14:37:18.817751"^^xsd:dateTime ;
+    skos:prefLabel "Dovid Mordechai Meirsohn" ;
+    foaf:name "Dovid Mordechai Meirsohn" .
+
+<http://data.judaicalink.org/data/epidat/DowBehrbenBaruch> a foaf:Person ;
+    jl:deathDate "1860" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-57-1" ;
+    ns1:created "2022-06-27T14:37:18.815351"^^xsd:dateTime ;
+    skos:altLabel "Behr Benjamin Beer" ;
+    skos:prefLabel "Dow Behr ben Baruch" ;
+    foaf:name "Dow Behr ben Baruch" .
+
+<http://data.judaicalink.org/data/epidat/EdithLöwenstein> a foaf:Person ;
+    jl:birthDate "1907" ;
+    jl:deathDate "1921-09-11" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-41-1" ;
+    jl:occupation "Schülerin" ;
+    ns1:created "2022-06-27T14:37:18.805017"^^xsd:dateTime ;
+    skos:prefLabel "Edith Löwenstein" ;
+    foaf:name "Edith Löwenstein" .
+
+<http://data.judaicalink.org/data/epidat/EfraimbenRefaelHalevi> a foaf:Person ;
+    jl:deathDate "1919-03-21" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-37-1" ;
+    jl:occupation "Schlösser" ;
+    ns1:created "2022-06-27T14:37:18.804380"^^xsd:dateTime ;
+    skos:prefLabel "Efraim ben Refael Halevi" ;
+    foaf:name "Efraim ben Refael Halevi" .
+
+<http://data.judaicalink.org/data/epidat/ElieserJaakowbenEfraim> a foaf:Person ;
+    jl:deathDate "1900-03-08" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-25-1" ;
+    ns1:created "2022-06-27T14:37:18.802554"^^xsd:dateTime ;
+    skos:prefLabel "Elieser Jaakow ben Efraim" ;
+    foaf:name "Elieser Jaakow ben Efraim" .
+
+<http://data.judaicalink.org/data/epidat/ElieserbenJosefHakohen> a foaf:Person ;
+    jl:deathDate "1879-12-08" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-13-1" ;
+    ns1:created "2022-06-27T14:37:18.800199"^^xsd:dateTime ;
+    skos:prefLabel "Elieser ben Josef Hakohen" ;
+    foaf:name "Elieser ben Josef Hakohen" .
+
+<http://data.judaicalink.org/data/epidat/ElijahubenDowBerKirchner> a foaf:Person ;
+    jl:deathDate "1909-07-11" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-180-1" ;
+    ns1:created "2022-06-27T14:37:18.820982"^^xsd:dateTime ;
+    skos:altLabel "Elias Kirschner" ;
+    skos:prefLabel "Elijahu ben Dow Ber Kirchner" ;
+    foaf:name "Elijahu ben Dow Ber Kirchner" .
+
+<http://data.judaicalink.org/data/epidat/EljakumPessachbenEljakumPessachSeGaL> a foaf:Person ;
+    jl:deathDate "1854-03-03" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-44-1" ;
+    ns1:created "2022-06-27T14:37:18.813998"^^xsd:dateTime ;
+    skos:prefLabel "Eljakum Pessach ben Eljakum Pessach SeGaL" ;
+    foaf:name "Eljakum Pessach ben Eljakum Pessach SeGaL" .
+
+<http://data.judaicalink.org/data/epidat/ElkabatJosefGerschon> a foaf:Person ;
+    jl:deathDate "1877-05-10" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-208-1" ;
+    ns1:created "2022-06-27T14:37:18.821792"^^xsd:dateTime ;
+    skos:prefLabel "Elka bat Josef Gerschon" ;
+    foaf:name "Elka bat Josef Gerschon" .
+
+<http://data.judaicalink.org/data/epidat/Elke> a foaf:Person ;
+    jl:deathDate "1915" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-60-1" ;
+    ns1:created "2022-06-27T14:37:18.815696"^^xsd:dateTime ;
+    skos:prefLabel "Elke" ;
+    foaf:name "Elke" .
+
+<http://data.judaicalink.org/data/epidat/ErnestinePeretz> a foaf:Person ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-37-1" ;
+    ns1:created "2022-06-27T14:37:18.813191"^^xsd:dateTime ;
+    skos:altLabel "Haremann" ;
+    skos:prefLabel "Ernestine Peretz" ;
+    foaf:name "Ernestine Peretz" .
+
+<http://data.judaicalink.org/data/epidat/EsterbatJechiel> a foaf:Person ;
+    jl:deathDate "1874-05-10" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-8-1" ;
+    ns1:created "2022-06-27T14:37:18.799216"^^xsd:dateTime ;
+    skos:prefLabel "Ester bat Jechiel" ;
+    foaf:name "Ester bat Jechiel" .
+
+<http://data.judaicalink.org/data/epidat/EsterbatSchimonDanziger> a foaf:Person ;
+    jl:deathDate "1861-04-28" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-35-1" ;
+    ns1:created "2022-06-27T14:37:18.812965"^^xsd:dateTime ;
+    skos:altLabel "Ernestine ... geb. Danziger" ;
+    skos:prefLabel "Ester bat Schimon Danziger" ;
+    foaf:name "Ester bat Schimon Danziger" .
+
+<http://data.judaicalink.org/data/epidat/EstherbatAlexanderEdelstein> a foaf:Person ;
+    jl:deathDate "1899-06-16" ;
+    jl:deathLocation "Adelebsen" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=ad2-32-1" ;
+    jl:occupation "Haushälterin" ;
+    ns1:created "2022-06-27T14:37:18.795668"^^xsd:dateTime ;
+    skos:altLabel "Emilie Edelstein" ;
+    skos:prefLabel "Esther bat Alexander Edelstein" ;
+    foaf:name "Esther bat Alexander Edelstein" .
+
+<http://data.judaicalink.org/data/epidat/EtabatJizchakEisek> a foaf:Person ;
+    jl:deathDate "1892-01-26" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-5-1" ;
+    ns1:created "2022-06-27T14:37:18.808141"^^xsd:dateTime ;
+    skos:prefLabel "Eta bat Jizchak Eisek" ;
+    foaf:name "Eta bat Jizchak Eisek" .
+
+<http://data.judaicalink.org/data/epidat/EtebatJehuda> a foaf:Person ;
+    jl:deathDate "1893-05-01" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-22-2" ;
+    ns1:created "2022-06-27T14:37:18.810465"^^xsd:dateTime ;
+    skos:altLabel "E. Burnstein" ;
+    skos:prefLabel "Ete bat Jehuda" ;
+    foaf:name "Ete bat Jehuda" .
+
+<http://data.judaicalink.org/data/epidat/EtelbatMosche> a foaf:Person ;
+    jl:deathDate "1912-06-25" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-30-1" ;
+    ns1:created "2022-06-27T14:37:18.803265"^^xsd:dateTime ;
+    skos:prefLabel "Etel bat Mosche" ;
+    foaf:name "Etel bat Mosche" .
+
+<http://data.judaicalink.org/data/epidat/EttaFribatIsrael> a foaf:Person ;
+    jl:deathDate "1908-08-29" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-86-1" ;
+    ns1:created "2022-06-27T14:37:18.817543"^^xsd:dateTime ;
+    skos:prefLabel "Etta Fri... bat Israel" ;
+    foaf:name "Etta Fri... bat Israel" .
+
+<http://data.judaicalink.org/data/epidat/FejgebatZwiSussmanovic> a foaf:Person ;
+    jl:deathDate "1920-05-10" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-88-1" ;
+    ns1:created "2022-06-27T14:37:18.817647"^^xsd:dateTime ;
+    skos:prefLabel "Fejge bat Zwi Sussmanovic" ;
+    foaf:name "Fejge bat Zwi Sussmanovic" .
+
+<http://data.judaicalink.org/data/epidat/FradchebatNatan> a foaf:Person ;
+    jl:deathDate "1929-06-28" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-51-1" ;
+    ns1:created "2022-06-27T14:37:18.806492"^^xsd:dateTime ;
+    skos:prefLabel "Fradche bat Natan" ;
+    foaf:name "Fradche bat Natan" .
+
+<http://data.judaicalink.org/data/epidat/FradchebatSchlomo> a foaf:Person ;
+    jl:deathDate "1873-04-15" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-7-1" ;
+    jl:occupation "Kleinhändler" ;
+    ns1:created "2022-06-27T14:37:18.798874"^^xsd:dateTime ;
+    skos:prefLabel "Fradche bat Schlomo" ;
+    foaf:name "Fradche bat Schlomo" .
+
+<http://data.judaicalink.org/data/epidat/FreidchebatAvrahamStehberg> a foaf:Person ;
+    jl:deathDate "1936-05-13" ;
+    jl:deathLocation "Adelebsen" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=ad2-2-1" ;
+    jl:occupation "Haushälterin",
+        "Verkäuferin" ;
+    ns1:created "2022-06-27T14:37:18.794742"^^xsd:dateTime ;
+    skos:altLabel "Margarete Gerson geb. Stehberg" ;
+    skos:prefLabel "Freidche bat Avraham Stehberg" ;
+    foaf:name "Freidche bat Avraham Stehberg" .
+
+<http://data.judaicalink.org/data/epidat/FrumeLeabatJizchak> a foaf:Person ;
+    jl:deathDate "1905-01-24" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-81-1" ;
+    ns1:created "2022-06-27T14:37:18.816991"^^xsd:dateTime ;
+    skos:prefLabel "Frume Lea bat Jizchak" ;
+    foaf:name "Frume Lea bat Jizchak" .
+
+<http://data.judaicalink.org/data/epidat/Gawriel> a foaf:Person ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-51-1" ;
+    ns1:created "2022-06-27T14:37:18.814658"^^xsd:dateTime ;
+    skos:prefLabel "Gawriel" ;
+    foaf:name "Gawriel" .
+
+<http://data.judaicalink.org/data/epidat/GitelbatJehudaLöb> a foaf:Person ;
+    jl:deathDate "1876-03-09" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-188-1" ;
+    ns1:created "2022-06-27T14:37:18.821290"^^xsd:dateTime ;
+    skos:prefLabel "Gitel bat Jehuda Löb" ;
+    foaf:name "Gitel bat Jehuda Löb" .
+
+<http://data.judaicalink.org/data/epidat/GitelbatJizchak> a foaf:Person ;
+    jl:deathDate "1937-02-09" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-57-1" ;
+    jl:occupation "Kaufmann" ;
+    ns1:created "2022-06-27T14:37:18.807418"^^xsd:dateTime ;
+    skos:prefLabel "Gitel bat Jizchak" ;
+    foaf:name "Gitel bat Jizchak" .
+
+<http://data.judaicalink.org/data/epidat/GoldabatAwraham> a foaf:Person ;
+    jl:deathDate "1880-01-18" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-102-1" ;
+    ns1:created "2022-06-27T14:37:18.819330"^^xsd:dateTime ;
+    skos:prefLabel "Golda bat Awraham" ;
+    foaf:name "Golda bat Awraham" .
+
+<http://data.judaicalink.org/data/epidat/GoldebatJosefDow> a foaf:Person ;
+    jl:deathDate "1912-03-20" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-64-1" ;
+    ns1:created "2022-06-27T14:37:18.816049"^^xsd:dateTime ;
+    skos:prefLabel "Golde bat Josef Dow" ;
+    foaf:name "Golde bat Josef Dow" .
+
+<http://data.judaicalink.org/data/epidat/GudlebatElieserHakohen> a foaf:Person ;
+    jl:deathDate "1923-01-24" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-43-1" ;
+    ns1:created "2022-06-27T14:37:18.805302"^^xsd:dateTime ;
+    skos:prefLabel "Gudle bat Elieser Hakohen" ;
+    foaf:name "Gudle bat Elieser Hakohen" .
+
+<http://data.judaicalink.org/data/epidat/GumpelDowbenChajimZwiHakohenFeldmann> a foaf:Person ;
+    jl:deathDate "1906-12-19" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-95-1" ;
+    ns1:created "2022-06-27T14:37:18.818403"^^xsd:dateTime ;
+    skos:altLabel "Behr Feldmann" ;
+    skos:prefLabel "Gumpel Dow ben Chajim Zwi Hakohen Feldmann" ;
+    foaf:name "Gumpel Dow ben Chajim Zwi Hakohen Feldmann" .
+
+<http://data.judaicalink.org/data/epidat/HanchebatJaakow> a foaf:Person ;
+    jl:deathDate "1921-03-17" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-40-1" ;
+    jl:occupation "Handelsmann",
+        "Pferdehändler" ;
+    ns1:created "2022-06-27T14:37:18.804838"^^xsd:dateTime ;
+    skos:prefLabel "Hanche bat Jaakow" ;
+    foaf:name "Hanche bat Jaakow" .
+
+<http://data.judaicalink.org/data/epidat/HannaRachelbatMoscheHakohenBlumberg> a foaf:Person ;
+    jl:deathDate "1917-09-26" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-82-1" ;
+    ns1:created "2022-06-27T14:37:18.817111"^^xsd:dateTime ;
+    skos:altLabel "Rahel Blumberg" ;
+    skos:prefLabel "Hanna Rachel bat Mosche Hakohen Blumberg" ;
+    foaf:name "Hanna Rachel bat Mosche Hakohen Blumberg" .
+
+<http://data.judaicalink.org/data/epidat/HannabatElieser> a foaf:Person ;
+    jl:deathDate "1855-11-06" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-3-1" ;
+    ns1:created "2022-06-27T14:37:18.797175"^^xsd:dateTime ;
+    skos:prefLabel "Hanna bat Elieser" ;
+    foaf:name "Hanna bat Elieser" .
+
+<http://data.judaicalink.org/data/epidat/HennebatMordechai> a foaf:Person ;
+    jl:deathDate "1901-05-24" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-13-1" ;
+    ns1:created "2022-06-27T14:37:18.809169"^^xsd:dateTime ;
+    skos:prefLabel "Henne bat Mordechai" ;
+    foaf:name "Henne bat Mordechai" .
+
+<http://data.judaicalink.org/data/epidat/Hewa> a foaf:Person ;
+    jl:deathDate "1883-11-23" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-101-1" ;
+    ns1:created "2022-06-27T14:37:18.819228"^^xsd:dateTime ;
+    skos:prefLabel "Hewa" ;
+    foaf:name "Hewa" .
+
+<http://data.judaicalink.org/data/epidat/HindelbatRefaelHalevi> a foaf:Person ;
+    jl:birthDate "23.7.1838" ;
+    jl:deathDate "1919-04-30" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-38-1" ;
+    jl:occupation "Fleischer",
+        "Schlösser" ;
+    ns1:created "2022-06-27T14:37:18.804553"^^xsd:dateTime ;
+    skos:prefLabel "Hindel bat Refael Halevi" ;
+    foaf:name "Hindel bat Refael Halevi" .
+
+<http://data.judaicalink.org/data/epidat/HirschElieserLipmanbenSchmuelLichtenstein> a foaf:Person ;
+    jl:deathDate "1902-11-26" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-74-1" ;
+    ns1:created "2022-06-27T14:37:18.816383"^^xsd:dateTime ;
+    skos:prefLabel "Hirsch Elieser Lipman ben Schmuel Lichtenstein" ;
+    foaf:name "Hirsch Elieser Lipman ben Schmuel Lichtenstein" .
+
+<http://data.judaicalink.org/data/epidat/IdabatJehuda> a foaf:Person ;
+    jl:deathDate "1892-05-02" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-46-1" ;
+    ns1:created "2022-06-27T14:37:18.814208"^^xsd:dateTime ;
+    skos:prefLabel "Ida bat Jehuda" ;
+    foaf:name "Ida bat Jehuda" .
+
+<http://data.judaicalink.org/data/epidat/IsraelNaftalibenMoscheFeinberg> a foaf:Person ;
+    jl:deathDate "1891-01-24" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-40-1" ;
+    ns1:created "2022-06-27T14:37:18.813572"^^xsd:dateTime ;
+    skos:altLabel "Israel Naphtaly Feinberg" ;
+    skos:prefLabel "Israel Naftali ben Mosche Feinberg" ;
+    foaf:name "Israel Naftali ben Mosche Feinberg" .
+
+<http://data.judaicalink.org/data/epidat/IsroelLevy> a foaf:Person ;
+    jl:deathDate "1919-01-25" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-77-1" ;
+    ns1:created "2022-06-27T14:37:18.816680"^^xsd:dateTime ;
+    skos:prefLabel "Isroel Levy" ;
+    foaf:name "Isroel Levy" .
+
+<http://data.judaicalink.org/data/epidat/IssacharbenTuwia> a foaf:Person ;
+    jl:deathDate "1899-02-18" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-2-1" ;
+    ns1:created "2022-06-27T14:37:18.807667"^^xsd:dateTime ;
+    skos:altLabel "Bernhardt",
+        "Jisochar Bernhardt" ;
+    skos:prefLabel "Issachar ben Tuwia" ;
+    foaf:name "Issachar ben Tuwia" .
+
+<http://data.judaicalink.org/data/epidat/IssacharbenTuwja> a foaf:Person ;
+    jl:deathDate "1899-02-06" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-6-1" ;
+    ns1:created "2022-06-27T14:37:18.808267"^^xsd:dateTime ;
+    skos:altLabel "Jissachar Bernhardt" ;
+    skos:prefLabel "Issachar ben Tuwja" ;
+    foaf:name "Issachar ben Tuwja" .
+
+<http://data.judaicalink.org/data/epidat/ItebatHona> a foaf:Person ;
+    jl:deathDate "1891-05-30" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-91-1" ;
+    ns1:created "2022-06-27T14:37:18.817964"^^xsd:dateTime ;
+    skos:prefLabel "Ite bat Hona" ;
+    foaf:name "Ite bat Hona" .
+
+<http://data.judaicalink.org/data/epidat/JaakowJehudabenDavidSchlomo> a foaf:Person ;
+    jl:deathDate "1903-11-22" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-174-1" ;
+    ns1:created "2022-06-27T14:37:18.820743"^^xsd:dateTime ;
+    skos:altLabel "Jankel Leib" ;
+    skos:prefLabel "Jaakow Jehuda ben David Schlomo" ;
+    foaf:name "Jaakow Jehuda ben David Schlomo" .
+
+<http://data.judaicalink.org/data/epidat/JaakowbenChajim> a foaf:Person ;
+    jl:deathDate "1830-01-10" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-56-1" ;
+    ns1:created "2022-06-27T14:37:18.815230"^^xsd:dateTime ;
+    skos:prefLabel "Jaakow ben Chajim" ;
+    foaf:name "Jaakow ben Chajim" .
+
+<http://data.judaicalink.org/data/epidat/JaakowbenMordechaiKönigsfest> a foaf:Person ;
+    jl:deathDate "1909-06-29" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-8-1" ;
+    ns1:created "2022-06-27T14:37:18.808625"^^xsd:dateTime ;
+    skos:altLabel "Jacob Königsfest" ;
+    skos:prefLabel "Jaakow ben Mordechai Königsfest" ;
+    foaf:name "Jaakow ben Mordechai Königsfest" .
+
+<http://data.judaicalink.org/data/epidat/JacobdeJong> a foaf:Person ;
+    jl:deathDate "1924-12-20" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-44-1" ;
+    ns1:created "2022-06-27T14:37:18.805519"^^xsd:dateTime ;
+    skos:prefLabel "Jacob de Jong" ;
+    foaf:name "Jacob de Jong" .
+
+<http://data.judaicalink.org/data/epidat/JehudabenAsrielHalevi> a foaf:Person ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-157-1" ;
+    ns1:created "2022-06-27T14:37:18.820066"^^xsd:dateTime ;
+    skos:prefLabel "Jehuda ben Asriel Halevi" ;
+    foaf:name "Jehuda ben Asriel Halevi" .
+
+<http://data.judaicalink.org/data/epidat/JehudabenJizchak> a foaf:Person ;
+    jl:deathDate "1862-04-11" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-15-1" ;
+    ns1:created "2022-06-27T14:37:18.809383"^^xsd:dateTime ;
+    skos:prefLabel "Jehuda ben Jizchak" ;
+    foaf:name "Jehuda ben Jizchak" .
+
+<http://data.judaicalink.org/data/epidat/JehudabenJosefHakohen> a foaf:Person ;
+    jl:deathDate "1879-12-09" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-13-2" ;
+    ns1:created "2022-06-27T14:37:18.800304"^^xsd:dateTime ;
+    skos:prefLabel "Jehuda ben Josef Hakohen" ;
+    foaf:name "Jehuda ben Josef Hakohen" .
+
+<http://data.judaicalink.org/data/epidat/JehudabenMenachemLandau> a foaf:Person ;
+    jl:deathDate "1908-01-19" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-27-1" ;
+    jl:occupation "Handelsmann" ;
+    ns1:created "2022-06-27T14:37:18.802831"^^xsd:dateTime ;
+    skos:prefLabel "Jehuda ben Menachem Landau" ;
+    foaf:name "Jehuda ben Menachem Landau" .
+
+<http://data.judaicalink.org/data/epidat/JehudabenSecharja> a foaf:Person ;
+    jl:deathDate "1882-04-03" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-17-1" ;
+    ns1:created "2022-06-27T14:37:18.809596"^^xsd:dateTime ;
+    skos:prefLabel "Jehuda ben Secharja" ;
+    foaf:name "Jehuda ben Secharja" .
+
+<http://data.judaicalink.org/data/epidat/JekutielbenRefaelHalevi> a foaf:Person ;
+    jl:deathDate "1915-06-14" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-34-1" ;
+    jl:occupation "Krämer",
+        "Metzger",
+        "Schlösser" ;
+    ns1:created "2022-06-27T14:37:18.804010"^^xsd:dateTime ;
+    skos:prefLabel "Jekutiel ben Refael Halevi" ;
+    foaf:name "Jekutiel ben Refael Halevi" .
+
+<http://data.judaicalink.org/data/epidat/JettebatSchlomoHalevi> a foaf:Person ;
+    jl:deathDate "1899-03-12" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-23-1" ;
+    ns1:created "2022-06-27T14:37:18.802239"^^xsd:dateTime ;
+    skos:prefLabel "Jette bat Schlomo Halevi" ;
+    foaf:name "Jette bat Schlomo Halevi" .
+
+<http://data.judaicalink.org/data/epidat/JettlebatJischai> a foaf:Person ;
+    jl:deathDate "1928-07-18" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-48-1" ;
+    ns1:created "2022-06-27T14:37:18.806100"^^xsd:dateTime ;
+    skos:prefLabel "Jettle bat Jischai" ;
+    foaf:name "Jettle bat Jischai" .
+
+<http://data.judaicalink.org/data/epidat/JischaibenJosefHakohen> a foaf:Person ;
+    jl:deathDate "1929-03-04" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-50-1" ;
+    jl:occupation "Stadtrat" ;
+    ns1:created "2022-06-27T14:37:18.806380"^^xsd:dateTime ;
+    skos:prefLabel "Jischai ben Josef Hakohen" ;
+    foaf:name "Jischai ben Josef Hakohen" .
+
+<http://data.judaicalink.org/data/epidat/JizchakEisekbenMosche> a foaf:Person ;
+    jl:deathDate "1893-01-15" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-22-1" ;
+    ns1:created "2022-06-27T14:37:18.810319"^^xsd:dateTime ;
+    skos:altLabel "J. Burnstein" ;
+    skos:prefLabel "Jizchak Eisek ben Mosche" ;
+    foaf:name "Jizchak Eisek ben Mosche" .
+
+<http://data.judaicalink.org/data/epidat/JizchakEisekbenehuda> a foaf:Person ;
+    jl:deathDate "1890-09-12" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-29-1" ;
+    ns1:created "2022-06-27T14:37:18.811246"^^xsd:dateTime ;
+    skos:prefLabel "Jizchak Eisek ben ehuda" ;
+    foaf:name "Jizchak Eisek ben ehuda" .
+
+<http://data.judaicalink.org/data/epidat/JizchakbenEfraim> a foaf:Person ;
+    jl:deathDate "1932-06-28" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-55-1" ;
+    jl:occupation "Metzger",
+        "Viehhändler" ;
+    ns1:created "2022-06-27T14:37:18.807061"^^xsd:dateTime ;
+    skos:prefLabel "Jizchak ben Efraim" ;
+    foaf:name "Jizchak ben Efraim" .
+
+<http://data.judaicalink.org/data/epidat/JizchakbenJehudaLöbHirschhorn> a foaf:Person ;
+    jl:deathDate "1911-12-16" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-80-1" ;
+    ns1:created "2022-06-27T14:37:18.816888"^^xsd:dateTime ;
+    skos:prefLabel "Jizchak ben Jehuda Löb Hirschhorn" ;
+    foaf:name "Jizchak ben Jehuda Löb Hirschhorn" .
+
+<http://data.judaicalink.org/data/epidat/JizchakbenJosef> a foaf:Person ;
+    jl:deathDate "1901-01-11" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-11-1" ;
+    ns1:created "2022-06-27T14:37:18.808972"^^xsd:dateTime ;
+    skos:prefLabel "Jizchak ben Josef" ;
+    foaf:name "Jizchak ben Josef" .
+
+<http://data.judaicalink.org/data/epidat/JizchakbenSchlomo> a foaf:Person ;
+    jl:deathDate "1874-12-11" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-190-1" ;
+    ns1:created "2022-06-27T14:37:18.821395"^^xsd:dateTime ;
+    skos:prefLabel "Jizchak ben Schlomo" ;
+    foaf:name "Jizchak ben Schlomo" .
+
+<http://data.judaicalink.org/data/epidat/JohanneEichenberg> a foaf:Person ;
+    jl:deathDate "1935-11-17" ;
+    jl:deathLocation "Adelebsen" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=ad2-1-1" ;
+    ns1:created "2022-06-27T14:37:18.794150"^^xsd:dateTime ;
+    skos:prefLabel "Johanne Eichenberg" ;
+    foaf:name "Johanne Eichenberg" .
+
+<http://data.judaicalink.org/data/epidat/JosefbenAwraham> a foaf:Person ;
+    jl:deathDate "1914-03-30" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-73-1" ;
+    ns1:created "2022-06-27T14:37:18.816277"^^xsd:dateTime ;
+    skos:prefLabel "Josef ben Awraham" ;
+    foaf:name "Josef ben Awraham" .
+
+<http://data.judaicalink.org/data/epidat/JosefbenEfraim> a foaf:Person ;
+    jl:deathDate "1927-07-07" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-46-1" ;
+    ns1:created "2022-06-27T14:37:18.805858"^^xsd:dateTime ;
+    skos:prefLabel "Josef ben Efraim" ;
+    foaf:name "Josef ben Efraim" .
+
+<http://data.judaicalink.org/data/epidat/JosefbenElchananHerzenberg> a foaf:Person ;
+    jl:deathDate "1871-10-19" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-38-1" ;
+    ns1:created "2022-06-27T14:37:18.813319"^^xsd:dateTime ;
+    skos:altLabel "Joseph Elchanan Herzenberg" ;
+    skos:prefLabel "Josef ben Elchanan Herzenberg" ;
+    foaf:name "Josef ben Elchanan Herzenberg" .
+
+<http://data.judaicalink.org/data/epidat/JosefbenElieserHakohen> a foaf:Person ;
+    jl:deathDate "1895-03-26" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-21-1" ;
+    jl:occupation "Kaufmann",
+        "Krämer",
+        "Metzger" ;
+    ns1:created "2022-06-27T14:37:18.801921"^^xsd:dateTime ;
+    skos:prefLabel "Josef ben Elieser Hakohen" ;
+    foaf:name "Josef ben Elieser Hakohen" .
+
+<http://data.judaicalink.org/data/epidat/JosefbenGerschon> a foaf:Person ;
+    jl:deathDate "1871-06-19" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-16-1" ;
+    ns1:created "2022-06-27T14:37:18.809490"^^xsd:dateTime ;
+    skos:prefLabel "Josef ben Gerschon" ;
+    foaf:name "Josef ben Gerschon" .
+
+<http://data.judaicalink.org/data/epidat/JosefbenMeschullamGrünfeld> a foaf:Person ;
+    jl:deathDate "1909-02-17" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-177-1" ;
+    ns1:created "2022-06-27T14:37:18.820864"^^xsd:dateTime ;
+    skos:altLabel "Joseph Grünfeld" ;
+    skos:prefLabel "Josef ben Meschullam Grünfeld" ;
+    foaf:name "Josef ben Meschullam Grünfeld" .
+
+<http://data.judaicalink.org/data/epidat/JosefbenMosche> a foaf:Person ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-103-1" ;
+    ns1:created "2022-06-27T14:37:18.819420"^^xsd:dateTime ;
+    skos:prefLabel "Josef ben Mosche" ;
+    foaf:name "Josef ben Mosche" .
+
+<http://data.judaicalink.org/data/epidat/JosephCohen> a foaf:Person ;
+    jl:deathDate "1915-03-25" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-33-1" ;
+    ns1:created "2022-06-27T14:37:18.803751"^^xsd:dateTime ;
+    skos:prefLabel "Joseph Cohen" ;
+    foaf:name "Joseph Cohen" .
+
+<http://data.judaicalink.org/data/epidat/KalmanMordechaibenJehudaLöb> a foaf:Person ;
+    jl:deathDate "1903-07-11" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-14-1" ;
+    ns1:created "2022-06-27T14:37:18.809277"^^xsd:dateTime ;
+    skos:prefLabel "Kalman Mordechai ben Jehuda Löb" ;
+    foaf:name "Kalman Mordechai ben Jehuda Löb" .
+
+<http://data.judaicalink.org/data/epidat/KalonymosbenSchlomoHalevi> a foaf:Person ;
+    jl:deathDate "1877-03-19" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-11-1" ;
+    ns1:created "2022-06-27T14:37:18.799910"^^xsd:dateTime ;
+    skos:prefLabel "Kalonymos ben Schlomo Halevi" ;
+    foaf:name "Kalonymos ben Schlomo Halevi" .
+
+<http://data.judaicalink.org/data/epidat/KeilebatMattitjahu> a foaf:Person ;
+    jl:deathDate "1879-01-02" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-58-1" ;
+    ns1:created "2022-06-27T14:37:18.815471"^^xsd:dateTime ;
+    skos:altLabel "Caroline Behr geb. Mathes" ;
+    skos:prefLabel "Keile bat Mattitjahu" ;
+    foaf:name "Keile bat Mattitjahu" .
+
+<http://data.judaicalink.org/data/epidat/LeabatMosche> a foaf:Person ;
+    jl:deathDate "1869-01-11" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-63-1" ;
+    ns1:created "2022-06-27T14:37:18.815919"^^xsd:dateTime ;
+    skos:altLabel "?" ;
+    skos:prefLabel "Lea bat Mosche" ;
+    foaf:name "Lea bat Mosche" .
+
+<http://data.judaicalink.org/data/epidat/LeabatNissan> a foaf:Person ;
+    jl:deathDate "1913-06-20" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-4-1" ;
+    ns1:created "2022-06-27T14:37:18.808033"^^xsd:dateTime ;
+    skos:altLabel "Lea Thal geb. Jacobsohn" ;
+    skos:prefLabel "Lea bat Nissan" ;
+    foaf:name "Lea bat Nissan" .
+
+<http://data.judaicalink.org/data/epidat/MalkabatSchlomo> a foaf:Person ;
+    jl:deathDate "1905-02-21",
+        "1905-03-06" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-2-2",
+        "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-6-2" ;
+    ns1:created "2022-06-27T14:37:18.807789"^^xsd:dateTime,
+        "2022-06-27T14:37:18.808395"^^xsd:dateTime ;
+    skos:altLabel "Malche",
+        "Malke [Bernhardt]" ;
+    skos:prefLabel "Malka bat Schlomo" ;
+    foaf:name "Malka bat Schlomo" .
+
+<http://data.judaicalink.org/data/epidat/MeirbenJechiel> a foaf:Person ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-34-1" ;
+    ns1:created "2022-06-27T14:37:18.811880"^^xsd:dateTime ;
+    skos:prefLabel "Meir ben Jechiel" ;
+    foaf:name "Meir ben Jechiel" .
+
+<http://data.judaicalink.org/data/epidat/MenachemManbenZwiHirsch> a foaf:Person ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-213-1" ;
+    ns1:created "2022-06-27T14:37:18.822009"^^xsd:dateTime ;
+    skos:prefLabel "Menachem Man ben Zwi Hirsch" ;
+    foaf:name "Menachem Man ben Zwi Hirsch" .
+
+<http://data.judaicalink.org/data/epidat/MenuchaRachelbatJosef> a foaf:Person ;
+    jl:deathDate "1906-10-26" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-170-1" ;
+    ns1:created "2022-06-27T14:37:18.820610"^^xsd:dateTime ;
+    skos:prefLabel "Menucha Rachel bat Josef" ;
+    foaf:name "Menucha Rachel bat Josef" .
+
+<http://data.judaicalink.org/data/epidat/MichaelbenMordechaiKönigsfest> a foaf:Person ;
+    jl:deathDate "1865-10-04" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-210-1" ;
+    ns1:created "2022-06-27T14:37:18.821897"^^xsd:dateTime ;
+    skos:prefLabel "Michael ben Mordechai Königsfest" ;
+    foaf:name "Michael ben Mordechai Königsfest" .
+
+<http://data.judaicalink.org/data/epidat/MordechaibenJechielMicha> a foaf:Person ;
+    jl:deathDate "1851-11-24" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-47-1" ;
+    ns1:created "2022-06-27T14:37:18.814314"^^xsd:dateTime ;
+    skos:prefLabel "Mordechai ben Jechiel Micha" ;
+    foaf:name "Mordechai ben Jechiel Micha" .
+
+<http://data.judaicalink.org/data/epidat/MordechaibenMeschullam> a foaf:Person ;
+    jl:deathDate "1846-07-23" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-52-1" ;
+    ns1:created "2022-06-27T14:37:18.814763"^^xsd:dateTime ;
+    skos:prefLabel "Mordechai ben Meschullam" ;
+    foaf:name "Mordechai ben Meschullam" .
+
+<http://data.judaicalink.org/data/epidat/MordechaibenMordechai> a foaf:Person ;
+    jl:deathDate "1933-04-14" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-84-1" ;
+    ns1:created "2022-06-27T14:37:18.817305"^^xsd:dateTime ;
+    skos:prefLabel "Mordechai ben Mordechai" ;
+    foaf:name "Mordechai ben Mordechai" .
+
+<http://data.judaicalink.org/data/epidat/MordechaibenSchmuel> a foaf:Person ;
+    jl:deathDate "1866-01-17" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-50-1" ;
+    ns1:created "2022-06-27T14:37:18.814539"^^xsd:dateTime ;
+    skos:prefLabel "Mordechai ben Schmuel" ;
+    foaf:name "Mordechai ben Schmuel" .
+
+<http://data.judaicalink.org/data/epidat/MoscheFann> a foaf:Person ;
+    jl:deathDate "1917" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-78-1" ;
+    ns1:created "2022-06-27T14:37:18.816783"^^xsd:dateTime ;
+    skos:prefLabel "Mosche Fann" ;
+    foaf:name "Mosche Fann" .
+
+<http://data.judaicalink.org/data/epidat/MoschebenAharonHalevi> a foaf:Person ;
+    jl:birthDate "31.1.1826" ;
+    jl:deathDate "1898-09-10" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-22-1" ;
+    jl:occupation "Krämer",
+        "Lohgerber" ;
+    ns1:created "2022-06-27T14:37:18.802107"^^xsd:dateTime ;
+    skos:prefLabel "Mosche ben Aharon Halevi" ;
+    foaf:name "Mosche ben Aharon Halevi" .
+
+<http://data.judaicalink.org/data/epidat/MoschebenAscherGumpert> a foaf:Person ;
+    jl:birthDate "18.11.1821" ;
+    jl:deathDate "1882-03-16" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-14-1" ;
+    jl:occupation "Kantor",
+        "Krämer",
+        "Metzger" ;
+    ns1:created "2022-06-27T14:37:18.800500"^^xsd:dateTime ;
+    skos:prefLabel "Mosche ben Ascher Gumpert" ;
+    foaf:name "Mosche ben Ascher Gumpert" .
+
+<http://data.judaicalink.org/data/epidat/MoschebenAwrahamHalevi> a foaf:Person ;
+    jl:deathDate "1911-07-23" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-28-1" ;
+    ns1:created "2022-06-27T14:37:18.802939"^^xsd:dateTime ;
+    skos:prefLabel "Mosche ben Awraham Halevi" ;
+    foaf:name "Mosche ben Awraham Halevi" .
+
+<http://data.judaicalink.org/data/epidat/MoschebenSchlomoHalevi> a foaf:Person ;
+    jl:deathDate "1937-01-28" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-56-1" ;
+    jl:occupation "Metzger",
+        "Mitglied",
+        "Viehhändler" ;
+    ns1:created "2022-06-27T14:37:18.807258"^^xsd:dateTime ;
+    skos:prefLabel "Mosche ben Schlomo Halevi" ;
+    foaf:name "Mosche ben Schlomo Halevi" .
+
+<http://data.judaicalink.org/data/epidat/NaftalibenElieser> a foaf:Person ;
+    jl:deathDate "1919-05-15" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-39-1" ;
+    jl:occupation "Handelsmann" ;
+    ns1:created "2022-06-27T14:37:18.804703"^^xsd:dateTime ;
+    skos:prefLabel "Naftali ben Elieser" ;
+    foaf:name "Naftali ben Elieser" .
+
+<http://data.judaicalink.org/data/epidat/NettaFrankenhaus> a foaf:Person ;
+    jl:deathDate "1930-12-07" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-53-1" ;
+    ns1:created "2022-06-27T14:37:18.806706"^^xsd:dateTime ;
+    skos:prefLabel "Netta Frankenhaus" ;
+    foaf:name "Netta Frankenhaus" .
+
+<http://data.judaicalink.org/data/epidat/NissanJacobsohn> a foaf:Person ;
+    jl:deathDate "1890-03-22" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-31-2" ;
+    ns1:created "2022-06-27T14:37:18.811561"^^xsd:dateTime ;
+    skos:prefLabel "Nissan Jacobsohn" ;
+    foaf:name "Nissan Jacobsohn" .
+
+<http://data.judaicalink.org/data/epidat/NoachbenJehuda> a foaf:Person ;
+    jl:deathDate "1902-04-27" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-9-1" ;
+    ns1:created "2022-06-27T14:37:18.808733"^^xsd:dateTime ;
+    skos:prefLabel "Noach ben Jehuda" ;
+    foaf:name "Noach ben Jehuda" .
+
+<http://data.judaicalink.org/data/epidat/Ossne> a foaf:Person ;
+    jl:deathDate "1938-03-22" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-65-1" ;
+    ns1:created "2022-06-27T14:37:18.816170"^^xsd:dateTime ;
+    skos:altLabel "? bat Jehuda Leib Halevi Brandenburg" ;
+    skos:prefLabel "Ossne" ;
+    foaf:name "Ossne" .
+
+<http://data.judaicalink.org/data/epidat/Perla> a foaf:Person ;
+    jl:birthDate "5.1.1786" ;
+    jl:deathDate "1878-05-13" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-12-1" ;
+    jl:occupation "Krämer" ;
+    ns1:created "2022-06-27T14:37:18.800068"^^xsd:dateTime ;
+    skos:prefLabel "Perla" ;
+    foaf:name "Perla" .
+
+<http://data.judaicalink.org/data/epidat/PinchasbenAwrahamHalevi> a foaf:Person ;
+    jl:birthDate "11.4.1823" ;
+    jl:deathDate "1869-04-03" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-5-1" ;
+    jl:occupation "Krämer",
+        "Rentner" ;
+    ns1:created "2022-06-27T14:37:18.798104"^^xsd:dateTime ;
+    skos:prefLabel "Pinchas ben Awraham Halevi" ;
+    foaf:name "Pinchas ben Awraham Halevi" .
+
+<http://data.judaicalink.org/data/epidat/PinchasbenMosche> a foaf:Person ;
+    jl:birthDate "1851" ;
+    jl:deathDate "1891-06-19" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-19-1" ;
+    jl:occupation "Handelsmann",
+        "Kantor",
+        "Metzger",
+        "Tierarzt" ;
+    ns1:created "2022-06-27T14:37:18.801551"^^xsd:dateTime ;
+    skos:prefLabel "Pinchas ben Mosche" ;
+    foaf:name "Pinchas ben Mosche" .
+
+<http://data.judaicalink.org/data/epidat/RachelRiwkabatElieser> a foaf:Person ;
+    jl:deathDate "1891-07-24" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-36-1" ;
+    ns1:created "2022-06-27T14:37:18.813085"^^xsd:dateTime ;
+    skos:prefLabel "Rachel Riwka bat Elieser" ;
+    foaf:name "Rachel Riwka bat Elieser" .
+
+<http://data.judaicalink.org/data/epidat/RachelbatJizchak> a foaf:Person ;
+    jl:deathDate "1889-06-09" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-100-2" ;
+    ns1:created "2022-06-27T14:37:18.819125"^^xsd:dateTime ;
+    skos:altLabel "Rahel Haase" ;
+    skos:prefLabel "Rachel bat Jizchak" ;
+    foaf:name "Rachel bat Jizchak" .
+
+<http://data.judaicalink.org/data/epidat/RachelbatJosefHerzenberg> a foaf:Person ;
+    jl:deathDate "1906-12-04" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-18-1" ;
+    ns1:created "2022-06-27T14:37:18.809720"^^xsd:dateTime ;
+    skos:altLabel "Rahel Cahn. geb. Herzenberg" ;
+    skos:prefLabel "Rachel bat Josef Herzenberg" ;
+    foaf:name "Rachel bat Josef Herzenberg" .
+
+<http://data.judaicalink.org/data/epidat/RebeccaBaruchsohn> a foaf:Person ;
+    jl:deathDate "1905-12-05" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-107-1" ;
+    ns1:created "2022-06-27T14:37:18.819877"^^xsd:dateTime ;
+    skos:altLabel "Alschwang" ;
+    skos:prefLabel "Rebecca Baruchsohn" ;
+    foaf:name "Rebecca Baruchsohn" .
+
+<http://data.judaicalink.org/data/epidat/RechlebatNaftali> a foaf:Person ;
+    jl:deathDate "1884-01-11" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-15-1" ;
+    ns1:created "2022-06-27T14:37:18.800605"^^xsd:dateTime ;
+    skos:prefLabel "Rechle bat Naftali" ;
+    foaf:name "Rechle bat Naftali" .
+
+<http://data.judaicalink.org/data/epidat/ReischebatJizchak> a foaf:Person ;
+    jl:deathDate "1902-08-19" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-26-1" ;
+    jl:occupation "Eheschließung",
+        "Kantor",
+        "Tierarzt" ;
+    ns1:created "2022-06-27T14:37:18.802708"^^xsd:dateTime ;
+    skos:prefLabel "Reis che bat Jizchak" ;
+    foaf:name "Reis che bat Jizchak" .
+
+<http://data.judaicalink.org/data/epidat/ReischebatMenachem> a foaf:Person ;
+    jl:deathDate "1919-02-21" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-36-1" ;
+    ns1:created "2022-06-27T14:37:18.804245"^^xsd:dateTime ;
+    skos:prefLabel "Reis che bat Menachem" ;
+    foaf:name "Reis che bat Menachem" .
+
+<http://data.judaicalink.org/data/epidat/RejselbatIsraelNaftaliFeinberg> a foaf:Person ;
+    jl:deathDate "1876-08-31" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-45-1" ;
+    ns1:created "2022-06-27T14:37:18.814103"^^xsd:dateTime ;
+    skos:prefLabel "Rejsel bat Israel Naftali Feinberg" ;
+    foaf:name "Rejsel bat Israel Naftali Feinberg" .
+
+<http://data.judaicalink.org/data/epidat/ReschabatDaniel> a foaf:Person ;
+    jl:deathDate "1886-10-05" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-30-1" ;
+    ns1:created "2022-06-27T14:37:18.811352"^^xsd:dateTime ;
+    skos:prefLabel "Rescha bat Daniel" ;
+    foaf:name "Rescha bat Daniel" .
+
+<http://data.judaicalink.org/data/epidat/ReuwenbenHona> a foaf:Person ;
+    jl:deathDate "1892-06-08" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-61-1" ;
+    ns1:created "2022-06-27T14:37:18.815800"^^xsd:dateTime ;
+    skos:prefLabel "Reuwen ben Hona" ;
+    foaf:name "Reuwen ben Hona" .
+
+<http://data.judaicalink.org/data/epidat/ReuwenbenSchlomoHalevi> a foaf:Person ;
+    jl:deathDate "1851-04-11" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-43-1" ;
+    ns1:created "2022-06-27T14:37:18.813889"^^xsd:dateTime ;
+    skos:prefLabel "Reuwen ben Schlomo Halevi" ;
+    foaf:name "Reuwen ben Schlomo Halevi" .
+
+<http://data.judaicalink.org/data/epidat/RiwkabatHunjaHakohen> a foaf:Person ;
+    jl:deathDate "1927-02-17" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-45-1" ;
+    jl:occupation "Lehrer" ;
+    ns1:created "2022-06-27T14:37:18.805720"^^xsd:dateTime ;
+    skos:prefLabel "Riwka bat Hunja Hakohen" ;
+    foaf:name "Riwka bat Hunja Hakohen" .
+
+<http://data.judaicalink.org/data/epidat/RiwkabatNissan> a foaf:Person ;
+    jl:deathDate "1890-05-29" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-159-1" ;
+    ns1:created "2022-06-27T14:37:18.820171"^^xsd:dateTime ;
+    skos:prefLabel "Riwka bat Nissan" ;
+    foaf:name "Riwka bat Nissan" .
+
+<http://data.judaicalink.org/data/epidat/RiwkabatPessach> a foaf:Person ;
+    jl:deathDate "1883-01-23" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-155-1" ;
+    ns1:created "2022-06-27T14:37:18.819978"^^xsd:dateTime ;
+    skos:prefLabel "Riwka bat Pessach" ;
+    foaf:name "Riwka bat Pessach" .
+
+<http://data.judaicalink.org/data/epidat/RiwkabatSchlomo> a foaf:Person ;
+    jl:deathDate "1875-07-19" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-190-2" ;
+    ns1:created "2022-06-27T14:37:18.821496"^^xsd:dateTime ;
+    skos:prefLabel "Riwka bat Schlomo" ;
+    foaf:name "Riwka bat Schlomo" .
+
+<http://data.judaicalink.org/data/epidat/RoisebatJehudaHakohen> a foaf:Person ;
+    jl:deathDate "1859-10-21" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-27-1" ;
+    ns1:created "2022-06-27T14:37:18.811012"^^xsd:dateTime ;
+    skos:prefLabel "Roise bat Jehuda Hakohen" ;
+    foaf:name "Roise bat Jehuda Hakohen" .
+
+<http://data.judaicalink.org/data/epidat/RöschebatJosef> a foaf:Person ;
+    jl:deathDate "1915-07-10" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-35-1" ;
+    jl:occupation "Handelsmann" ;
+    ns1:created "2022-06-27T14:37:18.804138"^^xsd:dateTime ;
+    skos:prefLabel "Rös che bat Josef" ;
+    foaf:name "Rös che bat Josef" .
+
+<http://data.judaicalink.org/data/epidat/SaraFejgeGardenbatJaakow> a foaf:Person ;
+    jl:deathDate "1901-08-07" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-166-1" ;
+    ns1:created "2022-06-27T14:37:18.820501"^^xsd:dateTime ;
+    skos:prefLabel "Sara Fejge Garden bat Jaakow" ;
+    foaf:name "Sara Fejge Garden bat Jaakow" .
+
+<http://data.judaicalink.org/data/epidat/SarabatJosefAronsohn> a foaf:Person ;
+    jl:deathDate "1860-08-30" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-215-1" ;
+    ns1:created "2022-06-27T14:37:18.822110"^^xsd:dateTime ;
+    skos:prefLabel "Sara bat Josef Aronsohn" ;
+    foaf:name "Sara bat Josef Aronsohn" .
+
+<http://data.judaicalink.org/data/epidat/SarabatMattitjahu> a foaf:Person ;
+    jl:deathDate "1862-02-20" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-59-1" ;
+    ns1:created "2022-06-27T14:37:18.815592"^^xsd:dateTime ;
+    skos:altLabel "Sara Cahn geb. Mathias" ;
+    skos:prefLabel "Sara bat Mattitjahu" ;
+    foaf:name "Sara bat Mattitjahu" .
+
+<http://data.judaicalink.org/data/epidat/SarabatNatan> a foaf:Person ;
+    jl:deathDate "1886-02-20" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-31-1" ;
+    ns1:created "2022-06-27T14:37:18.811456"^^xsd:dateTime ;
+    skos:prefLabel "Sara bat Natan" ;
+    foaf:name "Sara bat Natan" .
+
+<http://data.judaicalink.org/data/epidat/SarabatSchlomo> a foaf:Person ;
+    jl:deathDate "1894-09-09" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-21-1" ;
+    ns1:created "2022-06-27T14:37:18.810189"^^xsd:dateTime ;
+    skos:prefLabel "Sara bat Schlomo" ;
+    foaf:name "Sara bat Schlomo" .
+
+<http://data.judaicalink.org/data/epidat/SchalomDovBerbenJehoschuaSeligHakohen> a foaf:Person ;
+    jl:deathDate "1883-03-23" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-32-1" ;
+    ns1:created "2022-06-27T14:37:18.811669"^^xsd:dateTime ;
+    skos:prefLabel "Schalom Dov Ber ben Jehoschua Selig Hakohen" ;
+    foaf:name "Schalom Dov Ber ben Jehoschua Selig Hakohen" .
+
+<http://data.judaicalink.org/data/epidat/SchalombenArjeLöbHaase> a foaf:Person ;
+    jl:deathDate "1889-04-25" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-100-1" ;
+    ns1:created "2022-06-27T14:37:18.818998"^^xsd:dateTime ;
+    skos:altLabel "Scholem Haase" ;
+    skos:prefLabel "Schalom ben Arje Löb Haase" ;
+    foaf:name "Schalom ben Arje Löb Haase" .
+
+<http://data.judaicalink.org/data/epidat/SchimonbenJosefDanzigger> a foaf:Person ;
+    jl:deathDate "1853-06-17" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-54-1" ;
+    ns1:created "2022-06-27T14:37:18.814997"^^xsd:dateTime ;
+    skos:altLabel "Simon Joseph Danzigger" ;
+    skos:prefLabel "Schimon ben Josef Danzigger" ;
+    foaf:name "Schimon ben Josef Danzigger" .
+
+<http://data.judaicalink.org/data/epidat/SchimonbenMosche> a foaf:Person ;
+    jl:deathDate "1922-01-19" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-42-1" ;
+    jl:occupation "Handelsmann" ;
+    ns1:created "2022-06-27T14:37:18.805167"^^xsd:dateTime ;
+    skos:prefLabel "Schimon ben Mosche" ;
+    foaf:name "Schimon ben Mosche" .
+
+<http://data.judaicalink.org/data/epidat/Schlomo> a foaf:Person ;
+    jl:deathDate "1860-03-01" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-49-1" ;
+    ns1:created "2022-06-27T14:37:18.814434"^^xsd:dateTime ;
+    skos:altLabel "Salomon Moses Löwensohn" ;
+    skos:prefLabel "Schlomo" ;
+    foaf:name "Schlomo" .
+
+<http://data.judaicalink.org/data/epidat/SchlomobenAharonHalevi> a foaf:Person ;
+    jl:birthDate "1823" ;
+    jl:deathDate "1912-03-07" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-29-1" ;
+    jl:occupation "Kaufmann" ;
+    ns1:created "2022-06-27T14:37:18.803152"^^xsd:dateTime ;
+    skos:prefLabel "Schlomo ben Aharon Halevi" ;
+    foaf:name "Schlomo ben Aharon Halevi" .
+
+<http://data.judaicalink.org/data/epidat/SchlomobenAwraham> a foaf:Person ;
+    jl:deathDate "1866-11-19" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-4-1" ;
+    jl:occupation "Kleinhändler",
+        "Krämer",
+        "Lehrer",
+        "Metzger" ;
+    ns1:created "2022-06-27T14:37:18.797707"^^xsd:dateTime ;
+    skos:prefLabel "Schlomo ben Awraham" ;
+    foaf:name "Schlomo ben Awraham" .
+
+<http://data.judaicalink.org/data/epidat/SchlomobenZwiMullner> a foaf:Person ;
+    jl:deathDate "1897-02-02" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-93-1" ;
+    ns1:created "2022-06-27T14:37:18.818172"^^xsd:dateTime ;
+    skos:prefLabel "Schlomo ben Zwi Mullner" ;
+    foaf:name "Schlomo ben Zwi Mullner" .
+
+<http://data.judaicalink.org/data/epidat/SchmuelbenAwrahamDow> a foaf:Person ;
+    jl:deathDate "1906-09-26" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-99-1" ;
+    ns1:created "2022-06-27T14:37:18.818747"^^xsd:dateTime ;
+    skos:altLabel "Bernitz",
+        "Samuel Bernitz" ;
+    skos:prefLabel "Schmuel ben Awraham Dow" ;
+    foaf:name "Schmuel ben Awraham Dow" .
+
+<http://data.judaicalink.org/data/epidat/SchmuelbenBenZionElijahuFeitelberg> a foaf:Person ;
+    jl:deathDate "1939-06-29" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-1-1" ;
+    ns1:created "2022-06-27T14:37:18.807529"^^xsd:dateTime ;
+    skos:prefLabel "Schmuel ben Ben Zion Elijahu Feitelberg" ;
+    foaf:name "Schmuel ben Ben Zion Elijahu Feitelberg" .
+
+<http://data.judaicalink.org/data/epidat/SchmuelbenMosche> a foaf:Person ;
+    jl:deathDate "1843-12-20" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-106-1" ;
+    ns1:created "2022-06-27T14:37:18.819762"^^xsd:dateTime ;
+    skos:prefLabel "Schmuel ben Mosche" ;
+    foaf:name "Schmuel ben Mosche" .
+
+<http://data.judaicalink.org/data/epidat/SchobeEtilChirk> a foaf:Person ;
+    jl:deathDate "1912" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-161-1" ;
+    ns1:created "2022-06-27T14:37:18.820274"^^xsd:dateTime ;
+    skos:prefLabel "Schobe Etil Chirk" ;
+    foaf:name "Schobe Etil Chirk" .
+
+<http://data.judaicalink.org/data/epidat/SeligGoldberg> a foaf:Person ;
+    jl:deathDate "1877-04-10" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-184-1" ;
+    ns1:created "2022-06-27T14:37:18.821083"^^xsd:dateTime ;
+    skos:prefLabel "Selig Goldberg" ;
+    foaf:name "Selig Goldberg" .
+
+<http://data.judaicalink.org/data/epidat/SophiadeJong> a foaf:Person ;
+    jl:deathDate "1912-12-07" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-31-1" ;
+    ns1:created "2022-06-27T14:37:18.803391"^^xsd:dateTime ;
+    skos:altLabel "Steinfeld" ;
+    skos:prefLabel "Sophia de Jong" ;
+    foaf:name "Sophia de Jong" .
+
+<http://data.judaicalink.org/data/epidat/SprinzabatAwraham> a foaf:Person ;
+    jl:deathDate "1852-01-23" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-25-1" ;
+    ns1:created "2022-06-27T14:37:18.810882"^^xsd:dateTime ;
+    skos:prefLabel "Sprinza bat Awraham" ;
+    foaf:name "Sprinza bat Awraham" .
+
+<http://data.judaicalink.org/data/epidat/SprinzbatJizchak> a foaf:Person ;
+    jl:deathDate "1885-03-20" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-16-1" ;
+    ns1:created "2022-06-27T14:37:18.800707"^^xsd:dateTime ;
+    skos:prefLabel "Sprinz bat Jizchak" ;
+    foaf:name "Sprinz bat Jizchak" .
+
+<http://data.judaicalink.org/data/epidat/SulkabatAscher> a foaf:Person ;
+    jl:deathDate "1867-12-10" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-28-1" ;
+    ns1:created "2022-06-27T14:37:18.811138"^^xsd:dateTime ;
+    skos:altLabel "Sulka Levinsohn" ;
+    skos:prefLabel "Sulka bat Ascher" ;
+    foaf:name "Sulka bat Ascher" .
+
+<http://data.judaicalink.org/data/epidat/SüsschebatEssriel> a foaf:Person ;
+    jl:deathDate "1885-06-20" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-17-1" ;
+    ns1:created "2022-06-27T14:37:18.800816"^^xsd:dateTime ;
+    skos:prefLabel "Süss che bat Essriel" ;
+    foaf:name "Süss che bat Essriel" .
+
+<http://data.judaicalink.org/data/epidat/TaubeWeinberg> a foaf:Person ;
+    jl:deathDate "1919-05-24" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-85-1" ;
+    ns1:created "2022-06-27T14:37:18.817412"^^xsd:dateTime ;
+    skos:prefLabel "Taube Weinberg" ;
+    foaf:name "Taube Weinberg" .
+
+<http://data.judaicalink.org/data/epidat/Tirza> a foaf:Person ;
+    jl:deathDate "1929-11-12" ;
+    jl:deathLocation "Ahaus" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-52-1" ;
+    ns1:created "2022-06-27T14:37:18.806598"^^xsd:dateTime ;
+    skos:prefLabel "Tirza" ;
+    foaf:name "Tirza" .
+
+<http://data.judaicalink.org/data/epidat/TowabatSchlomo> a foaf:Person ;
+    jl:deathDate "1859-01-21" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-226-2" ;
+    ns1:created "2022-06-27T14:37:18.822414"^^xsd:dateTime ;
+    skos:prefLabel "Towa bat Schlomo" ;
+    foaf:name "Towa bat Schlomo" .
+
+<http://data.judaicalink.org/data/epidat/TuwjabenIdelMichelsohn> a foaf:Person ;
+    jl:deathDate "1899-03-23" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-24-1" ;
+    ns1:created "2022-06-27T14:37:18.810676"^^xsd:dateTime ;
+    skos:prefLabel "Tuwja ben Idel Michelsohn" ;
+    foaf:name "Tuwja ben Idel Michelsohn" .
+
+<http://data.judaicalink.org/data/epidat/TuwjabenMeirMichelson> a foaf:Person ;
+    jl:deathDate "1917-12-05" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-3-1" ;
+    ns1:created "2022-06-27T14:37:18.807911"^^xsd:dateTime ;
+    skos:altLabel "Theodor Meier Michelsohn" ;
+    skos:prefLabel "Tuwja ben Meir Michelson" ;
+    foaf:name "Tuwja ben Meir Michelson" .
+
+<http://data.judaicalink.org/data/epidat/TäubeMirjambatScheftel> a foaf:Person ;
+    jl:deathDate "1865-03-16" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-191-1" ;
+    ns1:created "2022-06-27T14:37:18.821601"^^xsd:dateTime ;
+    skos:prefLabel "Täube Mirjam bat Scheftel" ;
+    foaf:name "Täube Mirjam bat Scheftel" .
+
+<http://data.judaicalink.org/data/epidat/WulfFriedmann> a foaf:Person ;
+    jl:deathDate "1887" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-186-1" ;
+    ns1:created "2022-06-27T14:37:18.821186"^^xsd:dateTime ;
+    skos:prefLabel "Wulf Friedmann" ;
+    foaf:name "Wulf Friedmann" .
+
+<http://data.judaicalink.org/data/epidat/ZippebatSchlomo> a foaf:Person ;
+    jl:deathDate "1890-08-05" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-92-1" ;
+    ns1:created "2022-06-27T14:37:18.818067"^^xsd:dateTime ;
+    skos:prefLabel "Zippe bat Schlomo" ;
+    foaf:name "Zippe bat Schlomo" .
+
+<http://data.judaicalink.org/data/epidat/ZundelHirschhorn> a foaf:Person ;
+    jl:deathDate "1935-12-12" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-75-1" ;
+    ns1:created "2022-06-27T14:37:18.816488"^^xsd:dateTime ;
+    skos:prefLabel "Zundel Hirschhorn" ;
+    foaf:name "Zundel Hirschhorn" .
+
+<http://data.judaicalink.org/data/epidat/ZwibenDavid> a foaf:Person ;
+    jl:deathDate "1858" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-226-1" ;
+    ns1:created "2022-06-27T14:37:18.822312"^^xsd:dateTime ;
+    skos:prefLabel "Zwi ben David" ;
+    foaf:name "Zwi ben David" .
+
+<http://data.judaicalink.org/data/epidat/ZwibenMordechai> a foaf:Person ;
+    jl:deathDate "1864-08-01" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-41-1" ;
+    ns1:created "2022-06-27T14:37:18.813679"^^xsd:dateTime ;
+    skos:prefLabel "Zwi ben Mordechai" ;
+    foaf:name "Zwi ben Mordechai" .
+
+<http://data.judaicalink.org/data/epidat/batAharon> a foaf:Person ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-193-1" ;
+    ns1:created "2022-06-27T14:37:18.821689"^^xsd:dateTime ;
+    skos:prefLabel "... bat Aharon" ;
+    foaf:name "... bat Aharon" .
+
+<http://data.judaicalink.org/data/epidat/batElieser> a foaf:Person ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-83-1" ;
+    ns1:created "2022-06-27T14:37:18.817202"^^xsd:dateTime ;
+    skos:prefLabel "... bat Elieser" ;
+    foaf:name "... bat Elieser" .
+
+<http://data.judaicalink.org/data/epidat/benZwi> a foaf:Person ;
+    jl:deathDate "1899-05-17" ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-20-1" ;
+    ns1:created "2022-06-27T14:37:18.810082"^^xsd:dateTime ;
+    skos:prefLabel "... ben Zwi" ;
+    foaf:name "... ben Zwi" .
+
+<http://data.judaicalink.org/data/epidat/l05-99-2> a foaf:Person ;
+    jl:deathLocation "Aizpute" ;
+    jl:describedAt "http://www.steinheim-institut.de/cgi-bin/epidat?id=l05-99-2" ;
+    ns1:created "2022-06-27T14:37:18.818836"^^xsd:dateTime ;
+    skos:prefLabel "Anonymous" ;
+    foaf:name "Anonymous" .
+
