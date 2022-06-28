@@ -356,9 +356,9 @@ def read_xml_file(url):
             relations = soup.find_all('relation')
             for relation in relations:
                 if relation.get('active'):
-                    relation_list.append(relation.get('active').replace("#", ''))
+                    relation_list.append(relation.get('active').replace("#", '').split(" "))
                 if relation.get('passive'):
-                    relation_list.append(relation.get('passive').replace("#", ''))
+                    relation_list.append(relation.get('passive').replace("#", '').split(" "))
 
             for person in persons:
                 personDict = {}
