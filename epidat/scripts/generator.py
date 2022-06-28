@@ -440,6 +440,8 @@ def remove_characters_from_text(string, sex=None):
     string = string.replace("\r", "")
     string = string.replace("\t", "")
     string = string.replace("›", "")
+    string = string.replace("{", "(")
+    string = string.replace("}", ")")
     string = string.replace("#.:", "")
     string = string.replace("#.:", "")
     string = string.replace("[...]", "...")
@@ -552,6 +554,10 @@ def clean_url_string(string):
     string = string.replace('.', '')
     string = string.replace('[', '')
     string = string.replace(']', '')
+    string = string.replace('(', '')
+    string = string.replace(')', '')
+    string = string.replace('{', '')
+    string = string.replace('}', '')
     return string
 
 
