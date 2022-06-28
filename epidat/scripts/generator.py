@@ -242,21 +242,19 @@ def find_alternative_names(name: str):
     # case 1 name in Brackets
     if "(" in name:
         #match = re.match(r'\(.*?\)', name)
-        name_alternatives.append(name.split("(")[-1].replace(")", ""))
-        name = name.split("(")[0]
+        name_alternatives.append(name.split("(")[-1].replace(")", "").strip())
+        name = name.split("(")[0].strip()
 
     # case 2 name in square brackets
     if "[" in name:
         # match = re.match(r'\[.*?\]', name)
-        name_alternatives.append(name.split("[")[-1].replace("]", ""))
-        name = name.split("[")[0]
+        name_alternatives.append(name.split("[")[-1].replace("]", "").replace(" ", ""))
+        name = name.split("[")[0].strip()
 
     # case 3 maiden name
     if "geb." in name:
-        name_alternatives.append(name.split('geb.')[-1])
-        name = name.split("geb.")[0]
-
-
+        name_alternatives.append(name.split('geb.')[-1].replace(" ", ""))
+        name = name.split("geb.")[0].strip()
 
         print("Name alternatives: ", name_alternatives)
 
@@ -436,6 +434,7 @@ def remove_characters_from_text(string, sex=None):
     elif sex == 2:
         string = string.replace("b. ", "bat ")
 
+    string = string.strip()
     string = string.replace("\n", "")
     string = string.replace("\r", "")
     string = string.replace("\t", "")
@@ -542,6 +541,8 @@ def clean_url_string(string):
     Clean the name of a person.
     returns: cleaned name.
     """
+
+    string = string.strip()
     string = string.replace('\'', '')
     string = string.replace('"', '')
     string = string.replace(',', '_')
