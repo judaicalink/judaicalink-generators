@@ -22,7 +22,7 @@ from rdflib.namespace import RDF
 from spacy.matcher import Matcher, PhraseMatcher
 
 file_name = 'epidat-final-01.ttl'
-working_path = os.getcwd()
+working_path = "./"
 output_path = "/data/judaicalink/dumps/epi/current/"
 
 graph = Graph()
