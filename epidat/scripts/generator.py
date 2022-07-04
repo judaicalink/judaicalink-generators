@@ -10,6 +10,8 @@ schnabel@hdm-stuttgart.de
 
 import os
 import re
+import gzip
+import shutil
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
@@ -45,23 +47,29 @@ graph.bind('dc', dc)
 
 personsDict = []
 
-def compress_ttl(ttl):
+def compress_ttl(file_name):
     """
     Compress the ttl file.
     returns: compressed ttl file.
     """
     # compress the ttl file
-    os.system("gzip -f " + ttl)
-    # rename the compressed file
-    os.rename(ttl + ".gz", ttl)
+    try:
+        with open(file_name, 'rb') as f_in:
+            with gzip.open(file_name + '.gz', 'wb') as f_out:
+                shutil.copyfileobj(f_in, f_out)
+    except Exception as e:
+        print("Could not compress file. Error: ", e)
 
-def move_ttl_file(ttl):
+def move_ttl_file(file_name):
     """
     Move the ttl file to the correct folder.
     returns: the path of the ttl file.
     """
     # move the ttl file to the correct folder
-    os.rename(working_path + ttl, output_path + ttl)
+    try:
+        shutil.move(file_name, output_path)
+    except Exception as e:
+        print("Could not move file. Error: ", e)
 
 
 def spacy_parse(text):
