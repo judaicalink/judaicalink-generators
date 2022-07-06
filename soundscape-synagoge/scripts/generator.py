@@ -61,7 +61,7 @@ def move_ttl_file(move_file_name):
     # move the ttl file to the correct folder
     try:
         # if the file exists, delete it
-        if os.path.isfile(move_file_name):
+        if os.path.isfile(output_path + move_file_name):
             os.remove(move_file_name)
         # move the file
         shutil.move(move_file_name, output_path)
