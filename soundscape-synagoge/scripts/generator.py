@@ -249,9 +249,9 @@ personsList = get_person_data(linklist)
 
 generate_rdf(personsList)
 
-compressed_file = compress_ttl(file_name)
+compress_ttl(file_name)
 
-move_ttl_file(compressed_file)
+move_ttl_file(file_name + '.gz')
 
 logging.info('%s entries found.', len(personsList))
 logging.info("Done")
