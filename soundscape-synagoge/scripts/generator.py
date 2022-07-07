@@ -5,6 +5,7 @@ import os
 import re
 import shutil
 from datetime import datetime
+import locale
 
 import requests
 import urllib3
@@ -15,6 +16,8 @@ from rdflib.namespace import RDF
 file_name = 'sosy-final-01.ttl'
 working_path = "./"
 output_path = "/data/judaicalink/dumps/sosy/current/"
+
+locale.setlocale(locale.LC_TIME, 'de_DE.UTF-8')
 
 graph = Graph()
 
@@ -80,6 +83,17 @@ def get_urls():
     for value in json_values:
         linklist.append(value['identifier'])
 
+
+def convert_date(date):
+    """
+    Convert the date to a proper format.
+    returns: converted date.
+    """
+    try:
+        date = datetime.strptime(date, '%d.%m.%Y').date()
+        return date
+    except Exception as e:
+        logging.error("Could not convert date. Error: %s", e)
 
 def get_person_data(identifier_list):
     list_url = 'https://www.soundscape-synagoge.de/api/person/list'
@@ -193,11 +207,11 @@ def generate_rdf(persons_list):
 
         # birthDate
         if person['person']['birthDate'] is not None and person['person']['birthDate'] != '':
-            graph.add((URIRef(uri), jl.birthDate, (Literal(person['person']['birthDate']))))
+            graph.add((URIRef(uri), jl.birthDate, (Literal(convert_date(person['person']['birthDate'])))))
 
         # deathDate
         if person['person']['dateOfDeath'] is not None and person['person']['dateOfDeath'] != '':
-            graph.add((URIRef(uri), jl.deathDate, (Literal(person['person']['dateOfDeath']))))
+            graph.add((URIRef(uri), jl.deathDate, (Literal(convert_date(person['person']['dateOfDeath'])))))
 
         # birthLocation
         if person['person']['birthPlace'] is not None and person['person']['birthPlace'] != '':
