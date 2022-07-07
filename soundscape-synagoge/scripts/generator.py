@@ -10,7 +10,8 @@ import locale
 import requests
 import urllib3
 from SPARQLWrapper import RDF
-from rdflib import Namespace, URIRef, Graph, Literal
+from dateutil.parser import parse
+from rdflib import Namespace, URIRef, Graph, Literal, XSD
 from rdflib.namespace import RDF
 
 file_name = 'sosy-final-01.ttl'
@@ -71,6 +72,19 @@ def move_ttl_file(move_file_name):
     except Exception as e:
         logging.error("Could not move file. Error: %s", e)
 
+def get_occupation(occupation):
+
+    # make a request to https://data.judaicalink.org/data/html/occupation/{occupation}
+    url = "https://data.judaicalink.org/data/html/occupation/" + occupation
+    response = requests.get(url)
+    if response.status_code == 200:
+        url = "https://data.judaicalink.org/data/html/occupation/" + occupation
+        type = "url"
+        return type, url
+    else:
+        type = "literal"
+        return type, occupation
+
 
 def get_urls():
     """
@@ -89,11 +103,83 @@ def convert_date(date):
     Convert the date to a proper format.
     returns: converted date.
     """
+
+    date = date.replace('?', '')
+    #date = date.replace(' ', '')
+    date = date.replace('dem', '')
+    date = date.replace('nach', '')
+    date = date.replace('verschollen', '')
+    date = date.replace('Anfang', '')
+    date = date.replace('beigesetzt am', '')
+    date = date.replace('im', '')
+    date = date.replace('ca.', '')
+    date = date.replace('geb. am', '')
+    date = date.split(',')[0]
+    date = date.split('(')[0]
+    date = date.split('[')[0]
+    date = date.strip()
+
     try:
-        date = datetime.strptime(date, '%d.%m.%Y').date()
-        return date
-    except Exception as e:
-        logging.error("Could not convert date. Error: %s", e)
+        return datetime.strptime(date, '%Y-%m-%d').date()
+    except:
+        pass
+    try:
+        return datetime.strptime(date, '%d.%m.%Y').date()
+    except:
+        pass
+
+    try:
+        return datetime.strptime(date, '%d. %b. %Y').date()
+    except:
+        pass
+
+    try:
+        # if date matches regex "([A-Z])\w{3,}\.", replace with month number
+        if re.match(r'\d+\. ([A-Z])\w{3,}\. \d{4}', date):
+            month = re.search(r'([A-Z])\w{3,}\.', date)
+            date = date.replace(month.group(0), month.group(0)[0:3])
+            return parse(date, fuzzy=True)
+    except:
+        pass
+
+    try:
+        # if date matches regex "([A-Z])\w{3,}\.", replace with month number
+        if re.match(r'([A-Z])\w{3,}\. \d{4}', date):
+            month = re.search(r'([A-Z])\w{3,}\.', date)
+            date = date.replace(month.group(0), month.group(0)[0:3])
+            return parse(date, fuzzy=True)
+    except:
+        pass
+
+    try:
+        return datetime.strptime(date, '%d. %B %Y').date()
+    except:
+        pass
+
+    try:
+        return datetime.strptime(date, '%B %Y').date()
+    except:
+        pass
+
+    try:
+        return datetime.strptime(date, '%b. %Y').date()
+    except:
+        pass
+
+    try:
+        return datetime.strptime(date, '%d. %B %Y').date()
+    except:
+        pass
+
+    try:
+        # year only
+        return datetime.strptime(date, '%Y').date()
+    except:
+        pass
+
+    logging.error("Could not convert date. %s", date)
+    return None
+
 
 def get_person_data(identifier_list):
     list_url = 'https://www.soundscape-synagoge.de/api/person/list'
@@ -201,17 +287,21 @@ def generate_rdf(persons_list):
         # siblings (list)
 
         # describedAt
-        graph.add((URIRef(uri), jl.describedAt, (Literal(
+        graph.add((URIRef(uri), jl.describedAt, (URIRef(
             'https://www.soundscape-synagoge.de/person?tab=masterdata&identifier=' + person['person']['personBase'][
                 'identifier']))))
 
         # birthDate
         if person['person']['birthDate'] is not None and person['person']['birthDate'] != '':
-            graph.add((URIRef(uri), jl.birthDate, (Literal(convert_date(person['person']['birthDate'])))))
+            birth_date = convert_date(person['person']['birthDate'])
+            if birth_date is not None:
+                graph.add((URIRef(uri), jl.birthDate, (Literal(birth_date))))
 
         # deathDate
         if person['person']['dateOfDeath'] is not None and person['person']['dateOfDeath'] != '':
-            graph.add((URIRef(uri), jl.deathDate, (Literal(convert_date(person['person']['dateOfDeath'])))))
+            death_date = convert_date(person['person']['dateOfDeath'])
+            if death_date is not None:
+                graph.add((URIRef(uri), jl.deathDate, (Literal(death_date))))
 
         # birthLocation
         if person['person']['birthPlace'] is not None and person['person']['birthPlace'] != '':
@@ -235,7 +325,12 @@ def generate_rdf(persons_list):
                 if len(person['biography']['jobDescriptionList']) > 0:
                     for jobDescription in person['biography']['jobDescriptionList']:
                         for job in re.split(r',\s*(?![^()]*\))', jobDescription):
-                            graph.add((URIRef(uri), jl.occupation, (Literal(job.strip()))))
+                            occupation_tuple = get_occupation(job.strip())
+                            if occupation_tuple[0] == "url":
+                                graph.add((URIRef(uri), jl.occupation, (URIRef(occupation_tuple[1]))))
+                            elif occupation_tuple[0] == "literal":
+                                graph.add((URIRef(uri), jl.occupation, (Literal(occupation_tuple[1]))))
+
 
             if person['biography']['titleList'] is not None:
                 if len(person['biography']['titleList']) > 0:
