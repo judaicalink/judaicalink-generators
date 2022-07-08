@@ -17,7 +17,7 @@ from rdflib import Graph, Namespace, RDF, Literal, URIRef
 
 file_name = 'gba-final-01.ttl'
 working_path = "./"
-output_path = "/data/judaicalink/dumps/epi/current/"
+output_path = "/data/judaicalink/dumps/gba/current/"
 
 graph = Graph()
 
