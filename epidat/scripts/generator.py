@@ -12,6 +12,7 @@ import os
 import re
 import gzip
 import shutil
+import unicodedata
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
@@ -567,6 +568,8 @@ def clean_url_string(string):
     string = string.replace(')', '')
     string = string.replace('{', '')
     string = string.replace('}', '')
+
+    string =  unicodedata.normalize('NFKD', string).encode('ascii', 'ignore')
     return string
 
 
