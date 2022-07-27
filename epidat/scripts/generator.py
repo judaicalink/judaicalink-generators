@@ -466,7 +466,7 @@ def remove_characters_from_text(string, sex=None):
     return string
 
 
-def get_person_data(url):
+def get_person_data(url, id = None):
     """
     Scrape the result from epidat.
     returns: a pandas dataframe with the result.
@@ -479,7 +479,6 @@ def get_person_data(url):
         table = soup.find("table")
         if table is None:
             return None
-        # convert the table to a pandas dataframe
         personDict = {}
 
         # find all rows in table
@@ -491,9 +490,17 @@ def get_person_data(url):
                 personDict["deathLocation"] = columns[1].text.split(",")[0].strip()
             elif columns[0].text == "Name":
                 if "," in columns[1].text:
-                    personDict["name"] = columns[1].text.split(",")[0].strip() + " " + columns[1].text.split(",")[-1].strip()
+                    name  = columns[1].text.split(",")[0].strip() + " " + columns[1].text.split(",")[-1].strip()
+                    # if the name already exists in personDict, add the id to the person name
+                    if name in personsDict.values():
+                        name = name + " " + id
+                        name = name + id
+                    personDict["name"] = name
                 else:
-                    personDict["name"] = columns[1].text.strip()
+                    name = columns[1].text.strip()
+                    if name in personsDict.values:
+                        name = name + id
+                    personDict["name"] = name
             elif columns[0].text == "Sterbedatum":
                 personDict["deathDate"] = columns[1].text
             elif columns[0].text.startswith("GND-ID"):
@@ -536,7 +543,7 @@ def get_ids():
             #print(id)
             url = target.replace("{ID}", id)
             #print(url)
-            result = get_person_data(url=url) # result is personDict
+            result = get_person_data(url=url, id=id) # result is personDict
             counter += 1
             #print(result)
             personsDict[id] = result
@@ -568,6 +575,9 @@ def clean_url_string(string):
     string = string.replace(')', '')
     string = string.replace('{', '')
     string = string.replace('}', '')
+    string = string.replace('#', '')
+    string = string.replace('-', '')
+    string = string.replace('?', '')
 
     string =  unicodedata.normalize('NFKD', string).encode('ascii', 'ignore')
     return string
@@ -598,11 +608,14 @@ def generate_rdf(personsDict):
 
     for person in personsDict:
         name = remove_characters_from_text(person["name"])
-        if name == "":
-            name = "Anonymous"
-            url_name = person['id']
-        else:
+
+        # do nothing for now
+        #if name == "":
+            #name = "Anonymous"
+            #url_name = person['id']
+        if name != "":
             url_name = clean_url_string(name)
+
 
         uri = URIRef(f"http://data.judaicalink.org/data/epidat/{url_name}")
 
