@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 Generator for epidat. http://steinheim-institut.de/cgi-bin/epidat
 By Benjamin Schnabel, 2022.
@@ -8,6 +10,9 @@ schnabel@hdm-stuttgart.de
 
 import os
 import re
+import gzip
+import shutil
+import unicodedata
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
@@ -20,7 +25,7 @@ from rdflib.namespace import RDF
 from spacy.matcher import Matcher, PhraseMatcher
 
 file_name = 'epidat-final-01.ttl'
-working_path = os.getcwd()
+working_path = "./"
 output_path = "/data/judaicalink/dumps/epi/current/"
 
 graph = Graph()
@@ -43,23 +48,29 @@ graph.bind('dc', dc)
 
 personsDict = []
 
-def compress_ttl(ttl):
+def compress_ttl(file_name):
     """
     Compress the ttl file.
     returns: compressed ttl file.
     """
     # compress the ttl file
-    os.system("gzip -f " + ttl)
-    # rename the compressed file
-    os.rename(ttl + ".gz", ttl)
+    try:
+        with open(file_name, 'rb') as f_in:
+            with gzip.open(file_name + '.gz', 'wb') as f_out:
+                shutil.copyfileobj(f_in, f_out)
+    except Exception as e:
+        print("Could not compress file. Error: ", e)
 
-def move_ttl_file(ttl):
+def move_ttl_file(file_name):
     """
     Move the ttl file to the correct folder.
     returns: the path of the ttl file.
     """
     # move the ttl file to the correct folder
-    os.rename(working_path + ttl, output_path + ttl)
+    try:
+        shutil.move(file_name, output_path)
+    except Exception as e:
+        print("Could not move file. Error: ", e)
 
 
 def spacy_parse(text):
@@ -240,21 +251,19 @@ def find_alternative_names(name: str):
     # case 1 name in Brackets
     if "(" in name:
         #match = re.match(r'\(.*?\)', name)
-        name_alternatives.append(name.split("(")[-1].replace(")", ""))
-        name = name.split("(")[0]
+        name_alternatives.append(name.split("(")[-1].replace(")", "").strip())
+        name = name.split("(")[0].strip()
 
     # case 2 name in square brackets
     if "[" in name:
         # match = re.match(r'\[.*?\]', name)
-        name_alternatives.append(name.split("[")[-1].replace("]", ""))
-        name = name.split("[")[0]
+        name_alternatives.append(name.split("[")[-1].replace("]", "").replace(" ", ""))
+        name = name.split("[")[0].strip()
 
     # case 3 maiden name
     if "geb." in name:
-        name_alternatives.append(name.split('geb.')[-1])
-        name = name.split("geb.")[0]
-
-
+        name_alternatives.append(name.split('geb.')[-1].replace(" ", ""))
+        name = name.split("geb.")[0].strip()
 
         print("Name alternatives: ", name_alternatives)
 
@@ -354,9 +363,9 @@ def read_xml_file(url):
             relations = soup.find_all('relation')
             for relation in relations:
                 if relation.get('active'):
-                    relation_list.append(relation.get('active').replace("#", ''))
+                    relation_list.append(relation.get('active').replace("#", '').split(" "))
                 if relation.get('passive'):
-                    relation_list.append(relation.get('passive').replace("#", ''))
+                    relation_list.append(relation.get('passive').replace("#", '').split(" "))
 
             for person in persons:
                 personDict = {}
@@ -434,10 +443,13 @@ def remove_characters_from_text(string, sex=None):
     elif sex == 2:
         string = string.replace("b. ", "bat ")
 
+    string = string.strip()
     string = string.replace("\n", "")
     string = string.replace("\r", "")
     string = string.replace("\t", "")
     string = string.replace("›", "")
+    string = string.replace("{", "(")
+    string = string.replace("}", ")")
     string = string.replace("#.:", "")
     string = string.replace("#.:", "")
     string = string.replace("[...]", "...")
@@ -454,7 +466,7 @@ def remove_characters_from_text(string, sex=None):
     return string
 
 
-def get_person_data(url):
+def get_person_data(url, id = None):
     """
     Scrape the result from epidat.
     returns: a pandas dataframe with the result.
@@ -467,7 +479,6 @@ def get_person_data(url):
         table = soup.find("table")
         if table is None:
             return None
-        # convert the table to a pandas dataframe
         personDict = {}
 
         # find all rows in table
@@ -479,9 +490,17 @@ def get_person_data(url):
                 personDict["deathLocation"] = columns[1].text.split(",")[0].strip()
             elif columns[0].text == "Name":
                 if "," in columns[1].text:
-                    personDict["name"] = columns[1].text.split(",")[0].strip() + " " + columns[1].text.split(",")[-1].strip()
+                    name  = columns[1].text.split(",")[0].strip() + " " + columns[1].text.split(",")[-1].strip()
+                    # if the name already exists in personDict, add the id to the person name
+                    if name in personsDict.values():
+                        name = name + " " + id
+                        name = name + id
+                    personDict["name"] = name
                 else:
-                    personDict["name"] = columns[1].text.strip()
+                    name = columns[1].text.strip()
+                    if name in personsDict.values:
+                        name = name + id
+                    personDict["name"] = name
             elif columns[0].text == "Sterbedatum":
                 personDict["deathDate"] = columns[1].text
             elif columns[0].text.startswith("GND-ID"):
@@ -524,7 +543,7 @@ def get_ids():
             #print(id)
             url = target.replace("{ID}", id)
             #print(url)
-            result = get_person_data(url=url) # result is personDict
+            result = get_person_data(url=url, id=id) # result is personDict
             counter += 1
             #print(result)
             personsDict[id] = result
@@ -538,6 +557,8 @@ def clean_url_string(string):
     Clean the name of a person.
     returns: cleaned name.
     """
+
+    string = string.strip()
     string = string.replace('\'', '')
     string = string.replace('"', '')
     string = string.replace(',', '_')
@@ -550,6 +571,15 @@ def clean_url_string(string):
     string = string.replace('.', '')
     string = string.replace('[', '')
     string = string.replace(']', '')
+    string = string.replace('(', '')
+    string = string.replace(')', '')
+    string = string.replace('{', '')
+    string = string.replace('}', '')
+    string = string.replace('#', '')
+    string = string.replace('-', '')
+    string = string.replace('?', '')
+
+    string =  unicodedata.normalize('NFKD', string).encode('ascii', 'ignore')
     return string
 
 
@@ -578,11 +608,14 @@ def generate_rdf(personsDict):
 
     for person in personsDict:
         name = remove_characters_from_text(person["name"])
-        if name == "":
-            name = "Anonymous"
-            url_name = person['id']
-        else:
+
+        # do nothing for now
+        #if name == "":
+            #name = "Anonymous"
+            #url_name = person['id']
+        if name != "":
             url_name = clean_url_string(name)
+
 
         uri = URIRef(f"http://data.judaicalink.org/data/epidat/{url_name}")
 

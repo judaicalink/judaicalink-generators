@@ -1,0 +1,4 @@
+2022-07-06 15:01:03,463 - INFO - Generator started at: 2022-07-06 15:01:03.463886
+2022-07-06 15:01:04,217 - ERROR - Could not move file. Error: [Errno 2] No such file or directory: 'sosy-final-01.ttl'
+2022-07-06 15:01:04,218 - INFO - 120 entries found.
+2022-07-06 15:01:04,218 - INFO - Done
