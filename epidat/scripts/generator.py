@@ -26,7 +26,7 @@ from spacy.matcher import Matcher, PhraseMatcher
 
 file_name = 'epidat-final-01.ttl'
 working_path = "./"
-output_path = "/data/judaicalink/dumps/epi/current/"
+output_path = "/data/dumps/epi/current/"
 
 graph = Graph()
 
