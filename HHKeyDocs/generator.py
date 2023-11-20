@@ -1,0 +1,212 @@
+"""
+Generator for Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte. https://schluesseldokumente.net/person
+By Christian Deuschle, 2023.
+cd060@hdm-stuttgart.de
+# Licence of the data: CC-BY-SA 4.0
+# https://creativecommons.org/licenses/by-sa/4.0/
+"""
+
+# IMPORTS
+
+import requests
+import json
+import pprint
+from bs4 import BeautifulSoup
+import unicodedata
+from rdflib.namespace import RDF
+from datetime import datetime
+from rdflib import Namespace, URIRef, Graph, Literal
+
+file_name = 'HHKeyDocs-final-01.ttl'
+
+graph = Graph()
+
+#get GND IDs from schluesseldokumente.net
+
+ids = []
+
+def get_ids(url):
+    response1 = requests.get(url)
+    soup = BeautifulSoup(response1.content, 'html.parser')
+    soup = str(soup)
+    soup = soup.split('\n')
+    # ids = soup[4:]
+    for id in soup:
+        try:
+            id = int(id)
+            ids.append(id)
+        except:
+            pass
+
+
+def clean_url_string(string):
+    """
+    Clean the name of a person.
+    returns: cleaned name.
+    """
+
+    string = string.strip()
+    string = string.replace('\'', '')
+    string = string.replace('"', '')
+    string = string.replace(',', '_')
+    string = string.replace('<<', '')
+    string = string.replace('>>', '')
+    string = string.replace('|', '_')
+    string = string.replace(' ', '')
+    string = string.replace('<', '_')
+    string = string.replace('>', '_')
+    string = string.replace('.', '')
+    string = string.replace('[', '')
+    string = string.replace(']', '')
+    string = string.replace('(', '')
+    string = string.replace(')', '')
+    string = string.replace('{', '')
+    string = string.replace('}', '')
+    string = string.replace('#', '')
+    string = string.replace('-', '')
+    string = string.replace('?', '')
+    string = string.replace("'", "")
+
+    string =  unicodedata.normalize('NFKD', string).encode('ascii', 'ignore')
+    return string
+
+
+# Create list of professions
+
+professions = []
+
+def get_professions_from_WD():
+    sparql_query = """
+    SELECT ?profession ?professionLabel
+    WHERE {
+      ?profession wdt:P31 wd:Q28640;
+                 rdfs:label ?professionLabel.
+    
+      FILTER(LANG(?professionLabel) = "de")
+    }
+    ORDER BY ?professionLabel
+    """
+    
+    url = "https://query.wikidata.org/sparql"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0",
+        "Accept": "application/json",
+    }
+    params = {"query": sparql_query, "format": "json"}
+    response = requests.get(url, headers=headers, params=params)
+    data = response.json()
+    newitems = ['Talmud-Gelehrter', ]
+    
+    for item in data["results"]["bindings"]:
+        professions.append(item["professionLabel"]["value"])
+        professions.append(newitems)
+
+def create_graph():
+    skos = Namespace("http://www.w3.org/2004/02/skos/core#")
+    jl = Namespace("http://data.judaicalink.org/ontology/")
+    foaf = Namespace("http://xmlns.com/foaf/0.1/")
+    gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
+    owl = Namespace("http://www.w3.org/2002/07/owl#")
+    edm = Namespace("http://www.europeana.eu/schemas/edm/")
+    dc = Namespace("http://purl.org/dc/elements/1.1/")
+    dcterms = Namespace("http://purl.org/dc/terms/")
+
+    graph.bind('skos', skos)
+    graph.bind('foaf', foaf)
+    graph.bind('jl', jl)
+    graph.bind('gndo', gndo)
+    graph.bind('owl', owl)
+    graph.bind('edm', edm)
+    graph.bind('dc', dc)
+    skos = Namespace("http://www.w3.org/2004/02/skos/core#")
+    jl = Namespace("http://data.judaicalink.org/ontology/")
+    foaf = Namespace("http://xmlns.com/foaf/0.1/")
+    gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
+    owl = Namespace("http://www.w3.org/2002/07/owl#")
+    edm = Namespace("http://www.europeana.eu/schemas/edm/")
+    dc = Namespace("http://purl.org/dc/elements/1.1/")
+    dcterms = Namespace("http://purl.org/dc/terms/")
+
+    graph.bind('skos', skos)
+    graph.bind('foaf', foaf)
+    graph.bind('jl', jl)
+    graph.bind('gndo', gndo)
+    graph.bind('owl', owl)
+    graph.bind('edm', edm)
+    graph.bind('dc', dc)
+    
+    countterId = 0
+    for id in ids:
+        gndId = id
+        countterId += 1
+        url2 = f'https://schluesseldokumente.net/person/gnd/{gndId}.jsonld'              # get JSON-files by by GND-ID from schluesseldokumente.net
+        response2 = requests.get(url2)
+        if response2.status_code == 200:
+            if response2.text:                                                           # test any if data is loaded
+                try: 
+                    data = json.loads(response2.text)
+                    name = clean_url_string(data['name'])
+                    name = name.decode('utf-8')
+                    name = str(name)
+                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{name}")
+                                                                                    
+                    graph.add((URIRef(uri), RDF.type, foaf.Person))                       # add name + id
+                    graph.add((URIRef(uri), foaf.name, (Literal(name))))
+                    graph.add((URIRef(uri), skos.prefLabel, (Literal(name))))
+                    graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(id))))
+                    if 'birthDate' in data:
+                        try:                                                              #clean and add birthdate
+                            birth_date = data['birthDate']
+                            if birth_date is not None:
+                                birth_date = str(birth_date)
+                                try:
+                                    birth_date = datetime.strptime(birth_date, '%Y-%m-%d').date()
+                                except:
+                                    pass 
+                                graph.add((URIRef(uri), jl.birthDate, (Literal(birth_date)))) 
+                            else:
+                                print(countterId, 'ERROR1 Birthdate der ID: ', id, name, 'ist vom Typ ', type(birth_date),birth_date)
+                        except:
+                            print(countterId, 'ERROR2 Birthdate der ID: ', id, name, 'ist vom Typ ', type(birth_date),birth_date)
+                    if 'deathDate' in data:                                                 #clean and add deathdate
+                        try:
+                            death_date = data['deathDate']
+                            if death_date is not None:
+                                death_date = str(death_date)
+                                try:
+                                    death_date = datetime.strptime(death_date, '%Y-%m-%d').date()
+                                except:
+                                    pass
+                                graph.add((URIRef(uri), jl.deathDate, (Literal(death_date))))
+                            else:
+                                print(countterId, 'ERROR1 Deathdate der ID: ', id, name, 'ist vom Typ ', type(death_date),death_date)
+                        except:
+                            print(countterId, 'ERROR2 Deathdate der ID: ', id, name, 'ist vom Typ ', type(death_date),death_date)
+                    birth_place_name = data.get('birthPlace', {}).get('name')
+                    if birth_place_name is not None:                                       #clean and add birthplace
+                        graph.add((URIRef(uri), jl.birthLocation, (Literal(birth_place_name))))
+                    death_place_name = data.get('deathPlace', {}).get('name')
+                    #if data['deathPlace']['name']:
+                    if death_place_name is not None:                                        #clean and add deathdate
+                        graph.add((URIRef(uri), jl.deathLocation, (Literal(death_place_name))))     
+                    graph.add((URIRef(uri), dcterms.created, (Literal(datetime.now()))))
+                    if 'description' in data:                                               #find and add occupations
+                        description = data['description']
+                        description = description.replace('.', '')
+                        description = description.replace(',', '')
+                        description = description.split(' ')
+                        for d in description:
+                            if d in professions:
+                                graph.add((URIRef(uri), jl.occupation, (Literal(d))))                 
+                except json.JSONDecodeError as e:
+                    print(f"Fehler beim Laden von JSON: {e}")
+
+            graph.serialize(destination=file_name, format="turtle")
+        else:
+            print('ERROR' + response2.status_code)
+
+    print('graph created')
+
+get_ids('https://schluesseldokumente.net/person/gnd/beacon')
+get_professions_from_WD()
+create_graph()
