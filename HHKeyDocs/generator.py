@@ -16,6 +16,7 @@ import unicodedata
 from rdflib.namespace import RDF
 from datetime import datetime
 from rdflib import Namespace, URIRef, Graph, Literal
+from tqdm import tqdm
 
 file_name = 'HHKeyDocs-final-01.ttl'
 
@@ -35,6 +36,23 @@ def get_ids(url):
         try:
             id = int(id)
             ids.append(id)
+        except:
+            pass
+
+#get GND IDs of Organisations from schluesseldokumente.net
+
+org_ids = []
+
+def get_org_ids(url):
+    response1 = requests.get(url)
+    soup = BeautifulSoup(response1.content, 'html.parser')
+    soup = str(soup)
+    soup = soup.split('\n')
+    # ids = soup[4:]
+    for id in soup:
+        try:
+            id = int(id)
+            org_ids.append(id)
         except:
             pass
 
@@ -135,10 +153,10 @@ def create_graph():
     graph.bind('edm', edm)
     graph.bind('dc', dc)
     
-    countterId = 0
-    for id in ids:
+  
+    for id in tqdm(ids):
         gndId = id
-        countterId += 1
+       
         url2 = f'https://schluesseldokumente.net/person/gnd/{gndId}.jsonld'              # get JSON-files by by GND-ID from schluesseldokumente.net
         response2 = requests.get(url2)
         if response2.status_code == 200:
@@ -151,6 +169,7 @@ def create_graph():
                     uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{name}")
                                                                                     
                     graph.add((URIRef(uri), RDF.type, foaf.Person))                       # add name + id
+                    graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/person/gnd/{gndId}"))))
                     graph.add((URIRef(uri), foaf.name, (Literal(name))))
                     graph.add((URIRef(uri), skos.prefLabel, (Literal(name))))
                     graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(id))))
@@ -192,6 +211,7 @@ def create_graph():
                     graph.add((URIRef(uri), dcterms.created, (Literal(datetime.now()))))
                     if 'description' in data:                                               #find and add occupations
                         description = data['description']
+                        graph.add((URIRef(uri), jl.hasAbstract, (Literal(description))))
                         description = description.replace('.', '')
                         description = description.replace(',', '')
                         description = description.split(' ')
@@ -205,8 +225,39 @@ def create_graph():
         else:
             print('ERROR' + response2.status_code)
 
+    for id in tqdm(org_ids):
+        orgID = id
+       # countterId += 1
+        org_url = f'https://schluesseldokumente.net/organisation/gnd/{orgID}.jsonld'             
+        response3 = requests.get(org_url)
+        if response3.status_code == 200:
+            if response3.text:                                                          
+                try: 
+                    data = json.loads(response3.text)
+                    name = clean_url_string(data['name'])
+                    name = name.decode('utf-8')
+                    name = str(name)
+                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{name}")
+                    graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/organisation/gnd/{orgID}"))))
+                    graph.add((URIRef(uri), RDF.type, foaf.Organisation))                #??? RICHTIG???
+                    graph.add((URIRef(uri), foaf.name, (Literal(name))))
+                    graph.add((URIRef(uri), skos.prefLabel, (Literal(name))))
+                    graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(orgID))))
+                    if 'description' in data:                                              
+                        description = data['description']
+                        graph.add((URIRef(uri), jl.hasAbstract, (Literal(description)))) 
+                        
+ # TODO What happens with foundingDate
+                
+                except json.JSONDecodeError as e:
+                    print(f"Fehler beim Laden von JSON: {e}")
+            graph.serialize(destination=file_name, format="turtle")
+        else:
+            print('ERROR' + response2.status_code)  
+
     print('graph created')
 
 get_ids('https://schluesseldokumente.net/person/gnd/beacon')
+get_org_ids('https://schluesseldokumente.net/organisation/gnd/beacon')
 get_professions_from_WD()
 create_graph()
