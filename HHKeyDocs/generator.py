@@ -38,6 +38,20 @@ def get_ids(url):
             ids.append(id)
         except:
             pass
+            
+            
+            
+place_ids = []
+
+def get_place_ids(url):
+    html = requests.get(url)
+    soup = BeautifulSoup(html.content, 'html.parser')
+    list_items = soup.select('.list-unstyled li a')
+    if list_items:
+        for item in list_items:
+            place_ids.append(item.get('href'))
+    else:
+        print("ERROR: no links found")
 
 #get GND IDs of Organisations from schluesseldokumente.net
 
@@ -153,6 +167,43 @@ def create_graph():
     graph.bind('edm', edm)
     graph.bind('dc', dc)
     
+    
+    place_uris = []
+    for id in tqdm(place_ids):                                                      #get place-JSON
+        place_url = f'https://schluesseldokumente.net{id}.jsonld'
+        place_response = requests.get(place_url)
+        if place_response.status_code == 200:
+            if place_response.text:                                                           # test any if data is loaded
+                try: 
+                    data = json.loads(place_response.text)
+                    name = clean_url_string(data['name'])
+                    name = name.decode('utf-8')
+                    name = str(name)
+                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{name}")
+                    place_uris.append(uri)
+                    graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/{id}"))))
+                    graph.add((URIRef(uri), RDF.type, gndo.PlaceOrGeographicName))   #??? RICHTIG???
+                    graph.add((URIRef(uri), foaf.name, (Literal(name))))
+                    graph.add((URIRef(uri), skos.prefLabel, (Literal(name))))
+                    try:
+                        graph.add((URIRef(uri), jl.lat, (Literal(data['geo']['latitude']))))
+                    except:
+                    	pass
+                    try:
+                        graph.add((URIRef(uri), jl.lon, (Literal(data['geo']['longitude']))))
+                    except:
+                    	pass
+                    graph.add((URIRef(uri), gndo.hierarchicalSuperiorOfPlaceOrGeographicName, (Literal(data['containedInPlace']['name']))))
+                    
+                    #TODO Skript for GND ID
+    
+                except json.JSONDecodeError as e:
+                    print(f"Fehler beim Laden von JSON: {e}")
+            graph.serialize(destination=file_name, format="turtle")
+        else:
+            print('ERROR' + response2.status_code)  
+    
+    
   
     for id in tqdm(ids):
         gndId = id
@@ -256,7 +307,8 @@ def create_graph():
             print('ERROR' + response2.status_code)  
 
     print('graph created')
-
+    
+get_place_ids('https://schluesseldokumente.net/ort')
 get_ids('https://schluesseldokumente.net/person/gnd/beacon')
 get_org_ids('https://schluesseldokumente.net/organisation/gnd/beacon')
 get_professions_from_WD()
