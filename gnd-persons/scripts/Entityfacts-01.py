@@ -13,7 +13,7 @@ import csv
 import re
 import time
 
-os.chdir('C:\\Users\\Maral\\Desktop')
+
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -49,10 +49,10 @@ sparql.setQuery("""
 
 select ?o ?gnd
 
-#from <http://maral.wisslab.org/graphs/freimann-gnd>
-from <http://maral.wisslab.org/graphs/ub-gnd>
-#from <http://maral.wisslab.org/graphs/gnd-persons>
-#from <http://maral.wisslab.org/graphs/bhr>
+#from <https://data.judaicalink.org/data/freimann-gnd>
+from <https://data.judaicalink.org/data/ub-gnd>
+#from <https://data.judaicalink.org/data/gnd-persons>
+#from <https://data.judaicalink.org/data/bhr>
 
 
 where

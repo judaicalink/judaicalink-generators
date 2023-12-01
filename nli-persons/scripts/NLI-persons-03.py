@@ -10,7 +10,7 @@ from rdflib.namespace import RDF, FOAF , OWL
 import json
 import os
 
-os.chdir('C:\\Users\\Maral\\Desktop')
+
 
 graph = Graph()
 

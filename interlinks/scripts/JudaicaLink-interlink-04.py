@@ -3,13 +3,9 @@
 #15/01/2018
 #Ver. 01
 
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal
-from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON
-from rdflib.namespace import RDF, FOAF , SKOS ,RDFS
-import os
-
-os.chdir('C:\Users\Maral\Desktop')
+from SPARQLWrapper import SPARQLWrapper2, XML
+from rdflib import Namespace, URIRef, Graph
+from rdflib.namespace import RDF
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -20,13 +16,13 @@ jl = Namespace("http://data.judaicalink.org/ontology/")
 owl = Namespace ("http://www.w3.org/2002/07/owl#")
 
 graph = Graph()
-#graph.parse('C:\Users\Maral\Desktop\interlinks-04.ttl', format="turtle")
-#graph.parse('C:\Users\Maral\Desktop\interlinks-04-enriched-01.ttl', format="turtle")
-#graph.parse('C:\Users\Maral\Desktop\interlinks-04-enriched-02.ttl', format="turtle")
-#graph.parse('C:\Users\Maral\Desktop\interlinks-04-enriched-03.ttl', format="turtle")
-#graph.parse('C:\Users\Maral\Desktop\interlinks-04-enriched-04.ttl', format="turtle")
-#graph.parse('C:\Users\Maral\Desktop\interlinks-04-enriched-05.ttl', format="turtle")
-graph.parse('C:\Users\Maral\Desktop\interlinks-04-enriched-06.ttl', format="turtle")
+#graph.parse('../output/interlinks-04.ttl', format="turtle")
+#graph.parse('../output/interlinks-04-enriched-01.ttl', format="turtle")
+#graph.parse('../output/interlinks-04-enriched-02.ttl', format="turtle")
+#graph.parse('../output/interlinks-04-enriched-03.ttl', format="turtle")
+#graph.parse('../output/interlinks-04-enriched-04.ttl', format="turtle")
+#graph.parse('../output/interlinks-04-enriched-05.ttl', format="turtle")
+graph.parse('../output/interlinks-04-enriched-06.ttl', format="turtle")
 
 
 
@@ -50,17 +46,17 @@ sparql.setQuery("""
 Select  ?x ?same ?same2
 {
 
-  GRAPH <http://maral.wisslab.org/graphs/interlinks> {
+  GRAPH <https://data.judaicalink.org/data/interlinks> {
 
     ?x owl:sameAs ?same
 
    }
 
-  #GRAPH <http://maral.wisslab.org/graphs/gnd_persons>  {
-  #GRAPH <http://maral.wisslab.org/graphs/bhr>  {
-  #GRAPH <http://maral.wisslab.org/graphs/dbpedia_persons>  {
-  #GRAPH <http://maral.wisslab.org/graphs/rujen>  {
-  GRAPH <http://maral.wisslab.org/graphs/freimann-gnd>  {
+  #GRAPH <https://data.judaicalink.org/data/gnd_persons>  {
+  #GRAPH <https://data.judaicalink.org/data/bhr>  {
+  #GRAPH <https://data.judaicalink.org/data/dbpedia_persons>  {
+  #GRAPH <https://data.judaicalink.org/data/rujen>  {
+  GRAPH <https://data.judaicalink.org/data/freimann-gnd>  {
     ?same a foaf:Person.
     ?same owl:sameAs ?same2
    }

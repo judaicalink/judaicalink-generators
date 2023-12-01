@@ -1,21 +1,13 @@
-#Maral Dadvar
-#27/04/2017
-#This script generates persons from GND, based on the land set to Israel. The occupation of the persons are also extracted and maaped to Occ_ontology
+# Maral Dadvar
+# 27/04/2017
+# This script generates persons from GND, based on the land set to Israel. The occupation of the persons are also extracted and maaped to Occ_ontology
 
-import unicodedata
-import os , glob
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal , OWL, RDFS , RDF
-from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
-import re
-import pprint
-
-os.chdir('C:\Users\Maral\Desktop\output')
+from SPARQLWrapper import SPARQLWrapper2, TURTLE
+from rdflib import Namespace, URIRef, Graph, Literal, RDF
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
 graph = Graph()
-
 
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 rdf = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
@@ -24,17 +16,16 @@ jlo = Namespace("http://data.judaicalink.org/occupation/")
 gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
 skos = Namespace("http://www.w3.org/2004/02/skos/core#")
 
-
 g = Graph()
 
-g.bind('gndo',gndo)
-g.bind('foaf',foaf)
-g.bind('jl',jl)
-g.bind('jlo',jlo)
-g.bind('skos',skos)
+g.bind('gndo', gndo)
+g.bind('foaf', foaf)
+g.bind('jl', jl)
+g.bind('jlo', jlo)
+g.bind('skos', skos)
 
-#extracts differentiated persons from GND who live in Israel(occupation and label and gndid).
-spar1= """
+# extracts differentiated persons from GND who live in Israel(occupation and label and gndid).
+spar1 = """
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX gndo: <http://d-nb.info/standards/elementset/gnd#>
     PREFIX pro: <http://purl.org/hpi/patchr#>
@@ -54,7 +45,7 @@ select ?person ?occ ?name ?occname ?occont ?label
 
 		WHERE{
 
-  GRAPH <http://maral.wisslab.org/graphs/gnd> {
+  GRAPH <https://data.judaicalink.org/data/gnd> {
     ?person a gndo:DifferentiatedPerson .
     ?person gndo:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XY>.
    ?person gndo:professionOrOccupation ?occ.
@@ -62,7 +53,7 @@ select ?person ?occ ?name ?occname ?occont ?label
     ?person gndo:variantNameForThePerson ?label.
     ?occ gndo:preferredNameForTheSubjectHeading ?occname
 
- GRAPH <http://maral.wisslab.org/graphs/occ_ontology> {
+ GRAPH <https://data.judaicalink.org/data/occ_ontology> {
     	?occont a jl:Occupation.
         ?occont owl:sameAs ?occ
 
@@ -78,53 +69,51 @@ sparql.setQuery(spar1)
 sparql.setReturnFormat(TURTLE)
 results = sparql.query().convert()
 
-
-if (u"person",u"occ",u"name",u"occname",u"occont",u"label") in results:
-    bindings = results[u"person",u"occ",u"name",u"occname",u"occont",u"label"]
+if (u"person", u"occ", u"name", u"occname", u"occont", u"label") in results:
+    bindings = results[u"person", u"occ", u"name", u"occname", u"occont", u"label"]
     for b in bindings:
-       print b
+        print(b)
 
-       name = b[u"name"].value.encode('utf-8')
-       label = b[u"label"].value.encode('utf-8')
-       name = name.replace('<','')
-       name = name.replace('>','')
-       name = name.replace('-','')
-       name = name.replace('_','')
-       name = name.replace('/','')
-       name = name.replace('\\','')
+        name = b[u"name"].value.encode('utf-8')
+        label = b[u"label"].value.encode('utf-8')
+        name = name.replace('<', '')
+        name = name.replace('>', '')
+        name = name.replace('-', '')
+        name = name.replace('_', '')
+        name = name.replace('/', '')
+        name = name.replace('\\', '')
 
-       URIending = b[u"person"].value.rsplit('/',1)[1]
+        URIending = b[u"person"].value.rsplit('/', 1)[1]
 
-       if ',' and ' ' not in b[u"name"].value: #check if the name has only one part
+        if ',' and ' ' not in b[u"name"].value:  # check if the name has only one part
 
-        jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
-        print jlURI
+            jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
+            print(jlURI)
 
-       elif b[u"name"].value.count(',') == 2: #check if the name has more that 3 parts
+        elif b[u"name"].value.count(',') == 2:  # check if the name has more that 3 parts
 
-        altname = name.rsplit(',',2)[1].strip() + ' ' + name.rsplit(',',2)[1].strip() + ' ' + name.rsplit(',',2)[2].strip()
-        jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
-        print jlURI
+            altname = name.rsplit(',', 2)[1].strip() + ' ' + name.rsplit(',', 2)[1].strip() + ' ' + name.rsplit(',', 2)[
+                2].strip()
+            jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
+            print(jlURI)
 
-       elif b[u"name"].value.count(',') == 1: #check if the name has 2 parts
+        elif b[u"name"].value.count(',') == 1:  # check if the name has 2 parts
 
+            altname = name.rsplit(',', 1)[1].strip() + ' ' + name.rsplit(',', 1)[0]
+            jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
+            print(jlURI)
 
-        altname = name.rsplit(',',1)[1].strip() + ' ' + name.rsplit(',',1)[0]
-        jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
-        print jlURI
+        elif ',' not in b[u"name"].value:  # check if name parts are separated with space insetad of ','
 
-       elif ',' not in b[u"name"].value: #check if name parts are separated with space insetad of ','
+            altname = name.rsplit(' ', 1)[1].strip() + ' ' + name.rsplit(' ', 1)[0]
+            jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
+            print(jlURI)
 
-        altname = name.rsplit(' ',1)[1].strip() + ' ' + name.rsplit(' ',1)[0]
-        jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
-        print jlURI
+        g.add((URIRef(jlURI), RDF.type, foaf.Person))
+        g.add((URIRef(jlURI), skos.altLabel, Literal(label)))
+        g.add((URIRef(jlURI), skos.prefLabel, Literal(b[u"name"].value)))
+        g.add((URIRef(jlURI), skos.altLabel, Literal(altname)))
+        g.add((URIRef(jlURI), gndo.gndIdentifier, URIRef(b[u"person"].value)))
+        g.add((URIRef(jlURI), jl.occupation, URIRef(b[u"occont"].value)))
 
-       g.add( (URIRef(jlURI), RDF.type , foaf.Person ) )
-       g.add( (URIRef(jlURI), skos.altLabel , Literal(label) ) )
-       g.add( (URIRef(jlURI), skos.prefLabel , Literal(b[u"name"].value) ) )
-       g.add( (URIRef(jlURI), skos.altLabel , Literal(altname) ) )
-       g.add( (URIRef(jlURI), gndo.gndIdentifier , URIRef(b[u"person"].value) ) )
-       g.add( (URIRef(jlURI), jl.occupation , URIRef(b[u"occont"].value) ) )
-
-g.serialize(destination = 'generated_person_GND_Occontology.ttl' , format="turtle")
-
+g.serialize(destination='generated_person_GND_Occontology.ttl', format="turtle")

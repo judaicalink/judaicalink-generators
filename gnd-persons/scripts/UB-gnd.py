@@ -1,24 +1,15 @@
-#this code uses the GND links of UB and extracts all their info from GND to creat a new dataset for JL.
+# this code uses the GND links of UB and extracts all their info from GND to creat a new dataset for JL.
 # 17/07/2018
 # Maral Dadvar
 
 
-import urllib2
-from bs4 import BeautifulSoup
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal
-from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON , TURTLE
-from rdflib.namespace import RDF, FOAF , OWL
-import os , glob
 import csv
 import re
-import unidecode
-
-os.chdir('C:\Users\Maral\Desktop')
-
+from SPARQLWrapper import SPARQLWrapper2, RDF, TURTLE
+from rdflib import Namespace, URIRef, Graph, Literal
+from rdflib.namespace import RDF
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
-
 
 graph = Graph()
 
@@ -29,14 +20,10 @@ gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
 owl = Namespace("http://www.w3.org/2002/07/owl#")
 
 
-
-
-
-def generator_gnd (gndURI):
-
+def generator_gnd(gndURI):
     newURI = '<' + gndURI + '>'
 
-    spar2= """
+    spar2 = """
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX gndo: <http://d-nb.info/standards/elementset/gnd#>
     PREFIX pro: <http://purl.org/hpi/patchr#>
@@ -53,7 +40,7 @@ def generator_gnd (gndURI):
         select ?name ?alt ?gnd ?same ?pb ?pd ?db ?dd
 
         WHERE{{
-          graph <http://maral.wisslab.org/graphs/gnd> {{
+          graph <https://data.judaicalink.org/data/gnd> {{
 
             	{0} gndo:preferredNameForThePerson ?name.
                 optional {{{0} gndo:variantNameForThePerson ?alt.}}
@@ -76,75 +63,77 @@ def generator_gnd (gndURI):
     sparql.setReturnFormat(TURTLE)
     results = sparql.query().convert()
 
-
     graph.bind('skos', skos)
-    graph.bind ('foaf' , foaf)
-    graph.bind ('jl' , jl)
-    graph.bind('gndo',gndo)
-    graph.bind ('owl' , owl)
+    graph.bind('foaf', foaf)
+    graph.bind('jl', jl)
+    graph.bind('gndo', gndo)
+    graph.bind('owl', owl)
 
-
-    for i in range(0,len(results.bindings)):
+    for i in range(0, len(results.bindings)):
 
         URI = 'http://data.judaicalink.org/data/gnd/' + results.bindings[i]['gnd'].value
 
-        graph.add((URIRef(URI), RDF.type, foaf.Person ))
+        graph.add((URIRef(URI), RDF.type, foaf.Person))
 
         name = results.bindings[i]['name'].value
-        graph.add((URIRef(URI), skos.prefLabel ,(Literal(name)) ))
+        graph.add((URIRef(URI), skos.prefLabel, (Literal(name))))
 
-        graph.add((URIRef(URI), owl.sameAs ,(URIRef(gndURI)) ))
-
+        graph.add((URIRef(URI), owl.sameAs, (URIRef(gndURI))))
 
         if 'alt' in results.bindings[i].keys():
             alt = results.bindings[i]['alt'].value
-            graph.add((URIRef(URI), skos.altLabel ,(Literal(alt)) ))
-        else: alt="NA"
-
+            graph.add((URIRef(URI), skos.altLabel, (Literal(alt))))
+        else:
+            alt = "NA"
 
         if 'gnd' in results.bindings[i].keys():
             gnd = results.bindings[i]['gnd'].value
-            graph.add((URIRef(URI), gndo.gndIdentifier ,(Literal(gnd)) ))
-        else: gnd="NA"
+            graph.add((URIRef(URI), gndo.gndIdentifier, (Literal(gnd))))
+        else:
+            gnd = "NA"
 
         if 'same' in results.bindings[i].keys():
             same = results.bindings[i]['same'].value
-            graph.add((URIRef(URI), owl.sameAs ,(URIRef(same)) ))
-        else: same="NA"
+            graph.add((URIRef(URI), owl.sameAs, (URIRef(same))))
+        else:
+            same = "NA"
 
         if 'pb' in results.bindings[i].keys():
             pbirth = results.bindings[i]['pb'].value
-            graph.add((URIRef(URI), jl.birthLocation ,(Literal(pbirth)) ))
-        else: pbirth="NA"
+            graph.add((URIRef(URI), jl.birthLocation, (Literal(pbirth))))
+        else:
+            pbirth = "NA"
 
         if 'pd' in results.bindings[i].keys():
             pdeath = results.bindings[i]['pd'].value
-            graph.add((URIRef(URI), jl.deathLocation ,(Literal(pdeath)) ))
-        else: pdeath="NA"
+            graph.add((URIRef(URI), jl.deathLocation, (Literal(pdeath))))
+        else:
+            pdeath = "NA"
 
         if 'db' in results.bindings[i].keys():
             dbirth = results.bindings[i]['db'].value
-            bdate= re.findall(r'\d{4}', dbirth)
+            bdate = re.findall(r'\d{4}', dbirth)
             if bdate != []:
-                graph.add((URIRef(URI), jl.birthDate ,(Literal(bdate[0])) ))
-        else: dbirth="NA"
+                graph.add((URIRef(URI), jl.birthDate, (Literal(bdate[0]))))
+        else:
+            dbirth = "NA"
 
         if 'dd' in results.bindings[i].keys():
             ddeath = results.bindings[i]['dd'].value
-            ddate= re.findall(r'\d{4}', ddeath)
+            ddate = re.findall(r'\d{4}', ddeath)
             if ddate != []:
-                graph.add((URIRef(URI), jl.deathDate ,(Literal(ddate[0])) ))
-        else: ddeath="NA"
-
+                graph.add((URIRef(URI), jl.deathDate, (Literal(ddate[0]))))
+        else:
+            ddeath = "NA"
 
     return
 
 
-data = csv.reader(open('C:\\Users\\Maral\\Desktop\\tp-records_gnd-ids.csv'))
+data = csv.reader(open('../sources/tp-records_gnd-ids.csv'))
 fields = data.next()
-eventdic={}
+eventdic = {}
 
-dic={}
+dic = {}
 
 for row in data:
 
@@ -154,10 +143,7 @@ for row in data:
         item[name] = value.strip()
 
     gnduri = item['GND_ID'].strip()
-    print gnduri
+    print(gnduri)
     generator_gnd(gnduri)
 
-
-
 graph.serialize(destination='UB-gnd-enrich.ttl', format="turtle")
-

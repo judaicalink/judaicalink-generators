@@ -2,15 +2,8 @@
 #27/04/2017
 #This script generates persons from GND, based on the geographicAreaCode category. The occupation of the persons is also extracted from GND.
 
-import unicodedata
-import os , glob
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal , OWL, RDFS , RDF
-from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
-import re
-import pprint
-
-os.chdir('C:\Users\Maral\Desktop\output')
+from SPARQLWrapper import SPARQLWrapper2, TURTLE
+from rdflib import Namespace, URIRef, Graph, Literal, RDF
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -54,7 +47,7 @@ select ?person ?occ ?name ?label
 
 		WHERE{
 
-  GRAPH <http://maral.wisslab.org/graphs/gnd> {
+  GRAPH <https://data.judaicalink.org/data/gnd> {
 
 
     ?person a gndo:DifferentiatedPerson.
@@ -77,7 +70,7 @@ results = sparql.query().convert()
 if (u"person",u"occ",u"name",u"label") in results:
     bindings = results[u"person",u"occ",u"name",u"label"]
     for b in bindings:
-       print b
+       print(b)
 
        name = b[u"name"].value.encode('utf-8')
        label = b[u"label"].value.encode('utf-8')
@@ -93,26 +86,26 @@ if (u"person",u"occ",u"name",u"label") in results:
        if ',' and ' ' not in b[u"name"].value: #check if the name has only one part
 
         jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
-        print jlURI
+        print(jlURI)
 
        elif b[u"name"].value.count(',') == 2: #check if the name has more that 3 parts
 
         altname = name.rsplit(',',2)[1].strip() + ' ' + name.rsplit(',',2)[1].strip() + ' ' + name.rsplit(',',2)[2].strip()
         jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
-        print jlURI
+        print(jlURI)
 
        elif b[u"name"].value.count(',') == 1: #check if the name has 2 parts
 
 
         altname = name.rsplit(',',1)[1].strip() + ' ' + name.rsplit(',',1)[0]
         jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
-        print jlURI
+        print(jlURI)
 
        elif ',' not in b[u"name"].value: #check if name parts are separated with space insetad of ','
 
         altname = name.rsplit(' ',1)[1].strip() + ' ' + name.rsplit(' ',1)[0]
         jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
-        print jlURI
+        print(jlURI)
 
        g.add( (URIRef(jlURI), RDF.type , foaf.Person ) )
        g.add( (URIRef(jlURI), skos.altLabel , Literal(label) ) )

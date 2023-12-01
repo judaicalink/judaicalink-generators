@@ -13,7 +13,7 @@ import csv
 import re
 import time
 
-os.chdir('C:\\Users\\Maral\\Desktop')
+
 
 graph = Graph()
 

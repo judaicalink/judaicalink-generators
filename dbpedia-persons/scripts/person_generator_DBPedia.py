@@ -1,21 +1,14 @@
-#Maral Dadvar
-#21/04/2017
-#This scrips reads a list of occupation URIs extracted from DBPedia and extracts the Persons label and sameAs links from each URI.
-#The occpuation ontology rdf file is used for the occupation URI's.
+# Maral Dadvar
+# 21/04/2017
+# This scrips reads a list of occupation URIs extracted from DBPedia and extracts the Persons label and sameAs links from each URI.
+# The occpuation ontology rdf file is used for the occupation URI's.
 
-import unicodedata
-import os , glob
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal , OWL, RDFS , RDF
-from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
-import re
-import pprint
-
-os.chdir('C:\Users\Maral\Desktop\generated_persons')
+from SPARQLWrapper import SPARQLWrapper2, TURTLE
+from rdflib import Namespace, URIRef, Graph, Literal, OWL, RDFS, RDF
 
 sparql = SPARQLWrapper2("http://dbpedia.org/sparql")
 
-path = 'C:\Users\Maral\Desktop' #adapted to the list file path
+path = './'  # adapted to the list file path
 
 graph = Graph()
 
@@ -26,16 +19,19 @@ gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
 dct = Namespace("http://purl.org/dc/terms/")
 skos = Namespace("http://www.w3.org/2004/02/skos/core#")
 
-def generator_person (URI ,OccURI):
 
+def generator_person(URI, OccURI):
     "This function generates a rdf file of the person based on their occupation."
 
-    print URI
-    print OccURI
-    newURI = '<'+URI+'>'
-    print newURI
+    print
+    URI
+    print
+    OccURI
+    newURI = '<' + URI + '>'
+    print
+    newURI
 
-    spar= """
+    spar = """
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX gndo: <http://d-nb.info/standards/elementset/gnd#>
     PREFIX pro: <http://purl.org/hpi/patchr#>
@@ -68,44 +64,42 @@ def generator_person (URI ,OccURI):
     results = sparql.query().convert()
 
     graph.bind('jl', jl)
-    graph.bind('owl',OWL)
-    graph.bind('rdfs',RDFS)
-    graph.bind('foaf',foaf)
-    graph.bind('dct',dct)
-    graph.bind('skos',skos)
+    graph.bind('owl', OWL)
+    graph.bind('rdfs', RDFS)
+    graph.bind('foaf', foaf)
+    graph.bind('dct', dct)
+    graph.bind('skos', skos)
 
+    if (u"x", u"name", u"lan", u"same") in results:
 
-    if (u"x",u"name",u"lan",u"same") in results:
-
-        bindings = results[u"x",u"name",u"lan","same"]
+        bindings = results[u"x", u"name", u"lan", "same"]
 
         for b in bindings:
 
-            print b
+            print
+            b
 
             jlURI = b[u"x"].value.lower()
 
+            if 'list' not in jlURI:  # to eliminate irrelevant lists extracted from dbpedia
 
-            if 'list' not in jlURI: #to eliminate irrelevant lists extracted from dbpedia
+                jlend = b[u"x"].value.rsplit('/', 1)[1]
+                jlid = 'http://data.judaicalink.org/data/dbpedia/' + jlend  # change to Judaicalink URI
 
-                jlend = b[u"x"].value.rsplit('/',1)[1]
-                jlid = 'http://data.judaicalink.org/data/dbpedia/' + jlend #change to Judaicalink URI
-
-
-                graph.add( (URIRef(jlid), RDF.type , foaf.Person ) )
-                graph.add( (URIRef(jlid), OWL.sameAs , URIRef(b[u"x"].value) ) )
-                graph.add( (URIRef(jlid), jl.occupation , URIRef(OccURI) ) )
-                graph.add( (URIRef(jlid), skos.prefLabel, Literal(b[u"name"].value, lang = b[u"lan"].value) ) )
-                graph.add( (URIRef(jlid), OWL.sameAs , URIRef(b[u"same"].value) ) )
-                graph.add( (URIRef(jlid), dct.subject , URIRef(URI) ) )
+                graph.add((URIRef(jlid), RDF.type, foaf.Person))
+                graph.add((URIRef(jlid), OWL.sameAs, URIRef(b[u"x"].value)))
+                graph.add((URIRef(jlid), jl.occupation, URIRef(OccURI)))
+                graph.add((URIRef(jlid), skos.prefLabel, Literal(b[u"name"].value, lang=b[u"lan"].value)))
+                graph.add((URIRef(jlid), OWL.sameAs, URIRef(b[u"same"].value)))
+                graph.add((URIRef(jlid), dct.subject, URIRef(URI)))
 
     return
 
+
 g = Graph()
-g.parse('C:\Users\Maral\Desktop\generated_persons\occ_ontology.rdf', format="turtle")
+g.parse('..output/occ_ontology.rdf', format="turtle")
 
-
-spar= """
+spar = """
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX pro: <http://purl.org/hpi/patchr#>
     PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -131,16 +125,14 @@ spar= """
 result = g.query(spar)
 
 for item in result:
+    print(item)
 
-   print item
+    URI = str(item[1])
+    print(URI)
 
-   URI = str(item[1])
-   print URI
-   OccURI = str(item[0])
-   print OccURI
+    OccURI = str(item[0])
+    print(OccURI)
 
-   generator_person(URI , OccURI)
+    generator_person(URI, OccURI)
 
-
-graph.serialize(destination= 'generated_person_dbpedia.ttl' , format="turtle")
-
+graph.serialize(destination='generated_person_dbpedia.ttl', format="turtle")

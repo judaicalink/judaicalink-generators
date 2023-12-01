@@ -10,7 +10,6 @@ from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
 import re
 import pprint
 
-os.chdir('C:\Users\Maral\Desktop')
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -23,7 +22,7 @@ owl = Namespace("http://www.w3.org/2002/07/owl#")
 
 g = Graph()
 
-g.parse('C:\Users\Maral\Desktop\EncycBHR-ID-GND-JL.ttl', format="turtle")
+g.parse('../output/EncycBHR-ID-GND-JL.ttl', format="turtle")
 
 
 g.bind('foaf',foaf)
@@ -51,11 +50,11 @@ spar1= """
 SELECT  ?a ?city ?x ?z
 WHERE {
 
-  GRAPH <http://maral.wisslab.org/graphs/bhr> {
+  GRAPH <https://data.judaicalink.org/data/bhr> {
  	?x a foaf:Person.
     ?x owl:sameAs ?z }
 
-	GRAPH <http://maral.wisslab.org/graphs/gnd>{
+	GRAPH <https://data.judaicalink.org/data/gnd>{
   	?z a gndo:DifferentiatedPerson .
     ?z gndo:placeOfBirth ?a.
     ?a gndo:preferredNameForThePlaceOrGeographicName ?city}
@@ -77,7 +76,7 @@ if (u"a",u"city",u"x",u"z") in results:
        jluri = b[u"x"].value
        city = b[u"city"].value
 
-       print city , jluri
+       print(city , jluri)
        g.add( (URIRef(jluri), RDF.type , foaf.Person ) )
        g.add( (URIRef(jluri), jl.birthLocation , Literal(city) ) )
 

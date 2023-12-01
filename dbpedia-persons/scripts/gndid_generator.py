@@ -1,34 +1,26 @@
-#Maral Dadvar
-#23/03/2017
-#This script reads the rdf file generated for person from dbpedia and generates the GNDid URI from Wikidata for the persons.
+# Maral Dadvar
+# 23/03/2017
+# This script reads the rdf file generated for person from dbpedia and generates the GNDid URI from Wikidata for the persons.
 
-import unicodedata
-import os , glob
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal , OWL, RDFS , RDF
-from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
-import re
-import pprint
-
-os.chdir('C:\Users\Maral\Desktop\output')
+from SPARQLWrapper import SPARQLWrapper2, TURTLE
+from rdflib import Namespace, URIRef, Graph, RDF
 
 sparql = SPARQLWrapper2("https://query.wikidata.org/sparql")
 
 graph = Graph()
-
 
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 rdf = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
 jl = Namespace("http://data.judaicalink.org/ontology/")
 gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
 
-wikilist=[]
+wikilist = []
 
-def generator_gndid (URI):
 
+def generator_gndid(URI):
     "this function extracts the gndid of the person from Wikidata"
 
-    spar1= """
+    spar1 = """
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX gndo: <http://d-nb.info/standards/elementset/gnd#>
         PREFIX pro: <http://purl.org/hpi/patchr#>
@@ -60,20 +52,18 @@ def generator_gndid (URI):
     sparql.setReturnFormat(TURTLE)
     results = sparql.query().convert()
 
-
     if (u"id") in results:
         bindings = results[u"id"]
         for b in bindings:
-           return b[u"id"].value
-
+            return b[u"id"].value
 
 
 g = Graph()
-g.parse('C:\Users\Maral\Desktop\generated_person\generated_person.rdf', format="turtle")
+g.parse('../output/generated_person.rdf', format="turtle")
 
-#this query will extract only the sameAs links to Wikidata
+# this query will extract only the sameAs links to Wikidata
 
-spar= """
+spar = """
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX gndo: <http://d-nb.info/standards/elementset/gnd#>
     PREFIX pro: <http://purl.org/hpi/patchr#>
@@ -98,28 +88,24 @@ spar= """
 
 results = g.query(spar)
 
-graph.bind('gndo',gndo)
-graph.bind('foaf',foaf)
+graph.bind('gndo', gndo)
+graph.bind('foaf', foaf)
 
 for item in results:
 
+    URI = '<' + str(item[1]) + '>'  # turn it into query adaptable URI format
 
-   URI = '<'+ str(item[1]) + '>' #turn it into query adaptable URI format
+    wikilist.append(URI)
 
-   wikilist.append(URI)
+    gnd = generator_gndid(URI)  # generate the GNDid
 
-   gnd = generator_gndid(URI) #generate the GNDid
-
-
-   if gnd != None: #if an id was found
+    if gnd != None:  # if an id was found
 
         gndid = 'http://d-nb.info/gnd/' + gnd
-        print gndid
+        print
+        gndid
 
-        graph.add( (URIRef(item[0]), RDF.type , foaf.Person ) )
-        graph.add( (URIRef(item[0]), gndo.gndIdentifier , URIRef(gndid) ) ) #add the GNDid to the graph
+        graph.add((URIRef(item[0]), RDF.type, foaf.Person))
+        graph.add((URIRef(item[0]), gndo.gndIdentifier, URIRef(gndid)))  # add the GNDid to the graph
 
-
-
-graph.serialize(destination = 'generated_gndid.rdf' , format="turtle")
-
+graph.serialize(destination='generated_gndid.rdf', format="turtle")

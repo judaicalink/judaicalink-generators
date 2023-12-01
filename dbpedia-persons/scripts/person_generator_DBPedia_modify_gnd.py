@@ -1,21 +1,11 @@
-#Maral Dadvar
-#21/04/2017
-#This scrips reads a list of occupation URIs extracted from DBPedia and extracts the Persons label and sameAs links from each URI.
-#The occpuation ontology rdf file is used for the occupation URI's.
+# Maral Dadvar
+# 21/04/2017
+# This scrips reads a list of occupation URIs extracted from DBPedia and extracts the Persons label and sameAs links from each URI.
+# The occpuation ontology rdf file is used for the occupation URI's.
 
-import unicodedata
-import os , glob
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal , OWL, RDFS , RDF
-from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
-import re
-import pprint
+from rdflib import Namespace, URIRef, Graph, Literal, OWL, RDFS, RDF
 
-os.chdir('C:\Users\Maral\Desktop')
-
-path = 'C:\Users\Maral\Desktop' #adapted to the list file path
-
-
+path = './'  # adapted to the list file path
 
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 rdf = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
@@ -25,25 +15,21 @@ dct = Namespace("http://purl.org/dc/terms/")
 skos = Namespace("http://www.w3.org/2004/02/skos/core#")
 owl = Namespace("http://www.w3.org/2002/07/owl#")
 
-
-
-
 g2 = Graph()
-g2.parse('C:\Users\Maral\Desktop\person-gndid.ttl', format="turtle")
-
+g2.parse('../output/person-gndid.ttl', format="turtle")
 
 g = Graph()
-g.parse('C:\Users\Maral\Desktop\generated_person_dbpedia_modified.ttl', format="turtle")
+g.parse('../output/generated_person_dbpedia_modified.ttl', format="turtle")
 
 g.bind('jl', jl)
-g.bind('owl',OWL)
-g.bind('rdfs',RDFS)
-g.bind('foaf',foaf)
-g.bind('dct',dct)
-g.bind('skos',skos)
-g.bind('gndo',gndo)
+g.bind('owl', OWL)
+g.bind('rdfs', RDFS)
+g.bind('foaf', foaf)
+g.bind('dct', dct)
+g.bind('skos', skos)
+g.bind('gndo', gndo)
 
-spar2= """
+spar2 = """
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX pro: <http://purl.org/hpi/patchr#>
     PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -61,20 +47,17 @@ spar2= """
       }
 """
 
-
 result2 = g2.query(spar2)
 
-
 for item2 in result2:
+    print(item2)
 
-   print item2
+    URI = item2[0]
+    gnduri = item2[1]
+    gnd = str(gnduri).rsplit('/', 1)[1]
 
-   URI = item2[0]
-   gnduri = item2[1]
-   gnd = str(gnduri).rsplit('/',1)[1]
+    g.add((URIRef(URI), RDF.type, foaf.Person))
+    g.add((URIRef(URI), gndo.gndIdentifier, Literal(gnd)))
+    g.add((URIRef(URI), owl.sameAs, URIRef(gnduri)))
 
-   g.add( (URIRef(URI), RDF.type , foaf.Person ) )
-   g.add( (URIRef(URI), gndo.gndIdentifier , Literal(gnd) ) )
-   g.add( (URIRef(URI), owl.sameAs , URIRef(gnduri) ) )
-
-g.serialize(destination= 'generated_person_dbpedia_modified_gnd.ttl' , format="turtle")
+g.serialize(destination='generated_person_dbpedia_modified_gnd.ttl', format="turtle")

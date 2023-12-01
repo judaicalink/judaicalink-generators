@@ -1,28 +1,16 @@
-#this code extarcts the content of the encyclopedia page into a csv file.
+# this code extarcts the content of the encyclopedia page into a csv file.
 # 25/July/2017
 # Maral Dadvar
 
 
-import urllib2
-from bs4 import BeautifulSoup
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal
-from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON , TURTLE
-from rdflib.namespace import RDF, FOAF , OWL
-import os , glob
 import csv
 import re
-import unidecode
+from rdflib import Namespace, Graph
+from rdflib.namespace import OWL
 
-os.chdir('C:\Users\Maral\Desktop')
+output = open('../output/Encycoutput.csv', 'w')
 
-
-output = open('Encycoutput.csv','w')
-
-output.writelines([str('fn'),',',str('ln'),',',str('geb'),',',str('gest'),',',str('BHR'),'\n'])
-
-
-
+output.writelines([str('fn'), ',', str('ln'), ',', str('geb'), ',', str('gest'), ',', str('BHR'), '\n'])
 
 graph = Graph()
 
@@ -31,27 +19,26 @@ Springer = Namespace("http://lod.springer.com/data/ontology/schema#")
 
 graph.bind('ma', ma)
 graph.bind('Springer', Springer)
-graph.bind ('owl' , OWL)
+graph.bind('owl', OWL)
 
-
-data = csv.reader(open('C:\\Users\\Maral\\Desktop\\new1-cleaned.csv'))
+data = csv.reader(open('./new1-cleaned.csv'))
 fields = data.next()
-eventdic={}
+eventdic = {}
 
 for row in data:
 
-    fn=''
-    ln=''
+    fn = ''
+    ln = ''
     geb = ''
-    gest= ''
+    gest = ''
     bhr1 = False
     bhr2 = False
-    misc1=''
-    misc2=''
-    misc3=''
-    misc4=''
-    misc5=''
-    misc6=''
+    misc1 = ''
+    misc2 = ''
+    misc3 = ''
+    misc4 = ''
+    misc5 = ''
+    misc6 = ''
 
     items = zip(fields, row)
     item = {}
@@ -59,9 +46,9 @@ for row in data:
         item[name] = value.strip()
 
     firstname = item['fn'].strip()
-    fn = firstname.rsplit('[',1)[0]
-    fn = fn.replace('[','')
-    fn = fn.replace(']','')
+    fn = firstname.rsplit('[', 1)[0]
+    fn = fn.replace('[', '')
+    fn = fn.replace(']', '')
 
     lastname = item['ln'].strip()
 
@@ -71,9 +58,9 @@ for row in data:
         ln = ''
 
     else:
-        ln = lastname.rsplit('[',1)[0]
-        ln = ln.replace('[','')
-        ln = ln.replace(']','')
+        ln = lastname.rsplit('[', 1)[0]
+        ln = ln.replace('[', '')
+        ln = ln.replace(']', '')
 
     misc1 = item['misc1'].strip()
     misc2 = item['misc2'].strip()
@@ -106,7 +93,7 @@ for row in data:
 
     if len(geb) == 2:
         geb = geb[0] + '-' + geb[1]
-    elif len(geb) >2 :
+    elif len(geb) > 2:
         geb = geb[0]
 
     if 'gest.' in misc1:
@@ -133,10 +120,8 @@ for row in data:
 
     if len(gest) == 2:
         gest = gest[0] + '-' + gest[1]
-    elif len(gest) >2:
+    elif len(gest) > 2:
         gest = gest[0]
-
-
 
     if '[BHR1]' in misc1:
         bhr1 = True
@@ -162,8 +147,6 @@ for row in data:
     elif '[BHR1]' in misc6:
         bhr1 = True
 
-
-
     if '[BHR2]' in misc1:
         bhr2 = True
 
@@ -187,29 +170,26 @@ for row in data:
 
     elif '[BHR2]' in misc6:
         bhr2 = True
-   # else:
-       # bhr2 = False
+    # else:
+    # bhr2 = False
 
-
-    print fn , ln , geb , gest , bhr1 , bhr2
+    print(fn, ln, geb, gest, bhr1, bhr2)
 
     if bhr1 == True:
 
-        output.writelines([str(fn),',',str(ln),',',str(geb),',',str(gest),',',str('BHR1'),'\n'])
+        output.writelines([str(fn), ',', str(ln), ',', str(geb), ',', str(gest), ',', str('BHR1'), '\n'])
 
     elif bhr2 == True:
 
-        output.writelines([str(fn),',',str(ln),',',str(geb),',',str(gest),',',str('BHR2'),'\n'])
-
+        output.writelines([str(fn), ',', str(ln), ',', str(geb), ',', str(gest), ',', str('BHR2'), '\n'])
 
 output.close()
 
-    #graph.add((URIRef(eventurl), RDF.type, URIRef('http://lod.springer.com/data/ontology/class/Conference') ))
-    #graph.add((URIRef(eventurl), Springer.hasSeries,(URIRef(seriesurl)) ))
-    #graph.add((URIRef(eventurl), Springer.confName, Literal(conf) ))
-    #graph.add((URIRef(eventurl), OWL.sameAs , URIRef(sameeventurl) ))
-    #graph.serialize(destination='output5.rdf', format="turtle")
+# graph.add((URIRef(eventurl), RDF.type, URIRef('http://lod.springer.com/data/ontology/class/Conference') ))
+# graph.add((URIRef(eventurl), Springer.hasSeries,(URIRef(seriesurl)) ))
+# graph.add((URIRef(eventurl), Springer.confName, Literal(conf) ))
+# graph.add((URIRef(eventurl), OWL.sameAs , URIRef(sameeventurl) ))
+# graph.serialize(destination='output5.rdf', format="turtle")
 
 
-#graph.serialize(destination='output5.rdf', format="turtle")
-
+# graph.serialize(destination='output5.rdf', format="turtle")

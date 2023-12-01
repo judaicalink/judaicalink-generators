@@ -10,12 +10,12 @@ Then the generated files were enriched with their corresponding GND entry inform
 
 ```
 INSERT
-{ GRAPH <http://maral.wisslab.org/graphs/haskala>
+{ GRAPH <https://data.judaicalink.org/data/haskala>
   { ?x jl:birthLocation ?placebn .
   ?x jl:deathLocation ?placedn .
   }}
 where{
-  GRAPH <http://maral.wisslab.org/graphs/haskala> {
+  GRAPH <https://data.judaicalink.org/data/haskala> {
     ?x a foaf:Person.
     ?x owl:sameAs ?id.
     optional {?x gndo:gndIdentifier ?gnd}
@@ -25,7 +25,7 @@ where{
    ?x owl:sameAs ?same
 
    }
-  GRAPH <http://maral.wisslab.org/graphs/gnd>  {
+  GRAPH <https://data.judaicalink.org/data/gnd>  {
     ?id a gndo:DifferentiatedPerson.
    ?id gndo:variantNameForThePerson ?alt.
    ?id gndo:dateOfBirth ?dateb.
