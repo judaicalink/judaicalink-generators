@@ -39,6 +39,32 @@ def get_ids(url):
         except:
             pass
             
+def get_viaf_id(gnd_id: str) -> str:
+    """
+    Get the VIAF ID for a given GND ID.
+    Args: gnd_id (str): GND ID of the entity.
+    Returns: str: VIAF ID of the entity.
+    """
+    
+    try:
+        request = requests.get(
+            "https://lobid.org/gnd/" + gnd_id + ".json"
+        )
+        request_json = request.json()
+        #print(json.dumps(request_json, indent=4))
+        for sameAs in request_json["sameAs"]:
+            if sameAs["collection"]["abbr"] == "VIAF":
+                #print("VIAF ID found for " + gnd_id + ".")
+                viaf_id = sameAs["id"]
+                return viaf_id
+            
+        #print("No VIAF ID found for " + gnd_id + ".")
+        return None
+    
+    except:
+        #print("No VIAF ID found for " + gnd_id + ".")
+        return None
+         
             
 def get_gnd_id(name: str, type: str) -> str:
     """Get the GND ID for a given name and type.
@@ -186,7 +212,7 @@ def create_graph():
     graph.bind('edm', edm)
     graph.bind('dc', dc)
     
-    
+# Places  
     place_uris = []
     for id in tqdm(place_ids):                                                      #get place-JSON
         place_url = f'https://schluesseldokumente.net{id}.jsonld'
@@ -221,7 +247,8 @@ def create_graph():
             graph.serialize(destination=file_name, format="turtle")
         else:
             print('ERROR' + response2.status_code)  
-    
+            
+# Persons    
     for id in tqdm(ids):
         gndId = id
        
@@ -241,6 +268,7 @@ def create_graph():
                     graph.add((URIRef(uri), foaf.name, (Literal(name))))
                     graph.add((URIRef(uri), skos.prefLabel, (Literal(name))))
                     graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(id))))
+                    graph.add((URIRef(uri), owl.sameAs, (Literal(get_viaf_id(str(gndId)))))) 
                     if 'birthDate' in data:
                         try:                                                              #clean and add birthdate
                             birth_date = data['birthDate']
@@ -293,6 +321,7 @@ def create_graph():
         else:
             print('ERROR' + response2.status_code)
 
+# Organisations
     for id in tqdm(org_ids):
         orgID = id
        # countterId += 1
