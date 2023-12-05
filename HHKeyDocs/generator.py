@@ -40,6 +40,25 @@ def get_ids(url):
             pass
             
             
+def get_gnd_id(name: str, type: str) -> str:
+    """Get the GND ID for a given name and type.
+    Args:
+        name (str): Name of the entity.
+        type (str): Type of the entity.
+    Returns:
+        str: GND ID of the entity.
+    """
+    try:
+        request = requests.get(
+            "https://lobid.org/gnd/search?q=" + name + "&filter=type:" + type + "&format=json"
+        )
+        request_json = request.json()
+        #print(json.dumps(request_json, indent=4))
+        gnd_id = request_json["member"][0]["gndIdentifier"]
+        
+        return gnd_id
+    except:
+        return None                    
             
 place_ids = []
 
@@ -179,8 +198,10 @@ def create_graph():
                     name = clean_url_string(data['name'])
                     name = name.decode('utf-8')
                     name = str(name)
+                    gndID = get_gnd_id(name, "PlaceOrGeographicName")
                     uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{name}")
                     place_uris.append(uri)
+                    graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(gndID))))
                     graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/{id}"))))
                     graph.add((URIRef(uri), RDF.type, gndo.PlaceOrGeographicName))   #??? RICHTIG???
                     graph.add((URIRef(uri), foaf.name, (Literal(name))))
@@ -194,17 +215,13 @@ def create_graph():
                     except:
                     	pass
                     graph.add((URIRef(uri), gndo.hierarchicalSuperiorOfPlaceOrGeographicName, (Literal(data['containedInPlace']['name']))))
-                    
-                    #TODO Skript for GND ID
-    
+                     
                 except json.JSONDecodeError as e:
                     print(f"Fehler beim Laden von JSON: {e}")
             graph.serialize(destination=file_name, format="turtle")
         else:
             print('ERROR' + response2.status_code)  
     
-    
-  
     for id in tqdm(ids):
         gndId = id
        
