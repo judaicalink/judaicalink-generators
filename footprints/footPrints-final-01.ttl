@@ -1,0 +1,111 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix jl: <http://data.judaicalink.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.judaicalink.org/data/footprints/MOSHEUZIELATIEL> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MOSHEUZIELATIEL" ;
+    foaf:name "MOSHEUZIELATIEL" .
+
+<http://data.judaicalink.org/data/footprints/MPoppelauer> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MPoppelauer" ;
+    foaf:name "MPoppelauer" .
+
+<http://data.judaicalink.org/data/footprints/MRabinowicy> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MRabinowicy" ;
+    foaf:name "MRabinowicy" .
+
+<http://data.judaicalink.org/data/footprints/MSSchilansky> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MSSchilansky" ;
+    foaf:name "MSSchilansky" .
+
+<http://data.judaicalink.org/data/footprints/MSalamonePalagrilli> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MSalamonePalagrilli" ;
+    foaf:name "MSalamonePalagrilli" .
+
+<http://data.judaicalink.org/data/footprints/MSalamonePelagrilli> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MSalamonePelagrilli" ;
+    foaf:name "MSalamonePelagrilli" .
+
+<http://data.judaicalink.org/data/footprints/MosheSofer> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MosheSofer" ;
+    foaf:name "MosheSofer" .
+
+<http://data.judaicalink.org/data/footprints/MosheWolch> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MosheWolch" ;
+    foaf:name "MosheWolch" .
+
+<http://data.judaicalink.org/data/footprints/MosheYarak> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MosheYarak" ;
+    foaf:name "MosheYarak" .
+
+<http://data.judaicalink.org/data/footprints/MosheZisman> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MosheZisman" ;
+    foaf:name "MosheZisman" .
+
+<http://data.judaicalink.org/data/footprints/MosheZviSchreiber> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MosheZviSchreiber" ;
+    foaf:name "MosheZviSchreiber" .
+
+<http://data.judaicalink.org/data/footprints/MoszebenBecalelKac> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MoszebenBecalelKac" ;
+    foaf:name "MoszebenBecalelKac" .
+
+<http://data.judaicalink.org/data/footprints/MoszebenUriSzragaBloch> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MoszebenUriSzragaBloch" ;
+    foaf:name "MoszebenUriSzragaBloch" .
+
+<http://data.judaicalink.org/data/footprints/MotlhakohenZilberstein> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MotlhakohenZilberstein" ;
+    foaf:name "MotlhakohenZilberstein" .
+
+<http://data.judaicalink.org/data/footprints/Moutard> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    owl:sameAs "https://viaf.org/viaf/172437395/" ;
+    skos:prefLabel "Moutard" ;
+    foaf:name "Moutard" .
+
+<http://data.judaicalink.org/data/footprints/MovshShalkrants> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MovshShalkrants" ;
+    foaf:name "MovshShalkrants" .
+
+<http://data.judaicalink.org/data/footprints/MovshaBorukhovichShwarz> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MovshaBorukhovichShwarz" ;
+    foaf:name "MovshaBorukhovichShwarz" .
+
+<http://data.judaicalink.org/data/footprints/MrsColsonBaltimore> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MrsColsonBaltimore" ;
+    foaf:name "MrsColsonBaltimore" .
+
+<http://data.judaicalink.org/data/footprints/MrsDay> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MrsDay" ;
+    foaf:name "MrsDay" .
+
+<http://data.judaicalink.org/data/footprints/MrsLHecht> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MrsLHecht" ;
+    foaf:name "MrsLHecht" .
+
+<http://data.judaicalink.org/data/footprints/MrsMenahembenMeir> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "MrsMenahembenMeir" ;
+    foaf:name "MrsMenahembenMeir" .
+
