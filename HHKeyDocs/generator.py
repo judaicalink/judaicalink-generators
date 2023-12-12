@@ -221,11 +221,14 @@ def create_graph():
             if place_response.text:                                                           # test any if data is loaded
                 try: 
                     data = json.loads(place_response.text)
-                    name = clean_url_string(data['name'])
-                    name = name.decode('utf-8')
-                    name = str(name)
+                    clean_name = clean_url_string(data['name'])
+                    clean_name = clean_name.decode('utf-8')
+                    clean_name = clean_name
+                    name = str(data['name'])
+                    name = name.encode('utf-8')
+                    #name = str(name)
                     gndID = get_gnd_id(name, "PlaceOrGeographicName")
-                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{name}")
+                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{clean_name}")
                     place_uris.append(uri)
                     graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(gndID))))
                     graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/{id}"))))
@@ -258,10 +261,13 @@ def create_graph():
             if response2.text:                                                           # test any if data is loaded
                 try: 
                     data = json.loads(response2.text)
-                    name = clean_url_string(data['name'])
-                    name = name.decode('utf-8')
-                    name = str(name)
-                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{name}")
+                    clean_name = clean_url_string(data['name'])
+                    clean_name = clean_name.decode('utf-8')
+                    clean_name = str(clean_name)
+                    name = str(data['name'])
+                    name = name.encode('utf-8')
+                   # name = str(name)
+                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{clean_name}")
                                                                                     
                     graph.add((URIRef(uri), RDF.type, foaf.Person))                       # add name + id
                     graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/person/gnd/{gndId}"))))
@@ -300,10 +306,16 @@ def create_graph():
                     birth_place_name = data.get('birthPlace', {}).get('name')
                     if birth_place_name is not None:                                       #clean and add birthplace
                         graph.add((URIRef(uri), jl.birthLocation, (Literal(birth_place_name))))
+                        birth_place_name = clean_url_string(birth_place_name)
+                        birth_place_uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{birth_place_name}")
+                        graph.add((URIRef(uri), jl.birthLocation, birth_place_uri))    
                     death_place_name = data.get('deathPlace', {}).get('name')
                     #if data['deathPlace']['name']:
                     if death_place_name is not None:                                        #clean and add deathdate
-                        graph.add((URIRef(uri), jl.deathLocation, (Literal(death_place_name))))     
+                        graph.add((URIRef(uri), jl.deathLocation, (Literal(death_place_name))))  
+                        death_place_name = clean_url_string(death_place_name)
+                        death_place_uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{death_place_name}")
+                        graph.add((URIRef(uri), jl.deathLocation, death_place_uri))     
                     graph.add((URIRef(uri), dcterms.created, (Literal(datetime.now()))))
                     if 'description' in data:                                               #find and add occupations
                         description = data['description']
@@ -330,11 +342,13 @@ def create_graph():
         if response3.status_code == 200:
             if response3.text:                                                          
                 try: 
-                    data = json.loads(response3.text)
-                    name = clean_url_string(data['name'])
-                    name = name.decode('utf-8')
-                    name = str(name)
-                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{name}")
+                    clean_name = clean_url_string(data['name'])
+                    clean_name = clean_name.decode('utf-8')
+                    clean_name = str(clean_name)
+                    name = str(data['name'])
+                    name = name.encode('utf-8')
+                     # name = str(name)
+                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{clean_name}")
                     graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/organisation/gnd/{orgID}"))))
                     graph.add((URIRef(uri), RDF.type, foaf.Organisation))                #??? RICHTIG???
                     graph.add((URIRef(uri), foaf.name, (Literal(name))))
