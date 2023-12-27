@@ -8,15 +8,17 @@ cd060@hdm-stuttgart.de
 
 # IMPORTS
 
+# from http.client import _DataType
 import requests
 import json
 import pprint
 from bs4 import BeautifulSoup
 import unicodedata
-from rdflib.namespace import RDF
+from rdflib.namespace import RDF, XSD
 from datetime import datetime
 from rdflib import Namespace, URIRef, Graph, Literal
 from tqdm import tqdm
+
 
 file_name = 'HHKeyDocs-final-01.ttl'
 
@@ -225,16 +227,17 @@ def create_graph():
                     clean_name = clean_name.decode('utf-8')
                     clean_name = clean_name
                     name = str(data['name'])
-                    name = name.encode('utf-8')
-                    #name = str(name)
-                    gndID = get_gnd_id(name, "PlaceOrGeographicName")
+                    name = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore')
+                    name = name.decode('utf-8')
+                    gndID = get_gnd_id(name, "PlaceOrGeographicName")  #TODO only if not none
                     uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{clean_name}")
                     place_uris.append(uri)
-                    graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(gndID))))
-                    graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/{id}"))))
-                    graph.add((URIRef(uri), RDF.type, gndo.PlaceOrGeographicName))   #??? RICHTIG???
-                    graph.add((URIRef(uri), foaf.name, (Literal(name))))
-                    graph.add((URIRef(uri), skos.prefLabel, (Literal(name))))
+                    if gndID != 'None':
+                        graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(gndID))))
+                    graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/{id}", datatype = XSD.anyURI))))
+                    graph.add((URIRef(uri), RDF.type, gndo.PlaceOrGeographicName))   
+                    graph.add((URIRef(uri), foaf.name, (Literal(name, datatype = XSD.string))))
+                    graph.add((URIRef(uri), skos.prefLabel, (Literal(name, datatype = XSD.string))))
                     try:
                         graph.add((URIRef(uri), jl.lat, (Literal(data['geo']['latitude']))))
                     except:
@@ -243,6 +246,7 @@ def create_graph():
                         graph.add((URIRef(uri), jl.lon, (Literal(data['geo']['longitude']))))
                     except:
                     	pass
+
                     graph.add((URIRef(uri), gndo.hierarchicalSuperiorOfPlaceOrGeographicName, (Literal(data['containedInPlace']['name']))))
                      
                 except json.JSONDecodeError as e:
@@ -265,16 +269,15 @@ def create_graph():
                     clean_name = clean_name.decode('utf-8')
                     clean_name = str(clean_name)
                     name = str(data['name'])
-                    name = name.encode('utf-8')
-                   # name = str(name)
-                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{clean_name}")
-                                                                                    
+                    name =unicodedata.normalize('NFKD', name).encode('ascii', 'ignore')
+                    name = name.decode('utf-8')
+                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{clean_name}")                                                        
                     graph.add((URIRef(uri), RDF.type, foaf.Person))                       # add name + id
-                    graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/person/gnd/{gndId}"))))
-                    graph.add((URIRef(uri), foaf.name, (Literal(name))))
-                    graph.add((URIRef(uri), skos.prefLabel, (Literal(name))))
+                    graph.add((URIRef(uri), jl.describedAt, (URIRef(f"https://schluesseldokumente.net/person/gnd/{gndId}"))))
+                    graph.add((URIRef(uri), foaf.name, (Literal(name, datatype = XSD.string)))) 
+                    graph.add((URIRef(uri), skos.prefLabel, (Literal(name, datatype = XSD.string))))
                     graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(id))))
-                    graph.add((URIRef(uri), owl.sameAs, (Literal(get_viaf_id(str(gndId)))))) 
+                    graph.add((URIRef(uri), owl.sameAs, (Literal(get_viaf_id(int(gndId)))))) # TODO no none values
                     if 'birthDate' in data:
                         try:                                                              #clean and add birthdate
                             birth_date = data['birthDate']
@@ -305,15 +308,15 @@ def create_graph():
                             print(countterId, 'ERROR2 Deathdate der ID: ', id, name, 'ist vom Typ ', type(death_date),death_date)
                     birth_place_name = data.get('birthPlace', {}).get('name')
                     if birth_place_name is not None:                                       #clean and add birthplace
-                        graph.add((URIRef(uri), jl.birthLocation, (Literal(birth_place_name))))
-                        birth_place_name = clean_url_string(birth_place_name)
+                        graph.add((URIRef(uri), jl.birthLocation, (Literal(birth_place_name, datatype = XSD.string))))
+                        birth_place_name = clean_url_string(str(birth_place_name))
                         birth_place_uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{birth_place_name}")
                         graph.add((URIRef(uri), jl.birthLocation, birth_place_uri))    
                     death_place_name = data.get('deathPlace', {}).get('name')
                     #if data['deathPlace']['name']:
                     if death_place_name is not None:                                        #clean and add deathdate
-                        graph.add((URIRef(uri), jl.deathLocation, (Literal(death_place_name))))  
-                        death_place_name = clean_url_string(death_place_name)
+                        graph.add((URIRef(uri), jl.deathLocation, (Literal(death_place_name, datatype = XSD.string))))  
+                        death_place_name = clean_url_string(str(death_place_name))
                         death_place_uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{death_place_name}")
                         graph.add((URIRef(uri), jl.deathLocation, death_place_uri))     
                     graph.add((URIRef(uri), dcterms.created, (Literal(datetime.now()))))
@@ -342,21 +345,22 @@ def create_graph():
         if response3.status_code == 200:
             if response3.text:                                                          
                 try: 
+                    data = json.loads(response3.text)
                     clean_name = clean_url_string(data['name'])
                     clean_name = clean_name.decode('utf-8')
                     clean_name = str(clean_name)
                     name = str(data['name'])
-                    name = name.encode('utf-8')
-                     # name = str(name)
+                    name =unicodedata.normalize('NFKD', name).encode('ascii', 'ignore')
+                    name = name.decode('utf-8')
                     uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{clean_name}")
-                    graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/organisation/gnd/{orgID}"))))
+                    graph.add((URIRef(uri), jl.describedAt, (URIRef(f"https://schluesseldokumente.net/organisation/gnd/{orgID}"))))
                     graph.add((URIRef(uri), RDF.type, foaf.Organisation))                #??? RICHTIG???
-                    graph.add((URIRef(uri), foaf.name, (Literal(name))))
-                    graph.add((URIRef(uri), skos.prefLabel, (Literal(name))))
+                    graph.add((URIRef(uri), foaf.name, (Literal(name, datatype = XSD.string))))
+                    graph.add((URIRef(uri), skos.prefLabel, (Literal(name, datatype = XSD.string))))
                     graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(orgID))))
                     if 'description' in data:                                              
                         description = data['description']
-                        graph.add((URIRef(uri), jl.hasAbstract, (Literal(description)))) 
+                        graph.add((URIRef(uri), jl.hasAbstract, (Literal(description, datatype = XSD.string)))) 
                         
  # TODO What happens with foundingDate
                 
