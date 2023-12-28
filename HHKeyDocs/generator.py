@@ -229,10 +229,9 @@ def create_graph():
                     name = str(data['name'])
                     name = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore')
                     name = name.decode('utf-8')
-                    gndID = get_gnd_id(name, "PlaceOrGeographicName")  #TODO only if not none
+                    gndID = get_gnd_id(name, "PlaceOrGeographicName")  
                     uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{clean_name}")
-                    place_uris.append(uri)
-                    if gndID != 'None':
+                    if gndID is not None:      
                         graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(gndID))))
                     graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/{id}", datatype = XSD.anyURI))))
                     graph.add((URIRef(uri), RDF.type, gndo.PlaceOrGeographicName))   
@@ -277,7 +276,9 @@ def create_graph():
                     graph.add((URIRef(uri), foaf.name, (Literal(name, datatype = XSD.string)))) 
                     graph.add((URIRef(uri), skos.prefLabel, (Literal(name, datatype = XSD.string))))
                     graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(id))))
-                    graph.add((URIRef(uri), owl.sameAs, (Literal(get_viaf_id(int(gndId)))))) # TODO no none values
+                    viaf = get_viaf_id(gndId)
+                    if viaf is not None:
+                        graph.add((URIRef(uri), owl.sameAs, (Literal(viaf, datatype = XSD.decimal))))
                     if 'birthDate' in data:
                         try:                                                              #clean and add birthdate
                             birth_date = data['birthDate']
@@ -313,7 +314,6 @@ def create_graph():
                         birth_place_uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{birth_place_name}")
                         graph.add((URIRef(uri), jl.birthLocation, birth_place_uri))    
                     death_place_name = data.get('deathPlace', {}).get('name')
-                    #if data['deathPlace']['name']:
                     if death_place_name is not None:                                        #clean and add deathdate
                         graph.add((URIRef(uri), jl.deathLocation, (Literal(death_place_name, datatype = XSD.string))))  
                         death_place_name = clean_url_string(str(death_place_name))
@@ -357,12 +357,22 @@ def create_graph():
                     graph.add((URIRef(uri), RDF.type, foaf.Organisation))                #??? RICHTIG???
                     graph.add((URIRef(uri), foaf.name, (Literal(name, datatype = XSD.string))))
                     graph.add((URIRef(uri), skos.prefLabel, (Literal(name, datatype = XSD.string))))
-                    graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(orgID))))
+                    graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(orgID)))) 
+                    if 'foundingDate' in data:
+                        est = data['foundingDate']
+                        graph.add((URIRef(uri), gndo.dateOfEstablishment, (Literal(est))))
                     if 'description' in data:                                              
                         description = data['description']
-                        graph.add((URIRef(uri), jl.hasAbstract, (Literal(description, datatype = XSD.string)))) 
-                        
- # TODO What happens with foundingDate
+                        graph.add((URIRef(uri), jl.hasAbstract, (Literal(description, datatype = XSD.string))))
+                    if 'url' in data:                                              
+                        hp = data['url']
+                        graph.add((URIRef(uri), foaf.homepage, (Literal(hp))))
+                    if 'dissolutionDate' in data:                                              
+                        dis = data['dissolutionDate']
+                        graph.add((URIRef(uri), gndo.dateOfTermination, (Literal(dis))))
+                    
+                   
+
                 
                 except json.JSONDecodeError as e:
                     print(f"Fehler beim Laden von JSON: {e}")
