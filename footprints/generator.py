@@ -1,5 +1,5 @@
 """
-Generator for Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte. https://footprints.ctl.columbia.edu/
+Generator for Footprints traces the history and movement of Jewish books since the inception of print. https://footprints.ctl.columbia.edu/
 By Christian Deuschle, 2023.
 cd060@hdm-stuttgart.de
 # Licence of the data: CC-BY-SA 4.0
