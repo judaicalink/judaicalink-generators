@@ -80,7 +80,7 @@ def clean_url_string(string):
     string = unicodedata.normalize('NFKD', string)
     # convert to normalized url string
     string = urllib.parse.quote_plus(string, encoding='utf-8', errors='replace')
-    print(string)
+    # print(string)
     return string
 
 
@@ -89,7 +89,7 @@ def contains_non_digits(s):
 
 
 def createGraph():
-    page = 330
+    page = 1
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
     # url = f"https://footprints.ctl.columbia.edu/api/person/?format=json&page={page}"
@@ -108,7 +108,6 @@ def createGraph():
                     # if date['id']:
                     if date['name'] and date['name'] is not None:
                         name = clean_url_string(str(date['name']))
-                        # name = name.decode('utf-8')
                         if contains_non_digits(name) == True:
                             uri = URIRef(f"http://data.judaicalink.org/data/footprints/{name}")
                             graph.add((URIRef(uri), jl.describedAt, (Literal('https://footprints.ctl.columbia.edu/'))))
@@ -154,6 +153,16 @@ def createGraph():
                                                 graph.add((URIRef(uri), owl.sameAs, (Literal(idf))))
                                             except:
                                                 pass
+                                    #################
+                                        if idf['authority'] == "Library of Congress":
+                                            idf = idf['identifier']
+                                            idf = idf.replace('LOC ', '')
+                                            idf =      f'https://id.loc.gov/authorities/names/nb{idf}'
+                                            try:
+                                                graph.add((URIRef(uri), owl.sameAs, (Literal(idf))))
+                                            except:
+                                                pass
+                                    #####################
                                         else:
                                             print('Seite:', idf, ', ', name, ', identifier = ', idf['authority'])
                                 except:
