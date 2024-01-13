@@ -8,6 +8,7 @@
     skos:prefLabel "%2FUnknown%0A%D7%97%D7%99%D7%99%D7%9D%D7%90%D7%A9%D7%9B%D7%A0%D7%96%D7%99%D7%92%D7%9C%D7%9E%D7%9F" ;
     foaf:name "%2FUnknown%0A%D7%97%D7%99%D7%99%D7%9D%D7%90%D7%A9%D7%9B%D7%A0%D7%96%D7%99%D7%92%D7%9C%D7%9E%D7%9F" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/%C3%86gidiusGutbier> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "%C3%86gidiusGutbier" ;
@@ -46,16 +47,21 @@
     skos:prefLabel "%CA%BBImanu%CA%BCelbenYek%CC%A3uti%CA%BCel_active16thcentury" ;
     foaf:name "%CA%BBImanu%CA%BCelbenYek%CC%A3uti%CA%BCel_active16thcentury" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/%CA%BBOvadyahBert%CC%A3anurah> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "%CA%BBOvadyahBert%CC%A3anurah" ;
     foaf:name "%CA%BBOvadyahBert%CC%A3anurah" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/%CA%BBimhagaotshelYedidyahShelomohmiNortsi> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "%CA%BBimhagaotshelYedidyahShelomohmiNortsi" ;
     foaf:name "%CA%BBimhagaotshelYedidyahShelomohmiNortsi" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/%CA%BFOvadyah_Menasheh_BinyamindeRoma> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "%CA%BFOvadyah_Menasheh_BinyamindeRoma" ;
@@ -5611,6 +5617,7 @@
     skos:prefLabel "%E2%80%AB%D7%A9%D7%A0%D7%99%D7%99%D7%98%D7%95%D7%9A_%D7%99%D7%95%D7%A1%D7%A3%D7%91%D7%9F%D7%9E%D7%90%D7%99%D7%A8%E2%80%AC" ;
     foaf:name "%E2%80%AB%D7%A9%D7%A0%D7%99%D7%99%D7%98%D7%95%D7%9A_%D7%99%D7%95%D7%A1%D7%A3%D7%91%D7%9F%D7%9E%D7%90%D7%99%D7%A8%E2%80%AC" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/AAsher> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "AAsher" ;
@@ -27281,6 +27288,8 @@
     skos:prefLabel "MMorel" ;
     foaf:name "MMorel" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/MOSHEUZIELATIEL> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "MOSHEUZIELATIEL" ;
@@ -27316,6 +27325,7 @@
     skos:prefLabel "MVF" ;
     foaf:name "MVF" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/Ma%CC%81rtonLe%CC%81vay> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "Ma%CC%81rtonLe%CC%81vay" ;
@@ -30852,6 +30862,8 @@
     skos:prefLabel "MosheShlomoHurvich" ;
     foaf:name "MosheShlomoHurvich" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/MosheSofer> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "MosheSofer" ;
@@ -31674,11 +31686,14 @@
     skos:prefLabel "NaftaliHertzbenAlexanderSusskindLevidaEmden" ;
     foaf:name "NaftaliHertzbenAlexanderSusskindLevidaEmden" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/NaftaliHirschbenEliezerTreves> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "NaftaliHirschbenEliezerTreves" ;
     foaf:name "NaftaliHirschbenEliezerTreves" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/NaftaliHirshFrank> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "NaftaliHirshFrank" ;
@@ -31789,11 +31804,14 @@
     skos:prefLabel "NahmanIsraelhaKohenMeyerson" ;
     foaf:name "NahmanIsraelhaKohenMeyerson" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/NahmanTrivesh> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "NahmanTrivesh" ;
     foaf:name "NahmanTrivesh" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/NahmanbenSolomonAlfandari> a foaf:Person ;
     jl:birthDate "1600" ;
     jl:deathDate "1700" ;
@@ -31801,11 +31819,14 @@
     skos:prefLabel "NahmanbenSolomonAlfandari" ;
     foaf:name "NahmanbenSolomonAlfandari" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/Nahmanides> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "Nahmanides" ;
     foaf:name "Nahmanides" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/Nahmens> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "Nahmens" ;
@@ -32288,11 +32309,14 @@
     skos:prefLabel "Nidpas%CA%BBayhashutafim" ;
     foaf:name "Nidpas%CA%BBayhashutafim" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/NidpasbevetShelomohFrank%CC%A3o%CA%BBalyadbenoAvrahamFrank%CC%A3ov%CC%A3e%CA%BBalyadYa%CA%BBak%CC%A3ovGabai> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "NidpasbevetShelomohFrank%CC%A3o%CA%BBalyadbenoAvrahamFrank%CC%A3ov%CC%A3e%CA%BBalyadYa%CA%BBak%CC%A3ovGabai" ;
     foaf:name "NidpasbevetShelomohFrank%CC%A3o%CA%BBalyadbenoAvrahamFrank%CC%A3ov%CC%A3e%CA%BBalyadYa%CA%BBak%CC%A3ovGabai" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/Nidpastah%CC%A3atmemsheletheh%CC%A3ashmanK%CC%A3ris%CC%81t%CC%A3ofelMadruts> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "Nidpastah%CC%A3atmemsheletheh%CC%A3ashmanK%CC%A3ris%CC%81t%CC%A3ofelMadruts" ;
@@ -33555,11 +33579,14 @@
     skos:prefLabel "PietroFerdinando" ;
     foaf:name "PietroFerdinando" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/PietroGaleazzoGuacio> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "PietroGaleazzoGuacio" ;
     foaf:name "PietroGaleazzoGuacio" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/PietroMartire> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     owl:sameAs "https://viaf.org/viaf/61612001/" ;
@@ -34455,11 +34482,14 @@
     skos:prefLabel "RabbiTsukerman" ;
     foaf:name "RabbiTsukerman" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/RabbiYehsaya> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "RabbiYehsaya" ;
     foaf:name "RabbiYehsaya" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/RabbiZuckermann> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "RabbiZuckermann" ;
@@ -34632,11 +34662,14 @@
     skos:prefLabel "RafaelPinhas" ;
     foaf:name "RafaelPinhas" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/RafaelTsiyud> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "RafaelTsiyud" ;
     foaf:name "RafaelTsiyud" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/RafaelbenJosephfromAscoli> a foaf:Person ;
     jl:birthDate "1500" ;
     jl:deathDate "1550" ;
@@ -34965,11 +34998,14 @@
     skos:prefLabel "RefaelLevibenAvraham" ;
     foaf:name "RefaelLevibenAvraham" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/RefaelQasin> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "RefaelQasin" ;
     foaf:name "RefaelQasin" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/RefaelRizzante> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "RefaelRizzante" ;
@@ -35166,11 +35202,14 @@
     skos:prefLabel "ReuvenandNissimsonsofJonahthesonofJacob" ;
     foaf:name "ReuvenandNissimsonsofJonahthesonofJacob" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/ReuvenbarElayakim> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ReuvenbarElayakim" ;
     foaf:name "ReuvenbarElayakim" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/RevBGerrans> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "RevBGerrans" ;
@@ -36189,11 +36228,14 @@
     skos:prefLabel "SamsonHamburger_JosephBamberger" ;
     foaf:name "SamsonHamburger_JosephBamberger" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/SamsonSacerdoteModon> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "SamsonSacerdoteModon" ;
     foaf:name "SamsonSacerdoteModon" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/SamsonbenIsaac> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     owl:sameAs "https://viaf.org/viaf/36807344/" ;
@@ -36472,11 +36514,14 @@
     skos:prefLabel "SamuelPepys" ;
     foaf:name "SamuelPepys" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/SamuelPortaleone> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "SamuelPortaleone" ;
     foaf:name "SamuelPortaleone" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/SamuelRaphaelbenJudahPorto> a foaf:Person ;
     jl:birthDate "1500" ;
     jl:deathDate "1600" ;
@@ -36589,11 +36634,14 @@
     skos:prefLabel "SamuelbBarukhRosas" ;
     foaf:name "SamuelbBarukhRosas" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/SamuelbImmanuelHamis> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "SamuelbImmanuelHamis" ;
     foaf:name "SamuelbImmanuelHamis" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/SamuelbMosesHeida> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "SamuelbMosesHeida" ;
@@ -36840,11 +36888,14 @@
     skos:prefLabel "SansonLevi" ;
     foaf:name "SansonLevi" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/SansonSacredoteModon> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "SansonSacredoteModon" ;
     foaf:name "SansonSacredoteModon" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/Santerenziano_Giulio> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "Santerenziano_Giulio" ;
@@ -36885,7 +36936,10 @@
     jl:birthDate "1752" ;
     jl:deathDate "1784" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+<<<<<<< HEAD
     owl:sameAs "https://id.loc.gov/authorities/names/nb2008023439" ;
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
     skos:prefLabel "Saruco_Salomon" ;
     foaf:name "Saruco_Salomon" .
 
@@ -37737,11 +37791,14 @@
     skos:prefLabel "ShelomohYareshRapaport" ;
     foaf:name "ShelomohYareshRapaport" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/ShelomohYedidyabenAvrahamHay> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ShelomohYedidyabenAvrahamHay" ;
     foaf:name "ShelomohYedidyabenAvrahamHay" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/ShelomohYitshakMeyuhas> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ShelomohYitshakMeyuhas" ;
@@ -37883,11 +37940,14 @@
     skos:prefLabel "ShelomohbenTsemah%CC%A3Duran" ;
     foaf:name "ShelomohbenTsemah%CC%A3Duran" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/ShelomohbenYaakovAlmoli> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ShelomohbenYaakovAlmoli" ;
     foaf:name "ShelomohbenYaakovAlmoli" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/ShelomohbenYehudah_%CA%BFOvadyahbenMosheh> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ShelomohbenYehudah_%CA%BFOvadyahbenMosheh" ;
@@ -38011,11 +38071,14 @@
     skos:prefLabel "ShemayaAngel" ;
     foaf:name "ShemayaAngel" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/Shemu%CA%BCelYitsh%CC%A3ak%CC%A3Habermann> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "Shemu%CA%BCelYitsh%CC%A3ak%CC%A3Habermann" ;
     foaf:name "Shemu%CA%BCelYitsh%CC%A3ak%CC%A3Habermann" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/Shemu%CA%BCelZanv%CC%A3ilbenYa%CA%BBak%CC%A3ov> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     owl:sameAs "https://viaf.org/viaf/17174231/" ;
@@ -38186,11 +38249,14 @@
     skos:prefLabel "ShemuelbYitshakDrezlessOpatowKrakow" ;
     foaf:name "ShemuelbYitshakDrezlessOpatowKrakow" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/ShemuelbarMoshehaLevi> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ShemuelbarMoshehaLevi" ;
     foaf:name "ShemuelbarMoshehaLevi" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/ShemuelbenAharonFrustu%CC%88gProstigBerlin> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ShemuelbenAharonFrustu%CC%88gProstigBerlin" ;
@@ -38202,21 +38268,27 @@
     skos:prefLabel "ShemuelbenAleksander" ;
     foaf:name "ShemuelbenAleksander" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/ShemuelbenAvrahamAvohav> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ShemuelbenAvrahamAvohav" ;
     foaf:name "ShemuelbenAvrahamAvohav" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/ShemuelbenDaniel> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ShemuelbenDaniel" ;
     foaf:name "ShemuelbenDaniel" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/ShemuelbenMoshemiPerusa> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ShemuelbenMoshemiPerusa" ;
     foaf:name "ShemuelbenMoshemiPerusa" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/ShemuelbenYudaValerio> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     owl:sameAs "https://viaf.org/viaf/314801477/" ;
@@ -38401,11 +38473,14 @@
     skos:prefLabel "ShimshonbenShemuel" ;
     foaf:name "ShimshonbenShemuel" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/ShimshonbenYaakovShimshonModon> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ShimshonbenYaakovShimshonModon" ;
     foaf:name "ShimshonbenYaakovShimshonModon" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/ShimshonbenZalmanHena> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ShimshonbenZalmanHena" ;
@@ -39295,11 +39370,14 @@
     skos:prefLabel "SolomonSchechter" ;
     foaf:name "SolomonSchechter" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/SolomonSchloss> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "SolomonSchloss" ;
     foaf:name "SolomonSchloss" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/SolomonShlomoMichaelNeches> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "SolomonShlomoMichaelNeches" ;
@@ -40582,11 +40660,14 @@
     skos:prefLabel "TrusteesoftheValmadonnaTrustCollection" ;
     foaf:name "TrusteesoftheValmadonnaTrustCollection" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/Tsadok> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "Tsadok" ;
     foaf:name "Tsadok" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/TsadokbrMosheRegev> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "TsadokbrMosheRegev" ;
@@ -41640,6 +41721,16 @@
     skos:prefLabel "Visconte_Paulus_OP_censor" ;
     foaf:name "Visconte_Paulus_OP_censor" .
 
+<<<<<<< HEAD
+=======
+<http://data.judaicalink.org/data/footprints/Vit%CC%A3erbo_As%CC%8Cer> a foaf:Person ;
+    jl:birthDate "1748" ;
+    jl:deathDate "1800" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "Vit%CC%A3erbo_As%CC%8Cer" ;
+    foaf:name "Vit%CC%A3erbo_As%CC%8Cer" .
+
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/VitaBianchi> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "VitaBianchi" ;
@@ -41691,6 +41782,16 @@
     skos:prefLabel "Viterbi_David" ;
     foaf:name "Viterbi_David" .
 
+<<<<<<< HEAD
+=======
+<http://data.judaicalink.org/data/footprints/Viterbo_Asher> a foaf:Person ;
+    jl:birthDate "1750" ;
+    jl:deathDate "1800" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/" ;
+    skos:prefLabel "Viterbo_Asher" ;
+    foaf:name "Viterbo_Asher" .
+
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/VitoLevy> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "VitoLevy" ;
@@ -42339,11 +42440,14 @@
     skos:prefLabel "Ya%CA%BBak%CC%A3ovCorcos" ;
     foaf:name "Ya%CA%BBak%CC%A3ovCorcos" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/Ya%CA%BBak%CC%A3ovH%CC%A3ayimHalevi> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "Ya%CA%BBak%CC%A3ovH%CC%A3ayimHalevi" ;
     foaf:name "Ya%CA%BBak%CC%A3ovH%CC%A3ayimHalevi" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/Ya%CA%BBak%CC%A3ovH%CC%A3ayimbenYehoshu%CA%BBa_haKohen> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     owl:sameAs "https://viaf.org/viaf/29106770/" ;
@@ -42521,11 +42625,14 @@
     skos:prefLabel "YaakovIbnNayim" ;
     foaf:name "YaakovIbnNayim" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YaakovKapelbenTseviMargalit> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YaakovKapelbenTseviMargalit" ;
     foaf:name "YaakovKapelbenTseviMargalit" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/YaakovMeirKoblentz> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YaakovMeirKoblentz" ;
@@ -42694,11 +42801,14 @@
     skos:prefLabel "YaakovbenDavidBarzilai" ;
     foaf:name "YaakovbenDavidBarzilai" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YaakovbenHayyimBerav> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YaakovbenHayyimBerav" ;
     foaf:name "YaakovbenHayyimBerav" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/YaakovbenMoshehBakharakh> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     owl:sameAs "https://viaf.org/viaf/102562904/" ;
@@ -42715,11 +42825,14 @@
     skos:prefLabel "YaakovbenMoshehYehudahLondon" ;
     foaf:name "YaakovbenMoshehYehudahLondon" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YaakovbenNaftali> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YaakovbenNaftali" ;
     foaf:name "YaakovbenNaftali" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/YaakovbenNaftalihaKohen> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YaakovbenNaftalihaKohen" ;
@@ -42882,11 +42995,14 @@
     skos:prefLabel "YakovNaftaliHirtzLevi" ;
     foaf:name "YakovNaftaliHirtzLevi" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YakovYisroelbenTseviEmden> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YakovYisroelbenTseviEmden" ;
     foaf:name "YakovYisroelbenTseviEmden" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/YakutielZelikson> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YakutielZelikson" ;
@@ -42946,11 +43062,14 @@
     skos:prefLabel "YedayabenAvraham" ;
     foaf:name "YedayabenAvraham" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YedayabenAvrahamBedersiPenini> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YedayabenAvrahamBedersiPenini" ;
     foaf:name "YedayabenAvrahamBedersiPenini" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/YedidyahShelomohbBinyaminTsviBakPrague> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YedidyahShelomohbBinyaminTsviBakPrague" ;
@@ -43180,11 +43299,14 @@
     skos:prefLabel "YehoshuabenKlonimusKats" ;
     foaf:name "YehoshuabenKlonimusKats" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YehoshuamiPerusah> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YehoshuamiPerusah" ;
     foaf:name "YehoshuamiPerusah" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/Yehosu%CA%BBaHeshilbenTseviHirshuShelomobenMe%CA%BCir> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "Yehosu%CA%BBaHeshilbenTseviHirshuShelomobenMe%CA%BCir" ;
@@ -43337,11 +43459,14 @@
     skos:prefLabel "YehudahAryehLebbenTsevi" ;
     foaf:name "YehudahAryehLebbenTsevi" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YehudahAsahelDelBene> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YehudahAsahelDelBene" ;
     foaf:name "YehudahAsahelDelBene" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/YehudahBak%CC%A3> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     owl:sameAs "https://viaf.org/viaf/31782197/" ;
@@ -44037,11 +44162,14 @@
     skos:prefLabel "YitshakMeirbenHaravHakadosh" ;
     foaf:name "YitshakMeirbenHaravHakadosh" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YitshakMestre> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YitshakMestre" ;
     foaf:name "YitshakMestre" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/YitshakMikhaelHay> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YitshakMikhaelHay" ;
@@ -44188,16 +44316,20 @@
     skos:prefLabel "YitzchakIsaacofFulda" ;
     foaf:name "YitzchakIsaacofFulda" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YitzchakLeonBenEliezerIbnTsur> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YitzchakLeonBenEliezerIbnTsur" ;
     foaf:name "YitzchakLeonBenEliezerIbnTsur" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/YitzchakSarno> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YitzchakSarno" ;
     foaf:name "YitzchakSarno" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YitzchakbenMosheAramah> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YitzchakbenMosheAramah" ;
@@ -44208,6 +44340,8 @@
     skos:prefLabel "YitzchakbenMosheElis" ;
     foaf:name "YitzchakbenMosheElis" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/YitzhakCohen> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YitzhakCohen" ;
@@ -44546,11 +44680,14 @@
     skos:prefLabel "YosefAtias" ;
     foaf:name "YosefAtias" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YosefBarukbenYedidyahZekaryah> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YosefBarukbenYedidyahZekaryah" ;
     foaf:name "YosefBarukbenYedidyahZekaryah" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/YosefBarukhBasnan> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YosefBarukhBasnan" ;
@@ -44722,11 +44859,14 @@
     skos:prefLabel "YosefShabbetaiFarhi" ;
     foaf:name "YosefShabbetaiFarhi" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YosefShelomohbenEliyahuDelmedigo> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YosefShelomohbenEliyahuDelmedigo" ;
     foaf:name "YosefShelomohbenEliyahuDelmedigo" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/YosefShlezinger> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YosefShlezinger" ;
@@ -44752,11 +44892,14 @@
     skos:prefLabel "YosefYequtielFontanella" ;
     foaf:name "YosefYequtielFontanella" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/YosefYisraelRava_sons> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YosefYisraelRava_sons" ;
     foaf:name "YosefYisraelRava_sons" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/YosefYissakharbMoshe> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "YosefYissakharbMoshe" ;
@@ -45275,11 +45418,14 @@
     skos:prefLabel "Zechariah" ;
     foaf:name "Zechariah" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/ZechariahbenYaakovPlungian> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ZechariahbenYaakovPlungian" ;
     foaf:name "ZechariahbenYaakovPlungian" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/ZedekiahBenAbrahamAnaw> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     owl:sameAs "https://viaf.org/viaf/17078692/" ;
@@ -45518,11 +45664,14 @@
     skos:prefLabel "ZuanGripo" ;
     foaf:name "ZuanGripo" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/ZuandeGara> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ZuandeGara" ;
     foaf:name "ZuandeGara" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/ZuandiGara> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "ZuandiGara" ;
@@ -45604,6 +45753,7 @@
     skos:prefLabel "____Todros%D7%98%D7%95%D7%93%D7%A8%D7%95%D7%A1" ;
     foaf:name "____Todros%D7%98%D7%95%D7%93%D7%A8%D7%95%D7%A1" .
 
+<<<<<<< HEAD
 <http://data.judaicalink.org/data/footprints/aPolishimperiallibrary> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "aPolishimperiallibrary" ;
@@ -45955,6 +46105,8 @@
     skos:prefLabel "moharRYa%CA%BBak%CC%A3ovYosheabddikk%CC%A3FfdeMain" ;
     foaf:name "moharRYa%CA%BBak%CC%A3ovYosheabddikk%CC%A3FfdeMain" .
 
+=======
+>>>>>>> dbda82e65e71e3bc43c1b660f38c96c3a3c580bb
 <http://data.judaicalink.org/data/footprints/multiple> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
     skos:prefLabel "multiple" ;

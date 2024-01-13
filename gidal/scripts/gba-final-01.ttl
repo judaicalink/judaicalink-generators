@@ -1,0 +1,236 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.judaicalink.org/data/gba/AlfredKerr> a foaf:Person ;
+    gndo:birthDate 1867 ;
+    gndo:deathDate 1948 ;
+    gndo:occupation "Schriftsteller" ;
+    gndo:relation "Isidor Landau" ;
+    ns1:created "2023-01-10T12:52:16.048109"^^xsd:dateTime ;
+    skos:prefLabel "Alfred Kerr" ;
+    foaf:name "Alfred Kerr" .
+
+<http://data.judaicalink.org/data/gba/AlfredPhilippson> a foaf:Person ;
+    gndo:birthDate 1864 ;
+    gndo:deathDate 1953 ;
+    gndo:relation "Ludwig Philippson" ;
+    ns1:created "2023-01-10T12:52:16.047482"^^xsd:dateTime ;
+    skos:prefLabel "Alfred Philippson" ;
+    foaf:name "Alfred Philippson" .
+
+<http://data.judaicalink.org/data/gba/AronBernstein> a foaf:Person ;
+    gndo:hasPublication "Reform-Zeitung" ;
+    ns1:created "2023-01-10T12:52:16.047241"^^xsd:dateTime ;
+    skos:prefLabel "Aron Bernstein" ;
+    foaf:name "Aron Bernstein" .
+
+<http://data.judaicalink.org/data/gba/BettyHeine> a foaf:Person ;
+    gndo:alternativeName "Betty  Geb. Van Geldern" ;
+    gndo:birthDate 1771 ;
+    gndo:deathDate 1859 ;
+    gndo:hasAbstract "Mutter des Schriftstellers Heinrich Heine" ;
+    gndo:relation "Heinrich Heine" ;
+    ns1:created "2023-01-10T12:52:16.049754"^^xsd:dateTime ;
+    skos:prefLabel "Betty Heine" ;
+    foaf:name "Betty Heine" .
+
+<http://data.judaicalink.org/data/gba/CharlotteHeine> a foaf:Person ;
+    gndo:alternativeName "Charlotte Embden" ;
+    gndo:birthDate 1800 ;
+    gndo:deathDate 1899 ;
+    gndo:hasAbstract "Schwester Heinrich Heines" ;
+    gndo:relation "Heinrich Heine" ;
+    ns1:created "2023-01-10T12:52:16.050013"^^xsd:dateTime ;
+    skos:prefLabel "Charlotte Heine" ;
+    foaf:name "Charlotte Heine" .
+
+<http://data.judaicalink.org/data/gba/EdmundEdel> a foaf:Person ;
+    gndo:birthDate 1863 ;
+    gndo:deathDate 1934 ;
+    gndo:hasPublication "Die Welt am blauen Montag" ;
+    gndo:occupation "Maler" ;
+    gndo:relation "Isidor Landau" ;
+    ns1:created "2023-01-10T12:52:16.048785"^^xsd:dateTime ;
+    skos:prefLabel "Edmund Edel" ;
+    foaf:name "Edmund Edel" .
+
+<http://data.judaicalink.org/data/gba/EdmundGeorgHermannLandau> a foaf:Person ;
+    gndo:birthDate 1877 ;
+    gndo:deathDate 1938 ;
+    gndo:gndIdentifier "118726161" ;
+    gndo:hasAbstract "Mathematiker, u.a. Professor in Göttingen." ;
+    gndo:occupation "Mathematiker, Professor" ;
+    ns1:created "2023-01-10T12:52:16.051502"^^xsd:dateTime ;
+    skos:prefLabel "Edmund Georg Hermann Landau" ;
+    foaf:name "Edmund Georg Hermann Landau" .
+
+<http://data.judaicalink.org/data/gba/EduardSchnitzer> a foaf:Person ;
+    gndo:alternativeName "Emin Pascha" ;
+    gndo:birthDate 1840 ;
+    gndo:deathDate 1892 ;
+    gndo:gndIdentifier "118530135" ;
+    gndo:hasAbstract "Arzt, konvertierte zum Islam. U.a. Gouverneur der Äquatorialprovinz des ägyptischen Salon. Entdeckungsreisender in Afrika und Gegner des Sklavenhandels. Seit 1890 in deutschen Diensten." ;
+    gndo:hasPublication "Zeitungsmeldung über eine, durch Emin Pascha verhinderte, Revolte in der Äquatorialprovinz des ägyptischen Salon. Aus: Illustrated London News, 1888." ;
+    gndo:occupation "Arzt" ;
+    ns1:created "2023-01-10T12:52:16.049058"^^xsd:dateTime ;
+    skos:prefLabel "Eduard Schnitzer" ;
+    foaf:name "Eduard Schnitzer" .
+
+<http://data.judaicalink.org/data/gba/ErichMendelsohn> a foaf:Person ;
+    gndo:birthDate 1887 ;
+    gndo:deathDate 1953 ;
+    gndo:gndIdentifier "11858071X" ;
+    gndo:hasAbstract "Färberei Der Hutfabrik Steinberg, Hermann & Co. in Luckenwalde (im Bezirk Potsdam), erbaut nach Plänen Erich Mendelsohn. Restaurant des jüdischen Jugendheims in Essen, August 1938. Das Gebäude wurde 1930 von dem Architekten Erich Mendelsohn entworfen und 1932 seiner Bestimmung übergeben. Loge in Tilsit erbaut von dem Architekten Erich Mendelsohn." ;
+    gndo:occupation "Architekt" ;
+    ns1:created "2023-01-10T12:52:16.050884"^^xsd:dateTime ;
+    skos:prefLabel "Erich Mendelsohn" ;
+    foaf:name "Erich Mendelsohn" .
+
+<http://data.judaicalink.org/data/gba/FritzMauthner> a foaf:Person ;
+    gndo:birthDate 1849 ;
+    gndo:deathDate 1944 ;
+    gndo:occupation "Journalist",
+        "Theaterkritiker" ;
+    gndo:relation "Isidor Landau" ;
+    ns1:created "2023-01-10T12:52:16.047891"^^xsd:dateTime ;
+    skos:prefLabel "Fritz Mauthner" ;
+    foaf:name "Fritz Mauthner" .
+
+<http://data.judaicalink.org/data/gba/GottschalkVanGeldern> a foaf:Person ;
+    gndo:birthDate 1726 ;
+    gndo:deathDate 1795 ;
+    gndo:hasAbstract "Großvater Heinrich Heines mütterlicherseits" ;
+    gndo:occupation "Arzt" ;
+    gndo:relation "Heinrich Heine" ;
+    ns1:created "2023-01-10T12:52:16.050249"^^xsd:dateTime ;
+    skos:prefLabel "Gottschalk Van Geldern" ;
+    foaf:name "Gottschalk Van Geldern" .
+
+<http://data.judaicalink.org/data/gba/GustavLandauer> a foaf:Person ;
+    gndo:birthDate 1870 ;
+    gndo:deathDate 1919 ;
+    gndo:gndIdentifier "118569074" ;
+    gndo:hasAbstract "Schriftsteller und Sozialphilosoph, u.a. Mitglied der Münchner Räteregierung" ;
+    gndo:occupation "Schriftsteller, Sozialphilosoph" ;
+    ns1:created "2023-01-10T12:52:16.050478"^^xsd:dateTime ;
+    skos:prefLabel "Gustav Landauer" ;
+    foaf:name "Gustav Landauer" .
+
+<http://data.judaicalink.org/data/gba/HeinrichHeine> a foaf:Person ;
+    gndo:birthDate 1797 ;
+    gndo:deathDate 1856 ;
+    gndo:gndIdentifier "118548018" ;
+    gndo:hasPublication "\"Buch Der Lieder\", 1827 (Erstausgabe). \"Deutschland: Ein Wintermärchen\", Schrift von Heinrich Heine, Hamburg 1844",
+        "\"Die Beiden Grenadiere\", Lied von Heinrich Heine",
+        "\"Die Romantische Schule\" Schrift von Heinrich Heine, Hamburg 1836" ;
+    gndo:occupation "Schriftsteller" ;
+    ns1:created "2023-01-10T12:52:16.049326"^^xsd:dateTime ;
+    skos:prefLabel "Heinrich Heine" ;
+    foaf:name "Heinrich Heine" .
+
+<http://data.judaicalink.org/data/gba/IsidorLandau> a foaf:Person ;
+    gndo:gndIdentifier "116670002" ;
+    gndo:occupation "Theaterkritiker" ;
+    ns1:created "2023-01-10T12:52:16.047660"^^xsd:dateTime ;
+    skos:prefLabel "Isidor Landau" ;
+    foaf:name "Isidor Landau" .
+
+<http://data.judaicalink.org/data/gba/IsraelitischeErziehungsanstaltAhlem> a foaf:Organization ;
+    gndo:gndIdentifier "2132826-2" ;
+    ns1:created "2023-01-10T12:52:16.051886"^^xsd:dateTime ;
+    skos:prefLabel "Israelitische Erziehungsanstalt Ahlem" ;
+    foaf:name "Israelitische Erziehungsanstalt Ahlem" .
+
+<http://data.judaicalink.org/data/gba/JecheskelEzechielLandau> a foaf:Person ;
+    gndo:birthDate 1713 ;
+    gndo:deathDate 1793 ;
+    gndo:gndIdentifier "13164145X" ;
+    gndo:hasAbstract "Rabbiner und Halachist, u.a. Leitung einer Prager Jeschiwa, Gegner Moses Mendelssohns und der Haskala sowie des Sabbatianismus." ;
+    gndo:occupation "Rabbiner, Halachist" ;
+    ns1:created "2023-01-10T12:52:16.051734"^^xsd:dateTime ;
+    skos:prefLabel "Jecheskel (Ezechiel) Landau" ;
+    foaf:name "Jecheskel (Ezechiel) Landau" .
+
+<http://data.judaicalink.org/data/gba/JuliusFürst> a foaf:Person ;
+    gndo:hasPublication "Der Orient" ;
+    ns1:created "2023-01-10T12:52:16.047079"^^xsd:dateTime ;
+    skos:prefLabel "Julius Fürst" ;
+    foaf:name "Julius Fürst" .
+
+<http://data.judaicalink.org/data/gba/KurtEisner> a foaf:Person ;
+    gndo:birthDate 1867 ;
+    gndo:deathDate 1919 ;
+    gndo:relation "Gustav Landauer" ;
+    ns1:created "2023-01-10T12:52:16.050662"^^xsd:dateTime ;
+    skos:prefLabel "Kurt Eisner" ;
+    foaf:name "Kurt Eisner" .
+
+<http://data.judaicalink.org/data/gba/LPietsch> a foaf:Person ;
+    gndo:birthDate 1824 ;
+    gndo:deathDate 1911 ;
+    gndo:occupation "Maler",
+        "Schriftsteller" ;
+    gndo:relation "Isidor Landau" ;
+    ns1:created "2023-01-10T12:52:16.048551"^^xsd:dateTime ;
+    skos:prefLabel "L. Pietsch" ;
+    foaf:name "L. Pietsch" .
+
+<http://data.judaicalink.org/data/gba/LudwigGeiger> a foaf:Person ;
+    gndo:hasPublication "Zeitschrift für die Geschichte der Juden in Deutschland" ;
+    ns1:created "2023-01-10T12:52:16.046907"^^xsd:dateTime ;
+    skos:prefLabel "Ludwig Geiger" ;
+    foaf:name "Ludwig Geiger" .
+
+<http://data.judaicalink.org/data/gba/LudwigPhilippson> a foaf:Person ;
+    gndo:birthDate 1811 ;
+    gndo:deathDate 1889 ;
+    gndo:gndIdentifier "116176288" ;
+    gndo:hasPublication "Allgemeine Zeitung des Judentums" ;
+    gndo:occupation "Publizist",
+        "Rabbiner" ;
+    ns1:created "2023-01-10T12:52:16.046709"^^xsd:dateTime ;
+    skos:prefLabel "Ludwig Philippson" ;
+    foaf:name "Ludwig Philippson" .
+
+<http://data.judaicalink.org/data/gba/MaxLiebermann> a foaf:Person ;
+    gndo:birthDate 1847 ;
+    gndo:deathDate 1935 ;
+    gndo:hasPublication "\"Der Rabbi Von Bacherach\", Zeichnung von Max Liebermann (1847-1935) der literarischen Figur Heinrich Heines" ;
+    ns1:created "2023-01-10T12:52:16.049524"^^xsd:dateTime ;
+    skos:prefLabel "Max Liebermann " ;
+    foaf:name "Max Liebermann " .
+
+<http://data.judaicalink.org/data/gba/MosesMendelssohn> a foaf:Person ;
+    gndo:birthDate 1729 ;
+    gndo:deathDate 1786 ;
+    gndo:gndIdentifier "118580744" ;
+    gndo:hasAbstract "Philosoph, Bibelübersetzer und Reformer. U.a. Mitinitiator der jüdischen Aufklärung (Haskala) und Engagement für die Emanzipation." ;
+    gndo:hasPublication "\"An die Freunde Lessings\", Berlin 1786",
+        "\"Jerusalem oder über religiöse Macht und Judentum\", Berlin 1783. \"Morgenstunden oder Vorlesungen über das Dasein Gottes\", Berlin 1786",
+        "\"Phaedon\",  Berlin u. Stettin 1776",
+        "\"Ritualgesetze der Juden, betreffend Erbschaften, Vormundschaften, Testamente und Ehesachen, in so weit sie das Mein und Dein angehen\", Berlin 1778",
+        "\"Schreiben an den Herrn Diaconus Lavater zu Zürich\", Berlin-Stettin 1770",
+        "Brief von Moses Mendelssohn an Johann Gottfried Herder vom 20. Juni 1780",
+        "Brief von Moses Mendelssohn an seine Ehefrau Frumet persönlichen Inhalts, der mit hebräischen Interjektionen und Buchstaben in deutscher Sprache geschrieben im dem Jahr ihrer Hochzeit (1762) geschrieben wurde",
+        "Philosophische Erklärung der Wörter \"Or\" und \"Noga\" aus \"Ha'Meassef\" (Der Sammler), 1783 in Königsberg von einer Gruppe hebräischer Schriftsteller gegründet. Pentateuch, Übersetzung  ins Deutsche (in hebräischen Buchstaben), Berlin 1783",
+        "Psalm I, Teil der Psalmen-Übersetzung  aus dem Hebräischen ins Deutsche aus dem Jahre 1783",
+        "Psalmen, Übersetzung von Moses Mendelssohn (1729-1786) aus dem Hebräischen ins Deutsche, Berlin 1783" ;
+    gndo:occupation "Bibelübersetzer",
+        "Philosoph",
+        "Reformer" ;
+    ns1:created "2023-01-10T12:52:16.051272"^^xsd:dateTime ;
+    skos:prefLabel "Moses Mendelssohn" ;
+    foaf:name "Moses Mendelssohn" .
+
+<http://data.judaicalink.org/data/gba/NorbertFalk> a foaf:Person ;
+    gndo:birthDate 1872 ;
+    gndo:deathDate 1932 ;
+    gndo:occupation "Journalist" ;
+    gndo:relation "Isidor Landau" ;
+    ns1:created "2023-01-10T12:52:16.048321"^^xsd:dateTime ;
+    skos:prefLabel "Norbert Falk" ;
+    foaf:name "Norbert Falk" .
+
