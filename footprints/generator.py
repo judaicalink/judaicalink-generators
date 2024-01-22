@@ -19,7 +19,7 @@ from edtf import parse_edtf
 from tqdm import tqdm
 import urllib.parse
 
-file_name = 'footPrints-final-01.ttl'
+file_name = 'footprints-final-01.ttl'
 
 graph = Graph()
 
@@ -82,6 +82,36 @@ def clean_url_string(string):
     string = urllib.parse.quote_plus(string, encoding='utf-8', errors='replace')
     # print(string)
     return string
+
+
+######################### Test 22-01-2024
+def get_gnd_id(name: str, type: str) -> str:
+    """Get the GND ID for a given name and type.
+    Args:
+        name (str): Name of the entity.
+        type (str): Type of the entity.
+    Returns:
+        str: GND ID of the entity.
+    """
+    try:
+        request = requests.get(
+            "https://lobid.org/gnd/search?q=" + name + "&filter=type:" + type + "&format=json"
+        )
+        request_json = request.json()
+        gnd_id = request_json["member"][0]["gndIdentifier"]  
+        return gnd_id
+    except:
+        return None  
+
+#############################
+
+
+
+
+
+
+
+
 
 
 def contains_non_digits(s):
@@ -153,7 +183,6 @@ def createGraph():
                                                 graph.add((URIRef(uri), owl.sameAs, (Literal(idf))))
                                             except:
                                                 pass
-                                    #################
                                         if idf['authority'] == "Library of Congress":
                                             idf = idf['identifier']
                                             idf = idf.replace('LOC ', '')
@@ -162,7 +191,7 @@ def createGraph():
                                                 graph.add((URIRef(uri), owl.sameAs, (Literal(idf))))
                                             except:
                                                 pass
-                                    #####################
+
                                         else:
                                             print('Seite:', idf, ', ', name, ', identifier = ', idf['authority'])
                                 except:
@@ -174,6 +203,8 @@ def createGraph():
         if "detail" in data and data["detail"] == "Invalid page.":
             print(f"last page loaded: page {page - 1}")
             break
+
+    
     print('graph created')
 
 

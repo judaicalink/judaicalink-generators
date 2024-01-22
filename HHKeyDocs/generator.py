@@ -20,7 +20,7 @@ from rdflib import Namespace, URIRef, Graph, Literal
 from tqdm import tqdm
 
 
-file_name = 'HHKeyDocs-final-01.ttl'
+file_name = 'hhkeydocs-final-01.ttl'
 
 graph = Graph()
 
@@ -230,10 +230,10 @@ def create_graph():
                     name = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore')
                     name = name.decode('utf-8')
                     gndID = get_gnd_id(name, "PlaceOrGeographicName")  
-                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{clean_name}")
+                    uri = URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{clean_name}")
                     if gndID is not None:      
                         graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(gndID))))
-                    graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net/{id}", datatype = XSD.anyURI))))
+                    graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net{id}.jsonld", datatype = XSD.anyURI))))
                     graph.add((URIRef(uri), RDF.type, gndo.PlaceOrGeographicName))   
                     graph.add((URIRef(uri), foaf.name, (Literal(name, datatype = XSD.string))))
                     graph.add((URIRef(uri), skos.prefLabel, (Literal(name, datatype = XSD.string))))
@@ -253,9 +253,10 @@ def create_graph():
             graph.serialize(destination=file_name, format="turtle")
         else:
             print('ERROR' + response2.status_code)  
+    
             
 # Persons    
-    for id in tqdm(ids):
+    for id in tqdm(ids[:50]):
         gndId = id
        
         url2 = f'https://schluesseldokumente.net/person/gnd/{gndId}.jsonld'              # get JSON-files by by GND-ID from schluesseldokumente.net
@@ -270,9 +271,9 @@ def create_graph():
                     name = str(data['name'])
                     name =unicodedata.normalize('NFKD', name).encode('ascii', 'ignore')
                     name = name.decode('utf-8')
-                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{clean_name}")                                                        
+                    uri = URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{clean_name}")                                                        
                     graph.add((URIRef(uri), RDF.type, foaf.Person))                       # add name + id
-                    graph.add((URIRef(uri), jl.describedAt, (URIRef(f"https://schluesseldokumente.net/person/gnd/{gndId}"))))
+                    graph.add((URIRef(uri), jl.describedAt, (URIRef(f"https://schluesseldokumente.net/person/gnd/{gndId}.jsonld"))))
                     graph.add((URIRef(uri), foaf.name, (Literal(name, datatype = XSD.string)))) 
                     graph.add((URIRef(uri), skos.prefLabel, (Literal(name, datatype = XSD.string))))
                     graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(id))))
@@ -311,13 +312,15 @@ def create_graph():
                     if birth_place_name is not None:                                       #clean and add birthplace
                         graph.add((URIRef(uri), jl.birthLocation, (Literal(birth_place_name, datatype = XSD.string))))
                         birth_place_name = clean_url_string(str(birth_place_name))
-                        birth_place_uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{birth_place_name}")
+                        birth_place_name = birth_place_name.decode('utf-8')
+                        birth_place_uri = URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{birth_place_name}")
                         graph.add((URIRef(uri), jl.birthLocation, birth_place_uri))    
                     death_place_name = data.get('deathPlace', {}).get('name')
                     if death_place_name is not None:                                        #clean and add deathdate
                         graph.add((URIRef(uri), jl.deathLocation, (Literal(death_place_name, datatype = XSD.string))))  
                         death_place_name = clean_url_string(str(death_place_name))
-                        death_place_uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{death_place_name}")
+                        death_place_name = death_place_name.decode('utf-8')
+                        death_place_uri = URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{death_place_name}")
                         graph.add((URIRef(uri), jl.deathLocation, death_place_uri))     
                     graph.add((URIRef(uri), dcterms.created, (Literal(datetime.now()))))
                     if 'description' in data:                                               #find and add occupations
@@ -339,7 +342,6 @@ def create_graph():
 # Organisations
     for id in tqdm(org_ids):
         orgID = id
-       # countterId += 1
         org_url = f'https://schluesseldokumente.net/organisation/gnd/{orgID}.jsonld'             
         response3 = requests.get(org_url)
         if response3.status_code == 200:
@@ -353,8 +355,8 @@ def create_graph():
                     name =unicodedata.normalize('NFKD', name).encode('ascii', 'ignore')
                     name = name.decode('utf-8')
                     uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{clean_name}")
-                    graph.add((URIRef(uri), jl.describedAt, (URIRef(f"https://schluesseldokumente.net/organisation/gnd/{orgID}"))))
-                    graph.add((URIRef(uri), RDF.type, foaf.Organisation))                #??? RICHTIG???
+                    graph.add((URIRef(uri), jl.describedAt, (URIRef(f"https://schluesseldokumente.net/organisation/gnd/{orgID}.jsonld"))))
+                    graph.add((URIRef(uri), RDF.type, foaf.Organisation))               
                     graph.add((URIRef(uri), foaf.name, (Literal(name, datatype = XSD.string))))
                     graph.add((URIRef(uri), skos.prefLabel, (Literal(name, datatype = XSD.string))))
                     graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(orgID)))) 
@@ -376,6 +378,8 @@ def create_graph():
                 
                 except json.JSONDecodeError as e:
                     print(f"Fehler beim Laden von JSON: {e}")
+
+   
             graph.serialize(destination=file_name, format="turtle")
         else:
             print('ERROR' + response2.status_code)  
