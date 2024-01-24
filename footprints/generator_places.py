@@ -18,7 +18,7 @@ from edtf import parse_edtf
 from tqdm import tqdm
 import urllib.parse
 
-file_name = 'footPrintsPlaces-final-01.ttl'
+file_name = 'footprintsplaces-final-01.ttl'
 
 graph = Graph()
 

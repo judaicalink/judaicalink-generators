@@ -18,6 +18,7 @@ import re
 from edtf import parse_edtf
 from tqdm import tqdm
 import urllib.parse
+import langid
 
 file_name = 'footprints-final-01.ttl'
 
@@ -105,13 +106,15 @@ def get_gnd_id(name: str, type: str) -> str:
 
 #############################
 
+def hebrew_name_recogition(name):
+    '''recognices if a string is written in hebrew letters'''
+    lang, confidence = langid.classify(name)
+    return lang == 'he'
 
-
-
-
-
-
-
+def clean_hebrew_name(name):
+    name = name.strip()
+    name = name.replace('.', '')
+    return name
 
 
 def contains_non_digits(s):
@@ -138,9 +141,11 @@ def createGraph():
                     # if date['id']:
                     if date['name'] and date['name'] is not None:
                         name = clean_url_string(str(date['name']))
+                        fID = date['id']
                         if contains_non_digits(name) == True:
+
                             uri = URIRef(f"http://data.judaicalink.org/data/footprints/{name}")
-                            graph.add((URIRef(uri), jl.describedAt, (Literal('https://footprints.ctl.columbia.edu/'))))
+                            graph.add((URIRef(uri), jl.describedAt, (Literal(f'https://footprints.ctl.columbia.edu/api/person/{fID}'))))
                             graph.add((URIRef(uri), RDF.type, foaf.Person))  # add name + id
                             graph.add((URIRef(uri), foaf.name, (Literal(name))))
                             graph.add((URIRef(uri), skos.prefLabel, (Literal(name))))
