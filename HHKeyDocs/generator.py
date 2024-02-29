@@ -18,7 +18,8 @@ from rdflib.namespace import RDF, XSD
 from datetime import datetime
 from rdflib import Namespace, URIRef, Graph, Literal
 from tqdm import tqdm
-
+import googletrans
+from googletrans import *
 
 file_name = 'hhkeydocs-final-01.ttl'
 
@@ -180,6 +181,11 @@ def get_professions_from_WD():
         professions.append(item["professionLabel"]["value"])
         professions.append(newitems)
 
+def occupation_to_en(text):
+    translator = googletrans.Translator()
+    translation = translator.translate(text, dest='en')
+    return translation.text
+
 def create_graph():
     skos = Namespace("http://www.w3.org/2004/02/skos/core#")
     jl = Namespace("http://data.judaicalink.org/ontology/")
@@ -189,6 +195,8 @@ def create_graph():
     edm = Namespace("http://www.europeana.eu/schemas/edm/")
     dc = Namespace("http://purl.org/dc/elements/1.1/")
     dcterms = Namespace("http://purl.org/dc/terms/")
+    geo = Namespace("http://www.opengis.net/ont/geosparql#")
+
 
     graph.bind('skos', skos)
     graph.bind('foaf', foaf)
@@ -197,22 +205,8 @@ def create_graph():
     graph.bind('owl', owl)
     graph.bind('edm', edm)
     graph.bind('dc', dc)
-    skos = Namespace("http://www.w3.org/2004/02/skos/core#")
-    jl = Namespace("http://data.judaicalink.org/ontology/")
-    foaf = Namespace("http://xmlns.com/foaf/0.1/")
-    gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
-    owl = Namespace("http://www.w3.org/2002/07/owl#")
-    edm = Namespace("http://www.europeana.eu/schemas/edm/")
-    dc = Namespace("http://purl.org/dc/elements/1.1/")
-    dcterms = Namespace("http://purl.org/dc/terms/")
-
-    graph.bind('skos', skos)
-    graph.bind('foaf', foaf)
-    graph.bind('jl', jl)
-    graph.bind('gndo', gndo)
-    graph.bind('owl', owl)
-    graph.bind('edm', edm)
-    graph.bind('dc', dc)
+    graph.bind('dcterms', dcterms)
+    graph.bind('geo', geo)
     
 # Places  
     place_uris = []
@@ -237,15 +231,15 @@ def create_graph():
                     graph.add((URIRef(uri), RDF.type, gndo.PlaceOrGeographicName))   
                     graph.add((URIRef(uri), foaf.name, (Literal(name, datatype = XSD.string))))
                     graph.add((URIRef(uri), skos.prefLabel, (Literal(name, datatype = XSD.string))))
+                    
                     try:
-                        graph.add((URIRef(uri), jl.lat, (Literal(data['geo']['latitude']))))
+                        lat = data['geo']['latitude']
+                        long = data['geo']['longitude']
+                        longlat = f'"Point ( +{long} +{lat})' 
+                        graph.add((URIRef(uri), geo.asWKT, (Literal(longlat))))  #  "Point ( +006.083333 +050.776388 )"
                     except:
-                    	pass
-                    try:
-                        graph.add((URIRef(uri), jl.lon, (Literal(data['geo']['longitude']))))
-                    except:
-                    	pass
-
+                        pass
+                    
                     graph.add((URIRef(uri), gndo.hierarchicalSuperiorOfPlaceOrGeographicName, (Literal(data['containedInPlace']['name']))))
                      
                 except json.JSONDecodeError as e:
@@ -256,7 +250,7 @@ def create_graph():
     
             
 # Persons    
-    for id in tqdm(ids[:50]):
+    for id in tqdm(ids):
         gndId = id
        
         url2 = f'https://schluesseldokumente.net/person/gnd/{gndId}.jsonld'              # get JSON-files by by GND-ID from schluesseldokumente.net
@@ -331,7 +325,9 @@ def create_graph():
                         description = description.split(' ')
                         for d in description:
                             if d in professions:
-                                graph.add((URIRef(uri), jl.occupation, (Literal(d))))                 
+                                dtrans = occupation_to_en(d)
+                                graph.add((URIRef(uri), jl.occupation, (Literal(d))))     
+                                graph.add((URIRef(uri), jl.occupation, (Literal(dtrans))))              
                 except json.JSONDecodeError as e:
                     print(f"Fehler beim Laden von JSON: {e}")
 

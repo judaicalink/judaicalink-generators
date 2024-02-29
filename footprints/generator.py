@@ -146,6 +146,9 @@ def createGraph():
 
                             uri = URIRef(f"http://data.judaicalink.org/data/footprints/{name}")
                             graph.add((URIRef(uri), jl.describedAt, (Literal(f'https://footprints.ctl.columbia.edu/api/person/{fID}'))))
+                            if hebrew_name_recogition(name) == True:
+                                name = clean_hebrew_name(name)
+                            
                             graph.add((URIRef(uri), RDF.type, foaf.Person))  # add name + id
                             graph.add((URIRef(uri), foaf.name, (Literal(name))))
                             graph.add((URIRef(uri), skos.prefLabel, (Literal(name))))

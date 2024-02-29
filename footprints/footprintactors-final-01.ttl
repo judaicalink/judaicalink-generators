@@ -1,0 +1,856 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix jl: <http://data.judaicalink.org/ontology/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.judaicalink.org/data/footprints/%D7%90%D7%91%D7%95%D7%93%D7%A8%D7%94%D7%9D_%D7%93%D7%95%D7%93%D7%91%D7%9F%D7%99%D7%95%D7%A1%D7%A3> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7724" ;
+    dcterms:created "2024-02-22T20:45:38.532305"^^xsd:dateTime ;
+    skos:prefLabel "אבודרהם, דוד בן יוסף" ;
+    foaf:name "אבודרהם, דוד בן יוסף" .
+
+<http://data.judaicalink.org/data/footprints/%D7%90%D7%91%D7%9F%D7%91%D7%A7%D7%95%D7%93%D7%94_%D7%91%D7%97%D7%99%D7%99%D7%91%D7%9F%D7%99%D7%95%D7%A1%D7%A3> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7792" ;
+    dcterms:created "2024-02-22T20:45:38.562813"^^xsd:dateTime ;
+    skos:prefLabel "אבן-בקודה, בחיי בן יוסף" ;
+    foaf:name "אבן-בקודה, בחיי בן יוסף" .
+
+<http://data.judaicalink.org/data/footprints/%D7%90%D7%9C%D7%91%D7%95_%D7%99%D7%95%D7%A1%D7%A3> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7884" ;
+    dcterms:created "2024-02-22T20:45:38.601833"^^xsd:dateTime ;
+    skos:prefLabel "אלבו, יוסף" ;
+    foaf:name "אלבו, יוסף" .
+
+<http://data.judaicalink.org/data/footprints/%D7%99%D7%93%D7%A2%D7%99%D7%94%D7%91%D7%9F%D7%90%D7%91%D7%A8%D7%94%D7%9D%D7%91%D7%93%D7%A8%D7%A9%D7%99> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7755" ;
+    dcterms:created "2024-02-22T20:45:38.662954"^^xsd:dateTime ;
+    skos:prefLabel "ידעיה בן אברהם בדרשי" ;
+    foaf:name "ידעיה בן אברהם בדרשי" .
+
+<http://data.judaicalink.org/data/footprints/%D7%99%D7%A2%D7%A7%D7%91%D7%91%D7%9F%D7%90%D7%A9%D7%A8> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1466" ;
+    dcterms:created "2024-02-22T20:45:38.715491"^^xsd:dateTime ;
+    skos:prefLabel "יעקב בן אשר" ;
+    foaf:name "יעקב בן אשר" .
+
+<http://data.judaicalink.org/data/footprints/%D7%99%D7%A2%D7%A7%D7%91%D7%91%D7%9F%D7%90%D7%A9%D7%A8%D7%A8%D7%90%D7%A9> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7747" ;
+    dcterms:created "2024-02-22T20:45:38.808047"^^xsd:dateTime ;
+    skos:prefLabel "יעקב בן אשר (רא\"ש)" ;
+    foaf:name "יעקב בן אשר (רא\"ש)" .
+
+<http://data.judaicalink.org/data/footprints/%D7%9E%D7%A9%D7%94%D7%91%D7%9F%D7%99%D7%A2%D7%A7%D7%91%D7%9E%D7%A7%D7%95%D7%A6%D7%99> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7824" ;
+    dcterms:created "2024-02-22T20:45:39.333763"^^xsd:dateTime ;
+    skos:prefLabel "משה בן יעקב מקוצי" ;
+    foaf:name "משה בן יעקב מקוצי" .
+
+<http://data.judaicalink.org/data/footprints/%D7%9E%D7%A9%D7%94%D7%91%D7%9F%D7%9E%D7%99%D7%9E%D7%95%D7%9F%D7%A8%D7%9E%D7%91%D7%9D> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7768" ;
+    dcterms:created "2024-02-22T20:45:39.374766"^^xsd:dateTime ;
+    skos:prefLabel "משה בן מימון (רמב\"ם)" ;
+    foaf:name "משה בן מימון (רמב\"ם)" .
+
+<http://data.judaicalink.org/data/footprints/%D7%A7%D7%9E%D7%97%D7%99_%D7%93%D7%95%D7%93%D7%91%D7%9F%D7%99%D7%95%D7%A1%D7%A3%D7%A8%D7%93%D7%A7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7770" ;
+    dcterms:created "2024-02-22T20:45:39.416318"^^xsd:dateTime ;
+    skos:prefLabel "קמחי, דוד בן יוסף (רד\"ק)" ;
+    foaf:name "קמחי, דוד בן יוסף (רד\"ק)" .
+
+<http://data.judaicalink.org/data/footprints/AlessandroScipio> a foaf:Person ;
+    jl:birthDate "1593" ;
+    jl:deathDate "1599" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/4186" ;
+    dcterms:created "2024-02-22T20:45:28.652027"^^xsd:dateTime ;
+    skos:prefLabel "Alessandro Scipio" ;
+    foaf:name "Alessandro Scipio" .
+
+<http://data.judaicalink.org/data/footprints/AliceParkerLesser> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/4351" ;
+    dcterms:created "2024-02-22T20:45:28.656027"^^xsd:dateTime ;
+    skos:prefLabel "Alice Parker Lesser" ;
+    foaf:name "Alice Parker Lesser" .
+
+<http://data.judaicalink.org/data/footprints/Anonymous> a foaf:Person ;
+    jl:birthDate "1451" ;
+    jl:deathDate "1500" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/2269" ;
+    dcterms:created "2024-02-22T20:45:28.666029"^^xsd:dateTime ;
+    skos:prefLabel "Anonymous" ;
+    foaf:name "Anonymous" .
+
+<http://data.judaicalink.org/data/footprints/AnonymousItalianJew> a foaf:Person ;
+    jl:birthDate "1450" ;
+    jl:deathDate "1550" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/3042" ;
+    dcterms:created "2024-02-22T20:45:28.675020"^^xsd:dateTime ;
+    skos:prefLabel "Anonymous Italian Jew" ;
+    foaf:name "Anonymous Italian Jew" .
+
+<http://data.judaicalink.org/data/footprints/AnonymousJewishowner> a foaf:Person ;
+    jl:birthDate "1500" ;
+    jl:deathDate "1600" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7969" ;
+    dcterms:created "2024-02-22T20:45:28.697023"^^xsd:dateTime ;
+    skos:prefLabel "Anonymous Jewish owner" ;
+    foaf:name "Anonymous Jewish owner" .
+
+<http://data.judaicalink.org/data/footprints/AnonymousSephardiJew> a foaf:Person ;
+    jl:birthDate "1500" ;
+    jl:deathDate "1700" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/8001" ;
+    dcterms:created "2024-02-22T20:45:28.708528"^^xsd:dateTime ;
+    skos:prefLabel "Anonymous Sephardi Jew" ;
+    foaf:name "Anonymous Sephardi Jew" .
+
+<http://data.judaicalink.org/data/footprints/Anonymous_Italy> a foaf:Person ;
+    jl:birthDate "1501" ;
+    jl:deathDate "1550" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7983" ;
+    dcterms:created "2024-02-22T20:45:28.685024"^^xsd:dateTime ;
+    skos:prefLabel "Anonymous, Italy" ;
+    foaf:name "Anonymous, Italy" .
+
+<http://data.judaicalink.org/data/footprints/ArchbishopMarshsLibrary> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/4106" ;
+    dcterms:created "2024-02-22T20:45:28.719529"^^xsd:dateTime ;
+    skos:prefLabel "Archbishop Marsh's Library" ;
+    foaf:name "Archbishop Marsh's Library" .
+
+<http://data.judaicalink.org/data/footprints/Avicenna> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/89" ;
+    dcterms:created "2024-02-22T20:45:28.730528"^^xsd:dateTime ;
+    skos:prefLabel "Avicenna" ;
+    foaf:name "Avicenna" .
+
+<http://data.judaicalink.org/data/footprints/AvrahambenHayim_diTintori_active14731488> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/9116" ;
+    dcterms:created "2024-02-22T20:45:28.743541"^^xsd:dateTime ;
+    skos:prefLabel "Avraham ben Hayim, di Tintori, active 1473-1488" ;
+    foaf:name "Avraham ben Hayim, di Tintori, active 1473-1488" .
+
+<http://data.judaicalink.org/data/footprints/AzrielbenJosephAshkenaziGunzenhauser> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/3016" ;
+    dcterms:created "2024-02-22T20:45:28.757528"^^xsd:dateTime ;
+    skos:prefLabel "Azriel ben Joseph Ashkenazi Gunzenhauser" ;
+    foaf:name "Azriel ben Joseph Ashkenazi Gunzenhauser" .
+
+<http://data.judaicalink.org/data/footprints/Bah%CC%A3yabenJosephibnPak%CC%A3uda> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/11217" ;
+    dcterms:created "2024-02-22T20:45:29.352068"^^xsd:dateTime ;
+    skos:prefLabel "Baḥya ben Joseph ibn Paḳuda" ;
+    foaf:name "Baḥya ben Joseph ibn Paḳuda" .
+
+<http://data.judaicalink.org/data/footprints/Bah%CC%A3yabenJosephibnPak%CC%A3uda_active11thcentury%E2%80%8F> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1228" ;
+    dcterms:created "2024-02-22T20:45:29.360069"^^xsd:dateTime ;
+    skos:prefLabel "Baḥya ben Joseph ibn Paḳuda, active 11th century‏" ;
+    foaf:name "Baḥya ben Joseph ibn Paḳuda, active 11th century‏" .
+
+<http://data.judaicalink.org/data/footprints/BarukhBarukhHayyimAlmanzi> a foaf:Person ;
+    jl:deathDate "1837" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/5837" ;
+    dcterms:created "2024-02-22T20:45:29.385090"^^xsd:dateTime ;
+    skos:prefLabel "Barukh (Barukh Hayyim) Almanzi" ;
+    foaf:name "Barukh (Barukh Hayyim) Almanzi" .
+
+<http://data.judaicalink.org/data/footprints/BeineckeRareBookandManuscriptLibrary_YaleUniversity> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/659" ;
+    dcterms:created "2024-02-22T20:45:29.393082"^^xsd:dateTime ;
+    skos:prefLabel "Beinecke Rare Book and Manuscript Library, Yale University" ;
+    foaf:name "Beinecke Rare Book and Manuscript Library, Yale University" .
+
+<http://data.judaicalink.org/data/footprints/BertholdStrauss> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/4459" ;
+    dcterms:created "2024-02-22T20:45:29.404599"^^xsd:dateTime ;
+    skos:prefLabel "Berthold Strauss?" ;
+    foaf:name "Berthold Strauss?" .
+
+<http://data.judaicalink.org/data/footprints/BibliotecaComunalePasseriniLandiPiacenza> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7959" ;
+    dcterms:created "2024-02-22T20:45:29.416597"^^xsd:dateTime ;
+    skos:prefLabel "Biblioteca Comunale Passerini-Landi Piacenza" ;
+    foaf:name "Biblioteca Comunale Passerini-Landi Piacenza" .
+
+<http://data.judaicalink.org/data/footprints/BibliotecaPalatina_Parma> a foaf:Organization ;
+    jl:birthDate "1761" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/2464" ;
+    dcterms:created "2024-02-22T20:45:29.453610"^^xsd:dateTime ;
+    skos:prefLabel "Biblioteca Palatina, Parma" ;
+    foaf:name "Biblioteca Palatina, Parma" .
+
+<http://data.judaicalink.org/data/footprints/BibliotecanazionalecentralediFirenze> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/10137" ;
+    dcterms:created "2024-02-22T20:45:29.428607"^^xsd:dateTime ;
+    skos:prefLabel "Biblioteca nazionale centrale di Firenze" ;
+    foaf:name "Biblioteca nazionale centrale di Firenze" .
+
+<http://data.judaicalink.org/data/footprints/BodleianLibrary_Oxford> a foaf:Organization ;
+    jl:birthDate "1602" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/851" ;
+    dcterms:created "2024-02-22T20:45:29.461613"^^xsd:dateTime ;
+    skos:prefLabel "Bodleian Library, Oxford" ;
+    foaf:name "Bodleian Library, Oxford" .
+
+<http://data.judaicalink.org/data/footprints/Bragadin> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/8917" ;
+    dcterms:created "2024-02-22T20:45:29.488621"^^xsd:dateTime ;
+    skos:prefLabel "Bragadin" ;
+    foaf:name "Bragadin" .
+
+<http://data.judaicalink.org/data/footprints/BrandeisUniversityLibrary> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/9770" ;
+    dcterms:created "2024-02-22T20:45:29.510806"^^xsd:dateTime ;
+    skos:prefLabel "Brandeis University Library" ;
+    foaf:name "Brandeis University Library" .
+
+<http://data.judaicalink.org/data/footprints/BritishLibraryBritishMuseum> a foaf:Organization ;
+    jl:birthDate "1753" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1728" ;
+    dcterms:created "2024-02-22T20:45:30.059650"^^xsd:dateTime ;
+    skos:prefLabel "British Library (British Museum)" ;
+    foaf:name "British Library (British Museum)" .
+
+<http://data.judaicalink.org/data/footprints/Bru%CC%88ll_Nehemias> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7304" ;
+    dcterms:created "2024-02-22T20:45:30.074660"^^xsd:dateTime ;
+    skos:prefLabel "Brüll, Nehemias" ;
+    foaf:name "Brüll, Nehemias" .
+
+<http://data.judaicalink.org/data/footprints/CambridgeUniversityLibrary> a foaf:Organization ;
+    jl:birthDate "1416" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1756" ;
+    dcterms:created "2024-02-22T20:45:30.092669"^^xsd:dateTime ;
+    skos:prefLabel "Cambridge University Library" ;
+    foaf:name "Cambridge University Library" .
+
+<http://data.judaicalink.org/data/footprints/CamilloJagel> a foaf:Person ;
+    jl:birthDate "1611" ;
+    jl:deathDate "1620" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/3228" ;
+    dcterms:created "2024-02-22T20:45:30.106187"^^xsd:dateTime ;
+    skos:prefLabel "Camillo Jagel" ;
+    foaf:name "Camillo Jagel" .
+
+<http://data.judaicalink.org/data/footprints/CentralJewishCommittee> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/11228" ;
+    dcterms:created "2024-02-22T20:45:30.135187"^^xsd:dateTime ;
+    skos:prefLabel "Central Jewish Committee" ;
+    foaf:name "Central Jewish Committee" .
+
+<http://data.judaicalink.org/data/footprints/ChristiesAuctionHouse> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1783" ;
+    dcterms:created "2024-02-22T20:45:30.151194"^^xsd:dateTime ;
+    skos:prefLabel "Christie's Auction House" ;
+    foaf:name "Christie's Auction House" .
+
+<http://data.judaicalink.org/data/footprints/Citta%CC%80delVaticano_BibliotecaApostolicaVaticana> a foaf:Organization ;
+    jl:birthDate "1450" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7951" ;
+    dcterms:created "2024-02-22T20:45:30.169188"^^xsd:dateTime ;
+    skos:prefLabel "Città del Vaticano, Biblioteca Apostolica Vaticana" ;
+    foaf:name "Città del Vaticano, Biblioteca Apostolica Vaticana" .
+
+<http://data.judaicalink.org/data/footprints/ColumbiaUniversityLibraries> a foaf:Organization ;
+    jl:birthDate "1754" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/108" ;
+    dcterms:created "2024-02-22T20:45:30.196542"^^xsd:dateTime ;
+    skos:prefLabel "Columbia University Libraries" ;
+    foaf:name "Columbia University Libraries" .
+
+<http://data.judaicalink.org/data/footprints/CommunitaEbraicadiVenezia> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/6626" ;
+    dcterms:created "2024-02-22T20:45:30.212039"^^xsd:dateTime ;
+    skos:prefLabel "Communita Ebraica di Venezia" ;
+    foaf:name "Communita Ebraica di Venezia" .
+
+<http://data.judaicalink.org/data/footprints/ComunitaEbraicadiVenezia> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/6247",
+        "https://footprints.ctl.columbia.edu/api/actor/6253" ;
+    dcterms:created "2024-02-22T20:45:30.226041"^^xsd:dateTime ;
+    skos:prefLabel "Comunita Ebraica di Venezia" ;
+    foaf:name "Comunita Ebraica di Venezia" .
+
+<http://data.judaicalink.org/data/footprints/ConventdeStJoandeJerusalem> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/5892" ;
+    dcterms:created "2024-02-22T20:45:30.259038"^^xsd:dateTime ;
+    skos:prefLabel "Convent de St. Joan de Jerusalem" ;
+    foaf:name "Convent de St. Joan de Jerusalem" .
+
+<http://data.judaicalink.org/data/footprints/DanielBomberg> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/5195" ;
+    dcterms:created "2024-02-22T20:45:30.282040"^^xsd:dateTime ;
+    skos:prefLabel "Daniel Bomberg" ;
+    foaf:name "Daniel Bomberg" .
+
+<http://data.judaicalink.org/data/footprints/DanielChwolson> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/4101" ;
+    dcterms:created "2024-02-22T20:45:30.889875"^^xsd:dateTime ;
+    skos:prefLabel "Daniel Chwolson" ;
+    foaf:name "Daniel Chwolson" .
+
+<http://data.judaicalink.org/data/footprints/DavidKimhi> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1750" ;
+    dcterms:created "2024-02-22T20:45:30.924388"^^xsd:dateTime ;
+    skos:prefLabel "David Kimhi" ;
+    foaf:name "David Kimhi" .
+
+<http://data.judaicalink.org/data/footprints/DavidbenJosephAbudraham> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/85" ;
+    dcterms:created "2024-02-22T20:45:30.907382"^^xsd:dateTime ;
+    skos:prefLabel "David ben Joseph Abudraham" ;
+    foaf:name "David ben Joseph Abudraham" .
+
+<http://data.judaicalink.org/data/footprints/DiGara_Giovanni> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/3607" ;
+    dcterms:created "2024-02-22T20:45:31.041928"^^xsd:dateTime ;
+    skos:prefLabel "Di Gara, Giovanni" ;
+    foaf:name "Di Gara, Giovanni" .
+
+<http://data.judaicalink.org/data/footprints/DomenicoIrosolomitano> a foaf:Person ;
+    jl:birthDate "1540" ;
+    jl:deathDate "1620" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/11156" ;
+    dcterms:created "2024-02-22T20:45:31.059926"^^xsd:dateTime ;
+    skos:prefLabel "Domenico Irosolomitano" ;
+    foaf:name "Domenico Irosolomitano" .
+
+<http://data.judaicalink.org/data/footprints/DrAbrahamBerliner> a foaf:Person ;
+    jl:birthDate "1800" ;
+    jl:deathDate "1880" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/9004" ;
+    dcterms:created "2024-02-22T20:45:31.115454"^^xsd:dateTime ;
+    skos:prefLabel "Dr. Abraham Berliner" ;
+    foaf:name "Dr. Abraham Berliner" .
+
+<http://data.judaicalink.org/data/footprints/DrBrunoKirschner> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/4905" ;
+    dcterms:created "2024-02-22T20:45:31.136450"^^xsd:dateTime ;
+    skos:prefLabel "Dr. Bruno Kirschner" ;
+    foaf:name "Dr. Bruno Kirschner" .
+
+<http://data.judaicalink.org/data/footprints/EliezerToledano> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/139" ;
+    dcterms:created "2024-02-22T20:45:31.156451"^^xsd:dateTime ;
+    skos:prefLabel "Eliezer Toledano" ;
+    foaf:name "Eliezer Toledano" .
+
+<http://data.judaicalink.org/data/footprints/ElkanNathanAdler> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/917" ;
+    dcterms:created "2024-02-22T20:45:31.776894"^^xsd:dateTime ;
+    skos:prefLabel "Elkan Nathan Adler" ;
+    foaf:name "Elkan Nathan Adler" .
+
+<http://data.judaicalink.org/data/footprints/FerdinandoLandi> a foaf:Person ;
+    jl:birthDate "1778" ;
+    jl:deathDate "1853" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7960" ;
+    dcterms:created "2024-02-22T20:45:31.816416"^^xsd:dateTime ;
+    skos:prefLabel "Ferdinando Landi" ;
+    foaf:name "Ferdinando Landi" .
+
+<http://data.judaicalink.org/data/footprints/FrederikMuller_Cie> a foaf:Person ;
+    jl:birthDate "1817" ;
+    jl:deathDate "1881" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/10057" ;
+    dcterms:created "2024-02-22T20:45:31.838414"^^xsd:dateTime ;
+    skos:prefLabel "Frederik Muller & Cie" ;
+    foaf:name "Frederik Muller & Cie" .
+
+<http://data.judaicalink.org/data/footprints/GershombenMosesSoncino> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/4896" ;
+    dcterms:created "2024-02-22T20:45:31.858426"^^xsd:dateTime ;
+    skos:prefLabel "Gershom ben Moses Soncino" ;
+    foaf:name "Gershom ben Moses Soncino" .
+
+<http://data.judaicalink.org/data/footprints/GiovanniBernardodeRossi> a foaf:Person ;
+    jl:birthDate "1742" ;
+    jl:deathDate "1831" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/8957" ;
+    dcterms:created "2024-02-22T20:45:31.909956"^^xsd:dateTime ;
+    skos:prefLabel "Giovanni Bernardo de Rossi" ;
+    foaf:name "Giovanni Bernardo de Rossi" .
+
+<http://data.judaicalink.org/data/footprints/GiovanniDomenicoCarretto> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/10814" ;
+    dcterms:created "2024-02-22T20:45:31.928957"^^xsd:dateTime ;
+    skos:prefLabel "Giovanni Domenico Carretto" ;
+    foaf:name "Giovanni Domenico Carretto" .
+
+<http://data.judaicalink.org/data/footprints/GiovanniDominicoCarretto> a foaf:Person ;
+    jl:birthDate "1600" ;
+    jl:deathDate "1650" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/10675" ;
+    dcterms:created "2024-02-22T20:45:31.946957"^^xsd:dateTime ;
+    skos:prefLabel "Giovanni Dominico Carretto" ;
+    foaf:name "Giovanni Dominico Carretto" .
+
+<http://data.judaicalink.org/data/footprints/GiovanniDominicoVistorini> a foaf:Person ;
+    jl:birthDate "1609" ;
+    jl:deathDate "1620" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/391" ;
+    dcterms:created "2024-02-22T20:45:31.964967"^^xsd:dateTime ;
+    skos:prefLabel "Giovanni Dominico Vistorini" ;
+    foaf:name "Giovanni Dominico Vistorini" .
+
+<http://data.judaicalink.org/data/footprints/GiuseppeAlmanzi> a foaf:Person ;
+    jl:birthDate "1801" ;
+    jl:deathDate "1860" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/520" ;
+    dcterms:created "2024-02-22T20:45:31.981956"^^xsd:dateTime ;
+    skos:prefLabel "Giuseppe Almanzi" ;
+    foaf:name "Giuseppe Almanzi" .
+
+<http://data.judaicalink.org/data/footprints/Gnendel_daughterofJosephOppenheim> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1648" ;
+    dcterms:created "2024-02-22T20:45:31.998959"^^xsd:dateTime ;
+    skos:prefLabel "Gnendel, daughter of Joseph Oppenheim" ;
+    foaf:name "Gnendel, daughter of Joseph Oppenheim" .
+
+<http://data.judaicalink.org/data/footprints/HarvardUniversity> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/10004" ;
+    dcterms:created "2024-02-22T20:45:32.019622"^^xsd:dateTime ;
+    skos:prefLabel "Harvard University" ;
+    foaf:name "Harvard University" .
+
+<http://data.judaicalink.org/data/footprints/HippoliteofFerrara> a foaf:Person ;
+    jl:birthDate "1584" ;
+    jl:deathDate "1601" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7979" ;
+    dcterms:created "2024-02-22T20:45:32.648313"^^xsd:dateTime ;
+    skos:prefLabel "Hippolite of Ferrara" ;
+    foaf:name "Hippolite of Ferrara" .
+
+<http://data.judaicalink.org/data/footprints/IbnAderet_SolomonbenAbraham> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7487" ;
+    dcterms:created "2024-02-22T20:45:32.669322"^^xsd:dateTime ;
+    skos:prefLabel "Ibn Aderet, Solomon ben Abraham" ;
+    foaf:name "Ibn Aderet, Solomon ben Abraham" .
+
+<http://data.judaicalink.org/data/footprints/ImmanuelbenSolomon> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1267" ;
+    dcterms:created "2024-02-22T20:45:32.690334"^^xsd:dateTime ;
+    skos:prefLabel "Immanuel ben Solomon" ;
+    foaf:name "Immanuel ben Solomon" .
+
+<http://data.judaicalink.org/data/footprints/IsaakSeligmannBerendSalomon> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/6098" ;
+    dcterms:created "2024-02-22T20:45:32.802419"^^xsd:dateTime ;
+    skos:prefLabel "Isaak Seligmann Berend Salomon" ;
+    foaf:name "Isaak Seligmann Berend Salomon" .
+
+<http://data.judaicalink.org/data/footprints/JacobLowy> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/4704" ;
+    dcterms:created "2024-02-22T20:45:32.934168"^^xsd:dateTime ;
+    skos:prefLabel "Jacob Lowy" ;
+    foaf:name "Jacob Lowy" .
+
+<http://data.judaicalink.org/data/footprints/JacobbenAsher> a foaf:Person ;
+    jl:birthDate "1270" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7575" ;
+    dcterms:created "2024-02-22T20:45:32.821411"^^xsd:dateTime ;
+    skos:prefLabel "Jacob ben Asher" ;
+    foaf:name "Jacob ben Asher" .
+
+<http://data.judaicalink.org/data/footprints/JacobbenJudahWeil> a foaf:Person ;
+    jl:birthDate "2" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/2" ;
+    dcterms:created "2024-02-22T20:45:32.902806"^^xsd:dateTime ;
+    skos:prefLabel "Jacob ben Judah Weil" ;
+    foaf:name "Jacob ben Judah Weil" .
+
+<http://data.judaicalink.org/data/footprints/JedadiahhaPeniniBenAbrahamBedersi> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/2790" ;
+    dcterms:created "2024-02-22T20:45:32.953169"^^xsd:dateTime ;
+    skos:prefLabel "Jedadiah ha-Penini Ben Abraham Bedersi" ;
+    foaf:name "Jedadiah ha-Penini Ben Abraham Bedersi" .
+
+<http://data.judaicalink.org/data/footprints/JedaiahbenAbrahamBedersi> a foaf:Person ;
+    jl:birthDate "1270" ;
+    jl:deathDate "1340" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/193" ;
+    dcterms:created "2024-02-22T20:45:33.575882"^^xsd:dateTime ;
+    skos:prefLabel "Jedaiah ben Abraham Bedersi" ;
+    foaf:name "Jedaiah ben Abraham Bedersi" .
+
+<http://data.judaicalink.org/data/footprints/JewishCulturalReconstruction> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/3054" ;
+    dcterms:created "2024-02-22T20:45:33.595896"^^xsd:dateTime ;
+    skos:prefLabel "Jewish Cultural Reconstruction" ;
+    foaf:name "Jewish Cultural Reconstruction" .
+
+<http://data.judaicalink.org/data/footprints/JosephAlbo> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1242" ;
+    dcterms:created "2024-02-22T20:45:33.615419"^^xsd:dateTime ;
+    skos:prefLabel "Joseph Albo" ;
+    foaf:name "Joseph Albo" .
+
+<http://data.judaicalink.org/data/footprints/Joseph_sonofDavidOppenheim> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/6099" ;
+    dcterms:created "2024-02-22T20:45:33.730986"^^xsd:dateTime ;
+    skos:prefLabel "Joseph, son of David Oppenheim" ;
+    foaf:name "Joseph, son of David Oppenheim" .
+
+<http://data.judaicalink.org/data/footprints/JosephbenJacobAshkenaziGunzenhauser> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/2729" ;
+    dcterms:created "2024-02-22T20:45:33.676420"^^xsd:dateTime ;
+    skos:prefLabel "Joseph ben Jacob Ashkenazi Gunzenhauser" ;
+    foaf:name "Joseph ben Jacob Ashkenazi Gunzenhauser" .
+
+<http://data.judaicalink.org/data/footprints/JosephusMonaLesser> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/4352" ;
+    dcterms:created "2024-02-22T20:45:33.750963"^^xsd:dateTime ;
+    skos:prefLabel "Josephus Mona Lesser" ;
+    foaf:name "Josephus Mona Lesser" .
+
+<http://data.judaicalink.org/data/footprints/JoshuaSolomonbenIsraelNathanSoncino> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/2791" ;
+    dcterms:created "2024-02-22T20:45:33.771968"^^xsd:dateTime ;
+    skos:prefLabel "Joshua Solomon ben Israel Nathan Soncino" ;
+    foaf:name "Joshua Solomon ben Israel Nathan Soncino" .
+
+<http://data.judaicalink.org/data/footprints/Karo_JosephbenEphraim> a foaf:Person ;
+    jl:birthDate "1488" ;
+    jl:deathDate "1575" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/10669" ;
+    dcterms:created "2024-02-22T20:45:34.439483"^^xsd:dateTime ;
+    skos:prefLabel "Karo, Joseph ben Ephraim" ;
+    foaf:name "Karo, Joseph ben Ephraim" .
+
+<http://data.judaicalink.org/data/footprints/Kestenbaum_Company> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/10628" ;
+    dcterms:created "2024-02-22T20:45:34.489503"^^xsd:dateTime ;
+    skos:prefLabel "Kestenbaum & Company" ;
+    foaf:name "Kestenbaum & Company" .
+
+<http://data.judaicalink.org/data/footprints/LaurentiusFranguellus> a foaf:Person ;
+    jl:birthDate "1575" ;
+    jl:deathDate "1575" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7966" ;
+    dcterms:created "2024-02-22T20:45:34.510011"^^xsd:dateTime ;
+    skos:prefLabel "Laurentius Franguellus" ;
+    foaf:name "Laurentius Franguellus" .
+
+<http://data.judaicalink.org/data/footprints/LevFaivelevichFriedland> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/138" ;
+    dcterms:created "2024-02-22T20:45:34.531183"^^xsd:dateTime ;
+    skos:prefLabel "Lev Faivelevich Friedland" ;
+    foaf:name "Lev Faivelevich Friedland" .
+
+<http://data.judaicalink.org/data/footprints/LevibenGershon> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/2853" ;
+    dcterms:created "2024-02-22T20:45:34.553221"^^xsd:dateTime ;
+    skos:prefLabel "Levi ben Gershon" ;
+    foaf:name "Levi ben Gershon" .
+
+<http://data.judaicalink.org/data/footprints/LibraryandArchivesCanada> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/4703" ;
+    dcterms:created "2024-02-22T20:45:34.576227"^^xsd:dateTime ;
+    skos:prefLabel "Library and Archives Canada" ;
+    foaf:name "Library and Archives Canada" .
+
+<http://data.judaicalink.org/data/footprints/LuigidaBologna> a foaf:Person ;
+    jl:birthDate "1550" ;
+    jl:deathDate "1610" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/10673" ;
+    dcterms:created "2024-02-22T20:45:34.603234"^^xsd:dateTime ;
+    skos:prefLabel "Luigi da Bologna" ;
+    foaf:name "Luigi da Bologna" .
+
+<http://data.judaicalink.org/data/footprints/MarcoAntonioGiustiniani> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/207" ;
+    dcterms:created "2024-02-22T20:45:34.630416"^^xsd:dateTime ;
+    skos:prefLabel "Marco Antonio Giustiniani" ;
+    foaf:name "Marco Antonio Giustiniani" .
+
+<http://data.judaicalink.org/data/footprints/Marsh_Narcissus_16381713> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/3262" ;
+    dcterms:created "2024-02-22T20:45:34.658424"^^xsd:dateTime ;
+    skos:prefLabel "Marsh, Narcissus, 1638-1713" ;
+    foaf:name "Marsh, Narcissus, 1638-1713" .
+
+<http://data.judaicalink.org/data/footprints/MattityahuStrashun> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1939" ;
+    dcterms:created "2024-02-22T20:45:34.685424"^^xsd:dateTime ;
+    skos:prefLabel "Mattityahu Strashun" ;
+    foaf:name "Mattityahu Strashun" .
+
+<http://data.judaicalink.org/data/footprints/MayerSulzberger> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/81" ;
+    dcterms:created "2024-02-22T20:45:34.712979"^^xsd:dateTime ;
+    skos:prefLabel "Mayer Sulzberger" ;
+    foaf:name "Mayer Sulzberger" .
+
+<http://data.judaicalink.org/data/footprints/MendelGottesmanLibrarySpecialCollections_YeshivaUniversity> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/9183" ;
+    dcterms:created "2024-02-22T20:45:34.768976"^^xsd:dateTime ;
+    skos:prefLabel "Mendel Gottesman Library Special Collections, Yeshiva University" ;
+    foaf:name "Mendel Gottesman Library Special Collections, Yeshiva University" .
+
+<http://data.judaicalink.org/data/footprints/Merzbacher_Abraham> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7302" ;
+    dcterms:created "2024-02-22T20:45:34.806522"^^xsd:dateTime ;
+    skos:prefLabel "Merzbacher, Abraham" ;
+    foaf:name "Merzbacher, Abraham" .
+
+<http://data.judaicalink.org/data/footprints/MosesBenNahman> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/704" ;
+    dcterms:created "2024-02-22T20:45:35.525844"^^xsd:dateTime ;
+    skos:prefLabel "Moses Ben Nahman" ;
+    foaf:name "Moses Ben Nahman" .
+
+<http://data.judaicalink.org/data/footprints/MosesbenJacob_ofCoucy> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/8977" ;
+    dcterms:created "2024-02-22T20:45:35.357666"^^xsd:dateTime ;
+    skos:prefLabel "Moses ben Jacob, of Coucy" ;
+    foaf:name "Moses ben Jacob, of Coucy" .
+
+<http://data.judaicalink.org/data/footprints/MosesbenMaimon> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/67" ;
+    dcterms:created "2024-02-22T20:45:35.390667"^^xsd:dateTime ;
+    skos:prefLabel "Moses ben Maimon" ;
+    foaf:name "Moses ben Maimon" .
+
+<http://data.judaicalink.org/data/footprints/Nah%CC%A3manides> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1244" ;
+    dcterms:created "2024-02-22T20:45:35.548843"^^xsd:dateTime ;
+    skos:prefLabel "Naḥmanides" ;
+    foaf:name "Naḥmanides" .
+
+<http://data.judaicalink.org/data/footprints/NationalLibraryofIsrael> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/9273" ;
+    dcterms:created "2024-02-22T20:45:35.627633"^^xsd:dateTime ;
+    skos:prefLabel "National Library of Israel" ;
+    foaf:name "National Library of Israel" .
+
+<http://data.judaicalink.org/data/footprints/Obadiah_ManassaehandBenjaminofRome> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/3015" ;
+    dcterms:created "2024-02-22T20:45:35.654839"^^xsd:dateTime ;
+    skos:prefLabel "Obadiah, Manassaeh and Benjamin of Rome" ;
+    foaf:name "Obadiah, Manassaeh and Benjamin of Rome" .
+
+<http://data.judaicalink.org/data/footprints/OffenbachArchivalDepot> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/10107" ;
+    dcterms:created "2024-02-22T20:45:35.685854"^^xsd:dateTime ;
+    skos:prefLabel "Offenbach Archival Depot" ;
+    foaf:name "Offenbach Archival Depot" .
+
+<http://data.judaicalink.org/data/footprints/Oppenheim_DavidbAbraham> a foaf:Person ;
+    jl:birthDate "1664" ;
+    jl:deathDate "1736" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/9" ;
+    dcterms:created "2024-02-22T20:45:35.725076"^^xsd:dateTime ;
+    skos:prefLabel "Oppenheim, David b. Abraham" ;
+    foaf:name "Oppenheim, David b. Abraham" .
+
+<http://data.judaicalink.org/data/footprints/Paris_Bibliothe%CC%80quenationaledeFrance_BnF> a foaf:Person ;
+    jl:birthDate "1368" ;
+    jl:deathDate "1849" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7973" ;
+    dcterms:created "2024-02-22T20:45:36.275722"^^xsd:dateTime ;
+    skos:prefLabel "Paris, Bibliothèque nationale de France, BnF" ;
+    foaf:name "Paris, Bibliothèque nationale de France, BnF" .
+
+<http://data.judaicalink.org/data/footprints/RabbiLurie> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/926" ;
+    dcterms:created "2024-02-22T20:45:36.306231"^^xsd:dateTime ;
+    skos:prefLabel "Rabbi Lurie" ;
+    foaf:name "Rabbi Lurie" .
+
+<http://data.judaicalink.org/data/footprints/Refa%CA%BCel_miNortsi> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/3556" ;
+    dcterms:created "2024-02-22T20:45:36.330231"^^xsd:dateTime ;
+    skos:prefLabel "Refaʼel, mi-Nortsi" ;
+    foaf:name "Refaʼel, mi-Nortsi" .
+
+<http://data.judaicalink.org/data/footprints/RenatoCorradinidaModena> a foaf:Person ;
+    jl:birthDate "1611" ;
+    jl:deathDate "1628" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/8220" ;
+    dcterms:created "2024-02-22T20:45:36.371307"^^xsd:dateTime ;
+    skos:prefLabel "Renato (Corradini) da Modena" ;
+    foaf:name "Renato (Corradini) da Modena" .
+
+<http://data.judaicalink.org/data/footprints/Rothschild_WilhelmCarlvon> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/9020" ;
+    dcterms:created "2024-02-22T20:45:36.409997"^^xsd:dateTime ;
+    skos:prefLabel "Rothschild, Wilhelm Carl von" ;
+    foaf:name "Rothschild, Wilhelm Carl von" .
+
+<http://data.judaicalink.org/data/footprints/SalmanSchocken> a foaf:Person ;
+    jl:birthDate "1877" ;
+    jl:deathDate "1959" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7991" ;
+    dcterms:created "2024-02-22T20:45:36.444988"^^xsd:dateTime ;
+    skos:prefLabel "Salman Schocken" ;
+    foaf:name "Salman Schocken" .
+
+<http://data.judaicalink.org/data/footprints/ShelomohbenMoshehS%CC%81onts%CA%B9ino> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/9138" ;
+    dcterms:created "2024-02-22T20:45:36.475997"^^xsd:dateTime ;
+    skos:prefLabel "Shelomoh ben Mosheh Śontsʹino" ;
+    foaf:name "Shelomoh ben Mosheh Śontsʹino" .
+
+<http://data.judaicalink.org/data/footprints/ShelomohibnAderetofBarcelona> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/2334" ;
+    dcterms:created "2024-02-22T20:45:36.509532"^^xsd:dateTime ;
+    skos:prefLabel "Shelomoh ibn Aderet of Barcelona" ;
+    foaf:name "Shelomoh ibn Aderet of Barcelona" .
+
+<http://data.judaicalink.org/data/footprints/ShimeonBrisman> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1164" ;
+    dcterms:created "2024-02-22T20:45:36.540531"^^xsd:dateTime ;
+    skos:prefLabel "Shimeon Brisman" ;
+    foaf:name "Shimeon Brisman" .
+
+<http://data.judaicalink.org/data/footprints/ShmuelZanvillSegelSamuelLevy_ofBalbronn> a foaf:Person ;
+    jl:birthDate "1711" ;
+    jl:deathDate "1802" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/5639" ;
+    dcterms:created "2024-02-22T20:45:36.572532"^^xsd:dateTime ;
+    skos:prefLabel "Shmuel Zanvill Segel (Samuel Levy), of Balbronn" ;
+    foaf:name "Shmuel Zanvill Segel (Samuel Levy), of Balbronn" .
+
+<http://data.judaicalink.org/data/footprints/SolomonSoncino> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/4230" ;
+    dcterms:created "2024-02-22T20:45:36.667148"^^xsd:dateTime ;
+    skos:prefLabel "Solomon Soncino" ;
+    foaf:name "Solomon Soncino" .
+
+<http://data.judaicalink.org/data/footprints/SolomonbenAbrahamAdret> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1224" ;
+    dcterms:created "2024-02-22T20:45:36.605613"^^xsd:dateTime ;
+    skos:prefLabel "Solomon ben Abraham Adret" ;
+    foaf:name "Solomon ben Abraham Adret" .
+
+<http://data.judaicalink.org/data/footprints/StPetersburgBranchoftheInstituteofOrientalStudies_RussianAcademyofSciences> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/4107" ;
+    dcterms:created "2024-02-22T20:45:36.720702"^^xsd:dateTime ;
+    skos:prefLabel "St. Petersburg Branch of the Institute of Oriental Studies, Russian Academy of Sciences" ;
+    foaf:name "St. Petersburg Branch of the Institute of Oriental Studies, Russian Academy of Sciences" .
+
+<http://data.judaicalink.org/data/footprints/Staatsbibliothek> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/11231" ;
+    dcterms:created "2024-02-22T20:45:36.694170"^^xsd:dateTime ;
+    skos:prefLabel "Staatsbibliothek" ;
+    foaf:name "Staatsbibliothek" .
+
+<http://data.judaicalink.org/data/footprints/StrashunLibrary_Vilna> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/6299" ;
+    dcterms:created "2024-02-22T20:45:37.289579"^^xsd:dateTime ;
+    skos:prefLabel "Strashun Library, Vilna" ;
+    foaf:name "Strashun Library, Vilna" .
+
+<http://data.judaicalink.org/data/footprints/TempleEmanuel> a foaf:Person ;
+    jl:birthDate "1845" ;
+    jl:deathDate "1845" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/5145" ;
+    dcterms:created "2024-02-22T20:45:37.319103"^^xsd:dateTime ;
+    skos:prefLabel "Temple Emanu-el" ;
+    foaf:name "Temple Emanu-el" .
+
+<http://data.judaicalink.org/data/footprints/TheLibraryofTheJewishTheologicalSeminary> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/12774" ;
+    dcterms:created "2024-02-22T20:45:37.352099"^^xsd:dateTime ;
+    skos:prefLabel "The Library of The Jewish Theological Seminary" ;
+    foaf:name "The Library of The Jewish Theological Seminary" .
+
+<http://data.judaicalink.org/data/footprints/TheLibraryoftheKatzCenterforAdvancedJudaicStudies> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/2005" ;
+    dcterms:created "2024-02-22T20:45:37.479660"^^xsd:dateTime ;
+    skos:prefLabel "The Library of the Katz Center for Advanced Judaic Studies" ;
+    foaf:name "The Library of the Katz Center for Advanced Judaic Studies" .
+
+<http://data.judaicalink.org/data/footprints/Torino_BibliotecaNazionaleUniversitaria> a foaf:Organization ;
+    jl:birthDate "1723" ;
+    jl:deathDate "1723" ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/8119" ;
+    dcterms:created "2024-02-22T20:45:37.513201"^^xsd:dateTime ;
+    skos:prefLabel "Torino, Biblioteca Nazionale Universitaria" ;
+    foaf:name "Torino, Biblioteca Nazionale Universitaria" .
+
+<http://data.judaicalink.org/data/footprints/UniversityLibraryFrankfurtamMain> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/7631" ;
+    dcterms:created "2024-02-22T20:45:37.546474"^^xsd:dateTime ;
+    skos:prefLabel "University Library Frankfurt am Main" ;
+    foaf:name "University Library Frankfurt am Main" .
+
+<http://data.judaicalink.org/data/footprints/UniversityofBarcelona> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/5886" ;
+    dcterms:created "2024-02-22T20:45:37.573476"^^xsd:dateTime ;
+    skos:prefLabel "University of Barcelona" ;
+    foaf:name "University of Barcelona" .
+
+<http://data.judaicalink.org/data/footprints/UniversityofVienna> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/5171" ;
+    dcterms:created "2024-02-22T20:45:37.619195"^^xsd:dateTime ;
+    skos:prefLabel "University of Vienna" ;
+    foaf:name "University of Vienna" .
+
+<http://data.judaicalink.org/data/footprints/Unknown> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/1275" ;
+    dcterms:created "2024-02-22T20:45:37.653132"^^xsd:dateTime ;
+    skos:prefLabel "Unknown" ;
+    foaf:name "Unknown" .
+
+<http://data.judaicalink.org/data/footprints/WashingtonUniversityatStLouis> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/10397" ;
+    dcterms:created "2024-02-22T20:45:37.684123"^^xsd:dateTime ;
+    skos:prefLabel "Washington University at St. Louis" ;
+    foaf:name "Washington University at St. Louis" .
+
+<http://data.judaicalink.org/data/footprints/YIVONY> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/10061" ;
+    dcterms:created "2024-02-22T20:45:38.414752"^^xsd:dateTime ;
+    skos:prefLabel "YIVO NY" ;
+    foaf:name "YIVO NY" .
+
+<http://data.judaicalink.org/data/footprints/YaakovYisraelLevenshtam> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/523" ;
+    dcterms:created "2024-02-22T20:45:37.719676"^^xsd:dateTime ;
+    skos:prefLabel "Ya'akov Yisrael Levenshtam" ;
+    foaf:name "Ya'akov Yisrael Levenshtam" .
+
+<http://data.judaicalink.org/data/footprints/Yehoshua%CA%BBShelomohbenYisra%CA%BEelNatan> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/3167" ;
+    dcterms:created "2024-02-22T20:45:38.319772"^^xsd:dateTime ;
+    skos:prefLabel "Yehoshuaʻ Shelomoh ben Yisraʾel Natan" ;
+    foaf:name "Yehoshuaʻ Shelomoh ben Yisraʾel Natan" .
+
+<http://data.judaicalink.org/data/footprints/YehoshuabenIsraelNathanSoncino> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/3011" ;
+    dcterms:created "2024-02-22T20:45:37.755667"^^xsd:dateTime ;
+    skos:prefLabel "Yehoshua ben Israel Nathan Soncino" ;
+    foaf:name "Yehoshua ben Israel Nathan Soncino" .
+
+<http://data.judaicalink.org/data/footprints/YeshivatHokhmeLublin> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/11226" ;
+    dcterms:created "2024-02-22T20:45:38.351468"^^xsd:dateTime ;
+    skos:prefLabel "Yeshivat Hokhme Lublin" ;
+    foaf:name "Yeshivat Hokhme Lublin" .
+
+<http://data.judaicalink.org/data/footprints/YivoinstituteforJewishresearch> a foaf:Organization ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/6301" ;
+    dcterms:created "2024-02-22T20:45:38.387196"^^xsd:dateTime ;
+    skos:prefLabel "Yivo institute for Jewish research" ;
+    foaf:name "Yivo institute for Jewish research" .
+
+<http://data.judaicalink.org/data/footprints/YosefbenGoryon> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/9696" ;
+    dcterms:created "2024-02-22T20:45:38.442787"^^xsd:dateTime ;
+    skos:prefLabel "Yosef ben Goryon" ;
+    foaf:name "Yosef ben Goryon" .
+
+<http://data.judaicalink.org/data/footprints/Z%CC%87IH> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/11229" ;
+    dcterms:created "2024-02-22T20:45:38.500755"^^xsd:dateTime ;
+    skos:prefLabel "ŻIH" ;
+    foaf:name "ŻIH" .
+
+<http://data.judaicalink.org/data/footprints/Zarko_JudahbenAbraham_active16thcentury%E2%80%8F> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/actor/3297" ;
+    dcterms:created "2024-02-22T20:45:38.470744"^^xsd:dateTime ;
+    skos:prefLabel "Zarko, Judah ben Abraham, active 16th century‏" ;
+    foaf:name "Zarko, Judah ben Abraham, active 16th century‏" .
+
