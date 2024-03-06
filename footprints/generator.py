@@ -47,6 +47,7 @@ owl = Namespace("http://www.w3.org/2002/07/owl#")
 edm = Namespace("http://www.europeana.eu/schemas/edm/")
 dc = Namespace("http://purl.org/dc/elements/1.1/")
 dcterms = Namespace("http://purl.org/dc/terms/")
+rdfs = Namespace("http://www.w3.org/2000/01/rdf-schema#")
 
 graph.bind('skos', skos)
 graph.bind('foaf', foaf)
@@ -56,8 +57,9 @@ graph.bind('owl', owl)
 graph.bind('edm', edm)
 graph.bind('dc', dc)
 graph.bind('dcterms', dcterms)
+graph.bind('rdfs', rdfs)
 
-
+'''
 def clean_url_string(string):
     """
     Clean the name of a person.
@@ -99,7 +101,7 @@ def clean_url_string(string):
     string = urllib.parse.quote_plus(string, encoding='utf-8', errors='replace')
     # print(string)
     return string
-
+'''
 
 ######################### Test 22-01-2024
 def get_gnd_id(name: str, type: str) -> str:
@@ -141,36 +143,24 @@ def clean_hebrew_name(name):
 def contains_non_digits(s):
     return bool(re.search(r'\D', s))
 
-
-
-'''
-
-def get_book_ids():
-    id_list = []
-    page = 1
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-    while True:
-        url = f"https://footprints.ctl.columbia.edu/api/book/?page={page}"
-        response = requests.get(url, headers=headers)
-        if response.text:
-            data = json.loads(response.text)
-            if 'results' in data:
-                for date in data['results']:
-                    id = date['id']
-                    id_list.append(id)
-            else:
-                print('keine results')
-        else:
-            print('keine response')       
-        page += 1
-        if page % 10 == 0:
-            print('Bearbeitungsstand: Seite ', page)
-
-    return id_list
+def get_gnd_from_viaf(viafid):
+    url = f'https://www.viaf.org/viaf/{viafid}/viaf.jsonld'
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        if "@graph" in data:
+            for entry in data["@graph"]:
+                if "@type" in entry and entry["@type"] == "schema:Person":
+                    if "sameAs" in entry:
+                        for s in entry["sameAs"]:
+                            if s.startswith('http://d-nb.info/gnd') == True:
+                                gnd=s
+                               # print(s)
+    try:
+        return gnd
+    except:
+        pass
     
-
-'''
 
 def add_creation_date(graph, uri):
     if (URIRef(uri), dcterms.created, None) not in graph:
@@ -178,7 +168,7 @@ def add_creation_date(graph, uri):
 
 
 def createGraph():
-    p_page = 1
+    p_page = 610
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
     
@@ -236,33 +226,36 @@ def createGraph():
                                     if idf is not None:
                                         if idf['authority'] == "VIAF Identifier":
                                             idf = idf['identifier']
+                                            idgnd =  get_gnd_from_viaf(idf)
                                             idf = f'https://viaf.org/viaf/{idf}/'
-                                            try:
-                                                graph.add((URIRef(uri), owl.sameAs, (Literal(idf))))
-                                            except:
-                                                pass
+                                           # try:
+                                            graph.add((URIRef(uri), owl.sameAs, (Literal(idf)))) #VIAF
+                                            graph.add((URIRef(uri), owl.sameAs, (Literal(idgnd)))) # GND
+                                            #except:
+                                            #    pass
                                         if idf['authority'] == "Library of Congress":
                                             idf = idf['identifier']
                                             idf = idf.replace('LOC ', '')
-                                            idf =      f'https://id.loc.gov/authorities/names/nb{idf}'
-                                            try:
-                                                graph.add((URIRef(uri), owl.sameAs, (Literal(idf))))
-                                            except:
-                                                pass
+                                            idf =      f'https://id.loc.gov/authorities/names/n{idf}'
+                                            #try:
+                                            graph.add((URIRef(uri), owl.sameAs, (Literal(idf))))
+                                           # except:
+                                           #     pass
 
                                         else:
                                             print('Seite:', idf, ', ', name, ', identifier = ', idf['authority'])
                                 except:
                                     pass
+                    add_creation_date(graph, uri)         
                     graph.serialize(destination=file_name, format="turtle")
-            # TODO get gndID from Viaf
+    
             # TODO fix ivrit alphabet
             p_page += 1
         if "detail" in data and data["detail"] == "Invalid page.":
             print(f"last page loaded: page {p_page - 1}")
             break
 
-    b_page = 1
+    b_page = 550
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
@@ -300,12 +293,15 @@ def createGraph():
                                     sID = actor['person']['standardized_identifier']['identifier']
                                     if 'authority' in actor['person']['standardized_identifier'] and actor['person']['standardized_identifier']['authority'] == 'VIAF Identifier':
                                         if actor['person']['standardized_identifier']['authority'] == 'VIAF Identifier': 
+                                            idgnd =  get_gnd_from_viaf(sID)
                                             idurl = f'https://viaf.org/viaf/{sID}/'
                                             graph.add((URIRef(uri), jl.describedAt, (Literal(idurl))))
+                                            graph.add((URIRef(uri), jl.describedAt, (Literal(idgnd))))
                                         else:
                                             print(actor['person']['standardized_identifier']['authority'])
                             role =  actor['role']['name']
                             graph.add((URIRef(uri), jl.occupation, (Literal(role))))
+                            add_creation_date(graph, uri)
                             graph.serialize(destination=file_name, format="turtle")
                             
 # get books from books
@@ -313,7 +309,9 @@ def createGraph():
                         wtitle = wtitle.strip()
                         uu= geerate_hashUU(wtitle)
                         uri = URIRef(f"http://data.judaicalink.org/data/footprints/{uu}")
-                     
+                        graph.add((URIRef(uri), RDF.type, gndo.Work))
+                        graph.add((URIRef(uri), dc.title, (Literal(wtitle))))
+                        graph.add((URIRef(uri), skos.prefLabel, (Literal(wtitle))))
                         for actor in date['imprint']['work']['actor']:
                             act = actor['person']['name']
                             act = act.strip()
@@ -354,6 +352,8 @@ def createGraph():
                             if arole == 'Publisher':
                                 graph.add((URIRef(uri), dc.publisher, (Literal(a))))
                             elif arole == 'Editor':
+                                graph.add((URIRef(uri), gndo.editor, (Literal(a))))
+                            elif arole == 'Expurgator':
                                 graph.add((URIRef(uri), gndo.editor, (Literal(a))))
                             elif arole == 'Printer':
                                 graph.add((URIRef(uri), gndo.printer, (Literal(a))))
@@ -420,7 +420,7 @@ def createGraph():
                             graph.add((URIRef(uri), gndo.formerOwner, (Literal(c))))
                         ridenifier = date['identifier']
                         add_creation_date(graph, uri)     
-            graph.serialize(destination=file_name, format="turtle")           
+                        graph.serialize(destination=file_name, format="turtle")           
         b_page += 1
         if "detail" in data and data["detail"] == "Invalid page.":
             print(f"last page loaded: page {b_page - 1}")
@@ -450,14 +450,15 @@ def createGraph():
                             graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(gndID))))
                         graph.add((URIRef(uri), jl.describedAt, (Literal('https://footprints.ctl.columbia.edu/'))))
                         graph.add((URIRef(uri), RDF.type, gndo.PlaceOrGeographicName))
-                        graph.add((URIRef(uri), foaf.name, (Literal(place, datatype = XSD.string))))
+                        graph.add((URIRef(uri), rdfs.label, (Literal(place))))
                         graph.add((URIRef(uri), skos.prefLabel, (Literal(place, datatype = XSD.string))))
                         graph.add((URIRef(uri), jl.lat, (Literal(date['latitude']))))
                         graph.add((URIRef(uri), jl.lon, (Literal(date['longitude']))))
                         if len(canonical_name) > 1:
                             higher_geo_unit_1 = canonical_name[1]
                             higher_geo_unit_1 = higher_geo_unit_1.lstrip()
-                            graph.add((URIRef(uri), gndo.hierarchicalSuperiorOfPlaceOrGeographicName, (Literal(higher_geo_unit_1))))       
+                            graph.add((URIRef(uri), gndo.hierarchicalSuperiorOfPlaceOrGeographicName, (Literal(higher_geo_unit_1))))
+                        add_creation_date(graph, uri)    
                     graph.serialize(destination=file_name, format="turtle") 
                     if len(canonical_name) > 2:
                             higher_geo_unit_2 = canonical_name[2].lstrip()
