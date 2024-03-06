@@ -134,6 +134,13 @@ def he_to_en(text):  # does not work propper with familynames
     translation = translator.translate(text, dest='en')
     return translation.text
 '''
+
+def text_to_en(text):
+    translator = googletrans.Translator()
+    translation = translator.translate(text, dest='en')
+    return translation.text
+
+
 def clean_hebrew_name(name):
     name = name.strip()
     name = name.replace('.', '')
@@ -168,7 +175,7 @@ def add_creation_date(graph, uri):
 
 
 def createGraph():
-    p_page = 610
+    p_page = 1
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
     
@@ -255,7 +262,7 @@ def createGraph():
             print(f"last page loaded: page {p_page - 1}")
             break
 
-    b_page = 550
+    b_page = 1
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
@@ -336,8 +343,10 @@ def createGraph():
                             if 'display_title' in place and place['display_title'] is not None:
                                 wholeplace = date['imprint']['place']['display_title']
                                 place = wholeplace.split(',')
-                                wplace = place[0]  
+                                wplace = place[0]
+                                transl_place = text_to_en(wplace)
                                 graph.add((URIRef(uri), gndo.associatedPlace, (Literal(wplace))))
+                                graph.add((URIRef(uri), gndo.associatedPlace, (Literal(transl_place))))
                         if 'imprint' in date and date['imprint'].get('publication_date') is not None and date['imprint']['publication_date'] is not None:
                             pdate = date['imprint']['publication_date']
                             if 'display' in pdate and pdate['display'] is not None:
