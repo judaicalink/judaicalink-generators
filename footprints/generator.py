@@ -162,7 +162,6 @@ def get_gnd_from_viaf(viafid):
                         for s in entry["sameAs"]:
                             if s.startswith('http://d-nb.info/gnd') == True:
                                 gnd=s
-                               # print(s)
     try:
         return gnd
     except:
@@ -240,7 +239,7 @@ def createGraph():
                                             graph.add((URIRef(uri), owl.sameAs, (Literal(idgnd)))) # GND
                                             #except:
                                             #    pass
-                                        if idf['authority'] == "Library of Congress":
+                                        if idf['authority'].strip() == "Library of Congress":
                                             idf = idf['identifier']
                                             idf = idf.replace('LOC ', '')
                                             idf =      f'https://id.loc.gov/authorities/names/n{idf}'
@@ -253,7 +252,7 @@ def createGraph():
                                             print('Seite:', idf, ', ', name, ', identifier = ', idf['authority'])
                                 except:
                                     pass
-                    add_creation_date(graph, uri)         
+                            add_creation_date(graph, uri)         
                     graph.serialize(destination=file_name, format="turtle")
     
             # TODO fix ivrit alphabet
@@ -299,12 +298,17 @@ def createGraph():
                                 if 'identifier' in actor['person']['standardized_identifier'] and actor['person']['standardized_identifier']['identifier'] is not None:
                                     sID = actor['person']['standardized_identifier']['identifier']
                                     if 'authority' in actor['person']['standardized_identifier'] and actor['person']['standardized_identifier']['authority'] == 'VIAF Identifier':
-                                        if actor['person']['standardized_identifier']['authority'] == 'VIAF Identifier': 
-                                            idgnd =  get_gnd_from_viaf(sID)
-                                            idurl = f'https://viaf.org/viaf/{sID}/'
-                                            graph.add((URIRef(uri), jl.describedAt, (Literal(idurl))))
-                                            graph.add((URIRef(uri), jl.describedAt, (Literal(idgnd))))
-                                        else:
+                                        idgnd =  get_gnd_from_viaf(sID)
+                                        idurl = f'https://viaf.org/viaf/{sID}/'
+                                        graph.add((URIRef(uri), jl.describedAt, (Literal(idurl))))
+                                        graph.add((URIRef(uri), jl.describedAt, (Literal(idgnd))))
+                                    elif sID['authority'].strip() == "Library of Congress":
+                                        sID = sID['identifier']
+                                        sID = sID.replace('LOC ', '')
+                                        sID =      f'https://id.loc.gov/authorities/names/{idf}'
+                                            #try:
+                                        graph.add((URIRef(uri), owl.sameAs, (Literal(idf))))
+                                    else:
                                             print(actor['person']['standardized_identifier']['authority'])
                             role =  actor['role']['name']
                             graph.add((URIRef(uri), jl.occupation, (Literal(role))))
@@ -360,8 +364,10 @@ def createGraph():
                             arole = actor['role']['name']
                             if arole == 'Publisher':
                                 graph.add((URIRef(uri), dc.publisher, (Literal(a))))
+                            elif arole == 'Author':
+                                graph.add((URIRef(uri), gndo.author, (Literal(a))))
                             elif arole == 'Editor':
-                                graph.add((URIRef(uri), gndo.editor, (Literal(a))))
+                                graph.add((URIRef(uri), gndo.ditor, (Literal(a))))
                             elif arole == 'Expurgator':
                                 graph.add((URIRef(uri), gndo.editor, (Literal(a))))
                             elif arole == 'Printer':
