@@ -23,11 +23,20 @@ import googletrans
 from googletrans import *
 import uuid
 import hashlib
+import threading
+import time
 
 
+'''
+def track_time():
+    global counted_time
+    while True:
+        time.sleep(60)
+        counted_time += 1
+        print(f"Zeit seit Beginn: {counted_time} Minuten")
+'''
 
-
-def geerate_hashUU(name):
+def generate_hashUU(name):
 # Hash the string using a hashing algorithm (e.g., SHA-256)
     hashed_string = hashlib.sha256(name.encode()).hexdigest()
     # Generate a UUID based on the hashed string
@@ -59,51 +68,8 @@ graph.bind('dc', dc)
 graph.bind('dcterms', dcterms)
 graph.bind('rdfs', rdfs)
 
-'''
-def clean_url_string(string):
-    """
-    Clean the name of a person.
-    returns: cleaned name.
-    """
 
-    # remove all unwanted characters
-    string = string.strip() # strip trailing whitespaces
-    string = string.replace('\'', '')
-    string = string.replace(' ', '')
-    string = string.replace('`', '')
-    string = string.replace('"', '')
-    string = string.replace(',', '_')
-    string = string.replace('<<', '')
-    string = string.replace('>>', '')
-    string = string.replace('|', '_')
-    string = string.replace(' ', '')
-    string = string.replace('<', '_')
-    string = string.replace('>', '_')
-    string = string.replace('.', '')
-    string = string.replace('[', '')
-    string = string.replace(']', '')
-    string = string.replace('(', '')
-    string = string.replace(')', '')
-    string = string.replace('{', '')
-    string = string.replace('}', '')
-    string = string.replace('#', '')
-    string = string.replace('-', '')
-    string = string.replace('?', '')
-    string = string.replace("'", "")
-    string = string.replace("&", "_")
 
-    # remove trailing _
-    string = string.rstrip('_')
-
-    # remove all diacritics
-    string = unicodedata.normalize('NFKD', string)
-    # convert to normalized url string
-    string = urllib.parse.quote_plus(string, encoding='utf-8', errors='replace')
-    # print(string)
-    return string
-'''
-
-######################### Test 22-01-2024
 def get_gnd_id(name: str, type: str) -> str:
     """Get the GND ID for a given name and type.
     Args:
@@ -122,12 +88,12 @@ def get_gnd_id(name: str, type: str) -> str:
     except:
         return None  
 
-#############################
 
 def hebrew_name_recogition(name):
     '''recognices if a string is written in hebrew letters'''
     lang, confidence = langid.classify(name)
     return lang == 'he'
+
 '''
 def he_to_en(text):  # does not work propper with familynames
     translator = googletrans.Translator()
@@ -135,10 +101,13 @@ def he_to_en(text):  # does not work propper with familynames
     return translation.text
 '''
 
-def text_to_en(text):
+def text_to_en(text, page):
     translator = googletrans.Translator()
-    translation = translator.translate(text, dest='en')
-    return translation.text
+    try:
+        translation = translator.translate(text, dest='en')
+        return translation.text
+    except Exception as e:
+        print(e, 'bei: ', text, ' -- auf Seite: ', page)
 
 
 def clean_hebrew_name(name):
@@ -149,6 +118,7 @@ def clean_hebrew_name(name):
 
 def contains_non_digits(s):
     return bool(re.search(r'\D', s))
+
 
 def get_gnd_from_viaf(viafid):
     url = f'https://www.viaf.org/viaf/{viafid}/viaf.jsonld'
@@ -173,11 +143,20 @@ def add_creation_date(graph, uri):
         graph.add((URIRef(uri), dcterms.created, Literal(datetime.now())))  # onnly add creatioon darte if it doesnt exist yet
 
 
+'''
+# Initialisiere die Zeitmessung
+counted_time = 0
+
+# Starte den Thread für die Zeitmessung
+time_thread = threading.Thread(target=track_time)
+time_thread.start()
+'''
+
+
 def createGraph():
     p_page = 1
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-    
 #get person from persons
     while True:
         url = f"https://footprints.ctl.columbia.edu/api/person/?format=json&page={p_page}"
@@ -193,7 +172,7 @@ def createGraph():
                         fID = date['id']
                         if contains_non_digits(name) == True:
                             name = name.strip()
-                            uu= geerate_hashUU(name)
+                            uu= generate_hashUU(name)
 
                             uri = URIRef(f"http://data.judaicalink.org/data/footprints/{uu}")
                             graph.add((URIRef(uri), jl.describedAt, (Literal(f'https://footprints.ctl.columbia.edu/api/person/{fID}'))))
@@ -230,7 +209,7 @@ def createGraph():
                                 try:
                                     idf = date['standardized_identifier']
                                     if idf is not None:
-                                        if idf['authority'] == "VIAF Identifier":
+                                        if idf['authority'].strip() == "VIAF Identifier":
                                             idf = idf['identifier']
                                             idgnd =  get_gnd_from_viaf(idf)
                                             idf = f'https://viaf.org/viaf/{idf}/'
@@ -271,7 +250,7 @@ def createGraph():
         url = f"https://footprints.ctl.columbia.edu/api/book/?page={b_page}"
         response = requests.get(url, headers=headers)
         if b_page % 10 == 0:
-            print('books: page ',b_page)
+            print('books: page ', b_page)
         if response.text:
             data = json.loads(response.text)
             if 'results' in data:
@@ -281,7 +260,7 @@ def createGraph():
                         for actor in date['imprint']['work']['actor']:
                             name = actor['person']['name']
                             name = name.strip()
-                            uu= geerate_hashUU(name)
+                            uu= generate_hashUU(name)
                             uri = URIRef(f"http://data.judaicalink.org/data/footprints/{uu}")
                             graph.add((URIRef(uri), RDF.type, foaf.Person))
                             if hebrew_name_recogition(name) == True:
@@ -297,7 +276,7 @@ def createGraph():
                             if 'standardized_identifier' in actor['person'] and actor['person']['standardized_identifier'] is not None:
                                 if 'identifier' in actor['person']['standardized_identifier'] and actor['person']['standardized_identifier']['identifier'] is not None:
                                     sID = actor['person']['standardized_identifier']['identifier']
-                                    if 'authority' in actor['person']['standardized_identifier'] and actor['person']['standardized_identifier']['authority'] == 'VIAF Identifier':
+                                    if 'authority' in actor['person']['standardized_identifier'] and actor['person']['standardized_identifier']['authority'].strip() == 'VIAF Identifier':
                                         idgnd =  get_gnd_from_viaf(sID)
                                         idurl = f'https://viaf.org/viaf/{sID}/'
                                         graph.add((URIRef(uri), jl.describedAt, (Literal(idurl))))
@@ -318,7 +297,7 @@ def createGraph():
 # get books from books
                         wtitle = date['imprint']['work']['title']
                         wtitle = wtitle.strip()
-                        uu= geerate_hashUU(wtitle)
+                        uu= generate_hashUU(wtitle)
                         uri = URIRef(f"http://data.judaicalink.org/data/footprints/{uu}")
                         graph.add((URIRef(uri), RDF.type, gndo.Work))
                         graph.add((URIRef(uri), dc.title, (Literal(wtitle))))
@@ -326,7 +305,7 @@ def createGraph():
                         for actor in date['imprint']['work']['actor']:
                             act = actor['person']['name']
                             act = act.strip()
-                            uu= geerate_hashUU(act) 
+                            uu= generate_hashUU(act) 
                             a = f'http://data.judaicalink.org/data/footprints/{uu}'
                             arole = actor['role']['name']
                             if arole == 'Author':
@@ -348,7 +327,7 @@ def createGraph():
                                 wholeplace = date['imprint']['place']['display_title']
                                 place = wholeplace.split(',')
                                 wplace = place[0]
-                                transl_place = text_to_en(wplace)
+                                transl_place = text_to_en(wplace, b_page)
                                 graph.add((URIRef(uri), gndo.associatedPlace, (Literal(wplace))))
                                 graph.add((URIRef(uri), gndo.associatedPlace, (Literal(transl_place))))
                         if 'imprint' in date and date['imprint'].get('publication_date') is not None and date['imprint']['publication_date'] is not None:
@@ -359,7 +338,7 @@ def createGraph():
                         for actor in date['imprint']['actor']:
                             name = actor['person']['name']
                             name = name.strip()
-                            uu= geerate_hashUU(name)
+                            uu= generate_hashUU(name)
                             a = f'http://data.judaicalink.org/data/footprints/{uu}'
                             arole = actor['role']['name']
                             if arole == 'Publisher':
@@ -458,7 +437,7 @@ def createGraph():
                         place = canonical_name[0]
                         place = place.strip()
                         
-                        uu= geerate_hashUU(place)
+                        uu= generate_hashUU(place)
                         uri = URIRef(f"http://data.judaicalink.org/data/footprints/{uu}")
                         gndID = get_gnd_id(place, "PlaceOrGeographicName")  #TODO only if not none
                         if gndID is not None:      
@@ -479,7 +458,7 @@ def createGraph():
                             higher_geo_unit_2 = canonical_name[2].lstrip()
                             if higher_geo_unit_1 not in higher_geo_names:
                                 hgu1_name = higher_geo_unit_1.strip()
-                                uu= geerate_hashUU(hgu1_name)
+                                uu= generate_hashUU(hgu1_name)
                                 uri = URIRef(f"http://data.judaicalink.org/data/footprints/{uu}")
                                 gndID = get_gnd_id(higher_geo_unit_1, "PlaceOrGeographicName")  #TODO only if not none
                                 if gndID is not None:      
