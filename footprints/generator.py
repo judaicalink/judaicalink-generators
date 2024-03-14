@@ -37,6 +37,12 @@ def track_time():
 '''
 
 def generate_hashUU(name):
+    """
+    Generate a uuID out of the hash-value of a name or prefered label
+    :param str name: name or prefered label of the entity from which the ID should be generated
+    :return: the uuID
+    :rtype: str
+    """
 # Hash the string using a hashing algorithm (e.g., SHA-256)
     hashed_string = hashlib.sha256(name.encode()).hexdigest()
     # Generate a UUID based on the hashed string
@@ -44,7 +50,7 @@ def generate_hashUU(name):
     return uuid_from_hash
 
 
-file_name = 'footprints-final-01.ttl'
+file_name = 'footprints.ttl'
 
 graph = Graph()
 
@@ -89,19 +95,39 @@ def get_gnd_id(name: str, type: str) -> str:
         return None  
 
 
-def hebrew_name_recogition(name):
-    '''recognices if a string is written in hebrew letters'''
-    lang, confidence = langid.classify(name)
+def hebrew_name_recogition(h_string):
+    """
+    recognices if a string is written in hebrew letters
+    :param str h_string: string to be analyzed
+    :return: True if h_string is in hebrew
+    :rtype: bool
+    """
+    lang, confidence = langid.classify(h_string)
     return lang == 'he'
 
 '''
-def he_to_en(text):  # does not work propper with familynames
+def he_to_en(text):  # does not work propper with familynames yet
+    """
+    translates hebrew text to english
+    :param str text: text to be translated
+    :return: translated text
+    :rtype: text
+    
+    """
     translator = googletrans.Translator()
     translation = translator.translate(text, dest='en')
     return translation.text
 '''
 
 def text_to_en(text, page):
+    """
+    translates given text to english
+    :param str text: text to be translated
+    :param int page: processed page for error messages
+    :return: translated text
+    :rtype: str
+    
+    """
     translator = googletrans.Translator()
     try:
         translation = translator.translate(text, dest='en')
@@ -111,16 +137,34 @@ def text_to_en(text, page):
 
 
 def clean_hebrew_name(name):
+    """
+    Removes leading and suffixed whitespaces and dots from a string
+    :param str name: name to be cleaned
+    :return: cleaned string
+    :rtype: str
+    """
     name = name.strip()
     name = name.replace('.', '')
     return name
 
 
 def contains_non_digits(s):
+    """
+    Checks if a string contains non-digit characters
+    :param str s: string to be analyzed
+    :return: True if s contains characters, that are not digits
+    :rtype: bool
+    """
     return bool(re.search(r'\D', s))
 
 
 def get_gnd_from_viaf(viafid):
+    """"
+    Takes a VIAF id and returns GND id embedded in an uri
+    :param str or int viafid: String or Integer thet represents a VIAF id
+    :return: uri for the GND id that represents the smae entity
+    :rtype: str
+    """
     url = f'https://www.viaf.org/viaf/{viafid}/viaf.jsonld'
     response = requests.get(url)
     if response.status_code == 200:
@@ -134,13 +178,21 @@ def get_gnd_from_viaf(viafid):
                                 gnd=s
     try:
         return gnd
-    except:
-        pass
+    except Exception as e:
+        print(e, 'for VIAF id: ', viafid)
+    
     
 
 def add_creation_date(graph, uri):
+    """"
+    Checks if a creation date for an uri already exists and if not creates one
+    :param str graph: graph that is processed
+    :param str uri: uri that is processed
+    :return: adds dcterms.created - datetime.now to graph
+    :rtype: str
+    """
     if (URIRef(uri), dcterms.created, None) not in graph:
-        graph.add((URIRef(uri), dcterms.created, Literal(datetime.now())))  # onnly add creatioon darte if it doesnt exist yet
+        graph.add((URIRef(uri), dcterms.created, Literal(datetime.now())))  # onnly add creatioon date if it doesnt exist yet
 
 
 '''
@@ -154,27 +206,33 @@ time_thread.start()
 
 
 def createGraph():
-    p_page = 1
+    """
+    Creates Graph from scraped information from the footprints-api for 'person': 'https://footprints.ctl.columbia.edu/api/person/', 'book': 'https://footprints.ctl.columbia.edu/api/book/' and 'place': 'https://footprints.ctl.columbia.edu/api/place/'
+    :return: creates .ttl-file
+    :rtype: ttl
+    
+    """
+    p_page = 600
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}    # simulate a browser request
 #get person from persons
     while True:
-        url = f"https://footprints.ctl.columbia.edu/api/person/?format=json&page={p_page}"
+        url = f"https://footprints.ctl.columbia.edu/api/person/?format=json&page={p_page}"  # call the pages of 'person': 'https://footprints.ctl.columbia.edu/api/person/'
         if p_page % 10 == 0:
-            print('Persons Page: ',p_page)
+            print('Persons Page: ',p_page)  # print an indication of which 10 pages are currently being processed
         response = requests.get(url, headers=headers)
         if response.text:
-            data = json.loads(response.text)
+            data = json.loads(response.text)    # load data
             if 'results' in data:
-                for date in data['results']:
-                    if date['name'] and date['name'] is not None:
+                for date in data['results']:    # process every record of the page
+                    if date['name'] and date['name'] is not None:   # get persons name and id
                         name = date['name']
                         fID = date['id']
-                        if contains_non_digits(name) == True:
+                        if contains_non_digits(name) == True:   # skip especially one record, that has its own id as a name TODO get name from VIAF
                             name = name.strip()
                             uu= generate_hashUU(name)
 
-                            uri = URIRef(f"http://data.judaicalink.org/data/footprints/{uu}")
+                            uri = URIRef(f"http://data.judaicalink.org/data/footprints/{uu}") # create uri with UUid 
                             graph.add((URIRef(uri), jl.describedAt, (Literal(f'https://footprints.ctl.columbia.edu/api/person/{fID}'))))
                             graph.add((URIRef(uri), RDF.type, foaf.Person))  # add name + id
                             if hebrew_name_recogition(name) == True:
@@ -188,8 +246,8 @@ def createGraph():
                                         birth_date = birth_date['edtf_format']
                                         try:
                                             graph.add((URIRef(uri), jl.birthDate, (Literal(birth_date))))
-                                        except:
-                                            pass
+                                        except Exception as e:
+                                            print(e, ' in birthdate of ', name, ' on Persons page', p_page)
                                 except:
                                     print('ERROR2 Birthdate der ID: ', date['id'], name, 'ist vom Typ ',
                                           type(birth_date), birth_date)
@@ -200,8 +258,8 @@ def createGraph():
                                         death_date = death_date['edtf_format']
                                         try:
                                             graph.add((URIRef(uri), jl.deathDate, (Literal(death_date))))
-                                        except:
-                                            pass
+                                        except Exception as e:
+                                            print(e, ' in deathdate of ', name, ' on Persons page', p_page)
                                 except:
                                     print('ERROR2 Birthdate der ID: ', date['id'], name, 'ist vom Typ ',
                                           type(death_date), death_date)
@@ -209,53 +267,53 @@ def createGraph():
                                 try:
                                     idf = date['standardized_identifier']
                                     if idf is not None:
-                                        if idf['authority'].strip() == "VIAF Identifier":
+                                        if idf['authority'].strip() == "VIAF Identifier": # add sameAs identifiers for GND, LOC and VIAF
                                             idf = idf['identifier']
                                             idgnd =  get_gnd_from_viaf(idf)
-                                            idf = f'https://viaf.org/viaf/{idf}/'
-                                           # try:
+                                            idf = f'https://viaf.org/viaf/{idf}/'  
                                             graph.add((URIRef(uri), owl.sameAs, (Literal(idf)))) #VIAF
                                             graph.add((URIRef(uri), owl.sameAs, (Literal(idgnd)))) # GND
-                                            #except:
-                                            #    pass
-                                        if idf['authority'].strip() == "Library of Congress":
+
+                                        elif idf['authority'].strip() == "Library of Congress": # LOC
                                             idf = idf['identifier']
                                             idf = idf.replace('LOC ', '')
                                             idf =      f'https://id.loc.gov/authorities/names/n{idf}'
-                                            #try:
                                             graph.add((URIRef(uri), owl.sameAs, (Literal(idf))))
-                                           # except:
-                                           #     pass
+
 
                                         else:
                                             print('Seite:', idf, ', ', name, ', identifier = ', idf['authority'])
-                                except:
-                                    pass
+                                except Exception as e:
+                                    print(e, 'auf Seite: ', p_page)
+
+                              #  finally: 
+                              #      add_creation_date(graph, uri)         
+                              #      graph.serialize(destination=file_name, format="turtle")
+
+                                    
                             add_creation_date(graph, uri)         
                     graph.serialize(destination=file_name, format="turtle")
-    
-            # TODO fix ivrit alphabet
-            p_page += 1
-        if "detail" in data and data["detail"] == "Invalid page.":
+            p_page += 1 # process next site
+        if "detail" in data and data["detail"] == "Invalid page.": # stop if data corpus is processed
             print(f"last page loaded: page {p_page - 1}")
             break
 
     b_page = 1
+    '''
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
-    
+    '''
     while True:
-   # while b_page < 10:
-        url = f"https://footprints.ctl.columbia.edu/api/book/?page={b_page}"
+        url = f"https://footprints.ctl.columbia.edu/api/book/?page={b_page}" # "book": "https://footprints.ctl.columbia.edu/api/book/"
         response = requests.get(url, headers=headers)
         if b_page % 10 == 0:
-            print('books: page ', b_page)
+            print('books: page ', b_page)   # print an indication of which 10 pages are currently being processed
         if response.text:
-            data = json.loads(response.text)
+            data = json.loads(response.text)    # load data
             if 'results' in data:
-                for date in data['results']:
-# get person (actor) from books            
+                for date in data['results']: # process every record of the page
+                # get person (actor) from books            
                     if date['imprint']['work']['title']:
                         for actor in date['imprint']['work']['actor']:
                             name = actor['person']['name']
@@ -269,10 +327,16 @@ def createGraph():
                             graph.add((URIRef(uri), skos.prefLabel, (Literal(name))))
                             if actor['person']['birth_date'] is not None:
                                 actor_bd = actor['person']['birth_date']
-                                graph.add((URIRef(uri), jl.birthDate, (Literal(actor_bd))))
+                                try:
+                                    graph.add((URIRef(uri), jl.deathDate, (Literal(actor_bd))))
+                                except Exception as e:
+                                    print(e, ' in birthdate of ', name, ' on Persons page', b_page)
                             if actor['person']['death_date'] is not None:
                                 actor_dd = actor['person']['death_date']
-                                graph.add((URIRef(uri), jl.birthDate, (Literal(actor_dd))))
+                                try:
+                                    graph.add((URIRef(uri), jl.deathDate, (Literal(actor_dd))))
+                                except Exception as e:
+                                    print(e, ' in deathdate of ', name, ' on Persons page', b_page)
                             if 'standardized_identifier' in actor['person'] and actor['person']['standardized_identifier'] is not None:
                                 if 'identifier' in actor['person']['standardized_identifier'] and actor['person']['standardized_identifier']['identifier'] is not None:
                                     sID = actor['person']['standardized_identifier']['identifier']
@@ -281,16 +345,14 @@ def createGraph():
                                         idurl = f'https://viaf.org/viaf/{sID}/'
                                         graph.add((URIRef(uri), jl.describedAt, (Literal(idurl))))
                                         graph.add((URIRef(uri), jl.describedAt, (Literal(idgnd))))
-                                    elif sID['authority'].strip() == "Library of Congress":
-                                        sID = sID['identifier']
+                                    elif 'authority' in actor['person']['standardized_identifier'] and actor['person']['standardized_identifier']['authority'].strip() == "Library of Congress":
                                         sID = sID.replace('LOC ', '')
-                                        sID =      f'https://id.loc.gov/authorities/names/{idf}'
-                                            #try:
-                                        graph.add((URIRef(uri), owl.sameAs, (Literal(idf))))
+                                        sID =      f'https://id.loc.gov/authorities/names/{sID}'
+                                        graph.add((URIRef(uri), owl.sameAs, (Literal(sID))))
                                     else:
-                                            print(actor['person']['standardized_identifier']['authority'])
+                                        print(name, 'on Page: ', b_page, 'has: ', actor['person']['standardized_identifier']['authority'], 'as identifier.')
                             role =  actor['role']['name']
-                            graph.add((URIRef(uri), jl.occupation, (Literal(role))))
+                            graph.add((URIRef(uri), jl.occupation, (Literal(role)))) # add role in context with book as occupation
                             add_creation_date(graph, uri)
                             graph.serialize(destination=file_name, format="turtle")
                             
@@ -402,7 +464,6 @@ def createGraph():
                             rnotes = rnotes.replace('"', '')
                             rnotes = rnotes.replace('"', '')
                             rnotes = rnotes.replace('\n', ' ')
-                            #print('r: ',rnotes)
                             graph.add((URIRef(uri), jl.hasAbstract, (Literal(rnotes))))
                         
                         for cowner in date['current_owners']:
@@ -421,7 +482,7 @@ def createGraph():
             break
 # Places
     ppage = 1
-    higher_geo_names =[]
+    higher_geo_names =[] # List of higher geo units
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
     while True:
@@ -439,7 +500,7 @@ def createGraph():
                         
                         uu= generate_hashUU(place)
                         uri = URIRef(f"http://data.judaicalink.org/data/footprints/{uu}")
-                        gndID = get_gnd_id(place, "PlaceOrGeographicName")  #TODO only if not none
+                        gndID = get_gnd_id(place, "PlaceOrGeographicName")  
                         if gndID is not None:      
                             graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(gndID))))
                         graph.add((URIRef(uri), jl.describedAt, (Literal('https://footprints.ctl.columbia.edu/'))))
@@ -452,28 +513,52 @@ def createGraph():
                             higher_geo_unit_1 = canonical_name[1]
                             higher_geo_unit_1 = higher_geo_unit_1.lstrip()
                             graph.add((URIRef(uri), gndo.hierarchicalSuperiorOfPlaceOrGeographicName, (Literal(higher_geo_unit_1))))
-                        add_creation_date(graph, uri)    
+                        add_creation_date(graph, uri)
+
+
+
                     graph.serialize(destination=file_name, format="turtle") 
-                    if len(canonical_name) > 2:
-                            higher_geo_unit_2 = canonical_name[2].lstrip()
+                    if len(canonical_name) > 1:
+                            higher_geo_unit_1 = canonical_name[1].lstrip()
                             if higher_geo_unit_1 not in higher_geo_names:
                                 hgu1_name = higher_geo_unit_1.strip()
                                 uu= generate_hashUU(hgu1_name)
                                 uri = URIRef(f"http://data.judaicalink.org/data/footprints/{uu}")
-                                gndID = get_gnd_id(higher_geo_unit_1, "PlaceOrGeographicName")  #TODO only if not none
+                                gndID = get_gnd_id(higher_geo_unit_1, "PlaceOrGeographicName") 
                                 if gndID is not None:      
                                     graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(gndID))))
                                 graph.add((URIRef(uri), jl.describedAt, (Literal('https://footprints.ctl.columbia.edu/'))))
                                 graph.add((URIRef(uri), RDF.type, gndo.PlaceOrGeographicName))
                                 graph.add((URIRef(uri), foaf.name, (Literal(higher_geo_unit_1, datatype = XSD.string))))
                                 graph.add((URIRef(uri), skos.prefLabel, (Literal(higher_geo_unit_1, datatype = XSD.string))))
-                                graph.add((URIRef(uri), gndo.hierarchicalSuperiorOfPlaceOrGeographicName, (Literal(higher_geo_unit_2))))
+                                if len(canonical_name) > 2:
+                                    graph.add((URIRef(uri), gndo.hierarchicalSuperiorOfPlaceOrGeographicName, (Literal(higher_geo_unit_2))))
                                 graph.serialize(destination=file_name, format="turtle")  
                             higher_geo_names.append(higher_geo_unit_1)
+                            add_creation_date(graph, uri)
+                            graph.serialize(destination=file_name, format="turtle")
+                    if len(canonical_name) > 2:
+                            higher_geo_unit_2 = canonical_name[2].lstrip()
+                            if higher_geo_unit_2 not in higher_geo_names:
+                                hgu2_name = higher_geo_unit_2.strip()
+                                uu= generate_hashUU(hgu2_name)
+                                uri = URIRef(f"http://data.judaicalink.org/data/footprints/{uu}")
+                                gndID = get_gnd_id(higher_geo_unit_2, "PlaceOrGeographicName") 
+                                if gndID is not None:      
+                                    graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(gndID))))
+                                graph.add((URIRef(uri), jl.describedAt, (Literal('https://footprints.ctl.columbia.edu/'))))
+                                graph.add((URIRef(uri), RDF.type, gndo.PlaceOrGeographicName))
+                                graph.add((URIRef(uri), foaf.name, (Literal(higher_geo_unit_2, datatype = XSD.string))))
+                                graph.add((URIRef(uri), skos.prefLabel, (Literal(higher_geo_unit_2, datatype = XSD.string))))
+                                graph.serialize(destination=file_name, format="turtle")  
+                            higher_geo_names.append(higher_geo_unit_2)
+                            add_creation_date(graph, uri)
+                            graph.serialize(destination=file_name, format="turtle")
             ppage += 1
         if "detail" in data and data["detail"] == "Invalid page.":
             print(f"last page loaded: page {ppage - 1}")
             break
+
 
     
     print('graph created')

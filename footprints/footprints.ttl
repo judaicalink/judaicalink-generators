@@ -1,0 +1,2904 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix jl: <http://data.judaicalink.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.judaicalink.org/data/footprints/0126af6c-26c8-5e4a-8ded-2c435a1296aa> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7287" ;
+    dcterms:created "2024-03-14T13:21:59.433945"^^xsd:dateTime ;
+    skos:prefLabel "קורדוברו, משה" ;
+    foaf:name "קורדוברו, משה" .
+
+<http://data.judaicalink.org/data/footprints/03759f82-601e-5f45-adb2-a682f52c5c73> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1386" ;
+    dcterms:created "2024-03-14T13:21:58.868145"^^xsd:dateTime ;
+    skos:prefLabel "קונפורטי, שמואל בן מרדכי" ;
+    foaf:name "קונפורטי, שמואל בן מרדכי" .
+
+<http://data.judaicalink.org/data/footprints/03d2b567-13ac-5807-bf51-f1f76db79822> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1408" ;
+    dcterms:created "2024-03-14T13:21:50.571838"^^xsd:dateTime ;
+    skos:prefLabel "פאדווא, יעקב מאיר בן חיים" ;
+    foaf:name "פאדווא, יעקב מאיר בן חיים" .
+
+<http://data.judaicalink.org/data/footprints/050872d9-a66f-5ac5-9870-9a07d2023b8e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2033" ;
+    dcterms:created "2024-03-14T13:21:45.051986"^^xsd:dateTime ;
+    skos:prefLabel "משה בן נחמן" ;
+    foaf:name "משה בן נחמן" .
+
+<http://data.judaicalink.org/data/footprints/06241396-84a1-5480-8b3d-dfe5a6fc8f8e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/384" ;
+    dcterms:created "2024-03-14T13:22:05.082686"^^xsd:dateTime ;
+    skos:prefLabel "ר’ ישראל ב\"ר שמואל מטרנאפאל, לויצק" ;
+    foaf:name "ר’ ישראל ב\"ר שמואל מטרנאפאל, לויצק" .
+
+<http://data.judaicalink.org/data/footprints/06249b1e-7d63-54f1-bc21-887f6411ce6f> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/10461" ;
+    dcterms:created "2024-03-14T13:21:40.205448"^^xsd:dateTime ;
+    skos:prefLabel "מכיר בן יצחק שר חסד" ;
+    foaf:name "מכיר בן יצחק שר חסד" .
+
+<http://data.judaicalink.org/data/footprints/06789617-c9e9-5adf-b225-c253a31712de> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4276" ;
+    dcterms:created "2024-03-14T13:21:45.807792"^^xsd:dateTime ;
+    skos:prefLabel "מתתיה כהן" ;
+    foaf:name "מתתיה כהן" .
+
+<http://data.judaicalink.org/data/footprints/068851f1-e838-53e7-84f1-0b9e0133fa5a> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1671" ;
+    dcterms:created "2024-03-14T13:21:58.679186"^^xsd:dateTime ;
+    skos:prefLabel "קאראוואליו, מרדכי ברוך" ;
+    foaf:name "קאראוואליו, מרדכי ברוך" .
+
+<http://data.judaicalink.org/data/footprints/06cd7734-c6a7-56a6-8c55-4932dd7c5332> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2131" ;
+    dcterms:created "2024-03-14T13:22:04.140569"^^xsd:dateTime ;
+    skos:prefLabel "רחמים נסים יצחק פלאג'י" ;
+    foaf:name "רחמים נסים יצחק פלאג'י" .
+
+<http://data.judaicalink.org/data/footprints/06da2715-b10c-585d-af0f-63d9dbe7cc66> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/3026" ;
+    dcterms:created "2024-03-14T13:21:58.461756"^^xsd:dateTime ;
+    skos:prefLabel "קאהוט, חנוך יהודה בן ישראל" ;
+    foaf:name "קאהוט, חנוך יהודה בן ישראל" .
+
+<http://data.judaicalink.org/data/footprints/07473a3e-b3f9-57f4-9c55-93304c42ca1d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2140" ;
+    dcterms:created "2024-03-14T13:21:51.982327"^^xsd:dateTime ;
+    skos:prefLabel "פולק, גבריאל בן יצחק איזק" ;
+    foaf:name "פולק, גבריאל בן יצחק איזק" .
+
+<http://data.judaicalink.org/data/footprints/07bc8bfd-2bb8-5e8d-8ba9-6a39ae73820d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1047" ;
+    dcterms:created "2024-03-14T13:21:40.777905"^^xsd:dateTime ;
+    skos:prefLabel "מנחם נחום בן יהודה ליב" ;
+    foaf:name "מנחם נחום בן יהודה ליב" .
+
+<http://data.judaicalink.org/data/footprints/0918144e-e939-56be-a186-993ee86f942d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4448" ;
+    dcterms:created "2024-03-14T13:21:47.182249"^^xsd:dateTime ;
+    skos:prefLabel "נפתלי בר משה נחשון שמואל" ;
+    foaf:name "נפתלי בר משה נחשון שמואל" .
+
+<http://data.judaicalink.org/data/footprints/0a5e5ba2-6e26-5028-a16f-321bcf05a283> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4291" ;
+    dcterms:created "2024-03-14T13:22:06.522276"^^xsd:dateTime ;
+    skos:prefLabel "ר שלמה בלאניס" ;
+    foaf:name "ר שלמה בלאניס" .
+
+<http://data.judaicalink.org/data/footprints/0afd91ea-88ac-57c3-92dd-d5fcfad7c5d5> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4191" ;
+    dcterms:created "2024-03-14T13:22:04.295209"^^xsd:dateTime ;
+    skos:prefLabel "ר יהודה ו ריונה זיל" ;
+    foaf:name "ר יהודה ו ריונה זיל" .
+
+<http://data.judaicalink.org/data/footprints/0b472d59-f741-5f6e-958a-26211ff071af> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/249" ;
+    dcterms:created "2024-03-14T13:22:06.467911"^^xsd:dateTime ;
+    skos:prefLabel "ר’ רפאל חיים סופינו" ;
+    foaf:name "ר’ רפאל חיים סופינו" .
+
+<http://data.judaicalink.org/data/footprints/0b5f7155-a667-58d2-8b67-309dad18ee90> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9632" ;
+    dcterms:created "2024-03-14T13:21:50.362852"^^xsd:dateTime ;
+    owl:sameAs "http://d-nb.info/gnd/117500011",
+        "https://viaf.org/viaf/62328157/" ;
+    skos:prefLabel "עלסנער" ;
+    foaf:name "עלסנער" .
+
+<http://data.judaicalink.org/data/footprints/0b98ebdc-6794-541b-b1c6-dd9b4df0e2c5> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7770" ;
+    dcterms:created "2024-03-14T13:21:59.847368"^^xsd:dateTime ;
+    skos:prefLabel "קמחי, דוד בן יוסף (רד\"ק)" ;
+    foaf:name "קמחי, דוד בן יוסף (רד\"ק)" .
+
+<http://data.judaicalink.org/data/footprints/0d22d1de-87cb-52ba-a8e2-9f558daed8bc> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2011" ;
+    dcterms:created "2024-03-14T13:21:38.906319"^^xsd:dateTime ;
+    skos:prefLabel "מוכל בר שלמה" ;
+    foaf:name "מוכל בר שלמה" .
+
+<http://data.judaicalink.org/data/footprints/0d8b9b37-df57-50de-9418-ca48d5b884ef> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1415" ;
+    dcterms:created "2024-03-14T13:21:45.123287"^^xsd:dateTime ;
+    skos:prefLabel "משה בן פינחס מקלוואן" ;
+    foaf:name "משה בן פינחס מקלוואן" .
+
+<http://data.judaicalink.org/data/footprints/0e5bc1f5-07bb-59ac-8e45-90870ea89082> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1438" ;
+    dcterms:created "2024-03-14T13:22:03.212685"^^xsd:dateTime ;
+    skos:prefLabel "‫  רובין, דוד טבל בן משה" ;
+    foaf:name "‫  רובין, דוד טבל בן משה" .
+
+<http://data.judaicalink.org/data/footprints/0f947111-65f0-53c5-9147-ec2a11566ad1> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4309" ;
+    dcterms:created "2024-03-14T13:22:05.344501"^^xsd:dateTime ;
+    skos:prefLabel "ר מאיר יזיי״א פרון" ;
+    foaf:name "ר מאיר יזיי״א פרון" .
+
+<http://data.judaicalink.org/data/footprints/0fae6b77-a938-5c09-84f3-1d2612304bfc> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4882" ;
+    dcterms:created "2024-03-14T13:22:12.065277"^^xsd:dateTime ;
+    skos:prefLabel "שמואל ברוך בורגו" ;
+    foaf:name "שמואל ברוך בורגו" .
+
+<http://data.judaicalink.org/data/footprints/0fb285c2-6558-5da4-b2d4-10f8bdd66ebd> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4173" ;
+    dcterms:created "2024-03-14T13:21:42.073740"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/308283516/" ;
+    skos:prefLabel "מרדכי בן ברכיה ראובן (?)" ;
+    foaf:name "מרדכי בן ברכיה ראובן (?)" .
+
+<http://data.judaicalink.org/data/footprints/0fc5df95-d610-52cf-af0c-c7a110299075> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2587" ;
+    dcterms:created "2024-03-14T13:21:40.180378"^^xsd:dateTime ;
+    skos:prefLabel "מילר, אורי בן מרדכי" ;
+    foaf:name "מילר, אורי בן מרדכי" .
+
+<http://data.judaicalink.org/data/footprints/10514615-2682-5c08-beda-8a1c06d912fc> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7860" ;
+    dcterms:created "2024-03-14T13:21:38.886360"^^xsd:dateTime ;
+    skos:prefLabel "מודינה, דוד בן-ציון בן אברהם" ;
+    foaf:name "מודינה, דוד בן-ציון בן אברהם" .
+
+<http://data.judaicalink.org/data/footprints/109ac9d9-ad0e-5d60-86b8-027303855860> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5510" ;
+    dcterms:created "2024-03-14T13:22:01.828145"^^xsd:dateTime ;
+    skos:prefLabel "קצנלנבוגן, משה בן אלעזר חיים ממזריטש" ;
+    foaf:name "קצנלנבוגן, משה בן אלעזר חיים ממזריטש" .
+
+<http://data.judaicalink.org/data/footprints/11046ae1-c36d-5277-9f0b-c2a00c63a9ae> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5683" ;
+    dcterms:created "2024-03-14T13:21:52.767486"^^xsd:dateTime ;
+    owl:sameAs "http://d-nb.info/gnd/132169223",
+        "https://viaf.org/viaf/45455107/" ;
+    skos:prefLabel "‫ פופרש, יעקב בן בנימין הכהן ‬" ;
+    foaf:name "‫ פופרש, יעקב בן בנימין הכהן ‬" .
+
+<http://data.judaicalink.org/data/footprints/11cdd045-7bf1-52e7-89c0-6cdbcde815ff> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9741" ;
+    dcterms:created "2024-03-14T13:22:14.076361"^^xsd:dateTime ;
+    owl:sameAs "http://d-nb.info/gnd/130352462",
+        "https://viaf.org/viaf/8491329/" ;
+    skos:prefLabel "שמיד, אנטון" ;
+    foaf:name "שמיד, אנטון" .
+
+<http://data.judaicalink.org/data/footprints/122b49f5-191e-5d52-b89b-f33883983ff4> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5959" ;
+    dcterms:created "2024-03-14T13:21:58.767705"^^xsd:dateTime ;
+    skos:prefLabel "קוידר, שמואל ליב בן דוד" ;
+    foaf:name "קוידר, שמואל ליב בן דוד" .
+
+<http://data.judaicalink.org/data/footprints/131bc64c-9308-5ba0-8eb5-8323fd0f35b9> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/339" ;
+    dcterms:created "2024-03-14T13:21:48.590411"^^xsd:dateTime ;
+    skos:prefLabel "נתן ניימרק" ;
+    foaf:name "נתן ניימרק" .
+
+<http://data.judaicalink.org/data/footprints/13a374cb-976a-58c3-a093-2b7c97a36033> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4695" ;
+    dcterms:created "2024-03-14T13:22:09.723293"^^xsd:dateTime ;
+    skos:prefLabel "שלמה בן בענדיט" ;
+    foaf:name "שלמה בן בענדיט" .
+
+<http://data.judaicalink.org/data/footprints/13e8b2ff-1dfd-5423-8846-d9da9798ba07> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7295" ;
+    dcterms:created "2024-03-14T13:22:00.949899"^^xsd:dateTime ;
+    skos:prefLabel "קנה אבן גדור" ;
+    foaf:name "קנה אבן גדור" .
+
+<http://data.judaicalink.org/data/footprints/145b4fa4-103a-5699-b14f-e423366974ad> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2399" ;
+    dcterms:created "2024-03-14T13:21:40.730099"^^xsd:dateTime ;
+    skos:prefLabel "מנחם מענדל בן בנימן" ;
+    foaf:name "מנחם מענדל בן בנימן" .
+
+<http://data.judaicalink.org/data/footprints/149e0028-a022-59a1-9d6a-2dbf214c9289> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/388" ;
+    dcterms:created "2024-03-14T13:22:05.186752"^^xsd:dateTime ;
+    skos:prefLabel "ר’ יששכר בער ב\"ר אלחנן, פרנקפורט דאדרה, ג נצבים תמ\"א" ;
+    foaf:name "ר’ יששכר בער ב\"ר אלחנן, פרנקפורט דאדרה, ג נצבים תמ\"א" .
+
+<http://data.judaicalink.org/data/footprints/14bba3f1-a2d7-5a97-8db2-41270b147b71> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9080" ;
+    dcterms:created "2024-03-14T13:22:03.835436"^^xsd:dateTime ;
+    skos:prefLabel "רומאנילי, שמואל אהרן בן משה חי" ;
+    foaf:name "רומאנילי, שמואל אהרן בן משה חי" .
+
+<http://data.judaicalink.org/data/footprints/14e1e6ed-8502-57a9-b227-0ecc26fc28db> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9105" ;
+    dcterms:created "2024-03-14T13:21:54.838719"^^xsd:dateTime ;
+    skos:prefLabel "פינסו, יוסף בן יצחק" ;
+    foaf:name "פינסו, יוסף בן יצחק" .
+
+<http://data.judaicalink.org/data/footprints/160598a4-8b29-5f0a-9a62-d56f7a7952ca> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7243" ;
+    dcterms:created "2024-03-14T13:21:40.908361"^^xsd:dateTime ;
+    skos:prefLabel "מרגליות, אלכסנדר סנדר בן צבי הירש" ;
+    foaf:name "מרגליות, אלכסנדר סנדר בן צבי הירש" .
+
+<http://data.judaicalink.org/data/footprints/1765e9b7-7e23-5783-b373-f13d3c700111> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7868" ;
+    dcterms:created "2024-03-14T13:21:52.018317"^^xsd:dateTime ;
+    skos:prefLabel "פונטאנילה, דוד בן מצליח" ;
+    foaf:name "פונטאנילה, דוד בן מצליח" .
+
+<http://data.judaicalink.org/data/footprints/179f4e64-7635-5958-89d2-48c8d33c0f84> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/10670" ;
+    dcterms:created "2024-03-14T13:21:42.186503"^^xsd:dateTime ;
+    skos:prefLabel "מרדכי נחמן ומשנהו  דוד ישראליג׳ה" ;
+    foaf:name "מרדכי נחמן ומשנהו  דוד ישראליג׳ה" .
+
+<http://data.judaicalink.org/data/footprints/17ae67c3-7f25-581c-a452-3b70b6964960> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4189" ;
+    dcterms:created "2024-03-14T13:22:02.255868"^^xsd:dateTime ;
+    skos:prefLabel "ר׳ אלחנן רוויקו" ;
+    foaf:name "ר׳ אלחנן רוויקו" .
+
+<http://data.judaicalink.org/data/footprints/1818e3c7-0174-5421-bebb-aa9c05585ce4> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7751" ;
+    dcterms:created "2024-03-14T13:21:40.219455"^^xsd:dateTime ;
+    skos:prefLabel "מכיר בן יצחק שר חסד" ;
+    foaf:name "מכיר בן יצחק שר חסד" .
+
+<http://data.judaicalink.org/data/footprints/1840fdd4-54f6-5686-860a-16c7bfa52ef6> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9693" ;
+    dcterms:created "2024-03-14T13:22:02.108315"^^xsd:dateTime ;
+    skos:prefLabel "ראובן בן אברהם" ;
+    foaf:name "ראובן בן אברהם" .
+
+<http://data.judaicalink.org/data/footprints/18663f53-064f-5400-80e4-f6d6fd3fe190> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/992" ;
+    dcterms:created "2024-03-14T13:22:12.140822"^^xsd:dateTime ;
+    skos:prefLabel "שמואל די אוזידה" ;
+    foaf:name "שמואל די אוזידה" .
+
+<http://data.judaicalink.org/data/footprints/18fa64cc-3009-5b65-a714-4616689e7202> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6072" ;
+    dcterms:created "2024-03-14T13:21:49.147995"^^xsd:dateTime ;
+    skos:prefLabel "סיניגליא, יעקב שמשון שבתי" ;
+    foaf:name "סיניגליא, יעקב שמשון שבתי" .
+
+<http://data.judaicalink.org/data/footprints/19112ce3-0f06-521c-ad56-061cb94b7468> a gndo:Work ;
+    gndo:associatedPlace "Alduna",
+        "אלטונא" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/7772209b-da99-5a46-8579-db3ca18ae38a",
+        "http://data.judaicalink.org/data/footprints/866635c2-1870-553b-878b-25f9080d9134",
+        "http://data.judaicalink.org/data/footprints/da0e67c9-c80d-5529-9431-95b144915324" ;
+    gndo:dateOfPublication "1766" ;
+    gndo:formerOwner "Russian State Library",
+        "Yosef Yitzhak Schneerson (Sixth Lubavicher Rebbe)" ;
+    gndo:language "Hebrew" ;
+    gndo:owner "Russian State Library" ;
+    jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000109174&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://search.worldcat.org/de/title/41219492" ;
+    jl:hasAbstract "Subtitle: ...מאביר הרועים ... ר' יהונתן זצל ... ביאור ההפטרת דכולי שתא ... הובא לבית הדפוס עי ... הרר דוד בלאאמ ... יוסף מאדיבורג זצל ...<br />BHB note: המביא לדפוס, ר' דוד בר יוסף מאדיבורג, כתב הקדמות לשני החלקים." ;
+    dc:title "Ahavat Yehonatan" ;
+    dcterms:created "2024-03-14T13:26:59.162827"^^xsd:dateTime ;
+    skos:prefLabel "Ahavat Yehonatan" .
+
+<http://data.judaicalink.org/data/footprints/199edcdf-fab6-50ca-9843-899641ea2b95> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7804" ;
+    dcterms:created "2024-03-14T13:21:40.890003"^^xsd:dateTime ;
+    skos:prefLabel "מרגליות, אהרן יהודה ליב בן אשר זליג" ;
+    foaf:name "מרגליות, אהרן יהודה ליב בן אשר זליג" .
+
+<http://data.judaicalink.org/data/footprints/1b2fb30e-cede-53c5-a0b6-a915ba1cc520> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7394" ;
+    dcterms:created "2024-03-14T13:21:49.030339"^^xsd:dateTime ;
+    skos:prefLabel "סופר, זוסמן אליעזר בן מרדכי אפרים פישל" ;
+    foaf:name "סופר, זוסמן אליעזר בן מרדכי אפרים פישל" .
+
+<http://data.judaicalink.org/data/footprints/1b35cdb8-65d5-558b-92d3-a1da93882f64> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7730" ;
+    dcterms:created "2024-03-14T13:21:53.626188"^^xsd:dateTime ;
+    skos:prefLabel "פייטרו ולורינצו בראגאדיני" ;
+    foaf:name "פייטרו ולורינצו בראגאדיני" .
+
+<http://data.judaicalink.org/data/footprints/1b7d9a6e-cbb3-5e08-9bb7-ec759cb12c92> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2272" ;
+    dcterms:created "2024-03-14T13:21:45.245006"^^xsd:dateTime ;
+    skos:prefLabel "משה כהן" ;
+    foaf:name "משה כהן" .
+
+<http://data.judaicalink.org/data/footprints/1bc93e70-b982-5972-b6c3-1526ade4df0c> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9682" ;
+    dcterms:created "2024-03-14T13:21:50.725749"^^xsd:dateTime ;
+    skos:prefLabel "פאלאק, זכריה בן יוסף" ;
+    foaf:name "פאלאק, זכריה בן יוסף" .
+
+<http://data.judaicalink.org/data/footprints/1c22e201-985d-50b3-b567-29e219f17f4c> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2070" ;
+    dcterms:created "2024-03-14T13:22:04.968689"^^xsd:dateTime ;
+    skos:prefLabel "ריקי, רפאל עמנואל חי בן אברהם" ;
+    foaf:name "ריקי, רפאל עמנואל חי בן אברהם" .
+
+<http://data.judaicalink.org/data/footprints/1c64ace7-1b5d-59a9-a310-451e50893470> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4251" ;
+    dcterms:created "2024-03-14T13:22:06.687347"^^xsd:dateTime ;
+    skos:prefLabel "שאול דוויך הכהן" ;
+    foaf:name "שאול דוויך הכהן" .
+
+<http://data.judaicalink.org/data/footprints/1c91dbde-e004-51e1-9d11-3eb8b101e87e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4281" ;
+    dcterms:created "2024-03-14T13:21:47.064147"^^xsd:dateTime ;
+    skos:prefLabel "נסים לוי" ;
+    foaf:name "נסים לוי" .
+
+<http://data.judaicalink.org/data/footprints/1d627837-eda0-56c1-926e-37b363e9bb5d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7369" ;
+    dcterms:created "2024-03-14T13:22:08.558613"^^xsd:dateTime ;
+    skos:prefLabel "שורץ, נפתלי בן אברהם יהודה אריה ליב" ;
+    foaf:name "שורץ, נפתלי בן אברהם יהודה אריה ליב" .
+
+<http://data.judaicalink.org/data/footprints/1fe4cf1a-e72f-5f3e-ae55-25f7158a8c09> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9056" ;
+    dcterms:created "2024-03-14T13:22:11.758727"^^xsd:dateTime ;
+    skos:prefLabel "שמואל בן אלעזר מאפטא" ;
+    foaf:name "שמואל בן אלעזר מאפטא" .
+
+<http://data.judaicalink.org/data/footprints/2194287b-d1f2-5bcb-a6a8-b03af6c09777> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7832" ;
+    dcterms:created "2024-03-14T13:21:58.721187"^^xsd:dateTime ;
+    skos:prefLabel "קארו, דוד בן יצחק" ;
+    foaf:name "קארו, דוד בן יצחק" .
+
+<http://data.judaicalink.org/data/footprints/21c92036-c77a-51d7-b615-3625e0e96f18> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5669" ;
+    dcterms:created "2024-03-14T13:21:57.678457"^^xsd:dateTime ;
+    skos:prefLabel "צבי הירש בן יהודה ידל" ;
+    foaf:name "צבי הירש בן יהודה ידל" .
+
+<http://data.judaicalink.org/data/footprints/24ef6706-737a-5372-8394-4c3e8e38fd60> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9038" ;
+    dcterms:created "2024-03-14T13:22:08.911179"^^xsd:dateTime ;
+    skos:prefLabel "שלטון, בנימין בן שמואל" ;
+    foaf:name "שלטון, בנימין בן שמואל" .
+
+<http://data.judaicalink.org/data/footprints/2610fc48-4314-5034-91c2-6963c50d12ff> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4144" ;
+    dcterms:created "2024-03-14T13:22:14.786729"^^xsd:dateTime ;
+    skos:prefLabel "שמעון בן מהר״ר אליקים הכהן" ;
+    foaf:name "שמעון בן מהר״ר אליקים הכהן" .
+
+<http://data.judaicalink.org/data/footprints/2614be5c-5df5-5b4c-84be-80202af7b279> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2084" ;
+    dcterms:created "2024-03-14T13:21:40.233462"^^xsd:dateTime ;
+    skos:prefLabel "מלבים, מאיר ליבוש בן יחיאל מיכל" ;
+    foaf:name "מלבים, מאיר ליבוש בן יחיאל מיכל" .
+
+<http://data.judaicalink.org/data/footprints/26f2f8c1-8a7b-5a27-9fd4-c6adadf39126> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9039" ;
+    dcterms:created "2024-03-14T13:21:52.841493"^^xsd:dateTime ;
+    skos:prefLabel "פורטו, אברהם בן יחיאל הכהן" ;
+    foaf:name "פורטו, אברהם בן יחיאל הכהן" .
+
+<http://data.judaicalink.org/data/footprints/2764b68b-05e1-5e74-9f13-eb6c266f9dc3> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7845" ;
+    dcterms:created "2024-03-14T13:21:49.205810"^^xsd:dateTime ;
+    skos:prefLabel "ספורנו, עובדיה בן יעקב" ;
+    foaf:name "ספורנו, עובדיה בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/277e4238-3ea2-540f-9f76-00fd0dc5433b> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7899" ;
+    dcterms:created "2024-03-14T13:21:55.070016"^^xsd:dateTime ;
+    skos:prefLabel "פראנסיס, יעקב בן דוד" ;
+    foaf:name "פראנסיס, יעקב בן דוד" .
+
+<http://data.judaicalink.org/data/footprints/27dee759-fa41-5770-a7a6-2684d031b810> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/10761" ;
+    dcterms:created "2024-03-14T13:22:04.089662"^^xsd:dateTime ;
+    skos:prefLabel "רחל מנורצי" ;
+    foaf:name "רחל מנורצי" .
+
+<http://data.judaicalink.org/data/footprints/288b37cf-3cd6-5265-a2f1-19707e64ecd8> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7850" ;
+    dcterms:created "2024-03-14T13:21:58.636668"^^xsd:dateTime ;
+    skos:prefLabel "קאצנלנבוגן, בנימין בן שאול הלוי" ;
+    foaf:name "קאצנלנבוגן, בנימין בן שאול הלוי" .
+
+<http://data.judaicalink.org/data/footprints/28c5b957-4635-59c4-9637-45afb62733de> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5974" ;
+    dcterms:created "2024-03-14T13:21:45.296352"^^xsd:dateTime ;
+    skos:prefLabel "משה סופר" ;
+    foaf:name "משה סופר" .
+
+<http://data.judaicalink.org/data/footprints/29ce0761-7e1b-575a-9f17-cef0a10f4e59> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1390" ;
+    dcterms:created "2024-03-14T13:22:11.914749"^^xsd:dateTime ;
+    skos:prefLabel "‫  שמואל בן יוסף הלוי מביאליסטוק" ;
+    foaf:name "‫  שמואל בן יוסף הלוי מביאליסטוק" .
+
+<http://data.judaicalink.org/data/footprints/29d100fc-955c-541a-96e6-ceca370f0dd7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1505" ;
+    dcterms:created "2024-03-14T13:22:01.875264"^^xsd:dateTime ;
+    skos:prefLabel "קרו, יוסף בן אפרים" ;
+    foaf:name "קרו, יוסף בן אפרים" .
+
+<http://data.judaicalink.org/data/footprints/2b15e6de-8e5e-5d46-ba1a-ccedacf9127b> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7840" ;
+    dcterms:created "2024-03-14T13:21:58.593675"^^xsd:dateTime ;
+    skos:prefLabel "קאסטרו, יעקב בן אברהם" ;
+    foaf:name "קאסטרו, יעקב בן אברהם" .
+
+<http://data.judaicalink.org/data/footprints/2ced52b9-b7cc-5d8e-a1ed-e1785ed1cdf7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7865" ;
+    dcterms:created "2024-03-14T13:21:55.812479"^^xsd:dateTime ;
+    skos:prefLabel "פרובנצאל, יהודה נתן" ;
+    foaf:name "פרובנצאל, יהודה נתן" .
+
+<http://data.judaicalink.org/data/footprints/2d3588d3-0a1a-535d-9b9c-f6501b47fb31> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5643" ;
+    dcterms:created "2024-03-14T13:21:53.590181"^^xsd:dateTime ;
+    owl:sameAs "http://d-nb.info/gnd/13406285X",
+        "https://viaf.org/viaf/283407941/" ;
+    skos:prefLabel "פייזר, שמעון בן יהודה ליב" ;
+    foaf:name "פייזר, שמעון בן יהודה ליב" .
+
+<http://data.judaicalink.org/data/footprints/2d57dfa7-f23f-508d-b2d2-86b2ede689ec> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7028" ;
+    dcterms:created "2024-03-14T13:22:17.984668"^^xsd:dateTime ;
+    skos:prefLabel "Рayyim Palache" ;
+    foaf:name "Рayyim Palache" .
+
+<http://data.judaicalink.org/data/footprints/2d6f3374-3d60-50da-881a-f628b6074939> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7492" ;
+    dcterms:created "2024-03-14T13:21:55.851483"^^xsd:dateTime ;
+    skos:prefLabel "פרחיה, אהרן בן חיים אברהם הכהן" ;
+    foaf:name "פרחיה, אהרן בן חיים אברהם הכהן" .
+
+<http://data.judaicalink.org/data/footprints/2d746096-6ca0-50e8-b848-e0427647709e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9479" ;
+    dcterms:created "2024-03-14T13:22:03.261837"^^xsd:dateTime ;
+    skos:prefLabel "רודלסום, אליעזר זוסמן בן יצחק" ;
+    foaf:name "רודלסום, אליעזר זוסמן בן יצחק" .
+
+<http://data.judaicalink.org/data/footprints/2ddb354e-9922-5c94-92de-7faa35bd8423> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7787" ;
+    dcterms:created "2024-03-14T13:21:56.917057"^^xsd:dateTime ;
+    skos:prefLabel "פרין, יוהאן" ;
+    foaf:name "פרין, יוהאן" .
+
+<http://data.judaicalink.org/data/footprints/30140340-759f-5729-9884-0f49afbe5879> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9065" ;
+    dcterms:created "2024-03-14T13:21:50.494343"^^xsd:dateTime ;
+    skos:prefLabel "ערקויפטע באקישען אונ' קאצישען פריווילעגירטע בוך דרוקרייא" ;
+    foaf:name "ערקויפטע באקישען אונ' קאצישען פריווילעגירטע בוך דרוקרייא" .
+
+<http://data.judaicalink.org/data/footprints/30809edb-1ee3-54c1-ae49-d0925e05a921> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4436" ;
+    dcterms:created "2024-03-14T13:21:38.964417"^^xsd:dateTime ;
+    skos:prefLabel "מזרחי, ראובן בן חנניה" ;
+    foaf:name "מזרחי, ראובן בן חנניה" .
+
+<http://data.judaicalink.org/data/footprints/31890f7c-87bd-5a3a-88a8-9a7b741c20d0> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6188" ;
+    dcterms:created "2024-03-14T13:21:41.320474"^^xsd:dateTime ;
+    skos:prefLabel "מרגליות, מאיר בן צבי הירש" ;
+    foaf:name "מרגליות, מאיר בן צבי הירש" .
+
+<http://data.judaicalink.org/data/footprints/321690b6-d594-5709-9259-58b51f8e07bb> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7191" ;
+    dcterms:created "2024-03-14T13:21:42.092402"^^xsd:dateTime ;
+    skos:prefLabel "מרדכי בן שמואל" ;
+    foaf:name "מרדכי בן שמואל" .
+
+<http://data.judaicalink.org/data/footprints/32f6a9c5-41d4-5ce2-8669-1fd40df8c7b8> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1912" ;
+    dcterms:created "2024-03-14T13:22:08.676535"^^xsd:dateTime ;
+    skos:prefLabel "שטרן, אברהם בן מאיר חיים ‬" ;
+    foaf:name "שטרן, אברהם בן מאיר חיים ‬" .
+
+<http://data.judaicalink.org/data/footprints/3450bb6a-f281-515a-8df4-f42e49d4b49e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7513" ;
+    dcterms:created "2024-03-14T13:21:45.987955"^^xsd:dateTime ;
+    skos:prefLabel "נחמיאש, רפאל אלעזר" ;
+    foaf:name "נחמיאש, רפאל אלעזר" .
+
+<http://data.judaicalink.org/data/footprints/358bf8c3-74f5-5c75-8b83-cac242a7316e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4260" ;
+    dcterms:created "2024-03-14T13:22:11.594216"^^xsd:dateTime ;
+    skos:prefLabel "שמואל אייל כהן" ;
+    foaf:name "שמואל אייל כהן" .
+
+<http://data.judaicalink.org/data/footprints/35f6ab08-9bf7-57a0-ba19-004811882667> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4240" ;
+    dcterms:created "2024-03-14T13:22:06.190026"^^xsd:dateTime ;
+    skos:prefLabel "רפאל" ;
+    foaf:name "רפאל" .
+
+<http://data.judaicalink.org/data/footprints/38014327-feec-5cee-a82c-3f2cce0106be> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1702" ;
+    dcterms:created "2024-03-14T13:22:04.456897"^^xsd:dateTime ;
+    skos:prefLabel "ר’ יצחק אבוהב, אמשטרדם;" ;
+    foaf:name "ר’ יצחק אבוהב, אמשטרדם;" .
+
+<http://data.judaicalink.org/data/footprints/382fd5a0-8c8b-5e5b-9bb7-be1dd0e2c8c3> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/230" ;
+    dcterms:created "2024-03-14T13:21:40.683085"^^xsd:dateTime ;
+    skos:prefLabel "מנחם מן בן שלמה הלוי" ;
+    foaf:name "מנחם מן בן שלמה הלוי" .
+
+<http://data.judaicalink.org/data/footprints/3874c63f-116e-5391-af0e-76d136253dba> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6007" ;
+    dcterms:created "2024-03-14T13:22:12.301398"^^xsd:dateTime ;
+    skos:prefLabel "שמואל היילפרין" ;
+    foaf:name "שמואל היילפרין" .
+
+<http://data.judaicalink.org/data/footprints/38f4e894-1544-5ac2-a408-d0c0aefe100b> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7798" ;
+    dcterms:created "2024-03-14T13:21:49.294937"^^xsd:dateTime ;
+    skos:prefLabel "עובדיה, יצחק בן יעקב" ;
+    foaf:name "עובדיה, יצחק בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/39bcd7b3-8544-581d-b12a-68b7956c17dd> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4289" ;
+    dcterms:created "2024-03-14T13:22:10.705678"^^xsd:dateTime ;
+    skos:prefLabel "שלמה ירק" ;
+    foaf:name "שלמה ירק" .
+
+<http://data.judaicalink.org/data/footprints/3a43558a-3f5d-5b80-ae3e-e2de243ab121> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7758" ;
+    dcterms:created "2024-03-14T13:21:40.873995"^^xsd:dateTime ;
+    skos:prefLabel "מקשן, שמואל בן פינחס הכהן" ;
+    foaf:name "מקשן, שמואל בן פינחס הכהן" .
+
+<http://data.judaicalink.org/data/footprints/3aee419d-4b18-5ae4-9442-5fe9c6aa02a0> a foaf:Person ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:22:22.707146"^^xsd:dateTime ;
+    skos:prefLabel "אבודרהם, דוד בן יוסף" ;
+    foaf:name "אבודרהם, דוד בן יוסף" .
+
+<http://data.judaicalink.org/data/footprints/3b5b2753-4909-525d-ab12-ab3f0c5cf0f1> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2315" ;
+    dcterms:created "2024-03-14T13:21:57.636943"^^xsd:dateTime ;
+    skos:prefLabel "צבי הירש בן דוד" ;
+    foaf:name "צבי הירש בן דוד" .
+
+<http://data.judaicalink.org/data/footprints/3b94daaf-b692-5089-81cd-28d8f4b0ff1d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1530" ;
+    dcterms:created "2024-03-14T13:21:49.059969"^^xsd:dateTime ;
+    skos:prefLabel "סופר, משה בן שמואל" ;
+    foaf:name "סופר, משה בן שמואל" .
+
+<http://data.judaicalink.org/data/footprints/3bd32ea8-13f8-5704-a8ed-c978e1021292> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4664" ;
+    dcterms:created "2024-03-14T13:22:10.639329"^^xsd:dateTime ;
+    skos:prefLabel "שלמה יוסף מקאליי'" ;
+    foaf:name "שלמה יוסף מקאליי'" .
+
+<http://data.judaicalink.org/data/footprints/3c5ff845-eacb-5a68-850e-07f826c4700a> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/250" ;
+    dcterms:created "2024-03-14T13:22:02.015787"^^xsd:dateTime ;
+    skos:prefLabel "ר’ אברהם ב\"ר שלמה חיים חבר טוב" ;
+    foaf:name "ר’ אברהם ב\"ר שלמה חיים חבר טוב" .
+
+<http://data.judaicalink.org/data/footprints/3cf108ef-46d7-5906-b0df-409cdf1ea994> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9734" ;
+    dcterms:created "2024-03-14T13:21:43.935281"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/36447133/" ;
+    skos:prefLabel "משה בן יוסף היידא" ;
+    foaf:name "משה בן יוסף היידא" .
+
+<http://data.judaicalink.org/data/footprints/3e096500-12ef-58a3-be5a-f2cd0eb81523> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7147" ;
+    dcterms:created "2024-03-14T13:21:56.282202"^^xsd:dateTime ;
+    skos:prefLabel "פרחי, יצחק בן שלמה" ;
+    foaf:name "פרחי, יצחק בן שלמה" .
+
+<http://data.judaicalink.org/data/footprints/3e156c57-6ff6-524b-a746-33917193a15a> a gndo:Work ;
+    gndo:associatedPlace "Livorno",
+        "Winniga",
+        "וויניציאה" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/645b111b-2587-52b5-9910-17c4b7ff6e90" ;
+    gndo:dateOfPublication "1622",
+        "1742" ;
+    gndo:formerOwner "Annenberg Research Institute",
+        "Anshel Hertz Böehm",
+        "David Kaufmann",
+        "Dr. Alfred Moldovan",
+        "Dropsie College Library",
+        "Joseph T. and Susan A. Moldovan",
+        "Library of the Hungarian Academy of Sciences",
+        "Marco Mortara",
+        "University of Pennsylvania Libraries" ;
+    gndo:language "Hebrew" ;
+    gndo:owner "Library of the Hungarian Academy of Sciences",
+        "University of Pennsylvania Libraries" ;
+    gndo:printer "http://data.judaicalink.org/data/footprints/232db466-473e-54fd-a6d8-3e5fd305ebe7" ;
+    jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000167921&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000180437&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
+    jl:hasAbstract "Subtitle: ... דרושים ... חברו ... ר' רבינו נרו בכמר אליהו זל (בן ... ר' משה ... בן ר' אליהו משה נע) חוטר מגזע בעל צרור המור (זקני ראס [ר' אברהם סבע]) זל (שמיללתי ודרשתי ... בעיר מושבי אשר נולדתי בקאשטוריאה ... גם ... בשאלוניק ... גם ... במוניסטיריו) ... במצות השרים פייטרו ולורינצו בראגאדיני.<br />BHB note: יש טפסים שנספח בסופם קונטרס צורות היסודות לר' יצחק אברבנאל, סביוניטה שיז. עייו: וינר, קהלת משה, עמ' 29, מס' 237; מ' בניהו, היחסים שבין יהודי יוון ליהודי איטליה, תל אביב תשם, עמ' 134.",
+        "Subtitle: ... חברו ... ר' רפאל עמנואל חי ריקי יצו והוגה עי ... הה משה בן ... ר' רפאל מילדולה יצו ... חלק א - ב.<br />BHB note: יש טפסים שבהם מכורך עם הספר הכרוז של ריקי הסכמות שנעשו ליסד ישיבת חברים מקשיבים בירושלם." ;
+    dc:publisher "http://data.judaicalink.org/data/footprints/1b35cdb8-65d5-558b-92d3-a1da93882f64" ;
+    dc:title "Aderet Eliyahu" ;
+    dcterms:created "2024-03-14T13:24:06.629996"^^xsd:dateTime ;
+    skos:prefLabel "Aderet Eliyahu" .
+
+<http://data.judaicalink.org/data/footprints/3e232292-99b1-5e94-95e1-a1843ce84f5f> a foaf:Person ;
+    jl:describedAt "http://d-nb.info/gnd/1122858469",
+        "https://viaf.org/viaf/18145244394974480511/" ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:24:13.011770"^^xsd:dateTime ;
+    skos:prefLabel "Landau, Jacob ben Judah," ;
+    foaf:name "Landau, Jacob ben Judah," .
+
+<http://data.judaicalink.org/data/footprints/3f1ab855-e279-5b4c-8aa3-dc7a23bd97c7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9094" ;
+    dcterms:created "2024-03-14T13:22:06.353592"^^xsd:dateTime ;
+    skos:prefLabel "רפאפורט, מרדכי בן שבתי הכהן" ;
+    foaf:name "רפאפורט, מרדכי בן שבתי הכהן" .
+
+<http://data.judaicalink.org/data/footprints/3fb830b6-7d01-57ff-a637-63c94b859cea> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/385" ;
+    dcterms:created "2024-03-14T13:22:04.349260"^^xsd:dateTime ;
+    skos:prefLabel "ר’ יוסף הלוי הורוויץ, פרעמסלא, ור’ יעקב ב\"ר מרדכי, לובמלא, בוועד קודש ביערסלב, יז אלול, ת\"ם" ;
+    foaf:name "ר’ יוסף הלוי הורוויץ, פרעמסלא, ור’ יעקב ב\"ר מרדכי, לובמלא, בוועד קודש ביערסלב, יז אלול, ת\"ם" .
+
+<http://data.judaicalink.org/data/footprints/40036fe5-f035-59ee-8693-d94a5e60a6e1> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/10840" ;
+    dcterms:created "2024-03-14T13:21:42.693628"^^xsd:dateTime ;
+    skos:prefLabel "משה " ;
+    foaf:name "משה " .
+
+<http://data.judaicalink.org/data/footprints/402a266c-b442-58db-8c51-7d8f1f0535ff> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5645" ;
+    dcterms:created "2024-03-14T13:22:13.199817"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/297271228/" ;
+    skos:prefLabel "שמואל פייבוש בן יוסף יוזפא הכהן" ;
+    foaf:name "שמואל פייבוש בן יוסף יוזפא הכהן" .
+
+<http://data.judaicalink.org/data/footprints/410f2f76-b5e8-559c-9528-9a4fa6b873e1> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7230" ;
+    dcterms:created "2024-03-14T13:22:17.807475"^^xsd:dateTime ;
+    skos:prefLabel "תוספאה, שמואל אביגדור אבד''ק קארלין" ;
+    foaf:name "תוספאה, שמואל אביגדור אבד''ק קארלין" .
+
+<http://data.judaicalink.org/data/footprints/41cf7ff9-2557-5bc7-9bc2-9f2b74ce6122> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6130" ;
+    dcterms:created "2024-03-14T13:21:50.604926"^^xsd:dateTime ;
+    skos:prefLabel "פאלאג׳י, אברהם" ;
+    foaf:name "פאלאג׳י, אברהם" .
+
+<http://data.judaicalink.org/data/footprints/4280a4bf-e552-559e-a9bb-6bc523713ce7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4284" ;
+    dcterms:created "2024-03-14T13:21:40.829326"^^xsd:dateTime ;
+    skos:prefLabel "מעיר אנקונא" ;
+    foaf:name "מעיר אנקונא" .
+
+<http://data.judaicalink.org/data/footprints/42e4916f-538c-533b-84d2-14698ec206a2> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9090" ;
+    dcterms:created "2024-03-14T13:21:45.961932"^^xsd:dateTime ;
+    skos:prefLabel "נח מאיר בן נחמן" ;
+    foaf:name "נח מאיר בן נחמן" .
+
+<http://data.judaicalink.org/data/footprints/45110d6f-a0b7-557a-81a0-55aaeb43d44e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7735" ;
+    dcterms:created "2024-03-14T13:21:51.399053"^^xsd:dateTime ;
+    skos:prefLabel "פאפנהיים, שלמה בן זליגמאן" ;
+    foaf:name "פאפנהיים, שלמה בן זליגמאן" .
+
+<http://data.judaicalink.org/data/footprints/46136ea7-b05f-5460-8191-2a5c0f069ff1> a foaf:Person ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:26:53.466177"^^xsd:dateTime ;
+    skos:prefLabel "אלגאזי, ניסים שלמה בן אברהם" ;
+    foaf:name "אלגאזי, ניסים שלמה בן אברהם" .
+
+<http://data.judaicalink.org/data/footprints/4620383a-d9f6-55ac-aa9d-d6b6f2f71b05> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2018" ;
+    dcterms:created "2024-03-14T13:21:54.922971"^^xsd:dateTime ;
+    skos:prefLabel "פנחס בן יאיר" ;
+    foaf:name "פנחס בן יאיר" .
+
+<http://data.judaicalink.org/data/footprints/46ccad69-a9e4-5df4-9235-46ee14937cb9> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7148" ;
+    dcterms:created "2024-03-14T13:22:03.412807"^^xsd:dateTime ;
+    skos:prefLabel "רוטנברג, מרדכי זיסקינד בן משה" ;
+    foaf:name "רוטנברג, מרדכי זיסקינד בן משה" .
+
+<http://data.judaicalink.org/data/footprints/472cae88-b242-5986-b5ba-be1220808bbf> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9046" ;
+    dcterms:created "2024-03-14T13:21:50.423797"^^xsd:dateTime ;
+    skos:prefLabel "עראמה, יצחק בן משה" ;
+    foaf:name "עראמה, יצחק בן משה" .
+
+<http://data.judaicalink.org/data/footprints/473b5812-ff63-5461-a88b-9694058b6680> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9106" ;
+    dcterms:created "2024-03-14T13:21:52.875003"^^xsd:dateTime ;
+    skos:prefLabel "פורטו, זכריה" ;
+    foaf:name "פורטו, זכריה" .
+
+<http://data.judaicalink.org/data/footprints/4799be3f-124b-5e8a-aa53-d7b81d041c45> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7836" ;
+    dcterms:created "2024-03-14T13:22:07.383050"^^xsd:dateTime ;
+    skos:prefLabel "שאשפורטאש, יעקב בן אהרן" ;
+    foaf:name "שאשפורטאש, יעקב בן אהרן" .
+
+<http://data.judaicalink.org/data/footprints/48192697-5351-5c12-a92e-6a2bd32242f5> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1661" ;
+    dcterms:created "2024-03-14T13:21:59.660797"^^xsd:dateTime ;
+    skos:prefLabel "קלאס, מרדכי זאב בן בנימין" ;
+    foaf:name "קלאס, מרדכי זאב בן בנימין" .
+
+<http://data.judaicalink.org/data/footprints/495bbf36-fffc-5c77-8585-d1a34a53b465> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2298" ;
+    dcterms:created "2024-03-14T13:22:01.967938"^^xsd:dateTime ;
+    skos:prefLabel "קרנץ, יעקב בן זאב וואלף מדובנא" ;
+    foaf:name "קרנץ, יעקב בן זאב וואלף מדובנא" .
+
+<http://data.judaicalink.org/data/footprints/49f07615-9420-59fc-982d-34a6f837b59f> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5352" ;
+    dcterms:created "2024-03-14T13:21:55.773477"^^xsd:dateTime ;
+    skos:prefLabel "פרדו, יעקב בן דוד" ;
+    foaf:name "פרדו, יעקב בן דוד" .
+
+<http://data.judaicalink.org/data/footprints/4a5d07ae-9de6-5041-aa1b-4646f39daad5> a gndo:Work ;
+    gndo:associatedPlace "Venice" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/bd6a0056-87f6-5a89-a1e8-4e1a84cdcb6d" ;
+    gndo:dateOfPublication "1565" ;
+    gndo:formerOwner "The Library of The Jewish Theological Seminary" ;
+    gndo:owner "The Library of The Jewish Theological Seminary" ;
+    jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,156184&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
+    dc:publisher "http://data.judaicalink.org/data/footprints/ae1c2ce1-b8b9-5c22-93f3-0c2c7652988a" ;
+    dc:title "Akedat Yitshak" ;
+    dcterms:created "2024-03-14T13:27:53.842776"^^xsd:dateTime ;
+    skos:prefLabel "Akedat Yitshak" .
+
+<http://data.judaicalink.org/data/footprints/4aa635d1-068a-5316-8b14-6253ad2568a1> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4229" ;
+    dcterms:created "2024-03-14T13:21:43.384473"^^xsd:dateTime ;
+    skos:prefLabel "משה בן הלוי (?)" ;
+    foaf:name "משה בן הלוי (?)" .
+
+<http://data.judaicalink.org/data/footprints/4ac0f251-59e8-515d-9470-813b877a0e76> a foaf:Person ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:26:50.497979"^^xsd:dateTime ;
+    skos:prefLabel "אזולאי, חיים יוסף דוד בן רפאל יצחק זרחיה" ;
+    foaf:name "אזולאי, חיים יוסף דוד בן רפאל יצחק זרחיה" .
+
+<http://data.judaicalink.org/data/footprints/4af631f6-04b1-5a0a-bd4e-b2cf5f2e775c> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9526" ;
+    dcterms:created "2024-03-14T13:21:44.958186"^^xsd:dateTime ;
+    owl:sameAs "http://d-nb.info/gnd/141996889",
+        "https://viaf.org/viaf/77845316/" ;
+    skos:prefLabel "משה בן מאיר הכהן מגיביץ" ;
+    foaf:name "משה בן מאיר הכהן מגיביץ" .
+
+<http://data.judaicalink.org/data/footprints/4b0334b8-9568-5e80-91bc-807fca19e0dd> a gndo:Work ;
+    gndo:associatedPlace "Izmir" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/9c70db5f-b07a-5230-9d9f-96b5101b5fe7" ;
+    gndo:dateOfPublication "1755" ;
+    gndo:language "Hebrew" ;
+    jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000120634&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
+    dc:title "Agadot Eliyahu" ;
+    dcterms:created "2024-03-14T13:24:08.970686"^^xsd:dateTime ;
+    skos:prefLabel "Agadot Eliyahu" .
+
+<http://data.judaicalink.org/data/footprints/4c191991-745d-5556-b604-2c7cf7cefbb0> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4248" ;
+    dcterms:created "2024-03-14T13:22:07.261947"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/298786416/" ;
+    skos:prefLabel "שאול עזרא דוויך הכהן" ;
+    foaf:name "שאול עזרא דוויך הכהן" .
+
+<http://data.judaicalink.org/data/footprints/4d267568-1b71-5236-a80e-d78f41d9c83c> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2347" ;
+    dcterms:created "2024-03-14T13:22:15.874202"^^xsd:dateTime ;
+    skos:prefLabel "שמשון?" ;
+    foaf:name "שמשון?" .
+
+<http://data.judaicalink.org/data/footprints/4d50ab76-e6e3-5f02-9089-d84bd9964fb8> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5651" ;
+    dcterms:created "2024-03-14T13:22:15.771331"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/158146462566927770904/" ;
+    skos:prefLabel "שמעון עקיבא בר בן יוסף" ;
+    foaf:name "שמעון עקיבא בר בן יוסף" .
+
+<http://data.judaicalink.org/data/footprints/4de0405e-e1db-5702-97b8-6784c76d50dd> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9100" ;
+    dcterms:created "2024-03-14T13:21:42.816090"^^xsd:dateTime ;
+    skos:prefLabel "משה בן אהרן צבי הירש הכהן" ;
+    foaf:name "משה בן אהרן צבי הירש הכהן" .
+
+<http://data.judaicalink.org/data/footprints/4e07a790-330a-53b4-bf07-f2e31fb98720> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/282" ;
+    dcterms:created "2024-03-14T13:22:02.315920"^^xsd:dateTime ;
+    skos:prefLabel "ר' אלי" ;
+    foaf:name "ר' אלי" .
+
+<http://data.judaicalink.org/data/footprints/4eb1b105-e026-51dc-a5ba-88ed04c43b6b> a foaf:Person ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:24:07.337256"^^xsd:dateTime ;
+    skos:prefLabel "אריפול, שמואל בן יצחק" ;
+    foaf:name "אריפול, שמואל בן יצחק" .
+
+<http://data.judaicalink.org/data/footprints/4fcd04df-98ef-520d-8561-989c79df381c> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4143" ;
+    dcterms:created "2024-03-14T13:22:10.993591"^^xsd:dateTime ;
+    skos:prefLabel "שלמה מרדכי מפאנו" ;
+    foaf:name "שלמה מרדכי מפאנו" .
+
+<http://data.judaicalink.org/data/footprints/50183172-b8e2-539c-bf89-2b8365e48187> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7838" ;
+    dcterms:created "2024-03-14T13:21:38.916321"^^xsd:dateTime ;
+    skos:prefLabel "מולכו, יוסף בן אברהם" ;
+    foaf:name "מולכו, יוסף בן אברהם" .
+
+<http://data.judaicalink.org/data/footprints/538ad93b-4ef4-5b6b-9108-5fe055283e09> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1994" ;
+    dcterms:created "2024-03-14T13:22:08.617127"^^xsd:dateTime ;
+    skos:prefLabel "שטיינאייזן, דוב בר בן קיים קדיש" ;
+    foaf:name "שטיינאייזן, דוב בר בן קיים קדיש" .
+
+<http://data.judaicalink.org/data/footprints/558f3b84-5517-5100-8759-ca2dba14dea9> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7827" ;
+    dcterms:created "2024-03-14T13:22:04.040401"^^xsd:dateTime ;
+    skos:prefLabel "רחבי, דוד בן יחזקאל" ;
+    foaf:name "רחבי, דוד בן יחזקאל" .
+
+<http://data.judaicalink.org/data/footprints/57106e28-9056-5d75-af63-3f67c06f1de0> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7867" ;
+    dcterms:created "2024-03-14T13:21:42.775181"^^xsd:dateTime ;
+    skos:prefLabel "משה בן אברהם מפלונץ'" ;
+    foaf:name "משה בן אברהם מפלונץ'" .
+
+<http://data.judaicalink.org/data/footprints/571d462e-0bca-5e37-b771-0a7c22c26af0> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9184" ;
+    dcterms:created "2024-03-14T13:21:56.876062"^^xsd:dateTime ;
+    skos:prefLabel "פריידכי בלאך" ;
+    foaf:name "פריידכי בלאך" .
+
+<http://data.judaicalink.org/data/footprints/576a34a6-08b1-5703-86d4-4408d6168e40> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9074" ;
+    dcterms:created "2024-03-14T13:21:50.459327"^^xsd:dateTime ;
+    skos:prefLabel "עראמה, מאיר בן יצחק" ;
+    foaf:name "עראמה, מאיר בן יצחק" .
+
+<http://data.judaicalink.org/data/footprints/57fcc55c-ca1d-5ad2-91ec-08a696784a5b> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7756" ;
+    dcterms:created "2024-03-14T13:21:39.025478"^^xsd:dateTime ;
+    skos:prefLabel "מייזלס, יהודה ליב בן יצחק" ;
+    foaf:name "מייזלס, יהודה ליב בן יצחק" .
+
+<http://data.judaicalink.org/data/footprints/5810c0eb-76d7-51e1-89e2-89077f2e76bc> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4257" ;
+    dcterms:created "2024-03-14T13:21:45.193572"^^xsd:dateTime ;
+    skos:prefLabel "משה חדאד" ;
+    foaf:name "משה חדאד" .
+
+<http://data.judaicalink.org/data/footprints/59749d8c-0719-56c2-a808-21b11a70bc59> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2313" ;
+    dcterms:created "2024-03-14T13:21:45.859300"^^xsd:dateTime ;
+    skos:prefLabel "נג'אר, יהודה" ;
+    foaf:name "נג'אר, יהודה" .
+
+<http://data.judaicalink.org/data/footprints/5a7fb3da-6d4e-5770-b34e-c1956f62f6a8> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4493" ;
+    dcterms:created "2024-03-14T13:21:40.667103"^^xsd:dateTime ;
+    skos:prefLabel "מנחם מאסקולי?" ;
+    foaf:name "מנחם מאסקולי?" .
+
+<http://data.judaicalink.org/data/footprints/5af63556-3686-58d2-953e-5356b33cf1da> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4135" ;
+    dcterms:created "2024-03-14T13:21:49.176528"^^xsd:dateTime ;
+    skos:prefLabel "סעיד מנצור (?)" ;
+    foaf:name "סעיד מנצור (?)" .
+
+<http://data.judaicalink.org/data/footprints/5bd4a1d0-31f4-50eb-9c66-9297ddd87e87> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/10433" ;
+    dcterms:created "2024-03-14T13:21:59.568246"^^xsd:dateTime ;
+    skos:prefLabel "‫  קורקוס, יוסף (הזקן)" ;
+    foaf:name "‫  קורקוס, יוסף (הזקן)" .
+
+<http://data.judaicalink.org/data/footprints/5bfc7493-c0cc-5450-89eb-0cd11a64efc1> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1556" ;
+    dcterms:created "2024-03-14T13:21:49.415464"^^xsd:dateTime ;
+    skos:prefLabel "עזריאל בן אליהו" ;
+    foaf:name "עזריאל בן אליהו" .
+
+<http://data.judaicalink.org/data/footprints/5c7e3909-aede-51b1-ae13-3d220be83846> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5613" ;
+    dcterms:created "2024-03-14T13:22:05.134945"^^xsd:dateTime ;
+    skos:prefLabel "רישר, יעקב בן יוסף" ;
+    foaf:name "רישר, יעקב בן יוסף" .
+
+<http://data.judaicalink.org/data/footprints/5c90e11d-9cc7-576a-9c0a-88bc18540873> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9736" ;
+    dcterms:created "2024-03-14T13:22:00.997383"^^xsd:dateTime ;
+    skos:prefLabel "קעניגליכע פרייסישע שטאדט-בוכדרוקרייא" ;
+    foaf:name "קעניגליכע פרייסישע שטאדט-בוכדרוקרייא" .
+
+<http://data.judaicalink.org/data/footprints/5d6b5438-8d3c-5ec4-b6b1-00d4960256e6> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7897" ;
+    dcterms:created "2024-03-14T13:21:58.548287"^^xsd:dateTime ;
+    skos:prefLabel "קאסטל, אדמונד" ;
+    foaf:name "קאסטל, אדמונד" .
+
+<http://data.judaicalink.org/data/footprints/5ddd445d-b43d-5d1a-9200-4d0176a336ea> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/256" ;
+    dcterms:created "2024-03-14T13:22:10.267411"^^xsd:dateTime ;
+    skos:prefLabel "שלמה בן מלח" ;
+    foaf:name "שלמה בן מלח" .
+
+<http://data.judaicalink.org/data/footprints/5e86bda7-83a5-5f66-bef6-72c25637eb23> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1417",
+        "https://footprints.ctl.columbia.edu/api/person/1607" ;
+    dcterms:created "2024-03-14T13:21:50.639095"^^xsd:dateTime ;
+    skos:prefLabel "פאלאג’י, חיים בן יעקב" ;
+    foaf:name "פאלאג’י, חיים בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/5f1be3d3-463d-573a-a2b5-70a244146c75> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4286" ;
+    dcterms:created "2024-03-14T13:22:05.504270"^^xsd:dateTime ;
+    skos:prefLabel "ר׳ משה פאספאפאירו" ;
+    foaf:name "ר׳ משה פאספאפאירו" .
+
+<http://data.judaicalink.org/data/footprints/5fe6b530-b19e-564f-bb2f-265e6e86050b> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2073" ;
+    dcterms:created "2024-03-14T13:21:59.747821"^^xsd:dateTime ;
+    skos:prefLabel "קלונימוס הזקן" ;
+    foaf:name "קלונימוס הזקן" .
+
+<http://data.judaicalink.org/data/footprints/600c3d0b-045e-57d9-824d-cfe91147bf69> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/975" ;
+    dcterms:created "2024-03-14T13:21:57.002882"^^xsd:dateTime ;
+    skos:prefLabel "פרענקיל, יחזקאל" ;
+    foaf:name "פרענקיל, יחזקאל" .
+
+<http://data.judaicalink.org/data/footprints/6075895c-7081-578b-90ed-5e0c651ac898> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7802" ;
+    dcterms:created "2024-03-14T13:21:40.714084"^^xsd:dateTime ;
+    skos:prefLabel "מנחם מנדל בן משה מוויטבסק" ;
+    foaf:name "מנחם מנדל בן משה מוויטבסק" .
+
+<http://data.judaicalink.org/data/footprints/6115d44b-488a-57af-a70e-e09eec565602> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/321" ;
+    dcterms:created "2024-03-14T13:21:41.374600"^^xsd:dateTime ;
+    skos:prefLabel "מרדכי בן אלחנן" ;
+    foaf:name "מרדכי בן אלחנן" .
+
+<http://data.judaicalink.org/data/footprints/614417d5-4402-5e7c-8f75-a8b013b1bf62> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9063" ;
+    dcterms:created "2024-03-14T13:21:48.562410"^^xsd:dateTime ;
+    skos:prefLabel "נתן ניימארק" ;
+    foaf:name "נתן ניימארק" .
+
+<http://data.judaicalink.org/data/footprints/61766546-cc70-5d7a-95f8-4a36a17c788a> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2395" ;
+    dcterms:created "2024-03-14T13:21:59.614246"^^xsd:dateTime ;
+    skos:prefLabel "קים קדיש בן קים קדיש" ;
+    foaf:name "קים קדיש בן קים קדיש" .
+
+<http://data.judaicalink.org/data/footprints/62397d4c-b898-5ab0-9551-70f9633a3387> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2128" ;
+    dcterms:created "2024-03-14T13:22:16.341706"^^xsd:dateTime ;
+    skos:prefLabel "שניאורסון, מנחם מנדל בן שלום שכנא" ;
+    foaf:name "שניאורסון, מנחם מנדל בן שלום שכנא" .
+
+<http://data.judaicalink.org/data/footprints/629be6ee-a86a-52a7-bcb4-0184a046a5cf> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1487" ;
+    dcterms:created "2024-03-14T13:21:42.713825"^^xsd:dateTime ;
+    skos:prefLabel "משה אלעזר בן שמואל זנויל" ;
+    foaf:name "משה אלעזר בן שמואל זנויל" .
+
+<http://data.judaicalink.org/data/footprints/630778b9-3e61-5b91-81f1-978c97969fcb> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7795" ;
+    dcterms:created "2024-03-14T13:21:48.619410"^^xsd:dateTime ;
+    skos:prefLabel "סאטאנוב, יצחק בן משה הלוי" ;
+    foaf:name "סאטאנוב, יצחק בן משה הלוי" .
+
+<http://data.judaicalink.org/data/footprints/6418a131-0445-5faf-823b-c5da7eede9ca> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4833" ;
+    dcterms:created "2024-03-14T13:22:05.717171"^^xsd:dateTime ;
+    skos:prefLabel "רעכיל ובניה האחים מייא" ;
+    foaf:name "רעכיל ובניה האחים מייא" .
+
+<http://data.judaicalink.org/data/footprints/645b111b-2587-52b5-9910-17c4b7ff6e90> a foaf:Person ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:24:06.394597"^^xsd:dateTime ;
+    skos:prefLabel "Ricchi, Raphael Immanuel ben Abraham Hai" ;
+    foaf:name "Ricchi, Raphael Immanuel ben Abraham Hai" .
+
+<http://data.judaicalink.org/data/footprints/64701f82-8f5d-502d-ae8f-b7de3afd6d93> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9712" ;
+    dcterms:created "2024-03-14T13:21:39.036477"^^xsd:dateTime ;
+    skos:prefLabel "מיכאעליס" ;
+    foaf:name "מיכאעליס" .
+
+<http://data.judaicalink.org/data/footprints/653c2c5f-e772-568e-8f13-bc62b5f8fc12> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9424" ;
+    dcterms:created "2024-03-14T13:21:38.977980"^^xsd:dateTime ;
+    skos:prefLabel "מטיאס אנדרע" ;
+    foaf:name "מטיאס אנדרע" .
+
+<http://data.judaicalink.org/data/footprints/66524497-5e2f-5856-9b79-6e0b30e709ed> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9346" ;
+    dcterms:created "2024-03-14T13:22:11.991264"^^xsd:dateTime ;
+    skos:prefLabel "שמואל בן מאיר לטיף" ;
+    foaf:name "שמואל בן מאיר לטיף" .
+
+<http://data.judaicalink.org/data/footprints/675a617c-a021-59f8-855b-7a8da2351d0e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7896" ;
+    dcterms:created "2024-03-14T13:21:39.425171"^^xsd:dateTime ;
+    skos:prefLabel "מילדולה, יעקב בן אברהם" ;
+    foaf:name "מילדולה, יעקב בן אברהם" .
+
+<http://data.judaicalink.org/data/footprints/6874fd7b-c793-58c9-91ed-4e8150e18fc3> a gndo:Work ;
+    gndo:associatedPlace "Offenbach am Main",
+        "Rimini",
+        "Sudes",
+        "Sudylkiv",
+        "Venice",
+        "Winniga",
+        "וויניציאה" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/3e232292-99b1-5e94-95e1-a1843ce84f5f",
+        "http://data.judaicalink.org/data/footprints/8257853a-a0eb-5cf6-8602-c6370d2817cb" ;
+    gndo:dateOfPublication "1526",
+        "1546",
+        "1605",
+        "1718",
+        "1834" ;
+    gndo:formerOwner "Abraham Joseph Salomon Graziano",
+        "Adolph S. Oko",
+        "Annenberg Research Institute",
+        "Anonymous",
+        "Anonymous Italian Jew",
+        "Anonymous Jew",
+        "Aron Freimann",
+        "Barukh (Barukh Hayyim) Almanzi",
+        "Basal, Abraham",
+        "Berthold Strauss?",
+        "Biblioteca Palatina, Parma",
+        "Bodleian Library, Oxford",
+        "British Library (British Museum)",
+        "Città del Vaticano, Biblioteca Apostolica Vaticana",
+        "Columbia University Libraries",
+        "David Kaufmann",
+        "Dr. Bruno Kirschner",
+        "Dropsie College Library",
+        "Elkan Nathan Adler",
+        "Ephraim Amrani",
+        "Ephraim Deinard",
+        "Flaminio, Antonio",
+        "Giovanni Bernardo de Rossi",
+        "Giuseppe Almanzi",
+        "Halpern",
+        "Harvard University",
+        "Hebrew Union College Jewish Institute of Religion, Klau Library Cincinnati",
+        "Heimann, Joseph Michael",
+        "Hyman G. Enelow",
+        "Israel Sanguini",
+        "Jacob Lowy",
+        "Jacob Rava",
+        "Joshua Canton",
+        "Lev Faivelevich Friedland",
+        "Library and Archives Canada",
+        "Library of Congress",
+        "Library of the Hungarian Academy of Sciences",
+        "Lirma, (?)",
+        "London Beth Din",
+        "Lucius N. Littauer",
+        "Lutzki, Moses",
+        "Marco Mortara",
+        "Mattityahu Strashun",
+        "Mayer Sulzberger",
+        "Menahem Rava",
+        "Mendel Gottesman Library Special Collections, Yeshiva University",
+        "Napoli, Biblioteca Nazionale Vittorio Emanuele III",
+        "National Library of Israel",
+        "New York Public Library",
+        "Oppenheim, David b. Abraham",
+        "Poggibonsi, Menahem Samuel",
+        "Russian State Library",
+        "Sacerdote, Sansone",
+        "Samuel Vita Dalla Volta",
+        "Samuel, Italian Jew",
+        "Shabtai Ascoli",
+        "Shmuel Zanvill Segel (Samuel Levy), of Balbronn",
+        "Solomon Hirschell",
+        "St. Petersburg Branch of the Institute of Oriental Studies, Russian Academy of Sciences",
+        "Strashun Library, Vilna",
+        "Temple Emanu-el",
+        "The Library of The Jewish Theological Seminary",
+        "The Library of the Katz Center for Advanced Judaic Studies",
+        "University Library Frankfurt am Main",
+        "University of Vienna",
+        "YIVO NY",
+        "Yosef Yitzhak Schneerson (Sixth Lubavicher Rebbe)",
+        "אשר זכר[יה] (?)",
+        "הצעיר יצחק אלטראם",
+        "הצעיר משה אלטראם",
+        "יצחק מנחם לוי",
+        "משה בן הלוי (?)" ;
+    gndo:language "Hebrew" ;
+    gndo:owner "Adolph S. Oko",
+        "Biblioteca Palatina, Parma",
+        "Bodleian Library, Oxford",
+        "British Library (British Museum)",
+        "Città del Vaticano, Biblioteca Apostolica Vaticana",
+        "Columbia University Libraries",
+        "Halpern",
+        "Harvard University",
+        "Library and Archives Canada",
+        "Library of Congress",
+        "Library of the Hungarian Academy of Sciences",
+        "Mendel Gottesman Library Special Collections, Yeshiva University",
+        "Napoli, Biblioteca Nazionale Vittorio Emanuele III",
+        "National Library of Israel",
+        "Russian State Library",
+        "Shmuel Zanvill Segel (Samuel Levy), of Balbronn",
+        "The Library of The Jewish Theological Seminary",
+        "The Library of the Katz Center for Advanced Judaic Studies",
+        "University Library Frankfurt am Main",
+        "University of Vienna",
+        "YIVO NY" ;
+    jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000142138&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000142139&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000142140&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000158046&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000178449&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,142139&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,178449&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
+    jl:hasAbstract "" ;
+    dc:publisher "http://data.judaicalink.org/data/footprints/06eb3051-d201-56db-afe6-67845e6b423f",
+        "http://data.judaicalink.org/data/footprints/31024910-3ef1-550d-82c7-971ab191dac3",
+        "http://data.judaicalink.org/data/footprints/76afdbab-bfc0-5a4f-a6e6-56d9ec89e3b9",
+        "http://data.judaicalink.org/data/footprints/93f0bec7-dabb-5b16-a1de-a007f2e7f16c",
+        "http://data.judaicalink.org/data/footprints/abf4367e-2139-5c65-98d7-75a41d7d23cb",
+        "http://data.judaicalink.org/data/footprints/b66cd2ed-ca2a-54d1-b153-a483f40bbf2d",
+        "http://data.judaicalink.org/data/footprints/ba1d0493-cae4-578b-9876-01ed14099767" ;
+    dc:title "Agur" ;
+    dcterms:created "2024-03-14T13:24:13.855300"^^xsd:dateTime ;
+    skos:prefLabel "Agur" .
+
+<http://data.judaicalink.org/data/footprints/68f00e89-a2e7-54dd-b465-4f90028820aa> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5628" ;
+    dcterms:created "2024-03-14T13:21:57.893472"^^xsd:dateTime ;
+    skos:prefLabel "ציוני, אהרן זעליג בן נפתלי" ;
+    foaf:name "ציוני, אהרן זעליג בן נפתלי" .
+
+<http://data.judaicalink.org/data/footprints/692b3519-af0d-50a8-b25b-ddfb70bf636d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5114" ;
+    dcterms:created "2024-03-14T13:21:58.418193"^^xsd:dateTime ;
+    skos:prefLabel "צרמון, מרדכי בן יהודה" ;
+    foaf:name "צרמון, מרדכי בן יהודה" .
+
+<http://data.judaicalink.org/data/footprints/69e9fff3-60bb-5647-9f84-f1af6611e562> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4203" ;
+    dcterms:created "2024-03-14T13:21:51.945664"^^xsd:dateTime ;
+    skos:prefLabel "פה דעמביץ(?)" ;
+    foaf:name "פה דעמביץ(?)" .
+
+<http://data.judaicalink.org/data/footprints/6b970596-5db6-578f-affb-21001ce510da> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4495" ;
+    dcterms:created "2024-03-14T13:22:10.931036"^^xsd:dateTime ;
+    skos:prefLabel "שלמה מרדכי" ;
+    foaf:name "שלמה מרדכי" .
+
+<http://data.judaicalink.org/data/footprints/6bb4b24b-10c4-57d0-9bb3-16c92576277d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1012" ;
+    dcterms:created "2024-03-14T13:22:09.783781"^^xsd:dateTime ;
+    skos:prefLabel "שלמה בן יצחק" ;
+    foaf:name "שלמה בן יצחק" .
+
+<http://data.judaicalink.org/data/footprints/6be28081-6f05-5173-8a78-b50392c92286> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9068" ;
+    dcterms:created "2024-03-14T13:22:01.922432"^^xsd:dateTime ;
+    skos:prefLabel "קרמניצר, יוחנן בן מאיר" ;
+    foaf:name "קרמניצר, יוחנן בן מאיר" .
+
+<http://data.judaicalink.org/data/footprints/6d20d3f2-815f-5f09-b2de-a72ddc5742fb> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7898" ;
+    dcterms:created "2024-03-14T13:22:08.796097"^^xsd:dateTime ;
+    skos:prefLabel "שיף, דוד טבלי בן שלמה זלמן הכהן" ;
+    foaf:name "שיף, דוד טבלי בן שלמה זלמן הכהן" .
+
+<http://data.judaicalink.org/data/footprints/6e49f4ae-bd3b-5c24-a103-b630a8012984> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7783" ;
+    dcterms:created "2024-03-14T13:21:59.703814"^^xsd:dateTime ;
+    skos:prefLabel "קלונימוס בן קלונימוס" ;
+    foaf:name "קלונימוס בן קלונימוס" .
+
+<http://data.judaicalink.org/data/footprints/703aa724-c16f-5b4a-9455-b6a88a26f993> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7774" ;
+    dcterms:created "2024-03-14T13:21:45.074986"^^xsd:dateTime ;
+    skos:prefLabel "משה בן נחמן (רמב\"ן)" ;
+    foaf:name "משה בן נחמן (רמב\"ן)" .
+
+<http://data.judaicalink.org/data/footprints/7047712c-6174-5588-9b18-b9f774075e73> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5600" ;
+    dcterms:created "2024-03-14T13:22:12.215360"^^xsd:dateTime ;
+    skos:prefLabel "שמואל די מדינה" ;
+    foaf:name "שמואל די מדינה" .
+
+<http://data.judaicalink.org/data/footprints/7076f622-baea-55aa-b6be-d7ad6c0c0b73> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5708" ;
+    dcterms:created "2024-03-14T13:21:46.559581"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/298523794/" ;
+    skos:prefLabel "נחמיה פייבל בן אברהם" ;
+    foaf:name "נחמיה פייבל בן אברהם" .
+
+<http://data.judaicalink.org/data/footprints/71d60540-4488-5141-8048-1e7bdcc25b67> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5095" ;
+    dcterms:created "2024-03-14T13:22:16.256150"^^xsd:dateTime ;
+    skos:prefLabel "שניאור זלמן מלאדי" ;
+    foaf:name "שניאור זלמן מלאדי" .
+
+<http://data.judaicalink.org/data/footprints/72edbae4-50e1-5776-8a41-3fcbc32798f2> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7862" ;
+    dcterms:created "2024-03-14T13:21:59.391368"^^xsd:dateTime ;
+    skos:prefLabel "קורדובירו, משה בן יעקב" ;
+    foaf:name "קורדובירו, משה בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/738bc775-3698-5829-8354-0441f7a63123> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/3027" ;
+    dcterms:created "2024-03-14T13:22:08.735549"^^xsd:dateTime ;
+    skos:prefLabel "שיגורה, ניסים חיים רפאל אהרן בן מאיר די" ;
+    foaf:name "שיגורה, ניסים חיים רפאל אהרן בן מאיר די" .
+
+<http://data.judaicalink.org/data/footprints/739ba193-d025-5cd2-9eb0-bd15f8fcac19> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6559" ;
+    dcterms:created "2024-03-14T13:21:42.111458"^^xsd:dateTime ;
+    skos:prefLabel "מרדכי ברבי יעקב ז\"ל פרידמאן במעזריטש" ;
+    foaf:name "מרדכי ברבי יעקב ז\"ל פרידמאן במעזריטש" .
+
+<http://data.judaicalink.org/data/footprints/7510461d-9a88-5a71-8d15-d2cc72a0e2db> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5485" ;
+    dcterms:created "2024-03-14T13:21:42.206511"^^xsd:dateTime ;
+    skos:prefLabel "מרדכי קאלינבערג" ;
+    foaf:name "מרדכי קאלינבערג" .
+
+<http://data.judaicalink.org/data/footprints/76235d42-0fdc-5a37-9041-46919ee67e18> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/990" ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:21:45.169887"^^xsd:dateTime ;
+    skos:prefLabel "משה זאב בן אליעזר" ;
+    foaf:name "משה זאב בן אליעזר" .
+
+<http://data.judaicalink.org/data/footprints/765f67ba-3cd9-5458-b851-119ac88e6dd6> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7846" ;
+    dcterms:created "2024-03-14T13:21:55.022491"^^xsd:dateTime ;
+    skos:prefLabel "פניאל, שלמה בן אברהם" ;
+    foaf:name "פניאל, שלמה בן אברהם" .
+
+<http://data.judaicalink.org/data/footprints/7696e913-9630-50f8-8299-6092143f676b> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/364" ;
+    dcterms:created "2024-03-14T13:21:51.809118"^^xsd:dateTime ;
+    skos:prefLabel "פארינצו, אשר בן יעקב" ;
+    foaf:name "פארינצו, אשר בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/771be3fe-708e-5715-ac82-32660f067e41> a foaf:Person ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:26:59.255403"^^xsd:dateTime ;
+    skos:prefLabel "Rabbi Meir bar Yitzchak" ;
+    foaf:name "Rabbi Meir bar Yitzchak" .
+
+<http://data.judaicalink.org/data/footprints/7772209b-da99-5a46-8579-db3ca18ae38a> a foaf:Person ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:26:56.390036"^^xsd:dateTime ;
+    skos:prefLabel "‫  אייבשיץ, יהונתן בן נתן נטע" ;
+    foaf:name "‫  אייבשיץ, יהונתן בן נתן נטע" .
+
+<http://data.judaicalink.org/data/footprints/77c7588e-dfd2-580e-8858-2ca1690a61fc> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6071" ;
+    dcterms:created "2024-03-14T13:22:06.298586"^^xsd:dateTime ;
+    skos:prefLabel "רפאפורט, אברהם בן ישראל יחיאל הכהן" ;
+    foaf:name "רפאפורט, אברהם בן ישראל יחיאל הכהן" .
+
+<http://data.judaicalink.org/data/footprints/77e92430-59de-5b78-9d8a-aa733ad56662> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7855" ;
+    dcterms:created "2024-03-14T13:21:47.212285"^^xsd:dateTime ;
+    skos:prefLabel "נפתלי הירץ בן יהודה ליב מהלברשטט" ;
+    foaf:name "נפתלי הירץ בן יהודה ליב מהלברשטט" .
+
+<http://data.judaicalink.org/data/footprints/78be7019-9c80-52cd-9011-c8347519e9a7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4235" ;
+    dcterms:created "2024-03-14T13:21:59.800368"^^xsd:dateTime ;
+    skos:prefLabel "קלונימוס מזלאזיץ" ;
+    foaf:name "קלונימוס מזלאזיץ" .
+
+<http://data.judaicalink.org/data/footprints/78f6a576-0e7b-5c93-94c7-4cae725eeb75> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7179" ;
+    dcterms:created "2024-03-14T13:22:17.697583"^^xsd:dateTime ;
+    skos:prefLabel "תאומים, יוסף בן מאיר" ;
+    foaf:name "תאומים, יוסף בן מאיר" .
+
+<http://data.judaicalink.org/data/footprints/7903ef4d-1667-5317-97b6-4b6974a7718f> a gndo:Work ;
+    gndo:associatedPlace "Amsterdam",
+        "Istanbul",
+        "Lisbon",
+        "Pass",
+        "Venice",
+        "Winigat",
+        "Winniga",
+        "אמשטרדם",
+        "וויניציאה",
+        "פאס" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/3aee419d-4b18-5ae4-9442-5fe9c6aa02a0",
+        "http://data.judaicalink.org/data/footprints/870271c4-e936-5eac-937a-f4d0b3c7f9a3" ;
+    gndo:dateOfPublication "1489",
+        "1513 - 1514",
+        "1516",
+        "1546",
+        "1566",
+        "1726" ;
+    gndo:formerOwner "Abraham ben Gabriel Sarfati",
+        "Alter Frenkil",
+        "Annenberg Research Institute",
+        "Arthur and Gitel Marx",
+        "Biblioteca Palatina, Parma",
+        "Bobst Library, New York University",
+        "Bodleian Library, Oxford",
+        "British Library (British Museum)",
+        "Christofel Sabal",
+        "Columbia University Libraries",
+        "Daniel Chwolson",
+        "David Jeselsohn",
+        "David Kaufmann",
+        "David Solomon Hasson",
+        "Delmonico Collection",
+        "Der Rat der Israelitische Religions Gemeinschaft Wuerttembergs",
+        "Dr. Abraham Berliner",
+        "Dropsie College Library",
+        "Elkan Nathan Adler",
+        "Ephraim Deinard",
+        "Gershon Epstein",
+        "Giovanni Bernardo de Rossi",
+        "Giuseppe Almanzi",
+        "H. P. Kraus Co.",
+        "Haim I. Coppenhagen",
+        "Harvard University",
+        "Hayyim el-Rab[i]a",
+        "Institute for Oriental Studies, Russian Academy of Sciences",
+        "Isaac el-Rab",
+        "Israel Davidson",
+        "Jacob H. Coppenhagen",
+        "Jacob H. Schiff",
+        "Jacob Lowy",
+        "Jewish Cultural Foundation library, no. B1800",
+        "Jews' College London",
+        "Judith Montefiore College",
+        "Leopold Muller Hebrew and Jewish Studies Library, Oxford",
+        "Lev Faivelevich Friedland",
+        "Library and Archives Canada",
+        "Library of Congress",
+        "Library of the City College of New York",
+        "Library of the Ducal Palace at Vila Vicosa, Portugal",
+        "Library of the Hungarian Academy of Sciences",
+        "London Beth Din",
+        "Lucius N. Littauer",
+        "Lutzki, Moses",
+        "Manuel II, King of Portugal, 1889-1932",
+        "Massoud Racatz",
+        "Mattityahu Strashun",
+        "Mayer Sulzberger",
+        "Mendel Gottesman Library Special Collections, Yeshiva University",
+        "Mitchell M Kaplan",
+        "Mordekhai Adelmann",
+        "Nassim Joseph Piza",
+        "Nassim Piza",
+        "Natan bar […]",
+        "National Library of Israel",
+        "New York Public Library",
+        "Oppenheim, David b. Abraham",
+        "Padova, Abraham ben Elhanan",
+        "Padova, Elhanan Samuel",
+        "Padova, Jacob",
+        "Padova, Samuel ben Abraham",
+        "Paris, Bibliothèque nationale de France, BnF",
+        "Rachel",
+        "Roth, Cecil",
+        "Russian State Library",
+        "Sasson, Abraham",
+        "Se'adya bar Natan",
+        "Shelomo Yosef Farhi",
+        "Shemaya Angel",
+        "Shmuel (?)",
+        "Shmuel Piza",
+        "Solomon Hirschell",
+        "Solomon Racah",
+        "Soranzo, Giacomo",
+        "St. Petersburg Branch of the Institute of Oriental Studies, Russian Academy of Sciences",
+        "Strashun Library, Vilna",
+        "Temple Emanu-el",
+        "The Library of The Jewish Theological Seminary",
+        "The Library of the Katz Center for Advanced Judaic Studies",
+        "University College London Library",
+        "University Library Frankfurt am Main",
+        "University of Leeds",
+        "YIVO NY",
+        "Yehiel ben David",
+        "Yosef Yitzhak Schneerson (Sixth Lubavicher Rebbe)",
+        "Zunz, Leopold",
+        "יוסף הכהן חמצי" ;
+    gndo:language "Hebrew" ;
+    gndo:owner "Biblioteca Palatina, Parma",
+        "Bobst Library, New York University",
+        "Bodleian Library, Oxford",
+        "British Library (British Museum)",
+        "Columbia University Libraries",
+        "Daniel Chwolson",
+        "David Jeselsohn",
+        "Delmonico Collection",
+        "Ephraim Deinard",
+        "Harvard University",
+        "Leopold Muller Hebrew and Jewish Studies Library, Oxford",
+        "Library and Archives Canada",
+        "Library of Congress",
+        "Library of the Ducal Palace at Vila Vicosa, Portugal",
+        "Library of the Hungarian Academy of Sciences",
+        "Lucius N. Littauer",
+        "Mendel Gottesman Library Special Collections, Yeshiva University",
+        "National Library of Israel",
+        "New York Public Library",
+        "Paris, Bibliothèque nationale de France, BnF",
+        "Rachel",
+        "Russian State Library",
+        "St. Petersburg Branch of the Institute of Oriental Studies, Russian Academy of Sciences",
+        "The Library of The Jewish Theological Seminary",
+        "The Library of the Katz Center for Advanced Judaic Studies",
+        "University College London Library",
+        "University Library Frankfurt am Main",
+        "University of Leeds",
+        "YIVO NY" ;
+    gndo:printer "http://data.judaicalink.org/data/footprints/11fcd91d-8cc5-571a-aedc-20fceac142d5",
+        "http://data.judaicalink.org/data/footprints/31024910-3ef1-550d-82c7-971ab191dac3",
+        "http://data.judaicalink.org/data/footprints/f0ce6774-0fa1-5251-a01d-a03378f5bcf2" ;
+    jl:describedAt "https://data.cerl.org/istc/id00101800",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000105180&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000105181&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000105182&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000105183&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000105184&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000200305&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,105181&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,105183&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://search.worldcat.org/de/title/123500213",
+        "https://search.worldcat.org/de/title/872557812" ;
+    jl:hasAbstract "",
+        "BHB note: נדפס עמו תשובות שאלות ואגרות הרמבם, [קושטנטינא רעד]. עיין: מ' בניהו, רבי אליהו קפשאלי, תל אביב תשמג, עמ' קנב.",
+        "Sefer Abudarham was originally written in 1340 in Seville. It is a commentary to the liturgy discussing  the customs connected with prayer [that] ha[d] become varied from one country to another and Abudarham recognized that people did not understand the words, the ritual customs associated with these prayers and the reasons for the them. The book is based on the Talmud and the decisions of the geonim, and on the early and later commentators. It abounds in source material of Spanish, Provencal, French, and Ashkenazi origins, not all of which has otherwise survived. Abudarham made extensive use of the prayer book of Saadiah Gaon, and it seems he was the last to see and use an original of this book. See Encyclopedia Judaica, entry, Abudarham.<br />Subtitle: ...<br />BHB note: קולופון: תם ונשלם ... היום יום ר' יום הושענא רבה, כא תשרי שכז לפק, פה ויניציאה.",
+        "Subtitle: (... וחברתיו אני באישבליא... בשנת חמשת אלפים ומאה ליצירה).<br />BHB note: נדפס דף על דף ושורה על שורה כמו אישבונה רן.",
+        "Subtitle: ...<br />BHB note: קולופון: תם ונשלם ... ספר אבודרהם היום יום ב רח מרחשון שז לפק, פה ויניציאה.",
+        "Subtitle: ...העירוני רעיוני להדפיסו מחדש ובכרך קטן למען יוכל שאת כל איש בחיקו. וגם הוספנו בו מפתחות ... אשר עד הנה לא היה. הובא לבית הדפוס על ידי ... יעקב בן פו נפתלי הירש פאס זצל וכהרר מנחם מן בן שלמה הלוי זצל.<br />BHB note: בראש הספר דברי המגיה, מנחם מן בן שלמה הלוי.",
+        "Subtitle: בעזר ... שוכן מעונה, אחל לפרש תפלות כל השנה. אמ' דוד בר' יוסף סט בר' דוד נע בן אבידרהם ...BHB note: אוצר 19 B  https://www.gesamtkatalogderwiegendrucke.de/docs/GW08160.htm" ;
+    dc:contributor "http://data.judaicalink.org/data/footprints/dfb670ce-1e86-5372-95e1-89da46c06c7b" ;
+    dc:publisher "http://data.judaicalink.org/data/footprints/1d8cf03a-2e54-591b-a02b-998fca8bfc01",
+        "http://data.judaicalink.org/data/footprints/343dfcfa-118c-55e0-99a0-08a7031126f0",
+        "http://data.judaicalink.org/data/footprints/382fd5a0-8c8b-5e5b-9bb7-be1dd0e2c8c3",
+        "http://data.judaicalink.org/data/footprints/6c009740-5591-5b64-8bf6-37424aedb8a2",
+        "http://data.judaicalink.org/data/footprints/9c076075-54cd-5aaf-9465-cb531605c65a",
+        "http://data.judaicalink.org/data/footprints/b7f75121-098c-5d46-bbdb-af42d47ad9ad",
+        "http://data.judaicalink.org/data/footprints/dfb670ce-1e86-5372-95e1-89da46c06c7b" ;
+    dc:title "Abudarham" ;
+    dcterms:created "2024-03-14T13:22:23.642875"^^xsd:dateTime ;
+    skos:prefLabel "Abudarham" .
+
+<http://data.judaicalink.org/data/footprints/7afd82f7-f1d7-5d38-bb7f-67b17cfc2039> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9475" ;
+    dcterms:created "2024-03-14T13:21:45.728704"^^xsd:dateTime ;
+    skos:prefLabel "משה פרנקפורט, שמשון ויצחק בני נפתלי הירץ כ״ץ, חיים בן יעקב דרוקר ושלמה פרופס" ;
+    foaf:name "משה פרנקפורט, שמשון ויצחק בני נפתלי הירץ כ״ץ, חיים בן יעקב דרוקר ושלמה פרופס" .
+
+<http://data.judaicalink.org/data/footprints/7b7e6636-f108-57fb-8487-fcc020418f28> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7750" ;
+    dcterms:created "2024-03-14T13:21:58.954606"^^xsd:dateTime ;
+    skos:prefLabel "קונקי, אברהם בן לוי" ;
+    foaf:name "קונקי, אברהם בן לוי" .
+
+<http://data.judaicalink.org/data/footprints/7baae1d1-b1d2-5b4b-89ed-d70621ff8097> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2986" ;
+    dcterms:created "2024-03-14T13:22:17.386931"^^xsd:dateTime ;
+    skos:prefLabel "שפירא, נתן נטע בן שלמה" ;
+    foaf:name "שפירא, נתן נטע בן שלמה" .
+
+<http://data.judaicalink.org/data/footprints/7bd6f297-f640-5d3b-8cf9-ade340e2a407> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4280" ;
+    dcterms:created "2024-03-14T13:21:41.355592"^^xsd:dateTime ;
+    skos:prefLabel "מרדכי אבי" ;
+    foaf:name "מרדכי אבי" .
+
+<http://data.judaicalink.org/data/footprints/7bfe32bc-579e-5557-aac6-4bb20f6431a9> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1443" ;
+    dcterms:created "2024-03-14T13:22:17.475478"^^xsd:dateTime ;
+    skos:prefLabel "שפירא, צבי הירש" ;
+    foaf:name "שפירא, צבי הירש" .
+
+<http://data.judaicalink.org/data/footprints/7c5b164f-b14a-5544-ad25-c2c36e033091> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2411" ;
+    dcterms:created "2024-03-14T13:21:54.316300"^^xsd:dateTime ;
+    owl:sameAs "http://d-nb.info/gnd/1089712146",
+        "https://viaf.org/viaf/21144044/" ;
+    skos:prefLabel "פינחס בן פילטא" ;
+    foaf:name "פינחס בן פילטא" .
+
+<http://data.judaicalink.org/data/footprints/7c8027cf-21a8-5e6b-9e54-76a281f373cb> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2361" ;
+    dcterms:created "2024-03-14T13:21:45.910087"^^xsd:dateTime ;
+    skos:prefLabel "נחום, אליעזר בן יעקב" ;
+    foaf:name "נחום, אליעזר בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/7db8bad4-ad97-5ebe-bccf-6ef4ec4784dd> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4249" ;
+    dcterms:created "2024-03-14T13:22:09.604669"^^xsd:dateTime ;
+    skos:prefLabel "שלמה" ;
+    foaf:name "שלמה" .
+
+<http://data.judaicalink.org/data/footprints/815817aa-5d20-588c-b75d-a2fabf63803a> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7780" ;
+    dcterms:created "2024-03-14T13:22:03.886998"^^xsd:dateTime ;
+    skos:prefLabel "רומאנין, ישעיה בן יוסף" ;
+    foaf:name "רומאנין, ישעיה בן יוסף" .
+
+<http://data.judaicalink.org/data/footprints/824f7cd1-df56-5df1-837b-c31f4e10a5bd> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7242" ;
+    dcterms:created "2024-03-14T13:22:06.411370"^^xsd:dateTime ;
+    skos:prefLabel "רפפורט, ישראל בן אברהם אבלי" ;
+    foaf:name "רפפורט, ישראל בן אברהם אבלי" .
+
+<http://data.judaicalink.org/data/footprints/8257853a-a0eb-5cf6-8602-c6370d2817cb> a foaf:Person ;
+    jl:describedAt "http://d-nb.info/gnd/10334621X",
+        "https://viaf.org/viaf/32408285/" ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:24:09.891697"^^xsd:dateTime ;
+    skos:prefLabel "Jacob Baruch ben Judah Landau" ;
+    foaf:name "Jacob Baruch ben Judah Landau" .
+
+<http://data.judaicalink.org/data/footprints/82c9962d-f7e5-5ea8-98fa-01a235f545b4> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2153" ;
+    dcterms:created "2024-03-14T13:22:08.853588"^^xsd:dateTime ;
+    skos:prefLabel "שלז, בנציון בן שלמה" ;
+    foaf:name "שלז, בנציון בן שלמה" .
+
+<http://data.judaicalink.org/data/footprints/82f7443d-c705-52fc-910e-6f4927127df6> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9523" ;
+    dcterms:created "2024-03-14T13:21:48.533890"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/97370237/" ;
+    skos:prefLabel "נתן דק״ק פרוסטיץ" ;
+    foaf:name "נתן דק״ק פרוסטיץ" .
+
+<http://data.judaicalink.org/data/footprints/82fb5770-aec5-501f-818b-bd5617275871> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9087" ;
+    dcterms:created "2024-03-14T13:21:38.954408"^^xsd:dateTime ;
+    skos:prefLabel "מזרחי, אליהו בן אברהם" ;
+    foaf:name "מזרחי, אליהו בן אברהם" .
+
+<http://data.judaicalink.org/data/footprints/84502763-e0ec-5d75-a31a-fcf42330f86e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6035" ;
+    dcterms:created "2024-03-14T13:21:45.936110"^^xsd:dateTime ;
+    skos:prefLabel "נחום דובער פרידמאן" ;
+    foaf:name "נחום דובער פרידמאן" .
+
+<http://data.judaicalink.org/data/footprints/866635c2-1870-553b-878b-25f9080d9134> a foaf:Person ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:26:55.253929"^^xsd:dateTime ;
+    skos:prefLabel "אייבשיץ, יהונתן בן נתן נטע" ;
+    foaf:name "אייבשיץ, יהונתן בן נתן נטע" .
+
+<http://data.judaicalink.org/data/footprints/870271c4-e936-5eac-937a-f4d0b3c7f9a3> a foaf:Person ;
+    jl:describedAt "http://d-nb.info/gnd/120458039",
+        "https://viaf.org/viaf/844120/" ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:22:22.630509"^^xsd:dateTime ;
+    skos:prefLabel "David ben Joseph Abudraham" ;
+    foaf:name "David ben Joseph Abudraham" .
+
+<http://data.judaicalink.org/data/footprints/8705805e-19c6-5ceb-932d-e847803222a0> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1617" ;
+    dcterms:created "2024-03-14T13:22:17.904021"^^xsd:dateTime ;
+    skos:prefLabel "תנחומא בר אבא" ;
+    foaf:name "תנחומא בר אבא" .
+
+<http://data.judaicalink.org/data/footprints/8870eb6f-7c51-5822-bee4-ebf66960a255> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5689" ;
+    dcterms:created "2024-03-14T13:22:08.493035"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/317189850/" ;
+    skos:prefLabel "שבתי בן משה הכהן" ;
+    foaf:name "שבתי בן משה הכהן" .
+
+<http://data.judaicalink.org/data/footprints/88edc543-ac80-5c6e-a208-6999b0e15fc7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/3078" ;
+    dcterms:created "2024-03-14T13:21:45.832795"^^xsd:dateTime ;
+    skos:prefLabel "נבון, אפרים בן אהרן" ;
+    foaf:name "נבון, אפרים בן אהרן" .
+
+<http://data.judaicalink.org/data/footprints/891b97cc-dc5b-58b6-a96e-dba6fe7961c5> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7912" ;
+    dcterms:created "2024-03-14T13:22:17.180338"^^xsd:dateTime ;
+    skos:prefLabel "שפירא, ברכיה ברך בן יצחק אייזיק" ;
+    foaf:name "שפירא, ברכיה ברך בן יצחק אייזיק" .
+
+<http://data.judaicalink.org/data/footprints/896a0d28-3ef7-5367-9e02-00999f8815c9> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9051" ;
+    dcterms:created "2024-03-14T13:22:11.677720"^^xsd:dateTime ;
+    skos:prefLabel "שמואל אליעזר בן יהודה הלוי (מהרש\"א)" ;
+    foaf:name "שמואל אליעזר בן יהודה הלוי (מהרש\"א)" .
+
+<http://data.judaicalink.org/data/footprints/89e30741-bb79-5529-bed0-cda8034fe745> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/206" ;
+    dcterms:created "2024-03-14T13:21:47.094734"^^xsd:dateTime ;
+    skos:prefLabel "נפטלי בן משה אברהם יחיאל" ;
+    foaf:name "נפטלי בן משה אברהם יחיאל" .
+
+<http://data.judaicalink.org/data/footprints/89ef2163-0e0e-5086-b213-4de214709942> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5841" ;
+    dcterms:created "2024-03-14T13:21:42.755285"^^xsd:dateTime ;
+    skos:prefLabel "‫  משה בן אברהם מגזע צבי" ;
+    foaf:name "‫  משה בן אברהם מגזע צבי" .
+
+<http://data.judaicalink.org/data/footprints/8a373604-0ac0-5791-a672-ac34bf8cceaa> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5441" ;
+    dcterms:created "2024-03-14T13:22:05.662727"^^xsd:dateTime ;
+    skos:prefLabel "רעגנסבורג(?)" ;
+    foaf:name "רעגנסבורג(?)" .
+
+<http://data.judaicalink.org/data/footprints/8b658671-829f-5a5b-b642-e27756acdb8f> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9384" ;
+    dcterms:created "2024-03-14T13:22:06.136298"^^xsd:dateTime ;
+    skos:prefLabel "רעכיל ובניה מיכאל שמעון" ;
+    foaf:name "רעכיל ובניה מיכאל שמעון" .
+
+<http://data.judaicalink.org/data/footprints/8b8a9f93-b7c0-5231-9287-da9ce2b15fd4> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2282" ;
+    dcterms:created "2024-03-14T13:21:57.767964"^^xsd:dateTime ;
+    skos:prefLabel "צבי יעקב בריזל" ;
+    foaf:name "צבי יעקב בריזל" .
+
+<http://data.judaicalink.org/data/footprints/8da343b7-de0b-5acf-ad91-4de98a5086c8> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2121" ;
+    dcterms:created "2024-03-14T13:22:09.544137"^^xsd:dateTime ;
+    skos:prefLabel "שלם, שמואל בן עמנואל" ;
+    foaf:name "שלם, שמואל בן עמנואל" .
+
+<http://data.judaicalink.org/data/footprints/8fb07119-f256-50b1-a4a9-3dc31d131f3e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9048" ;
+    dcterms:created "2024-03-14T13:21:47.001442"^^xsd:dateTime ;
+    skos:prefLabel "ניסים בן יעקב מקירואן" ;
+    foaf:name "ניסים בן יעקב מקירואן" .
+
+<http://data.judaicalink.org/data/footprints/90318d7c-2324-5ba4-9a15-e040240fcadc> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/353" ;
+    dcterms:created "2024-03-14T13:22:06.575851"^^xsd:dateTime ;
+    skos:prefLabel "ר' שמואל" ;
+    foaf:name "ר' שמואל" .
+
+<http://data.judaicalink.org/data/footprints/91a95c5d-9a98-5df0-a882-f0c789ed4bf9> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2178" ;
+    dcterms:created "2024-03-14T13:21:46.585808"^^xsd:dateTime ;
+    skos:prefLabel "נחמן ישראל הכהן מארייאסין" ;
+    foaf:name "נחמן ישראל הכהן מארייאסין" .
+
+<http://data.judaicalink.org/data/footprints/91ec2770-d326-558a-baf6-3eef6fe7f4d5> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/259" ;
+    dcterms:created "2024-03-14T13:22:12.388956"^^xsd:dateTime ;
+    skos:prefLabel "שמואל זנוויל" ;
+    foaf:name "שמואל זנוויל" .
+
+<http://data.judaicalink.org/data/footprints/92fb7e4e-3ae0-58f0-906a-4bf5860d836e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/261" ;
+    dcterms:created "2024-03-14T13:22:05.238739"^^xsd:dateTime ;
+    skos:prefLabel "ר' ליכטענשטיין" ;
+    foaf:name "ר' ליכטענשטיין" .
+
+<http://data.judaicalink.org/data/footprints/93e0d761-54ab-53c7-a90b-aa0993e98d08> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2404" ;
+    dcterms:created "2024-03-14T13:21:57.936472"^^xsd:dateTime ;
+    skos:prefLabel "ציוני, מנחם בן מאיר" ;
+    foaf:name "ציוני, מנחם בן מאיר" .
+
+<http://data.judaicalink.org/data/footprints/946c46f8-38af-50e0-b432-dd246c2ba2e5> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7778" ;
+    dcterms:created "2024-03-14T13:21:38.925351"^^xsd:dateTime ;
+    skos:prefLabel "מולכו, שלמה" ;
+    foaf:name "מולכו, שלמה" .
+
+<http://data.judaicalink.org/data/footprints/954e7ece-4512-5258-8459-fc570acded19> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4175" ;
+    dcterms:created "2024-03-14T13:21:45.756768"^^xsd:dateTime ;
+    skos:prefLabel "משה קואי" ;
+    foaf:name "משה קואי" .
+
+<http://data.judaicalink.org/data/footprints/955a71fa-82cd-5529-9cd6-13c4f993f70a> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1564" ;
+    dcterms:created "2024-03-14T13:21:59.475493"^^xsd:dateTime ;
+    skos:prefLabel "קורדוברו, משה בן" ;
+    foaf:name "קורדוברו, משה בן" .
+
+<http://data.judaicalink.org/data/footprints/98bb6849-dcb9-5276-af88-79e4745f8fde> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2387" ;
+    dcterms:created "2024-03-14T13:21:49.236880"^^xsd:dateTime ;
+    skos:prefLabel "עדני, שלום בן סעדיה מזרחי" ;
+    foaf:name "עדני, שלום בן סעדיה מזרחי" .
+
+<http://data.judaicalink.org/data/footprints/999e1c74-6ef1-56df-a569-350d9489a9ad> a gndo:Work ;
+    gndo:associatedPlace "Amsterdam" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/e587008b-77b9-593d-8182-dfb9d6c81136" ;
+    gndo:dateOfPublication "1717" ;
+    gndo:formerOwner "Baer, Samuel (Kramer)",
+        "Brüll, Nehemias",
+        "Moises Arron",
+        "University Library Frankfurt am Main",
+        "Ya'aqov bar Avigdor" ;
+    gndo:language "Yiddish" ;
+    gndo:owner "University Library Frankfurt am Main" ;
+    jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000024259&tab=default_tab&search_scope=ULY&vid=ULY&lang=en_US&offset=0&fromRedirectFilter=true" ;
+    jl:hasAbstract "" ;
+    dc:publisher "http://data.judaicalink.org/data/footprints/39912e3c-3cb7-5c31-a152-c91d00f15dfc" ;
+    dc:title "Abir Ya'akov" ;
+    dcterms:created "2024-03-14T13:22:21.087582"^^xsd:dateTime ;
+    skos:prefLabel "Abir Ya'akov" .
+
+<http://data.judaicalink.org/data/footprints/99c7bbcf-e27d-57b9-8546-8bcf3558d0b1> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7843" ;
+    dcterms:created "2024-03-14T13:21:51.364141"^^xsd:dateTime ;
+    skos:prefLabel "פאנו, מנחם עזריה בן יצחק ברכיה" ;
+    foaf:name "פאנו, מנחם עזריה בן יצחק ברכיה" .
+
+<http://data.judaicalink.org/data/footprints/9a296853-4f6e-516d-894a-b915ce6345d1> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4685" ;
+    dcterms:created "2024-03-14T13:21:42.130530"^^xsd:dateTime ;
+    skos:prefLabel "מרדכי יצ''ו בכמ''ר יצחק" ;
+    foaf:name "מרדכי יצ''ו בכמ''ר יצחק" .
+
+<http://data.judaicalink.org/data/footprints/9a51085a-aeaf-518d-b1ff-dcf599223376> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4663" ;
+    dcterms:created "2024-03-14T13:21:40.846832"^^xsd:dateTime ;
+    skos:prefLabel "מצליח יצ''ו מ' יינוטי (?)" ;
+    foaf:name "מצליח יצ''ו מ' יינוטי (?)" .
+
+<http://data.judaicalink.org/data/footprints/9ade4fa2-8cff-56c1-b8dd-8e3246e09363> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4684" ;
+    dcterms:created "2024-03-14T13:21:54.969491"^^xsd:dateTime ;
+    skos:prefLabel "פנחס רפאל [כמהר''ר] אלעזר יצ''ו" ;
+    foaf:name "פנחס רפאל [כמהר''ר] אלעזר יצ''ו" .
+
+<http://data.judaicalink.org/data/footprints/9b1f607a-08cc-5792-a145-fbb0ab98ed81> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4304" ;
+    dcterms:created "2024-03-14T13:22:11.062664"^^xsd:dateTime ;
+    skos:prefLabel "שלמה עמר יז" ;
+    foaf:name "שלמה עמר יז" .
+
+<http://data.judaicalink.org/data/footprints/9bb5668d-5f4c-5bf8-b809-8c586eff2569> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7768" ;
+    dcterms:created "2024-03-14T13:21:45.028479"^^xsd:dateTime ;
+    skos:prefLabel "משה בן מימון (רמב\"ם)" ;
+    foaf:name "משה בן מימון (רמב\"ם)" .
+
+<http://data.judaicalink.org/data/footprints/9c23ebf7-1fd6-5a04-954e-2cd976ccd0e7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4252" ;
+    dcterms:created "2024-03-14T13:22:13.286358"^^xsd:dateTime ;
+    skos:prefLabel "שמואל שאול דוויך הכהן" ;
+    foaf:name "שמואל שאול דוויך הכהן" .
+
+<http://data.judaicalink.org/data/footprints/9c627fca-f8db-5043-993f-6cb79ae2d08f> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9593" ;
+    dcterms:created "2024-03-14T13:22:10.448490"^^xsd:dateTime ;
+    skos:prefLabel "שלמה זלמן אפטרוד, משה גמבורג" ;
+    foaf:name "שלמה זלמן אפטרוד, משה גמבורג" .
+
+<http://data.judaicalink.org/data/footprints/9c70db5f-b07a-5230-9d9f-96b5101b5fe7> a foaf:Person ;
+    jl:describedAt "None",
+        "https://viaf.org/viaf/200249036/" ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:24:08.710996"^^xsd:dateTime ;
+    skos:prefLabel "Elijah ben Solomon Abraham, ha-Kohen" ;
+    foaf:name "Elijah ben Solomon Abraham, ha-Kohen" .
+
+<http://data.judaicalink.org/data/footprints/9c7d35af-a759-57f3-b67f-dccab53442b9> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2342" ;
+    dcterms:created "2024-03-14T13:21:49.385462"^^xsd:dateTime ;
+    skos:prefLabel "עזריאל בחור מווילנא" ;
+    foaf:name "עזריאל בחור מווילנא" .
+
+<http://data.judaicalink.org/data/footprints/9ca6bd40-e5b2-5308-bbc1-039f92388e83> a gndo:Work ;
+    gndo:associatedPlace "Darn Firmed",
+        "דיהרן פארט" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/46136ea7-b05f-5460-8191-2a5c0f069ff1",
+        "http://data.judaicalink.org/data/footprints/ded51eeb-6cb6-5b01-b610-89fc1f61bc64" ;
+    gndo:dateOfPublication "1693" ;
+    gndo:formerOwner "Shmuel Zanvill Segel (Samuel Levy), of Balbronn" ;
+    gndo:language "Hebrew" ;
+    gndo:owner "Shmuel Zanvill Segel (Samuel Levy), of Balbronn" ;
+    jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000109979&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
+    jl:hasAbstract "Subtitle: ..." ;
+    dc:publisher "http://data.judaicalink.org/data/footprints/7948b9e1-fbf4-58ba-9722-1f72c213a74c" ;
+    dc:title "Ahavat Olam" ;
+    dcterms:created "2024-03-14T13:26:55.169531"^^xsd:dateTime ;
+    skos:prefLabel "Ahavat Olam" .
+
+<http://data.judaicalink.org/data/footprints/9df7f0be-0bfd-5f16-93d1-854a6dedc452> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7889" ;
+    dcterms:created "2024-03-14T13:21:58.825615"^^xsd:dateTime ;
+    skos:prefLabel "קולון, יוסף בן שלמה (מהרי\"ק)" ;
+    foaf:name "קולון, יוסף בן שלמה (מהרי\"ק)" .
+
+<http://data.judaicalink.org/data/footprints/9fb88e81-5f03-50a8-aef4-45e7d3d4d0d9> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/383" ;
+    dcterms:created "2024-03-14T13:22:05.609879"^^xsd:dateTime ;
+    skos:prefLabel "ר’ נפתלי הירש ב\"ר בנימן וואלף, לובלין" ;
+    foaf:name "ר’ נפתלי הירש ב\"ר בנימן וואלף, לובלין" .
+
+<http://data.judaicalink.org/data/footprints/9fe2a79b-c0aa-5391-92e2-176570f6a072> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2477" ;
+    dcterms:created "2024-03-14T13:21:52.910002"^^xsd:dateTime ;
+    skos:prefLabel "פייבל פרימרור" ;
+    foaf:name "פייבל פרימרור" .
+
+<http://data.judaicalink.org/data/footprints/a09a4516-1458-5b1a-be38-727e1f0c56bd> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1464" ;
+    dcterms:created "2024-03-14T13:22:03.311351"^^xsd:dateTime ;
+    skos:prefLabel "‫  רוזאניס, יהודה בן שמואל" ;
+    foaf:name "‫  רוזאניס, יהודה בן שמואל" .
+
+<http://data.judaicalink.org/data/footprints/a25925df-3279-5f25-8c6f-042e95e22839> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7824" ;
+    dcterms:created "2024-03-14T13:21:43.958038"^^xsd:dateTime ;
+    skos:prefLabel "משה בן יעקב מקוצי" ;
+    foaf:name "משה בן יעקב מקוצי" .
+
+<http://data.judaicalink.org/data/footprints/a2eb3b6c-86ca-5c3b-b451-edcd1329c4b9> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7871" ;
+    dcterms:created "2024-03-14T13:21:59.518666"^^xsd:dateTime ;
+    skos:prefLabel "קוריאל, ישראל בן מאיר די" ;
+    foaf:name "קוריאל, ישראל בן מאיר די" .
+
+<http://data.judaicalink.org/data/footprints/a38ef6bc-a3be-51c7-b951-a42c6b205e9f> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7790" ;
+    dcterms:created "2024-03-14T13:21:42.796189"^^xsd:dateTime ;
+    skos:prefLabel "משה בן אהרן מנשה" ;
+    foaf:name "משה בן אהרן מנשה" .
+
+<http://data.judaicalink.org/data/footprints/a4a872f0-a294-5b73-9b1d-53db30eed11d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6014" ;
+    dcterms:created "2024-03-14T13:22:10.866640"^^xsd:dateTime ;
+    skos:prefLabel "שלמה כוצנו" ;
+    foaf:name "שלמה כוצנו" .
+
+<http://data.judaicalink.org/data/footprints/a567fce2-4b00-5012-a8f8-9fbb5695b8fb> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9687" ;
+    dcterms:created "2024-03-14T13:21:55.728147"^^xsd:dateTime ;
+    owl:sameAs "http://d-nb.info/gnd/104203390",
+        "https://viaf.org/viaf/15201968/" ;
+    skos:prefLabel "פרדו, דוד בן יעקב" ;
+    foaf:name "פרדו, דוד בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/a73ee72e-a581-5f1c-86f6-a9d26325d7c5> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7784" ;
+    dcterms:created "2024-03-14T13:21:49.323903"^^xsd:dateTime ;
+    skos:prefLabel "עוזר בן מאיר מקלימנטוב" ;
+    foaf:name "עוזר בן מאיר מקלימנטוב" .
+
+<http://data.judaicalink.org/data/footprints/a814aabd-abcd-5642-a22d-c54b2a446500> a gndo:Work ;
+    gndo:associatedPlace "Thessaloniki",
+        "Venice" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/bd6a0056-87f6-5a89-a1e8-4e1a84cdcb6d" ;
+    gndo:compiler "http://data.judaicalink.org/data/footprints/bd6a0056-87f6-5a89-a1e8-4e1a84cdcb6d" ;
+    gndo:dateOfPublication "1522",
+        "1546 - 1547",
+        "1565",
+        "1572 - 1573" ;
+    gndo:ditor "http://data.judaicalink.org/data/footprints/78b16c15-8945-5a9c-81b4-625fb40f1d7f" ;
+    gndo:formerOwner "Aaron Moses Pontremoli ",
+        "Annenberg Research Institute",
+        "Avraham ben Moshe Conziyo",
+        "Barukh (Barukh Hayyim) Almanzi",
+        "Biblioteca Pontificia Antoniana, Padua",
+        "Bodleian Library, Oxford",
+        "Brandeis University Library",
+        "British Library",
+        "Chaim Meiselman",
+        "Columbia University Libraries",
+        "Dropsie College Library",
+        "Estate of John Selden",
+        "Franciscus Panolus",
+        "Giuseppe Almanzi",
+        "Gloucester Cathedral Library",
+        "Jacob ben Tsevi Hirsch Emden",
+        "John Selden",
+        "Ludwig Blau",
+        "Mayer Sulzberger",
+        "Moshe Balnasi",
+        "Moshe Yarak",
+        "Oppenheim, David b. Abraham",
+        "Rachel",
+        "Shelomoh (ben?) Shim'on",
+        "Temple Emanu-el",
+        "The Library of The Jewish Theological Seminary",
+        "The Library of the Katz Center for Advanced Judaic Studies",
+        "University of Glasgow",
+        "Ya'akov Yisrael Levenshtam",
+        "Yitzhak Raphael Finzi" ;
+    gndo:language "Aramaic",
+        "Hebrew" ;
+    gndo:owner "Biblioteca Pontificia Antoniana, Padua",
+        "Bodleian Library, Oxford",
+        "Brandeis University Library",
+        "British Library",
+        "Chaim Meiselman",
+        "Columbia University Libraries",
+        "Gloucester Cathedral Library",
+        "Rachel",
+        "The Library of the Katz Center for Advanced Judaic Studies",
+        "University of Glasgow" ;
+    gndo:printer "http://data.judaicalink.org/data/footprints/63925f45-10a8-54da-a4ed-023f8a4bbba5",
+        "http://data.judaicalink.org/data/footprints/9168efbc-dceb-52e2-b21a-b39592632001",
+        "http://data.judaicalink.org/data/footprints/b66cd2ed-ca2a-54d1-b153-a483f40bbf2d" ;
+    jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000156150&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000156183&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000156184&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000156185&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
+    jl:hasAbstract "" ;
+    dc:publisher "http://data.judaicalink.org/data/footprints/48604806-9d6e-5444-8e20-85d58a7a15f8",
+        "http://data.judaicalink.org/data/footprints/b66cd2ed-ca2a-54d1-b153-a483f40bbf2d" ;
+    dc:title "'Aḳedat Yitsḥaḳ" ;
+    dcterms:created "2024-03-14T13:27:03.071394"^^xsd:dateTime ;
+    skos:prefLabel "'Aḳedat Yitsḥaḳ" .
+
+<http://data.judaicalink.org/data/footprints/a9be6d11-d0bb-5623-8fd8-e9ec5e2d15ac> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6046" ;
+    dcterms:created "2024-03-14T13:21:55.891235"^^xsd:dateTime ;
+    skos:prefLabel "‫  פרחיה, חסדאי בן שמואל הכהן" ;
+    foaf:name "‫  פרחיה, חסדאי בן שמואל הכהן" .
+
+<http://data.judaicalink.org/data/footprints/ab2f120d-b5e4-5a21-884c-93de8a8e0779> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/251" ;
+    dcterms:created "2024-03-14T13:22:02.062315"^^xsd:dateTime ;
+    skos:prefLabel "ר’ אברהם גדילייא" ;
+    foaf:name "ר’ אברהם גדילייא" .
+
+<http://data.judaicalink.org/data/footprints/ad04e671-8fbd-55aa-a3c0-ea3fdd29681e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7800" ;
+    dcterms:created "2024-03-14T13:21:45.099277"^^xsd:dateTime ;
+    skos:prefLabel "משה בן נחמן (רמב\"ן) מיוחס לו" ;
+    foaf:name "משה בן נחמן (רמב\"ן) מיוחס לו" .
+
+<http://data.judaicalink.org/data/footprints/ae26b83c-5352-5638-b1c2-68b2f7c452a7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/322" ;
+    dcterms:created "2024-03-14T13:21:41.338499"^^xsd:dateTime ;
+    skos:prefLabel "מרדכי" ;
+    foaf:name "מרדכי" .
+
+<http://data.judaicalink.org/data/footprints/aeca3ef9-a40c-5930-bfdd-aa47bd9f92a6> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4290" ;
+    dcterms:created "2024-03-14T13:22:04.191272"^^xsd:dateTime ;
+    skos:prefLabel "ר׳ חנוך ירק" ;
+    foaf:name "ר׳ חנוך ירק" .
+
+<http://data.judaicalink.org/data/footprints/af2bd007-2dc4-5af4-bea0-abf8a4aba6e7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2097" ;
+    dcterms:created "2024-03-14T13:21:40.794927"^^xsd:dateTime ;
+    skos:prefLabel "מנחם עזריה מפאנו" ;
+    foaf:name "מנחם עזריה מפאנו" .
+
+<http://data.judaicalink.org/data/footprints/af7c6a9d-c21f-5312-8191-1ec8f218a73f> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9079" ;
+    dcterms:created "2024-03-14T13:21:38.897321"^^xsd:dateTime ;
+    skos:prefLabel "מודינה, יהודה אריה בן יצחק" ;
+    foaf:name "מודינה, יהודה אריה בן יצחק" .
+
+<http://data.judaicalink.org/data/footprints/b0877d5b-0690-516f-bec0-685663f607ca> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1942" ;
+    dcterms:created "2024-03-14T13:22:10.327936"^^xsd:dateTime ;
+    skos:prefLabel "שלמה בן משה מחלמא" ;
+    foaf:name "שלמה בן משה מחלמא" .
+
+<http://data.judaicalink.org/data/footprints/b08ec6d7-2923-55d3-b0c9-a76f337b914b> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2323" ;
+    dcterms:created "2024-03-14T13:21:45.675711"^^xsd:dateTime ;
+    skos:prefLabel "משה עשיר בן יעקב" ;
+    foaf:name "משה עשיר בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/b1044cb3-b4f9-5765-9b84-d37c44385114> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5160" ;
+    dcterms:created "2024-03-14T13:21:45.217698"^^xsd:dateTime ;
+    skos:prefLabel "משה חיים לויא" ;
+    foaf:name "משה חיים לויא" .
+
+<http://data.judaicalink.org/data/footprints/b140c138-075a-548c-b8ef-c2eea7c38918> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9342" ;
+    dcterms:created "2024-03-14T13:21:47.895421"^^xsd:dateTime ;
+    owl:sameAs "http://d-nb.info/gnd/1037574370",
+        "https://viaf.org/viaf/304948843/" ;
+    skos:prefLabel "נפתלי הירץ לוי רופא" ;
+    foaf:name "נפתלי הירץ לוי רופא" .
+
+<http://data.judaicalink.org/data/footprints/b14206f0-2b73-5152-947c-8e20ab2eb113> a gndo:Work ;
+    gndo:associatedPlace "Białystok" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/76235d42-0fdc-5a37-9041-46919ee67e18" ;
+    gndo:dateOfPublication "1824" ;
+    gndo:formerOwner "Russian State Library",
+        "Yosef Yitzhak Schneerson (Sixth Lubavicher Rebbe)" ;
+    gndo:language "Hebrew" ;
+    gndo:owner "Russian State Library" ;
+    jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000149479&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
+    dc:title "Agudat ezov" ;
+    dcterms:created "2024-03-14T13:24:09.281048"^^xsd:dateTime ;
+    skos:prefLabel "Agudat ezov" .
+
+<http://data.judaicalink.org/data/footprints/b1c10fd2-a2c9-5af2-bf1d-53acb2e6e641> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4152" ;
+    dcterms:created "2024-03-14T13:22:02.716193"^^xsd:dateTime ;
+    skos:prefLabel """ר׳ אליעזר יזייא משה
+and ר' ר״ס""" ;
+    foaf:name """ר׳ אליעזר יזייא משה
+and ר' ר״ס""" .
+
+<http://data.judaicalink.org/data/footprints/b2183576-00a5-55a8-a13f-47f36262e54e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7729" ;
+    dcterms:created "2024-03-14T13:22:02.923060"^^xsd:dateTime ;
+    skos:prefLabel "רבינו בן אליהו מקאסטוריה" ;
+    foaf:name "רבינו בן אליהו מקאסטוריה" .
+
+<http://data.judaicalink.org/data/footprints/b30288a0-aa0f-5052-bcd3-7004f8394f63> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4140" ;
+    dcterms:created "2024-03-14T13:21:40.259667"^^xsd:dateTime ;
+    skos:prefLabel "מנחם" ;
+    foaf:name "מנחם" .
+
+<http://data.judaicalink.org/data/footprints/b3e50a1b-9225-54ef-9f20-08c8c72bf9aa> a gndo:Work ;
+    gndo:associatedPlace "Venice",
+        "Warsaw" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/4eb1b105-e026-51dc-a5ba-88ed04c43b6b" ;
+    gndo:dateOfPublication "1576",
+        "1851" ;
+    gndo:formerOwner "Mattityahu Strashun",
+        "Russian State Library",
+        "Strashun Library, Vilna",
+        "YIVO NY",
+        "Yosef Yitzhak Schneerson (Sixth Lubavicher Rebbe)" ;
+    gndo:language "Hebrew" ;
+    gndo:owner "Russian State Library",
+        "YIVO NY" ;
+    jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000176956&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://merhav.nli.org.il/primo-explore/search?query=any,contains,176956&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://search.worldcat.org/de/title/754791625" ;
+    jl:hasAbstract "",
+        "Subtitle: חברו החכם ... שמואל אריפול נרו, ועשאו כמו מבוא ופתח תקוה ליתר חבוריו וספריו... אשר אמר שמואל לדרוש ולתור ... ויאמר להביא בזה הספר מלא קומצו מלא כף נחת. אז בנה את המלוא בנין אב לכולם וכוללות כונתם בפרקי זה הספר דריש סמוכין. יבאר בכל פרק כיצד מהלכין...<br />BHB note: בסוף הקדמת הספר (דף ג,א) שיר מאת המחבר. פותח: שר שלום שוכן שמים, שמעה שיח שי שחרתיו (שם, ג, עמ' 510, מס' 2177)." ;
+    dc:publisher "http://data.judaicalink.org/data/footprints/b23c657f-6f4f-5dbd-933f-acdaee12c163" ;
+    dc:title "Agadat Shemu'el" ;
+    dcterms:created "2024-03-14T13:24:07.583414"^^xsd:dateTime ;
+    skos:prefLabel "Agadat Shemu'el" .
+
+<http://data.judaicalink.org/data/footprints/b48ff2eb-5552-5343-b7f6-9471913ef135> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7745" ;
+    dcterms:created "2024-03-14T13:22:10.789063"^^xsd:dateTime ;
+    skos:prefLabel "שלמה ישורון" ;
+    foaf:name "שלמה ישורון" .
+
+<http://data.judaicalink.org/data/footprints/b4f7fac5-ab07-508c-ad79-9a49d6e3942c> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/988" ;
+    dcterms:created "2024-03-14T13:22:09.663691"^^xsd:dateTime ;
+    skos:prefLabel "שלמה בן אברהם אבן אדרת" ;
+    foaf:name "שלמה בן אברהם אבן אדרת" .
+
+<http://data.judaicalink.org/data/footprints/b5b6fd70-e12a-58a0-ac40-0f04948b4780> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6020" ;
+    dcterms:created "2024-03-14T13:21:45.782278"^^xsd:dateTime ;
+    skos:prefLabel "משה שערטלן" ;
+    foaf:name "משה שערטלן" .
+
+<http://data.judaicalink.org/data/footprints/b5c4e250-0284-5d7a-8f65-85a4e4743b68> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9036" ;
+    dcterms:created "2024-03-14T13:21:40.154117"^^xsd:dateTime ;
+    skos:prefLabel "מילדולה, רפאל דוד בן חזקיהו" ;
+    foaf:name "מילדולה, רפאל דוד בן חזקיהו" .
+
+<http://data.judaicalink.org/data/footprints/b623dfaa-5034-54e7-8d6d-c7554153955a> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1971" ;
+    dcterms:created "2024-03-14T13:21:49.354465"^^xsd:dateTime ;
+    skos:prefLabel "עזריאל,אהרון בן עזריאל" ;
+    foaf:name "עזריאל,אהרון בן עזריאל" .
+
+<http://data.judaicalink.org/data/footprints/b77ac82f-e674-5cbf-a7d8-82f33fe758ba> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9680" ;
+    dcterms:created "2024-03-14T13:21:51.297145"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/299269592/" ;
+    skos:prefLabel "פאללאק, מאריץ" ;
+    foaf:name "פאללאק, מאריץ" .
+
+<http://data.judaicalink.org/data/footprints/b7f3f9ca-c328-55de-a79d-9dad9b29d298> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9078" ;
+    dcterms:created "2024-03-14T13:21:58.911606"^^xsd:dateTime ;
+    skos:prefLabel "קונציו, יוסף בן גרשום" ;
+    foaf:name "קונציו, יוסף בן גרשום" .
+
+<http://data.judaicalink.org/data/footprints/b8383962-8843-57d4-a118-3ba6f65e8df6> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7852" ;
+    dcterms:created "2024-03-14T13:21:52.807527"^^xsd:dateTime ;
+    skos:prefLabel "פופרש, מאיר בן יהודה ליב הכהן" ;
+    foaf:name "פופרש, מאיר בן יהודה ליב הכהן" .
+
+<http://data.judaicalink.org/data/footprints/b8f9204d-3a46-57e8-8911-0157dab2a92e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6478" ;
+    dcterms:created "2024-03-14T13:21:40.812456"^^xsd:dateTime ;
+    skos:prefLabel "מנשה בן יוסף מאיליא" ;
+    foaf:name "מנשה בן יוסף מאיליא" .
+
+<http://data.judaicalink.org/data/footprints/b91fceed-33a9-5050-b6c2-d2122355951b> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9609" ;
+    dcterms:created "2024-03-14T13:21:42.227510"^^xsd:dateTime ;
+    skos:prefLabel "מרסן, יעקב בן מאיר" ;
+    foaf:name "מרסן, יעקב בן מאיר" .
+
+<http://data.judaicalink.org/data/footprints/b9a8f8cc-878e-55b7-aa24-438488bf6dd7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1602" ;
+    dcterms:created "2024-03-14T13:22:02.872060"^^xsd:dateTime ;
+    skos:prefLabel "רבינוביץ, ישראל בן שלמה יעקב" ;
+    foaf:name "רבינוביץ, ישראל בן שלמה יעקב" .
+
+<http://data.judaicalink.org/data/footprints/b9a9e46c-f072-50c1-8359-135e54a80e27> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9743" ;
+    dcterms:created "2024-03-14T13:21:48.999336"^^xsd:dateTime ;
+    skos:prefLabel "סגל, חנוך בן צבי הירש" ;
+    foaf:name "סגל, חנוך בן צבי הירש" .
+
+<http://data.judaicalink.org/data/footprints/ba72611c-89bb-566e-a9f4-4260e70cc0ac> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/295" ;
+    dcterms:created "2024-03-14T13:22:03.067038"^^xsd:dateTime ;
+    skos:prefLabel "ר' ברוך (??)" ;
+    foaf:name "ר' ברוך (??)" .
+
+<http://data.judaicalink.org/data/footprints/bae38e61-4b1c-5cc9-90e8-9cdb714221a8> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2479" ;
+    dcterms:created "2024-03-14T13:22:10.573335"^^xsd:dateTime ;
+    skos:prefLabel "שלמה זלמן האויל" ;
+    foaf:name "שלמה זלמן האויל" .
+
+<http://data.judaicalink.org/data/footprints/bb0a1f3a-89b7-5417-9359-89448f8cbdd7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4150" ;
+    dcterms:created "2024-03-14T13:22:02.972006"^^xsd:dateTime ;
+    skos:prefLabel "רב מ׳ אוורבוך" ;
+    foaf:name "רב מ׳ אוורבוך" .
+
+<http://data.judaicalink.org/data/footprints/bbbe8a95-056c-5382-9c84-58a917e769de> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9077" ;
+    dcterms:created "2024-03-14T13:21:49.088969"^^xsd:dateTime ;
+    skos:prefLabel "סיד, יהודה בן מנוח" ;
+    foaf:name "סיד, יהודה בן מנוח" .
+
+<http://data.judaicalink.org/data/footprints/bceae259-12d2-5347-9fa4-a594ef455917> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9685" ;
+    dcterms:created "2024-03-14T13:21:58.375032"^^xsd:dateTime ;
+    skos:prefLabel "צירנדארף וזאממער" ;
+    foaf:name "צירנדארף וזאממער" .
+
+<http://data.judaicalink.org/data/footprints/bd6a0056-87f6-5a89-a1e8-4e1a84cdcb6d> a foaf:Person ;
+    jl:describedAt "http://d-nb.info/gnd/100971695",
+        "https://viaf.org/viaf/47119498/" ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:27:01.925288"^^xsd:dateTime ;
+    skos:prefLabel "Isaac ben Moses Arama" ;
+    foaf:name "Isaac ben Moses Arama" .
+
+<http://data.judaicalink.org/data/footprints/bd7faac7-83dc-51db-a239-699961b2d572> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1548" ;
+    dcterms:created "2024-03-14T13:21:59.890905"^^xsd:dateTime ;
+    skos:prefLabel "קמחי, יוסף" ;
+    foaf:name "קמחי, יוסף" .
+
+<http://data.judaicalink.org/data/footprints/bda6862a-cfc8-52a0-a2d0-e0dbc3926c4c> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4126" ;
+    dcterms:created "2024-03-14T13:22:02.767732"^^xsd:dateTime ;
+    skos:prefLabel "ר׳ אתיאל מרם (?)" ;
+    foaf:name "ר׳ אתיאל מרם (?)" .
+
+<http://data.judaicalink.org/data/footprints/bddb074f-0a2b-5e20-9713-00d054a98c01> a gndo:Work ;
+    gndo:associatedPlace "Francofurti ad Moenum",
+        "Frankfurt to Main" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/771be3fe-708e-5715-ac82-32660f067e41" ;
+    gndo:dateOfPublication "1721" ;
+    gndo:language "Aramaic",
+        "Hebrew",
+        "Yiddish" ;
+    jl:describedAt "https://search.worldcat.org/de/title/762348210" ;
+    jl:hasAbstract "Akdamot is a prominent liturgical poem (piyyut) written in Aramaic, by Rabbi Meir bar Yitzchak of Orléans in the late 11th century. The poem is an elaborately rhymed paean of praise for God, His Torah, and His people. To this day, Akdamot is recited in almost all Aschkenazic synagogues on the first day of Shavuot, at the beginning of the Torah reading. The printer Moses ben Kalman Speyer explains the reason for this minuscule volume on the first title page: “So that each one may carry it close to their bosom and not search endlessly [for the text, which was absent from most prayer books of the time.]” The edition also features an interlinear translation of the difficult poetic Aramaic into Yiddish, so that readers would fully understand the words they were reciting. To further enhance the desirability and functionality of this small volume, Speyer also included another text recited only on Shavuot - the Book of Ruth." ;
+    dc:publisher "http://data.judaicalink.org/data/footprints/85fe6c9f-5341-5d72-b504-0687a2652238" ;
+    dc:title "Akdamot Vegam Ruth" ;
+    dcterms:created "2024-03-14T13:27:01.092008"^^xsd:dateTime ;
+    skos:prefLabel "Akdamot Vegam Ruth" .
+
+<http://data.judaicalink.org/data/footprints/be712d59-757b-525f-9547-1434d467207f> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/10546" ;
+    dcterms:created "2024-03-14T13:21:42.167482"^^xsd:dateTime ;
+    skos:prefLabel "מרדכי נחמן ודוד ישראליג'ה" ;
+    foaf:name "מרדכי נחמן ודוד ישראליג'ה" .
+
+<http://data.judaicalink.org/data/footprints/bef8cddc-7a35-5514-94db-cb05f7dfe581> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7227" ;
+    dcterms:created "2024-03-14T13:22:16.421247"^^xsd:dateTime ;
+    skos:prefLabel "שניאורסון, שניאור זלמן" ;
+    foaf:name "שניאורסון, שניאור זלמן" .
+
+<http://data.judaicalink.org/data/footprints/c10735a1-529a-541a-8157-4e778ed6c237> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2076" ;
+    dcterms:created "2024-03-14T13:22:03.937624"^^xsd:dateTime ;
+    skos:prefLabel "רומנין, ישעיה בן יוסף" ;
+    foaf:name "רומנין, ישעיה בן יוסף" .
+
+<http://data.judaicalink.org/data/footprints/c136381f-e565-58b2-a1b1-baf9aced656d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4137" ;
+    dcterms:created "2024-03-14T13:21:42.672434"^^xsd:dateTime ;
+    skos:prefLabel "משה" ;
+    foaf:name "משה" .
+
+<http://data.judaicalink.org/data/footprints/c1442e37-6aa1-5f16-8b24-2b437bd25f14> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/347" ;
+    dcterms:created "2024-03-14T13:22:11.133421"^^xsd:dateTime ;
+    skos:prefLabel "שלמה פלעסנער" ;
+    foaf:name "שלמה פלעסנער" .
+
+<http://data.judaicalink.org/data/footprints/c1520824-5b42-55d9-9c40-76d0673d8220> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4278" ;
+    dcterms:created "2024-03-14T13:21:42.733829"^^xsd:dateTime ;
+    skos:prefLabel "משה בכר יהודה" ;
+    foaf:name "משה בכר יהודה" .
+
+<http://data.judaicalink.org/data/footprints/c1a3f50a-2ecf-5a63-9f14-656898057a81> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1852" ;
+    dcterms:created "2024-03-14T13:21:45.701707"^^xsd:dateTime ;
+    skos:prefLabel "משה פרנס מרוטנבורג" ;
+    foaf:name "משה פרנס מרוטנבורג" .
+
+<http://data.judaicalink.org/data/footprints/c1bed35e-501a-5a82-8e4e-9686c182dbe2> a gndo:Work ;
+    gndo:associatedPlace "Liuro",
+        "ליוורנו" ;
+    gndo:author "http://data.judaicalink.org/data/footprints/4ac0f251-59e8-515d-9470-813b877a0e76",
+        "http://data.judaicalink.org/data/footprints/fe04e5f7-d868-576a-bf8b-ff5ba9d13dbb" ;
+    gndo:dateOfPublication "1799" ;
+    gndo:formerOwner "Russian State Library",
+        "Yosef Yitzhak Schneerson (Sixth Lubavicher Rebbe)" ;
+    gndo:language "Hebrew" ;
+    gndo:owner "Russian State Library" ;
+    jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000108505&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
+        "https://search.worldcat.org/de/title/778249421" ;
+    jl:hasAbstract "Subtitle: ...דרושים לשבתות מצויינים ... תוכחות מוסר ... ומאמרי רזל ...<br />BHB note: מדף צד ואילך: דגל אהבה ... מפתחות ..." ;
+    dc:title "Ahavat David" ;
+    dcterms:created "2024-03-14T13:26:52.587338"^^xsd:dateTime ;
+    skos:prefLabel "Ahavat David" .
+
+<http://data.judaicalink.org/data/footprints/c1e3afe4-66f4-5fb9-9b62-f4868c05bb4f> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5455" ;
+    dcterms:created "2024-03-14T13:21:58.329596"^^xsd:dateTime ;
+    skos:prefLabel "צינץ, אריה ליב בן משה" ;
+    foaf:name "צינץ, אריה ליב בן משה" .
+
+<http://data.judaicalink.org/data/footprints/c1e5f1ca-a408-55f3-bf53-3131d70ade40> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2053" ;
+    dcterms:created "2024-03-14T13:22:15.991713"^^xsd:dateTime ;
+    skos:prefLabel "שמשון בר צדוק" ;
+    foaf:name "שמשון בר צדוק" .
+
+<http://data.judaicalink.org/data/footprints/c251cacf-f2c6-5e9a-b97f-09b57235789d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/382" ;
+    dcterms:created "2024-03-14T13:22:04.565456"^^xsd:dateTime ;
+    skos:prefLabel "ר’ יצחק ב\"ר זאב וואלף, קראקא" ;
+    foaf:name "ר’ יצחק ב\"ר זאב וואלף, קראקא" .
+
+<http://data.judaicalink.org/data/footprints/c29e8060-4990-5732-8931-97d1e6bff609> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6005" ;
+    dcterms:created "2024-03-14T13:22:16.733858"^^xsd:dateTime ;
+    skos:prefLabel "‫  שנייטוך, יוסף בן מאיר ‬" ;
+    foaf:name "‫  שנייטוך, יוסף בן מאיר ‬" .
+
+<http://data.judaicalink.org/data/footprints/c2c5ef9f-720b-5884-a8c3-2967b5d1808e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5713" ;
+    dcterms:created "2024-03-14T13:22:01.779024"^^xsd:dateTime ;
+    owl:sameAs "http://d-nb.info/gnd/1053284543",
+        "https://viaf.org/viaf/88359674/" ;
+    skos:prefLabel "‫  קצנלנבוגן, יחזקאל בן אברהם ‬" ;
+    foaf:name "‫  קצנלנבוגן, יחזקאל בן אברהם ‬" .
+
+<http://data.judaicalink.org/data/footprints/c315d4a8-438e-5708-88c6-6ea95a43bdc2> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2295" ;
+    dcterms:created "2024-03-14T13:21:38.935366"^^xsd:dateTime ;
+    skos:prefLabel "מולן, יעקב בן משה הלוי" ;
+    foaf:name "מולן, יעקב בן משה הלוי" .
+
+<http://data.judaicalink.org/data/footprints/c35df457-e232-5807-ad73-cd67664949be> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4270" ;
+    dcterms:created "2024-03-14T13:22:06.245024"^^xsd:dateTime ;
+    skos:prefLabel "רפאל לושיאנו" ;
+    foaf:name "רפאל לושיאנו" .
+
+<http://data.judaicalink.org/data/footprints/c460a3a7-d572-5a82-8508-1e5eac117e6d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7373" ;
+    dcterms:created "2024-03-14T13:21:54.875983"^^xsd:dateTime ;
+    skos:prefLabel "פלג'י, רחמים נסים יצחק בן חיים" ;
+    foaf:name "פלג'י, רחמים נסים יצחק בן חיים" .
+
+<http://data.judaicalink.org/data/footprints/c4a58135-f34a-53c2-8b2b-796f7817c1cd> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2360" ;
+    dcterms:created "2024-03-14T13:21:40.699086"^^xsd:dateTime ;
+    skos:prefLabel "מנחם מנדל בן אברהם" ;
+    foaf:name "מנחם מנדל בן אברהם" .
+
+<http://data.judaicalink.org/data/footprints/c53b6391-7cf4-53b9-a037-1b51dee12f80> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1510" ;
+    dcterms:created "2024-03-14T13:21:51.330633"^^xsd:dateTime ;
+    skos:prefLabel "פאנו, מנחם עזריה בן יצחק ברכיה" ;
+    foaf:name "פאנו, מנחם עזריה בן יצחק ברכיה" .
+
+<http://data.judaicalink.org/data/footprints/c7efbc91-6292-56ed-b8bc-53280da67820> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5065" ;
+    dcterms:created "2024-03-14T13:22:16.082592"^^xsd:dateTime ;
+    skos:prefLabel "שמשון צבי בן יצחק מלבוב" ;
+    foaf:name "שמשון צבי בן יצחק מלבוב" .
+
+<http://data.judaicalink.org/data/footprints/c8412e48-8029-5058-8cac-27a18f045aff> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7816" ;
+    dcterms:created "2024-03-14T13:21:50.535327"^^xsd:dateTime ;
+    skos:prefLabel "פאדובה, יוסף בן יעקב" ;
+    foaf:name "פאדובה, יוסף בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/c88eaabb-3e90-5d5c-b702-81524c4d67ff> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4476" ;
+    dcterms:created "2024-03-14T13:22:06.632838"^^xsd:dateTime ;
+    skos:prefLabel "שאול בכה\"ר אוריאל דירקנטי" ;
+    foaf:name "שאול בכה\"ר אוריאל דירקנטי" .
+
+<http://data.judaicalink.org/data/footprints/c8bb9213-3470-5dbd-9ff0-8d49e5d5f0af> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7806" ;
+    dcterms:created "2024-03-14T13:22:02.156396"^^xsd:dateTime ;
+    skos:prefLabel "ראובן בן אברהם הלוי" ;
+    foaf:name "ראובן בן אברהם הלוי" .
+
+<http://data.judaicalink.org/data/footprints/c9fb6961-4698-59e5-adcc-ca73ec57e300> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2057" ;
+    dcterms:created "2024-03-14T13:22:11.838237"^^xsd:dateTime ;
+    skos:prefLabel "שמואל בן דוד משה הלוי" ;
+    foaf:name "שמואל בן דוד משה הלוי" .
+
+<http://data.judaicalink.org/data/footprints/cb6b4661-2ead-5255-89b8-39b537d81468> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/253",
+        "https://footprints.ctl.columbia.edu/api/person/254" ;
+    dcterms:created "2024-03-14T13:21:40.746605"^^xsd:dateTime ;
+    skos:prefLabel "מנחם מענדל הלוי וואללמאן מוויערושאוו" ;
+    foaf:name "מנחם מענדל הלוי וואללמאן מוויערושאוו" .
+
+<http://data.judaicalink.org/data/footprints/cb99bb99-00d0-5e64-90a4-7465051b26f1> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/352" ;
+    dcterms:created "2024-03-14T13:22:03.114401"^^xsd:dateTime ;
+    skos:prefLabel "ר' גימפריך (?)" ;
+    foaf:name "ר' גימפריך (?)" .
+
+<http://data.judaicalink.org/data/footprints/cbdaaa1c-0bce-52ce-bade-69bc435f58fd> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2181" ;
+    dcterms:created "2024-03-14T13:22:17.297877"^^xsd:dateTime ;
+    skos:prefLabel "שפירא, גרשון מנחם מנדל בן יהודה ליב" ;
+    foaf:name "שפירא, גרשון מנחם מנדל בן יהודה ליב" .
+
+<http://data.judaicalink.org/data/footprints/cc714186-6b7d-515a-a95f-08c946669fca> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9044" ;
+    dcterms:created "2024-03-14T13:21:49.264902"^^xsd:dateTime ;
+    skos:prefLabel "עובדיה בן אברהם הלוי" ;
+    foaf:name "עובדיה בן אברהם הלוי" .
+
+<http://data.judaicalink.org/data/footprints/cc8fc0eb-fe78-5e24-8821-4c42a65dae2e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4151" ;
+    dcterms:created "2024-03-14T13:22:05.398135"^^xsd:dateTime ;
+    skos:prefLabel "ר׳ מענדל לאנדסבערג" ;
+    foaf:name "ר׳ מענדל לאנדסבערג" .
+
+<http://data.judaicalink.org/data/footprints/cd64e5d4-4c48-55ee-a077-eb8b8d5381cb> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9549" ;
+    dcterms:created "2024-03-14T13:21:43.362378"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/181155104014176201681/" ;
+    skos:prefLabel "משה בן בנימין וואלף" ;
+    foaf:name "משה בן בנימין וואלף" .
+
+<http://data.judaicalink.org/data/footprints/ceb345a0-d49b-5767-aaae-c9fee9d23c87> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9488" ;
+    dcterms:created "2024-03-14T13:21:45.145883"^^xsd:dateTime ;
+    skos:prefLabel "משה בענדין" ;
+    foaf:name "משה בענדין" .
+
+<http://data.judaicalink.org/data/footprints/cf128070-ad36-5e01-a386-cdd0ccfddafd> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7793" ;
+    dcterms:created "2024-03-14T13:21:50.393860"^^xsd:dateTime ;
+    skos:prefLabel "עקריש, יצחק בן אברהם" ;
+    foaf:name "עקריש, יצחק בן אברהם" .
+
+<http://data.judaicalink.org/data/footprints/cf3cef7d-791a-52f9-893e-d6e4f09ac894> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9406",
+        "https://footprints.ctl.columbia.edu/api/person/9421" ;
+    dcterms:created "2024-03-14T13:21:38.990116"^^xsd:dateTime ;
+    skos:prefLabel "מייא" ;
+    foaf:name "מייא" .
+
+<http://data.judaicalink.org/data/footprints/cf5b020c-c728-5371-8988-925f152553d0> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7812" ;
+    dcterms:created "2024-03-14T13:21:51.900658"^^xsd:dateTime ;
+    skos:prefLabel "פאריצול, אברהם בן מרדכי" ;
+    foaf:name "פאריצול, אברהם בן מרדכי" .
+
+<http://data.judaicalink.org/data/footprints/cf93dbe3-7002-5495-a3a6-760d6a45d3d3> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7274" ;
+    dcterms:created "2024-03-14T13:22:10.513780"^^xsd:dateTime ;
+    skos:prefLabel "שלמה זלמן בן דוד" ;
+    foaf:name "שלמה זלמן בן דוד" .
+
+<http://data.judaicalink.org/data/footprints/cfb89ba0-584e-5e5b-8c49-529f1f0354d4> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4133" ;
+    dcterms:created "2024-03-14T13:21:40.313856"^^xsd:dateTime ;
+    skos:prefLabel "מנחם ברוך" ;
+    foaf:name "מנחם ברוך" .
+
+<http://data.judaicalink.org/data/footprints/d016e954-9d60-5855-88c3-331bf7592469> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5656" ;
+    dcterms:created "2024-03-14T13:21:56.833374"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/299477002/" ;
+    skos:prefLabel "פרידברג, שמואל בן זליגמן" ;
+    foaf:name "פרידברג, שמואל בן זליגמן" .
+
+<http://data.judaicalink.org/data/footprints/d1ce43ee-2109-55b4-9cdf-737923c38ef7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7788" ;
+    dcterms:created "2024-03-14T13:21:43.406490"^^xsd:dateTime ;
+    skos:prefLabel "משה בן יהודה ממינסק" ;
+    foaf:name "משה בן יהודה ממינסק" .
+
+<http://data.judaicalink.org/data/footprints/d20b5e49-7297-5ffd-a57f-a7d708c9ac3f> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4176" ;
+    dcterms:created "2024-03-14T13:22:05.557199"^^xsd:dateTime ;
+    skos:prefLabel "ר׳ נחם במ׳ דוד" ;
+    foaf:name "ר׳ נחם במ׳ דוד" .
+
+<http://data.judaicalink.org/data/footprints/d34af620-3949-5634-8474-32f5efb38345> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4306" ;
+    dcterms:created "2024-03-14T13:21:40.273651"^^xsd:dateTime ;
+    skos:prefLabel "מנחם אשכם" ;
+    foaf:name "מנחם אשכם" .
+
+<http://data.judaicalink.org/data/footprints/d3e0905f-a5a5-5a9b-97af-fe50cb62ebf2> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6073" ;
+    dcterms:created "2024-03-14T13:21:49.118968"^^xsd:dateTime ;
+    skos:prefLabel "סיניגאליא, יעקב שמשון שבתי בן רפאל יששכר" ;
+    foaf:name "סיניגאליא, יעקב שמשון שבתי בן רפאל יששכר" .
+
+<http://data.judaicalink.org/data/footprints/d428d1d3-8627-5314-994d-a8c379ca9080> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7885" ;
+    dcterms:created "2024-03-14T13:22:16.620336"^^xsd:dateTime ;
+    skos:prefLabel "שניאור פייבוש בן מנחם מאנוש מבולחוב" ;
+    foaf:name "שניאור פייבוש בן מנחם מאנוש מבולחוב" .
+
+<http://data.judaicalink.org/data/footprints/d4c85981-6b28-55c7-9d3d-c791a753890a> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7776" ;
+    dcterms:created "2024-03-14T13:22:10.204385"^^xsd:dateTime ;
+    skos:prefLabel "שלמה בן יצחק (רש\"י)" ;
+    foaf:name "שלמה בן יצחק (רש\"י)" .
+
+<http://data.judaicalink.org/data/footprints/d5a5f198-4fd9-52ed-aefe-c75647dbbe66> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5704" ;
+    dcterms:created "2024-03-14T13:21:40.139549"^^xsd:dateTime ;
+    owl:sameAs "http://d-nb.info/gnd/142502529",
+        "https://viaf.org/viaf/44190157/" ;
+    skos:prefLabel "‫  מילדולה, רפאל בן אלעזר ‬" ;
+    foaf:name "‫  מילדולה, רפאל בן אלעזר ‬" .
+
+<http://data.judaicalink.org/data/footprints/d69fb083-5d69-5836-9104-d6d2c166aaa7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4142" ;
+    dcterms:created "2024-03-14T13:22:04.403903"^^xsd:dateTime ;
+    skos:prefLabel "ר יצחק" ;
+    foaf:name "ר יצחק" .
+
+<http://data.judaicalink.org/data/footprints/d78ac485-f259-5caa-9a66-85a3729dd6a8> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4215" ;
+    dcterms:created "2024-03-14T13:22:03.162839"^^xsd:dateTime ;
+    skos:prefLabel "ר׳ דוד מונייון" ;
+    foaf:name "ר׳ דוד מונייון" .
+
+<http://data.judaicalink.org/data/footprints/d80b13c2-951b-5f1b-8fd3-fd1c69965ee5> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4705" ;
+    dcterms:created "2024-03-14T13:21:57.720455"^^xsd:dateTime ;
+    skos:prefLabel "צבי יעקב?" ;
+    foaf:name "צבי יעקב?" .
+
+<http://data.judaicalink.org/data/footprints/d918d299-111a-5cca-8e96-b7ebb0dd29e4> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4467" ;
+    dcterms:created "2024-03-14T13:22:10.386479"^^xsd:dateTime ;
+    skos:prefLabel "שלמה בן נעמן" ;
+    foaf:name "שלמה בן נעמן" .
+
+<http://data.judaicalink.org/data/footprints/da0e67c9-c80d-5529-9431-95b144915324> a foaf:Person ;
+    jl:describedAt "http://d-nb.info/gnd/123480876",
+        "https://viaf.org/viaf/90887056/" ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:26:56.304581"^^xsd:dateTime ;
+    skos:prefLabel "Jonathan Eybeschutz" ;
+    foaf:name "Jonathan Eybeschutz" .
+
+<http://data.judaicalink.org/data/footprints/da186744-0340-5010-b158-7ff1c9dae833> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7858" ;
+    dcterms:created "2024-03-14T13:21:40.246650"^^xsd:dateTime ;
+    skos:prefLabel "מנדלסזון, משה בן מנחם" ;
+    foaf:name "מנדלסזון, משה בן מנחם" .
+
+<http://data.judaicalink.org/data/footprints/db459759-3f0f-52cd-a00c-d46259aef027> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7818" ;
+    dcterms:created "2024-03-14T13:22:04.242729"^^xsd:dateTime ;
+    skos:prefLabel "ריאיטי, חנניה אליקים בן עשהאל רפאל" ;
+    foaf:name "ריאיטי, חנניה אליקים בן עשהאל רפאל" .
+
+<http://data.judaicalink.org/data/footprints/dc1dd8d8-9506-51a9-a75f-c751fbf12cd6> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/552" ;
+    dcterms:created "2024-03-14T13:21:42.148506"^^xsd:dateTime ;
+    skos:prefLabel "\"מרדכי ליאון בן הרבמשה ליאון\"" ;
+    foaf:name "\"מרדכי ליאון בן הרבמשה ליאון\"" .
+
+<http://data.judaicalink.org/data/footprints/dd436078-3fda-5c3a-92bc-1a9199756b0f> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4288" ;
+    dcterms:created "2024-03-14T13:21:45.269593"^^xsd:dateTime ;
+    skos:prefLabel "משה מאיר" ;
+    foaf:name "משה מאיר" .
+
+<http://data.judaicalink.org/data/footprints/dde58b1a-fb79-59c6-bd40-e709e0fabf2c> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9041" ;
+    dcterms:created "2024-03-14T13:21:58.505278"^^xsd:dateTime ;
+    skos:prefLabel "קאליר, אלעזר בן אלעזר" ;
+    foaf:name "קאליר, אלעזר בן אלעזר" .
+
+<http://data.judaicalink.org/data/footprints/ded0d39c-3123-5b42-b814-588f64a44f4d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9509" ;
+    dcterms:created "2024-03-14T13:21:46.971435"^^xsd:dateTime ;
+    skos:prefLabel "ניימרק" ;
+    foaf:name "ניימרק" .
+
+<http://data.judaicalink.org/data/footprints/ded51eeb-6cb6-5b01-b610-89fc1f61bc64> a foaf:Person ;
+    jl:describedAt "http://d-nb.info/gnd/129555126",
+        "https://viaf.org/viaf/6014438/" ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:26:53.379618"^^xsd:dateTime ;
+    skos:prefLabel "Solomon ben Abraham Algazi" ;
+    foaf:name "Solomon ben Abraham Algazi" .
+
+<http://data.judaicalink.org/data/footprints/df38a211-d8cb-5b53-a2e5-3ac30f62824e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/386" ;
+    dcterms:created "2024-03-14T13:22:04.511422"^^xsd:dateTime ;
+    skos:prefLabel "ר’ יצחק ב\"ר אברהם, פוזנן, ב אדר-ב ת\"ם" ;
+    foaf:name "ר’ יצחק ב\"ר אברהם, פוזנן, ב אדר-ב ת\"ם" .
+
+<http://data.judaicalink.org/data/footprints/df71cc39-9c74-526f-a0aa-555f8eab1363> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1395" ;
+    dcterms:created "2024-03-14T13:21:40.300858"^^xsd:dateTime ;
+    skos:prefLabel "מנחם בן אהרן" ;
+    foaf:name "מנחם בן אהרן" .
+
+<http://data.judaicalink.org/data/footprints/e0b90a64-2fc7-57cb-a8c7-3bd4d115e3c3> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9650" ;
+    dcterms:created "2024-03-14T13:21:55.116015"^^xsd:dateTime ;
+    skos:prefLabel "פראנץ לעפאלד נייאמאן" ;
+    foaf:name "פראנץ לעפאלד נייאמאן" .
+
+<http://data.judaicalink.org/data/footprints/e126f9ef-0de0-58eb-ab88-dfc116d6f536> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9179" ;
+    dcterms:created "2024-03-14T13:21:42.247259"^^xsd:dateTime ;
+    skos:prefLabel "מרת פריידכי בלאָך" ;
+    foaf:name "מרת פריידכי בלאָך" .
+
+<http://data.judaicalink.org/data/footprints/e16f62f7-0f7a-5f53-b8a2-bf5e546846dd> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2348",
+        "https://footprints.ctl.columbia.edu/api/person/7021" ;
+    dcterms:created "2024-03-14T13:21:54.724169"^^xsd:dateTime ;
+    skos:prefLabel "פינטו, יאשיהו בן יוסף" ;
+    foaf:name "פינטו, יאשיהו בן יוסף" .
+
+<http://data.judaicalink.org/data/footprints/e24c392c-d44d-5d15-9314-ae7642328e30> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1396" ;
+    dcterms:created "2024-03-14T13:21:38.944930"^^xsd:dateTime ;
+    skos:prefLabel "מושה בן מימון" ;
+    foaf:name "מושה בן מימון" .
+
+<http://data.judaicalink.org/data/footprints/e267f84e-f88e-5df1-860e-2ceef37769d0> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7892" ;
+    dcterms:created "2024-03-14T13:22:01.043383"^^xsd:dateTime ;
+    skos:prefLabel "קצבי, יוסף" ;
+    foaf:name "קצבי, יוסף" .
+
+<http://data.judaicalink.org/data/footprints/e2d85e78-e1ce-5b57-ad6d-5e7521b283f0> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2171" ;
+    dcterms:created "2024-03-14T13:21:59.345870"^^xsd:dateTime ;
+    skos:prefLabel "קוק, אברהם יצחק הכהן" ;
+    foaf:name "קוק, אברהם יצחק הכהן" .
+
+<http://data.judaicalink.org/data/footprints/e4f76edc-5cf8-5224-8717-e563e6758312> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7821" ;
+    dcterms:created "2024-03-14T13:22:00.530651"^^xsd:dateTime ;
+    skos:prefLabel "קמחי, משה בן יוסף" ;
+    foaf:name "קמחי, משה בן יוסף" .
+
+<http://data.judaicalink.org/data/footprints/e587008b-77b9-593d-8182-dfb9d6c81136> a foaf:Person ;
+    jl:describedAt "http://d-nb.info/gnd/136644309",
+        "https://viaf.org/viaf/80953870/" ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:22:20.866965"^^xsd:dateTime ;
+    skos:prefLabel "Shimʿon ʿAḳivah Ber Ben-Yosef" ;
+    foaf:name "Shimʿon ʿAḳivah Ber Ben-Yosef" .
+
+<http://data.judaicalink.org/data/footprints/e58c98ab-150f-5afd-a3a4-949ecdc04558> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5653" ;
+    dcterms:created "2024-03-14T13:22:00.486650"^^xsd:dateTime ;
+    owl:sameAs "http://d-nb.info/gnd/1020503823",
+        "https://viaf.org/viaf/71183333/" ;
+    skos:prefLabel "קמחי, יעקב בן שמואל" ;
+    foaf:name "קמחי, יעקב בן שמואל" .
+
+<http://data.judaicalink.org/data/footprints/e7666bc5-746f-5c2b-8a1a-d30359ff39ff> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1042" ;
+    dcterms:created "2024-03-14T13:21:47.122734"^^xsd:dateTime ;
+    skos:prefLabel "נפתלי בן יצחק הכהן ‬" ;
+    foaf:name "נפתלי בן יצחק הכהן ‬" .
+
+<http://data.judaicalink.org/data/footprints/e7ffc081-5ff0-542a-ae43-806635570da2> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9595" ;
+    dcterms:created "2024-03-14T13:22:16.522780"^^xsd:dateTime ;
+    skos:prefLabel "שניאור פיבוש בן יעקב" ;
+    foaf:name "שניאור פיבוש בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/e839058e-d317-5acb-a334-bc0ddef71662> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2984" ;
+    dcterms:created "2024-03-14T13:21:41.302476"^^xsd:dateTime ;
+    skos:prefLabel "מרגליות, אפרים זלמן בן מנחם מאנוש" ;
+    foaf:name "מרגליות, אפרים זלמן בן מנחם מאנוש" .
+
+<http://data.judaicalink.org/data/footprints/e8d3e020-f811-502a-a34a-9e08b0acd179> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7623" ;
+    dcterms:created "2024-03-14T13:21:56.956071"^^xsd:dateTime ;
+    skos:prefLabel "פרלוב, שלום בן ברוך מרדכי" ;
+    foaf:name "פרלוב, שלום בן ברוך מרדכי" .
+
+<http://data.judaicalink.org/data/footprints/e908d1f9-e193-5247-819c-2f2ff7adbf8b> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7877" ;
+    dcterms:created "2024-03-14T13:21:57.808962"^^xsd:dateTime ;
+    skos:prefLabel "צהלון, יעקב בן יצחק" ;
+    foaf:name "צהלון, יעקב בן יצחק" .
+
+<http://data.judaicalink.org/data/footprints/ea8f974b-2d5a-5f68-a37f-bc88d72cca66> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7879" ;
+    dcterms:created "2024-03-14T13:21:40.167310"^^xsd:dateTime ;
+    skos:prefLabel "מיליו-מוסקאט, יוסף בן משה" ;
+    foaf:name "מיליו-מוסקאט, יוסף בן משה" .
+
+<http://data.judaicalink.org/data/footprints/eb25451d-c65c-5f52-9193-d34aa49237f6> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5719" ;
+    dcterms:created "2024-03-14T13:22:09.479129"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/73715381/" ;
+    skos:prefLabel "‫  שלטון, משה בן יעקב ‬" ;
+    foaf:name "‫  שלטון, משה בן יעקב ‬" .
+
+<http://data.judaicalink.org/data/footprints/eb3c68a3-aaa7-58fd-803d-0dc1cd44fa98> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6078" ;
+    dcterms:created "2024-03-14T13:21:40.193388"^^xsd:dateTime ;
+    skos:prefLabel "מינץ, משה" ;
+    foaf:name "מינץ, משה" .
+
+<http://data.judaicalink.org/data/footprints/eb5e2c91-d615-581f-8838-8ab02289cf47> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4171" ;
+    dcterms:created "2024-03-14T13:21:40.286866"^^xsd:dateTime ;
+    skos:prefLabel "מנחם בכמ׳ יואב אלייא" ;
+    foaf:name "מנחם בכמ׳ יואב אלייא" .
+
+<http://data.judaicalink.org/data/footprints/eb83aecb-f528-5b1b-a678-f9d2be5a24a9> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/96" ;
+    dcterms:created "2024-03-14T13:21:51.844136"^^xsd:dateTime ;
+    skos:prefLabel "פארינצו, מאיר בן יעקב" ;
+    foaf:name "פארינצו, מאיר בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/ec95f269-3cfe-59d7-9b55-e107ed3cdca5> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7863" ;
+    dcterms:created "2024-03-14T13:21:52.055595"^^xsd:dateTime ;
+    skos:prefLabel "פוסטל, גיום" ;
+    foaf:name "פוסטל, גיום" .
+
+<http://data.judaicalink.org/data/footprints/ec98378f-cff0-56e1-a756-1e24a91de27e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1547",
+        "https://footprints.ctl.columbia.edu/api/person/1554" ;
+    dcterms:created "2024-03-14T13:21:44.980471"^^xsd:dateTime ;
+    skos:prefLabel "משה בן מימון" ;
+    foaf:name "משה בן מימון" .
+
+<http://data.judaicalink.org/data/footprints/ed3af7c3-b670-5d3a-877c-6920195c970a> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2302" ;
+    dcterms:created "2024-03-14T13:21:43.979966"^^xsd:dateTime ;
+    skos:prefLabel "משה בן יצחק הלוי מפשוורסק" ;
+    foaf:name "משה בן יצחק הלוי מפשוורסק" .
+
+<http://data.judaicalink.org/data/footprints/edd3e0ed-af1e-577c-8f09-61277c4f5df9> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9491" ;
+    dcterms:created "2024-03-14T13:21:57.850966"^^xsd:dateTime ;
+    skos:prefLabel "צחק בן אהרן" ;
+    foaf:name "צחק בן אהרן" .
+
+<http://data.judaicalink.org/data/footprints/efe15b7e-570b-516a-b25d-41bf7d481085> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6468" ;
+    dcterms:created "2024-03-14T13:21:47.153256"^^xsd:dateTime ;
+    skos:prefLabel "נפתלי בר מנשה" ;
+    foaf:name "נפתלי בר מנשה" .
+
+<http://data.judaicalink.org/data/footprints/f03bdff9-1797-51c7-8740-672a7204076c> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1619" ;
+    dcterms:created "2024-03-14T13:22:14.702216"^^xsd:dateTime ;
+    skos:prefLabel "שמעון בן יוחאי" ;
+    foaf:name "שמעון בן יוחאי" .
+
+<http://data.judaicalink.org/data/footprints/f03f2828-0ab1-52f5-9db8-8e9cf2f9f6ff> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/10601" ;
+    dcterms:created "2024-03-14T13:21:45.884087"^^xsd:dateTime ;
+    skos:prefLabel "נדפס על ידי יצחק בן אברהם די לה פינייא" ;
+    foaf:name "נדפס על ידי יצחק בן אברהם די לה פינייא" .
+
+<http://data.judaicalink.org/data/footprints/f0b602ad-31fe-5197-8c1b-8e10a481555d> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7226" ;
+    dcterms:created "2024-03-14T13:22:02.821737"^^xsd:dateTime ;
+    skos:prefLabel "רבינוביץ, אריה בן יעקב" ;
+    foaf:name "רבינוביץ, אריה בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/f0e1a0e5-acd4-5cb6-a14f-a1f30df0caac> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7725" ;
+    dcterms:created "2024-03-14T13:22:14.873244"^^xsd:dateTime ;
+    skos:prefLabel "שמעון בן שמואל" ;
+    foaf:name "שמעון בן שמואל" .
+
+<http://data.judaicalink.org/data/footprints/f16f4cfa-5ef5-5e4f-9bf0-6e37061aa01c> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7880" ;
+    dcterms:created "2024-03-14T13:21:44.003959"^^xsd:dateTime ;
+    skos:prefLabel "משה בן יקר אשכנזי" ;
+    foaf:name "משה בן יקר אשכנזי" .
+
+<http://data.judaicalink.org/data/footprints/f2d95b34-4106-510a-b9db-18d18ab6f794> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4678" ;
+    dcterms:created "2024-03-14T13:22:07.443059"^^xsd:dateTime ;
+    skos:prefLabel "שבתי בכ''ר דוד" ;
+    foaf:name "שבתי בכ''ר דוד" .
+
+<http://data.judaicalink.org/data/footprints/f45615c6-6e0a-58b2-8dff-cd21622047fe> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5976" ;
+    dcterms:created "2024-03-14T13:21:39.013472"^^xsd:dateTime ;
+    skos:prefLabel "מייזילש, עוזיאל בן צבי" ;
+    foaf:name "מייזילש, עוזיאל בן צבי" .
+
+<http://data.judaicalink.org/data/footprints/f4820e25-8ec6-5aa1-9ebb-cacbe7dc0902> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7791" ;
+    dcterms:created "2024-03-14T13:21:47.924409"^^xsd:dateTime ;
+    skos:prefLabel "נתן בן מאיר מקרומנוי" ;
+    foaf:name "נתן בן מאיר מקרומנוי" .
+
+<http://data.judaicalink.org/data/footprints/f5ae3231-bb08-5923-bcb5-56aec7d99d8e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9555" ;
+    dcterms:created "2024-03-14T13:21:47.032435"^^xsd:dateTime ;
+    skos:prefLabel "נכרי יהודא בק" ;
+    foaf:name "נכרי יהודא בק" .
+
+<http://data.judaicalink.org/data/footprints/f66b7ac5-06fa-564b-ad77-13ce967ab702> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5703" ;
+    dcterms:created "2024-03-14T13:21:57.595267"^^xsd:dateTime ;
+    owl:sameAs "None",
+        "https://viaf.org/viaf/308265515/" ;
+    skos:prefLabel "פשיברום, מרדכי בן יעקב" ;
+    foaf:name "פשיברום, מרדכי בן יעקב" .
+
+<http://data.judaicalink.org/data/footprints/f67cb18d-a125-5f59-9787-6386b26db6a4> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1600" ;
+    dcterms:created "2024-03-14T13:22:03.989204"^^xsd:dateTime ;
+    skos:prefLabel "רופא, חייא" ;
+    foaf:name "רופא, חייא" .
+
+<http://data.judaicalink.org/data/footprints/f7792dab-f20c-59cc-85eb-cafa33286c72> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5054" ;
+    dcterms:created "2024-03-14T13:22:03.019017"^^xsd:dateTime ;
+    skos:prefLabel "רבקה שעשועי" ;
+    foaf:name "רבקה שעשועי" .
+
+<http://data.judaicalink.org/data/footprints/f8f08125-04bd-5052-96b6-2a9f6c4bc349> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7175" ;
+    dcterms:created "2024-03-14T13:21:54.801715"^^xsd:dateTime ;
+    skos:prefLabel "פינלש, צבי מנחם בן שלמה" ;
+    foaf:name "פינלש, צבי מנחם בן שלמה" .
+
+<http://data.judaicalink.org/data/footprints/f9ea3d07-ae6e-58e1-8b79-a95f354d8a5e> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4300" ;
+    dcterms:created "2024-03-14T13:22:05.451082"^^xsd:dateTime ;
+    skos:prefLabel "ר משה מארייו" ;
+    foaf:name "ר משה מארייו" .
+
+<http://data.judaicalink.org/data/footprints/f9eb387e-666e-5faa-88df-d89a7aa82d1c> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7772" ;
+    dcterms:created "2024-03-14T13:22:07.321494"^^xsd:dateTime ;
+    skos:prefLabel "(שאלתיאל צורי ואליעזר הלוי)" ;
+    foaf:name "(שאלתיאל צורי ואליעזר הלוי)" .
+
+<http://data.judaicalink.org/data/footprints/fa6fa5b0-4724-59a7-8ba4-728c172dc9ba> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2120" ;
+    dcterms:created "2024-03-14T13:22:05.029737"^^xsd:dateTime ;
+    skos:prefLabel "ריש" ;
+    foaf:name "ריש" .
+
+<http://data.judaicalink.org/data/footprints/fa8a43a3-e18c-5a06-a3ec-375aaee0eaec> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2444" ;
+    dcterms:created "2024-03-14T13:22:16.170618"^^xsd:dateTime ;
+    skos:prefLabel "שניאור זלמן בן ברוך מלאדי" ;
+    foaf:name "שניאור זלמן בן ברוך מלאדי" .
+
+<http://data.judaicalink.org/data/footprints/fa92b6b9-1bfd-545b-859a-d89bdf76aa48> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4292" ;
+    dcterms:created "2024-03-14T13:22:14.974299"^^xsd:dateTime ;
+    skos:prefLabel "שמעון חיים ירק" ;
+    foaf:name "שמעון חיים ירק" .
+
+<http://data.judaicalink.org/data/footprints/fa92d5c8-8358-5236-90c4-cc7d14096262> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4234" ;
+    dcterms:created "2024-03-14T13:22:05.291830"^^xsd:dateTime ;
+    skos:prefLabel "ר מאיר טורקלן" ;
+    foaf:name "ר מאיר טורקלן" .
+
+<http://data.judaicalink.org/data/footprints/fad295e8-f667-5f11-b9c6-73e33e344528> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4272" ;
+    dcterms:created "2024-03-14T13:22:02.205332"^^xsd:dateTime ;
+    skos:prefLabel "ראובן הכהן" ;
+    foaf:name "ראובן הכהן" .
+
+<http://data.judaicalink.org/data/footprints/fb336a50-e75f-54ad-a922-007f347a7dc7> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7202" ;
+    dcterms:created "2024-03-14T13:22:17.589024"^^xsd:dateTime ;
+    skos:prefLabel "שפירא, רפאל ישראל איסר בן דב בר" ;
+    foaf:name "שפירא, רפאל ישראל איסר בן דב בר" .
+
+<http://data.judaicalink.org/data/footprints/fcd691e3-d188-5b18-8994-3cece59a31dd> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1374" ;
+    dcterms:created "2024-03-14T13:22:07.880306"^^xsd:dateTime ;
+    skos:prefLabel "שבתי בן מאיר כ״ץ" ;
+    foaf:name "שבתי בן מאיר כ״ץ" .
+
+<http://data.judaicalink.org/data/footprints/fd13e662-99c2-5881-9509-ec7c3ad0a8fb> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1668" ;
+    dcterms:created "2024-03-14T13:22:03.361366"^^xsd:dateTime ;
+    skos:prefLabel "רוזנפלד, יחיאל בן נתן הלוי" ;
+    foaf:name "רוזנפלד, יחיאל בן נתן הלוי" .
+
+<http://data.judaicalink.org/data/footprints/fe04e5f7-d868-576a-bf8b-ff5ba9d13dbb> a foaf:Person ;
+    jl:occupation "Author" ;
+    dcterms:created "2024-03-14T13:26:50.586585"^^xsd:dateTime ;
+    skos:prefLabel "אזולאי, חיים יוסף דוד בן רפאל יצחק זרחיה" ;
+    foaf:name "אזולאי, חיים יוסף דוד בן רפאל יצחק זרחיה" .
+
+<http://data.judaicalink.org/data/footprints/ff389a97-3b7f-5db3-875b-7d9951586f38> a foaf:Person ;
+    jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9050" ;
+    dcterms:created "2024-03-14T13:22:12.465963"^^xsd:dateTime ;
+    skos:prefLabel "שמואל זנוויל בן בנימין וולף מוורמייזה" ;
+    foaf:name "שמואל זנוויל בן בנימין וולף מוורמייזה" .
+
