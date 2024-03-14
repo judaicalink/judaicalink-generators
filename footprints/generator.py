@@ -8,24 +8,24 @@ cd060@hdm-stuttgart.de
 
 import requests
 import json
-import pprint
-from bs4 import BeautifulSoup
-import unicodedata
+# import unicodedata
 from rdflib.namespace import RDF, XSD
 from datetime import datetime
 from rdflib import Namespace, URIRef, Graph, Literal
 import re
 from edtf import parse_edtf
 from tqdm import tqdm
-import urllib.parse
+# import urllib.parse
 import langid
 import googletrans
 from googletrans import *
 import uuid
 import hashlib
-import threading
-import time
-
+# import threading
+# import time
+import gzip
+import shutil
+import os
 
 '''
 def track_time():
@@ -35,6 +35,27 @@ def track_time():
         counted_time += 1
         print(f"Zeit seit Beginn: {counted_time} Minuten")
 '''
+
+
+
+def zip_file(file_path):
+    """
+    Zips file
+    :param str file_path: path to file to be zipped
+    :return: zipped file 
+    :rtype: .gz file
+
+    """
+    if not os.path.exists(file_path):
+        print(f'file "{file_path}" does not exist.')
+        return
+    gz_file_path = file_path + ".gz"
+    with open(file_path, 'rb') as f_in, gzip.open(gz_file_path, 'wb') as f_out:
+        shutil.copyfileobj(f_in, f_out)
+    
+    print(f"Zipping {gz_file_path} succeeded.")
+
+
 
 def generate_hashUU(name):
     """
@@ -212,7 +233,7 @@ def createGraph():
     :rtype: ttl
     
     """
-    p_page = 600
+    p_page = 610
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}    # simulate a browser request
 #get person from persons
@@ -298,7 +319,7 @@ def createGraph():
             print(f"last page loaded: page {p_page - 1}")
             break
 
-    b_page = 1
+    b_page = 550
     '''
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -532,7 +553,7 @@ def createGraph():
                                 graph.add((URIRef(uri), foaf.name, (Literal(higher_geo_unit_1, datatype = XSD.string))))
                                 graph.add((URIRef(uri), skos.prefLabel, (Literal(higher_geo_unit_1, datatype = XSD.string))))
                                 if len(canonical_name) > 2:
-                                    graph.add((URIRef(uri), gndo.hierarchicalSuperiorOfPlaceOrGeographicName, (Literal(higher_geo_unit_2))))
+                                    graph.add((URIRef(uri), gndo.hierarchicalSuperiorOfPlaceOrGeographicName, (Literal(higher_geo_unit_1))))
                                 graph.serialize(destination=file_name, format="turtle")  
                             higher_geo_names.append(higher_geo_unit_1)
                             add_creation_date(graph, uri)
@@ -565,3 +586,5 @@ def createGraph():
 
 
 createGraph()
+
+zip_file(file_name)
