@@ -1,6 +1,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
 @prefix jl: <http://data.judaicalink.org/ontology/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -10,43 +11,43 @@
 
 <http://data.judaicalink.org/data/footprints/0126af6c-26c8-5e4a-8ded-2c435a1296aa> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7287" ;
-    dcterms:created "2024-03-14T13:47:53.138600"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.401162"^^xsd:dateTime ;
     skos:prefLabel "קורדוברו, משה" ;
     foaf:name "קורדוברו, משה" .
 
 <http://data.judaicalink.org/data/footprints/03759f82-601e-5f45-adb2-a682f52c5c73> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1386" ;
-    dcterms:created "2024-03-14T13:47:52.670798"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.924946"^^xsd:dateTime ;
     skos:prefLabel "קונפורטי, שמואל בן מרדכי" ;
     foaf:name "קונפורטי, שמואל בן מרדכי" .
 
 <http://data.judaicalink.org/data/footprints/0566e8e0-4097-57e5-a04e-322eb066a7f8> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:12.641987"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:19.163274"^^xsd:dateTime ;
     skos:prefLabel "Israel ben Benjamin, of Przemysl" ;
     foaf:name "Israel ben Benjamin, of Przemysl" .
 
 <http://data.judaicalink.org/data/footprints/06241396-84a1-5480-8b3d-dfe5a6fc8f8e> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/384" ;
-    dcterms:created "2024-03-14T13:47:57.817175"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.661260"^^xsd:dateTime ;
     skos:prefLabel "ר’ ישראל ב\"ר שמואל מטרנאפאל, לויצק" ;
     foaf:name "ר’ ישראל ב\"ר שמואל מטרנאפאל, לויצק" .
 
 <http://data.judaicalink.org/data/footprints/068851f1-e838-53e7-84f1-0b9e0133fa5a> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1671" ;
-    dcterms:created "2024-03-14T13:47:52.581281"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.850202"^^xsd:dateTime ;
     skos:prefLabel "קאראוואליו, מרדכי ברוך" ;
     foaf:name "קאראוואליו, מרדכי ברוך" .
 
 <http://data.judaicalink.org/data/footprints/06cd7734-c6a7-56a6-8c55-4932dd7c5332> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2131" ;
-    dcterms:created "2024-03-14T13:47:57.084725"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.978944"^^xsd:dateTime ;
     skos:prefLabel "רחמים נסים יצחק פלאג'י" ;
     foaf:name "רחמים נסים יצחק פלאג'י" .
 
 <http://data.judaicalink.org/data/footprints/06da2715-b10c-585d-af0f-63d9dbe7cc66> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/3026" ;
-    dcterms:created "2024-03-14T13:47:52.469708"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.759241"^^xsd:dateTime ;
     skos:prefLabel "קאהוט, חנוך יהודה בן ישראל" ;
     foaf:name "קאהוט, חנוך יהודה בן ישראל" .
 
@@ -61,12 +62,12 @@
     gndo:owner "Library of the Hungarian Academy of Sciences" ;
     dc:publisher "http://data.judaicalink.org/data/footprints/8aaaf25c-ecf7-5e10-888e-756be2c64cc9" ;
     dc:title "בקסה ותפלות : נתיסדו ... על פי גאוני ... מנטובה אות אחר בקסאלי במצור ... תפלה אחת מצענו במחשר ישן כ״י נוסדה בהיות בולונייא במצור, ווד שליה א, שנתקנה בקסאלי את מצור ." ;
-    dcterms:created "2024-03-14T13:49:25.115534"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:25.531801"^^xsd:dateTime ;
     skos:prefLabel "בקסה ותפלות : נתיסדו ... על פי גאוני ... מנטובה אות אחר בקסאלי במצור ... תפלה אחת מצענו במחשר ישן כ״י נוסדה בהיות בולונייא במצור, ווד שליה א, שנתקנה בקסאלי את מצור ." .
 
 <http://data.judaicalink.org/data/footprints/07473a3e-b3f9-57f4-9c55-93304c42ca1d> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2140" ;
-    dcterms:created "2024-03-14T13:47:47.350972"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:56.436516"^^xsd:dateTime ;
     skos:prefLabel "פולק, גבריאל בן יצחק איזק" ;
     foaf:name "פולק, גבריאל בן יצחק איזק" .
 
@@ -75,18 +76,16 @@
     gndo:gndIdentifier "16167464-1" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Hesse" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.012641e+01 ;
-    jl:lon 8.92831e+00 ;
-    dcterms:created "2024-03-14T13:49:47.767208"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:48.462741"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +8.92831 +50.126412)" ;
     skos:prefLabel "Hanau-Neustadt"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/07638119-43bc-517c-831c-e2d645d6c1ff> a gndo:PlaceOrGeographicName ;
     rdfs:label "Spain" ;
     gndo:gndIdentifier "4116060-5" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4e+01 ;
-    jl:lon -4e+00 ;
-    dcterms:created "2024-03-14T13:49:46.799523"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:47.461776"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +-4.0 +40.0)" ;
     skos:prefLabel "Spain"^^xsd:string ;
     foaf:name "Spain"^^xsd:string .
 
@@ -94,7 +93,7 @@
     gndo:gndIdentifier "1242668527" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Bratislavský kraj" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:40.345858"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:40.946252"^^xsd:dateTime ;
     skos:prefLabel "Bratislavský kraj"^^xsd:string ;
     foaf:name "Bratislavský kraj"^^xsd:string .
 
@@ -103,50 +102,49 @@
     gndo:gndIdentifier "4001783-7" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "North Holland" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.237403e+01 ;
-    jl:lon 4.88969e+00 ;
-    dcterms:created "2024-03-14T13:49:34.745924"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:35.539539"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +4.88969 +52.37403)" ;
     skos:prefLabel "Amsterdam"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/0a5e5ba2-6e26-5028-a16f-321bcf05a283> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4291" ;
-    dcterms:created "2024-03-14T13:47:59.082758"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:07.723530"^^xsd:dateTime ;
     skos:prefLabel "ר שלמה בלאניס" ;
     foaf:name "ר שלמה בלאניס" .
 
 <http://data.judaicalink.org/data/footprints/0afd91ea-88ac-57c3-92dd-d5fcfad7c5d5> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4191" ;
-    dcterms:created "2024-03-14T13:47:57.178799"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.061292"^^xsd:dateTime ;
     skos:prefLabel "ר יהודה ו ריונה זיל" ;
     foaf:name "ר יהודה ו ריונה זיל" .
 
 <http://data.judaicalink.org/data/footprints/0b472d59-f741-5f6e-958a-26211ff071af> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/249" ;
-    dcterms:created "2024-03-14T13:47:59.040837"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:07.691884"^^xsd:dateTime ;
     skos:prefLabel "ר’ רפאל חיים סופינו" ;
     foaf:name "ר’ רפאל חיים סופינו" .
 
 <http://data.judaicalink.org/data/footprints/0b98ebdc-6794-541b-b1c6-dd9b4df0e2c5> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7770" ;
-    dcterms:created "2024-03-14T13:47:53.349229"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.603374"^^xsd:dateTime ;
     skos:prefLabel "קמחי, דוד בן יוסף (רד\"ק)" ;
     foaf:name "קמחי, דוד בן יוסף (רד\"ק)" .
 
 <http://data.judaicalink.org/data/footprints/0e5bc1f5-07bb-59ac-8e45-90870ea89082> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1438" ;
-    dcterms:created "2024-03-14T13:47:56.327268"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.330799"^^xsd:dateTime ;
     skos:prefLabel "‫  רובין, דוד טבל בן משה" ;
     foaf:name "‫  רובין, דוד טבל בן משה" .
 
 <http://data.judaicalink.org/data/footprints/0f947111-65f0-53c5-9147-ec2a11566ad1> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4309" ;
-    dcterms:created "2024-03-14T13:47:57.990866"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.809688"^^xsd:dateTime ;
     skos:prefLabel "ר מאיר יזיי״א פרון" ;
     foaf:name "ר מאיר יזיי״א פרון" .
 
 <http://data.judaicalink.org/data/footprints/0fae6b77-a938-5c09-84f3-1d2612304bfc> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4882" ;
-    dcterms:created "2024-03-14T13:48:04.956552"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:12.539147"^^xsd:dateTime ;
     skos:prefLabel "שמואל ברוך בורגו" ;
     foaf:name "שמואל ברוך בורגו" .
 
@@ -154,13 +152,13 @@
     jl:describedAt "None",
         "https://viaf.org/viaf/66330848/" ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:11.205033"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:18.940664"^^xsd:dateTime ;
     skos:prefLabel "Yaakov Ibn Nayim" ;
     foaf:name "Yaakov Ibn Nayim" .
 
 <http://data.judaicalink.org/data/footprints/109ac9d9-ad0e-5d60-86b8-027303855860> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5510" ;
-    dcterms:created "2024-03-14T13:47:55.191892"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:04.410353"^^xsd:dateTime ;
     skos:prefLabel "קצנלנבוגן, משה בן אלעזר חיים ממזריטש" ;
     foaf:name "קצנלנבוגן, משה בן אלעזר חיים ממזריטש" .
 
@@ -168,13 +166,13 @@
     gndo:gndIdentifier "1224773780" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Auvergne-Rhône-Alpes" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:00.874094"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:00.400044"^^xsd:dateTime ;
     skos:prefLabel "Auvergne-Rhône-Alpes"^^xsd:string ;
     foaf:name "Auvergne-Rhône-Alpes"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/11046ae1-c36d-5277-9f0b-c2a00c63a9ae> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5683" ;
-    dcterms:created "2024-03-14T13:47:47.958521"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:57.195825"^^xsd:dateTime ;
     owl:sameAs "http://d-nb.info/gnd/132169223",
         "https://viaf.org/viaf/45455107/" ;
     skos:prefLabel "‫ פופרש, יעקב בן בנימין הכהן ‬" ;
@@ -185,14 +183,13 @@
     gndo:gndIdentifier "4035206-7" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Saxony" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.13397e+01 ;
-    jl:lon 1.237308e+01 ;
-    dcterms:created "2024-03-14T13:49:55.686201"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:56.423189"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +12.373075 +51.339696)" ;
     skos:prefLabel "Leipzig"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/11cdd045-7bf1-52e7-89c0-6cdbcde815ff> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9741" ;
-    dcterms:created "2024-03-14T13:48:06.404260"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:13.984651"^^xsd:dateTime ;
     owl:sameAs "http://d-nb.info/gnd/130352462",
         "https://viaf.org/viaf/8491329/" ;
     skos:prefLabel "שמיד, אנטון" ;
@@ -200,7 +197,7 @@
 
 <http://data.judaicalink.org/data/footprints/122b49f5-191e-5d52-b89b-f33883983ff4> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5959" ;
-    dcterms:created "2024-03-14T13:47:52.624270"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.888578"^^xsd:dateTime ;
     skos:prefLabel "קוידר, שמואל ליב בן דוד" ;
     foaf:name "קוידר, שמואל ליב בן דוד" .
 
@@ -209,9 +206,8 @@
     gndo:gndIdentifier "5148587-4" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lower Silesia" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.127299e+01 ;
-    jl:lon 1.670815e+01 ;
-    dcterms:created "2024-03-14T13:49:41.453008"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:42.076881"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +16.70815 +51.27299)" ;
     skos:prefLabel "Brzeg Dolny"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/12f6360f-4601-5a50-9348-dbef30b63de2> a gndo:PlaceOrGeographicName ;
@@ -219,9 +215,8 @@
     gndo:gndIdentifier "4010700-0" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lombardy" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.513325e+01 ;
-    jl:lon 1.002265e+01 ;
-    dcterms:created "2024-03-14T13:49:42.165930"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:42.785428"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +10.022651 +45.133249)" ;
     skos:prefLabel "Cremona"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/13359d14-8786-5d98-bdc4-1f120ad6b3b4> a gndo:PlaceOrGeographicName ;
@@ -229,14 +224,13 @@
     gndo:gndIdentifier "4114431-4" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Province of Livorno" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.35485e+01 ;
-    jl:lon 1.03106e+01 ;
-    dcterms:created "2024-03-14T13:49:57.256820"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:57.473019"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +10.3106 +43.5485)" ;
     skos:prefLabel "Livorno"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/13a374cb-976a-58c3-a093-2b7c97a36033> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4695" ;
-    dcterms:created "2024-03-14T13:48:03.314821"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:10.873149"^^xsd:dateTime ;
     skos:prefLabel "שלמה בן בענדיט" ;
     foaf:name "שלמה בן בענדיט" .
 
@@ -251,12 +245,12 @@
     jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000119791&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
         "https://search.worldcat.org/de/title/122918205" ;
     dc:title "Zikaron zot" ;
-    dcterms:created "2024-03-14T13:48:21.900480"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:25.458103"^^xsd:dateTime ;
     skos:prefLabel "Zikaron zot" .
 
 <http://data.judaicalink.org/data/footprints/13e8b2ff-1dfd-5423-8846-d9da9798ba07> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7295" ;
-    dcterms:created "2024-03-14T13:47:54.354398"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:03.616156"^^xsd:dateTime ;
     skos:prefLabel "קנה אבן גדור" ;
     foaf:name "קנה אבן גדור" .
 
@@ -264,58 +258,57 @@
     rdfs:label "Austria" ;
     gndo:gndIdentifier "4496183-2" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.733333e+01 ;
-    jl:lon 1.333333e+01 ;
-    dcterms:created "2024-03-14T13:49:36.709624"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:37.391296"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +13.33333 +47.33333)" ;
     skos:prefLabel "Austria"^^xsd:string ;
     foaf:name "Austria"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/149e0028-a022-59a1-9d6a-2dbf214c9289> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/388" ;
-    dcterms:created "2024-03-14T13:47:57.882670"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.719644"^^xsd:dateTime ;
     skos:prefLabel "ר’ יששכר בער ב\"ר אלחנן, פרנקפורט דאדרה, ג נצבים תמ\"א" ;
     foaf:name "ר’ יששכר בער ב\"ר אלחנן, פרנקפורט דאדרה, ג נצבים תמ\"א" .
 
 <http://data.judaicalink.org/data/footprints/14bba3f1-a2d7-5a97-8db2-41270b147b71> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9080" ;
-    dcterms:created "2024-03-14T13:47:56.895166"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.811443"^^xsd:dateTime ;
     skos:prefLabel "רומאנילי, שמואל אהרן בן משה חי" ;
     foaf:name "רומאנילי, שמואל אהרן בן משה חי" .
 
 <http://data.judaicalink.org/data/footprints/14e1e6ed-8502-57a9-b227-0ecc26fc28db> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9105" ;
-    dcterms:created "2024-03-14T13:47:49.579362"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:58.888252"^^xsd:dateTime ;
     skos:prefLabel "פינסו, יוסף בן יצחק" ;
     foaf:name "פינסו, יוסף בן יצחק" .
 
 <http://data.judaicalink.org/data/footprints/1765e9b7-7e23-5783-b373-f13d3c700111> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7868" ;
-    dcterms:created "2024-03-14T13:47:47.362982"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:56.447855"^^xsd:dateTime ;
     skos:prefLabel "פונטאנילה, דוד בן מצליח" ;
     foaf:name "פונטאנילה, דוד בן מצליח" .
 
 <http://data.judaicalink.org/data/footprints/17ae67c3-7f25-581c-a452-3b70b6964960> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4189" ;
-    dcterms:created "2024-03-14T13:47:55.467078"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:04.625507"^^xsd:dateTime ;
     skos:prefLabel "ר׳ אלחנן רוויקו" ;
     foaf:name "ר׳ אלחנן רוויקו" .
 
 <http://data.judaicalink.org/data/footprints/1840fdd4-54f6-5686-860a-16c7bfa52ef6> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9693" ;
-    dcterms:created "2024-03-14T13:47:55.376595"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:04.552136"^^xsd:dateTime ;
     skos:prefLabel "ראובן בן אברהם" ;
     foaf:name "ראובן בן אברהם" .
 
 <http://data.judaicalink.org/data/footprints/18663f53-064f-5400-80e4-f6d6fd3fe190> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/992" ;
-    dcterms:created "2024-03-14T13:48:04.994796"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:12.581151"^^xsd:dateTime ;
     skos:prefLabel "שמואל די אוזידה" ;
     foaf:name "שמואל די אוזידה" .
 
 <http://data.judaicalink.org/data/footprints/18942a6e-aa07-5a86-9875-f22aac818c7c> a gndo:PlaceOrGeographicName ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Province of Livorno" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:57.617984"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:57.757357"^^xsd:dateTime ;
     skos:prefLabel "Province of Livorno"^^xsd:string ;
     foaf:name "Province of Livorno"^^xsd:string .
 
@@ -324,15 +317,14 @@
     gndo:gndIdentifier "4039029-9" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Grand Est" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.911911e+01 ;
-    jl:lon 6.17269e+00 ;
-    dcterms:created "2024-03-14T13:50:01.720126"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:01.280810"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +6.17269 +49.11911)" ;
     skos:prefLabel "Metz"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/1a26002b-b151-5c82-a383-7f53441a957a> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "5082488-0" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:03.372949"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:02.966332"^^xsd:dateTime ;
     skos:prefLabel "United States"^^xsd:string ;
     foaf:name "United States"^^xsd:string .
 
@@ -341,38 +333,37 @@
     gndo:gndIdentifier "10048475-X" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Hamburg" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.365364e+01 ;
-    jl:lon 1.010702e+01 ;
-    dcterms:created "2024-03-14T13:50:12.422116"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:12.027605"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +10.107023 +53.653645)" ;
     skos:prefLabel "Sasel"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/1b35cdb8-65d5-558b-92d3-a1da93882f64> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7730" ;
-    dcterms:created "2024-03-14T13:47:48.595782"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:57.919478"^^xsd:dateTime ;
     skos:prefLabel "פייטרו ולורינצו בראגאדיני" ;
     foaf:name "פייטרו ולורינצו בראגאדיני" .
 
 <http://data.judaicalink.org/data/footprints/1c22e201-985d-50b3-b567-29e219f17f4c> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2070" ;
-    dcterms:created "2024-03-14T13:47:57.749005"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.592060"^^xsd:dateTime ;
     skos:prefLabel "ריקי, רפאל עמנואל חי בן אברהם" ;
     foaf:name "ריקי, רפאל עמנואל חי בן אברהם" .
 
 <http://data.judaicalink.org/data/footprints/1c64ace7-1b5d-59a9-a310-451e50893470> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4251" ;
-    dcterms:created "2024-03-14T13:47:59.207020"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:07.819225"^^xsd:dateTime ;
     skos:prefLabel "שאול דוויך הכהן" ;
     foaf:name "שאול דוויך הכהן" .
 
 <http://data.judaicalink.org/data/footprints/1d25baf0-53b7-54b7-9b16-c750e592a7eb> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:22.099925"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:25.704923"^^xsd:dateTime ;
     skos:prefLabel "Harkavi, Abraham Elijah" ;
     foaf:name "Harkavi, Abraham Elijah" .
 
 <http://data.judaicalink.org/data/footprints/1d627837-eda0-56c1-926e-37b363e9bb5d> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7369" ;
-    dcterms:created "2024-03-14T13:48:02.346149"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:09.832508"^^xsd:dateTime ;
     skos:prefLabel "שורץ, נפתלי בן אברהם יהודה אריה ליב" ;
     foaf:name "שורץ, נפתלי בן אברהם יהודה אריה ליב" .
 
@@ -380,9 +371,8 @@
     rdfs:label "Netherlands" ;
     gndo:gndIdentifier "1240927312" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.225e+01 ;
-    jl:lon 5.75e+00 ;
-    dcterms:created "2024-03-14T13:49:35.234860"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:36.042799"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +5.75 +52.25)" ;
     skos:prefLabel "Netherlands"^^xsd:string ;
     foaf:name "Netherlands"^^xsd:string .
 
@@ -390,33 +380,32 @@
     rdfs:label "Italy" ;
     gndo:gndIdentifier "1266881549" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.283333e+01 ;
-    jl:lon 1.283333e+01 ;
-    dcterms:created "2024-03-14T13:49:39.919021"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:40.490044"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +12.83333 +42.83333)" ;
     skos:prefLabel "Italy"^^xsd:string ;
     foaf:name "Italy"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/1fe4cf1a-e72f-5f3e-ae55-25f7158a8c09> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9056" ;
-    dcterms:created "2024-03-14T13:48:04.799018"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:12.376413"^^xsd:dateTime ;
     skos:prefLabel "שמואל בן אלעזר מאפטא" ;
     foaf:name "שמואל בן אלעזר מאפטא" .
 
 <http://data.judaicalink.org/data/footprints/2194287b-d1f2-5bcb-a6a8-b03af6c09777> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7832" ;
-    dcterms:created "2024-03-14T13:47:52.602268"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.868212"^^xsd:dateTime ;
     skos:prefLabel "קארו, דוד בן יצחק" ;
     foaf:name "קארו, דוד בן יצחק" .
 
 <http://data.judaicalink.org/data/footprints/21c92036-c77a-51d7-b615-3625e0e96f18> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5669" ;
-    dcterms:created "2024-03-14T13:47:51.906768"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.218123"^^xsd:dateTime ;
     skos:prefLabel "צבי הירש בן יהודה ידל" ;
     foaf:name "צבי הירש בן יהודה ידל" .
 
 <http://data.judaicalink.org/data/footprints/24ef6706-737a-5372-8394-4c3e8e38fd60> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9038" ;
-    dcterms:created "2024-03-14T13:48:02.575501"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:10.112428"^^xsd:dateTime ;
     skos:prefLabel "שלטון, בנימין בן שמואל" ;
     foaf:name "שלטון, בנימין בן שמואל" .
 
@@ -425,81 +414,80 @@
     gndo:gndIdentifier "4007616-7" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Emilia-Romagna" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.449489e+01 ;
-    jl:lon 1.134262e+01 ;
-    dcterms:created "2024-03-14T13:49:39.428084"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:39.998168"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +11.342616 +44.494887)" ;
     skos:prefLabel "Bologna"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/2610fc48-4314-5034-91c2-6963c50d12ff> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4144" ;
-    dcterms:created "2024-03-14T13:48:06.854514"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:14.466594"^^xsd:dateTime ;
     skos:prefLabel "שמעון בן מהר״ר אליקים הכהן" ;
     foaf:name "שמעון בן מהר״ר אליקים הכהן" .
 
 <http://data.judaicalink.org/data/footprints/26ab9742-9ec8-56fe-a2ef-c2434c056eda> a gndo:PlaceOrGeographicName ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Grodnenskaya" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:45.788740"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:46.462993"^^xsd:dateTime ;
     skos:prefLabel "Grodnenskaya"^^xsd:string ;
     foaf:name "Grodnenskaya"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/26f2f8c1-8a7b-5a27-9fd4-c6adadf39126> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9039" ;
-    dcterms:created "2024-03-14T13:47:47.982485"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:57.219808"^^xsd:dateTime ;
     skos:prefLabel "פורטו, אברהם בן יחיאל הכהן" ;
     foaf:name "פורטו, אברהם בן יחיאל הכהן" .
 
 <http://data.judaicalink.org/data/footprints/277e4238-3ea2-540f-9f76-00fd0dc5433b> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7899" ;
-    dcterms:created "2024-03-14T13:47:49.653896"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:58.955743"^^xsd:dateTime ;
     skos:prefLabel "פראנסיס, יעקב בן דוד" ;
     foaf:name "פראנסיס, יעקב בן דוד" .
 
 <http://data.judaicalink.org/data/footprints/27dee759-fa41-5770-a7a6-2684d031b810> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/10761" ;
-    dcterms:created "2024-03-14T13:47:57.057819"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.952914"^^xsd:dateTime ;
     skos:prefLabel "רחל מנורצי" ;
     foaf:name "רחל מנורצי" .
 
 <http://data.judaicalink.org/data/footprints/288b37cf-3cd6-5265-a2f1-19707e64ecd8> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7850" ;
-    dcterms:created "2024-03-14T13:47:52.558268"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.831971"^^xsd:dateTime ;
     skos:prefLabel "קאצנלנבוגן, בנימין בן שאול הלוי" ;
     foaf:name "קאצנלנבוגן, בנימין בן שאול הלוי" .
 
 <http://data.judaicalink.org/data/footprints/29ce0761-7e1b-575a-9f17-cef0a10f4e59> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1390" ;
-    dcterms:created "2024-03-14T13:48:04.877537"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:12.456949"^^xsd:dateTime ;
     skos:prefLabel "‫  שמואל בן יוסף הלוי מביאליסטוק" ;
     foaf:name "‫  שמואל בן יוסף הלוי מביאליסטוק" .
 
 <http://data.judaicalink.org/data/footprints/29d100fc-955c-541a-96e6-ceca370f0dd7> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1505" ;
-    dcterms:created "2024-03-14T13:47:55.229140"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:04.433625"^^xsd:dateTime ;
     skos:prefLabel "קרו, יוסף בן אפרים" ;
     foaf:name "קרו, יוסף בן אפרים" .
 
 <http://data.judaicalink.org/data/footprints/2b15e6de-8e5e-5d46-ba1a-ccedacf9127b> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7840" ;
-    dcterms:created "2024-03-14T13:47:52.536723"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.812994"^^xsd:dateTime ;
     skos:prefLabel "קאסטרו, יעקב בן אברהם" ;
     foaf:name "קאסטרו, יעקב בן אברהם" .
 
 <http://data.judaicalink.org/data/footprints/2bee1d5a-8f3f-5665-825e-f1b8a330f73c> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:15.054555"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:20.633568"^^xsd:dateTime ;
     skos:prefLabel "Isaac Lumbroso" ;
     foaf:name "Isaac Lumbroso" .
 
 <http://data.judaicalink.org/data/footprints/2ced52b9-b7cc-5d8e-a1ed-e1785ed1cdf7> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7865" ;
-    dcterms:created "2024-03-14T13:47:50.260752"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:59.563021"^^xsd:dateTime ;
     skos:prefLabel "פרובנצאל, יהודה נתן" ;
     foaf:name "פרובנצאל, יהודה נתן" .
 
 <http://data.judaicalink.org/data/footprints/2d3588d3-0a1a-535d-9b9c-f6501b47fb31> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5643" ;
-    dcterms:created "2024-03-14T13:47:48.582928"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:57.905846"^^xsd:dateTime ;
     owl:sameAs "http://d-nb.info/gnd/13406285X",
         "https://viaf.org/viaf/283407941/" ;
     skos:prefLabel "פייזר, שמעון בן יהודה ליב" ;
@@ -507,25 +495,25 @@
 
 <http://data.judaicalink.org/data/footprints/2d57dfa7-f23f-508d-b2d2-86b2ede689ec> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7028" ;
-    dcterms:created "2024-03-14T13:48:08.712770"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:16.380588"^^xsd:dateTime ;
     skos:prefLabel "Рayyim Palache" ;
     foaf:name "Рayyim Palache" .
 
 <http://data.judaicalink.org/data/footprints/2d6f3374-3d60-50da-881a-f628b6074939> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7492" ;
-    dcterms:created "2024-03-14T13:47:50.275740"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:59.578659"^^xsd:dateTime ;
     skos:prefLabel "פרחיה, אהרן בן חיים אברהם הכהן" ;
     foaf:name "פרחיה, אהרן בן חיים אברהם הכהן" .
 
 <http://data.judaicalink.org/data/footprints/2d746096-6ca0-50e8-b848-e0427647709e> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9479" ;
-    dcterms:created "2024-03-14T13:47:56.362424"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.357797"^^xsd:dateTime ;
     skos:prefLabel "רודלסום, אליעזר זוסמן בן יצחק" ;
     foaf:name "רודלסום, אליעזר זוסמן בן יצחק" .
 
 <http://data.judaicalink.org/data/footprints/2ddb354e-9922-5c94-92de-7faa35bd8423> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7787" ;
-    dcterms:created "2024-03-14T13:47:51.246490"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:00.600365"^^xsd:dateTime ;
     skos:prefLabel "פרין, יוהאן" ;
     foaf:name "פרין, יוהאן" .
 
@@ -534,16 +522,15 @@
     gndo:gndIdentifier "4381146-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Ukraine" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.025465e+01 ;
-    jl:lon 2.865867e+01 ;
-    dcterms:created "2024-03-14T13:50:24.188572"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:23.450204"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +28.658667 +50.25465)" ;
     skos:prefLabel "Zhitomir"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/2fbed59e-82f3-5350-9ba2-9b1387408ed8> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "4042570-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "North Rhine-Westphalia" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:34.505425"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:35.302422"^^xsd:dateTime ;
     skos:prefLabel "North Rhine-Westphalia"^^xsd:string ;
     foaf:name "North Rhine-Westphalia"^^xsd:string .
 
@@ -552,20 +539,19 @@
     gndo:gndIdentifier "4004617-5" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Basel-City" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.755839e+01 ;
-    jl:lon 7.57327e+00 ;
-    dcterms:created "2024-03-14T13:49:37.486341"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:38.092028"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +7.57327 +47.55839)" ;
     skos:prefLabel "Basel"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/30560e24-ff58-55ad-81a4-1d712b687d99> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:49:22.601084"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:22.996143"^^xsd:dateTime ;
     skos:prefLabel "Yesod Shirim" ;
     foaf:name "Yesod Shirim" .
 
 <http://data.judaicalink.org/data/footprints/32f6a9c5-41d4-5ce2-8669-1fd40df8c7b8> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1912" ;
-    dcterms:created "2024-03-14T13:48:02.417728"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:09.902812"^^xsd:dateTime ;
     skos:prefLabel "שטרן, אברהם בן מאיר חיים ‬" ;
     foaf:name "שטרן, אברהם בן מאיר חיים ‬" .
 
@@ -574,14 +560,13 @@
     gndo:gndIdentifier "1043227458" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Veneto" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.543713e+01 ;
-    jl:lon 1.233265e+01 ;
-    dcterms:created "2024-03-14T13:50:19.302060"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:18.865710"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +12.33265 +45.43713)" ;
     skos:prefLabel "Venice"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/358bf8c3-74f5-5c75-8b83-cac242a7316e> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4260" ;
-    dcterms:created "2024-03-14T13:48:04.718618"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:12.289651"^^xsd:dateTime ;
     skos:prefLabel "שמואל אייל כהן" ;
     foaf:name "שמואל אייל כהן" .
 
@@ -590,20 +575,19 @@
     gndo:gndIdentifier "1160333513" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "United States" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.300035e+01 ;
-    jl:lon -7.54999e+01 ;
-    dcterms:created "2024-03-14T13:50:03.086805"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:02.678659"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +-75.4999 +43.00035)" ;
     skos:prefLabel "New York"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/35f6ab08-9bf7-57a0-ba19-004811882667> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4240" ;
-    dcterms:created "2024-03-14T13:47:58.830820"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:07.533754"^^xsd:dateTime ;
     skos:prefLabel "רפאל" ;
     foaf:name "רפאל" .
 
 <http://data.judaicalink.org/data/footprints/3691b11c-6de0-5c59-96a4-02d0844faf99> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:28.733360"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:31.017844"^^xsd:dateTime ;
     skos:prefLabel "Abraham ben Jehiel Michal Danzig" ;
     foaf:name "Abraham ben Jehiel Michal Danzig" .
 
@@ -612,26 +596,25 @@
     gndo:gndIdentifier "4663590-7" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Trentino-Alto Adige" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.588921e+01 ;
-    jl:lon 1.084307e+01 ;
-    dcterms:created "2024-03-14T13:50:10.084061"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:09.701610"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +10.84307 +45.889214)" ;
     skos:prefLabel "Riva del Garda"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/38014327-feec-5cee-a82c-3f2cce0106be> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1702" ;
-    dcterms:created "2024-03-14T13:47:57.286147"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.146802"^^xsd:dateTime ;
     skos:prefLabel "ר’ יצחק אבוהב, אמשטרדם;" ;
     foaf:name "ר’ יצחק אבוהב, אמשטרדם;" .
 
 <http://data.judaicalink.org/data/footprints/3874c63f-116e-5391-af0e-76d136253dba> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6007" ;
-    dcterms:created "2024-03-14T13:48:05.074878"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:12.664658"^^xsd:dateTime ;
     skos:prefLabel "שמואל היילפרין" ;
     foaf:name "שמואל היילפרין" .
 
 <http://data.judaicalink.org/data/footprints/39bcd7b3-8544-581d-b12a-68b7956c17dd> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4289" ;
-    dcterms:created "2024-03-14T13:48:04.081528"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.639941"^^xsd:dateTime ;
     skos:prefLabel "שלמה ירק" ;
     foaf:name "שלמה ירק" .
 
@@ -640,9 +623,8 @@
     gndo:gndIdentifier "5057560-0" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Vilnius" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.468916e+01 ;
-    jl:lon 2.52798e+01 ;
-    dcterms:created "2024-03-14T13:50:21.408452"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:20.853970"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +25.2798 +54.68916)" ;
     skos:prefLabel "Vilnius"^^xsd:string ;
     foaf:name "Vilnius"^^xsd:string .
 
@@ -651,9 +633,8 @@
     gndo:gndIdentifier "4384711-0" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lombardy" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.539978e+01 ;
-    jl:lon 9.873389e+00 ;
-    dcterms:created "2024-03-14T13:50:14.621505"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:14.271706"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +9.873389 +45.399776)" ;
     skos:prefLabel "Soncino"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/3b0e06c3-af51-5715-b91f-52e68288a648> a gndo:Work ;
@@ -679,24 +660,24 @@
     jl:hasAbstract "Includes Hilkhot Nidah of Rabbi Yosef Karo's Shulḥan ʻarukh, with the annotations and preface of Rabbi Moshe Isserles.",
         "Zot Torat ha-Hatat is the work of Moshe ben Israel Isserles (1525/30-1572), a polish rabbi and codifier. This work focuses on the laws of forbidden matters (issur ve-heter) and is a reworking of an earlier work by Isaac ben Meir of Dueren, Sha'arei Dura. This imprint also includes Hilkhot (the laws of) Niddah written by Joseph ben Ephraim Karo along with the Hagahot (notes) of Isserles." ;
     dc:title "Zot Torat ha-Hatat" ;
-    dcterms:created "2024-03-14T13:49:23.744179"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:24.191661"^^xsd:dateTime ;
     skos:prefLabel "Zot Torat ha-Hatat" .
 
 <http://data.judaicalink.org/data/footprints/3b5b2753-4909-525d-ab12-ab3f0c5cf0f1> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2315" ;
-    dcterms:created "2024-03-14T13:47:51.885775"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.201198"^^xsd:dateTime ;
     skos:prefLabel "צבי הירש בן דוד" ;
     foaf:name "צבי הירש בן דוד" .
 
 <http://data.judaicalink.org/data/footprints/3bd32ea8-13f8-5704-a8ed-c978e1021292> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4664" ;
-    dcterms:created "2024-03-14T13:48:04.042949"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.602962"^^xsd:dateTime ;
     skos:prefLabel "שלמה יוסף מקאליי'" ;
     foaf:name "שלמה יוסף מקאליי'" .
 
 <http://data.judaicalink.org/data/footprints/3c5ff845-eacb-5a68-850e-07f826c4700a> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/250" ;
-    dcterms:created "2024-03-14T13:47:55.318622"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:04.505136"^^xsd:dateTime ;
     skos:prefLabel "ר’ אברהם ב\"ר שלמה חיים חבר טוב" ;
     foaf:name "ר’ אברהם ב\"ר שלמה חיים חבר טוב" .
 
@@ -705,14 +686,13 @@
     gndo:gndIdentifier "4036770-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Auvergne-Rhône-Alpes" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.574846e+01 ;
-    jl:lon 4.84671e+00 ;
-    dcterms:created "2024-03-14T13:50:00.584337"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:00.108434"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +4.84671 +45.74846)" ;
     skos:prefLabel "Lyon"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/3d4617d7-d966-570a-a54c-864326a96caf> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:12.690540"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:19.212283"^^xsd:dateTime ;
     skos:prefLabel "ישראל בן בנימין מהרימלוב" ;
     foaf:name "ישראל בן בנימין מהרימלוב" .
 
@@ -721,32 +701,31 @@
     gndo:gndIdentifier "4096359-7" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Turkey" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 3.841273e+01 ;
-    jl:lon 2.713838e+01 ;
-    dcterms:created "2024-03-14T13:49:49.921095"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:50.728393"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +27.13838 +38.41273)" ;
     skos:prefLabel "Izmir"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/3e096500-12ef-58a3-be5a-f2cd0eb81523> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7147" ;
-    dcterms:created "2024-03-14T13:47:50.674247"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:00.019857"^^xsd:dateTime ;
     skos:prefLabel "פרחי, יצחק בן שלמה" ;
     foaf:name "פרחי, יצחק בן שלמה" .
 
 <http://data.judaicalink.org/data/footprints/3f1ab855-e279-5b4c-8aa3-dc7a23bd97c7> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9094" ;
-    dcterms:created "2024-03-14T13:47:58.944377"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:07.628354"^^xsd:dateTime ;
     skos:prefLabel "רפאפורט, מרדכי בן שבתי הכהן" ;
     foaf:name "רפאפורט, מרדכי בן שבתי הכהן" .
 
 <http://data.judaicalink.org/data/footprints/3fb830b6-7d01-57ff-a637-63c94b859cea> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/385" ;
-    dcterms:created "2024-03-14T13:47:57.217788"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.088803"^^xsd:dateTime ;
     skos:prefLabel "ר’ יוסף הלוי הורוויץ, פרעמסלא, ור’ יעקב ב\"ר מרדכי, לובמלא, בוועד קודש ביערסלב, יז אלול, ת\"ם" ;
     foaf:name "ר’ יוסף הלוי הורוויץ, פרעמסלא, ור’ יעקב ב\"ר מרדכי, לובמלא, בוועד קודש ביערסלב, יז אלול, ת\"ם" .
 
 <http://data.judaicalink.org/data/footprints/402a266c-b442-58db-8c51-7d8f1f0535ff> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5645" ;
-    dcterms:created "2024-03-14T13:48:05.741273"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:13.346804"^^xsd:dateTime ;
     owl:sameAs "None",
         "https://viaf.org/viaf/297271228/" ;
     skos:prefLabel "שמואל פייבוש בן יוסף יוזפא הכהן" ;
@@ -757,9 +736,8 @@
     gndo:gndIdentifier "4342167-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Switzerland" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.620222e+01 ;
-    jl:lon 6.14569e+00 ;
-    dcterms:created "2024-03-14T13:49:45.032420"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:45.679766"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +6.14569 +46.20222)" ;
     skos:prefLabel "Geneva"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/40e45d3c-5648-565b-aef8-ca4e49364d4d> a gndo:Work ;
@@ -772,12 +750,12 @@
     jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000131968&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0",
         "https://search.worldcat.org/de/title/233330764" ;
     dc:title "Zihure hama al Megilat Ester" ;
-    dcterms:created "2024-03-14T13:48:19.657434"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:24.461062"^^xsd:dateTime ;
     skos:prefLabel "Zihure hama al Megilat Ester" .
 
 <http://data.judaicalink.org/data/footprints/410f2f76-b5e8-559c-9528-9a4fa6b873e1> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7230" ;
-    dcterms:created "2024-03-14T13:48:08.612862"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:16.292847"^^xsd:dateTime ;
     skos:prefLabel "תוספאה, שמואל אביגדור אבד''ק קארלין" ;
     foaf:name "תוספאה, שמואל אביגדור אבד''ק קארלין" .
 
@@ -786,9 +764,8 @@
     gndo:gndIdentifier "4076922-7" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lombardy" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.499898e+01 ;
-    jl:lon 1.048893e+01 ;
-    dcterms:created "2024-03-14T13:50:11.652108"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:11.276858"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +10.488928 +44.998985)" ;
     skos:prefLabel "Sabbioneta"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/43d0ff85-624f-5d7f-8c8e-3953f2ef4cbb> a gndo:Work ;
@@ -818,7 +795,7 @@
     dc:publisher "http://data.judaicalink.org/data/footprints/7b766a05-d56e-5491-b799-7b5761501d85",
         "http://data.judaicalink.org/data/footprints/fa893fb1-72ef-50bc-bc17-2f80b974cd94" ;
     dc:title "Zohar ḥadash" ;
-    dcterms:created "2024-03-14T13:49:22.042311"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:22.355612"^^xsd:dateTime ;
     skos:prefLabel "Zohar ḥadash" .
 
 <http://data.judaicalink.org/data/footprints/4406e08e-f261-5370-91f9-a9239b15ad09> a gndo:Work ;
@@ -934,7 +911,7 @@
         "http://data.judaicalink.org/data/footprints/f5196445-0726-5955-8556-fa409a445de6",
         "http://data.judaicalink.org/data/footprints/fd539ee3-2a21-560a-8ab2-8f1d480e7946" ;
     dc:title "Zohar" ;
-    dcterms:created "2024-03-14T13:48:32.825601"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:34.969402"^^xsd:dateTime ;
     skos:prefLabel "Zohar" .
 
 <http://data.judaicalink.org/data/footprints/44b39007-277f-54e4-b4e4-824072ec082a> a gndo:PlaceOrGeographicName ;
@@ -942,9 +919,8 @@
     gndo:gndIdentifier "4817719-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Hesse" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.011552e+01 ;
-    jl:lon 8.68417e+00 ;
-    dcterms:created "2024-03-14T13:49:43.864765"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:44.480740"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +8.68417 +50.11552)" ;
     skos:prefLabel "Frankfurt am Main"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/450884be-48fd-58e7-8891-4e0bdeeb1af9> a gndo:PlaceOrGeographicName ;
@@ -952,9 +928,8 @@
     gndo:gndIdentifier "1197727558" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "West Pomerania" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.342894e+01 ;
-    jl:lon 1.455302e+01 ;
-    dcterms:created "2024-03-14T13:50:17.020829"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:16.591945"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +14.55302 +53.42894)" ;
     skos:prefLabel "Szczecin"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/45421b89-94b5-52c9-bff3-faedaf19e299> a gndo:Work ;
@@ -969,36 +944,36 @@
     gndo:printer "http://data.judaicalink.org/data/footprints/bdb1f904-cc18-5a0d-85e3-37d6766b2554" ;
     jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000313543&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
     dc:title "זכרון חורבן הבית" ;
-    dcterms:created "2024-03-14T13:49:25.511930"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:25.900031"^^xsd:dateTime ;
     skos:prefLabel "זכרון חורבן הבית" .
 
 <http://data.judaicalink.org/data/footprints/4620383a-d9f6-55ac-aa9d-d6b6f2f71b05> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2018" ;
-    dcterms:created "2024-03-14T13:47:49.610351"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:58.914906"^^xsd:dateTime ;
     skos:prefLabel "פנחס בן יאיר" ;
     foaf:name "פנחס בן יאיר" .
 
 <http://data.judaicalink.org/data/footprints/46ccad69-a9e4-5df4-9235-46ee14937cb9> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7148" ;
-    dcterms:created "2024-03-14T13:47:56.479995"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.437218"^^xsd:dateTime ;
     skos:prefLabel "רוטנברג, מרדכי זיסקינד בן משה" ;
     foaf:name "רוטנברג, מרדכי זיסקינד בן משה" .
 
 <http://data.judaicalink.org/data/footprints/473b5812-ff63-5461-a88b-9694058b6680> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9106" ;
-    dcterms:created "2024-03-14T13:47:47.995540"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:57.230813"^^xsd:dateTime ;
     skos:prefLabel "פורטו, זכריה" ;
     foaf:name "פורטו, זכריה" .
 
 <http://data.judaicalink.org/data/footprints/4799be3f-124b-5e8a-aa53-d7b81d041c45> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7836" ;
-    dcterms:created "2024-03-14T13:48:01.249308"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:08.578286"^^xsd:dateTime ;
     skos:prefLabel "שאשפורטאש, יעקב בן אהרן" ;
     foaf:name "שאשפורטאש, יעקב בן אהרן" .
 
 <http://data.judaicalink.org/data/footprints/48192697-5351-5c12-a92e-6a2bd32242f5> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1661" ;
-    dcterms:created "2024-03-14T13:47:53.258214"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.506315"^^xsd:dateTime ;
     skos:prefLabel "קלאס, מרדכי זאב בן בנימין" ;
     foaf:name "קלאס, מרדכי זאב בן בנימין" .
 
@@ -1006,29 +981,28 @@
     gndo:gndIdentifier "4037853-6" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Mazovia" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:03.837488"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:03.459059"^^xsd:dateTime ;
     skos:prefLabel "Mazovia"^^xsd:string ;
     foaf:name "Mazovia"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/4850777e-79d9-5913-9cc7-a3e38db0fc68> a gndo:PlaceOrGeographicName ;
     rdfs:label "Nowy Dwór Mazowiecki" ;
-    gndo:gndIdentifier "1198506660" ;
+    gndo:gndIdentifier "4339393-7" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Mazovia" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.243022e+01 ;
-    jl:lon 2.071652e+01 ;
-    dcterms:created "2024-03-14T13:50:03.568976"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:03.176384"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +20.71652 +52.43022)" ;
     skos:prefLabel "Nowy Dwór Mazowiecki"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/495bbf36-fffc-5c77-8585-d1a34a53b465> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2298" ;
-    dcterms:created "2024-03-14T13:47:55.286622"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:04.480638"^^xsd:dateTime ;
     skos:prefLabel "קרנץ, יעקב בן זאב וואלף מדובנא" ;
     foaf:name "קרנץ, יעקב בן זאב וואלף מדובנא" .
 
 <http://data.judaicalink.org/data/footprints/49f07615-9420-59fc-982d-34a6f837b59f> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5352" ;
-    dcterms:created "2024-03-14T13:47:50.245203"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:59.548057"^^xsd:dateTime ;
     skos:prefLabel "פרדו, יעקב בן דוד" ;
     foaf:name "פרדו, יעקב בן דוד" .
 
@@ -1036,7 +1010,7 @@
     jl:describedAt "None",
         "https://viaf.org/viaf/280815492/" ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:15.003557"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:20.587133"^^xsd:dateTime ;
     skos:prefLabel "Isaac ben Abraham Graanboom" ;
     foaf:name "Isaac ben Abraham Graanboom" .
 
@@ -1045,14 +1019,13 @@
     gndo:gndIdentifier "4346851-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Campania" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.08518e+01 ;
-    jl:lon 1.42681e+01 ;
-    dcterms:created "2024-03-14T13:50:02.287832"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:01.876322"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +14.2681 +40.8518)" ;
     skos:prefLabel "Naples"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/4c191991-745d-5556-b604-2c7cf7cefbb0> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4248" ;
-    dcterms:created "2024-03-14T13:48:01.176704"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:08.513573"^^xsd:dateTime ;
     owl:sameAs "None",
         "https://viaf.org/viaf/298786416/" ;
     skos:prefLabel "שאול עזרא דוויך הכהן" ;
@@ -1062,19 +1035,19 @@
     gndo:gndIdentifier "4049795-1" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Rheinland-Pfalz" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:16.320249"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:15.904431"^^xsd:dateTime ;
     skos:prefLabel "Rheinland-Pfalz"^^xsd:string ;
     foaf:name "Rheinland-Pfalz"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/4d267568-1b71-5236-a80e-d78f41d9c83c> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2347" ;
-    dcterms:created "2024-03-14T13:48:07.575646"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:15.196546"^^xsd:dateTime ;
     skos:prefLabel "שמשון?" ;
     foaf:name "שמשון?" .
 
 <http://data.judaicalink.org/data/footprints/4d50ab76-e6e3-5f02-9089-d84bd9964fb8> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5651" ;
-    dcterms:created "2024-03-14T13:48:07.534105"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:15.145408"^^xsd:dateTime ;
     owl:sameAs "None",
         "https://viaf.org/viaf/158146462566927770904/" ;
     skos:prefLabel "שמעון עקיבא בר בן יוסף" ;
@@ -1084,20 +1057,20 @@
     gndo:gndIdentifier "1260396339" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Vitebsk" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:52.612039"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:53.530346"^^xsd:dateTime ;
     skos:prefLabel "Vitebsk"^^xsd:string ;
     foaf:name "Vitebsk"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/4e07a790-330a-53b4-bf07-f2e31fb98720> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/282" ;
-    dcterms:created "2024-03-14T13:47:55.502955"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:04.649517"^^xsd:dateTime ;
     skos:prefLabel "ר' אלי" ;
     foaf:name "ר' אלי" .
 
 <http://data.judaicalink.org/data/footprints/4e5b7d7a-b785-5ff9-8620-74ceac25d07c> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "7857930-2" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:22.036207"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:21.446060"^^xsd:dateTime ;
     skos:prefLabel "Lithuania"^^xsd:string ;
     foaf:name "Lithuania"^^xsd:string .
 
@@ -1105,14 +1078,13 @@
     rdfs:label "SanGiuliano a Mare" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Emilia-Romagna" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.406783e+01 ;
-    jl:lon 1.256952e+01 ;
-    dcterms:created "2024-03-14T13:50:12.038002"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:11.651491"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +12.569516 +44.067829)" ;
     skos:prefLabel "SanGiuliano a Mare"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/4fcd04df-98ef-520d-8561-989c79df381c> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4143" ;
-    dcterms:created "2024-03-14T13:48:04.244695"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.799945"^^xsd:dateTime ;
     skos:prefLabel "שלמה מרדכי מפאנו" ;
     foaf:name "שלמה מרדכי מפאנו" .
 
@@ -1121,9 +1093,8 @@
     gndo:gndIdentifier "1268379050" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Saxony-Anhalt" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.148158e+01 ;
-    jl:lon 1.197947e+01 ;
-    dcterms:created "2024-03-14T13:49:46.995311"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:47.654544"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +11.97947 +51.48158)" ;
     skos:prefLabel "Halle"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/5214ee86-cdf8-5376-ab93-9e5cceda8ccd> a gndo:PlaceOrGeographicName ;
@@ -1131,9 +1102,8 @@
     gndo:gndIdentifier "110170585X" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Castille-La Mancha" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.063249e+01 ;
-    jl:lon -3.16017e+00 ;
-    dcterms:created "2024-03-14T13:49:46.234097"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:46.907338"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +-3.16017 +40.632489)" ;
     skos:prefLabel "Guadalajara"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/5267412a-06eb-586b-8d0b-c41613445764> a foaf:Person ;
@@ -1142,7 +1112,7 @@
     jl:describedAt "http://d-nb.info/gnd/1251340423",
         "https://viaf.org/viaf/74200929/" ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:49:27.238148"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:27.821808"^^xsd:dateTime ;
     skos:prefLabel "Franchi, Guglielmo" ;
     foaf:name "Franchi, Guglielmo" .
 
@@ -1150,13 +1120,13 @@
     jl:describedAt "http://d-nb.info/gnd/120508419",
         "https://viaf.org/viaf/45134090/" ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:49:23.523705"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:24.010098"^^xsd:dateTime ;
     skos:prefLabel "Moses ben Israel Isserles" ;
     foaf:name "Moses ben Israel Isserles" .
 
 <http://data.judaicalink.org/data/footprints/538ad93b-4ef4-5b6b-9108-5fe055283e09> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1994" ;
-    dcterms:created "2024-03-14T13:48:02.382659"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:09.867503"^^xsd:dateTime ;
     skos:prefLabel "שטיינאייזן, דוב בר בן קיים קדיש" ;
     foaf:name "שטיינאייזן, דוב בר בן קיים קדיש" .
 
@@ -1165,9 +1135,8 @@
     gndo:gndIdentifier "4545502-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Zhytomyr" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.026487e+01 ;
-    jl:lon 2.867669e+01 ;
-    dcterms:created "2024-03-14T13:49:38.453882"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:39.037316"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +28.67669 +50.26487)" ;
     skos:prefLabel "Zhytomyr"^^xsd:string ;
     foaf:name "Zhytomyr"^^xsd:string .
 
@@ -1175,25 +1144,25 @@
     gndo:gndIdentifier "4004176-1" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Baden-Württemberg" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:48.389675"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:49.113395"^^xsd:dateTime ;
     skos:prefLabel "Baden-Württemberg"^^xsd:string ;
     foaf:name "Baden-Württemberg"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/558f3b84-5517-5100-8759-ca2dba14dea9> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7827" ;
-    dcterms:created "2024-03-14T13:47:57.028308"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.923551"^^xsd:dateTime ;
     skos:prefLabel "רחבי, דוד בן יחזקאל" ;
     foaf:name "רחבי, דוד בן יחזקאל" .
 
 <http://data.judaicalink.org/data/footprints/559af4a3-c1c6-5215-93ac-9b7e6357e586> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:31.880576"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:34.000986"^^xsd:dateTime ;
     skos:prefLabel "Simeon bar Yoḥai, active 2nd century, attributed to." ;
     foaf:name "Simeon bar Yoḥai, active 2nd century, attributed to." .
 
 <http://data.judaicalink.org/data/footprints/571d462e-0bca-5e37-b771-0a7c22c26af0> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9184" ;
-    dcterms:created "2024-03-14T13:47:51.226485"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:00.584757"^^xsd:dateTime ;
     skos:prefLabel "פריידכי בלאך" ;
     foaf:name "פריידכי בלאך" .
 
@@ -1202,9 +1171,8 @@
     gndo:gndIdentifier "4074118-7" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "South Holland" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.216011e+01 ;
-    jl:lon 4.49701e+00 ;
-    dcterms:created "2024-03-14T13:49:54.915321"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:55.846557"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +4.49701 +52.160114)" ;
     skos:prefLabel "Leiden"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/5a646075-8288-5632-a56c-0184a8c0bbea> a gndo:Work ;
@@ -1216,7 +1184,7 @@
     gndo:language "Hebrew" ;
     gndo:owner "Russian State Library" ;
     dc:title "Zoar ha-Rakiya" ;
-    dcterms:created "2024-03-14T13:48:30.916856"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:33.062846"^^xsd:dateTime ;
     skos:prefLabel "Zoar ha-Rakiya" .
 
 <http://data.judaicalink.org/data/footprints/5affd23e-a49d-5ee1-913c-c0e8517a0301> a gndo:PlaceOrGeographicName ;
@@ -1224,14 +1192,13 @@
     gndo:gndIdentifier "7823861-4" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Baden-Württemberg" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.900689e+01 ;
-    jl:lon 8.403653e+00 ;
-    dcterms:created "2024-03-14T13:49:48.107221"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:48.809917"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +8.403653 +49.00689)" ;
     skos:prefLabel "Innenstadt"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/5bd4a1d0-31f4-50eb-9c66-9297ddd87e87> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/10433" ;
-    dcterms:created "2024-03-14T13:47:53.214125"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.463466"^^xsd:dateTime ;
     skos:prefLabel "‫  קורקוס, יוסף (הזקן)" ;
     foaf:name "‫  קורקוס, יוסף (הזקן)" .
 
@@ -1240,26 +1207,25 @@
     gndo:gndIdentifier "4571160-4" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Germany" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.009564e+01 ;
-    jl:lon 8.776084e+00 ;
-    dcterms:created "2024-03-14T13:50:04.490664"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:04.129724"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +8.776084 +50.095636)" ;
     skos:prefLabel "Offenbach am Main"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/5c7e3909-aede-51b1-ae13-3d220be83846> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5613" ;
-    dcterms:created "2024-03-14T13:47:57.849094"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.690597"^^xsd:dateTime ;
     skos:prefLabel "רישר, יעקב בן יוסף" ;
     foaf:name "רישר, יעקב בן יוסף" .
 
 <http://data.judaicalink.org/data/footprints/5c90e11d-9cc7-576a-9c0a-88bc18540873> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9736" ;
-    dcterms:created "2024-03-14T13:47:54.398387"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:03.641160"^^xsd:dateTime ;
     skos:prefLabel "קעניגליכע פרייסישע שטאדט-בוכדרוקרייא" ;
     foaf:name "קעניגליכע פרייסישע שטאדט-בוכדרוקרייא" .
 
 <http://data.judaicalink.org/data/footprints/5d6b5438-8d3c-5ec4-b6b1-00d4960256e6> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7897" ;
-    dcterms:created "2024-03-14T13:47:52.515708"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.794564"^^xsd:dateTime ;
     skos:prefLabel "קאסטל, אדמונד" ;
     foaf:name "קאסטל, אדמונד" .
 
@@ -1268,20 +1234,19 @@
     gndo:gndIdentifier "4558545-3" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Hlavní město Praha" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.008804e+01 ;
-    jl:lon 1.442076e+01 ;
-    dcterms:created "2024-03-14T13:50:09.268546"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:08.921210"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +14.42076 +50.08804)" ;
     skos:prefLabel "Prague"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/5ddd445d-b43d-5d1a-9200-4d0176a336ea> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/256" ;
-    dcterms:created "2024-03-14T13:48:03.808202"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.370667"^^xsd:dateTime ;
     skos:prefLabel "שלמה בן מלח" ;
     foaf:name "שלמה בן מלח" .
 
 <http://data.judaicalink.org/data/footprints/5f1be3d3-463d-573a-a2b5-70a244146c75> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4286" ;
-    dcterms:created "2024-03-14T13:47:58.108454"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.900233"^^xsd:dateTime ;
     skos:prefLabel "ר׳ משה פאספאפאירו" ;
     foaf:name "ר׳ משה פאספאפאירו" .
 
@@ -1290,18 +1255,16 @@
     gndo:gndIdentifier "4104156-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Hesse" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.013167e+01 ;
-    jl:lon 8.609722e+00 ;
-    dcterms:created "2024-03-14T13:50:10.688560"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:10.277174"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +8.609722 +50.131667)" ;
     skos:prefLabel "Rödelheim"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/5f6015af-21c0-50ac-987a-2cd7cf4e6257> a gndo:PlaceOrGeographicName ;
     rdfs:label "Sudylkiv" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Khmelnytskyi" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.017218e+01 ;
-    jl:lon 2.712516e+01 ;
-    dcterms:created "2024-03-14T13:50:15.209381"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:14.837634"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +27.12516 +50.17218)" ;
     skos:prefLabel "Sudylkiv"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/5fdd563d-6029-58df-b2da-459880f0d829> a gndo:Work ;
@@ -1312,24 +1275,24 @@
     jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,99999744558694&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
     dc:publisher "http://data.judaicalink.org/data/footprints/eddaf903-237f-57f0-913d-d3059e4aee16" ;
     dc:title "שמש לשון הקודש: cioé sole della lingua santa" ;
-    dcterms:created "2024-03-14T13:49:27.416417"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:28.001206"^^xsd:dateTime ;
     skos:prefLabel "שמש לשון הקודש: cioé sole della lingua santa" .
 
 <http://data.judaicalink.org/data/footprints/5fe6b530-b19e-564f-bb2f-265e6e86050b> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2073" ;
-    dcterms:created "2024-03-14T13:47:53.303214"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.560799"^^xsd:dateTime ;
     skos:prefLabel "קלונימוס הזקן" ;
     foaf:name "קלונימוס הזקן" .
 
 <http://data.judaicalink.org/data/footprints/600c3d0b-045e-57d9-824d-cfe91147bf69> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/975" ;
-    dcterms:created "2024-03-14T13:47:51.284150"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:00.632622"^^xsd:dateTime ;
     skos:prefLabel "פרענקיל, יחזקאל" ;
     foaf:name "פרענקיל, יחזקאל" .
 
 <http://data.judaicalink.org/data/footprints/61766546-cc70-5d7a-95f8-4a36a17c788a> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2395" ;
-    dcterms:created "2024-03-14T13:47:53.236127"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.485313"^^xsd:dateTime ;
     skos:prefLabel "קים קדיש בן קים קדיש" ;
     foaf:name "קים קדיש בן קים קדיש" .
 
@@ -1337,27 +1300,27 @@
     jl:describedAt "http://d-nb.info/gnd/13397460X",
         "https://viaf.org/viaf/60285860/" ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:29.900305"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:32.107870"^^xsd:dateTime ;
     skos:prefLabel "Mosheh ben Mordekhai Bidinger" ;
     foaf:name "Mosheh ben Mordekhai Bidinger" .
 
 <http://data.judaicalink.org/data/footprints/621d19f3-383b-5caa-8d56-fd256e5174af> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "4322967-0" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:40.605322"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:41.200012"^^xsd:dateTime ;
     skos:prefLabel "Slovakia"^^xsd:string ;
     foaf:name "Slovakia"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/62397d4c-b898-5ab0-9551-70f9633a3387> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2128" ;
-    dcterms:created "2024-03-14T13:48:07.790626"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:15.436039"^^xsd:dateTime ;
     skos:prefLabel "שניאורסון, מנחם מנדל בן שלום שכנא" ;
     foaf:name "שניאורסון, מנחם מנדל בן שלום שכנא" .
 
 <http://data.judaicalink.org/data/footprints/623bc94f-d268-5b86-9d1f-8543b46f5b8f> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "1286544432" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:18.270342"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:17.775251"^^xsd:dateTime ;
     skos:prefLabel "Greece"^^xsd:string ;
     foaf:name "Greece"^^xsd:string .
 
@@ -1371,12 +1334,12 @@
     jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000013905&tab=default_tab&search_scope=ULY&vid=ULY&lang=en_US&offset=0&fromRedirectFilter=true" ;
     dc:publisher "http://data.judaicalink.org/data/footprints/e35a2f87-0abe-5810-b87b-d9c15709cff7" ;
     dc:title "Zikron tsadiḳ" ;
-    dcterms:created "2024-03-14T13:48:30.061345"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:32.300831"^^xsd:dateTime ;
     skos:prefLabel "Zikron tsadiḳ" .
 
 <http://data.judaicalink.org/data/footprints/6418a131-0445-5faf-823b-c5da7eede9ca> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4833" ;
-    dcterms:created "2024-03-14T13:47:58.247233"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:07.024252"^^xsd:dateTime ;
     skos:prefLabel "רעכיל ובניה האחים מייא" ;
     foaf:name "רעכיל ובניה האחים מייא" .
 
@@ -1385,14 +1348,13 @@
     gndo:gndIdentifier "4036418-5" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Poland" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.125e+01 ;
-    jl:lon 2.256667e+01 ;
-    dcterms:created "2024-03-14T13:49:59.745127"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:59.245769"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +22.56667 +51.25)" ;
     skos:prefLabel "Lublin"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/66524497-5e2f-5856-9b79-6e0b30e709ed> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9346" ;
-    dcterms:created "2024-03-14T13:48:04.916549"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:12.497935"^^xsd:dateTime ;
     skos:prefLabel "שמואל בן מאיר לטיף" ;
     foaf:name "שמואל בן מאיר לטיף" .
 
@@ -1405,18 +1367,18 @@
     jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000118248&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
     dc:publisher "http://data.judaicalink.org/data/footprints/eee18c92-2f27-51c3-98ba-471d0581fc36" ;
     dc:title "Zikhron Moshe" ;
-    dcterms:created "2024-03-14T13:48:25.885501"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:28.740068"^^xsd:dateTime ;
     skos:prefLabel "Zikhron Moshe" .
 
 <http://data.judaicalink.org/data/footprints/68f00e89-a2e7-54dd-b465-4f90028820aa> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5628" ;
-    dcterms:created "2024-03-14T13:47:52.010801"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.304223"^^xsd:dateTime ;
     skos:prefLabel "ציוני, אהרן זעליג בן נפתלי" ;
     foaf:name "ציוני, אהרן זעליג בן נפתלי" .
 
 <http://data.judaicalink.org/data/footprints/692b3519-af0d-50a8-b25b-ddfb70bf636d> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5114" ;
-    dcterms:created "2024-03-14T13:47:52.449195"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.741178"^^xsd:dateTime ;
     skos:prefLabel "צרמון, מרדכי בן יהודה" ;
     foaf:name "צרמון, מרדכי בן יהודה" .
 
@@ -1424,14 +1386,13 @@
     rdfs:label "Province of Mantua" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lombardy" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.516667e+01 ;
-    jl:lon 1.078333e+01 ;
-    dcterms:created "2024-03-14T13:50:09.633199"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:09.299598"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +10.78333 +45.16667)" ;
     skos:prefLabel "Province of Mantua"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/69e9fff3-60bb-5647-9f84-f1af6611e562> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4203" ;
-    dcterms:created "2024-03-14T13:47:47.329446"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:56.424514"^^xsd:dateTime ;
     skos:prefLabel "פה דעמביץ(?)" ;
     foaf:name "פה דעמביץ(?)" .
 
@@ -1450,24 +1411,24 @@
         "https://search.worldcat.org/de/title/52404504" ;
     jl:hasAbstract "" ;
     dc:title "Zikhro Torat Moshe" ;
-    dcterms:created "2024-03-14T13:48:28.991534"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:31.187315"^^xsd:dateTime ;
     skos:prefLabel "Zikhro Torat Moshe" .
 
 <http://data.judaicalink.org/data/footprints/6b970596-5db6-578f-affb-21001ce510da> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4495" ;
-    dcterms:created "2024-03-14T13:48:04.203701"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.759403"^^xsd:dateTime ;
     skos:prefLabel "שלמה מרדכי" ;
     foaf:name "שלמה מרדכי" .
 
 <http://data.judaicalink.org/data/footprints/6bb4b24b-10c4-57d0-9bb3-16c92576277d> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1012" ;
-    dcterms:created "2024-03-14T13:48:03.355849"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:10.911315"^^xsd:dateTime ;
     skos:prefLabel "שלמה בן יצחק" ;
     foaf:name "שלמה בן יצחק" .
 
 <http://data.judaicalink.org/data/footprints/6be28081-6f05-5173-8a78-b50392c92286> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9068" ;
-    dcterms:created "2024-03-14T13:47:55.257671"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:04.456623"^^xsd:dateTime ;
     skos:prefLabel "קרמניצר, יוחנן בן מאיר" ;
     foaf:name "קרמניצר, יוחנן בן מאיר" .
 
@@ -1476,16 +1437,15 @@
     gndo:gndIdentifier "1266617345" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Flanders" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.121945e+01 ;
-    jl:lon 4.402464e+00 ;
-    dcterms:created "2024-03-14T13:49:35.400068"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:36.222481"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +4.402464 +51.219448)" ;
     skos:prefLabel "Antwerp"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/6c1aa9c0-aa84-53d2-9bd5-7c4dae63c179> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "7724878-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Veneto" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:06.528824"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:06.198118"^^xsd:dateTime ;
     skos:prefLabel "Veneto"^^xsd:string ;
     foaf:name "Veneto"^^xsd:string .
 
@@ -1496,7 +1456,7 @@
     jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,114695&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
     dc:publisher "http://data.judaicalink.org/data/footprints/8d183f03-a4cf-5f07-b9f1-92ccf68b6a8d" ;
     dc:title "Zikhron Yaʻaḳov : peshaṭim u-derashot...ʻal seder ha-Torah." ;
-    dcterms:created "2024-03-14T13:48:28.618184"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:30.914036"^^xsd:dateTime ;
     skos:prefLabel "Zikhron Yaʻaḳov : peshaṭim u-derashot...ʻal seder ha-Torah." .
 
 <http://data.judaicalink.org/data/footprints/6ceb00c6-26a8-538a-b100-acafa64daf7b> a gndo:PlaceOrGeographicName ;
@@ -1504,20 +1464,19 @@
     gndo:gndIdentifier "4314868-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Zhytomyr" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.991066e+01 ;
-    jl:lon 2.859003e+01 ;
-    dcterms:created "2024-03-14T13:49:38.206495"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:38.797512"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +28.590031 +49.910659)" ;
     skos:prefLabel "Berdychiv"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/6d20d3f2-815f-5f09-b2de-a72ddc5742fb> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7898" ;
-    dcterms:created "2024-03-14T13:48:02.492273"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:10.000911"^^xsd:dateTime ;
     skos:prefLabel "שיף, דוד טבלי בן שלמה זלמן הכהן" ;
     foaf:name "שיף, דוד טבלי בן שלמה זלמן הכהן" .
 
 <http://data.judaicalink.org/data/footprints/6e49f4ae-bd3b-5c24-a103-b630a8012984> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7783" ;
-    dcterms:created "2024-03-14T13:47:53.281214"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.528312"^^xsd:dateTime ;
     skos:prefLabel "קלונימוס בן קלונימוס" ;
     foaf:name "קלונימוס בן קלונימוס" .
 
@@ -1526,9 +1485,8 @@
     gndo:gndIdentifier "4028586-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Jerusalem" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 3.176832e+01 ;
-    jl:lon 3.521371e+01 ;
-    dcterms:created "2024-03-14T13:49:50.186628"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:50.992933"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +35.21371 +31.768319)" ;
     skos:prefLabel "Jerusalem"^^xsd:string ;
     foaf:name "Jerusalem"^^xsd:string .
 
@@ -1537,21 +1495,20 @@
     gndo:gndIdentifier "261657-9" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Berlin" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.25e+01 ;
-    jl:lon 1.341667e+01 ;
-    dcterms:created "2024-03-14T13:49:54.570690"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:55.483037"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +13.41667 +52.5)" ;
     skos:prefLabel "Land Berlin"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/7047712c-6174-5588-9b18-b9f774075e73> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5600" ;
-    dcterms:created "2024-03-14T13:48:05.034797"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:12.623702"^^xsd:dateTime ;
     skos:prefLabel "שמואל די מדינה" ;
     foaf:name "שמואל די מדינה" .
 
 <http://data.judaicalink.org/data/footprints/70cc13f4-19a7-5437-8966-9c4600818071> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "16204335-1" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:35.992479"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:36.717302"^^xsd:dateTime ;
     skos:prefLabel "Belgium"^^xsd:string ;
     foaf:name "Belgium"^^xsd:string .
 
@@ -1560,14 +1517,13 @@
     gndo:gndIdentifier "10141779-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Veneto" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.540797e+01 ;
-    jl:lon 1.188586e+01 ;
-    dcterms:created "2024-03-14T13:50:06.227322"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:05.912678"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +11.88586 +45.40797)" ;
     skos:prefLabel "Padova"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/71d60540-4488-5141-8048-1e7bdcc25b67> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5095" ;
-    dcterms:created "2024-03-14T13:48:07.748150"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:15.392531"^^xsd:dateTime ;
     skos:prefLabel "שניאור זלמן מלאדי" ;
     foaf:name "שניאור זלמן מלאדי" .
 
@@ -1575,13 +1531,13 @@
     gndo:gndIdentifier "4014571-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Emilia-Romagna" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:39.672131"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:40.244207"^^xsd:dateTime ;
     skos:prefLabel "Emilia-Romagna"^^xsd:string ;
     foaf:name "Emilia-Romagna"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/72edbae4-50e1-5776-8a41-3fcbc32798f2> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7862" ;
-    dcterms:created "2024-03-14T13:47:53.115708"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.381063"^^xsd:dateTime ;
     skos:prefLabel "קורדובירו, משה בן יעקב" ;
     foaf:name "קורדובירו, משה בן יעקב" .
 
@@ -1590,9 +1546,8 @@
     gndo:gndIdentifier "1154816478" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Kaliningrad" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.470649e+01 ;
-    jl:lon 2.051095e+01 ;
-    dcterms:created "2024-03-14T13:49:51.264491"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:52.132449"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +20.51095 +54.70649)" ;
     skos:prefLabel "Kaliningrad"^^xsd:string ;
     foaf:name "Kaliningrad"^^xsd:string .
 
@@ -1604,12 +1559,12 @@
         "Library of the Hungarian Academy of Sciences" ;
     gndo:owner "Library of the Hungarian Academy of Sciences" ;
     dc:title "כסאות ביט דוד / אשר יסד אזן וקבר" ;
-    dcterms:created "2024-03-14T13:49:25.751492"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:26.182973"^^xsd:dateTime ;
     skos:prefLabel "כסאות ביט דוד / אשר יסד אזן וקבר" .
 
 <http://data.judaicalink.org/data/footprints/738bc775-3698-5829-8354-0441f7a63123> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/3027" ;
-    dcterms:created "2024-03-14T13:48:02.455753"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:09.945807"^^xsd:dateTime ;
     skos:prefLabel "שיגורה, ניסים חיים רפאל אהרן בן מאיר די" ;
     foaf:name "שיגורה, ניסים חיים רפאל אהרן בן מאיר די" .
 
@@ -1618,14 +1573,13 @@
     gndo:gndIdentifier "7653376-1" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lombardy" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.516031e+01 ;
-    jl:lon 1.079784e+01 ;
-    dcterms:created "2024-03-14T13:50:01.358020"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:00.889387"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +10.79784 +45.16031)" ;
     skos:prefLabel "Mantova"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/765f67ba-3cd9-5458-b851-119ac88e6dd6> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7846" ;
-    dcterms:created "2024-03-14T13:47:49.639368"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:58.941596"^^xsd:dateTime ;
     skos:prefLabel "פניאל, שלמה בן אברהם" ;
     foaf:name "פניאל, שלמה בן אברהם" .
 
@@ -1634,47 +1588,45 @@
     gndo:gndIdentifier "5011056-1" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Vienna" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.82082e+01,
-        4.820849e+01 ;
-    jl:lon 1.637169e+01,
-        1.637208e+01 ;
-    dcterms:created "2024-03-14T13:50:19.751144"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:19.277874"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +16.37169 +48.2082)",
+        "\"Point ( +16.37208 +48.20849)" ;
     skos:prefLabel "Vienna"^^xsd:string ;
     foaf:name "Vienna"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/7696e913-9630-50f8-8299-6092143f676b> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/364" ;
-    dcterms:created "2024-03-14T13:47:47.295447"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:56.396498"^^xsd:dateTime ;
     skos:prefLabel "פארינצו, אשר בן יעקב" ;
     foaf:name "פארינצו, אשר בן יעקב" .
 
 <http://data.judaicalink.org/data/footprints/77c7588e-dfd2-580e-8858-2ca1690a61fc> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6071" ;
-    dcterms:created "2024-03-14T13:47:58.902361"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:07.596258"^^xsd:dateTime ;
     skos:prefLabel "רפאפורט, אברהם בן ישראל יחיאל הכהן" ;
     foaf:name "רפאפורט, אברהם בן ישראל יחיאל הכהן" .
 
 <http://data.judaicalink.org/data/footprints/78be7019-9c80-52cd-9011-c8347519e9a7> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4235" ;
-    dcterms:created "2024-03-14T13:47:53.326215"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.582374"^^xsd:dateTime ;
     skos:prefLabel "קלונימוס מזלאזיץ" ;
     foaf:name "קלונימוס מזלאזיץ" .
 
 <http://data.judaicalink.org/data/footprints/78f6a576-0e7b-5c93-94c7-4cae725eeb75> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7179" ;
-    dcterms:created "2024-03-14T13:48:08.569146"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:16.246153"^^xsd:dateTime ;
     skos:prefLabel "תאומים, יוסף בן מאיר" ;
     foaf:name "תאומים, יוסף בן מאיר" .
 
 <http://data.judaicalink.org/data/footprints/7b7e6636-f108-57fb-8487-fcc020418f28> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7750" ;
-    dcterms:created "2024-03-14T13:47:52.717069"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.963764"^^xsd:dateTime ;
     skos:prefLabel "קונקי, אברהם בן לוי" ;
     foaf:name "קונקי, אברהם בן לוי" .
 
 <http://data.judaicalink.org/data/footprints/7baae1d1-b1d2-5b4b-89ed-d70621ff8097> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2986" ;
-    dcterms:created "2024-03-14T13:48:08.436633"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:16.111620"^^xsd:dateTime ;
     skos:prefLabel "שפירא, נתן נטע בן שלמה" ;
     foaf:name "שפירא, נתן נטע בן שלמה" .
 
@@ -1683,14 +1635,13 @@
     gndo:gndIdentifier "4262102-1" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "The Marches" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.383982e+01 ;
-    jl:lon 1.301942e+01 ;
-    dcterms:created "2024-03-14T13:49:43.008200"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:43.636397"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +13.01942 +43.839816)" ;
     skos:prefLabel "Fano"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/7bfe32bc-579e-5557-aac6-4bb20f6431a9> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1443" ;
-    dcterms:created "2024-03-14T13:48:08.479142"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:16.154602"^^xsd:dateTime ;
     skos:prefLabel "שפירא, צבי הירש" ;
     foaf:name "שפירא, צבי הירש" .
 
@@ -1704,12 +1655,12 @@
     gndo:language "Hebrew" ;
     gndo:owner "Russian State Libary" ;
     dc:title "Zewaah" ;
-    dcterms:created "2024-03-14T13:48:19.003245"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:22.906577"^^xsd:dateTime ;
     skos:prefLabel "Zewaah" .
 
 <http://data.judaicalink.org/data/footprints/7c5b164f-b14a-5544-ad25-c2c36e033091> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2411" ;
-    dcterms:created "2024-03-14T13:47:49.143106"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:58.485284"^^xsd:dateTime ;
     owl:sameAs "http://d-nb.info/gnd/1089712146",
         "https://viaf.org/viaf/21144044/" ;
     skos:prefLabel "פינחס בן פילטא" ;
@@ -1717,7 +1668,7 @@
 
 <http://data.judaicalink.org/data/footprints/7db8bad4-ad97-5ebe-bccf-6ef4ec4784dd> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4249" ;
-    dcterms:created "2024-03-14T13:48:03.241323"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:10.792146"^^xsd:dateTime ;
     skos:prefLabel "שלמה" ;
     foaf:name "שלמה" .
 
@@ -1725,13 +1676,13 @@
     gndo:gndIdentifier "4384842-4" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Mogilev" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:13.094001"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:12.696699"^^xsd:dateTime ;
     skos:prefLabel "Mogilev"^^xsd:string ;
     foaf:name "Mogilev"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/7ff012d5-fe2c-5eeb-89d1-eaa8f1c5a226> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:49:25.579620"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:25.965332"^^xsd:dateTime ;
     skos:prefLabel "Yehudah Asah'el Del Bene" ;
     foaf:name "Yehudah Asah'el Del Bene" .
 
@@ -1740,20 +1691,19 @@
     gndo:gndIdentifier "4754307-3" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Rivne" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.061655e+01 ;
-    jl:lon 2.716055e+01 ;
-    dcterms:created "2024-03-14T13:49:52.893434"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:53.808233"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +27.16055 +50.61655)" ;
     skos:prefLabel "Korets"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/815817aa-5d20-588c-b75d-a2fabf63803a> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7780" ;
-    dcterms:created "2024-03-14T13:47:56.926164"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.840382"^^xsd:dateTime ;
     skos:prefLabel "רומאנין, ישעיה בן יוסף" ;
     foaf:name "רומאנין, ישעיה בן יוסף" .
 
 <http://data.judaicalink.org/data/footprints/824f7cd1-df56-5df1-837b-c31f4e10a5bd> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7242" ;
-    dcterms:created "2024-03-14T13:47:58.994838"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:07.659375"^^xsd:dateTime ;
     skos:prefLabel "רפפורט, ישראל בן אברהם אבלי" ;
     foaf:name "רפפורט, ישראל בן אברהם אבלי" .
 
@@ -1762,14 +1712,13 @@
     gndo:gndIdentifier "5122755-1" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Saxony-Anhalt" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.168386e+01 ;
-    jl:lon 1.230228e+01 ;
-    dcterms:created "2024-03-14T13:49:50.924104"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:51.735673"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +12.302284 +51.683859)" ;
     skos:prefLabel "Jeßnitz"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/82c9962d-f7e5-5ea8-98fa-01a235f545b4> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2153" ;
-    dcterms:created "2024-03-14T13:48:02.529275"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:10.055917"^^xsd:dateTime ;
     skos:prefLabel "שלז, בנציון בן שלמה" ;
     foaf:name "שלז, בנציון בן שלמה" .
 
@@ -1778,9 +1727,8 @@
     gndo:gndIdentifier "4520190-0" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Rheinland-Pfalz" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.983352e+01 ;
-    jl:lon 7.336518e+00 ;
-    dcterms:created "2024-03-14T13:50:16.011836"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:15.602410"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +7.336518 +49.833524)" ;
     skos:prefLabel "Sulzbach"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/8459755d-82fe-5153-a918-35413604c76c> a gndo:PlaceOrGeographicName ;
@@ -1788,9 +1736,8 @@
     gndo:gndIdentifier "4355028-9" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lviv Oblast" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.00589e+01 ;
-    jl:lon 2.39736e+01 ;
-    dcterms:created "2024-03-14T13:50:24.532582"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:23.773118"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +23.9736 +50.0589)" ;
     skos:prefLabel "Zhovkva"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/855a6907-f9fd-5732-8342-ffa087cc1a59> a gndo:PlaceOrGeographicName ;
@@ -1798,28 +1745,27 @@
     gndo:gndIdentifier "4394155-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Belarus" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.42024e+01 ;
-    jl:lon 3.029554e+01 ;
-    dcterms:created "2024-03-14T13:50:13.766216"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:13.381896"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +30.295544 +54.202396)" ;
     skos:prefLabel "Škloŭ"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/86bbad66-d098-55db-b6cb-6c897121e2db> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "4683704-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "The Marches" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:43.272332"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:43.898116"^^xsd:dateTime ;
     skos:prefLabel "The Marches"^^xsd:string ;
     foaf:name "The Marches"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/8705805e-19c6-5ceb-932d-e847803222a0> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1617" ;
-    dcterms:created "2024-03-14T13:48:08.656833"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:16.335690"^^xsd:dateTime ;
     skos:prefLabel "תנחומא בר אבא" ;
     foaf:name "תנחומא בר אבא" .
 
 <http://data.judaicalink.org/data/footprints/8870eb6f-7c51-5822-bee4-ebf66960a255> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5689" ;
-    dcterms:created "2024-03-14T13:48:02.310897"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:09.797513"^^xsd:dateTime ;
     owl:sameAs "None",
         "https://viaf.org/viaf/317189850/" ;
     skos:prefLabel "שבתי בן משה הכהן" ;
@@ -1830,33 +1776,32 @@
     gndo:gndIdentifier "4003614-5" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Bavaria" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.837054e+01 ;
-    jl:lon 1.089779e+01 ;
-    dcterms:created "2024-03-14T13:49:36.192203"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:36.890525"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +10.89779 +48.370545)" ;
     skos:prefLabel "Augsburg"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/891b97cc-dc5b-58b6-a96e-dba6fe7961c5> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7912" ;
-    dcterms:created "2024-03-14T13:48:08.350668"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:16.023278"^^xsd:dateTime ;
     skos:prefLabel "שפירא, ברכיה ברך בן יצחק אייזיק" ;
     foaf:name "שפירא, ברכיה ברך בן יצחק אייזיק" .
 
 <http://data.judaicalink.org/data/footprints/896a0d28-3ef7-5367-9e02-00999f8815c9> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9051" ;
-    dcterms:created "2024-03-14T13:48:04.760620"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:12.332172"^^xsd:dateTime ;
     skos:prefLabel "שמואל אליעזר בן יהודה הלוי (מהרש\"א)" ;
     foaf:name "שמואל אליעזר בן יהודה הלוי (מהרש\"א)" .
 
 <http://data.judaicalink.org/data/footprints/8a373604-0ac0-5791-a672-ac34bf8cceaa> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5441" ;
-    dcterms:created "2024-03-14T13:47:58.212201"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.993253"^^xsd:dateTime ;
     skos:prefLabel "רעגנסבורג(?)" ;
     foaf:name "רעגנסבורג(?)" .
 
 <http://data.judaicalink.org/data/footprints/8abe569c-4e9c-5059-a794-b05d2e9ff912> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "4022153-2" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:59.129266"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:58.637806"^^xsd:dateTime ;
     skos:prefLabel "United Kingdom"^^xsd:string ;
     foaf:name "United Kingdom"^^xsd:string .
 
@@ -1864,19 +1809,19 @@
     gndo:gndIdentifier "4007955-7" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Brandenburg" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:44.465519"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:45.086858"^^xsd:dateTime ;
     skos:prefLabel "Brandenburg"^^xsd:string ;
     foaf:name "Brandenburg"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/8b658671-829f-5a5b-b642-e27756acdb8f> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9384" ;
-    dcterms:created "2024-03-14T13:47:58.793594"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:07.499755"^^xsd:dateTime ;
     skos:prefLabel "רעכיל ובניה מיכאל שמעון" ;
     foaf:name "רעכיל ובניה מיכאל שמעון" .
 
 <http://data.judaicalink.org/data/footprints/8b8a9f93-b7c0-5231-9287-da9ce2b15fd4> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2282" ;
-    dcterms:created "2024-03-14T13:47:51.951290"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.252401"^^xsd:dateTime ;
     skos:prefLabel "צבי יעקב בריזל" ;
     foaf:name "צבי יעקב בריזל" .
 
@@ -1885,14 +1830,13 @@
     gndo:gndIdentifier "7523584-5" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Hlavní město Praha" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.007554e+01 ;
-    jl:lon 1.44378e+01 ;
-    dcterms:created "2024-03-14T13:49:53.981569"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:54.905727"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +14.4378 +50.075538)" ;
     skos:prefLabel "Královské Vinohrady"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/8da343b7-de0b-5acf-ad91-4de98a5086c8> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2121" ;
-    dcterms:created "2024-03-14T13:48:03.202327"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:10.748590"^^xsd:dateTime ;
     skos:prefLabel "שלם, שמואל בן עמנואל" ;
     foaf:name "שלם, שמואל בן עמנואל" .
 
@@ -1900,13 +1844,13 @@
     gndo:gndIdentifier "1155268725" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Flanders" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:35.691723"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:36.470137"^^xsd:dateTime ;
     skos:prefLabel "Flanders"^^xsd:string ;
     foaf:name "Flanders"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/90318d7c-2324-5ba4-9a15-e040240fcadc> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/353" ;
-    dcterms:created "2024-03-14T13:47:59.123758"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:07.755220"^^xsd:dateTime ;
     skos:prefLabel "ר' שמואל" ;
     foaf:name "ר' שמואל" .
 
@@ -1914,7 +1858,7 @@
     gndo:gndIdentifier "4036294-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lombardy" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:42.412858"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:43.045427"^^xsd:dateTime ;
     skos:prefLabel "Lombardy"^^xsd:string ;
     foaf:name "Lombardy"^^xsd:string .
 
@@ -1923,45 +1867,44 @@
     gndo:gndIdentifier "4628873-9" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Rivne" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.032793e+01 ;
-    jl:lon 2.652111e+01 ;
-    dcterms:created "2024-03-14T13:50:05.149155"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:04.774284"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +26.521108 +50.327929)" ;
     skos:prefLabel "Ostroh"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/91ec2770-d326-558a-baf6-3eef6fe7f4d5> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/259" ;
-    dcterms:created "2024-03-14T13:48:05.114880"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:12.705172"^^xsd:dateTime ;
     skos:prefLabel "שמואל זנוויל" ;
     foaf:name "שמואל זנוויל" .
 
 <http://data.judaicalink.org/data/footprints/92fb7e4e-3ae0-58f0-906a-4bf5860d836e> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/261" ;
-    dcterms:created "2024-03-14T13:47:57.918674"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.749143"^^xsd:dateTime ;
     skos:prefLabel "ר' ליכטענשטיין" ;
     foaf:name "ר' ליכטענשטיין" .
 
 <http://data.judaicalink.org/data/footprints/93e0d761-54ab-53c7-a90b-aa0993e98d08> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2404" ;
-    dcterms:created "2024-03-14T13:47:52.029801"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.321107"^^xsd:dateTime ;
     skos:prefLabel "ציוני, מנחם בן מאיר" ;
     foaf:name "ציוני, מנחם בן מאיר" .
 
 <http://data.judaicalink.org/data/footprints/955a71fa-82cd-5529-9cd6-13c4f993f70a> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1564" ;
-    dcterms:created "2024-03-14T13:47:53.164128"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.421169"^^xsd:dateTime ;
     skos:prefLabel "קורדוברו, משה בן" ;
     foaf:name "קורדוברו, משה בן" .
 
 <http://data.judaicalink.org/data/footprints/95fd86c1-a9a2-5f5f-ad95-985b84a81177> a gndo:PlaceOrGeographicName ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Basel-City" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:37.768920"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:38.351126"^^xsd:dateTime ;
     skos:prefLabel "Basel-City"^^xsd:string ;
     foaf:name "Basel-City"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/96debfec-6fc4-5ae5-a950-eb8daf2cf09c> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:16.937510"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:22.498323"^^xsd:dateTime ;
     skos:prefLabel "Moses Ben Nahman" ;
     foaf:name "Moses Ben Nahman" .
 
@@ -1971,9 +1914,8 @@
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Germany",
         "Hamburg" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.357916e+01 ;
-    jl:lon 9.874556e+00 ;
-    dcterms:created "2024-03-14T13:49:33.818743"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:34.629747"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +9.874556 +53.57916)" ;
     skos:prefLabel "Hamburg"^^xsd:string ;
     foaf:name "Hamburg"^^xsd:string .
 
@@ -1981,7 +1923,7 @@
     gndo:gndIdentifier "1054880514" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lviv Oblast" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:24.852728"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:24.102771"^^xsd:dateTime ;
     skos:prefLabel "Lviv Oblast"^^xsd:string ;
     foaf:name "Lviv Oblast"^^xsd:string .
 
@@ -1990,20 +1932,19 @@
     gndo:gndIdentifier "1076939570" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Bavaria" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.947593e+01 ;
-    jl:lon 1.098856e+01 ;
-    dcterms:created "2024-03-14T13:49:44.710604"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:45.338145"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +10.98856 +49.47593)" ;
     skos:prefLabel "Fürth"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/9ade4fa2-8cff-56c1-b8dd-8e3246e09363> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4684" ;
-    dcterms:created "2024-03-14T13:47:49.625350"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:58.927933"^^xsd:dateTime ;
     skos:prefLabel "פנחס רפאל [כמהר''ר] אלעזר יצ''ו" ;
     foaf:name "פנחס רפאל [כמהר''ר] אלעזר יצ''ו" .
 
 <http://data.judaicalink.org/data/footprints/9b1f607a-08cc-5792-a145-fbb0ab98ed81> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4304" ;
-    dcterms:created "2024-03-14T13:48:04.285225"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.839956"^^xsd:dateTime ;
     skos:prefLabel "שלמה עמר יז" ;
     foaf:name "שלמה עמר יז" .
 
@@ -2017,24 +1958,24 @@
     gndo:owner "Russian State Library" ;
     jl:describedAt "https://search.worldcat.org/de/title/233174113" ;
     dc:title "Ze Sefer Toldot Adam" ;
-    dcterms:created "2024-03-14T13:48:17.135619"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:22.678127"^^xsd:dateTime ;
     skos:prefLabel "Ze Sefer Toldot Adam" .
 
 <http://data.judaicalink.org/data/footprints/9c23ebf7-1fd6-5a04-954e-2cd976ccd0e7> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4252" ;
-    dcterms:created "2024-03-14T13:48:05.785815"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:13.392782"^^xsd:dateTime ;
     skos:prefLabel "שמואל שאול דוויך הכהן" ;
     foaf:name "שמואל שאול דוויך הכהן" .
 
 <http://data.judaicalink.org/data/footprints/9c627fca-f8db-5043-993f-6cb79ae2d08f> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9593" ;
-    dcterms:created "2024-03-14T13:48:03.922932"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.486679"^^xsd:dateTime ;
     skos:prefLabel "שלמה זלמן אפטרוד, משה גמבורג" ;
     foaf:name "שלמה זלמן אפטרוד, משה גמבורג" .
 
 <http://data.judaicalink.org/data/footprints/9df7f0be-0bfd-5f16-93d1-854a6dedc452> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7889" ;
-    dcterms:created "2024-03-14T13:47:52.647286"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.906348"^^xsd:dateTime ;
     skos:prefLabel "קולון, יוסף בן שלמה (מהרי\"ק)" ;
     foaf:name "קולון, יוסף בן שלמה (מהרי\"ק)" .
 
@@ -2043,9 +1984,8 @@
     gndo:gndIdentifier "118609690X" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "South Moravian" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.919506e+01 ;
-    jl:lon 1.660684e+01 ;
-    dcterms:created "2024-03-14T13:49:40.784164"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:41.384028"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +16.606837 +49.19506)" ;
     skos:prefLabel "Brno"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/9f4e2f7a-fd51-51e8-afaf-283f27e57987> a gndo:PlaceOrGeographicName ;
@@ -2053,9 +1993,8 @@
     gndo:gndIdentifier "4062222-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Utrecht" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.209074e+01 ;
-    jl:lon 5.12142e+00 ;
-    dcterms:created "2024-03-14T13:50:18.683169"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:18.246317"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +5.12142 +52.090737)" ;
     skos:prefLabel "Utrecht"^^xsd:string ;
     foaf:name "Utrecht"^^xsd:string .
 
@@ -2063,31 +2002,31 @@
     gndo:gndIdentifier "4371220-4" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Łódź Voivodeship" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:08.397852"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:08.062103"^^xsd:dateTime ;
     skos:prefLabel "Łódź Voivodeship"^^xsd:string ;
     foaf:name "Łódź Voivodeship"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/9fb88e81-5f03-50a8-aef4-45e7d3d4d0d9> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/383" ;
-    dcterms:created "2024-03-14T13:47:58.176210"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.961700"^^xsd:dateTime ;
     skos:prefLabel "ר’ נפתלי הירש ב\"ר בנימן וואלף, לובלין" ;
     foaf:name "ר’ נפתלי הירש ב\"ר בנימן וואלף, לובלין" .
 
 <http://data.judaicalink.org/data/footprints/9fe2a79b-c0aa-5391-92e2-176570f6a072> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2477" ;
-    dcterms:created "2024-03-14T13:47:48.010459"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:57.242813"^^xsd:dateTime ;
     skos:prefLabel "פייבל פרימרור" ;
     foaf:name "פייבל פרימרור" .
 
 <http://data.judaicalink.org/data/footprints/a09a4516-1458-5b1a-be38-727e1f0c56bd> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1464" ;
-    dcterms:created "2024-03-14T13:47:56.401424"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.383873"^^xsd:dateTime ;
     skos:prefLabel "‫  רוזאניס, יהודה בן שמואל" ;
     foaf:name "‫  רוזאניס, יהודה בן שמואל" .
 
 <http://data.judaicalink.org/data/footprints/a2eb3b6c-86ca-5c3b-b451-edcd1329c4b9> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7871" ;
-    dcterms:created "2024-03-14T13:47:53.188134"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.442471"^^xsd:dateTime ;
     skos:prefLabel "קוריאל, ישראל בן מאיר די" ;
     foaf:name "קוריאל, ישראל בן מאיר די" .
 
@@ -2096,21 +2035,20 @@
     gndo:gndIdentifier "4005728-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Berlin" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.252437e+01 ;
-    jl:lon 1.341053e+01 ;
-    dcterms:created "2024-03-14T13:49:38.893896"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:39.505515"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +13.41053 +52.52437)" ;
     skos:prefLabel "Berlin"^^xsd:string ;
     foaf:name "Berlin"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/a4a872f0-a294-5b73-9b1d-53db30eed11d> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6014" ;
-    dcterms:created "2024-03-14T13:48:04.162162"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.720411"^^xsd:dateTime ;
     skos:prefLabel "שלמה כוצנו" ;
     foaf:name "שלמה כוצנו" .
 
 <http://data.judaicalink.org/data/footprints/a567fce2-4b00-5012-a8f8-9fbb5695b8fb> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9687" ;
-    dcterms:created "2024-03-14T13:47:50.228196"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:59.533001"^^xsd:dateTime ;
     owl:sameAs "http://d-nb.info/gnd/104203390",
         "https://viaf.org/viaf/15201968/" ;
     skos:prefLabel "פרדו, דוד בן יעקב" ;
@@ -2121,30 +2059,28 @@
     gndo:gndIdentifier "4044660-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Île-de-France" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.88534e+01,
-        4.885341e+01 ;
-    jl:lon 2.3486e+00,
-        2.3488e+00 ;
-    dcterms:created "2024-03-14T13:50:06.828385"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:06.485292"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +2.3486 +48.8534)",
+        "\"Point ( +2.3488 +48.85341)" ;
     skos:prefLabel "Paris"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/a8e66133-62b5-5c27-a02a-f08097adaa0e> a foaf:Person ;
     jl:describedAt "None",
         "https://viaf.org/viaf/288334408/" ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:20.237570"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:25.058852"^^xsd:dateTime ;
     skos:prefLabel "Isaac ben Noah Kohen Shapira" ;
     foaf:name "Isaac ben Noah Kohen Shapira" .
 
 <http://data.judaicalink.org/data/footprints/a9be6d11-d0bb-5623-8fd8-e9ec5e2d15ac> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6046" ;
-    dcterms:created "2024-03-14T13:47:50.291747"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:59.593016"^^xsd:dateTime ;
     skos:prefLabel "‫  פרחיה, חסדאי בן שמואל הכהן" ;
     foaf:name "‫  פרחיה, חסדאי בן שמואל הכהן" .
 
 <http://data.judaicalink.org/data/footprints/ab2f120d-b5e4-5a21-884c-93de8a8e0779> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/251" ;
-    dcterms:created "2024-03-14T13:47:55.348787"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:04.528135"^^xsd:dateTime ;
     skos:prefLabel "ר’ אברהם גדילייא" ;
     foaf:name "ר’ אברהם גדילייא" .
 
@@ -2152,13 +2088,13 @@
     gndo:gndIdentifier "4014770-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "England" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:58.699627"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:58.346915"^^xsd:dateTime ;
     skos:prefLabel "England"^^xsd:string ;
     foaf:name "England"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/aeca3ef9-a40c-5930-bfdd-aa47bd9f92a6> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4290" ;
-    dcterms:created "2024-03-14T13:47:57.113742"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.005605"^^xsd:dateTime ;
     skos:prefLabel "ר׳ חנוך ירק" ;
     foaf:name "ר׳ חנוך ירק" .
 
@@ -2166,13 +2102,13 @@
     gndo:gndIdentifier "1151163252" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Grand Est" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:01.999331"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:01.596136"^^xsd:dateTime ;
     skos:prefLabel "Grand Est"^^xsd:string ;
     foaf:name "Grand Est"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/afe450ad-8521-5aaf-b1a1-fb9082438ec8> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:19.055239"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:22.955337"^^xsd:dateTime ;
     skos:prefLabel "אזולאי, אברהם בן מרדכי" ;
     foaf:name "אזולאי, אברהם בן מרדכי" .
 
@@ -2181,14 +2117,13 @@
     gndo:gndIdentifier "1232975664" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Vitebsk" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.432221e+01 ;
-    jl:lon 3.028892e+01 ;
-    dcterms:created "2024-03-14T13:49:52.339996"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:53.251820"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +30.288924 +54.322208)" ;
     skos:prefLabel "Kopys'"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/b0877d5b-0690-516f-bec0-685663f607ca> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1942" ;
-    dcterms:created "2024-03-14T13:48:03.845588"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.409690"^^xsd:dateTime ;
     skos:prefLabel "שלמה בן משה מחלמא" ;
     foaf:name "שלמה בן משה מחלמא" .
 
@@ -2197,23 +2132,21 @@
     gndo:gndIdentifier "1131658612" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Khmelnytskyy Oblast" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.012247e+01 ;
-    jl:lon 2.750677e+01 ;
-    dcterms:created "2024-03-14T13:50:08.674672"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:08.333611"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +27.506767 +50.122469)" ;
     skos:prefLabel "Polonne"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/b19b97a5-72b7-51af-9ed1-7eeba098f1e6> a gndo:PlaceOrGeographicName ;
     rdfs:label "Shklow" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Mogilev" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.42131e+01 ;
-    jl:lon 3.02877e+01 ;
-    dcterms:created "2024-03-14T13:50:12.798696"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:12.402691"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +30.2877 +54.2131)" ;
     skos:prefLabel "Shklow"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/b1c10fd2-a2c9-5af2-bf1d-53acb2e6e641> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4152" ;
-    dcterms:created "2024-03-14T13:47:55.919889"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.067315"^^xsd:dateTime ;
     skos:prefLabel """ר׳ אליעזר יזייא משה
 and ר' ר״ס""" ;
     foaf:name """ר׳ אליעזר יזייא משה
@@ -2221,14 +2154,14 @@ and ר' ר״ס""" .
 
 <http://data.judaicalink.org/data/footprints/b2183576-00a5-55a8-a13f-47f36262e54e> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7729" ;
-    dcterms:created "2024-03-14T13:47:56.083236"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.166301"^^xsd:dateTime ;
     skos:prefLabel "רבינו בן אליהו מקאסטוריה" ;
     foaf:name "רבינו בן אליהו מקאסטוריה" .
 
 <http://data.judaicalink.org/data/footprints/b365ae77-71d1-5cc8-91d2-99bde99757d8> a gndo:PlaceOrGeographicName ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "North Holland" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:34.995721"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:35.794810"^^xsd:dateTime ;
     skos:prefLabel "North Holland"^^xsd:string ;
     foaf:name "North Holland"^^xsd:string .
 
@@ -2236,20 +2169,20 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "1020823-9" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Trentino-Alto Adige" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:10.404929"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:09.994258"^^xsd:dateTime ;
     skos:prefLabel "Trentino-Alto Adige"^^xsd:string ;
     foaf:name "Trentino-Alto Adige"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/b4313faf-00da-51ee-8284-beb154a90890> a gndo:PlaceOrGeographicName ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "South Moravian" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:41.039538"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:41.643492"^^xsd:dateTime ;
     skos:prefLabel "South Moravian"^^xsd:string ;
     foaf:name "South Moravian"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/b48ff2eb-5552-5343-b7f6-9471913ef135> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7745" ;
-    dcterms:created "2024-03-14T13:48:04.121814"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.679649"^^xsd:dateTime ;
     skos:prefLabel "שלמה ישורון" ;
     foaf:name "שלמה ישורון" .
 
@@ -2258,27 +2191,26 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "7742243-0" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Bavaria" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.950126e+01 ;
-    jl:lon 1.174598e+01 ;
-    dcterms:created "2024-03-14T13:50:16.624707"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:16.190750"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +11.74598 +49.50126)" ;
     skos:prefLabel "Sulzbach-Rosenberg"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/b4f7fac5-ab07-508c-ad79-9a49d6e3942c> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/988" ;
-    dcterms:created "2024-03-14T13:48:03.277867"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:10.833147"^^xsd:dateTime ;
     skos:prefLabel "שלמה בן אברהם אבן אדרת" ;
     foaf:name "שלמה בן אברהם אבן אדרת" .
 
 <http://data.judaicalink.org/data/footprints/b50bcf9a-1ce0-5dcb-9c84-7b6c8d972414> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:17.186166"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:22.731660"^^xsd:dateTime ;
     skos:prefLabel "Aaron ben Jacob of Karlin" ;
     foaf:name "Aaron ben Jacob of Karlin" .
 
 <http://data.judaicalink.org/data/footprints/b722e6ea-482b-56d7-9379-21703b67d7f4> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "4046843-4" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:56.799680"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:57.281221"^^xsd:dateTime ;
     skos:prefLabel "Portugal"^^xsd:string ;
     foaf:name "Portugal"^^xsd:string .
 
@@ -2286,7 +2218,7 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4074042-0" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Latium" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:11.355484"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:10.981320"^^xsd:dateTime ;
     skos:prefLabel "Latium"^^xsd:string ;
     foaf:name "Latium"^^xsd:string .
 
@@ -2294,19 +2226,19 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "1103583409" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lower Silesia" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:41.716544"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:42.353032"^^xsd:dateTime ;
     skos:prefLabel "Lower Silesia"^^xsd:string ;
     foaf:name "Lower Silesia"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/b7f3f9ca-c328-55de-a79d-9dad9b29d298> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9078" ;
-    dcterms:created "2024-03-14T13:47:52.695008"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.944146"^^xsd:dateTime ;
     skos:prefLabel "קונציו, יוסף בן גרשום" ;
     foaf:name "קונציו, יוסף בן גרשום" .
 
 <http://data.judaicalink.org/data/footprints/b8383962-8843-57d4-a118-3ba6f65e8df6> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7852" ;
-    dcterms:created "2024-03-14T13:47:47.971075"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:57.207785"^^xsd:dateTime ;
     skos:prefLabel "פופרש, מאיר בן יהודה ליב הכהן" ;
     foaf:name "פופרש, מאיר בן יהודה ליב הכהן" .
 
@@ -2314,26 +2246,26 @@ and ר' ר״ס""" .
     jl:describedAt "http://d-nb.info/gnd/1053049900",
         "https://viaf.org/viaf/58946499/" ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:26.484098"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:29.327980"^^xsd:dateTime ;
     skos:prefLabel "Yaʼaḳov Berlin" ;
     foaf:name "Yaʼaḳov Berlin" .
 
 <http://data.judaicalink.org/data/footprints/b92bce0d-6100-5967-b101-e975924901c1> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "1130614395" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:38.035215"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:38.609572"^^xsd:dateTime ;
     skos:prefLabel "Switzerland"^^xsd:string ;
     foaf:name "Switzerland"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/b9a8f8cc-878e-55b7-aa24-438488bf6dd7> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1602" ;
-    dcterms:created "2024-03-14T13:47:56.045019"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.142301"^^xsd:dateTime ;
     skos:prefLabel "רבינוביץ, ישראל בן שלמה יעקב" ;
     foaf:name "רבינוביץ, ישראל בן שלמה יעקב" .
 
 <http://data.judaicalink.org/data/footprints/ba72611c-89bb-566e-a9f4-4260e70cc0ac> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/295" ;
-    dcterms:created "2024-03-14T13:47:56.200301"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.242753"^^xsd:dateTime ;
     skos:prefLabel "ר' ברוך (??)" ;
     foaf:name "ר' ברוך (??)" .
 
@@ -2341,13 +2273,13 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4203981-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Bavaria" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:36.452317"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:37.153673"^^xsd:dateTime ;
     skos:prefLabel "Bavaria"^^xsd:string ;
     foaf:name "Bavaria"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/bae38e61-4b1c-5cc9-90e8-9cdb714221a8> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2479" ;
-    dcterms:created "2024-03-14T13:48:04.001964"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.563400"^^xsd:dateTime ;
     skos:prefLabel "שלמה זלמן האויל" ;
     foaf:name "שלמה זלמן האויל" .
 
@@ -2356,14 +2288,13 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "125272070X" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Łódź Voivodeship" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.140547e+01 ;
-    jl:lon 1.970321e+01 ;
-    dcterms:created "2024-03-14T13:50:08.093294"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:07.769613"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +19.70321 +51.40547)" ;
     skos:prefLabel "Piotrków Trybunalski"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/bb0a1f3a-89b7-5417-9359-89448f8cbdd7> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4150" ;
-    dcterms:created "2024-03-14T13:47:56.126235"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.194429"^^xsd:dateTime ;
     skos:prefLabel "רב מ׳ אוורבוך" ;
     foaf:name "רב מ׳ אוורבוך" .
 
@@ -2371,40 +2302,40 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4253227-9" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Île-de-France" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:07.137824"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:06.789553"^^xsd:dateTime ;
     skos:prefLabel "Île-de-France"^^xsd:string ;
     foaf:name "Île-de-France"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/bb90db8d-960b-54d8-bfe2-d4ba2cfbed0b> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "4440310-0" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:41.278704"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:41.881104"^^xsd:dateTime ;
     skos:prefLabel "Czechia"^^xsd:string ;
     foaf:name "Czechia"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/bc1fc779-d5c2-5728-a9ae-baab068288e7> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "4079143-9" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:46.037043"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:46.718642"^^xsd:dateTime ;
     skos:prefLabel "Belarus"^^xsd:string ;
     foaf:name "Belarus"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/bc76bfe4-9091-5fd4-8d3b-b9bc9a7320b8> a gndo:PlaceOrGeographicName ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Castille-La Mancha" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:46.539776"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:47.192732"^^xsd:dateTime ;
     skos:prefLabel "Castille-La Mancha"^^xsd:string ;
     foaf:name "Castille-La Mancha"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/bceae259-12d2-5347-9fa4-a594ef455917> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9685" ;
-    dcterms:created "2024-03-14T13:47:52.429155"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.722458"^^xsd:dateTime ;
     skos:prefLabel "צירנדארף וזאממער" ;
     foaf:name "צירנדארף וזאממער" .
 
 <http://data.judaicalink.org/data/footprints/bd7faac7-83dc-51db-a239-699961b2d572> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1548" ;
-    dcterms:created "2024-03-14T13:47:53.373766"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.625374"^^xsd:dateTime ;
     skos:prefLabel "קמחי, יוסף" ;
     foaf:name "קמחי, יוסף" .
 
@@ -2413,20 +2344,19 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "1189366452" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Ukraine" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.983968e+01 ;
-    jl:lon 2.402972e+01 ;
-    dcterms:created "2024-03-14T13:50:00.307076"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:59.830310"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +24.029717 +49.839683)" ;
     skos:prefLabel "L'viv"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/bda6862a-cfc8-52a0-a2d0-e0dbc3926c4c> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4126" ;
-    dcterms:created "2024-03-14T13:47:55.957029"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.094285"^^xsd:dateTime ;
     skos:prefLabel "ר׳ אתיאל מרם (?)" ;
     foaf:name "ר׳ אתיאל מרם (?)" .
 
 <http://data.judaicalink.org/data/footprints/bef8cddc-7a35-5514-94db-cb05f7dfe581> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7227" ;
-    dcterms:created "2024-03-14T13:48:07.832930"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:15.481045"^^xsd:dateTime ;
     skos:prefLabel "שניאורסון, שניאור זלמן" ;
     foaf:name "שניאורסון, שניאור זלמן" .
 
@@ -2439,12 +2369,12 @@ and ר' ר״ס""" .
     gndo:language "Hebrew" ;
     gndo:owner "Russian State Library" ;
     dc:title "Zikhron le-rishonim ve-gam le-acharonim" ;
-    dcterms:created "2024-03-14T13:48:23.466699"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:25.908286"^^xsd:dateTime ;
     skos:prefLabel "Zikhron le-rishonim ve-gam le-acharonim" .
 
 <http://data.judaicalink.org/data/footprints/c10735a1-529a-541a-8157-4e778ed6c237> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2076" ;
-    dcterms:created "2024-03-14T13:47:56.970300"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.870040"^^xsd:dateTime ;
     skos:prefLabel "רומנין, ישעיה בן יוסף" ;
     foaf:name "רומנין, ישעיה בן יוסף" .
 
@@ -2453,39 +2383,38 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "7535636-3" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Germany" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.15e+01 ;
-    jl:lon 1.05e+01 ;
-    dcterms:created "2024-03-14T13:49:34.050806"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:34.861518"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +10.5 +51.5)" ;
     skos:prefLabel "Germany"^^xsd:string ;
     foaf:name "Germany"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/c1442e37-6aa1-5f16-8b24-2b437bd25f14> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/347" ;
-    dcterms:created "2024-03-14T13:48:04.326229"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.884968"^^xsd:dateTime ;
     skos:prefLabel "שלמה פלעסנער" ;
     foaf:name "שלמה פלעסנער" .
 
 <http://data.judaicalink.org/data/footprints/c1e3afe4-66f4-5fb9-9b62-f4868c05bb4f> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5455" ;
-    dcterms:created "2024-03-14T13:47:52.404770"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.704155"^^xsd:dateTime ;
     skos:prefLabel "צינץ, אריה ליב בן משה" ;
     foaf:name "צינץ, אריה ליב בן משה" .
 
 <http://data.judaicalink.org/data/footprints/c1e5f1ca-a408-55f3-bf53-3131d70ade40> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2053" ;
-    dcterms:created "2024-03-14T13:48:07.615268"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:15.240996"^^xsd:dateTime ;
     skos:prefLabel "שמשון בר צדוק" ;
     foaf:name "שמשון בר צדוק" .
 
 <http://data.judaicalink.org/data/footprints/c251cacf-f2c6-5e9a-b97f-09b57235789d> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/382" ;
-    dcterms:created "2024-03-14T13:47:57.357326"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.203179"^^xsd:dateTime ;
     skos:prefLabel "ר’ יצחק ב\"ר זאב וואלף, קראקא" ;
     foaf:name "ר’ יצחק ב\"ר זאב וואלף, קראקא" .
 
 <http://data.judaicalink.org/data/footprints/c29e8060-4990-5732-8931-97d1e6bff609> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/6005" ;
-    dcterms:created "2024-03-14T13:48:07.957769"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:15.626140"^^xsd:dateTime ;
     skos:prefLabel "‫  שנייטוך, יוסף בן מאיר ‬" ;
     foaf:name "‫  שנייטוך, יוסף בן מאיר ‬" .
 
@@ -2503,12 +2432,12 @@ and ר' ר״ס""" .
     gndo:owner "Library of the Hungarian Academy of Sciences" ;
     jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000202417&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
     dc:title "Zimrat Ha'arets" ;
-    dcterms:created "2024-03-14T13:48:30.302546"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:32.559618"^^xsd:dateTime ;
     skos:prefLabel "Zimrat Ha'arets" .
 
 <http://data.judaicalink.org/data/footprints/c2c5ef9f-720b-5884-a8c3-2967b5d1808e> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5713" ;
-    dcterms:created "2024-03-14T13:47:55.162991"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:04.387360"^^xsd:dateTime ;
     owl:sameAs "http://d-nb.info/gnd/1053284543",
         "https://viaf.org/viaf/88359674/" ;
     skos:prefLabel "‫  קצנלנבוגן, יחזקאל בן אברהם ‬" ;
@@ -2516,7 +2445,7 @@ and ר' ר״ס""" .
 
 <http://data.judaicalink.org/data/footprints/c35df457-e232-5807-ad73-cd67664949be> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4270" ;
-    dcterms:created "2024-03-14T13:47:58.867360"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:07.564812"^^xsd:dateTime ;
     skos:prefLabel "רפאל לושיאנו" ;
     foaf:name "רפאל לושיאנו" .
 
@@ -2525,28 +2454,27 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4044234-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "England" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.175222e+01 ;
-    jl:lon -1.25596e+00 ;
-    dcterms:created "2024-03-14T13:50:05.519140"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:05.155183"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +-1.25596 +51.75222)" ;
     skos:prefLabel "Oxford"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/c3c75eb6-efff-54da-9a99-86ca53152309> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "4216451-5" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Khmelnytskyi" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:14.340651"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:13.985026"^^xsd:dateTime ;
     skos:prefLabel "Khmelnytskyi"^^xsd:string ;
     foaf:name "Khmelnytskyi"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/c4506446-a3a7-5f5e-8f86-5d15babd2fdf> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:28.673854"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:30.966099"^^xsd:dateTime ;
     skos:prefLabel "דנציג, אברהם בן יחיאל מיכל" ;
     foaf:name "דנציג, אברהם בן יחיאל מיכל" .
 
 <http://data.judaicalink.org/data/footprints/c460a3a7-d572-5a82-8508-1e5eac117e6d> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7373" ;
-    dcterms:created "2024-03-14T13:47:49.596355"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:58.901311"^^xsd:dateTime ;
     skos:prefLabel "פלג'י, רחמים נסים יצחק בן חיים" ;
     foaf:name "פלג'י, רחמים נסים יצחק בן חיים" .
 
@@ -2563,7 +2491,7 @@ and ר' ר״ס""" .
     jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000122456&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
     dc:publisher "http://data.judaicalink.org/data/footprints/de0f624a-2a07-5e8f-a57b-c1a80fa712f6" ;
     dc:title "Zera Ya'akov" ;
-    dcterms:created "2024-03-14T13:48:12.585984"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:19.109259"^^xsd:dateTime ;
     skos:prefLabel "Zera Ya'akov" .
 
 <http://data.judaicalink.org/data/footprints/c6186520-bb81-54cc-a09d-f7753ab2fd33> a gndo:PlaceOrGeographicName ;
@@ -2571,9 +2499,8 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "1217662820" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Hesse" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.022683e+01 ;
-    jl:lon 8.618162e+00 ;
-    dcterms:created "2024-03-14T13:49:36.915166"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:37.575363"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +8.618162 +50.226831)" ;
     skos:prefLabel "Bad Homburg"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/c679eb9f-7942-53f6-9b32-0300454a6f60> a foaf:Person ;
@@ -2581,25 +2508,25 @@ and ר' ר״ס""" .
     jl:describedAt "None",
         "https://viaf.org/viaf/79260667/" ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:32.638341"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:34.787068"^^xsd:dateTime ;
     skos:prefLabel "Moses ben Shem Tov de Leon" ;
     foaf:name "Moses ben Shem Tov de Leon" .
 
 <http://data.judaicalink.org/data/footprints/c7efbc91-6292-56ed-b8bc-53280da67820> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5065" ;
-    dcterms:created "2024-03-14T13:48:07.657271"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:15.285031"^^xsd:dateTime ;
     skos:prefLabel "שמשון צבי בן יצחק מלבוב" ;
     foaf:name "שמשון צבי בן יצחק מלבוב" .
 
 <http://data.judaicalink.org/data/footprints/c88eaabb-3e90-5d5c-b702-81524c4d67ff> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4476" ;
-    dcterms:created "2024-03-14T13:47:59.166014"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:07.787427"^^xsd:dateTime ;
     skos:prefLabel "שאול בכה\"ר אוריאל דירקנטי" ;
     foaf:name "שאול בכה\"ר אוריאל דירקנטי" .
 
 <http://data.judaicalink.org/data/footprints/c8bb9213-3470-5dbd-9ff0-8d49e5d5f0af> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7806" ;
-    dcterms:created "2024-03-14T13:47:55.410435"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:04.577151"^^xsd:dateTime ;
     skos:prefLabel "ראובן בן אברהם הלוי" ;
     foaf:name "ראובן בן אברהם הלוי" .
 
@@ -2609,16 +2536,14 @@ and ר' ר״ס""" .
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Bavaria",
         "Germany" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.948205e+01,
-        4.948308e+01 ;
-    jl:lon 1.071548e+01,
-        1.071755e+01 ;
-    dcterms:created "2024-03-14T13:50:22.994163"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:22.343760"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +10.71548 +49.48308)",
+        "\"Point ( +10.717551 +49.482048)" ;
     skos:prefLabel "Wilhermsdorf"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/c9fb6961-4698-59e5-adcc-ca73ec57e300> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2057" ;
-    dcterms:created "2024-03-14T13:48:04.839016"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:12.417951"^^xsd:dateTime ;
     skos:prefLabel "שמואל בן דוד משה הלוי" ;
     foaf:name "שמואל בן דוד משה הלוי" .
 
@@ -2626,7 +2551,7 @@ and ר' ר״ס""" .
     jl:describedAt "http://d-nb.info/gnd/124813631",
         "https://viaf.org/viaf/10789306/" ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:31.826567"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:33.946631"^^xsd:dateTime ;
     skos:prefLabel "Shimʿon ben Yoḥai" ;
     foaf:name "Shimʿon ben Yoḥai" .
 
@@ -2640,24 +2565,24 @@ and ר' ר״ס""" .
     gndo:language "Hebrew" ;
     gndo:owner "Russian State Library" ;
     dc:title "Zihrei hama" ;
-    dcterms:created "2024-03-14T13:48:19.227493"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:23.122626"^^xsd:dateTime ;
     skos:prefLabel "Zihrei hama" .
 
 <http://data.judaicalink.org/data/footprints/caa9e63d-932d-5798-bd95-736c10ed9bfd> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:21.725459"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:25.294731"^^xsd:dateTime ;
     skos:prefLabel "הורוויץ, יעקב יצחק בן אברהם אליעזר הלוי" ;
     foaf:name "הורוויץ, יעקב יצחק בן אברהם אליעזר הלוי" .
 
 <http://data.judaicalink.org/data/footprints/cb99bb99-00d0-5e64-90a4-7465051b26f1> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/352" ;
-    dcterms:created "2024-03-14T13:47:56.238300"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.267757"^^xsd:dateTime ;
     skos:prefLabel "ר' גימפריך (?)" ;
     foaf:name "ר' גימפריך (?)" .
 
 <http://data.judaicalink.org/data/footprints/cbdaaa1c-0bce-52ce-bade-69bc435f58fd> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2181" ;
-    dcterms:created "2024-03-14T13:48:08.394221"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:16.067846"^^xsd:dateTime ;
     skos:prefLabel "שפירא, גרשון מנחם מנדל בן יהודה ליב" ;
     foaf:name "שפירא, גרשון מנחם מנדל בן יהודה ליב" .
 
@@ -2666,14 +2591,13 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4066009-6" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Austria" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.820817e+01 ;
-    jl:lon 1.637382e+01 ;
-    dcterms:created "2024-03-14T13:50:22.673307"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:22.044742"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +16.373819 +48.208174)" ;
     skos:prefLabel "Wien"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/cc8fc0eb-fe78-5e24-8821-4c42a65dae2e> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4151" ;
-    dcterms:created "2024-03-14T13:47:58.024865"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.840796"^^xsd:dateTime ;
     skos:prefLabel "ר׳ מענדל לאנדסבערג" ;
     foaf:name "ר׳ מענדל לאנדסבערג" .
 
@@ -2699,7 +2623,7 @@ and ר' ר״ס""" .
     dc:publisher "http://data.judaicalink.org/data/footprints/cc7fb785-7756-5acb-9c78-d96ffcc14b6c",
         "http://data.judaicalink.org/data/footprints/f388ce12-81b1-5700-89c6-b29c6b844faa" ;
     dc:title "Zera' Yitshak" ;
-    dcterms:created "2024-03-14T13:48:15.239443"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:20.828368"^^xsd:dateTime ;
     skos:prefLabel "Zera' Yitshak" .
 
 <http://data.judaicalink.org/data/footprints/ce04256b-b58e-55a5-9abd-8ead7603416b> a gndo:PlaceOrGeographicName ;
@@ -2707,29 +2631,27 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "1086408004" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Bavaria" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.94521e+01 ;
-    jl:lon 1.107667e+01 ;
-    dcterms:created "2024-03-14T13:50:04.121365"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:03.739354"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +11.076665 +49.452102)" ;
     skos:prefLabel "Nuremberg"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/cf27ac5c-0bb1-5812-bfb0-4cbb529c3bc2> a gndo:PlaceOrGeographicName ;
     rdfs:label "Grodno District" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Grodnenskaya" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.368333e+01 ;
-    jl:lon 2.383333e+01 ;
-    dcterms:created "2024-03-14T13:49:45.537345"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:46.189368"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +23.83333 +53.68333)" ;
     skos:prefLabel "Grodno District"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/cf5b020c-c728-5371-8988-925f152553d0> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7812" ;
-    dcterms:created "2024-03-14T13:47:47.317449"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:56.413537"^^xsd:dateTime ;
     skos:prefLabel "פאריצול, אברהם בן מרדכי" ;
     foaf:name "פאריצול, אברהם בן מרדכי" .
 
 <http://data.judaicalink.org/data/footprints/cf93dbe3-7002-5495-a3a6-760d6a45d3d3> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7274" ;
-    dcterms:created "2024-03-14T13:48:03.961837"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.524391"^^xsd:dateTime ;
     skos:prefLabel "שלמה זלמן בן דוד" ;
     foaf:name "שלמה זלמן בן דוד" .
 
@@ -2738,14 +2660,13 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "104319231X" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lesser Poland" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.006143e+01 ;
-    jl:lon 1.993658e+01 ;
-    dcterms:created "2024-03-14T13:49:53.422206"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:54.347307"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +19.93658 +50.06143)" ;
     skos:prefLabel "Krakow"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/d016e954-9d60-5855-88c3-331bf7592469> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5656" ;
-    dcterms:created "2024-03-14T13:47:51.208504"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:00.568203"^^xsd:dateTime ;
     owl:sameAs "None",
         "https://viaf.org/viaf/299477002/" ;
     skos:prefLabel "פרידברג, שמואל בן זליגמן" ;
@@ -2753,7 +2674,7 @@ and ר' ר״ס""" .
 
 <http://data.judaicalink.org/data/footprints/d20b5e49-7297-5ffd-a57f-a7d708c9ac3f> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4176" ;
-    dcterms:created "2024-03-14T13:47:58.141629"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.931189"^^xsd:dateTime ;
     skos:prefLabel "ר׳ נחם במ׳ דוד" ;
     foaf:name "ר׳ נחם במ׳ דוד" .
 
@@ -2762,14 +2683,13 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4085080-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Hamburg" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.357916e+01 ;
-    jl:lon 9.874556e+00 ;
-    dcterms:created "2024-03-14T13:49:33.568490"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:34.383953"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +9.874556 +53.57916)" ;
     skos:prefLabel "Altona"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/d428d1d3-8627-5314-994d-a8c379ca9080> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7885" ;
-    dcterms:created "2024-03-14T13:48:07.915427"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:15.577575"^^xsd:dateTime ;
     skos:prefLabel "שניאור פייבוש בן מנחם מאנוש מבולחוב" ;
     foaf:name "שניאור פייבוש בן מנחם מאנוש מבולחוב" .
 
@@ -2777,13 +2697,13 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4051181-9" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Saxony-Anhalt" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:47.255965"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:47.917706"^^xsd:dateTime ;
     skos:prefLabel "Saxony-Anhalt"^^xsd:string ;
     foaf:name "Saxony-Anhalt"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/d4c85981-6b28-55c7-9d3d-c791a753890a> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7776" ;
-    dcterms:created "2024-03-14T13:48:03.765195"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.331676"^^xsd:dateTime ;
     skos:prefLabel "שלמה בן יצחק (רש\"י)" ;
     foaf:name "שלמה בן יצחק (רש\"י)" .
 
@@ -2795,12 +2715,12 @@ and ר' ר״ס""" .
     gndo:owner "Jonah b. David" ;
     jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000313543&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
     dc:title "Zikhron ḥurban ha-bayit" ;
-    dcterms:created "2024-03-14T13:48:22.047444"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:25.653785"^^xsd:dateTime ;
     skos:prefLabel "Zikhron ḥurban ha-bayit" .
 
 <http://data.judaicalink.org/data/footprints/d69fb083-5d69-5836-9104-d6d2c166aaa7> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4142" ;
-    dcterms:created "2024-03-14T13:47:57.250811"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.117801"^^xsd:dateTime ;
     skos:prefLabel "ר יצחק" ;
     foaf:name "ר יצחק" .
 
@@ -2809,20 +2729,19 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4736090-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Bavaria" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.99117e+01 ;
-    jl:lon 9.155743e+00 ;
-    dcterms:created "2024-03-14T13:50:15.610672"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:15.230169"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +9.155743 +49.911701)" ;
     skos:prefLabel "Sulzbach am Main"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/d78ac485-f259-5caa-9a66-85a3729dd6a8> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4215" ;
-    dcterms:created "2024-03-14T13:47:56.285442"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.303815"^^xsd:dateTime ;
     skos:prefLabel "ר׳ דוד מונייון" ;
     foaf:name "ר׳ דוד מונייון" .
 
 <http://data.judaicalink.org/data/footprints/d80b13c2-951b-5f1b-8fd3-fd1c69965ee5> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4705" ;
-    dcterms:created "2024-03-14T13:47:51.927769"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.235435"^^xsd:dateTime ;
     skos:prefLabel "צבי יעקב?" ;
     foaf:name "צבי יעקב?" .
 
@@ -2831,14 +2750,13 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4029713-5" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Baden-Württemberg" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.900937e+01 ;
-    jl:lon 8.40444e+00 ;
-    dcterms:created "2024-03-14T13:49:52.015725"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:52.878793"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +8.40444 +49.00937)" ;
     skos:prefLabel "Karlsruhe"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/d918d299-111a-5cca-8e96-b7ebb0dd29e4> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4467" ;
-    dcterms:created "2024-03-14T13:48:03.883926"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:11.447679"^^xsd:dateTime ;
     skos:prefLabel "שלמה בן נעמן" ;
     foaf:name "שלמה בן נעמן" .
 
@@ -2847,20 +2765,19 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "1214310540" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lower Silesia" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.11e+01 ;
-    jl:lon 1.703333e+01 ;
-    dcterms:created "2024-03-14T13:50:23.736237"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:23.041669"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +17.03333 +51.1)" ;
     skos:prefLabel "Wrocław"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/d9931300-df57-55d6-bdb7-a4b57278c419> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:30.677107"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:32.884730"^^xsd:dateTime ;
     skos:prefLabel "Duran, Shimon ben Tzemach" ;
     foaf:name "Duran, Shimon ben Tzemach" .
 
 <http://data.judaicalink.org/data/footprints/db459759-3f0f-52cd-a00c-d46259aef027> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7818" ;
-    dcterms:created "2024-03-14T13:47:57.146756"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.032917"^^xsd:dateTime ;
     skos:prefLabel "ריאיטי, חנניה אליקים בן עשהאל רפאל" ;
     foaf:name "ריאיטי, חנניה אליקים בן עשהאל רפאל" .
 
@@ -2871,25 +2788,25 @@ and ר' ר״ס""" .
     jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000177994&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
     dc:publisher "http://data.judaicalink.org/data/footprints/115bd2bc-4470-5813-810f-2b15f48b386a" ;
     dc:title "Zohar Ruth" ;
-    dcterms:created "2024-03-14T13:49:22.783160"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:23.192298"^^xsd:dateTime ;
     skos:prefLabel "Zohar Ruth" .
 
 <http://data.judaicalink.org/data/footprints/dd8807fb-b120-5877-b749-451ee5f6190d> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "4027808-6" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:50.719097"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:51.544156"^^xsd:dateTime ;
     skos:prefLabel "Israel"^^xsd:string ;
     foaf:name "Israel"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/dde58b1a-fb79-59c6-bd40-e709e0fabf2c> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9041" ;
-    dcterms:created "2024-03-14T13:47:52.491707"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.776761"^^xsd:dateTime ;
     skos:prefLabel "קאליר, אלעזר בן אלעזר" ;
     foaf:name "קאליר, אלעזר בן אלעזר" .
 
 <http://data.judaicalink.org/data/footprints/df38a211-d8cb-5b53-a2e5-3ac30f62824e> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/386" ;
-    dcterms:created "2024-03-14T13:47:57.322147"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.174806"^^xsd:dateTime ;
     skos:prefLabel "ר’ יצחק ב\"ר אברהם, פוזנן, ב אדר-ב ת\"ם" ;
     foaf:name "ר’ יצחק ב\"ר אברהם, פוזנן, ב אדר-ב ת\"ם" .
 
@@ -2897,7 +2814,7 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4042226-4" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Saxony" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:56.039481"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:56.699761"^^xsd:dateTime ;
     skos:prefLabel "Saxony"^^xsd:string ;
     foaf:name "Saxony"^^xsd:string .
 
@@ -2906,9 +2823,8 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "7795228-5" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Latium" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.189193e+01 ;
-    jl:lon 1.251133e+01 ;
-    dcterms:created "2024-03-14T13:50:11.068519"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:10.661717"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +12.51133 +41.89193)" ;
     skos:prefLabel "Rome"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/e03f5e93-4909-52a4-ae57-eec813921855> a gndo:Work ;
@@ -2926,38 +2842,38 @@ and ר' ר״ס""" .
     jl:hasAbstract "",
         "the famous Fürth printing address, 10 Schindelgasse, is named on this title page." ;
     dc:title "Zikhron Ya'akov" ;
-    dcterms:created "2024-03-14T13:48:26.660330"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:29.501060"^^xsd:dateTime ;
     skos:prefLabel "Zikhron Ya'akov" .
 
 <http://data.judaicalink.org/data/footprints/e0b90a64-2fc7-57cb-a8c7-3bd4d115e3c3> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9650" ;
-    dcterms:created "2024-03-14T13:47:49.668909"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:58.970750"^^xsd:dateTime ;
     skos:prefLabel "פראנץ לעפאלד נייאמאן" ;
     foaf:name "פראנץ לעפאלד נייאמאן" .
 
 <http://data.judaicalink.org/data/footprints/e129a666-ad3d-5a2e-afc0-84b21ff35057> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "1032392-2" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:51.831754"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:52.681467"^^xsd:dateTime ;
     skos:prefLabel "Russia"^^xsd:string ;
     foaf:name "Russia"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/e16f62f7-0f7a-5f53-b8a2-bf5e546846dd> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2348",
         "https://footprints.ctl.columbia.edu/api/person/7021" ;
-    dcterms:created "2024-03-14T13:47:49.533841"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:58.847458"^^xsd:dateTime ;
     skos:prefLabel "פינטו, יאשיהו בן יוסף" ;
     foaf:name "פינטו, יאשיהו בן יוסף" .
 
 <http://data.judaicalink.org/data/footprints/e267f84e-f88e-5df1-860e-2ceef37769d0> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7892" ;
-    dcterms:created "2024-03-14T13:47:54.434375"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:03.663165"^^xsd:dateTime ;
     skos:prefLabel "קצבי, יוסף" ;
     foaf:name "קצבי, יוסף" .
 
 <http://data.judaicalink.org/data/footprints/e2d85e78-e1ce-5b57-ad6d-5e7521b283f0> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2171" ;
-    dcterms:created "2024-03-14T13:47:53.093616"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:02.359545"^^xsd:dateTime ;
     skos:prefLabel "קוק, אברהם יצחק הכהן" ;
     foaf:name "קוק, אברהם יצחק הכהן" .
 
@@ -2966,9 +2882,8 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4308721-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Khmelnytskyi" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.02969e+01 ;
-    jl:lon 2.686e+01 ;
-    dcterms:created "2024-03-14T13:50:14.050446"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:13.670505"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +26.86 +50.2969)" ;
     skos:prefLabel "Slavuta"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/e314508a-661a-5756-b05d-e1966469787c> a gndo:PlaceOrGeographicName ;
@@ -2976,16 +2891,15 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "7617420-7" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "North Rhine-Westphalia" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.093753e+01 ;
-    jl:lon 6.960279e+00 ;
-    dcterms:created "2024-03-14T13:49:34.238867"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:35.045613"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +6.960279 +50.937531)" ;
     skos:prefLabel "Altstadt Nord"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/e3797533-65b2-52c2-8532-f51af2d114aa> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "7575016-8" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Campania" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:02.570332"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:02.173112"^^xsd:dateTime ;
     skos:prefLabel "Campania"^^xsd:string ;
     foaf:name "Campania"^^xsd:string .
 
@@ -2994,9 +2908,8 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4092153-0" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Emilia-Romagna" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.483812e+01 ;
-    jl:lon 1.161979e+01 ;
-    dcterms:created "2024-03-14T13:49:43.518528"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:44.152856"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +11.619787 +44.838124)" ;
     skos:prefLabel "Ferrara"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/e4553b05-68b7-537d-b6d3-d70574889f6f> a gndo:Work ;
@@ -3009,24 +2922,24 @@ and ר' ר״ס""" .
     jl:describedAt "https://merhav.nli.org.il/primo-explore/search?query=any,contains,000171421&tab=default_tab&search_scope=Local&vid=NLI&lang=en_US&offset=0" ;
     dc:publisher "http://data.judaicalink.org/data/footprints/ef9a52ae-8932-5265-9b3e-a51aa47d961c" ;
     dc:title "Zikaron" ;
-    dcterms:created "2024-03-14T13:48:21.671403"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:25.243421"^^xsd:dateTime ;
     skos:prefLabel "Zikaron" .
 
 <http://data.judaicalink.org/data/footprints/e4f76edc-5cf8-5224-8717-e563e6758312> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7821" ;
-    dcterms:created "2024-03-14T13:47:53.962958"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:03.227598"^^xsd:dateTime ;
     skos:prefLabel "קמחי, משה בן יוסף" ;
     foaf:name "קמחי, משה בן יוסף" .
 
 <http://data.judaicalink.org/data/footprints/e5154bf5-1a27-529c-9fb6-2fdf74b496d7> a foaf:Person ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:30.119828"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:32.355895"^^xsd:dateTime ;
     skos:prefLabel "Yaakov ben Hayyim Berav" ;
     foaf:name "Yaakov ben Hayyim Berav" .
 
 <http://data.judaicalink.org/data/footprints/e58c98ab-150f-5afd-a3a4-949ecdc04558> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5653" ;
-    dcterms:created "2024-03-14T13:47:53.940453"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:03.205598"^^xsd:dateTime ;
     owl:sameAs "http://d-nb.info/gnd/1020503823",
         "https://viaf.org/viaf/71183333/" ;
     skos:prefLabel "קמחי, יעקב בן שמואל" ;
@@ -3036,7 +2949,7 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "1117592766" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Lesser Poland" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:53.711956"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:54.625877"^^xsd:dateTime ;
     skos:prefLabel "Lesser Poland"^^xsd:string ;
     foaf:name "Lesser Poland"^^xsd:string .
 
@@ -3045,33 +2958,32 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4051394-4" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Central Macedonia" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.064361e+01 ;
-    jl:lon 2.293086e+01 ;
-    dcterms:created "2024-03-14T13:50:17.642667"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:17.176166"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +22.93086 +40.64361)" ;
     skos:prefLabel "Thessaloniki"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/e7ffc081-5ff0-542a-ae43-806635570da2> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9595" ;
-    dcterms:created "2024-03-14T13:48:07.873427"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:15.533551"^^xsd:dateTime ;
     skos:prefLabel "שניאור פיבוש בן יעקב" ;
     foaf:name "שניאור פיבוש בן יעקב" .
 
 <http://data.judaicalink.org/data/footprints/e8aab4de-de69-55c3-b693-0f58fc5f8b7d> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "4608925-1" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:41.979798"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:42.608247"^^xsd:dateTime ;
     skos:prefLabel "Poland"^^xsd:string ;
     foaf:name "Poland"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/e8d3e020-f811-502a-a34a-9e08b0acd179> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7623" ;
-    dcterms:created "2024-03-14T13:47:51.266155"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:00.616281"^^xsd:dateTime ;
     skos:prefLabel "פרלוב, שלום בן ברוך מרדכי" ;
     foaf:name "פרלוב, שלום בן ברוך מרדכי" .
 
 <http://data.judaicalink.org/data/footprints/e908d1f9-e193-5247-819c-2f2ff7adbf8b> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7877" ;
-    dcterms:created "2024-03-14T13:47:51.970802"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.269452"^^xsd:dateTime ;
     skos:prefLabel "צהלון, יעקב בן יצחק" ;
     foaf:name "צהלון, יעקב בן יצחק" .
 
@@ -3080,9 +2992,8 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4035304-7" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Ukraine" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.983968e+01 ;
-    jl:lon 2.402972e+01 ;
-    dcterms:created "2024-03-14T13:50:00.025553"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:59.542788"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +24.029717 +49.839683)" ;
     skos:prefLabel "Lviv (Lemberg)"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/e9b7255d-2773-5389-ae90-61f513f096a4> a gndo:PlaceOrGeographicName ;
@@ -3090,9 +3001,8 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4027821-9" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Istanbul" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.101384e+01 ;
-    jl:lon 2.894966e+01 ;
-    dcterms:created "2024-03-14T13:49:48.669912"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:49.434664"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +28.94966 +41.01384)" ;
     skos:prefLabel "Istanbul"^^xsd:string ;
     foaf:name "Istanbul"^^xsd:string .
 
@@ -3100,7 +3010,7 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4204057-7" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "West Pomerania" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:17.331928"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:16.883235"^^xsd:dateTime ;
     skos:prefLabel "West Pomerania"^^xsd:string ;
     foaf:name "West Pomerania"^^xsd:string .
 
@@ -3130,19 +3040,19 @@ and ר' ר״ס""" .
         "Subtitle: ... שחיבור [!]... ר' ישראל במוהרר בנימין אבד ורמ דקק הרימלוב. חדושי... הלכות והאגדות ודברי תמוהים וסתומים ברשי ובמדרש על כל חומשי תורה... שתי' שהן ארבע שתים מדברי סופרי' ושתים מדברי תורה נחלקים לארבע ספרים והשם הכולל הוא זרע ישראל...<br />BHB note: חלק ד: בית ישראל והוא פירוש על גפת מקצת מסכתת. [1], מה-עט דף." ;
     dc:publisher "http://data.judaicalink.org/data/footprints/123d91c8-4a4f-5d94-b6e6-3992c02109d7" ;
     dc:title "Zera' Yisra'el" ;
-    dcterms:created "2024-03-14T13:48:13.919432"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:19.364829"^^xsd:dateTime ;
     skos:prefLabel "Zera' Yisra'el" .
 
 <http://data.judaicalink.org/data/footprints/eb1bbcc3-e0a1-52fa-b01f-cd7a97b51c32> a gndo:PlaceOrGeographicName ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Khmelnytskyy Oblast" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:08.964100"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:08.621492"^^xsd:dateTime ;
     skos:prefLabel "Khmelnytskyy Oblast"^^xsd:string ;
     foaf:name "Khmelnytskyy Oblast"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/eb25451d-c65c-5f52-9193-d34aa49237f6> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5719" ;
-    dcterms:created "2024-03-14T13:48:03.162596"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:10.701753"^^xsd:dateTime ;
     owl:sameAs "None",
         "https://viaf.org/viaf/73715381/" ;
     skos:prefLabel "‫  שלטון, משה בן יעקב ‬" ;
@@ -3150,19 +3060,19 @@ and ר' ר״ס""" .
 
 <http://data.judaicalink.org/data/footprints/eb83aecb-f528-5b1b-a678-f9d2be5a24a9> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/96" ;
-    dcterms:created "2024-03-14T13:47:47.303447"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:56.404511"^^xsd:dateTime ;
     skos:prefLabel "פארינצו, מאיר בן יעקב" ;
     foaf:name "פארינצו, מאיר בן יעקב" .
 
 <http://data.judaicalink.org/data/footprints/ec95f269-3cfe-59d7-9b55-e107ed3cdca5> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7863" ;
-    dcterms:created "2024-03-14T13:47:47.374972"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:56.458817"^^xsd:dateTime ;
     skos:prefLabel "פוסטל, גיום" ;
     foaf:name "פוסטל, גיום" .
 
 <http://data.judaicalink.org/data/footprints/edd3e0ed-af1e-577c-8f09-61277c4f5df9> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9491" ;
-    dcterms:created "2024-03-14T13:47:51.989803"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.286909"^^xsd:dateTime ;
     skos:prefLabel "צחק בן אהרן" ;
     foaf:name "צחק בן אהרן" .
 
@@ -3170,7 +3080,7 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "10047116-X" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Rivne" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:53.164854"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:54.075802"^^xsd:dateTime ;
     skos:prefLabel "Rivne"^^xsd:string ;
     foaf:name "Rivne"^^xsd:string .
 
@@ -3179,9 +3089,8 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "1063318696" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Bratislavský kraj" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.81486e+01 ;
-    jl:lon 1.710775e+01 ;
-    dcterms:created "2024-03-14T13:49:40.098592"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:40.688009"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +17.107748 +48.148597)" ;
     skos:prefLabel "Bratislava"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/eefa6aca-e97e-54f1-aeec-fd20a52eea44> a gndo:Work ;
@@ -3193,31 +3102,31 @@ and ר' ר״ס""" .
     gndo:printer "http://data.judaicalink.org/data/footprints/c8906af9-6441-5409-ba96-49568e1f768c" ;
     jl:describedAt "https://search.worldcat.org/de/title/612501202" ;
     dc:title "Zurück zu Moses und den Propheten" ;
-    dcterms:created "2024-03-14T13:49:24.942200"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:25.348179"^^xsd:dateTime ;
     skos:prefLabel "Zurück zu Moses und den Propheten" .
 
 <http://data.judaicalink.org/data/footprints/efb84182-6ec6-5edd-96ae-12800ff86438> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "4061496-7" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:38.715047"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:39.309619"^^xsd:dateTime ;
     skos:prefLabel "Ukraine"^^xsd:string ;
     foaf:name "Ukraine"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/f03bdff9-1797-51c7-8740-672a7204076c> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1619" ;
-    dcterms:created "2024-03-14T13:48:06.810068"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:14.419591"^^xsd:dateTime ;
     skos:prefLabel "שמעון בן יוחאי" ;
     foaf:name "שמעון בן יוחאי" .
 
 <http://data.judaicalink.org/data/footprints/f0b602ad-31fe-5197-8c1b-8e10a481555d> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7226" ;
-    dcterms:created "2024-03-14T13:47:55.998014"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.118291"^^xsd:dateTime ;
     skos:prefLabel "רבינוביץ, אריה בן יעקב" ;
     foaf:name "רבינוביץ, אריה בן יעקב" .
 
 <http://data.judaicalink.org/data/footprints/f0e1a0e5-acd4-5cb6-a14f-a1f30df0caac> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7725" ;
-    dcterms:created "2024-03-14T13:48:06.896608"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:14.514165"^^xsd:dateTime ;
     skos:prefLabel "שמעון בן שמואל" ;
     foaf:name "שמעון בן שמואל" .
 
@@ -3225,13 +3134,13 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4076310-9" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Hlavní město Praha" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:54.279056"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:55.192605"^^xsd:dateTime ;
     skos:prefLabel "Hlavní město Praha"^^xsd:string ;
     foaf:name "Hlavní město Praha"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/f2d95b34-4106-510a-b9db-18d18ab6f794> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4678" ;
-    dcterms:created "2024-03-14T13:48:01.282866"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:08.612111"^^xsd:dateTime ;
     skos:prefLabel "שבתי בכ''ר דוד" ;
     foaf:name "שבתי בכ''ר דוד" .
 
@@ -3240,9 +3149,8 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4074335-4" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "England" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.150853e+01 ;
-    jl:lon -1.2574e-01 ;
-    dcterms:created "2024-03-14T13:49:58.177063"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:58.058644"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +-0.12574 +51.50853)" ;
     skos:prefLabel "London"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/f2fce4b8-c69c-53fe-8242-18e3a308954a> a gndo:PlaceOrGeographicName ;
@@ -3250,9 +3158,8 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4393328-2" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Portugal" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 3.871667e+01 ;
-    jl:lon -9.13333e+00 ;
-    dcterms:created "2024-03-14T13:49:56.440249"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:56.964119"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +-9.13333 +38.71667)" ;
     skos:prefLabel "Lisbon"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/f37baef8-8341-571a-ae49-2c28cd71c87b> a gndo:PlaceOrGeographicName ;
@@ -3260,16 +3167,15 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4571160-4" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Hesse" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.010061e+01 ;
-    jl:lon 8.76647e+00 ;
-    dcterms:created "2024-03-14T13:50:04.772960"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:04.420727"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +8.76647 +50.10061)" ;
     skos:prefLabel "Offenbach"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/f59d5543-41e0-506d-8e0e-4ca0994ae5cb> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "1078908354" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "South Holland" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:55.258939"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:56.119477"^^xsd:dateTime ;
     skos:prefLabel "South Holland"^^xsd:string ;
     foaf:name "South Holland"^^xsd:string .
 
@@ -3277,13 +3183,13 @@ and ר' ר״ס""" .
     jl:describedAt "None",
         "https://viaf.org/viaf/297466251/" ;
     jl:occupation "Author" ;
-    dcterms:created "2024-03-14T13:48:25.681584"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:28.521803"^^xsd:dateTime ;
     skos:prefLabel "Moses ben Michael Dessau" ;
     foaf:name "Moses ben Michael Dessau" .
 
 <http://data.judaicalink.org/data/footprints/f66b7ac5-06fa-564b-ad77-13ce967ab702> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5703" ;
-    dcterms:created "2024-03-14T13:47:51.863787"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:01.182635"^^xsd:dateTime ;
     owl:sameAs "None",
         "https://viaf.org/viaf/308265515/" ;
     skos:prefLabel "פשיברום, מרדכי בן יעקב" ;
@@ -3291,13 +3197,13 @@ and ר' ר״ס""" .
 
 <http://data.judaicalink.org/data/footprints/f67cb18d-a125-5f59-9787-6386b26db6a4> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1600" ;
-    dcterms:created "2024-03-14T13:47:56.998291"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.896551"^^xsd:dateTime ;
     skos:prefLabel "רופא, חייא" ;
     foaf:name "רופא, חייא" .
 
 <http://data.judaicalink.org/data/footprints/f7792dab-f20c-59cc-85eb-cafa33286c72> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/5054" ;
-    dcterms:created "2024-03-14T13:47:56.156301"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.218426"^^xsd:dateTime ;
     skos:prefLabel "רבקה שעשועי" ;
     foaf:name "רבקה שעשועי" .
 
@@ -3305,20 +3211,20 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "1194261957" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Hesse" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:49:37.192916"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:37.816663"^^xsd:dateTime ;
     skos:prefLabel "Hesse"^^xsd:string ;
     foaf:name "Hesse"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/f8f08125-04bd-5052-96b6-2a9f6c4bc349> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7175" ;
-    dcterms:created "2024-03-14T13:47:49.562354"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:37:58.875334"^^xsd:dateTime ;
     skos:prefLabel "פינלש, צבי מנחם בן שלמה" ;
     foaf:name "פינלש, צבי מנחם בן שלמה" .
 
 <http://data.judaicalink.org/data/footprints/f8fff660-1714-5309-a6c8-63111284295b> a gndo:PlaceOrGeographicName ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Central Macedonia" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:17.957937"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:17.476154"^^xsd:dateTime ;
     skos:prefLabel "Central Macedonia"^^xsd:string ;
     foaf:name "Central Macedonia"^^xsd:string .
 
@@ -3327,56 +3233,55 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "4115912-3" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Italy" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 4.390921e+01 ;
-    jl:lon 1.29164e+01 ;
-    dcterms:created "2024-03-14T13:50:07.791248"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:07.453864"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +12.9164 +43.90921)" ;
     skos:prefLabel "Pesaro"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/f9ea3d07-ae6e-58e1-8b79-a95f354d8a5e> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4300" ;
-    dcterms:created "2024-03-14T13:47:58.074430"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.869986"^^xsd:dateTime ;
     skos:prefLabel "ר משה מארייו" ;
     foaf:name "ר משה מארייו" .
 
 <http://data.judaicalink.org/data/footprints/f9eb387e-666e-5faa-88df-d89a7aa82d1c> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7772" ;
-    dcterms:created "2024-03-14T13:48:01.213706"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:08.546602"^^xsd:dateTime ;
     skos:prefLabel "(שאלתיאל צורי ואליעזר הלוי)" ;
     foaf:name "(שאלתיאל צורי ואליעזר הלוי)" .
 
 <http://data.judaicalink.org/data/footprints/fa6fa5b0-4724-59a7-8ba4-728c172dc9ba> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2120" ;
-    dcterms:created "2024-03-14T13:47:57.784515"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.622058"^^xsd:dateTime ;
     skos:prefLabel "ריש" ;
     foaf:name "ריש" .
 
 <http://data.judaicalink.org/data/footprints/fa8a43a3-e18c-5a06-a3ec-375aaee0eaec> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/2444" ;
-    dcterms:created "2024-03-14T13:48:07.705070"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:15.336532"^^xsd:dateTime ;
     skos:prefLabel "שניאור זלמן בן ברוך מלאדי" ;
     foaf:name "שניאור זלמן בן ברוך מלאדי" .
 
 <http://data.judaicalink.org/data/footprints/fa92b6b9-1bfd-545b-859a-d89bdf76aa48> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4292" ;
-    dcterms:created "2024-03-14T13:48:06.939671"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:14.565118"^^xsd:dateTime ;
     skos:prefLabel "שמעון חיים ירק" ;
     foaf:name "שמעון חיים ירק" .
 
 <http://data.judaicalink.org/data/footprints/fa92d5c8-8358-5236-90c4-cc7d14096262> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4234" ;
-    dcterms:created "2024-03-14T13:47:57.956859"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:06.781157"^^xsd:dateTime ;
     skos:prefLabel "ר מאיר טורקלן" ;
     foaf:name "ר מאיר טורקלן" .
 
 <http://data.judaicalink.org/data/footprints/fad295e8-f667-5f11-b9c6-73e33e344528> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/4272" ;
-    dcterms:created "2024-03-14T13:47:55.438435"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:04.601566"^^xsd:dateTime ;
     skos:prefLabel "ראובן הכהן" ;
     foaf:name "ראובן הכהן" .
 
 <http://data.judaicalink.org/data/footprints/fb336a50-e75f-54ad-a922-007f347a7dc7> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/7202" ;
-    dcterms:created "2024-03-14T13:48:08.524145"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:16.201025"^^xsd:dateTime ;
     skos:prefLabel "שפירא, רפאל ישראל איסר בן דב בר" ;
     foaf:name "שפירא, רפאל ישראל איסר בן דב בר" .
 
@@ -3385,20 +3290,19 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "7558737-3" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Brandenburg" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.234714e+01 ;
-    jl:lon 1.455062e+01 ;
-    dcterms:created "2024-03-14T13:49:44.199623"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:44.821324"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +14.55062 +52.34714)" ;
     skos:prefLabel "Frankfurt (Oder)"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/fcd691e3-d188-5b18-8994-3cece59a31dd> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1374" ;
-    dcterms:created "2024-03-14T13:48:01.733081"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:09.183742"^^xsd:dateTime ;
     skos:prefLabel "שבתי בן מאיר כ״ץ" ;
     foaf:name "שבתי בן מאיר כ״ץ" .
 
 <http://data.judaicalink.org/data/footprints/fd13e662-99c2-5881-9509-ec7c3ad0a8fb> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/1668" ;
-    dcterms:created "2024-03-14T13:47:56.445446"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:05.410870"^^xsd:dateTime ;
     skos:prefLabel "רוזנפלד, יחיאל בן נתן הלוי" ;
     foaf:name "רוזנפלד, יחיאל בן נתן הלוי" .
 
@@ -3406,16 +3310,15 @@ and ר' ר״ס""" .
     rdfs:label "Turkey" ;
     gndo:gndIdentifier "4564296-5" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 3.9e+01 ;
-    jl:lon 3.5e+01 ;
-    dcterms:created "2024-03-14T13:49:49.205775"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:39:49.967741"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +35.0 +39.0)" ;
     skos:prefLabel "Turkey"^^xsd:string ;
     foaf:name "Turkey"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/fe597fb8-672c-5c4c-94f9-c467ee0790bb> a gndo:PlaceOrGeographicName ;
     gndo:gndIdentifier "10055851-3" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    dcterms:created "2024-03-14T13:50:01.170103"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:00.700619"^^xsd:dateTime ;
     skos:prefLabel "France"^^xsd:string ;
     foaf:name "France"^^xsd:string .
 
@@ -3424,14 +3327,13 @@ and ר' ר״ס""" .
     gndo:gndIdentifier "1315632632" ;
     gndo:hierarchicalSuperiorOfPlaceOrGeographicName "Mazovia" ;
     jl:describedAt "https://footprints.ctl.columbia.edu/" ;
-    jl:lat 5.222977e+01 ;
-    jl:lon 2.101178e+01 ;
-    dcterms:created "2024-03-14T13:50:22.258657"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:40:21.654828"^^xsd:dateTime ;
+    geo:asWKT "\"Point ( +21.01178 +52.22977)" ;
     skos:prefLabel "Warsaw"^^xsd:string .
 
 <http://data.judaicalink.org/data/footprints/ff389a97-3b7f-5db3-875b-7d9951586f38> a foaf:Person ;
     jl:describedAt "https://footprints.ctl.columbia.edu/api/person/9050" ;
-    dcterms:created "2024-03-14T13:48:05.153882"^^xsd:dateTime ;
+    dcterms:created "2024-03-14T14:38:12.748173"^^xsd:dateTime ;
     skos:prefLabel "שמואל זנוויל בן בנימין וולף מוורמייזה" ;
     foaf:name "שמואל זנוויל בן בנימין וולף מוורמייזה" .
 

@@ -84,6 +84,7 @@ edm = Namespace("http://www.europeana.eu/schemas/edm/")
 dc = Namespace("http://purl.org/dc/elements/1.1/")
 dcterms = Namespace("http://purl.org/dc/terms/")
 rdfs = Namespace("http://www.w3.org/2000/01/rdf-schema#")
+geo = Namespace("http://www.opengis.net/ont/geosparql#")
 
 graph.bind('skos', skos)
 graph.bind('foaf', foaf)
@@ -94,6 +95,7 @@ graph.bind('edm', edm)
 graph.bind('dc', dc)
 graph.bind('dcterms', dcterms)
 graph.bind('rdfs', rdfs)
+graph.bind('geo', geo)
 
 
 
@@ -233,7 +235,7 @@ def createGraph():
     :rtype: ttl
     
     """
-    p_page = 610
+    p_page = 1
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}    # simulate a browser request
 #get person from persons
@@ -319,7 +321,7 @@ def createGraph():
             print(f"last page loaded: page {p_page - 1}")
             break
 
-    b_page = 550
+    b_page = 1
     '''
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -498,7 +500,7 @@ def createGraph():
                         add_creation_date(graph, uri)     
                         graph.serialize(destination=file_name, format="turtle")           
         b_page += 1
-        if "detail" in data and data["detail"] == "Invalid page.":
+        if "detail" in data and data["detail"] == "Invalid page.": # stop if data corpus is processed
             print(f"last page loaded: page {b_page - 1}")
             break
 # Places
@@ -528,8 +530,10 @@ def createGraph():
                         graph.add((URIRef(uri), RDF.type, gndo.PlaceOrGeographicName))
                         graph.add((URIRef(uri), rdfs.label, (Literal(place))))
                         graph.add((URIRef(uri), skos.prefLabel, (Literal(place, datatype = XSD.string))))
-                        graph.add((URIRef(uri), jl.lat, (Literal(date['latitude']))))
-                        graph.add((URIRef(uri), jl.lon, (Literal(date['longitude']))))
+                        long = date['longitude']
+                        lat = date['latitude']
+                        longlat = f'"Point ( +{long} +{lat})' 
+                        graph.add((URIRef(uri), geo.asWKT, (Literal(longlat))))
                         if len(canonical_name) > 1:
                             higher_geo_unit_1 = canonical_name[1]
                             higher_geo_unit_1 = higher_geo_unit_1.lstrip()
@@ -576,7 +580,7 @@ def createGraph():
                             add_creation_date(graph, uri)
                             graph.serialize(destination=file_name, format="turtle")
             ppage += 1
-        if "detail" in data and data["detail"] == "Invalid page.":
+        if "detail" in data and data["detail"] == "Invalid page.": # stop if data corpus is processed
             print(f"last page loaded: page {ppage - 1}")
             break
 
