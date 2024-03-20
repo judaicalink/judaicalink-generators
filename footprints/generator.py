@@ -532,7 +532,7 @@ def createGraph():
                         graph.add((URIRef(uri), skos.prefLabel, (Literal(place, datatype = XSD.string))))
                         long = date['longitude']
                         lat = date['latitude']
-                        longlat = f'"Point ( +{long} +{lat})' 
+                        longlat = f'Point ( +{long} +{lat})' 
                         graph.add((URIRef(uri), geo.asWKT, (Literal(longlat))))
                         if len(canonical_name) > 1:
                             higher_geo_unit_1 = canonical_name[1]
