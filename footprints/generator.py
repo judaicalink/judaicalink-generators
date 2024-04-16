@@ -431,7 +431,7 @@ def createGraph():
                             elif arole == 'Author':
                                 graph.add((URIRef(uri), gndo.author, (Literal(a))))
                             elif arole == 'Editor':
-                                graph.add((URIRef(uri), gndo.ditor, (Literal(a))))
+                                graph.add((URIRef(uri), gndo.editor, (Literal(a))))
                             elif arole == 'Expurgator':
                                 graph.add((URIRef(uri), gndo.editor, (Literal(a))))
                             elif arole == 'Printer':
