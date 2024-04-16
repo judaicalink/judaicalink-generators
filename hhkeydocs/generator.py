@@ -11,7 +11,7 @@ cd060@hdm-stuttgart.de
 # from http.client import _DataType
 import requests
 import json
-import pprint
+# import pprint
 from bs4 import BeautifulSoup
 import unicodedata
 from rdflib.namespace import RDF, XSD
@@ -92,6 +92,16 @@ def get_gnd_id(name: str, type: str) -> str:
 place_ids = []
 
 def get_place_ids(url):
+
+    """
+    Gets the Ids for Places from 'https://schluesseldokumente.net/ort'
+    Args: 
+        url(str): url (in this case 'https://schluesseldokumente.net/ort')
+    Returns:
+        str: string to request JSON-file via 'https://schluesseldokumente.net{string}.jsonld'
+
+    """
+
     html = requests.get(url)
     soup = BeautifulSoup(html.content, 'html.parser')
     list_items = soup.select('.list-unstyled li a')
@@ -122,7 +132,10 @@ def get_org_ids(url):
 def clean_url_string(string):
     """
     Clean the name of a person.
-    returns: cleaned name.
+    Args: 
+        str: string raw name
+    Returns: 
+        str:cleaned name.
     """
 
     string = string.strip()
@@ -156,6 +169,18 @@ def clean_url_string(string):
 professions = []
 
 def get_professions_from_WD():
+
+    """
+    Generates a list of professions from entries in wikidata, to identify occupations in descriptions of a person dataset
+    Args: 
+        sparql_query (str): sparqul-query to retrive all proffessions (Q28640) in wikidata
+        url (str): url for wikidata-query-service
+        headers (str): headers for http-request
+        newitems (list): list for extra desiganations for occupations (not listet in wikidata)
+    Returns
+        professions (list): list of occupations
+
+    """
     sparql_query = """
     SELECT ?profession ?professionLabel
     WHERE {
@@ -179,9 +204,18 @@ def get_professions_from_WD():
     
     for item in data["results"]["bindings"]:
         professions.append(item["professionLabel"]["value"])
-        professions.append(newitems)
+    professions.append(newitems)
 
 def occupation_to_en(text):
+
+    """
+    translates text (occupation) into english via googletrans-api
+    Args:
+        text (str): text (occupation) to be translated
+    Returns:
+        str: translated text
+
+    """    
     translator = googletrans.Translator()
     translation = translator.translate(text, dest='en')
     return translation.text
