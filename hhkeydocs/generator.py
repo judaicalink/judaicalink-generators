@@ -20,8 +20,11 @@ from rdflib import Namespace, URIRef, Graph, Literal
 from tqdm import tqdm
 import googletrans
 from googletrans import *
+import shutil
 
 file_name = 'hhkeydocs-final-01.ttl'
+working_path = "./"
+output_path = "/data/dumps/hhkeydocs/current/"
 
 graph = Graph()
 
@@ -69,6 +72,18 @@ def get_viaf_id(gnd_id: str) -> str:
         return None
          
             
+def move_ttl_file(file_name):
+    """
+    Move the ttl file to the correct folder.
+    returns: the path of the ttl file.
+    """
+    # move the ttl file to the correct folder
+    try:
+        shutil.move(file_name, output_path)
+    except Exception as e:
+        print("Could not move file. Error: ", e)
+
+
 def get_gnd_id(name: str, type: str) -> str:
     """Get the GND ID for a given name and type.
     Args:
@@ -421,3 +436,4 @@ get_ids('https://schluesseldokumente.net/person/gnd/beacon')
 get_org_ids('https://schluesseldokumente.net/organisation/gnd/beacon')
 get_professions_from_WD()
 create_graph()
+move_ttl_file(file_name + '.gz')

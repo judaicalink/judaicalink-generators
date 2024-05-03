@@ -72,6 +72,8 @@ def generate_hashUU(name):
 
 
 file_name = 'footprints.ttl'
+working_path = "./"
+output_path = "/data/dumps/footprints/current/"
 
 graph = Graph()
 
@@ -97,7 +99,16 @@ graph.bind('dcterms', dcterms)
 graph.bind('rdfs', rdfs)
 graph.bind('geo', geo)
 
-
+def move_ttl_file(file_name):
+    """
+    Move the ttl file to the correct folder.
+    returns: the path of the ttl file.
+    """
+    # move the ttl file to the correct folder
+    try:
+        shutil.move(file_name, output_path)
+    except Exception as e:
+        print("Could not move file. Error: ", e)
 
 def get_gnd_id(name: str, type: str) -> str:
     """Get the GND ID for a given name and type.
@@ -592,3 +603,5 @@ def createGraph():
 createGraph()
 
 zip_file(file_name)
+
+move_ttl_file(file_name + '.gz')
