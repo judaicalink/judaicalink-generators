@@ -49,7 +49,7 @@ SPARQLWrapper==2.0.0
 srsly==2.4.8
 thinc==8.2.2
 toml==0.10.2
-tqdm==4.66.1
+tqdm==4.66.3
 typer==0.9.0
 typing_extensions==4.9.0
 tzdata==2023.4
