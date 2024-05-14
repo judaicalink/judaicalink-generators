@@ -1,0 +1,1 @@
+This folder contains files with functions that can be used as libraries in the generator.py scripts
