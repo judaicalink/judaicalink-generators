@@ -1,0 +1,1932 @@
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix gndo1: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix jl: <http://data.judaicalink.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.judaicalink.org/data/nrwbib_djg/AlbertSchondorff> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101364476X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101364476X&kategorie1=gnd" ;
+    jl:hasAbstract "In: de.wikipedia.org" ;
+    dc:title "Albert Schöndorff" ;
+    dcterms:created "2024-05-17T10:15:33.467727"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/AlteSynagogeEssen> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/100373550> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=100373550&kategorie1=gnd" ;
+    dc:title "Alte Synagoge Essen" ;
+    dcterms:created "2024-05-17T10:10:21.784383"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/AndieReichskristallnachterinnern> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    jl:hasAbstract "In: hrsg. vom Arbeitskreis der NS-Gedenkstätten Nordrhein-Westfalen,: Gewalt in der Region. 2008, S. 120--126" ;
+    dc:title "An die \"Reichskristallnacht\" erinnern" ;
+    dcterms:created "2024-05-17T10:30:27.484112"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/ArchivierteErinnerung> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1019035404> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1019035404&kategorie1=gnd" ;
+    jl:hasAbstract "In: Bettina Joergens (Hg.),: Jüdische Genealogie im Archiv, in der Forschung und digital. 2011, S. 173--198" ;
+    dc:title "Archivierte Erinnerung" ;
+    dcterms:created "2024-05-17T11:48:34.200775"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/BlindenwerkstattOttoWeidtArbeitsmaterialienfurdenUnterrichtUnterrichtsmaterialienzumBilderbuchPapaWeidtErbotdenNazisdieStirnvonIngeDeutschkronundLukasRuegenberg> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    dc:title "Blindenwerkstatt Otto Weidt. Arbeitsmaterialien für den Unterricht. Unterrichtsmaterialien zum Bilderbuch »Papa Weidt. Er bot den Nazis die Stirn« von Inge Deutschkron und Lukas Ruegenberg" ;
+    dcterms:created "2024-05-17T10:30:24.421265"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Brenken> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1018690867> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1018690867&kategorie1=gnd" ;
+    dc:title "Brenken" ;
+    dcterms:created "2024-05-17T11:37:26.491618"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/CaritasinNRW> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017474613> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017474613&kategorie1=gnd" ;
+    dc:title "Caritas in NRW" ;
+    dcterms:created "2024-05-17T11:01:39.985310"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Cologne_jewishcentreonthelowerRhine> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017179921> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017179921&kategorie1=gnd" ;
+    jl:hasAbstract "In: ((The)) Jews of Europe in the Middle Ages / ed. by Christoph Cluse. - Turnhout, 2004. - (Cultural encounters in late antiquity and the Middle Ages ; 4). - S. 366-378 : Ill., Kt." ;
+    dc:title "Cologne, jewish centre on the lower Rhine" ;
+    dcterms:created "2024-05-17T10:38:33.561317"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DasRatselRoseAuslander> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1011480352> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1011480352&kategorie1=gnd" ;
+    jl:hasAbstract "In: Menora 1 (1990), S. 327--356." ;
+    dc:title "Das Rätsel Rose Ausländer" ;
+    dcterms:created "2024-05-17T10:10:33.161243"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DasSchicksalderungarischenJudinRoseSzegoundihrerFamilie> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/10135262X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=10135262X&kategorie1=gnd" ;
+    jl:hasAbstract "In: Jüdisches Leben in Essen 1800--1933 / Hrsg.: Alte Synagoge Essen. Essen 1993, S. 193--197" ;
+    dc:title "Das Schicksal der ungarischen Jüdin Rose Szego und ihrer Familie" ;
+    dcterms:created "2024-05-17T10:14:32.089037"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DasSonderrechtfurdieJudenimNSStaatEineSammlungdergesetzlichenManahmenundRichtlinienInhaltundBedeutung2Aufl> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1014997623> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1014997623&kategorie1=gnd" ;
+    dc:title "Das Sonderrecht für die Juden im NS-Staat. Eine Sammlung der gesetzlichen Maßnahmen und Richtlinien. Inhalt und Bedeutung. 2. Aufl." ;
+    dcterms:created "2024-05-17T10:19:55.144387"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DasjudischeSchulweseninKolnbis1942> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1014997623> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1014997623&kategorie1=gnd" ;
+    jl:hasAbstract "In: Köln und das rheinische Judentum. Festschrift Germania Judaica 1959--1984 / Hrsg.: Jutta Bohnke-Kollwitz [u.a.]. Köln 1984, S. 415--426" ;
+    dc:title "Das jüdische Schulwesen in Köln bis 1942" ;
+    dcterms:created "2024-05-17T10:19:55.297405"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DastillbegluckteRuh_ZufriedenheitdieHerzenderBewohnerstetserfulle> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017439672> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017439672&kategorie1=gnd" ;
+    jl:hasAbstract "In: Jahrbuch ... / Kreis Unna 32 (2011) (2011), S. 55--60." ;
+    dc:title "\"Daß stillbeglückte Ruh', Zufriedenheit die Herzen der Bewohner stets erfülle\"" ;
+    dcterms:created "2024-05-17T10:43:23.714392"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DieAnnahmefesterFamiliennamendurchdieJudenimKonigreichWestphalen> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101524341X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101524341X&kategorie1=gnd" ;
+    jl:hasAbstract "In: König Jérôme und der Reformstaat Westphalen . hrsg. von Helmut Burmeister bei Mitarb. von Veronika Jäger. Verein für Hessische Geschichte und Landeskunde e.V. 1834 Kassel, Zweigverein Hofgeismar . 1. Aufl. . Hofgeismar . 2006 . S. 255-268 : Ill. ." ;
+    dc:title "((Die)) Annahme fester Familiennamen durch die Juden im Königreich Westphalen" ;
+    dcterms:created "2024-05-17T10:22:02.335816"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DieBruderMordechaiHerbert_HansundKurtGumpel> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1016220316> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1016220316&kategorie1=gnd" ;
+    jl:hasAbstract "In: Auf den Spuren der Familie Gumpel : biografische Zeugnisse als Quellen zur jüdischen Geschichte im 20. Jahrhundert / Andreas Lange, Jürgen Scheffler (Hrsg.). - Gütersloh, 2006. - S. 102 - 109 : Ill. - (Panu Derech - Bereitet den Weg ; 24)" ;
+    dc:title "Die Brüder Mordechai (Herbert), Hans und Kurt Gumpel" ;
+    dcterms:created "2024-05-17T10:27:08.782976"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DieEinweihungderElberfelderSynagogevor140JahrenunddieDichterinMinnaKleeberg> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    jl:hasAbstract "In: Geschichte im Wuppertal. - 14 (2005), S. 27-40 : Ill." ;
+    dc:title "((Die)) Einweihung der Elberfelder Synagoge vor 140 Jahren und die Dichterin Minna Kleeberg" ;
+    dcterms:created "2024-05-17T10:30:24.852802"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DieGeschichtederjudischenGemeindeinKrefeld19452008> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/10076410X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=10076410X&kategorie1=gnd" ;
+    jl:hasAbstract "In: Die Heimat 79 (2008) (2008), S. 24--28." ;
+    dc:title "Die Geschichte der jüdischen Gemeinde in Krefeld 1945 - 2008" ;
+    dcterms:created "2024-05-17T10:10:22.288268"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DieIsraelitenunterdemKonigreichWestfalenEinaktenmaigerBeitragzurGeschichtederRegierungKonigJeromes> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1019954205> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1019954205&kategorie1=gnd" ;
+    dc:title "Die Israeliten unter dem Königreich Westfalen. Ein aktenmäßiger Beitrag zur Geschichte der Regierung König Jérôme's" ;
+    dcterms:created "2024-05-17T12:28:44.054868"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DieJudenimBergischenEineAusstellungderBegegnungsstatteAlteSynagogeWuppertal> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    jl:hasAbstract "In: Romerike Berge 47 (1997), S. 13--17, Ill.." ;
+    dc:title "Die Juden im Bergischen. Eine Ausstellung der Begegnungsstätte »Alte Synagoge« Wuppertal" ;
+    dcterms:created "2024-05-17T10:30:24.645283"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DieJudeninKolnNovelleausdemdeutschenMittelalter> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101140614> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101140614&kategorie1=gnd" ;
+    dc:title "Die Juden in Köln. Novelle aus dem deutschen Mittelalter" ;
+    dcterms:created "2024-05-17T10:10:25.758283"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DieJudenvonColln> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101140614> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101140614&kategorie1=gnd" ;
+    dc:title "Die Juden von Cölln" ;
+    dcterms:created "2024-05-17T10:10:25.773799"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DieKolnerFriedensverpflichtung> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1019512962> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1019512962&kategorie1=gnd" ;
+    jl:hasAbstract "In: hrsg. von Doris Schulz ...,: Es geht doch!. 2011, S. 24--34" ;
+    dc:title "Die \"Kölner Friedensverpflichtung\"" ;
+    dcterms:created "2024-05-17T12:00:49.669010"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DieVorsterJudenundihrSchicksalim3Reich> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1020268883> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1020268883&kategorie1=gnd" ;
+    jl:hasAbstract "In: Rehm, Gerhard (Hg.): Geschichte der Juden im Kreis Viersen / Hrsg.: Kreis Viersen. Viersen 1991, S. 389--399" ;
+    dc:title "Die Vorster Juden und ihr Schicksal im 3. Reich" ;
+    dcterms:created "2024-05-17T12:45:09.408623"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DieWochederBruderlichkeit> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1013269675> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1013269675&kategorie1=gnd" ;
+    jl:hasAbstract "In: Der beflügelte Aal 28 (2009) (2009), S. 16--22." ;
+    dc:title "Die Woche der Brüderlichkeit" ;
+    dcterms:created "2024-05-17T10:13:03.389176"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DiejudischeFamilieKatzErinnerungsarbeitinLemgo> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1016220316> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1016220316&kategorie1=gnd" ;
+    dc:title "Die jüdische Familie Katz. Erinnerungsarbeit in Lemgo" ;
+    dcterms:created "2024-05-17T10:27:07.830502"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DiejudischenGemeindeninBorkenundGemen> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1011704633> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1011704633&kategorie1=gnd" ;
+    dc:title "Die jüdischen Gemeinden in Borken und Gemen" ;
+    dcterms:created "2024-05-17T10:10:59.906544"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DiejudischenVorsterMitburger> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1020268883> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1020268883&kategorie1=gnd" ;
+    jl:hasAbstract "In:" ;
+    dc:title "Die jüdischen Vorster Mitbürger" ;
+    dcterms:created "2024-05-17T12:45:08.384455"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DokumentationuberLebenundSchicksalderJudeninAlsdorf> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101256523> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101256523&kategorie1=gnd" ;
+    jl:hasAbstract "In: Jahresblätter des Alsdorfer Geschichtsvereins 2009/2010 (2010) (2010), S. 3--173." ;
+    dc:title "Dokumentation über Leben und Schicksal der Juden in Alsdorf" ;
+    dcterms:created "2024-05-17T10:11:58.628331"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DrAbrahamWedell> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1012586545> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1012586545&kategorie1=gnd" ;
+    jl:hasAbstract "In: Juden in Düsseldorf. Ein fotografisches Erinnerungsbuch mit Arbeiten von Marcus Kiel / herausgegeben von der Mahn- und Gedenkstätte Düsseldorf; Konzeption und Redaktion: Angela Genger. Düsseldorf: W. A. Meinke 1998" ;
+    dc:title "Dr. Abraham Wedell" ;
+    dcterms:created "2024-05-17T10:12:28.861032"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Dusseldorf/GettoLitzmannstadt1941> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/10135262X>,
+        <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=10135262X&kategorie1=gnd",
+        "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    dc:title "Düsseldorf / Getto Litzmannstadt. 1941" ;
+    dcterms:created "2024-05-17T10:14:32.486383"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/DusseldorfTrauerfeierlichkeitenanlalichdesBegrabnissesdesRabbinersDrAWedell/VitaAWedells> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1012586545> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1012586545&kategorie1=gnd" ;
+    jl:hasAbstract "In: Allgemeine Zeitung des Judenthums 55 (1891), Nr. 40, S. 1 f.." ;
+    dc:title "Düsseldorf [Trauerfeierlichkeiten anläßlich des Begräbnisses des Rabbiners Dr. A. Wedell / Vita A.Wedells]" ;
+    dcterms:created "2024-05-17T10:12:29.159393"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Echternstrae70> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1016220316> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1016220316&kategorie1=gnd" ;
+    jl:hasAbstract "In: Juden in Lemgo und Lippe. - Bielefeld, 1988. - (Forum Lemgo ; 3). - S. 259-270 : Ill." ;
+    dc:title "Echternstraße 70" ;
+    dcterms:created "2024-05-17T10:27:08.393849"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/EfraimbenJakob> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/100969984> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=100969984&kategorie1=gnd" ;
+    jl:hasAbstract "In: de.wikipedia.org" ;
+    dc:title "Efraim ben Jakob" ;
+    dcterms:created "2024-05-17T10:10:23.657968"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Ehrenvollistes_fursVaterlandzusterben> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    jl:hasAbstract "In: Birgit Siekmann ... (Hg.),: Feldgraue Mentalitäten. 2011, S. 161--186" ;
+    dc:title "Ehrenvoll ist es, für's Vaterland zu sterben" ;
+    dcterms:created "2024-05-17T10:30:26.385944"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Ein190JahrealterRitualmordinDormagen> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017854688>,
+        <http://data.judaicalink.org/data/nrwbib_djg/1017854815> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017854688&kategorie1=gnd",
+        "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017854815&kategorie1=gnd" ;
+    jl:hasAbstract "In: Jahrbuch für den Rhein-Kreis Neuss ... 2011 (2010) (2010), S. 220--235." ;
+    dc:title "Ein 190 Jahre alter \"Ritualmord\" in Dormagen" ;
+    dcterms:created "2024-05-17T11:09:22.725946"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/ErinnerungszeichenfurdievertriebenenundermordetenJudenimBergischenLand> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    jl:hasAbstract "In: Bastian Fleermann ... (Hg.),: Jüdischer Alltag. 2009, S. 148--165" ;
+    dc:title "Erinnerungszeichen für die vertriebenen und ermordeten Juden im Bergischen Land" ;
+    dcterms:created "2024-05-17T10:30:27.923859"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Esgehtdoch!> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1019512962>,
+        <http://data.judaicalink.org/data/nrwbib_djg/1019549831> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1019512962&kategorie1=gnd",
+        "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1019549831&kategorie1=gnd" ;
+    dc:title "Es geht doch!" ;
+    dcterms:created "2024-05-17T12:00:50.128037"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/EssenerinnertOrtederStadtgeschichteim20Jahrhundert> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/10135262X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=10135262X&kategorie1=gnd" ;
+    dc:title "Essen erinnert. Orte der Stadtgeschichte im 20. Jahrhundert" ;
+    dcterms:created "2024-05-17T10:14:31.989491"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/FeldgraueMentalitaten> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    dc:title "Feldgraue Mentalitäten" ;
+    dcterms:created "2024-05-17T10:30:26.600819"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/GeschichtederJudenimKreisViersen> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1020268883> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1020268883&kategorie1=gnd" ;
+    dc:title "Geschichte der Juden im Kreis Viersen" ;
+    dcterms:created "2024-05-17T12:45:09.917082"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/GeschichtederJudeninNideggenim18Jahrhundert> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/100880363> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=100880363&kategorie1=gnd" ;
+    jl:hasAbstract "In: Neue Beiträge zur Jülicher Geschichte 21 (2009) (2009), S. 73--95." ;
+    dc:title "Geschichte der Juden in Nideggen im 18. Jahrhundert" ;
+    dcterms:created "2024-05-17T10:10:22.963539"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/GeschichtederjudischenGemeindeDusseldorfsSonderdruck> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1012586545> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1012586545&kategorie1=gnd" ;
+    dc:title "Geschichte der jüdischen Gemeinde Düsseldorfs. Sonderdruck" ;
+    dcterms:created "2024-05-17T10:12:29.010311"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Gestorben_dochnichtvergessen> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017474613> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017474613&kategorie1=gnd" ;
+    jl:hasAbstract "In: Caritas in NRW. 2009, S. 26--27" ;
+    dc:title "Gestorben, doch nicht vergessen" ;
+    dcterms:created "2024-05-17T11:01:39.670515"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/GewaltinderRegion> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    dc:title "Gewalt in der Region" ;
+    dcterms:created "2024-05-17T10:30:27.702142"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Goldschmidt_CohnundMandelbaum> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    dc:title "Goldschmidt, Cohn und Mandelbaum" ;
+    dcterms:created "2024-05-17T10:30:25.698588"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/HeinrichHeinesStammbaummutterlicherseits> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1012586545> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1012586545&kategorie1=gnd" ;
+    jl:hasAbstract "In: Beiträge zur Geschichte des Niederrheins. Jahrbuch des Düsseldorfer Geschichtsvereins (Düsseldorf) l (1886), S. 5-13." ;
+    dc:title "Heinrich Heine's Stammbaum mütterlicherseits" ;
+    dcterms:created "2024-05-17T10:12:29.085852"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/HermannIIIeinaktiverPolitikerdurchPassivitat> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017899789> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017899789&kategorie1=gnd" ;
+    jl:hasAbstract "In: Jahrbuch für den Rhein-Kreis Neuss ... 2012 (2011) (2011), S. 24--37." ;
+    dc:title "Hermann III. - ein aktiver Politiker durch Passivität" ;
+    dcterms:created "2024-05-17T11:27:08.260302"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/HugoPlaut> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101745079> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101745079&kategorie1=gnd" ;
+    jl:hasAbstract "In: Heimatblätter 89 (2009) (2009), S. 97--102." ;
+    dc:title "Hugo Plaut" ;
+    dcterms:created "2024-05-17T10:48:49.794568"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/IntegrationschaffenIdentitatbilden> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101193597X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101193597X&kategorie1=gnd" ;
+    jl:hasAbstract "In: mit Beitr. von Jürgen Boebers-Süßmann ...Hrsg. von Manfred Keller,: \"So viel Aufbruch war nie ...\". 2011, S. 97--100" ;
+    dc:title "Integration schaffen - Identität bilden" ;
+    dcterms:created "2024-05-17T10:11:34.186612"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Judei_civesetincole:StudienzurjudischenGeschichteKolnsimMittelalter> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017179921> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017179921&kategorie1=gnd" ;
+    dc:title "Judei, cives et incole: Studien zur jüdischen Geschichte Kölns im Mittelalter" ;
+    dcterms:created "2024-05-17T10:38:33.049633"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/JudeninDusseldorfEinfotografischesErinnerungsbuchmitArbeitenvonMarcusKiel> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1012586545> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1012586545&kategorie1=gnd" ;
+    dc:title "Juden in Düsseldorf. Ein fotografisches Erinnerungsbuch mit Arbeiten von Marcus Kiel" ;
+    dcterms:created "2024-05-17T10:12:28.935313"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/JudenverfolgungundNSAlltaginLemgo> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1016220316> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1016220316&kategorie1=gnd" ;
+    dc:title "Judenverfolgung und NS-Alltag in Lemgo" ;
+    dcterms:created "2024-05-17T10:27:08.984561"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/JudischeBurgerinBrenken> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1018690867> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1018690867&kategorie1=gnd" ;
+    jl:hasAbstract "In: Detlef Grothmann (Bearb.) Hrsg. vom Heimat- und Verkehrsverein Brenken,: Brenken. 2011, S. 237--250" ;
+    dc:title "Jüdische Bürger in Brenken" ;
+    dcterms:created "2024-05-17T11:37:26.086466"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/JudischeGenealogieimArchiv_inderForschungunddigital> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1019035404> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1019035404&kategorie1=gnd" ;
+    dc:title "Jüdische Genealogie im Archiv, in der Forschung und digital" ;
+    dcterms:created "2024-05-17T11:48:34.616317"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/JudischeKinderschicksalewahrendderNSDiktaturinErzahltextenvonjudischenAutorinnenundAutorenamEinhardGymnasiuminAachen> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1011624966> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1011624966&kategorie1=gnd" ;
+    jl:hasAbstract "In: Thomas Bein ... (Hrsg.),: Wissenstransfer im Deutschunterricht. 2011, S. 209--225" ;
+    dc:title "Jüdische Kinderschicksale während der NS-Diktatur in Erzähltexten von jüdischen Autorinnen und Autoren am Einhard-Gymnasium in Aachen" ;
+    dcterms:created "2024-05-17T10:10:48.339469"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/JudischeSchuleundErziehungimDrittenReich> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1014997623> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1014997623&kategorie1=gnd" ;
+    dc:title "Jüdische Schule und Erziehung im Dritten Reich" ;
+    dcterms:created "2024-05-17T10:19:55.634134"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/JudischerAlltag> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    dc:title "Jüdischer Alltag" ;
+    dcterms:created "2024-05-17T10:30:28.149895"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/JudischesLebeninEssen18001933> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/10135262X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=10135262X&kategorie1=gnd" ;
+    dc:title "Jüdisches Leben in Essen 1800--1933" ;
+    dcterms:created "2024-05-17T10:14:32.189582"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/JudischeundchristlicheGemeindeimKolnerKirchspielStLaurenz> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017179921> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017179921&kategorie1=gnd" ;
+    jl:hasAbstract "In: Jüdische Gemeinden und ihr christlicher Kontext in kulturräumlich vergleichender Betrachtung / Christoph Cluse ... (Hrsg.). -- Hannover, 2003. -- (Forschungen zur Geschichte der Juden : Abt. A, Abhandlungen ; Bd. 13)" ;
+    dc:title "Jüdische und christliche Gemeinde im Kölner Kirchspiel St. Laurenz" ;
+    dcterms:created "2024-05-17T10:38:33.318035"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Koln:JudischesZentrumamNiederrhein> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017179921> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017179921&kategorie1=gnd" ;
+    jl:hasAbstract "In: Europas Juden im Mittelalter / hrsg. von Christoph Cluse. - Trier, 2004. - S. 443-464 : Ill." ;
+    dc:title "Köln: Jüdisches Zentrum am Niederrhein" ;
+    dcterms:created "2024-05-17T10:38:33.802412"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/KolnBerichtuberdasBegrabnisdesRabbinersDrIsraelSchwarz/WurdigungseinerVerdienste> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1011578166> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1011578166&kategorie1=gnd" ;
+    jl:hasAbstract "In: Allgemeine Zeitung des Judenthums 39 (1875), Nr. 4, S. 54--55." ;
+    dc:title "Köln [Bericht über das Begräbnis des Rabbiners Dr. Israel Schwarz / Würdigung seiner Verdienste]" ;
+    dcterms:created "2024-05-17T10:10:39.276450"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/KolnunddasrheinischeJudentumFestschriftGermaniaJudaica19591984> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1014997623> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1014997623&kategorie1=gnd" ;
+    dc:title "Köln und das rheinische Judentum. Festschrift Germania Judaica 1959--1984" ;
+    dcterms:created "2024-05-17T10:19:55.472039"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/KontinuitatundBruchNationalsozialismusunddieKleinstadtLemgo> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1016220316> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1016220316&kategorie1=gnd" ;
+    dc:title "Kontinuität und Bruch. Nationalsozialismus und die Kleinstadt Lemgo" ;
+    dcterms:created "2024-05-17T10:27:08.020600"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/KriminalakteuberdieErmordungmeinerUrurgrotanteElisabethSchutteunddieVertreibungderJudenausEnniger> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1014510023> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1014510023&kategorie1=gnd" ;
+    dc:title "Kriminalakte über die Ermordung meiner Ururgroßtante Elisabeth Schütte und die Vertreibung der Juden aus Enniger" ;
+    dcterms:created "2024-05-17T10:18:15.513611"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/KurzbiographienzurGeschichtederJuden19181945> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1014997623> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1014997623&kategorie1=gnd" ;
+    dc:title "Kurzbiographien zur Geschichte der Juden 1918--1945" ;
+    dcterms:created "2024-05-17T10:19:55.813148"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/LichterinderFinsternisWiderstandundVerfolgunginEssen19331945ErlebnisseBerichteForschungenGesprache> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/10135262X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=10135262X&kategorie1=gnd" ;
+    dc:title "Lichter in der Finsternis. Widerstand und Verfolgung in Essen 1933--1945. Erlebnisse -- Berichte -- Forschungen -- Gespräche" ;
+    dcterms:created "2024-05-17T10:14:32.287112"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/LokaleErinnerungimSchattenderVergangenheit> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1016220316> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1016220316&kategorie1=gnd" ;
+    dc:title "Lokale Erinnerung im Schatten der Vergangenheit" ;
+    dcterms:created "2024-05-17T10:27:09.178674"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/METAKOMunddasMeeristkeinmalvoll> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1011809095> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1011809095&kategorie1=gnd" ;
+    dc:title "METAKOM ... und das Meer ist keinmal voll" ;
+    dcterms:created "2024-05-17T10:11:15.111778"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/MeineGedankenweilennurbeieuch_siesindeineinzigesGebetfureuerWohlletzteBriefevonRosalieGumpelanihreKinder> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1016220316> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1016220316&kategorie1=gnd" ;
+    jl:hasAbstract "In: Auf den Spuren der Familie Gumpel : biografische Zeugnisse als Quellen zur jüdischen Geschichte im 20. Jahrhundert / Andreas Lange, Jürgen Scheffler (Hrsg.). - Gütersloh, 2006. - S. 72 - 85 : Ill. - (Panu Derech - B ereitet den Weg ; 24)" ;
+    dc:title "\"Meine Gedanken weilen nur bei euch, sie sind ein einziges Gebet für euer Wohl ...\" - letzte Briefe von Rosalie Gumpel an ihre Kinder" ;
+    dcterms:created "2024-05-17T10:27:08.589935"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/MitHeimatliebegegenRassenwahn> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    dc:title "Mit Heimatliebe gegen Rassenwahn" ;
+    dcterms:created "2024-05-17T10:30:27.272057"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Nach1933> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    jl:hasAbstract "In: Horst Sassin,: Mit Heimatliebe gegen Rassenwahn. 2008, S. 56--59" ;
+    dc:title "Nach 1933" ;
+    dcterms:created "2024-05-17T10:30:27.030998"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/NachderBefreiunginTheresienstadt:ManfredGansschildertdasWiedersehenmitseinenEltern> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1011704633> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1011704633&kategorie1=gnd" ;
+    jl:hasAbstract "In: hrsg. im Auftrag des Arbeitskreises Jüdische Geschichte in Borken und Gemen ... von Mechtild Schöneberg ...,: Die jüdischen Gemeinden in Borken und Gemen. 2010, S. 253--256" ;
+    dc:title "Nach der Befreiung in Theresienstadt: Manfred Gans schildert das Wiedersehen mit seinen Eltern" ;
+    dcterms:created "2024-05-17T10:10:59.843033"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/ReaktionenvonWuppertalerJudenaufdieAufforderungzurUmsiedlunginsGettovonLodzvomOktober1941> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    jl:hasAbstract "In: Angela Genger ... (Hg.),: Düsseldorf / Getto Litzmannstadt. 1941. 2010, S. 369--375" ;
+    dc:title "Reaktionen von Wuppertaler Juden auf die Aufforderung zur \"Umsiedlung\" ins Getto von Lódz vom Oktober 1941" ;
+    dcterms:created "2024-05-17T10:30:25.908056"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/SatzungengegenJudenundJudenknechte> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1016220316> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1016220316&kategorie1=gnd" ;
+    jl:hasAbstract "In: Wiemann, Heinz: Beiträge zur Geschichte. Schlangen -- Kohlstädt -- Oesterholz -- Haustenbeck. Schlangen 1991" ;
+    dc:title "Satzungen gegen »Juden und Judenknechte«" ;
+    dcterms:created "2024-05-17T10:27:08.204754"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Schwelm_seineSynagogeunddiejudischeGemeinde> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    jl:hasAbstract "In: Journal für Schwelm 87. 2012/2013 (2013) (2013), S. 31--34." ;
+    dc:title "Schwelm, seine Synagoge und die jüdische Gemeinde..." ;
+    dcterms:created "2024-05-17T10:30:28.367023"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/SiegfriedKlein> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1013815084> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1013815084&kategorie1=gnd" ;
+    jl:hasAbstract "In: de.wikipedia.org" ;
+    dc:title "Siegfried Klein" ;
+    dcterms:created "2024-05-17T10:16:44.952066"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/SiegfriedWeil_CarlWeil_SophieWeil_HerbertWeil> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1011477629> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1011477629&kategorie1=gnd" ;
+    jl:hasAbstract "In: Steinheimer Kalender ... 1. // 34. 2011 (2010) (2010 -), S. ." ;
+    dc:title "Siegfried Weil, Carl Weil, Sophie Weil, Herbert Weil" ;
+    dcterms:created "2024-05-17T10:10:28.964093"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/SiehabenauchSaraElse_HeleneundLothargeheien> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017019827> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017019827&kategorie1=gnd" ;
+    jl:hasAbstract "In: Attendorn gestern und heute 33 (2011) (2011), S. 3--22." ;
+    dc:title "Sie haben auch Sara Else, Helene und Lothar geheißen" ;
+    dcterms:created "2024-05-17T10:34:16.151458"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/SkizzenzueinerGeschichtederJudeninKoln> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1011578166> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1011578166&kategorie1=gnd" ;
+    jl:hasAbstract "In: Jeschurun 13 (1866/67), S. 338--358, S. 410--417; 14 (1867/68), S. 18--25, S. 43--61." ;
+    dc:title "Skizzen zu einer Geschichte der Juden in Köln" ;
+    dcterms:created "2024-05-17T10:10:39.244084"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/SovielAufbruchwarnie> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101193597X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101193597X&kategorie1=gnd" ;
+    dc:title "\"So viel Aufbruch war nie ...\"" ;
+    dcterms:created "2024-05-17T10:11:34.245121"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Stolpersteine2007bis2009> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017472572> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017472572&kategorie1=gnd" ;
+    jl:hasAbstract "In: Godesberger Heimatblätter 47 (2009) (2009), S. 127--143." ;
+    dc:title "Stolpersteine 2007 bis 2009" ;
+    dcterms:created "2024-05-17T10:54:51.732641"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Stolpersteine2010> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017472572> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017472572&kategorie1=gnd" ;
+    jl:hasAbstract "In: Godesberger Heimatblätter 48 (2010) (2010), S. 53--69." ;
+    dc:title "Stolpersteine 2010" ;
+    dcterms:created "2024-05-17T10:54:51.125359"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Stolpersteine2012GedenkenanElseJacobsundJanetteSommer> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017472572> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017472572&kategorie1=gnd" ;
+    jl:hasAbstract "In: Godesberger Heimatblätter 50 (2012) (2012), S. 239--245." ;
+    dc:title "Stolpersteine 2012 - Gedenken an Else Jacobs und Janette Sommer" ;
+    dcterms:created "2024-05-17T10:54:50.820603"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/StolpersteineinHurth> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1015386954> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1015386954&kategorie1=gnd" ;
+    jl:hasAbstract "In: Hürther Beiträge zur Geschichte, Kultur und Regionalkunde 88 (2009) (2009), S. 57--62." ;
+    dc:title "Stolpersteine in Hürth" ;
+    dcterms:created "2024-05-17T10:24:24.781922"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/ToraundTextilien> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    jl:hasAbstract "In: Romerike Berge 61 (2011),1 (2011), S. 17--20." ;
+    dc:title "Tora und Textilien" ;
+    dcterms:created "2024-05-17T10:30:25.493490"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/UberdasLebendes1920inKerpengeborenenJudenFritzRoer> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1013437624> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1013437624&kategorie1=gnd" ;
+    jl:hasAbstract "In: Kerpener Heimatblätter 9 = Jg. 47 (2009),1 (2009), S. 386--396." ;
+    dc:title "Über das Leben des 1920 in Kerpen geborenen Juden Fritz Roer" ;
+    dcterms:created "2024-05-17T10:13:43.179476"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/UnserejudischenMitburgerindenJahren19021938> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101745079> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101745079&kategorie1=gnd" ;
+    jl:hasAbstract "In: 100 Jahre Pfarrgemeinde Sankt Johannes Evangelist Bad Westernkotten / hrsg. von Wolfgang Marcus ... -- Bad Westernkotten, 2002" ;
+    dc:title "Unsere jüdischen Mitbürger in den Jahren 1902--1938" ;
+    dcterms:created "2024-05-17T10:48:49.509031"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/Verzogennach:unbekanntwohin> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1017472572> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1017472572&kategorie1=gnd" ;
+    jl:hasAbstract "In: Bonner Geschichtsblätter 57/58 (2008) (2008), S. ." ;
+    dc:title "Verzogen nach: \"unbekannt wohin.\"" ;
+    dcterms:created "2024-05-17T10:54:51.414880"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/VominterreligiosenDialognetzwerkDusseldorfzumVereinMosaikeV> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1019549831> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1019549831&kategorie1=gnd" ;
+    jl:hasAbstract "In: hrsg. von Doris Schulz ...,: Es geht doch!. 2011, S. 98--103" ;
+    dc:title "Vom interreligiösen Dialognetzwerk Düsseldorf zum Verein Mosaik e.V." ;
+    dcterms:created "2024-05-17T12:14:11.450968"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/VonBorbeckinsGettoLitzmannstadt> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/10135262X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=10135262X&kategorie1=gnd" ;
+    jl:hasAbstract "In: Angela Genger ... (Hg.),: Düsseldorf / Getto Litzmannstadt. 1941. 2010, S. 359--364" ;
+    dc:title "Von Borbeck ins Getto Litzmannstadt" ;
+    dcterms:created "2024-05-17T10:14:32.386915"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/VorstvonAnnodazumalbisheuteBd1/Bd2> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1020268883> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1020268883&kategorie1=gnd" ;
+    dc:title "Vorst von Anno dazumal bis heute Bd.1/ Bd.2" ;
+    dcterms:created "2024-05-17T12:45:08.896048"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/WegweiserdurchdasjudischeRheinland> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1011480352> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1011480352&kategorie1=gnd" ;
+    dc:title "Wegweiser durch das jüdische Rheinland" ;
+    dcterms:created "2024-05-17T10:10:33.209786"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/WissenstransferimDeutschunterricht> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1011624966> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1011624966&kategorie1=gnd" ;
+    dc:title "Wissenstransfer im Deutschunterricht" ;
+    dcterms:created "2024-05-17T10:10:48.376976"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/ZumGedenkenandiejudischeSynagogengemeindeinStTonisundihrEndeunterdemHakenkreuz> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1020268883> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1020268883&kategorie1=gnd" ;
+    jl:hasAbstract "In: Sankt Töniser Heimatbrief 42=133 (1995), S. 41--43." ;
+    dc:title "Zum Gedenken an die jüdische Synagogengemeinde in St. Tönis und ihr Ende unter dem Hakenkreuz" ;
+    dcterms:created "2024-05-17T12:45:10.429919"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/ZweijudischeDichterinnenimRheinlandElseLaskerSchulerundRoseAuslander> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/1011480352> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=1011480352&kategorie1=gnd" ;
+    jl:hasAbstract "In: Heid, Ludger / Schoeps, Julius H. (Hg.): Wegweiser durch das jüdische Rheinland / in Verbindung mit Marina Sassenberg. Berlin 1992, S. 300--305" ;
+    dc:title "Zwei jüdische Dichterinnen im Rheinland. Else Lasker-Schüler und Rose Ausländer" ;
+    dcterms:created "2024-05-17T10:10:33.185785"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/deralteGottlebtnoch_wirdauchunsnichtverlassen> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    jl:hasAbstract "In: Romerike Berge. - 54 (2004),2, S. 22-32 : Ill." ;
+    dc:title "\" ... der alte Gott lebt noch, wird auch uns nicht verlassen\"" ;
+    dcterms:created "2024-05-17T10:30:25.288403"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/sofroh_dassIhrdrauenseid> a gndo:Work ;
+    gndo:author <http://data.judaicalink.org/data/nrwbib_djg/101651350X> ;
+    jl:describedAt "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1=101651350X&kategorie1=gnd" ;
+    dc:title "\"... so froh, dass Ihr draußen seid.\"" ;
+    dcterms:created "2024-05-17T10:30:25.077889"^^xsd:dateTime .
+
+<https://d-nb.info/gnd/100373550> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/100373550/about> ;
+    gndo1:gndIdentifier "100373550" ;
+    gndo1:oldAuthorityNumber "(DE-588a)100373550" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Thomas" ;
+            gndo1:surname "Mayer" ] ;
+    gndo1:preferredNameForThePerson "Mayer, Thomas" ;
+    gndo1:variantNameEntityForThePerson [ gndo1:personalName "T. M." ] ;
+    gndo1:variantNameForThePerson "T. M." .
+
+<https://d-nb.info/gnd/10076410X> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/10076410X/about> ;
+    gndo1:gndIdentifier "10076410X" ;
+    gndo1:oldAuthorityNumber "(DE-588a)10076410X" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Johann" ;
+            gndo1:surname "Schwarz" ] ;
+    gndo1:preferredNameForThePerson "Schwarz, Johann" ;
+    gndo1:publication "Schwarz, Johann: Pour le mérite",
+        "Schwarz, Johann: [Deutsche Tänze]",
+        "Schwarz, Matthäus: Was kann ein Schullehrer in seinem gesetzlichen Wirkungskreise ... - 1824" .
+
+<https://d-nb.info/gnd/100880363> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/100880363/about> ;
+    gndo1:gndIdentifier "100880363" ;
+    gndo1:oldAuthorityNumber "(DE-588a)100880363" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Johannes W." ;
+            gndo1:surname "Schmitz" ] ;
+    gndo1:preferredNameForThePerson "Schmitz, Johannes W." ;
+    gndo1:publication "Schmitz, Johannes W.: Disputatio inauguralis iuridica de locatione conductione. - [1749?]" ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "Iohannes W." ;
+            gndo1:surname "Schmitz" ] ;
+    gndo1:variantNameForThePerson "Schmitz, Iohannes W." .
+
+<https://d-nb.info/gnd/100969984> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/n93062627>,
+        <http://viaf.org/viaf/22494885>,
+        <http://www.wikidata.org/entity/Q457200>,
+        <https://d-nb.info/gnd/1089177933>,
+        <https://d-nb.info/gnd/1147213402>,
+        <https://dbpedia.org/resource/Ephraim_of_Bonn>,
+        <https://isni.org/isni/0000000117507439> ;
+    wdrs:describedby <https://d-nb.info/gnd/100969984/about> ;
+    foaf:page <https://de.wikipedia.org/wiki/Efraim_ben_Jakob> ;
+    dnbt:deprecatedUri "https://d-nb.info/gnd/1089177933",
+        "https://d-nb.info/gnd/1147213402" ;
+    gndo1:biographicalOrHistoricalInformation "Rabbiner und Dichter"@de ;
+    gndo1:dateOfBirth "1132"^^xsd:gYear ;
+    gndo1:dateOfDeath "1221"^^xsd:gYear ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#male> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo1:gndIdentifier "100969984" ;
+    gndo1:oldAuthorityNumber "(DE-588)1089177933",
+        "(DE-588)1147213402",
+        "(DE-588a)100969984" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:personalName "Efrayim Ben-Yaʿaqov" ] ;
+    gndo1:preferredNameForThePerson "Efrayim Ben-Yaʿaqov" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4176751-2> ;
+            rdf:_2 <https://d-nb.info/gnd/4053309-8> ] ;
+    gndo1:variantNameEntityForThePerson [ gndo1:nameAddition "Bonn" ;
+            gndo1:personalName "Efrayim Ben-Yaʿaqov" ],
+        [ gndo1:nameAddition "aus Bonn" ;
+            gndo1:personalName "Ephraem Ben Jakob" ],
+        [ gndo1:personalName "Efrayim b.R. Yaʿaq¯ov" ],
+        [ gndo1:nameAddition "mi-Bona" ;
+            gndo1:personalName "Efrayim ben Yaʿaḳov" ],
+        [ gndo1:forename "Ephraim" ;
+            gndo1:prefix "von" ;
+            gndo1:surname "Bonn" ],
+        [ gndo1:forename "Efrayim B." ;
+            gndo1:surname "Bonn" ],
+        [ gndo1:forename "Efrayim Ben-Yaʿaqov" ;
+            gndo1:surname "Bonn" ],
+        [ gndo1:forename "Ephraim" ;
+            gndo1:surname "Ben-Jacob" ],
+        [ gndo1:personalName "Efrayim ben Yaʿăqōv mib-Bônâ" ],
+        [ gndo1:personalName "Efrajim ben Jaʿaqōb mib-Bōnā" ],
+        [ gndo1:personalName "Efraim Ben-Ja'aqob" ],
+        [ gndo1:nameAddition "aus Bonn" ;
+            gndo1:personalName "Efraim ben Jakob ben Kalonymos" ],
+        [ gndo1:nameAddition "von Bonn" ;
+            gndo1:personalName "Ephraim" ],
+        [ gndo1:nameAddition "aus Bonn" ;
+            gndo1:personalName "Ephraim" ],
+        [ gndo1:nameAddition "von Bonn" ;
+            gndo1:personalName "Ephraim Bar-Jacob" ],
+        [ gndo1:nameAddition "aus Bonn" ;
+            gndo1:personalName "Ephraim Ben Jakob" ],
+        [ gndo1:nameAddition "of Bonn" ;
+            gndo1:personalName "Ephraim ben Jacob" ],
+        [ gndo1:nameAddition "von Bonn" ;
+            gndo1:personalName "Ephraem" ] ;
+    gndo1:variantNameForThePerson "Ben-Jacob, Ephraim",
+        "Bonn, Efrayim B.",
+        "Bonn, Efrayim Ben-Yaʿaqov",
+        "Bonn, Ephraim von",
+        "Efraim Ben-Ja'aqob",
+        "Efraim ben Jakob ben Kalonymos, aus Bonn",
+        "Efrajim ben Jaʿaqōb mib-Bōnā",
+        "Efrayim Ben-Yaʿaqov, Bonn",
+        "Efrayim b.R. Yaʿaq¯ov",
+        "Efrayim ben Yaʿaḳov, mi-Bona",
+        "Efrayim ben Yaʿăqōv mib-Bônâ",
+        "Ephraem Ben Jakob, aus Bonn",
+        "Ephraem, von Bonn",
+        "Ephraim Bar-Jacob, von Bonn",
+        "Ephraim Ben Jakob, aus Bonn",
+        "Ephraim ben Jacob, of Bonn",
+        "Ephraim, aus Bonn",
+        "Ephraim, von Bonn" .
+
+<https://d-nb.info/gnd/101140614> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/101140614/about> ;
+    gndo1:gndIdentifier "101140614" ;
+    gndo1:oldAuthorityNumber "(DE-588a)101140614" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Wilhelm" ;
+            gndo1:surname "Jensen" ] ;
+    gndo1:preferredNameForThePerson "Jensen, Wilhelm" ;
+    gndo1:publication "Jensen, Wilhelm: Das Erbtheil des Blutes. - 1869",
+        "Jensen, Wilhelm: Der Gesell des Meisters Mathias. - 1869" ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "Vilchelm" ;
+            gndo1:surname "Jensen" ],
+        [ gndo1:forename "Vilhelm" ;
+            gndo1:surname "Jensen" ] ;
+    gndo1:variantNameForThePerson "Jensen, Vilchelm",
+        "Jensen, Vilhelm" .
+
+<https://d-nb.info/gnd/1011477629> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/1011477629/about> ;
+    gndo1:gndIdentifier "1011477629" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1011477629" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Heinz" ;
+            gndo1:surname "Gellhaus" ] ;
+    gndo1:preferredNameForThePerson "Gellhaus, Heinz" .
+
+<https://d-nb.info/gnd/1011480352> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/n82000695>,
+        <http://viaf.org/viaf/72727182>,
+        <http://www.wikidata.org/entity/Q107568791>,
+        <https://d-nb.info/gnd/1090680864>,
+        <https://isni.org/isni/0000000067259245> ;
+    wdrs:describedby <https://d-nb.info/gnd/1011480352/about> ;
+    dnbt:deprecatedUri "https://d-nb.info/gnd/1090680864" ;
+    gndo1:biographicalOrHistoricalInformation "rumän. Theaterkritiker und Essayist, ab 1985 in Deutschland, ab 1988 Dozent am Institut für Theater-, Film und Fernsehwissenschaft der Ruhr-Universität Bochum"@de ;
+    gndo1:dateOfBirth "1931"^^xsd:gYear ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>,
+        <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-RO> ;
+    gndo1:gndIdentifier "1011480352" ;
+    gndo1:oldAuthorityNumber "(DE-588)1090680864",
+        "(DE-588a)1011480352" ;
+    gndo1:placeOfBirth <https://d-nb.info/gnd/4008858-3> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Avram Andrei" ;
+            gndo1:surname "Baleanu" ] ;
+    gndo1:preferredNameForThePerson "Baleanu, Avram Andrei" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4614675-1> ;
+            rdf:_2 <https://d-nb.info/gnd/4185045-2> ;
+            rdf:_3 <https://d-nb.info/gnd/4028781-6> ] ;
+    gndo1:pseudonym <https://d-nb.info/gnd/1161539999> ;
+    gndo1:publication "Actorul în cǎutarea personajului",
+        "Arta transfigurării",
+        "Conţinut şi formă în artă",
+        "Realism şi metaforă în teatru" ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "Andrei" ;
+            gndo1:surname "Baleanu" ] ;
+    gndo1:variantNameForThePerson "Baleanu, Andrei" .
+
+<https://d-nb.info/gnd/1011578166> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/n2021039141>,
+        <http://viaf.org/viaf/167005248>,
+        <http://www.wikidata.org/entity/Q109856603> ;
+    wdrs:describedby <https://d-nb.info/gnd/1011578166/about> ;
+    agrelon:hasParent <https://d-nb.info/gnd/12321419X> ;
+    gndo1:dateOfBirth "1830"^^xsd:gYear ;
+    gndo1:dateOfDeath "1875"^^xsd:gYear ;
+    gndo1:familialRelationship <https://d-nb.info/gnd/12321419X> ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#male> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo1:gndIdentifier "1011578166" ;
+    gndo1:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p> ;
+    gndo1:oldAuthorityNumber "(DE-588a)1011578166" ;
+    gndo1:placeOfBirth <https://d-nb.info/gnd/10078808-7> ;
+    gndo1:placeOfDeath <https://d-nb.info/gnd/4031483-2> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Israel" ;
+            gndo1:surname "Schwarz" ] ;
+    gndo1:preferredNameForThePerson "Schwarz, Israel" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4176751-2> ] ;
+    gndo1:publication "Schwarz, Joseph: Das heilige Land nach seiner ehemaligen und jetzigen geographischen Be*. - 1852",
+        "Tiqwat Änōš zä sēfär Ijōb han-nišqaf ʿl dibrat bnē ādām we-ʿal ḥūg šāmajim mi*. - 1868" ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "J." ;
+            gndo1:surname "Schwarz" ],
+        [ gndo1:forename "Yiśraʾel" ;
+            gndo1:surname "Shṿarts" ] ;
+    gndo1:variantNameForThePerson "Schwarz, J.",
+        "Shṿarts, Yiśraʾel" .
+
+<https://d-nb.info/gnd/1011624966> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://viaf.org/viaf/170829097> ;
+    wdrs:describedby <https://d-nb.info/gnd/1011624966/about> ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:gndIdentifier "1011624966" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1011624966" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Helmtrud" ;
+            gndo1:surname "Gehrt" ] ;
+    gndo1:preferredNameForThePerson "Gehrt, Helmtrud" ;
+    gndo1:professionOrOccupationAsLiteral "Lehrerin" .
+
+<https://d-nb.info/gnd/1011704633> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/no2010197169>,
+        <http://viaf.org/viaf/160614083>,
+        <https://isni.org/isni/000000010817250X> ;
+    wdrs:describedby <https://d-nb.info/gnd/1011704633/about> ;
+    gndo1:biographicalOrHistoricalInformation "Jüdischer Flüchtling, Britischer Soldat im 2. Weltkrieg; später Auswanderung in die USA"@de ;
+    gndo1:dateOfBirth "1922-04-27"^^xsd:date ;
+    gndo1:dateOfDeath "2010"^^xsd:gYear ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>,
+        <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XD-US> ;
+    gndo1:gndIdentifier "1011704633" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1011704633" ;
+    gndo1:placeOfBirth <https://d-nb.info/gnd/4007753-6> ;
+    gndo1:placeOfDeath <https://d-nb.info/gnd/4042011-5> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Manfred" ;
+            gndo1:surname "Gans" ] ;
+    gndo1:preferredNameForThePerson "Gans, Manfred" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4055409-0> ;
+            rdf:_2 <https://d-nb.info/gnd/4249091-1> ] .
+
+<https://d-nb.info/gnd/1011809095> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/1011809095/about> ;
+    gndo1:gndIdentifier "1011809095" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1011809095" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Friederike" ;
+            gndo1:surname "Schir" ] ;
+    gndo1:preferredNameForThePerson "Schir, Friederike" .
+
+<https://d-nb.info/gnd/101193597X> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/101193597X/about> ;
+    gndo1:gndIdentifier "101193597X" ;
+    gndo1:oldAuthorityNumber "(DE-588a)101193597X" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Emmanuel" ;
+            gndo1:surname "Schneider" ] ;
+    gndo1:preferredNameForThePerson "Schneider, Emmanuel" .
+
+<https://d-nb.info/gnd/101256523> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/101256523/about> ;
+    gndo1:gndIdentifier "101256523" ;
+    gndo1:oldAuthorityNumber "(DE-588a)101256523" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Franz" ;
+            gndo1:surname "Schneider" ] ;
+    gndo1:preferredNameForThePerson "Schneider, Franz" ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "Franciscus" ;
+            gndo1:surname "Schneider" ] ;
+    gndo1:variantNameForThePerson "Schneider, Franciscus" .
+
+<https://d-nb.info/gnd/1012586545> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://viaf.org/viaf/171407111>,
+        <http://www.wikidata.org/entity/Q330696> ;
+    wdrs:describedby <https://d-nb.info/gnd/1012586545/about> ;
+    foaf:page <https://de.wikipedia.org/wiki/Abraham_Wedell> ;
+    agrelon:hasChild <https://d-nb.info/gnd/1050300653> ;
+    agrelon:hasSpouse <https://d-nb.info/gnd/1206112557> ;
+    gndo1:dateOfBirth "1844"^^xsd:gYear ;
+    gndo1:dateOfDeath "1891"^^xsd:gYear ;
+    gndo1:familialRelationship <https://d-nb.info/gnd/1050300653>,
+        <https://d-nb.info/gnd/1206112557> ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#male> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>,
+        <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XY> ;
+    gndo1:gndIdentifier "1012586545" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1012586545" ;
+    gndo1:placeOfBirth <https://d-nb.info/gnd/4046868-9> ;
+    gndo1:placeOfDeath <https://d-nb.info/gnd/4013255-9> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Abraham" ;
+            gndo1:surname "Wedell" ] ;
+    gndo1:preferredNameForThePerson "Wedell, Abraham" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4176751-2> ] ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "Abrahamus" ;
+            gndo1:surname "Wedell" ] ;
+    gndo1:variantNameForThePerson "Wedell, Abrahamus" .
+
+<https://d-nb.info/gnd/1013269675> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/1013269675/about> ;
+    gndo1:gndIdentifier "1013269675" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1013269675" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Magdalena" ;
+            gndo1:surname "Knipping" ] ;
+    gndo1:preferredNameForThePerson "Knipping, Magdalena" .
+
+<https://d-nb.info/gnd/1013437624> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://viaf.org/viaf/173661583>,
+        <https://isni.org/isni/0000000123707541> ;
+    wdrs:describedby <https://d-nb.info/gnd/1013437624/about> ;
+    gndo1:biographicalOrHistoricalInformation "Dt. Jude, Holocaust-Überlebender, 1949 in die USA ausgewandert"@de ;
+    gndo1:dateOfBirth "1920-11-02"^^xsd:date ;
+    gndo1:dateOfDeath "2010-03-02"^^xsd:date ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>,
+        <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XD-US> ;
+    gndo1:gndIdentifier "1013437624" ;
+    gndo1:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p> ;
+    gndo1:oldAuthorityNumber "(DE-588a)1013437624",
+        "(DE-588c)7751812-3" ;
+    gndo1:placeOfBirth <https://d-nb.info/gnd/4242492-6> ;
+    gndo1:placeOfDeath <https://d-nb.info/gnd/4054058-3> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Fritz" ;
+            gndo1:surname "Roer" ] ;
+    gndo1:preferredNameForThePerson "Roer, Fritz" .
+
+<https://d-nb.info/gnd/10135262X> a gndo1:UndifferentiatedPerson ;
+    owl:sameAs <https://d-nb.info/gnd/142695262> ;
+    wdrs:describedby <https://d-nb.info/gnd/10135262X/about> ;
+    dnbt:deprecatedUri "https://d-nb.info/gnd/142695262" ;
+    gndo1:gndIdentifier "10135262X" ;
+    gndo1:oldAuthorityNumber "(DE-588)142695262",
+        "(DE-588a)10135262X",
+        "(DE-588a)126593019",
+        "(DE-588a)142695262" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Ernst" ;
+            gndo1:surname "Schmidt" ] ;
+    gndo1:preferredNameForThePerson "Schmidt, Ernst" ;
+    gndo1:publication "Anleitung zur Qualitativen Analyse. - 1885",
+        "Gohlke, Werner: Quarzdruckmeßgeräte hoher Eigenfrquenz. Schwingungseigenschaften u. Abhil*. - 1941",
+        "Grimm, Jacob: Briefwechsel. - 1885",
+        "Schmidt, Ernst: Die Belagerung von Hameln und die Schlacht bei Hessisch-Oldendorf im Ja*. - 1880",
+        "Schmidt, Ernst: Dörpfelds Schulverfassung in ihrer Bedeutung für die Gegenwart. - 1920-1921",
+        "Schmidt, Ernst: Einführung in die technische Thermodynamik. - 1936",
+        "Schmidt, Ernst: Motivirrtum im Testamentsrecht. - 1933",
+        "Schmidt, Ernst: Unsere Kriegergräber. - 1917",
+        "Schmidt, Ernst: Volkswirtschaftslehre. - 1926",
+        "Zur Geschichte des Gottesdienstes und der Kirchenmusik in Rothenburg o.d. Tbr.. - 1905" ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "..." ;
+            gndo1:surname "Schmidt-Stephan-Mayinger" ],
+        [ gndo1:forename "Ernst" ;
+            gndo1:surname "Schmidt-Kowar" ],
+        [ gndo1:forename "Ernst W." ;
+            gndo1:surname "Schmidt" ],
+        [ gndo1:forename "Ernst Albert" ;
+            gndo1:surname "Schmidt" ],
+        [ gndo1:forename "Ernestus" ;
+            gndo1:surname "Schmidt" ],
+        [ gndo1:forename "Ernst Erdmann" ;
+            gndo1:surname "Schmidt" ] ;
+    gndo1:variantNameForThePerson "Schmidt, Ernestus",
+        "Schmidt, Ernst Albert",
+        "Schmidt, Ernst Erdmann",
+        "Schmidt, Ernst W.",
+        "Schmidt-Kowar, Ernst",
+        "Schmidt-Stephan-Mayinger, ..." .
+
+<https://d-nb.info/gnd/101364476X> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://viaf.org/viaf/173610129>,
+        <http://www.wikidata.org/entity/Q2638803>,
+        <https://isni.org/isni/0000000123669733> ;
+    wdrs:describedby <https://d-nb.info/gnd/101364476X/about> ;
+    foaf:page <https://de.wikipedia.org/wiki/Albert_Sch%C3%B6ndorff> ;
+    gndo1:biographicalOrHistoricalInformation "1912-1917 Stadtverordneter in Düsseldorf; 1919 Mitgründer d. Arbeiterbauver. \"Freiheit\"; 1942 v. Amsterdam n. Ausschwitz deportiert"@de ;
+    gndo1:dateOfBirth "1870"^^xsd:gYear ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo1:gndIdentifier "101364476X" ;
+    gndo1:oldAuthorityNumber "(DE-588a)101364476X" ;
+    gndo1:placeOfActivity <https://d-nb.info/gnd/4013255-9> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Albert" ;
+            gndo1:surname "Schöndorff" ] ;
+    gndo1:preferredNameForThePerson "Schöndorff, Albert" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4128272-3> ;
+            rdf:_2 <https://d-nb.info/gnd/4577415-8> ] .
+
+<https://d-nb.info/gnd/1013815084> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://viaf.org/viaf/60586498>,
+        <http://www.wikidata.org/entity/Q1228708>,
+        <https://isni.org/isni/0000000122493246> ;
+    wdrs:describedby <https://d-nb.info/gnd/1013815084/about> ;
+    foaf:page <https://de.wikipedia.org/wiki/Siegfried_Klein_%28Rabbiner%29> ;
+    gndo1:academicDegree "Dr." ;
+    gndo1:biographicalOrHistoricalInformation "Zuerst Religionslehrer in Berlin und Feldrabbiner im Ersten Weltkrieg, von 1919-1941 Rabbiner in Düsseldorf, Mitgründer und langjähriger Vorsitzender des \"Verbandes der jüdischen Jugendvereine Deutschlands\". 1941 nach Litzmannstadt (Lodz) deportiert, im Herbst 1944 in Auschwitz ermordet."@de ;
+    gndo1:dateOfBirth "1882-12-31"^^xsd:date ;
+    gndo1:dateOfDeath "1944"^^xsd:gYear ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#male> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>,
+        <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XY> ;
+    gndo1:gndIdentifier "1013815084" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1013815084" ;
+    gndo1:placeOfActivity <https://d-nb.info/gnd/4005728-8>,
+        <https://d-nb.info/gnd/4013255-9> ;
+    gndo1:placeOfBirth <https://d-nb.info/gnd/4049838-4> ;
+    gndo1:placeOfDeath <https://d-nb.info/gnd/4068979-7> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Siegfried" ;
+            gndo1:surname "Klein" ] ;
+    gndo1:preferredNameForThePerson "Klein, Siegfried" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4176751-2> ;
+            rdf:_2 <https://d-nb.info/gnd/4138623-1> ] .
+
+<https://d-nb.info/gnd/1014510023> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/1014510023/about> ;
+    gndo1:gndIdentifier "1014510023" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1014510023" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Sandra" ;
+            gndo1:surname "Licher" ] ;
+    gndo1:preferredNameForThePerson "Licher, Sandra" .
+
+<https://d-nb.info/gnd/1014997623> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/n81117120>,
+        <http://viaf.org/viaf/94771931>,
+        <http://www.wikidata.org/entity/Q106219>,
+        <https://d-nb.info/gnd/172440572>,
+        <https://isni.org/isni/000000011031401X> ;
+    wdrs:describedby <https://d-nb.info/gnd/1014997623/about> ;
+    foaf:page <https://de.wikipedia.org/wiki/Joseph_Walk> ;
+    dnbt:deprecatedUri "https://d-nb.info/gnd/172440572" ;
+    gndo1:academicDegree "Prof. Dr." ;
+    gndo1:biographicalOrHistoricalInformation "Direktor des Leo Baeck Instituts, Jerusalem; Leiter des Instituts für die Erforschung des Diaspora-Judentums"@de ;
+    gndo1:dateOfBirth "1914"^^xsd:gYear ;
+    gndo1:dateOfDeath "2005"^^xsd:gYear ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#male> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>,
+        <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-PL>,
+        <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-IL> ;
+    gndo1:gndIdentifier "1014997623" ;
+    gndo1:oldAuthorityNumber "(DE-588)172440572",
+        "(DE-588a)1014997623",
+        "(DE-588a)103414932",
+        "(DE-588a)109775082",
+        "(DE-588a)172440572" ;
+    gndo1:placeOfActivity <https://d-nb.info/gnd/4028586-8> ;
+    gndo1:placeOfBirth <https://d-nb.info/gnd/4008216-7> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Joseph" ;
+            gndo1:surname "Walk" ] ;
+    gndo1:preferredNameForThePerson "Walk, Joseph" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4044300-0> ;
+            rdf:_2 <https://d-nb.info/gnd/4025098-2> ] ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "Yosef" ;
+            gndo1:surname "Ṿalḳ" ],
+        [ gndo1:forename "Yôsēf" ;
+            gndo1:surname "Walk" ],
+        [ gndo1:forename "Yôsēf" ;
+            gndo1:surname "Walq" ],
+        [ gndo1:forename "Yosef" ;
+            gndo1:surname "Walk" ],
+        [ gndo1:forename "Joseph" ;
+            gndo1:surname "WLQ" ],
+        [ gndo1:forename "יוסף" ;
+            gndo1:surname "ולק" ] ;
+    gndo1:variantNameForThePerson "Ṿalḳ, Yosef",
+        "WLQ, Joseph",
+        "Walk, Yosef",
+        "Walk, Yôsēf",
+        "Walq, Yôsēf",
+        "ולק, יוסף"@und-Hebr .
+
+<https://d-nb.info/gnd/101524341X> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/no2012018266>,
+        <http://viaf.org/viaf/178517031>,
+        <https://isni.org/isni/0000000356103116> ;
+    wdrs:describedby <https://d-nb.info/gnd/101524341X/about> ;
+    gndo1:biographicalOrHistoricalInformation "Heimatforscherin, Schwerpunkt Wirtschafts- und Sozialgeschichte, lebt in Reinhardshagen"@de ;
+    gndo1:dateOfBirth "1942"^^xsd:gYear ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:gndIdentifier "101524341X" ;
+    gndo1:oldAuthorityNumber "(DE-588a)101524341X",
+        "(DE-588a)114615845" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Magda" ;
+            gndo1:surname "Thierling" ] ;
+    gndo1:preferredNameForThePerson "Thierling, Magda" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4035097-6> ] .
+
+<https://d-nb.info/gnd/1015386954> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/1015386954/about> ;
+    gndo1:gndIdentifier "1015386954" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1015386954" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Elmar J." ;
+            gndo1:surname "Frensch" ] ;
+    gndo1:preferredNameForThePerson "Frensch, Elmar J." .
+
+<https://d-nb.info/gnd/1016220316> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/n91027551>,
+        <http://viaf.org/viaf/247909867>,
+        <https://isni.org/isni/000000036869112X> ;
+    wdrs:describedby <https://d-nb.info/gnd/1016220316/about> ;
+    gndo1:biographicalOrHistoricalInformation "Dt. Gymnasiallehrerin, geboren in Breslau, lebte überwiegend in Lemgo. - Veröffentlichunegn zur Zeitgeschichte in Lippe und zur jüdischen Geschichte"@de ;
+    gndo1:dateOfBirth "1939"^^xsd:gYear ;
+    gndo1:dateOfDeath "2011"^^xsd:gYear ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo1:gndIdentifier "1016220316" ;
+    gndo1:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#6.4p> ;
+    gndo1:oldAuthorityNumber "(DE-588a)1016220316",
+        "(DE-588a)112031153",
+        "(DE-588c)7833008-7" ;
+    gndo1:placeOfBirth <https://d-nb.info/gnd/4008216-7> ;
+    gndo1:placeOfDeath <https://d-nb.info/gnd/4035306-0> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Hanne" ;
+            gndo1:surname "Pohlmann" ] ;
+    gndo1:preferredNameForThePerson "Pohlmann, Hanne" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4200406-8> ] ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "Hanne" ;
+            gndo1:surname "Czerwenka" ] ;
+    gndo1:variantNameForThePerson "Czerwenka, Hanne" .
+
+<https://d-nb.info/gnd/101651350X> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/n92030295>,
+        <http://viaf.org/viaf/112986597>,
+        <http://www.wikidata.org/entity/Q17353146>,
+        <https://isni.org/isni/0000000081806006> ;
+    wdrs:describedby <https://d-nb.info/gnd/101651350X/about> ;
+    foaf:page <https://de.wikipedia.org/wiki/Ulrike_Schrader> ;
+    gndo1:affiliation <https://d-nb.info/gnd/4487321-9> ;
+    gndo1:biographicalOrHistoricalInformation "Seit 1994 Leiterin der Begegnungsstätte „Alte Synagoge“ in Wuppertal"@de ;
+    gndo1:dateOfBirth "1960"^^xsd:gYear ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#female> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo1:gndIdentifier "101651350X" ;
+    gndo1:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+        <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.1p>,
+        <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>,
+        <https://d-nb.info/standards/vocab/gnd/gnd-sc#6.1p> ;
+    gndo1:oldAuthorityNumber "(DE-588a)101651350X",
+        "(DE-588a)109813294",
+        "(DE-588c)7839975-0" ;
+    gndo1:placeOfActivity <https://d-nb.info/gnd/4067084-3> ;
+    gndo1:placeOfBirth <https://d-nb.info/gnd/4062421-3> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Ulrike" ;
+            gndo1:surname "Schrader" ] ;
+    gndo1:preferredNameForThePerson "Schrader, Ulrike" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/7522314-4> ;
+            rdf:_2 <https://d-nb.info/gnd/4423722-4> ] .
+
+<https://d-nb.info/gnd/1017019827> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/1017019827/about> ;
+    gndo1:gndIdentifier "1017019827" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1017019827" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Brigitte" ;
+            gndo1:surname "Puth" ] ;
+    gndo1:preferredNameForThePerson "Puth, Brigitte" .
+
+<https://d-nb.info/gnd/1017179921> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/nr2002033361>,
+        <http://viaf.org/viaf/7636507>,
+        <http://www.wikidata.org/entity/Q112507033>,
+        <https://isni.org/isni/0000000047958807> ;
+    wdrs:describedby <https://d-nb.info/gnd/1017179921/about> ;
+    gndo1:academicDegree "Dr." ;
+    gndo1:biographicalOrHistoricalInformation "Studium der Geschichte, Germanistik und Pädagogik in Mainz und Trier, seit 2000 Leiter des Museum am Strom in Bingen, Veröffentlichungen zur rheinischen Kultur-, Stadt- und jüdischen Geschichte"@de ;
+    gndo1:dateOfBirth "1969"^^xsd:gYear ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:gndIdentifier "1017179921" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1017179921" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Matthias" ;
+            gndo1:surname "Schmandt" ] ;
+    gndo1:preferredNameForThePerson "Schmandt, Matthias" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4025098-2> ] .
+
+<https://d-nb.info/gnd/1017439672> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/1017439672/about> ;
+    gndo1:gndIdentifier "1017439672" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1017439672" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Merle" ;
+            gndo1:surname "Oesterschulze" ] ;
+    gndo1:preferredNameForThePerson "Oesterschulze, Merle" .
+
+<https://d-nb.info/gnd/101745079> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/101745079/about> ;
+    gndo1:gndIdentifier "101745079" ;
+    gndo1:oldAuthorityNumber "(DE-588a)101745079" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Maria" ;
+            gndo1:surname "Peters" ] ;
+    gndo1:preferredNameForThePerson "Peters, Maria" ;
+    gndo1:publication "Peters, Maria: Philipp Jakob Spener .... - 1935" .
+
+<https://d-nb.info/gnd/1017472572> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/n83069363>,
+        <http://viaf.org/viaf/61571151>,
+        <http://www.wikidata.org/entity/Q29514101>,
+        <https://d-nb.info/gnd/1057372374>,
+        <https://isni.org/isni/0000000116550013> ;
+    wdrs:describedby <https://d-nb.info/gnd/1017472572/about> ;
+    foaf:page <https://de.wikipedia.org/wiki/Norbert_Schlo%C3%9Fmacher> ;
+    dnbt:deprecatedUri "https://d-nb.info/gnd/1057372374" ;
+    gndo1:academicDegree "Dr." ;
+    gndo1:affiliation <https://d-nb.info/gnd/2150918-9>,
+        <https://d-nb.info/gnd/36150-1> ;
+    gndo1:dateOfBirth "1956"^^xsd:gYear ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo1:gndIdentifier "1017472572" ;
+    gndo1:oldAuthorityNumber "(DE-588)1057372374",
+        "(DE-588a)1017472572" ;
+    gndo1:placeOfActivity <https://d-nb.info/gnd/4007666-0> ;
+    gndo1:placeOfBirth <https://d-nb.info/gnd/4013255-9> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Norbert" ;
+            gndo1:surname "Schloßmacher" ] ;
+    gndo1:preferredNameForThePerson "Schloßmacher, Norbert" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4002865-3> ;
+            rdf:_2 <https://d-nb.info/gnd/4025098-2> ] ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "Norbert" ;
+            gndo1:surname "Schlossmacher" ] ;
+    gndo1:variantNameForThePerson "Schlossmacher, Norbert" .
+
+<https://d-nb.info/gnd/1017474613> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://viaf.org/viaf/214939890> ;
+    wdrs:describedby <https://d-nb.info/gnd/1017474613/about> ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo1:gndIdentifier "1017474613" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1017474613" ;
+    gndo1:placeOfActivity <https://d-nb.info/gnd/4012788-6> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Annette" ;
+            gndo1:surname "Höpfner-Tosetti" ] ;
+    gndo1:preferredNameForThePerson "Höpfner-Tosetti, Annette" ;
+    gndo1:professionOrOccupationAsLiteral "Tätig im Jugendhilfezentrum Raphaelshaus" ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "Annette Höpfner-" ;
+            gndo1:surname "Tosetti" ],
+        [ gndo1:forename "Annette" ;
+            gndo1:surname "Höpfner" ] ;
+    gndo1:variantNameForThePerson "Höpfner, Annette",
+        "Tosetti, Annette Höpfner-" .
+
+<https://d-nb.info/gnd/1017854688> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/1017854688/about> ;
+    gndo1:gndIdentifier "1017854688" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1017854688" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Sabrina Julia" ;
+            gndo1:surname "Jost" ] ;
+    gndo1:preferredNameForThePerson "Jost, Sabrina Julia" .
+
+<https://d-nb.info/gnd/1017854815> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/1017854815/about> ;
+    gndo1:gndIdentifier "1017854815" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1017854815" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Rebecca Sharon" ;
+            gndo1:surname "Reimering" ] ;
+    gndo1:preferredNameForThePerson "Reimering, Rebecca Sharon" .
+
+<https://d-nb.info/gnd/1017899789> a gndo1:UndifferentiatedPerson ;
+    wdrs:describedby <https://d-nb.info/gnd/1017899789/about> ;
+    gndo1:gndIdentifier "1017899789" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1017899789" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Patricia" ;
+            gndo1:surname "Tesch-Mertens" ] ;
+    gndo1:preferredNameForThePerson "Tesch-Mertens, Patricia" .
+
+<https://d-nb.info/gnd/1018690867> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://viaf.org/viaf/222799806> ;
+    wdrs:describedby <https://d-nb.info/gnd/1018690867/about> ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:gndIdentifier "1018690867" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1018690867" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Mechthild" ;
+            gndo1:surname "Scherf" ] ;
+    gndo1:preferredNameForThePerson "Scherf, Mechthild" ;
+    gndo1:professionOrOccupationAsLiteral "Realschullehrerin" .
+
+<https://d-nb.info/gnd/1019035404> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://viaf.org/viaf/226760513> ;
+    wdrs:describedby <https://d-nb.info/gnd/1019035404/about> ;
+    gndo1:dateOfBirth "[19XX]" ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#female> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo1:gndIdentifier "1019035404" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1019035404" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Julia" ;
+            gndo1:surname "Rains" ] ;
+    gndo1:preferredNameForThePerson "Rains, Julia" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4874302-1> ] ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "Julia Emmy" ;
+            gndo1:surname "Rains" ] ;
+    gndo1:variantNameForThePerson "Rains, Julia Emmy" .
+
+<https://d-nb.info/gnd/1019512962> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://viaf.org/viaf/232439829> ;
+    wdrs:describedby <https://d-nb.info/gnd/1019512962/about> ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo1:gndIdentifier "1019512962" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1019512962" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Dorothee" ;
+            gndo1:surname "Schaper" ] ;
+    gndo1:preferredNameForThePerson "Schaper, Dorothee" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4174000-2> ] .
+
+<https://d-nb.info/gnd/1019549831> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://viaf.org/viaf/232463954> ;
+    wdrs:describedby <https://d-nb.info/gnd/1019549831/about> ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo1:gndIdentifier "1019549831" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1019549831" ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Monika" ;
+            gndo1:surname "Lent-Öztürk" ] ;
+    gndo1:preferredNameForThePerson "Lent-Öztürk, Monika" ;
+    gndo1:professionOrOccupationAsLiteral "Synodalbeauftragte für das christlich-islamische Gespräch im Evangelischen Kirchenkreis Düsseldorf" ;
+    gndo1:variantNameEntityForThePerson [ gndo1:forename "Monika Lent-" ;
+            gndo1:surname "Öztürk" ] ;
+    gndo1:variantNameForThePerson "Öztürk, Monika Lent-" .
+
+<https://d-nb.info/gnd/1019954205> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/no2012037128>,
+        <http://viaf.org/viaf/231919878>,
+        <http://www.wikidata.org/entity/Q113783819>,
+        <https://isni.org/isni/0000000367682918> ;
+    wdrs:describedby <https://d-nb.info/gnd/1019954205/about> ;
+    gndo1:biographicalOrHistoricalInformation "Historiker des deutschen Judentums"@de ;
+    gndo1:dateOfBirth "1962-02-08"^^xsd:date ;
+    gndo1:dateOfDeath "1940-11-07"^^xsd:date ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo1:gndIdentifier "1019954205" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1019954205" ;
+    gndo1:placeOfActivity <https://d-nb.info/gnd/4029869-3> ;
+    gndo1:placeOfBirth <https://d-nb.info/gnd/4288223-0> ;
+    gndo1:placeOfDeath <https://d-nb.info/gnd/4018118-2> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Ludwig" ;
+            gndo1:surname "Horwitz" ] ;
+    gndo1:preferredNameForThePerson "Horwitz, Ludwig" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4138623-1> ;
+            rdf:_2 <https://d-nb.info/gnd/4163221-7> ;
+            rdf:_3 <https://d-nb.info/gnd/4025098-2> ] .
+
+<https://d-nb.info/gnd/1020268883> a gndo1:DifferentiatedPerson ;
+    owl:sameAs <http://viaf.org/viaf/231781798> ;
+    wdrs:describedby <https://d-nb.info/gnd/1020268883/about> ;
+    gndo1:biographicalOrHistoricalInformation "Arbeitete nach 6-jährigem Kriegsdienst nach 1945 als Gepäckarbeiter, Ladeschaffner und Lademeister bei der Deutschen Reichsbahn"@de ;
+    gndo1:dateOfBirth "1912"^^xsd:gYear ;
+    gndo1:dateOfDeath "2001-07-01"^^xsd:date ;
+    gndo1:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo1:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo1:gndIdentifier "1020268883" ;
+    gndo1:oldAuthorityNumber "(DE-588a)1020268883" ;
+    gndo1:placeOfActivity <https://d-nb.info/gnd/4036812-9> ;
+    gndo1:placeOfBirth <https://d-nb.info/gnd/4036812-9> ;
+    gndo1:preferredNameEntityForThePerson [ gndo1:forename "Willi" ;
+            gndo1:surname "Schmidt" ] ;
+    gndo1:preferredNameForThePerson "Schmidt, Willi" ;
+    gndo1:professionOrOccupation [ a rdf:Seq ;
+            rdf:_1 <https://d-nb.info/gnd/4313907-3> ;
+            rdf:_2 <https://d-nb.info/gnd/4120966-7> ] ;
+    gndo1:publication "Machern im Zeitgeschehen" .
+
+<http://data.judaicalink.org/data/nrwbib_djg/100373550> gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#3> ;
+    gndo:forename "Thomas" ;
+    gndo:gndIdentifier "100373550" ;
+    gndo:oldAuthorityNumber "(DE-588a)100373550" ;
+    gndo:personalName "T. M." ;
+    gndo:preferredNameEntityForThePerson "nf1d5e64a6a084403a73dc57bc4910b4cb2" ;
+    gndo:preferredNameForThePerson "Mayer, Thomas" ;
+    gndo:surname "Mayer" ;
+    gndo:variantNameEntityForThePerson "nf1d5e64a6a084403a73dc57bc4910b4cb1" ;
+    gndo:variantNameForThePerson "T. M." ;
+    dcterms:created "2024-05-17T10:10:22.154224"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/10076410X> gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#3> ;
+    gndo:forename "Johann",
+        "Thomas" ;
+    gndo:gndIdentifier "100373550",
+        "10076410X" ;
+    gndo:oldAuthorityNumber "(DE-588a)100373550",
+        "(DE-588a)10076410X" ;
+    gndo:personalName "T. M." ;
+    gndo:preferredNameEntityForThePerson "ndd183a2216e648bba501ba8a5f1602f9b1",
+        "nf1d5e64a6a084403a73dc57bc4910b4cb2" ;
+    gndo:preferredNameForThePerson "Mayer, Thomas",
+        "Schwarz, Johann" ;
+    gndo:publication "Schwarz, Johann: Pour le mérite",
+        "Schwarz, Johann: [Deutsche Tänze]",
+        "Schwarz, Matthäus: Was kann ein Schullehrer in seinem gesetzlichen Wirkungskreise ... - 1824" ;
+    gndo:surname "Mayer",
+        "Schwarz" ;
+    gndo:variantNameEntityForThePerson "nf1d5e64a6a084403a73dc57bc4910b4cb1" ;
+    gndo:variantNameForThePerson "T. M." ;
+    dcterms:created "2024-05-17T10:10:22.712537"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/100880363> gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#3> ;
+    gndo:forename "Iohannes W.",
+        "Johann",
+        "Johannes W.",
+        "Thomas" ;
+    gndo:gndIdentifier "100373550",
+        "10076410X",
+        "100880363" ;
+    gndo:oldAuthorityNumber "(DE-588a)100373550",
+        "(DE-588a)10076410X",
+        "(DE-588a)100880363" ;
+    gndo:personalName "T. M." ;
+    gndo:preferredNameEntityForThePerson "n5251ddc73f73413a8291bfdda1c1d152b2",
+        "ndd183a2216e648bba501ba8a5f1602f9b1",
+        "nf1d5e64a6a084403a73dc57bc4910b4cb2" ;
+    gndo:preferredNameForThePerson "Mayer, Thomas",
+        "Schmitz, Johannes W.",
+        "Schwarz, Johann" ;
+    gndo:publication "Schmitz, Johannes W.: Disputatio inauguralis iuridica de locatione conductione. - [1749?]",
+        "Schwarz, Johann: Pour le mérite",
+        "Schwarz, Johann: [Deutsche Tänze]",
+        "Schwarz, Matthäus: Was kann ein Schullehrer in seinem gesetzlichen Wirkungskreise ... - 1824" ;
+    gndo:surname "Mayer",
+        "Schmitz",
+        "Schwarz" ;
+    gndo:variantNameEntityForThePerson "n5251ddc73f73413a8291bfdda1c1d152b1",
+        "nf1d5e64a6a084403a73dc57bc4910b4cb1" ;
+    gndo:variantNameForThePerson "Schmitz, Iohannes W.",
+        "T. M." ;
+    dcterms:created "2024-05-17T10:10:23.325401"^^xsd:dateTime .
+
+<http://data.judaicalink.org/data/nrwbib_djg/100969984> gndo:biographicalOrHistoricalInformation "Rabbiner und Dichter" ;
+    gndo:dateOfBirth "1132" ;
+    gndo:dateOfDeath "1221" ;
+    gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1>,
+        <https://d-nb.info/standards/vocab/gnd/description-level#3> ;
+    gndo:forename "Efrayim B.",
+        "Efrayim Ben-Yaʿaqov",
+        "Ephraim",
+        "Iohannes W.",
+        "Johann",
+        "Johannes W.",
+        "Thomas" ;
+    gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male> ;
+    gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo:gndIdentifier "100373550",
+        "10076410X",
+        "100880363",
+        "100969984" ;
+    gndo:nameAddition "Bonn",
+        "aus Bonn",
+        "mi-Bona",
+        "of Bonn",
+        "von Bonn" ;
+    gndo:oldAuthorityNumber "(DE-588)1089177933",
+        "(DE-588)1147213402",
+        "(DE-588a)100373550",
+        "(DE-588a)10076410X",
+        "(DE-588a)100880363",
+        "(DE-588a)100969984" ;
+    gndo:personalName "Efraim Ben-Ja'aqob",
+        "Efraim ben Jakob ben Kalonymos",
+        "Efrajim ben Jaʿaqōb mib-Bōnā",
+        "Efrayim Ben-Yaʿaqov",
+        "Efrayim b.R. Yaʿaq¯ov",
+        "Efrayim ben Yaʿaḳov",
+        "Efrayim ben Yaʿăqōv mib-Bônâ",
+        "Ephraem",
+        "Ephraem Ben Jakob",
+        "Ephraim",
+        "Ephraim Bar-Jacob",
+        "Ephraim Ben Jakob",
+        "Ephraim ben Jacob",
+        "T. M." ;
+    gndo:preferredNameEntityForThePerson "n5251ddc73f73413a8291bfdda1c1d152b2",
+        "ndd183a2216e648bba501ba8a5f1602f9b1",
+        "nf1d5e64a6a084403a73dc57bc4910b4cb2",
+        "nf324de0f3c7d42ab820256a07e069b73b19" ;
+    gndo:preferredNameForThePerson "Efrayim Ben-Yaʿaqov",
+        "Mayer, Thomas",
+        "Schmitz, Johannes W.",
+        "Schwarz, Johann" ;
+    gndo:prefix "von" ;
+    gndo:professionOrOccupation "nf324de0f3c7d42ab820256a07e069b73b20" ;
+    gndo:publication "Schmitz, Johannes W.: Disputatio inauguralis iuridica de locatione conductione. - [1749?]",
+        "Schwarz, Johann: Pour le mérite",
+        "Schwarz, Johann: [Deutsche Tänze]",
+        "Schwarz, Matthäus: Was kann ein Schullehrer in seinem gesetzlichen Wirkungskreise ... - 1824" ;
+    gndo:surname "Ben-Jacob",
+        "Bonn",
+        "Mayer",
+        "Schmitz",
+        "Schwarz" ;
+    gndo:variantNameEntityForThePerson "n5251ddc73f73413a8291bfdda1c1d152b1",
+        "nf1d5e64a6a084403a73dc57bc4910b4cb1",
+        "nf324de0f3c7d42ab820256a07e069b73b1",
+        "nf324de0f3c7d42ab820256a07e069b73b10",
+        "nf324de0f3c7d42ab820256a07e069b73b11",
+        "nf324de0f3c7d42ab820256a07e069b73b12",
+        "nf324de0f3c7d42ab820256a07e069b73b13",
+        "nf324de0f3c7d42ab820256a07e069b73b14",
+        "nf324de0f3c7d42ab820256a07e069b73b15",
+        "nf324de0f3c7d42ab820256a07e069b73b16",
+        "nf324de0f3c7d42ab820256a07e069b73b17",
+        "nf324de0f3c7d42ab820256a07e069b73b18",
+        "nf324de0f3c7d42ab820256a07e069b73b2",
+        "nf324de0f3c7d42ab820256a07e069b73b3",
+        "nf324de0f3c7d42ab820256a07e069b73b4",
+        "nf324de0f3c7d42ab820256a07e069b73b5",
+        "nf324de0f3c7d42ab820256a07e069b73b6",
+        "nf324de0f3c7d42ab820256a07e069b73b7",
+        "nf324de0f3c7d42ab820256a07e069b73b8",
+        "nf324de0f3c7d42ab820256a07e069b73b9" ;
+    gndo:variantNameForThePerson "Ben-Jacob, Ephraim",
+        "Bonn, Efrayim B.",
+        "Bonn, Efrayim Ben-Yaʿaqov",
+        "Bonn, Ephraim von",
+        "Efraim Ben-Ja'aqob",
+        "Efraim ben Jakob ben Kalonymos, aus Bonn",
+        "Efrajim ben Jaʿaqōb mib-Bōnā",
+        "Efrayim Ben-Yaʿaqov, Bonn",
+        "Efrayim b.R. Yaʿaq¯ov",
+        "Efrayim ben Yaʿaḳov, mi-Bona",
+        "Efrayim ben Yaʿăqōv mib-Bônâ",
+        "Ephraem Ben Jakob, aus Bonn",
+        "Ephraem, von Bonn",
+        "Ephraim Bar-Jacob, von Bonn",
+        "Ephraim Ben Jakob, aus Bonn",
+        "Ephraim ben Jacob, of Bonn",
+        "Ephraim, aus Bonn",
+        "Ephraim, von Bonn",
+        "Schmitz, Iohannes W.",
+        "T. M." ;
+    dcterms:created "2024-05-17T10:10:24.027019"^^xsd:dateTime ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/n93062627>,
+        <http://viaf.org/viaf/22494885>,
+        <http://www.wikidata.org/entity/Q457200>,
+        <https://d-nb.info/gnd/1089177933>,
+        <https://d-nb.info/gnd/1147213402>,
+        <https://dbpedia.org/resource/Ephraim_of_Bonn>,
+        <https://isni.org/isni/0000000117507439> .
+
+<http://data.judaicalink.org/data/nrwbib_djg/1011477629> gndo:biographicalOrHistoricalInformation "Rabbiner und Dichter" ;
+    gndo:dateOfBirth "1132" ;
+    gndo:dateOfDeath "1221" ;
+    gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1>,
+        <https://d-nb.info/standards/vocab/gnd/description-level#3> ;
+    gndo:forename "Efrayim B.",
+        "Efrayim Ben-Yaʿaqov",
+        "Ephraim",
+        "Heinz",
+        "Iohannes W.",
+        "Johann",
+        "Johannes W.",
+        "Thomas",
+        "Vilchelm",
+        "Vilhelm",
+        "Wilhelm" ;
+    gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male> ;
+    gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    gndo:gndIdentifier "100373550",
+        "10076410X",
+        "100880363",
+        "100969984",
+        "101140614",
+        "1011477629" ;
+    gndo:nameAddition "Bonn",
+        "aus Bonn",
+        "mi-Bona",
+        "of Bonn",
+        "von Bonn" ;
+    gndo:oldAuthorityNumber "(DE-588)1089177933",
+        "(DE-588)1147213402",
+        "(DE-588a)100373550",
+        "(DE-588a)10076410X",
+        "(DE-588a)100880363",
+        "(DE-588a)100969984",
+        "(DE-588a)101140614",
+        "(DE-588a)1011477629" ;
+    gndo:personalName "Efraim Ben-Ja'aqob",
+        "Efraim ben Jakob ben Kalonymos",
+        "Efrajim ben Jaʿaqōb mib-Bōnā",
+        "Efrayim Ben-Yaʿaqov",
+        "Efrayim b.R. Yaʿaq¯ov",
+        "Efrayim ben Yaʿaḳov",
+        "Efrayim ben Yaʿăqōv mib-Bônâ",
+        "Ephraem",
+        "Ephraem Ben Jakob",
+        "Ephraim",
+        "Ephraim Bar-Jacob",
+        "Ephraim Ben Jakob",
+        "Ephraim ben Jacob",
+        "T. M." ;
+    gndo:preferredNameEntityForThePerson "n5251ddc73f73413a8291bfdda1c1d152b2",
+        "n58805794aeaf4fdc9746e7c920fb5abab3",
+        "naafc2fe23a964bbe8bf34036585d2449b1",
+        "ndd183a2216e648bba501ba8a5f1602f9b1",
+        "nf1d5e64a6a084403a73dc57bc4910b4cb2",
+        "nf324de0f3c7d42ab820256a07e069b73b19" ;
+    gndo:preferredNameForThePerson "Efrayim Ben-Yaʿaqov",
+        "Gellhaus, Heinz",
+        "Jensen, Wilhelm",
+        "Mayer, Thomas",
+        "Schmitz, Johannes W.",
+        "Schwarz, Johann" ;
+    gndo:prefix "von" ;
+    gndo:professionOrOccupation "nf324de0f3c7d42ab820256a07e069b73b20" ;
+    gndo:publication "Jensen, Wilhelm: Das Erbtheil des Blutes. - 1869",
+        "Jensen, Wilhelm: Der Gesell des Meisters Mathias. - 1869",
+        "Schmitz, Johannes W.: Disputatio inauguralis iuridica de locatione conductione. - [1749?]",
+        "Schwarz, Johann: Pour le mérite",
+        "Schwarz, Johann: [Deutsche Tänze]",
+        "Schwarz, Matthäus: Was kann ein Schullehrer in seinem gesetzlichen Wirkungskreise ... - 1824" ;
+    gndo:surname "Ben-Jacob",
+        "Bonn",
+        "Gellhaus",
+        "Jensen",
+        "Mayer",
+        "Schmitz",
+        "Schwarz" ;
+    gndo:variantNameEntityForThePerson "n5251ddc73f73413a8291bfdda1c1d152b1",
+        "n58805794aeaf4fdc9746e7c920fb5abab1",
+        "n58805794aeaf4fdc9746e7c920fb5abab2",
+        "nf1d5e64a6a084403a73dc57bc4910b4cb1",
+        "nf324de0f3c7d42ab820256a07e069b73b1",
+        "nf324de0f3c7d42ab820256a07e069b73b10",
+        "nf324de0f3c7d42ab820256a07e069b73b11",
+        "nf324de0f3c7d42ab820256a07e069b73b12",
+        "nf324de0f3c7d42ab820256a07e069b73b13",
+        "nf324de0f3c7d42ab820256a07e069b73b14",
+        "nf324de0f3c7d42ab820256a07e069b73b15",
+        "nf324de0f3c7d42ab820256a07e069b73b16",
+        "nf324de0f3c7d42ab820256a07e069b73b17",
+        "nf324de0f3c7d42ab820256a07e069b73b18",
+        "nf324de0f3c7d42ab820256a07e069b73b2",
+        "nf324de0f3c7d42ab820256a07e069b73b3",
+        "nf324de0f3c7d42ab820256a07e069b73b4",
+        "nf324de0f3c7d42ab820256a07e069b73b5",
+        "nf324de0f3c7d42ab820256a07e069b73b6",
+        "nf324de0f3c7d42ab820256a07e069b73b7",
+        "nf324de0f3c7d42ab820256a07e069b73b8",
+        "nf324de0f3c7d42ab820256a07e069b73b9" ;
+    gndo:variantNameForThePerson "Ben-Jacob, Ephraim",
+        "Bonn, Efrayim B.",
+        "Bonn, Efrayim Ben-Yaʿaqov",
+        "Bonn, Ephraim von",
+        "Efraim Ben-Ja'aqob",
+        "Efraim ben Jakob ben Kalonymos, aus Bonn",
+        "Efrajim ben Jaʿaqōb mib-Bōnā",
+        "Efrayim Ben-Yaʿaqov, Bonn",
+        "Efrayim b.R. Yaʿaq¯ov",
+        "Efrayim ben Yaʿaḳov, mi-Bona",
+        "Efrayim ben Yaʿăqōv mib-Bônâ",
+        "Ephraem Ben Jakob, aus Bonn",
+        "Ephraem, von Bonn",
+        "Ephraim Bar-Jacob, von Bonn",
+        "Ephraim Ben Jakob, aus Bonn",
+        "Ephraim ben Jacob, of Bonn",
+        "Ephraim, aus Bonn",
+        "Ephraim, von Bonn",
+        "Jensen, Vilchelm",
+        "Jensen, Vilhelm",
+        "Schmitz, Iohannes W.",
+        "T. M." ;
+    dcterms:created "2024-05-17T10:10:29.338683"^^xsd:dateTime ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/n93062627>,
+        <http://viaf.org/viaf/22494885>,
+        <http://www.wikidata.org/entity/Q457200>,
+        <https://d-nb.info/gnd/1089177933>,
+        <https://d-nb.info/gnd/1147213402>,
+        <https://dbpedia.org/resource/Ephraim_of_Bonn>,
+        <https://isni.org/isni/0000000117507439> .
+
+<http://data.judaicalink.org/data/nrwbib_djg/1011809095> gndo:biographicalOrHistoricalInformation "Jüdischer Flüchtling, Britischer Soldat im 2. Weltkrieg; später Auswanderung in die USA",
+        "Rabbiner und Dichter",
+        "rumän. Theaterkritiker und Essayist, ab 1985 in Deutschland, ab 1988 Dozent am Institut für Theater-, Film und Fernsehwissenschaft der Ruhr-Universität Bochum" ;
+    gndo:dateOfBirth "1132",
+        "1830",
+        "1922-04-27",
+        "1931" ;
+    gndo:dateOfDeath "1221",
+        "1875",
+        "2010" ;
+    gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1>,
+        <https://d-nb.info/standards/vocab/gnd/description-level#3> ;
+    gndo:familialRelationship <http://data.judaicalink.org/data/nrwbib_djg/12321419X> ;
+    gndo:forename "Andrei",
+        "Avram Andrei",
+        "Efrayim B.",
+        "Efrayim Ben-Yaʿaqov",
+        "Ephraim",
+        "Friederike",
+        "Heinz",
+        "Helmtrud",
+        "Iohannes W.",
+        "Israel",
+        "J.",
+        "Johann",
+        "Johannes W.",
+        "Manfred",
+        "Thomas",
+        "Vilchelm",
+        "Vilhelm",
+        "Wilhelm",
+        "Yiśraʾel" ;
+    gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>,
+        <https://d-nb.info/standards/vocab/gnd/gender#notKnown> ;
+    gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>,
+        <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-RO>,
+        <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XD-US> ;
+    gndo:gndIdentifier "100373550",
+        "10076410X",
+        "100880363",
+        "100969984",
+        "101140614",
+        "1011477629",
+        "1011480352",
+        "1011578166",
+        "1011624966",
+        "1011704633",
+        "1011809095" ;
+    gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p> ;
+    gndo:nameAddition "Bonn",
+        "aus Bonn",
+        "mi-Bona",
+        "of Bonn",
+        "von Bonn" ;
+    gndo:oldAuthorityNumber "(DE-588)1089177933",
+        "(DE-588)1090680864",
+        "(DE-588)1147213402",
+        "(DE-588a)100373550",
+        "(DE-588a)10076410X",
+        "(DE-588a)100880363",
+        "(DE-588a)100969984",
+        "(DE-588a)101140614",
+        "(DE-588a)1011477629",
+        "(DE-588a)1011480352",
+        "(DE-588a)1011578166",
+        "(DE-588a)1011624966",
+        "(DE-588a)1011704633",
+        "(DE-588a)1011809095" ;
+    gndo:personalName "Efraim Ben-Ja'aqob",
+        "Efraim ben Jakob ben Kalonymos",
+        "Efrajim ben Jaʿaqōb mib-Bōnā",
+        "Efrayim Ben-Yaʿaqov",
+        "Efrayim b.R. Yaʿaq¯ov",
+        "Efrayim ben Yaʿaḳov",
+        "Efrayim ben Yaʿăqōv mib-Bônâ",
+        "Ephraem",
+        "Ephraem Ben Jakob",
+        "Ephraim",
+        "Ephraim Bar-Jacob",
+        "Ephraim Ben Jakob",
+        "Ephraim ben Jacob",
+        "T. M." ;
+    gndo:placeOfBirth <http://data.judaicalink.org/data/nrwbib_djg/10078808-7>,
+        <http://data.judaicalink.org/data/nrwbib_djg/4007753-6>,
+        <http://data.judaicalink.org/data/nrwbib_djg/4008858-3> ;
+    gndo:placeOfDeath <http://data.judaicalink.org/data/nrwbib_djg/4031483-2>,
+        <http://data.judaicalink.org/data/nrwbib_djg/4042011-5> ;
+    gndo:preferredNameEntityForThePerson "n3932d87505014001a221abbe89036fd0b1",
+        "n4927ef1448bb4772b2a24c12e1ccdb6bb1",
+        "n5251ddc73f73413a8291bfdda1c1d152b2",
+        "n58805794aeaf4fdc9746e7c920fb5abab3",
+        "n65e72cc32631432c814932f19923ba8fb1",
+        "naafc2fe23a964bbe8bf34036585d2449b1",
+        "ncad39e6d8bd444699def2b8da2dc3448b3",
+        "nd43079a518e74c0eab09147bdddffe3cb2",
+        "ndd183a2216e648bba501ba8a5f1602f9b1",
+        "nf1d5e64a6a084403a73dc57bc4910b4cb2",
+        "nf324de0f3c7d42ab820256a07e069b73b19" ;
+    gndo:preferredNameForThePerson "Baleanu, Avram Andrei",
+        "Efrayim Ben-Yaʿaqov",
+        "Gans, Manfred",
+        "Gehrt, Helmtrud",
+        "Gellhaus, Heinz",
+        "Jensen, Wilhelm",
+        "Mayer, Thomas",
+        "Schir, Friederike",
+        "Schmitz, Johannes W.",
+        "Schwarz, Israel",
+        "Schwarz, Johann" ;
+    gndo:prefix "von" ;
+    gndo:professionOrOccupation "n4927ef1448bb4772b2a24c12e1ccdb6bb2",
+        "ncad39e6d8bd444699def2b8da2dc3448b4",
+        "nd43079a518e74c0eab09147bdddffe3cb3",
+        "nf324de0f3c7d42ab820256a07e069b73b20" ;
+    gndo:professionOrOccupationAsLiteral "Lehrerin" ;
+    gndo:pseudonym <http://data.judaicalink.org/data/nrwbib_djg/1161539999> ;
+    gndo:publication "Actorul în cǎutarea personajului",
+        "Arta transfigurării",
+        "Conţinut şi formă în artă",
+        "Jensen, Wilhelm: Das Erbtheil des Blutes. - 1869",
+        "Jensen, Wilhelm: Der Gesell des Meisters Mathias. - 1869",
+        "Realism şi metaforă în teatru",
+        "Schmitz, Johannes W.: Disputatio inauguralis iuridica de locatione conductione. - [1749?]",
+        "Schwarz, Johann: Pour le mérite",
+        "Schwarz, Johann: [Deutsche Tänze]",
+        "Schwarz, Joseph: Das heilige Land nach seiner ehemaligen und jetzigen geographischen Be*. - 1852",
+        "Schwarz, Matthäus: Was kann ein Schullehrer in seinem gesetzlichen Wirkungskreise ... - 1824",
+        "Tiqwat Änōš zä sēfär Ijōb han-nišqaf ʿl dibrat bnē ādām we-ʿal ḥūg šāmajim mi*. - 1868" ;
+    gndo:surname "Baleanu",
+        "Ben-Jacob",
+        "Bonn",
+        "Gans",
+        "Gehrt",
+        "Gellhaus",
+        "Jensen",
+        "Mayer",
+        "Schir",
+        "Schmitz",
+        "Schwarz",
+        "Shṿarts" ;
+    gndo:variantNameEntityForThePerson "n5251ddc73f73413a8291bfdda1c1d152b1",
+        "n58805794aeaf4fdc9746e7c920fb5abab1",
+        "n58805794aeaf4fdc9746e7c920fb5abab2",
+        "ncad39e6d8bd444699def2b8da2dc3448b1",
+        "ncad39e6d8bd444699def2b8da2dc3448b2",
+        "nd43079a518e74c0eab09147bdddffe3cb1",
+        "nf1d5e64a6a084403a73dc57bc4910b4cb1",
+        "nf324de0f3c7d42ab820256a07e069b73b1",
+        "nf324de0f3c7d42ab820256a07e069b73b10",
+        "nf324de0f3c7d42ab820256a07e069b73b11",
+        "nf324de0f3c7d42ab820256a07e069b73b12",
+        "nf324de0f3c7d42ab820256a07e069b73b13",
+        "nf324de0f3c7d42ab820256a07e069b73b14",
+        "nf324de0f3c7d42ab820256a07e069b73b15",
+        "nf324de0f3c7d42ab820256a07e069b73b16",
+        "nf324de0f3c7d42ab820256a07e069b73b17",
+        "nf324de0f3c7d42ab820256a07e069b73b18",
+        "nf324de0f3c7d42ab820256a07e069b73b2",
+        "nf324de0f3c7d42ab820256a07e069b73b3",
+        "nf324de0f3c7d42ab820256a07e069b73b4",
+        "nf324de0f3c7d42ab820256a07e069b73b5",
+        "nf324de0f3c7d42ab820256a07e069b73b6",
+        "nf324de0f3c7d42ab820256a07e069b73b7",
+        "nf324de0f3c7d42ab820256a07e069b73b8",
+        "nf324de0f3c7d42ab820256a07e069b73b9" ;
+    gndo:variantNameForThePerson "Baleanu, Andrei",
+        "Ben-Jacob, Ephraim",
+        "Bonn, Efrayim B.",
+        "Bonn, Efrayim Ben-Yaʿaqov",
+        "Bonn, Ephraim von",
+        "Efraim Ben-Ja'aqob",
+        "Efraim ben Jakob ben Kalonymos, aus Bonn",
+        "Efrajim ben Jaʿaqōb mib-Bōnā",
+        "Efrayim Ben-Yaʿaqov, Bonn",
+        "Efrayim b.R. Yaʿaq¯ov",
+        "Efrayim ben Yaʿaḳov, mi-Bona",
+        "Efrayim ben Yaʿăqōv mib-Bônâ",
+        "Ephraem Ben Jakob, aus Bonn",
+        "Ephraem, von Bonn",
+        "Ephraim Bar-Jacob, von Bonn",
+        "Ephraim Ben Jakob, aus Bonn",
+        "Ephraim ben Jacob, of Bonn",
+        "Ephraim, aus Bonn",
+        "Ephraim, von Bonn",
+        "Jensen, Vilchelm",
+        "Jensen, Vilhelm",
+        "Schmitz, Iohannes W.",
+        "Schwarz, J.",
+        "Shṿarts, Yiśraʾel",
+        "T. M." ;
+    dcterms:created "2024-05-17T10:11:15.500945"^^xsd:dateTime ;
+    owl:sameAs <http://id.loc.gov/rwo/agents/n2021039141>,
+        <http://id.loc.gov/rwo/agents/n82000695>,
+        <http://id.loc.gov/rwo/agents/n93062627>,
+        <http://id.loc.gov/rwo/agents/no2010197169>,
+        <http://viaf.org/viaf/160614083>,
+        <http://viaf.org/viaf/167005248>,
+        <http://viaf.org/viaf/170829097>,
+        <http://viaf.org/viaf/22494885>,
+        <http://viaf.org/viaf/72727182>,
+        <http://www.wikidata.org/entity/Q107568791>,
+        <http://www.wikidata.org/entity/Q109856603>,
+        <http://www.wikidata.org/entity/Q457200>,
+        <https://d-nb.info/gnd/1089177933>,
+        <https://d-nb.info/gnd/1090680864>,
+        <https://d-nb.info/gnd/1147213402>,
+        <https://dbpedia.org/resource/Ephraim_of_Bonn>,
+        <https://isni.org/isni/0000000067259245>,
+        <https://isni.org/isni/000000010817250X>,
+        <https://isni.org/isni/0000000117507439> .
+
+<http://data.judaicalink.org/data/nrwbib_djg/101256523>
