@@ -10,6 +10,7 @@ import requests
 import json
 # import unicodedata
 from rdflib.namespace import RDF, XSD
+from rdflib.term import URIRef
 from datetime import datetime
 from rdflib import Namespace, URIRef, Graph, Literal
 import re
