@@ -10,6 +10,8 @@ The bibliography compiled and constantly updated by Harald Lordick with its almo
 
 ## How does it work
 
+Script scrapes the data about works from http://www.steinheim-institut.de/ebib-djg-nrw/ using the GND ID of the authors and then enriches the author information via the GND.
+
 ## Scanning data
 
 Work-titles and additional information is scraped via BS and then connected to GND-Data from http://d-nb.info/gnd/{gndid}/about/lds
