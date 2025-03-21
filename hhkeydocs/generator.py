@@ -6,117 +6,107 @@ cd060@hdm-stuttgart.de
 # https://creativecommons.org/licenses/by-sa/4.0/
 """
 
-# IMPORTS
-
-# from http.client import _DataType
 import requests
 import json
-# import pprint
-from bs4 import BeautifulSoup
 import unicodedata
+import shutil
+import gzip
+import re
+from bs4 import BeautifulSoup
 from rdflib.namespace import RDF, XSD
 from datetime import datetime
 from rdflib import Namespace, URIRef, Graph, Literal
 from tqdm import tqdm
-import googletrans
-from googletrans import *
-import shutil
 
 file_name = 'hhkeydocs-final-01.ttl'
-working_path = "./"
 output_path = "/data/dumps/hhkeydocs/current/"
-
 graph = Graph()
 
-#get GND IDs from schluesseldokumente.net
+# NAMESPACES
+skos = Namespace("http://www.w3.org/2004/02/skos/core#")
+jl = Namespace("http://data.judaicalink.org/ontology/")
+foaf = Namespace("http://xmlns.com/foaf/0.1/")
+gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
+owl = Namespace("http://www.w3.org/2002/07/owl#")
+dc = Namespace("http://purl.org/dc/elements/1.1/")
+dcterms = Namespace("http://purl.org/dc/terms/")
+geo = Namespace("http://www.opengis.net/ont/geosparql#")
+
+graph.bind('skos', skos)
+graph.bind('foaf', foaf)
+graph.bind('jl', jl)
+graph.bind('gndo', gndo)
+graph.bind('owl', owl)
+graph.bind('dc', dc)
+graph.bind('dcterms', dcterms)
+graph.bind('geo', geo)
 
 ids = []
+org_ids = []
+place_ids = []
+professions = []
 
-def get_ids(url):
-    response1 = requests.get(url)
-    soup = BeautifulSoup(response1.content, 'html.parser')
-    soup = str(soup)
-    soup = soup.split('\n')
-    # ids = soup[4:]
-    for id in soup:
-        try:
-            id = int(id)
-            ids.append(id)
-        except:
-            pass
-            
-def get_viaf_id(gnd_id: str) -> str:
-    """
-    Get the VIAF ID for a given GND ID.
-    Args: gnd_id (str): GND ID of the entity.
-    Returns: str: VIAF ID of the entity.
-    """
-    
+# UTILS
+def sanitize_literal(text):
+    if not text:
+        return ""
+    text = re.sub(r'["\n\r]', '', text)
+    text = text.strip()
+    return text
+
+def clean_url_string(string):
+    string = unicodedata.normalize('NFKD', string).encode('ascii', 'ignore').decode()
+    return re.sub(r'[\'"<>|.,()\[\]{}?#-]', '', string).replace(' ', '_')
+
+def move_ttl_file(file_path):
     try:
-        request = requests.get(
-            "https://lobid.org/gnd/" + gnd_id + ".json"
-        )
-        request_json = request.json()
-        #print(json.dumps(request_json, indent=4))
-        for sameAs in request_json["sameAs"]:
-            if sameAs["collection"]["abbr"] == "VIAF":
-                #print("VIAF ID found for " + gnd_id + ".")
-                viaf_id = sameAs["id"]
-                return viaf_id
-            
-        #print("No VIAF ID found for " + gnd_id + ".")
-        return None
-    
-    except:
-        #print("No VIAF ID found for " + gnd_id + ".")
-        return None
-         
-            
-def move_ttl_file(file_name):
-    """
-    Move the ttl file to the correct folder.
-    returns: the path of the ttl file.
-    """
-    # move the ttl file to the correct folder
-    try:
-        shutil.move(file_name, output_path)
+        shutil.move(file_path, output_path)
+        print(f"File moved to {output_path}")
     except Exception as e:
         print("Could not move file. Error: ", e)
 
+def compress_ttl(file_path):
+    gz_file_path = file_path + ".gz"
+    with open(file_path, 'rb') as f_in, gzip.open(gz_file_path, 'wb') as f_out:
+        shutil.copyfileobj(f_in, f_out)
+    print(f"File {gz_file_path} compressed successfully.")
+    return gz_file_path
 
-def get_gnd_id(name: str, type: str) -> str:
-    """Get the GND ID for a given name and type.
-    Args:
-        name (str): Name of the entity.
-        type (str): Type of the entity.
-    Returns:
-        str: GND ID of the entity.
-    """
+def get_viaf_id(gnd_id: str) -> str:
     try:
-        request = requests.get(
-            "https://lobid.org/gnd/search?q=" + name + "&filter=type:" + type + "&format=json"
-        )
+        request = requests.get("https://lobid.org/gnd/" + gnd_id + ".json")
         request_json = request.json()
-        #print(json.dumps(request_json, indent=4))
-        gnd_id = request_json["member"][0]["gndIdentifier"]
-        
-        return gnd_id
+        for sameAs in request_json.get("sameAs", []):
+            if sameAs["collection"]["abbr"] == "VIAF":
+                return sameAs["id"]
     except:
-        return None                    
-            
-place_ids = []
+        return None
+
+# BEACON + SCRAPERS
+
+def get_ids(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    soup = str(soup).split('\n')
+    for id_line in soup:
+        try:
+            id_line = int(id_line)
+            ids.append(id_line)
+        except:
+            pass
+
+def get_org_ids(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    soup = str(soup).split('\n')
+    for id_line in soup:
+        try:
+            id_line = int(id_line)
+            org_ids.append(id_line)
+        except:
+            pass
 
 def get_place_ids(url):
-
-    """
-    Gets the Ids for Places from 'https://schluesseldokumente.net/ort'
-    Args: 
-        url(str): url (in this case 'https://schluesseldokumente.net/ort')
-    Returns:
-        str: string to request JSON-file via 'https://schluesseldokumente.net{string}.jsonld'
-
-    """
-
     html = requests.get(url)
     soup = BeautifulSoup(html.content, 'html.parser')
     list_items = soup.select('.list-unstyled li a')
@@ -124,316 +114,128 @@ def get_place_ids(url):
         for item in list_items:
             place_ids.append(item.get('href'))
     else:
-        print("ERROR: no links found")
-
-#get GND IDs of Organisations from schluesseldokumente.net
-
-org_ids = []
-
-def get_org_ids(url):
-    response1 = requests.get(url)
-    soup = BeautifulSoup(response1.content, 'html.parser')
-    soup = str(soup)
-    soup = soup.split('\n')
-    # ids = soup[4:]
-    for id in soup:
-        try:
-            id = int(id)
-            org_ids.append(id)
-        except:
-            pass
-
-
-def clean_url_string(string):
-    """
-    Clean the name of a person.
-    Args: 
-        str: string raw name
-    Returns: 
-        str:cleaned name.
-    """
-
-    string = string.strip()
-    string = string.replace('\'', '')
-    string = string.replace('"', '')
-    string = string.replace(',', '_')
-    string = string.replace('<<', '')
-    string = string.replace('>>', '')
-    string = string.replace('|', '_')
-    string = string.replace(' ', '')
-    string = string.replace('<', '_')
-    string = string.replace('>', '_')
-    string = string.replace('.', '')
-    string = string.replace('[', '')
-    string = string.replace(']', '')
-    string = string.replace('(', '')
-    string = string.replace(')', '')
-    string = string.replace('{', '')
-    string = string.replace('}', '')
-    string = string.replace('#', '')
-    string = string.replace('-', '')
-    string = string.replace('?', '')
-    string = string.replace("'", "")
-
-    string =  unicodedata.normalize('NFKD', string).encode('ascii', 'ignore')
-    return string
-
-
-# Create list of professions
-
-professions = []
+        print("ERROR: no links found in place list")
 
 def get_professions_from_WD():
-
-    """
-    Generates a list of professions from entries in wikidata, to identify occupations in descriptions of a person dataset
-    Args: 
-        sparql_query (str): sparqul-query to retrive all proffessions (Q28640) in wikidata
-        url (str): url for wikidata-query-service
-        headers (str): headers for http-request
-        newitems (list): list for extra desiganations for occupations (not listet in wikidata)
-    Returns
-        professions (list): list of occupations
-
-    """
     sparql_query = """
     SELECT ?profession ?professionLabel
     WHERE {
       ?profession wdt:P31 wd:Q28640;
                  rdfs:label ?professionLabel.
-    
       FILTER(LANG(?professionLabel) = "de")
     }
     ORDER BY ?professionLabel
     """
-    
     url = "https://query.wikidata.org/sparql"
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0",
+        "User-Agent": "Mozilla/5.0",
         "Accept": "application/json",
     }
     params = {"query": sparql_query, "format": "json"}
     response = requests.get(url, headers=headers, params=params)
     data = response.json()
-    newitems = ['Talmud-Gelehrter', ]
-    
+    extra = ['Talmud-Gelehrter']
     for item in data["results"]["bindings"]:
         professions.append(item["professionLabel"]["value"])
-    professions.append(newitems)
+    professions.extend(extra)
 
-def occupation_to_en(text):
-
-    """
-    translates text (occupation) into english via googletrans-api
-    Args:
-        text (str): text (occupation) to be translated
-    Returns:
-        str: translated text
-
-    """    
-    translator = googletrans.Translator()
-    translation = translator.translate(text, dest='en')
-    return translation.text
-
+# FULL GRAPH GENERATOR
 def create_graph():
-    skos = Namespace("http://www.w3.org/2004/02/skos/core#")
-    jl = Namespace("http://data.judaicalink.org/ontology/")
-    foaf = Namespace("http://xmlns.com/foaf/0.1/")
-    gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
-    owl = Namespace("http://www.w3.org/2002/07/owl#")
-    edm = Namespace("http://www.europeana.eu/schemas/edm/")
-    dc = Namespace("http://purl.org/dc/elements/1.1/")
-    dcterms = Namespace("http://purl.org/dc/terms/")
-    geo = Namespace("http://www.opengis.net/ont/geosparql#")
-
-
-    graph.bind('skos', skos)
-    graph.bind('foaf', foaf)
-    graph.bind('jl', jl)
-    graph.bind('gndo', gndo)
-    graph.bind('owl', owl)
-    graph.bind('edm', edm)
-    graph.bind('dc', dc)
-    graph.bind('dcterms', dcterms)
-    graph.bind('geo', geo)
-    
-# Places  
-    place_uris = []
-    for id in tqdm(place_ids):                                                      #get place-JSON
+    # --------- PLACES ---------
+    for id in tqdm(place_ids):
         place_url = f'https://schluesseldokumente.net{id}.jsonld'
         place_response = requests.get(place_url)
         if place_response.status_code == 200:
-            if place_response.text:                                                           # test any if data is loaded
-                try: 
-                    data = json.loads(place_response.text)
-                    clean_name = clean_url_string(data['name'])
-                    clean_name = clean_name.decode('utf-8')
-                    clean_name = clean_name
-                    name = str(data['name'])
-                    name = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore')
-                    name = name.decode('utf-8')
-                    gndID = get_gnd_id(name, "PlaceOrGeographicName")  
-                    uri = URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{clean_name}")
-                    if gndID is not None:      
-                        graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(gndID))))
-                    graph.add((URIRef(uri), jl.describedAt, (Literal(f"https://schluesseldokumente.net{id}.jsonld", datatype = XSD.anyURI))))
-                    graph.add((URIRef(uri), RDF.type, gndo.PlaceOrGeographicName))   
-                    graph.add((URIRef(uri), foaf.name, (Literal(name, datatype = XSD.string))))
-                    graph.add((URIRef(uri), skos.prefLabel, (Literal(name, datatype = XSD.string))))
-                    
-                    try:
-                        lat = data['geo']['latitude']
-                        long = data['geo']['longitude']
-                        longlat = f'"Point ( +{long} +{lat})' 
-                        graph.add((URIRef(uri), geo.asWKT, (Literal(longlat))))  #  "Point ( +006.083333 +050.776388 )"
-                    except:
-                        pass
-                    
-                    graph.add((URIRef(uri), gndo.hierarchicalSuperiorOfPlaceOrGeographicName, (Literal(data['containedInPlace']['name']))))
-                     
-                except json.JSONDecodeError as e:
-                    print(f"Fehler beim Laden von JSON: {e}")
+            data = json.loads(place_response.text)
+            clean_name = clean_url_string(data['name'])
+            uri = URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{clean_name}")
+            graph.add((uri, RDF.type, gndo.PlaceOrGeographicName))
+            graph.add((uri, foaf.name, Literal(data['name'])))
+            graph.add((uri, skos.prefLabel, Literal(data['name'])))
+            graph.add((uri, jl.describedAt, URIRef(place_url)))
+            if data.get('geo'):
+                lat = data['geo'].get('latitude')
+                long = data['geo'].get('longitude')
+                if lat and long:
+                    graph.add((uri, geo.asWKT, Literal(f"Point ( +{long} +{lat})")))
+            if 'containedInPlace' in data:
+                graph.add((uri, gndo.hierarchicalSuperiorOfPlaceOrGeographicName, Literal(data['containedInPlace']['name'])))
             graph.serialize(destination=file_name, format="turtle")
-        else:
-            print('ERROR' + response2.status_code)  
-    
-            
-# Persons    
+
+    # --------- PERSONS ---------
     for id in tqdm(ids):
-        gndId = id
-       
-        url2 = f'https://schluesseldokumente.net/person/gnd/{gndId}.jsonld'              # get JSON-files by by GND-ID from schluesseldokumente.net
+        gndId = str(id)
+        url2 = f'https://schluesseldokumente.net/person/gnd/{gndId}.jsonld'
         response2 = requests.get(url2)
         if response2.status_code == 200:
-            if response2.text:                                                           # test any if data is loaded
-                try: 
-                    data = json.loads(response2.text)
-                    clean_name = clean_url_string(data['name'])
-                    clean_name = clean_name.decode('utf-8')
-                    clean_name = str(clean_name)
-                    name = str(data['name'])
-                    name =unicodedata.normalize('NFKD', name).encode('ascii', 'ignore')
-                    name = name.decode('utf-8')
-                    uri = URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{clean_name}")                                                        
-                    graph.add((URIRef(uri), RDF.type, foaf.Person))                       # add name + id
-                    graph.add((URIRef(uri), jl.describedAt, (URIRef(f"https://schluesseldokumente.net/person/gnd/{gndId}.jsonld"))))
-                    graph.add((URIRef(uri), foaf.name, (Literal(name, datatype = XSD.string)))) 
-                    graph.add((URIRef(uri), skos.prefLabel, (Literal(name, datatype = XSD.string))))
-                    graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(id))))
-                    viaf = get_viaf_id(gndId)
-                    if viaf is not None:
-                        graph.add((URIRef(uri), owl.sameAs, (Literal(viaf, datatype = XSD.decimal))))
-                    if 'birthDate' in data:
-                        try:                                                              #clean and add birthdate
-                            birth_date = data['birthDate']
-                            if birth_date is not None:
-                                birth_date = str(birth_date)
-                                try:
-                                    birth_date = datetime.strptime(birth_date, '%Y-%m-%d').date()
-                                except:
-                                    pass 
-                                graph.add((URIRef(uri), jl.birthDate, (Literal(birth_date)))) 
-                            else:
-                                print(countterId, 'ERROR1 Birthdate der ID: ', id, name, 'ist vom Typ ', type(birth_date),birth_date)
-                        except:
-                            print(countterId, 'ERROR2 Birthdate der ID: ', id, name, 'ist vom Typ ', type(birth_date),birth_date)
-                    if 'deathDate' in data:                                                 #clean and add deathdate
-                        try:
-                            death_date = data['deathDate']
-                            if death_date is not None:
-                                death_date = str(death_date)
-                                try:
-                                    death_date = datetime.strptime(death_date, '%Y-%m-%d').date()
-                                except:
-                                    pass
-                                graph.add((URIRef(uri), jl.deathDate, (Literal(death_date))))
-                            else:
-                                print(countterId, 'ERROR1 Deathdate der ID: ', id, name, 'ist vom Typ ', type(death_date),death_date)
-                        except:
-                            print(countterId, 'ERROR2 Deathdate der ID: ', id, name, 'ist vom Typ ', type(death_date),death_date)
-                    birth_place_name = data.get('birthPlace', {}).get('name')
-                    if birth_place_name is not None:                                       #clean and add birthplace
-                        graph.add((URIRef(uri), jl.birthLocation, (Literal(birth_place_name, datatype = XSD.string))))
-                        birth_place_name = clean_url_string(str(birth_place_name))
-                        birth_place_name = birth_place_name.decode('utf-8')
-                        birth_place_uri = URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{birth_place_name}")
-                        graph.add((URIRef(uri), jl.birthLocation, birth_place_uri))    
-                    death_place_name = data.get('deathPlace', {}).get('name')
-                    if death_place_name is not None:                                        #clean and add deathdate
-                        graph.add((URIRef(uri), jl.deathLocation, (Literal(death_place_name, datatype = XSD.string))))  
-                        death_place_name = clean_url_string(str(death_place_name))
-                        death_place_name = death_place_name.decode('utf-8')
-                        death_place_uri = URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{death_place_name}")
-                        graph.add((URIRef(uri), jl.deathLocation, death_place_uri))     
-                    graph.add((URIRef(uri), dcterms.created, (Literal(datetime.now()))))
-                    if 'description' in data:                                               #find and add occupations
-                        description = data['description']
-                        graph.add((URIRef(uri), jl.hasAbstract, (Literal(description))))
-                        description = description.replace('.', '')
-                        description = description.replace(',', '')
-                        description = description.split(' ')
-                        for d in description:
-                            if d in professions:
-                                dtrans = occupation_to_en(d)
-                                graph.add((URIRef(uri), jl.occupation, (Literal(d))))     
-                                graph.add((URIRef(uri), jl.occupation, (Literal(dtrans))))              
-                except json.JSONDecodeError as e:
-                    print(f"Fehler beim Laden von JSON: {e}")
+            data = json.loads(response2.text)
+            clean_name = clean_url_string(data['name'])
+            uri = URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{clean_name}")
+            graph.add((uri, RDF.type, foaf.Person))
+            graph.add((uri, jl.describedAt, URIRef(url2)))
+            graph.add((uri, foaf.name, Literal(data['name'])))
+            graph.add((uri, skos.prefLabel, Literal(data['name'])))
+            graph.add((uri, gndo.gndIdentifier, Literal(gndId)))
 
+            viaf = get_viaf_id(gndId)
+            if viaf:
+                graph.add((uri, owl.sameAs, URIRef(f'https://viaf.org/viaf/{viaf}/')))
+
+            if 'birthDate' in data:
+                graph.add((uri, jl.birthDate, Literal(data['birthDate'])))
+            if 'deathDate' in data:
+                graph.add((uri, jl.deathDate, Literal(data['deathDate'])))
+
+            birth_place = data.get('birthPlace', {}).get('name')
+            if birth_place:
+                birth_clean = clean_url_string(birth_place)
+                graph.add((uri, jl.birthLocation, URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{birth_clean}")))
+
+            death_place = data.get('deathPlace', {}).get('name')
+            if death_place:
+                death_clean = clean_url_string(death_place)
+                graph.add((uri, jl.deathLocation, URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{death_clean}")))
+
+            graph.add((uri, dcterms.created, Literal(datetime.now())))
+
+            if 'description' in data:
+                description = sanitize_literal(data['description'])
+                graph.add((uri, jl.hasAbstract, Literal(description)))
             graph.serialize(destination=file_name, format="turtle")
-        else:
-            print('ERROR' + response2.status_code)
 
-# Organisations
+    # --------- ORGANISATIONS ---------
     for id in tqdm(org_ids):
-        orgID = id
-        org_url = f'https://schluesseldokumente.net/organisation/gnd/{orgID}.jsonld'             
+        orgID = str(id)
+        org_url = f'https://schluesseldokumente.net/organisation/gnd/{orgID}.jsonld'
         response3 = requests.get(org_url)
         if response3.status_code == 200:
-            if response3.text:                                                          
-                try: 
-                    data = json.loads(response3.text)
-                    clean_name = clean_url_string(data['name'])
-                    clean_name = clean_name.decode('utf-8')
-                    clean_name = str(clean_name)
-                    name = str(data['name'])
-                    name =unicodedata.normalize('NFKD', name).encode('ascii', 'ignore')
-                    name = name.decode('utf-8')
-                    uri = URIRef(f"http://data.judaicalink.org/data/HHSdocs/{clean_name}")
-                    graph.add((URIRef(uri), jl.describedAt, (URIRef(f"https://schluesseldokumente.net/organisation/gnd/{orgID}.jsonld"))))
-                    graph.add((URIRef(uri), RDF.type, foaf.Organisation))               
-                    graph.add((URIRef(uri), foaf.name, (Literal(name, datatype = XSD.string))))
-                    graph.add((URIRef(uri), skos.prefLabel, (Literal(name, datatype = XSD.string))))
-                    graph.add((URIRef(uri), gndo.gndIdentifier, (Literal(orgID)))) 
-                    if 'foundingDate' in data:
-                        est = data['foundingDate']
-                        graph.add((URIRef(uri), gndo.dateOfEstablishment, (Literal(est))))
-                    if 'description' in data:                                              
-                        description = data['description']
-                        graph.add((URIRef(uri), jl.hasAbstract, (Literal(description, datatype = XSD.string))))
-                    if 'url' in data:                                              
-                        hp = data['url']
-                        graph.add((URIRef(uri), foaf.homepage, (Literal(hp))))
-                    if 'dissolutionDate' in data:                                              
-                        dis = data['dissolutionDate']
-                        graph.add((URIRef(uri), gndo.dateOfTermination, (Literal(dis))))
-                    
-                   
+            data = json.loads(response3.text)
+            clean_name = clean_url_string(data['name'])
+            uri = URIRef(f"http://data.judaicalink.org/data/hhkeydocs/{clean_name}")
+            graph.add((uri, RDF.type, foaf.Organization))
+            graph.add((uri, jl.describedAt, URIRef(org_url)))
+            graph.add((uri, foaf.name, Literal(data['name'])))
+            graph.add((uri, skos.prefLabel, Literal(data['name'])))
+            graph.add((uri, gndo.gndIdentifier, Literal(orgID)))
 
-                
-                except json.JSONDecodeError as e:
-                    print(f"Fehler beim Laden von JSON: {e}")
-
-   
+            if 'foundingDate' in data:
+                graph.add((uri, gndo.dateOfEstablishment, Literal(data['foundingDate'])))
+            if 'dissolutionDate' in data:
+                graph.add((uri, gndo.dateOfTermination, Literal(data['dissolutionDate'])))
+            if 'description' in data:
+                graph.add((uri, jl.hasAbstract, Literal(sanitize_literal(data['description']))))
+            if 'url' in data:
+                graph.add((uri, foaf.homepage, URIRef(data['url'])))
             graph.serialize(destination=file_name, format="turtle")
-        else:
-            print('ERROR' + response2.status_code)  
 
-    print('graph created')
-    
+    print('Graph created successfully!')
+
+# FINAL EXECUTION BLOCK:
 get_place_ids('https://schluesseldokumente.net/ort')
 get_ids('https://schluesseldokumente.net/person/gnd/beacon')
 get_org_ids('https://schluesseldokumente.net/organisation/gnd/beacon')
 get_professions_from_WD()
+
 create_graph()
-move_ttl_file(file_name + '.gz')
+gz_file = compress_ttl(file_name)
+move_ttl_file(gz_file)
