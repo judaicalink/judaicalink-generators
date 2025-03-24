@@ -39,11 +39,11 @@ sparql.setQuery("""
 
 
 
-Select ?x ?y ?z
+SELECT ?x ?y ?z
 
-where{
+WHERE {
 
-  GRAPH <http://maral.wisslab.org/graphs/haskala> {
+  GRAPH <http://data.judaicalink.org/data/haskala> {
 
     ?x ?y ?z
 

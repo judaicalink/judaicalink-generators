@@ -71,7 +71,8 @@ for row in data:
     graph.add((URIRef(uri), jl.birthLocation,(Literal(pb)) ))
     graph.add((URIRef(uri), jl.deathDate,(Literal(dd)) ))
     graph.add((URIRef(uri), jl.deathLocation,(Literal(pd)) ))
-    graph.add((URIRef(uri), jl.Occupation,(Literal(occ)) ))
+    for occupation in occ.split(','):
+        graph.add((URIRef(uri), jl.Occupation,(Literal(occupation)) ))
 
 
 graph.serialize(destination='Haskala_net.ttl', format="turtle")
