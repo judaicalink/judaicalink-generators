@@ -12,7 +12,7 @@ import os , glob
 import csv
 import re
 
-os.chdir('C:\\Users\\Maral\\Desktop')
+os.chdir('../output')
 
 graph = Graph()
 graphex = Graph()
@@ -42,7 +42,7 @@ graphex.bind ('owl' , owl)
 graphex.bind('edm',edm)
 graphex.bind('dc',dc)
 
-data = csv.reader(open('C:\\Users\\Maral\\Desktop\\haskalanet_01.csv'))
+data = csv.reader(open('../input/haskalanet_01.csv', 'r', encoding='iso-8859-15'), delimiter=',')
 
 for row in data:
 

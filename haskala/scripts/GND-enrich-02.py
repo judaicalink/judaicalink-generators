@@ -9,9 +9,9 @@ from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON
 from rdflib.namespace import RDF, FOAF , SKOS ,RDFS
 import os
 
-os.chdir('C:\\Users\\Maral\\Desktop')
+os.chdir('../output')
 
-sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
+sparql = SPARQLWrapper2("http://data.judaicalink.org/sparql/query")
 
 graphuni = Graph()
 

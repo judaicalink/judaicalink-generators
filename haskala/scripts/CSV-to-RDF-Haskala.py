@@ -1,3 +1,4 @@
+#*-* coding: utf-8 *-*
 #this code creates rdf file from csv file
 # 08/04/2019
 # Maral Dadvar
@@ -13,7 +14,7 @@ import csv
 import re
 from urllib import request , parse
 
-os.chdir('C:\\Users\\Maral\\Desktop')
+os.chdir('../output')
 
 graph = Graph()
 
@@ -103,7 +104,7 @@ def generator_persons (newuri):
     return (jluri)
 
 
-data = csv.reader(open('C:\\Users\\Maral\\Desktop\\Assignments responsible persons_Maral.csv'))
+data = csv.reader(open('../input/Assignments responsible persons_Maral.csv', 'r', encoding='iso-8859-15'), delimiter=',')
 
 for row in data:
 
