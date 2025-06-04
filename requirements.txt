@@ -55,3 +55,4 @@ tzdata
 urllib3
 wasabi
 weasel
+rdf_generator @ git+https://github.com/judaicalink/rdf_generator
