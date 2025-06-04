@@ -8,6 +8,7 @@ This repository contains the description and materials regarding the content gen
 Every dataset corresponds to a name graph that can later on be accessed in the triple store. Datasets may consist of more than one data file since they might have been further expanded over time or may contain different data components. 
 
 Users can download JudaicaLink datasets from the webpage of JudaicaLink . The datasets can also be browsed as Linked Open Data using Pubby (with DM2E extensions) as Web Frontend. Furthermore, a public SPARQL endpoint is available.
+A generic CSV generator is available in `csv-generator` for converting CSV data based on a JSON or TOML mapping using the `rdf_generator` library.
 
 
 
