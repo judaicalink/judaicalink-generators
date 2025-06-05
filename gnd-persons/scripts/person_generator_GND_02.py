@@ -10,7 +10,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
 import re
 import pprint
 
-os.chdir('C:\Users\Maral\Desktop\output')
+os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -122,4 +122,3 @@ if (u"person",u"occ",u"name",u"label") in results:
        g.add( (URIRef(jlURI), gndo.preferredNameForTheSubjectHeading , URIRef(b[u"occ"].value) ) )
 
 g.serialize(destination = 'generated_persons_GND.ttl' , format="turtle")
-

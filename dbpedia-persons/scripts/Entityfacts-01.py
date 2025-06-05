@@ -13,7 +13,7 @@ import csv
 import re
 import time
 
-os.chdir('C:\\Users\\Maral\\Desktop')
+os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -104,4 +104,3 @@ for i in range(0,len(results.bindings)):
 #graph.serialize(destination='Entityfacts-freimann-sameas.ttl', format="turtle")
 #graph.serialize(destination='Entityfacts-gnd-sameas.ttl', format="turtle")
 graph.serialize(destination='Entityfacts-ubgnd-sameas.ttl', format="turtle")
-#graph.serialize(destination='Entityfacts-bhr-sameas.ttl', format="turtle")

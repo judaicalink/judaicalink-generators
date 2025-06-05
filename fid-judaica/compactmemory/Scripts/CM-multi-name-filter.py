@@ -12,7 +12,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
 import re
 import pprint
 
-os.chdir('C:\\Users\\Maral\\Desktop')
+script_dir = os.path.dirname(os.path.abspath(__file__)); os.chdir(script_dir)
 
 graphout = Graph()
 
@@ -35,7 +35,7 @@ graphout.bind('edm',edm)
 
 
 graph = Graph()
-graph.parse('C:\\Users\\Maral\\Desktop\\cm-authors-context-GND-multi-02.rdf', format="turtle")
+graph.parse(os.path.join(script_dir, 'cm-authors-context-GND-multi-02.rdf'), format="turtle")
 
 
 

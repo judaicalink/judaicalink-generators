@@ -9,7 +9,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON
 from rdflib.namespace import RDF, FOAF , SKOS ,RDFS
 import os
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -20,13 +20,13 @@ jl = Namespace("http://data.judaicalink.org/ontology/")
 owl = Namespace ("http://www.w3.org/2002/07/owl#")
 
 graph = Graph()
-#graph.parse('C:\Users\Maral\Desktop\interlinks-04.ttl', format="turtle")
-#graph.parse('C:\Users\Maral\Desktop\interlinks-04-enriched-01.ttl', format="turtle")
-#graph.parse('C:\Users\Maral\Desktop\interlinks-04-enriched-02.ttl', format="turtle")
-#graph.parse('C:\Users\Maral\Desktop\interlinks-04-enriched-03.ttl', format="turtle")
-#graph.parse('C:\Users\Maral\Desktop\interlinks-04-enriched-04.ttl', format="turtle")
-#graph.parse('C:\Users\Maral\Desktop\interlinks-04-enriched-05.ttl', format="turtle")
-graph.parse('C:\Users\Maral\Desktop\interlinks-04-enriched-06.ttl', format="turtle")
+#graph.parse('interlinks-04.ttl', format="turtle")
+#graph.parse('interlinks-04-enriched-01.ttl', format="turtle")
+#graph.parse('interlinks-04-enriched-02.ttl', format="turtle")
+#graph.parse('interlinks-04-enriched-03.ttl', format="turtle")
+#graph.parse('interlinks-04-enriched-04.ttl', format="turtle")
+#graph.parse('interlinks-04-enriched-05.ttl', format="turtle")
+graph.parse('interlinks-04-enriched-06.ttl', format='turtle')
 
 
 
@@ -103,7 +103,6 @@ if (u"x",u"same2") in results:
 #graph.serialize(destination='interlinks-04-enriched-05.ttl', format="turtle")
 #graph.serialize(destination='interlinks-04-enriched-06.ttl', format="turtle")
 graph.serialize(destination='interlinks-04-enriched-07.ttl', format="turtle")
-
 
 
 

@@ -14,7 +14,7 @@ import csv
 import re
 import unidecode
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 
 output = open('Encycoutput.csv','w')
@@ -34,7 +34,7 @@ graph.bind('Springer', Springer)
 graph.bind ('owl' , OWL)
 
 
-data = csv.reader(open('C:\\Users\\Maral\\Desktop\\new1-cleaned.csv'))
+data = csv.reader(open('new1-cleaned.csv'))
 fields = data.next()
 eventdic={}
 
@@ -212,4 +212,3 @@ output.close()
 
 
 #graph.serialize(destination='output5.rdf', format="turtle")
-

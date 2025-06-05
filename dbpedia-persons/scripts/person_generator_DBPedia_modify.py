@@ -11,9 +11,9 @@ from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
 import re
 import pprint
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
-path = 'C:\Users\Maral\Desktop' #adapted to the list file path
+path = '.' #adapted to the list file path
 
 graph = Graph()
 
@@ -34,7 +34,7 @@ graph.bind('skos',skos)
 
 
 g = Graph()
-g.parse('C:\Users\Maral\Desktop\generated_person_dbpedia.ttl', format="turtle")
+g.parse('generated_person_dbpedia.ttl', format="turtle")
 
 
 spar= """

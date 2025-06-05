@@ -12,9 +12,9 @@ from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
 import re
 import pprint
 
-os.chdir('C:\Users\Maral\Desktop')
+script_dir = os.path.dirname(os.path.abspath(__file__)); os.chdir(script_dir)
 
-path = 'C:\Users\Maral\Desktop' #adapted to the list file path
+path = script_dir  # adapted to the list file path
 
 graphout = Graph()
 graphno=Graph()
@@ -50,7 +50,7 @@ graphno.bind('edm',edm)
 
 
 graph = Graph()
-graph.parse('C:\Users\Maral\Desktop\cm-gnd-multi.rdf', format="turtle")
+graph.parse(os.path.join(script_dir, 'cm-gnd-multi.rdf'), format="turtle")
 
 
 
@@ -91,7 +91,7 @@ print gndname
 
 
 g = Graph()
-g.parse('C:\Users\Maral\Desktop\compact-extracted-02.rdf', format="turtle")
+g.parse(os.path.join(script_dir, 'compact-extracted-02.rdf'), format="turtle")
 
 spar= """
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>

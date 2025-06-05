@@ -10,7 +10,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
 import re
 import pprint
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 

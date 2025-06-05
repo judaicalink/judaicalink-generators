@@ -14,7 +14,7 @@ import csv
 import re
 import unidecode
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 graph = Graph()
 
@@ -31,7 +31,7 @@ graph.bind('gndo',gndo)
 graph.bind ('owl' , owl)
 
 
-data = csv.reader(open('C:\\Users\\Maral\\Desktop\\Encycoutput.csv'))
+data = csv.reader(open('Encycoutput.csv'))
 fields = data.next()
 eventdic={}
 
@@ -111,4 +111,3 @@ for row in data:
     graph.add((URIRef(uri), jl.occpation ,(URIRef('http://data.judaicalink.org/data/occupation/Rabbi')) ))
 
 graph.serialize(destination='Encyc.rdf', format="turtle")
-

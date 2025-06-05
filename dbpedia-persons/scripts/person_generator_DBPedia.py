@@ -11,11 +11,11 @@ from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
 import re
 import pprint
 
-os.chdir('C:\Users\Maral\Desktop\generated_persons')
+os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://dbpedia.org/sparql")
 
-path = 'C:\Users\Maral\Desktop' #adapted to the list file path
+path = '.' #adapted to the list file path
 
 graph = Graph()
 
@@ -102,7 +102,7 @@ def generator_person (URI ,OccURI):
     return
 
 g = Graph()
-g.parse('C:\Users\Maral\Desktop\generated_persons\occ_ontology.rdf', format="turtle")
+g.parse('generated_persons/occ_ontology.rdf', format="turtle")
 
 
 spar= """

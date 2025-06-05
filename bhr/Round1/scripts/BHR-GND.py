@@ -14,7 +14,7 @@ import pprint
 import csv
 import sys
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 rdf = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
@@ -25,10 +25,10 @@ owl = Namespace("http://www.w3.org/2002/07/owl#")
 
 
 g = Graph()
-g.parse('C:\Users\Maral\Desktop\Encyc.rdf', format="turtle")
+g.parse('Encyc.rdf', format='turtle')
 
 g2 = Graph()
-g2.parse('C:\Users\Maral\Desktop\EncycBHR-ID.rdf', format="turtle")
+g2.parse('EncycBHR-ID.rdf', format='turtle')
 
 
 g.bind('gndo',gndo)
@@ -130,6 +130,5 @@ for itemencyc in resultencyc:
 
 
 g.serialize(destination='EncycBHR-ID-GND.rdf', format="turtle")
-
 
 

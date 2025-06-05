@@ -10,7 +10,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
 import re
 import pprint
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -23,7 +23,7 @@ owl = Namespace("http://www.w3.org/2002/07/owl#")
 
 g = Graph()
 
-g.parse('C:\Users\Maral\Desktop\EncycBHR-ID-GND.ttl', format="turtle")
+g.parse('EncycBHR-ID-GND.ttl', format='turtle')
 
 
 g.bind('foaf',foaf)
@@ -84,4 +84,3 @@ if (u"a",u"x",u"z") in results:
        g.add( (URIRef(jluri), owl.sameAs , URIRef(uri) ) )
 
 g.serialize(destination = 'EncycBHR-ID-GND-JL.ttl' , format="turtle")
-

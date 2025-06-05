@@ -14,7 +14,7 @@ import csv
 import re
 import unidecode
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 graph = Graph()
 
@@ -31,7 +31,7 @@ graph.bind('gndo',gndo)
 graph.bind ('owl' , owl)
 
 
-data = csv.reader(open('C:\\Users\\Maral\\Desktop\\BHR-ID.csv'))
+data = csv.reader(open('BHR-ID.csv'))
 fields = data.next()
 eventdic={}
 
@@ -109,5 +109,4 @@ for row in data:
     graph.add((URIRef(uri), skos.prefLabel,(Literal(names)) ))
 
 graph.serialize(destination='EncycBHR-ID.rdf', format="turtle")
-
 

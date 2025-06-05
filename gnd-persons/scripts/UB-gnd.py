@@ -14,7 +14,7 @@ import csv
 import re
 import unidecode
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
@@ -140,7 +140,7 @@ def generator_gnd (gndURI):
     return
 
 
-data = csv.reader(open('C:\\Users\\Maral\\Desktop\\tp-records_gnd-ids.csv'))
+data = csv.reader(open('tp-records_gnd-ids.csv'))
 fields = data.next()
 eventdic={}
 
@@ -160,4 +160,3 @@ for row in data:
 
 
 graph.serialize(destination='UB-gnd-enrich.ttl', format="turtle")
-

@@ -9,7 +9,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON
 from rdflib.namespace import RDF, FOAF , SKOS ,RDFS
 import os
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -20,11 +20,11 @@ jl = Namespace("http://data.judaicalink.org/ontology/")
 owl = Namespace ("http://www.w3.org/2002/07/owl#")
 
 graphuni = Graph()
-#graphuni.parse('C:\Users\Maral\Desktop\Freimann-GND-03.rdf', format="turtle") #first the original file is enriched only with those which have altlabels and occ in GND.
-#graphuni.parse('C:\Users\Maral\Desktop\Freimann-GND-enriched-01.ttl', format="turtle") #then the generated file is parsed again to add further information like date and place of birth and death.
-#graphuni.parse('C:\Users\Maral\Desktop\Freimann-GND-enriched-02.ttl', format="turtle") #to extarct only those which have date of birth and death with out the place
-#graphuni.parse('C:\Users\Maral\Desktop\Freimann-GND-enriched-03.ttl', format="turtle") #to extarct only those which have no alt lable but date of birth and death
-graphuni.parse('C:\Users\Maral\Desktop\Freimann-GND-enriched-04.ttl', format="turtle") #to extarct only those which have no alt lable and no occ and no date of death but date of birth.
+#graphuni.parse('Freimann-GND-03.rdf', format="turtle") #first the original file is enriched only with those which have altlabels and occ in GND.
+#graphuni.parse('Freimann-GND-enriched-01.ttl', format="turtle") #then the generated file is parsed again to add further information like date and place of birth and death.
+#graphuni.parse('Freimann-GND-enriched-02.ttl', format="turtle") #to extarct only those which have date of birth and death with out the place
+#graphuni.parse('Freimann-GND-enriched-03.ttl', format="turtle") #to extarct only those which have no alt lable but date of birth and death
+graphuni.parse('Freimann-GND-enriched-04.ttl', format="turtle") #to extarct only those which have no alt lable and no occ and no date of death but date of birth.
 
 
 
@@ -132,7 +132,6 @@ if (u"x",u"label",u"id",u"y",u"birth") in results: #fifth round
 #graphuni.serialize(destination='Freimann-GND-enriched-03.ttl', format="turtle") #the third generated file
 #graphuni.serialize(destination='Freimann-GND-enriched-04.ttl', format="turtle") #the fourth generated file
 graphuni.serialize(destination='Freimann-GND-enriched-05.ttl', format="turtle") #the fourth generated file
-
 
 
 
