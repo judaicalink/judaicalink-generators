@@ -11,7 +11,7 @@ import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__)); os.chdir(script_dir)
 
-sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
+sparql = SPARQLWrapper2("http://localhost:3030/judaicalink/sparql")
 
 
 foaf = Namespace("http://xmlns.com/foaf/0.1/")

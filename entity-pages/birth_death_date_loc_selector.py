@@ -1,7 +1,7 @@
 import pprint, os
 from SPARQLWrapper import SPARQLWrapper, JSON
 from rdflib import Graph, URIRef, Namespace, Literal
-sparql = SPARQLWrapper("http://data.judaicalink.org/sparql/query")
+sparql = SPARQLWrapper("http://localhost:3030/judaicalink/sparql")
 sparql.setQuery("""
     PREFIX jl: <http://data.judaicalink.org/ontology/>
     PREFIX owl: <http://www.w3.org/2002/07/owl#>

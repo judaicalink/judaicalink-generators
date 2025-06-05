@@ -14,7 +14,7 @@ import csv
 import re
 import unidecode
 
-sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
+sparql = SPARQLWrapper2("http://localhost:3030/judaicalink/sparql")
 
 graph = Graph()
 
