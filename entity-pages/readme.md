@@ -52,7 +52,7 @@ BEHAVIOR:
   
   
 
-**`label_selector.ipynb`** 
+**`label_selector.py`** 
 
 The script returns, where available, for each entity page, a preferred label and a set of alternative labels along with their language tag. Example:
 
@@ -88,7 +88,7 @@ For each entity page, all labels are first collected from the related entities, 
   
   
 
-**`person_selector.ipynb`**  
+**`person_selector.py`**  
 
 The script qualifies an entity page as a person, based on the information collected from the corresponding entities. For each entity belonging to an entity page, it checks if the entity is a `foaf:Person` or if it has a birth/death date. Example:  
 
@@ -102,7 +102,7 @@ OUTPUT:
 
 	
 	
-**`location_selector.ipynb`**
+**`location_selector.py`**
 
 The script qualifies an entity page as a location, based on the information collected from the corresponding single entities. For each entity belonging to an entity page, it checks if the entity has geographic coordinates associated or if it is the object of a birth/deathLocation property. Example:
 
@@ -114,7 +114,7 @@ OUTPUT:
 	`ep_locations.ttl`: rdf dataset of entity pages corresponding to locations.  
 	
 	
-**`subcategorization.ipynb`**
+**`subcategorization.py`**
 
 The script creates triples for subcategorizing native/local Judaicalink resources in relation with Entity Pages, this way distinguishing them from external resources (for example links to other knowledge graphs such as dbpedia, GND, wikidata, etc). For this purpose the `jl:represents` property is used. This dataset is used by pubby in order to show the users the correspondence between an entity page and the local Judaicalink resources.   
 Example:   
