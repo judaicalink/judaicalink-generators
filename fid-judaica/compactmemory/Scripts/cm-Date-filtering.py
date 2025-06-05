@@ -9,7 +9,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON , TURTLE
 from rdflib.namespace import RDF, FOAF , SKOS ,RDFS
 import os
 
-os.chdir('C:\Users\Maral\Desktop')
+script_dir = os.path.dirname(os.path.abspath(__file__)); os.chdir(script_dir)
 
 
 #output = open('date.csv','w')

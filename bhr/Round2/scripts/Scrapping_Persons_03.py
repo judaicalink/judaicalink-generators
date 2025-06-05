@@ -10,7 +10,7 @@ import os , glob
 import csv
 import re
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 skos = Namespace("http://www.w3.org/2004/02/skos/core#")
@@ -196,7 +196,6 @@ for i in range (1 , 2704):
 
 
 graph.serialize(destination='bhr-new-enrich.rdf', format="turtle")
-
 
 
 

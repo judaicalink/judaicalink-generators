@@ -21,7 +21,7 @@ geo = Namespace("http://www.opengis.net/ont/geosparql#")
 
 
 graph=Graph()
-graph.parse('C:\Users\Maral\Desktop\city-geocoor-04-all.ttl', format="turtle")
+graph.parse('city-geocoor-04-all.ttl', format="turtle")
 
 graph1=Graph()
 graph2=Graph()

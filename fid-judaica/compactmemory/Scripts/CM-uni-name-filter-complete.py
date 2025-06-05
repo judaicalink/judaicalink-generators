@@ -12,7 +12,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
 import re
 import pprint
 
-os.chdir('C:\\Users\\Maral\\Desktop')
+script_dir = os.path.dirname(os.path.abspath(__file__)); os.chdir(script_dir)
 
 graphout = Graph()
 
@@ -38,7 +38,7 @@ graphout.bind('edm',edm)
 
 graph = Graph()
 
-graph.parse('C:\\Users\\Maral\\Desktop\\cm-authors-uni-date-filtered.ttl', format="turtle")
+graph.parse(os.path.join(script_dir, 'cm-authors-uni-date-filtered.ttl'), format="turtle")
 
 
 urilist = []
@@ -77,7 +77,7 @@ for ubitem in result: #names from UB Freimann
 
 
 g = Graph()
-g.parse('C:\\Users\\Maral\\Desktop\\cm-uni-names-filtered.ttl', format="turtle")
+g.parse(os.path.join(script_dir, 'cm-uni-names-filtered.ttl'), format="turtle")
 
 spar= """
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>

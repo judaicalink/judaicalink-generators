@@ -9,7 +9,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON
 from rdflib.namespace import RDF, FOAF , SKOS ,RDFS, OWL
 import os
 
-os.chdir('C:\Users\Maral\Desktop')
+script_dir = os.path.dirname(os.path.abspath(__file__)); os.chdir(script_dir)
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -35,7 +35,7 @@ graphout.bind('dc',dc)
 graphout.bind('edm',edm)
 
 graph1 = Graph()
-graph1.parse('C:\Users\Maral\Desktop\cm-gnd-uni.rdf', format="turtle")
+graph1.parse(os.path.join(script_dir, 'cm-gnd-uni.rdf'), format="turtle")
 
 unilist=[]
 
@@ -72,7 +72,7 @@ for item in result:
     unilist.append(item[1].value.encode('utf-8'))
 
 graph2= Graph()
-graph2.parse('C:\Users\Maral\Desktop\cm-gnd-multi.rdf', format="turtle")
+graph2.parse(os.path.join(script_dir, 'cm-gnd-multi.rdf'), format="turtle")
 
 multilist=[]
 

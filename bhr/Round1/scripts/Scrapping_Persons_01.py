@@ -10,7 +10,7 @@ import os , glob
 import csv
 import re
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 output = open('BHR-ID.csv','w')
 

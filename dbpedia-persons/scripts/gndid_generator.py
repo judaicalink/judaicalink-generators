@@ -10,7 +10,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
 import re
 import pprint
 
-os.chdir('C:\Users\Maral\Desktop\output')
+os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("https://query.wikidata.org/sparql")
 
@@ -69,7 +69,7 @@ def generator_gndid (URI):
 
 
 g = Graph()
-g.parse('C:\Users\Maral\Desktop\generated_person\generated_person.rdf', format="turtle")
+g.parse('generated_person/generated_person.rdf', format="turtle")
 
 #this query will extract only the sameAs links to Wikidata
 

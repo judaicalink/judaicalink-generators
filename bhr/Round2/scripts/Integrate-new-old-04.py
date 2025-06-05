@@ -10,7 +10,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON
 from rdflib.namespace import RDF, FOAF , SKOS ,RDFS
 import os
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 #sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -24,7 +24,7 @@ dc = Namespace ("http://purl.org/dc/elements/1.1/")
 
 graph= Graph()
 
-graph.parse('C:\\Users\\Maral\\Desktop\\bhr-new-enrich.rdf', format="turtle")
+graph.parse('bhr-new-enrich.rdf', format='turtle')
 
 
 dicsame = {}
@@ -63,7 +63,7 @@ results = graph.query(spar)
 
 graph2= Graph()
 
-graph2.parse('C:\\Users\\Maral\\Desktop\\bhr-final-04.ttl', format="turtle")
+graph2.parse('bhr-final-04.ttl', format='turtle')
 
 
 graph2.bind('foaf',foaf)
@@ -115,6 +115,5 @@ for item2 in results2:
                 graph2.add((URIRef(uri) , owl.sameAs , URIRef(same)))
 
 graph2.serialize(destination='bhr-final-05.ttl', format="turtle")
-
 
 

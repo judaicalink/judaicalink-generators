@@ -13,7 +13,7 @@ import csv
 import re
 import time
 
-os.chdir('C:\\Users\\Maral\\Desktop')
+os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 

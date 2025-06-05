@@ -10,7 +10,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
 import re
 import pprint
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -22,7 +22,7 @@ skos = Namespace("http://www.w3.org/2004/02/skos/core#")
 owl = Namespace("http://www.w3.org/2002/07/owl#")
 
 g = Graph()
-g.parse('C:\Users\Maral\Desktop\interlinks-03.ttl', format="turtle")
+g.parse('interlinks-03.ttl', format='turtle')
 
 
 g.bind('foaf',foaf)
@@ -67,7 +67,6 @@ for item in results:
 
 
 g.serialize(destination = 'interlinks-04.ttl' , format="turtle")
-
 
 
 

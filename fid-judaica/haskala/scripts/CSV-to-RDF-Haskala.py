@@ -13,7 +13,7 @@ import csv
 import re
 from urllib import request , parse
 
-os.chdir('C:\\Users\\Maral\\Desktop')
+script_dir = os.path.dirname(os.path.abspath(__file__)); os.chdir(script_dir)
 
 graph = Graph()
 
@@ -103,7 +103,7 @@ def generator_persons (newuri):
     return (jluri)
 
 
-data = csv.reader(open('C:\\Users\\Maral\\Desktop\\Assignments responsible persons_Maral.csv'))
+data = csv.reader(open(os.path.join(script_dir, 'Assignments responsible persons_Maral.csv')))
 
 for row in data:
 

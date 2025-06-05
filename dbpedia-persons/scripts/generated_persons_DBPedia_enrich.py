@@ -9,7 +9,7 @@ from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON
 from rdflib.namespace import RDF, FOAF , SKOS ,RDFS
 import os
 
-os.chdir('C:\Users\Maral\Desktop')
+os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
 
@@ -21,9 +21,9 @@ owl = Namespace ("http://www.w3.org/2002/07/owl#")
 
 graphuni = Graph()
 
-#graphuni.parse('C:\Users\Maral\Desktop\generated_person_dbpedia_modified_gnd.ttl', format="turtle")
-#graphuni.parse('C:\Users\Maral\Desktop\generated_persons_DBPedia-enriched-01.ttl', format="turtle")
-graphuni.parse('C:\Users\Maral\Desktop\generated_persons_DBPedia-enriched-02.ttl', format="turtle")
+#graphuni.parse("generated_person_dbpedia_modified_gnd.ttl", format="turtle")
+#graphuni.parse("generated_persons_DBPedia-enriched-01.ttl", format="turtle")
+graphuni.parse('generated_persons_DBPedia-enriched-02.ttl', format="turtle")
 
 
 
