@@ -9,7 +9,7 @@ def get_gnd_ttl_data(gndid, uri, graph):
     Function creates new präfixes
     """
 
-    # DODO Change fuction, that now new new präfixes are generated (see gnd_dataenrichment.ipynb)
+    # DODO Change fuction, that now new new präfixes are generated (see gnd_dataenrichment.py)
     headers = {'Accept': 'text/turtle'} 
     gnd_url = f'http://d-nb.info/gnd/{gndid}/about/lds'
     response = requests.get(gnd_url, headers=headers)
