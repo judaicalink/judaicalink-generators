@@ -11,7 +11,7 @@ import os
 
 os.chdir('../output')
 
-sparql = SPARQLWrapper2("http://data.judaicalink.org/sparql/query")
+sparql = SPARQLWrapper2("http://localhost:3030/judaicalink/sparql")
 
 graphuni = Graph()
 

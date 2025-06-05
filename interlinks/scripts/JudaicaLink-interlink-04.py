@@ -11,7 +11,7 @@ import os
 
 os.chdir(os.getcwd())
 
-sparql = SPARQLWrapper2("http://localhost:3030/Datasets/sparql")
+sparql = SPARQLWrapper2("http://localhost:3030/judaicalink/sparql")
 
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 skos = Namespace("http://www.w3.org/2004/02/skos/core#")

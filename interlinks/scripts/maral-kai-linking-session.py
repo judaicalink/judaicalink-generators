@@ -4,7 +4,7 @@ import SPARQLWrapper as sw
 prefixes = []
 prefixes.append(('skos', 'http://www.w3.org/2004/02/skos/core#'))
 
-sparql = sw.SPARQLWrapper2("http://data.judaicalink.org/sparql/query")
+sparql = sw.SPARQLWrapper2("http://localhost:3030/judaicalink/sparql")
 
 def get_prefixes():
     return "\n".join(["PREFIX {}: <{}>".format(prefix, url) for prefix, url in prefixes])

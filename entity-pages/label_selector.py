@@ -5,7 +5,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from rdflib import Graph, URIRef, Namespace, Literal
 from rdflib.namespace import SKOS
 # query preferred labels
-sparql = SPARQLWrapper("http://data.judaicalink.org/sparql/query")
+sparql = SPARQLWrapper("http://localhost:3030/judaicalink/sparql")
 sparql.setQuery("""
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -46,7 +46,7 @@ for ep, labs in ep_to_labels.items():
         else: # take the most frequent label
             pref_labels[ep] = max(labs, key=labs.get)
 # query alternative labels
-sparql = SPARQLWrapper("http://data.judaicalink.org/sparql/query")
+sparql = SPARQLWrapper("http://localhost:3030/judaicalink/sparql")
 sparql.setQuery("""
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     PREFIX owl: <http://www.w3.org/2002/07/owl#>

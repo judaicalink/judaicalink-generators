@@ -9,7 +9,7 @@ g = Graph()
 jl = Namespace("http://data.judaicalink.org/ontology/")
 g.bind('jl', jl)
 # query entity pages
-sparql = SPARQLWrapper("http://data.judaicalink.org/sparql/query")
+sparql = SPARQLWrapper("http://localhost:3030/judaicalink/sparql")
 sparql.setQuery("""
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     PREFIX owl: <http://www.w3.org/2002/07/owl#>

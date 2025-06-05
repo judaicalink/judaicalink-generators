@@ -60,7 +60,7 @@ def get_gnd_ids():
     gnd_ids = []
 
     queryString = "SELECT * WHERE { ?s ?p ?o. } LIMIT 10"
-    sparql = SPARQLWrapper("https://data.judaicalink.org/sparql/query")
+    sparql = SPARQLWrapper("http://localhost:3030/judaicalink/sparql")
 
     sparql.setQuery("""
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>

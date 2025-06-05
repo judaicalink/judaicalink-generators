@@ -69,7 +69,7 @@ logging.info("Just set current RUN folders and loaded data structures...! Execut
 
 ```python
 logging.info("Performing queries...")
-sparql = SPARQLWrapper("http://data.judaicalink.org/sparql/query")
+sparql = SPARQLWrapper("http://localhost:3030/judaicalink/sparql")
 sparql.setQuery("""
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -86,7 +86,7 @@ logging.info("Query 1: returned {} triples.".format(len(results['results']['bind
 ```
 
 ```python
-sparql = SPARQLWrapper("http://data.judaicalink.org/sparql/query")
+sparql = SPARQLWrapper("http://localhost:3030/judaicalink/sparql")
 sparql.setQuery("""
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     PREFIX owl: <http://www.w3.org/2002/07/owl#>

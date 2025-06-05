@@ -3,7 +3,7 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from rdflib import Graph, URIRef
 from rdflib.namespace import RDF, FOAF
-sparql = SPARQLWrapper("http://data.judaicalink.org/sparql/query")
+sparql = SPARQLWrapper("http://localhost:3030/judaicalink/sparql")
 sparql.setQuery("""
     PREFIX foaf: <http://xmlns.com/foaf/0.1/>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
