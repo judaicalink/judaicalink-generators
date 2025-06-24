@@ -1,19 +1,15 @@
-#Maral Dadvar
-#02/10/2017
-#This scripts looks for place of birth and death of the persons with GNDID from their GND profile.
+# Maral Dadvar
+# 02/10/2017
+# This scripts looks for place of birth and death of the persons with GNDID from their GND profile.
 
-import unicodedata
-import os , glob
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal , OWL, RDFS , RDF
-from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
-import re
-import pprint
+import os
+
+from SPARQLWrapper import SPARQLWrapper2, TURTLE
+from rdflib import Namespace, URIRef, Graph, Literal, RDF
 
 os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://localhost:3030/judaicalink/sparql")
-
 
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 rdf = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
@@ -25,13 +21,12 @@ g = Graph()
 
 g.parse('EncycBHR-ID-GND-JL.ttl', format='turtle')
 
+g.bind('foaf', foaf)
+g.bind('jl', jl)
+g.bind('skos', skos)
+g.bind('owl', owl)
 
-g.bind('foaf',foaf)
-g.bind('jl',jl)
-g.bind('skos',skos)
-g.bind('owl',owl)
-
-spar1= """
+spar1 = """
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX gndo: <http://d-nb.info/standards/elementset/gnd#>
     PREFIX pro: <http://purl.org/hpi/patchr#>
@@ -70,15 +65,15 @@ sparql.setQuery(spar1)
 sparql.setReturnFormat(TURTLE)
 results = sparql.query().convert()
 
-if (u"a",u"city",u"x",u"z") in results:
-    bindings = results[u"a","city",u"x",u"z"]
+if (u"a", u"city", u"x", u"z") in results:
+    bindings = results[u"a", "city", u"x", u"z"]
     for b in bindings:
-       #print b
-       jluri = b[u"x"].value
-       city = b[u"city"].value
+        # print b
+        jluri = b[u"x"].value
+        city = b[u"city"].value
 
-       print city , jluri
-       g.add( (URIRef(jluri), RDF.type , foaf.Person ) )
-       g.add( (URIRef(jluri), jl.birthLocation , Literal(city) ) )
+        print(city, jluri)
+        g.add((URIRef(jluri), RDF.type, foaf.Person))
+        g.add((URIRef(jluri), jl.birthLocation, Literal(city)))
 
-g.serialize(destination = 'EncycBHR-ID-GND-JL.ttl' , format="turtle")
+g.serialize(destination='EncycBHR-ID-GND-JL.ttl', format="turtle")
