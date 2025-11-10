@@ -1,0 +1,6 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://data.judaicalink.org/datasets/footprints> dcterms:identifier "footprints" ;
+    dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:title "Footprints - Jewish Books through Time and Place" .
+

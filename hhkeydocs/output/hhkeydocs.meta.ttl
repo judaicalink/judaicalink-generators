@@ -1,0 +1,21 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix jlo: <http://data.judaicalink.org/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://data.judaicalink.org/datasets/hhkeydocs> a void:Dataset,
+        prov:Entity ;
+    dcterms:creator "Christian Deuschle" ;
+    dcterms:date "2025-11-10T14:52:09.127339" ;
+    dcterms:issued "2023-011-22T09:00:00+02:00" ;
+    dcterms:source <https://schluesseldokumente.net/> ;
+    dcterms:subject "hhkeydocs" ;
+    dcterms:title "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte" ;
+    void:dataDump <http://data.judaicalink.org/dumps/hhkeydocs/current/hhkeydocs-final-01.ttl.gz> ;
+    prov:wasGeneratedBy [ prov:used [ rdfs:label "hhkeydocs/scripts/build.py" ;
+                    jlo:gitCommit "local" ;
+                    jlo:gitWeb <https://github.com/judaicalink/judaicalink-generators/tree/main/hhkeydocs> ] ] .
+
+[] dcterms:description "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte" .
+
