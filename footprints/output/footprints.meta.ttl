@@ -6,7 +6,7 @@
 
 <http://data.judaicalink.org/datasets/footprints> a void:Dataset,
         prov:Entity ;
-    dcterms:date "2025-11-10T19:00:14.133893" ;
+    dcterms:date "2025-11-12T14:06:35.609047" ;
     dcterms:subject "footprints" ;
     dcterms:title "Footprints - Jewish Books through Time and Place" ;
     prov:wasGeneratedBy [ prov:used [ rdfs:label "footprints/scripts/build.py" ;

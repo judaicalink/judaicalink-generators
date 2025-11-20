@@ -31,7 +31,7 @@ from rdflib.namespace import RDF, XSD
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # ---------- Repo-Root ----------
-REPO_ROOT = Path(__file__).resolve().parents[3]  # .../judaicalink-generators
+REPO_ROOT = Path(__file__).resolve().parents[2]  # .../judaicalink-generators
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
@@ -238,7 +238,7 @@ def build_footprints_graph(g: Graph) -> None:
     })
 
     REQUEST_TIMEOUT = (10, 60)   # (connect, read) – lang genug, aber kein Overkill
-    MAX_202_POLLS = 10           # wie oft bei 202 nochmal pollen
+    MAX_202_POLLS = 2           # wie oft bei 202 nochmal pollen
     POLL_SLEEP = 3               # Sekunden zwischen Polls
 
     page = 1
@@ -324,7 +324,7 @@ def build_footprints_graph(g: Graph) -> None:
 
             # gleiches URI-Schema wie im ursprünglichen Script
             uu = generate_hash_uuid(name)
-            uri = URIRef(f"http://data.judaicalink.org/data/footprints/{uu}")
+            uri = URIRef(f"https://footprints.ctl.columbia.edu/api/person/{uu}/?format=json")
 
             g.add((uri, RDF.type, FOAF.Person))
             g.add((uri, FOAF.name, Literal(name)))
@@ -351,7 +351,6 @@ def build_footprints_graph(g: Graph) -> None:
         total_persons,
         len(g),
     )
-
 
 
 # ---------- ABC-Adapter ----------
