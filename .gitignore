@@ -427,4 +427,14 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/osx,linux,windows,python,django,pycharm+all
+# Generated ttl files
+*.ttl
+*.ttl.gz
+*.nt
+*.nt.gz
+# Generated json files
+*.json
+
+# log files
+*.log
+log.txt
