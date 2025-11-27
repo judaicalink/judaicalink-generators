@@ -17,26 +17,37 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class GeneratorContext:
+    """
+    Context information for a dataset generator.
+    Contains paths and metadata for the dataset being processed.
+    """
     slug: str
     root: Path  # datasets/<slug>/
     source_dir: Path  # datasets/<slug>/source
     output_dir: Path  # datasets/<slug>/output
     tmp_dir: Path  # datasets/<slug>/tmp
-    meta: dict  # TOML aus <slug>.md (Frontmatter)
+    meta: dict  # TOML from <slug>.md (Frontmatter)
     now: dt.datetime
 
 
 class RDFGeneratorBase(ABC):
     """
-    Wiederverwendbare ABC für alle Datensatz-Generatoren.
-    Implementiere nur `build(self, g: Graph, ctx: GeneratorContext) -> None`.
+    Reusable ABC for all dataset generators.
+    Implement only `build(self, g: Graph, ctx: GeneratorContext) -> None`.
     """
 
     def __init__(self, dataset_root: Path):
+        """
+        :param dataset_root: Path to the dataset root directory
+        """
         self.dataset_root = dataset_root
         self.slug = dataset_root.name
 
     def run(self) -> dict:
+        """
+        Run the generator: prepare context, create graph, call build(), write output.
+        :return: dict with run results and metadata
+        """
         ctx = self._context()
         ensure_dir(ctx.output_dir)
         g = Graph()
@@ -69,11 +80,19 @@ class RDFGeneratorBase(ABC):
 
     @abstractmethod
     def build(self, g: Graph, ctx: GeneratorContext) -> None:
-        """Füge alle Tripel in `g` hinzu."""
+        """
+        Add dataset-specific triples to the given RDF graph `g`.
+        :param g: rdflib.Graph to populate
+        :param ctx: GeneratorContext with dataset info
+        """
         raise NotImplementedError
 
-    # --- intern ---
+    # --- internal ---
     def _context(self) -> GeneratorContext:
+        """
+        Prepare the GeneratorContext for this dataset.
+        :return: GeneratorContext
+        """
         md = self.dataset_root / f"{self.slug}.md"
         meta = load_frontmatter_toml(md)
         return GeneratorContext(
@@ -87,12 +106,17 @@ class RDFGeneratorBase(ABC):
         )
 
     def _add_dataset_metadata(self, g: Graph, ctx: GeneratorContext):
-        ds = JL_DS[ctx.slug]  # URIRef für den Dataset-Knoten
+        """
+        Add common dataset metadata from frontmatter to the RDF graph.
+        :param g: rdflib.Graph to populate
+        :param ctx: GeneratorContext with dataset info.
+        """
+        ds = JL_DS[ctx.slug]  # URIRef for the dataset nodes
 
-        # Identifier als Literal (früher: plain string -> AssertionError)
+        # Identifier as a literal (formerly: plain string -> AssertionError)
         g.add((ds, DCTERMS.identifier, Literal(ctx.slug)))
 
-        # optionale Felder aus TOML-Frontmatter
+        # optional fields from frontmatter
         title = ctx.meta.get("title")
         if title:
             g.add((ds, DCTERMS.title, Literal(str(title))))
@@ -103,7 +127,7 @@ class RDFGeneratorBase(ABC):
 
         lic = ctx.meta.get("license")
         if lic:
-            # license kann dict oder string sein
+            # license can be dict or string
             if isinstance(lic, dict) and lic.get("uri"):
                 g.add((ds, DCTERMS.license, URIRef(str(lic["uri"]))))
             else:
@@ -115,7 +139,7 @@ class RDFGeneratorBase(ABC):
 
         source = ctx.meta.get("source")
         if source:
-            # wenn es wie eine URL aussieht → URIRef, sonst Literal
+            # if it looks like a URL → URIRef, otherwise Literal
             s = str(source)
             term = URIRef(s) if s.startswith("http://") or s.startswith("https://") else Literal(s)
             g.add((ds, DCTERMS.source, term))
