@@ -1,21 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Build-Script für das Dataset "nrwbibdjg"
-(Bibliografie deutsch-jüdische Geschichte Nordrhein-Westfalen).
+Build script for the dataset "nrwbibdjg"
+(Bibliography of German-Jewish History in North Rhine-Westphalia).
 
-Workflow (analog zu hhkeydocs und sosy):
-
-1. Daten aus den Quellen laden (Steinheim BEACON + GND).
-2. RDF-Graph nach den Ontologien generieren.
-3. Als .ttl im output/-Verzeichnis speichern und gzippen.
-4. Metadaten aus nrwbibdjg.md erzeugen (.meta.ttl + .gz).
-5. Optional: Dateien ins Dumps-Verzeichnis kopieren.
-6. Optional: Datengraph + Metadaten in Fuseki laden.
-
-Aufrufbeispiele (im Repo-Root):
-
-    python nrwbibdjg/scripts/build.py
-    python nrwbibdjg/scripts/build.py --load --only-newer
+Workflow:
+1. Load data from the sources (Steinheim BEACON + GND).
+2. Generate an RDF graph according to the ontologies.
+3. Save as a .ttl file in the output/ directory and gzip it.
+4. Generate metadata from nrwbibdjg.md (.meta.ttl + .gz).
+5. Optional: Copy the files to the dumps directory.
+6. Optional: Load the data graph and metadata into Fuseki.
 """
 
 from __future__ import annotations
@@ -37,12 +31,12 @@ from rdflib import Graph, Literal, Namespace, URIRef
 from rdflib.namespace import RDF, DC, DCTERMS
 from tqdm import tqdm
 
-# Repo-Root ermitteln (…/judaicalink-generators)
+# Find the repository root and add to sys.path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-# Generator-Infrastruktur
+# Generator infrastructure imports
 from generator.base import RDFGeneratorBase  # type: ignore
 from generator.metadata import build_metadata_graph  # type: ignore
 from generator.loader import load_to_fuseki, upsert_metadata_graph  # type: ignore
@@ -51,25 +45,25 @@ from generator.rdf import JL_DS  # type: ignore
 
 # Namespaces
 SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
-JL   = Namespace("http://data.judaicalink.org/ontology/")
+JL = Namespace("http://data.judaicalink.org/ontology/")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 GNDO = Namespace("http://d-nb.info/standards/elementset/gnd#")
-OWL  = Namespace("http://www.w3.org/2002/07/owl#")
-EDM  = Namespace("http://www.europeana.eu/schemas/edm/")
+OWL = Namespace("http://www.w3.org/2002/07/owl#")
+EDM = Namespace("http://www.europeana.eu/schemas/edm/")
 DCNS = Namespace("http://purl.org/dc/elements/1.1/")
-DCT  = Namespace("http://purl.org/dc/terms/")
+DCT = Namespace("http://purl.org/dc/terms/")
 RDFS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
-GEO  = Namespace("http://www.opengis.net/ont/geosparql#")
+GEO = Namespace("http://www.opengis.net/ont/geosparql#")
 
 VOID = Namespace("http://rdfs.org/ns/void#")
 
 SLUG = "nrwbibdjg"
 DATASET_URI = JL_DS[SLUG]
 
-# ----------------------------------------------------------------------
-# Logging-Setup (Root-Logger, damit auch generator.base usw. ins
-# gleiche Logfile schreiben)
-# ----------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------
+# Logging setup (root logger, so that generator.base etc. are also written to the same log file)
+# ----------------------------------------------------------------------------------------------
+
 LOG_DIR = REPO_ROOT / "logs"
 LOG_DIR.mkdir(exist_ok=True)
 LOG_FILE = LOG_DIR / f"{SLUG}.log"
@@ -96,10 +90,16 @@ if not root_logger.handlers:
 logger = logging.getLogger(f"{SLUG}-build")
 logger.info("Logging initialized → %s", LOG_FILE)
 
+
 # ----------------------------------------------------------------------
-# Hilfsfunktionen für Zipping & Dumps
+# Helper functions for zipping and copying to dumps
 # ----------------------------------------------------------------------
 def compress_file(path: Path) -> Path:
+    """
+    Compresses the given file with gzip and returns the path to the .gz file.
+    :param path: Path to the file to compress
+    :return: Path to the compressed .gz file
+    """
     gz_path = path.with_suffix(path.suffix + ".gz")
     with path.open("rb") as f_in, gzip.open(gz_path, "wb") as f_out:
         shutil.copyfileobj(f_in, f_out)
@@ -108,28 +108,71 @@ def compress_file(path: Path) -> Path:
 
 def copy_to_dumps(slug: str, files: list[Path]) -> list[Path]:
     """
-    Kopiert Dateien in den Dumps-Ordner:
-    $JL_DUMPS_ROOT/<slug>/current/   (Default: /data/dumps)
-    """
-    dumps_root = Path(os.environ.get("JL_DUMPS_ROOT", "/data/dumps")).resolve()
-    dest_dir = dumps_root / slug / "current"
-    ensure_dir(dest_dir)
-    copied: list[Path] = []
-    for f in files:
-        dest = dest_dir / f.name
-        shutil.copy2(str(f), str(dest))
-        copied.append(dest)
-    return copied
+    Copy generated dataset files into the dumps directory.
 
-# ----------------------------------------------------------------------
-# Spezifische Logik für nrwbibdjg (aus dem alten generator.py extrahiert)
-# ----------------------------------------------------------------------
+    Directory structure:
+        <DUMPS_ROOT>/<slug>/current/     -> always contains the latest files
+        <DUMPS_ROOT>/<slug>/archive/     -> contains all previous versions
+
+    Before copying new files:
+        - All existing files in <slug>/current/ are moved to <slug>/archive/
+        - Files are renamed using:
+              YYYY-mm-dd-hh-ss-<original_name>
+
+    If a file cannot be copied, the error is logged and processing continues.
+    :param slug: Dataset slug
+    :param files: List of Paths to files to copy
+    """
+
+    dumps_root = Path(os.environ.get("JL_DUMPS_ROOT", "/data/dumps")).resolve()
+    slug_dir = dumps_root / slug
+    current_dir = slug_dir / "current"
+    archive_dir = slug_dir / "archive"
+
+    current_dir.mkdir(parents=True, exist_ok=True)
+    archive_dir.mkdir(parents=True, exist_ok=True)
+
+    timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+
+    # 1) Archive existing files in current/
+    for old_file in current_dir.iterdir():
+        if not old_file.is_file():
+            continue
+        try:
+            new_name = f"{timestamp}-{old_file.name}"
+            archived_path = archive_dir / new_name
+            old_file.rename(archived_path)
+        except Exception as e:
+            logger.error(f"[DUMPS] Failed to archive '{old_file}': {e}")
+            # continue even if one file fails
+
+    # 2) Copy new files to current/
+    copied_files = []
+    for f in files:
+        try:
+            destination = current_dir / f.name
+            shutil.copy2(f, destination)
+            copied_files.append(destination)
+        except Exception as e:
+            logger.error(f"[DUMPS] Failed to copy '{f}' to '{destination}': {e}")
+            # continue with next file
+
+    return copied_files
+
+
+# -----------------------------
+# Specific logic for nrwbibdjg
+# -----------------------------
 BEACON_URL = "http://www.steinheim-institut.de/ebib-djg-nrw/ebib-djg-nrw-beacon.txt"
-QUERY_URL  = "http://www.steinheim-institut.de/ebib-djg-nrw/query.html"
+QUERY_URL = "http://www.steinheim-institut.de/ebib-djg-nrw/query.html"
 
 
 def get_gnd_ttl_data(gndid: str) -> list[list[str]]:
-    """Enriches data with data from GND if GND ID is known."""
+    """
+    Enriches data with data from GND if GND ID is known.
+    :param gndid: GND ID of the person
+    :return: List of [predicate, object] pairs
+    """
     pr_obj: list[list[str]] = []
     try:
         headers = {"Accept": "text/turtle"}
@@ -159,7 +202,11 @@ def get_gnd_ttl_data(gndid: str) -> list[list[str]]:
 
 
 def get_ids_from_beacon(url: str) -> List[str]:
-    """Creates a list of IDs from beacon URL."""
+    """
+    Creates a list of IDs from beacon URL.
+    :param url: URL to the BEACON file
+    :return: List of IDs
+    """
     ids: List[str] = []
     logger.info("Fetching BEACON ids from %s", url)
     resp = requests.get(url, timeout=60)
@@ -177,7 +224,11 @@ def get_ids_from_beacon(url: str) -> List[str]:
 
 
 def clean_url_string(string: str) -> str:
-    """Clean the name of a person or title to form a URI path segment."""
+    """
+    Clean the name of a person or title to form a URI path segment.
+    :param string: Original string
+    :return: Cleaned string
+    """
     import unicodedata
 
     s = string.strip()
@@ -208,25 +259,34 @@ def clean_url_string(string: str) -> str:
 
 
 def add_creation_date(graph: Graph, uri: URIRef) -> None:
-    """Adds a dcterms:created triple if none exists yet."""
+    """
+    Adds a dcterms:created triple if none exists yet.
+    :param graph: RDF Graph
+    :param uri: URIRef of the resource
+    :return: None
+    """
     if (uri, DCTERMS.created, None) not in graph:
         graph.add((uri, DCTERMS.created, Literal(datetime.now().isoformat())))
 
 
 def build_nrwbibdjg_graph(g: Graph) -> None:
-    """Entspricht createGraph() aus dem alten Script, aber schreibt in `g`."""
+    """
+    Builds the RDF graph for the nrwbibdjg dataset.
+    :param g: RDF Graph to populate
+    :return: None
+    """
 
     # Prefixes binden
     g.bind("skos", SKOS)
     g.bind("foaf", FOAF)
-    g.bind("jl",   JL)
+    g.bind("jl", JL)
     g.bind("gndo", GNDO)
-    g.bind("owl",  OWL)
-    g.bind("edm",  EDM)
-    g.bind("dc",   DCNS)
+    g.bind("owl", OWL)
+    g.bind("edm", EDM)
+    g.bind("dc", DCNS)
     g.bind("dcterms", DCT)
     g.bind("rdfs", RDFS)
-    g.bind("geo",  GEO)
+    g.bind("geo", GEO)
 
     headers1 = {
         "User-Agent": (
@@ -256,7 +316,7 @@ def build_nrwbibdjg_graph(g: Graph) -> None:
         soup = BeautifulSoup(response.text, "html.parser")
         titles = soup.find_all("span", class_="lit_title")  # find titles
 
-        # Für jedes Werk
+        # for each title found
         for title_span in titles:
             inbuch_div = title_span.find_next_sibling("div", class_="inbuch")
             title = title_span.text.replace('\u2009\u2009', "")
@@ -290,11 +350,11 @@ def build_nrwbibdjg_graph(g: Graph) -> None:
 
             add_creation_date(g, work_uri)
 
-        # Person-URI aus GND-ID
+        # Person-URI from GND-ID
         person_uri = URIRef(f"http://data.judaicalink.org/data/nrwbibdjg/{gndID}")
         g.add((person_uri, RDF.type, FOAF.Person))
 
-        # GND-Anreicherung
+        # GND enrichment
         for pred_obj in get_gnd_ttl_data(gndID):
             obj = pred_obj[1]
             prefix, predicate_name = pred_obj[0].split(".")
@@ -334,7 +394,7 @@ def build_nrwbibdjg_graph(g: Graph) -> None:
 
 
 # ----------------------------------------------------------------------
-# Generator-Adapter (ABC)
+# Generator Adapter (ABC)
 # ----------------------------------------------------------------------
 class Generator(RDFGeneratorBase):
     def build(self, g: Graph, ctx) -> None:
@@ -345,25 +405,35 @@ class Generator(RDFGeneratorBase):
 # CLI / main()
 # ----------------------------------------------------------------------
 def parse_args(argv: list[str] | None = None):
+    """
+    Parse command line arguments.
+    :param argv: List of command line arguments (or None for sys.argv)
+    :return: Parsed arguments
+    """
     p = argparse.ArgumentParser(description="Build RDF for nrwbibdjg and (optionally) load & publish.")
-    p.add_argument("--load", action="store_true", help="Nach Generierung in Fuseki laden")
-    p.add_argument("--append", action="store_true", help="An Graph anhängen statt ersetzen")
+    p.add_argument("--load", action="store_true", help="Load into Fuseki after generation")
+    p.add_argument("--append", action="store_true", help="Append instead of replacing in Fuseki")
     p.add_argument(
         "--only-newer",
         action="store_true",
-        help="Nur laden, wenn Datei sich verändert hat (hash/mtime)",
+        help="Only load if file has not changed (hash/mtime)",
     )
-    p.add_argument("--no-dumps", action="store_true", help="Nicht in den Dumps-Ordner kopieren")
-    p.add_argument("--meta-only", action="store_true", help="Nur Metadaten schreiben (kein Datengraph)")
+    p.add_argument("--no-dumps", action="store_true", help="Don't copy files to dumps directory")
+    p.add_argument("--meta-only", action="store_true", help="Write only metadata, no data graph")
     p.add_argument(
         "--graph",
         default=None,
-        help="Named graph URI; Standard aus TOML: graph",
+        help="Named graph URI; Standard from frontmatter: graph",
     )
     return p.parse_args(argv)
 
 
 def main(argv: list[str] | None = None):
+    """
+    Main function to build the nrwbibdjg dataset.
+    :param argv: List of command line arguments (or None for sys.argv)
+    :return: None
+    """
     args = parse_args(argv)
 
     ds_root = Path(__file__).resolve().parents[1]  # …/nrwbibdjg/
@@ -372,7 +442,7 @@ def main(argv: list[str] | None = None):
 
     logger.info("Starting nrwbibdjg build (meta_only=%s)", args.meta_only)
 
-    # 1) Datengraph generieren
+    # 1) Generate data graph (.ttl + .gz)
     res: dict = {"status": "success", "ttl": str(out_dir / f"{SLUG}.ttl"), "slug": SLUG}
     ttl_path: Path | None = None
 
@@ -398,7 +468,7 @@ def main(argv: list[str] | None = None):
         gz_path = compress_file(ttl_path)
         logger.info("gzipped data: %s", gz_path)
 
-    # 2) Metadaten-Graph aus TOML (nrwbibdjg/nrwbibdjg.md)
+    # 2) Metadata graph from TOML (nrwbibdjg/nrwbibdjg.md)
     meta_md = ds_root / f"{SLUG}.md"
     meta_front = load_frontmatter_toml(meta_md) if meta_md.exists() else {}
 
@@ -421,7 +491,7 @@ def main(argv: list[str] | None = None):
 
     subject = DATASET_URI
 
-    # zusätzliche Felder aus Frontmatter
+    # additional metadata from frontmatter
     if (author := meta_front.get("author")):
         meta_g.add((subject, DCTERMS.creator, Literal(author)))
     if (authorlink := meta_front.get("authorlink")):
@@ -445,7 +515,7 @@ def main(argv: list[str] | None = None):
     meta_gz = compress_file(meta_ttl)
     logger.info("metadata written: %s (+ .gz)", meta_ttl)
 
-    # 3) Optional: in Fuseki laden (Datengraph + Metagraph)
+    # 3) Optional: load into Fuseki (data graph + meta graph)
     if args.load and not args.meta_only and ttl_path:
         graph_uri = args.graph or meta_front.get("graph")
 
@@ -453,7 +523,7 @@ def main(argv: list[str] | None = None):
             slug=SLUG,
             ttl_path=str(ttl_path),
             graph=graph_uri,
-            endpoint=None,  # aus ENV JL_FUSEKI_URL
+            endpoint=None,
             replace=(not args.append),
             only_newer=args.only_newer,
         )
@@ -468,7 +538,7 @@ def main(argv: list[str] | None = None):
         )
         print(json.dumps(lr_meta.__dict__, indent=2, ensure_ascii=False))
 
-    # 4) Optional: Kopie nach dumps
+    # 4) Optional: copy to dumps
     if not args.no_dumps:
         files: list[Path] = [meta_ttl, meta_gz]
         if ttl_path and ttl_path.exists() and not args.meta_only:
