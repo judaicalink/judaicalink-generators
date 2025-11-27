@@ -11,29 +11,27 @@ import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional, Tuple
-from urllib.parse import urljoin, urlparse
 
 import requests
 
-# Optional: rdflib für Triplezählung (nicht zwingend)
+# Optional: rdflib for counting triples
 try:
     from rdflib import Graph as RDFGraph  # type: ignore
 except Exception:  # pragma: no cover
     RDFGraph = None  # type: ignore
 
-
 # ---------------------------------------
-# Konfiguration über ENV
+# Configuration
 # ---------------------------------------
-ENV_FUSEKI_URL = "JL_FUSEKI_URL"            # z.B. http://localhost:3030/judaicalink
+ENV_FUSEKI_URL = "JL_FUSEKI_URL"  # e.g. http://localhost:3030/judaicalink
 ENV_FUSEKI_USER = "JL_FUSEKI_USER"
 ENV_FUSEKI_PASSWORD = "JL_FUSEKI_PASSWORD"
 ENV_USE_LEGACY_LOADER = "JL_USE_LEGACY_LOADER"  # "1" -> python -m loader.loader
-ENV_REQUEST_TIMEOUT = "JL_HTTP_TIMEOUT"         # Sekunden (default 60)
+ENV_REQUEST_TIMEOUT = "JL_HTTP_TIMEOUT"  # Seconds (default 60)
 
 
 # ---------------------------------------
-# Datentypen
+# Data types
 # ---------------------------------------
 @dataclass
 class LoadResult:
@@ -42,8 +40,8 @@ class LoadResult:
     endpoint: str
     graph: Optional[str]
     replaced: bool
-    status: str                # "success" | "skipped" | "error"
-    triples: Optional[int]     # geschätzte/gezählte Zahl (None wenn unbekannt)
+    status: str  # "success" | "skipped" | "error"
+    triples: Optional[int]  # counted number (None oif unknown)
     message: str
     loaded_at: float
 
@@ -52,6 +50,11 @@ class LoadResult:
 # Utilities
 # ---------------------------------------
 def _sha256_file(path: Path, chunk_size: int = 1024 * 1024) -> str:
+    """
+    Compute SHA256 hash of a file.
+    :param path: Path to file
+    :param chunk_size: Read chunk size
+    """
     h = hashlib.sha256()
     with path.open("rb") as f:
         for chunk in iter(lambda: f.read(chunk_size), b""):
@@ -60,11 +63,23 @@ def _sha256_file(path: Path, chunk_size: int = 1024 * 1024) -> str:
 
 
 def _state_file(ttl_path: Path) -> Path:
-    # Speichere State direkt neben TTL (gleiches Verzeichnis)
-    return ttl_path.parent / ".load_state.json"
+    """
+    Get path to state file for given TTL path.
+    Stored in ../tmp/.load_state.json relative to TTL file.
+    :param ttl_path: Path to TTL file
+    :return: Path to state file
+    """
+    # Save state file in tmp dir
+    os.mkdir("../tmp") if not Path("../tmp").exists() else None
+    return ttl_path.parent / "../tmp/.load_state.json"
 
 
 def _load_state(state_path: Path) -> dict:
+    """
+    Load state from JSON file.
+    :param state_path: Path to state file
+    :return: State dict
+    """
     if state_path.exists():
         try:
             return json.loads(state_path.read_text(encoding="utf-8"))
@@ -74,13 +89,23 @@ def _load_state(state_path: Path) -> dict:
 
 
 def _save_state(state_path: Path, state: dict) -> None:
+    """
+    Save state to JSON file.
+    2-space indent, UTF-8.
+    :param state_path: Path to state file
+    :param state: State dict
+    """
     state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def _should_load_newer(ttl_path: Path, slug: str, only_newer: bool) -> Tuple[bool, str]:
     """
-    Entscheide, ob geladen werden soll. Wenn only_newer=True,
-    vergleiche SHA256 und mtime mit zuvor gespeichertem State.
+    Determine if loading is necessary. If only_newer=True,
+    compare SHA256 and mtime with previously saved state.
+    :param ttl_path: Path to TTL file
+    :param slug: Dataset slug (for state tracking)
+    :param only_newer: Whether to check for newer
+    :return: (should_load: bool, reason: str)
     """
     if not only_newer:
         return True, "only_newer disabled"
@@ -100,8 +125,10 @@ def _should_load_newer(ttl_path: Path, slug: str, only_newer: bool) -> Tuple[boo
 
 def _estimate_triples(ttl_path: Path) -> Optional[int]:
     """
-    Schnelle, optionale Tripleanzahl. Bevorzugt rdflib,
-    fällt zurück auf simple Heuristik (Zeilen mit ' .').
+    Fast, optional triple count. Prefers rdflib,
+    falls back to simple heuristic (lines ending with ' .').
+    :param ttl_path: Path to TTL file
+    :return: Estimated triple count or None if unknown
     """
     if RDFGraph is not None:
         try:
@@ -111,7 +138,7 @@ def _estimate_triples(ttl_path: Path) -> Optional[int]:
         except Exception:
             pass
 
-    # Fallback (Heuristik)
+    # Fallback (Heuristics)
     try:
         cnt = 0
         with ttl_path.open("r", encoding="utf-8", errors="ignore") as f:
@@ -125,12 +152,15 @@ def _estimate_triples(ttl_path: Path) -> Optional[int]:
 
 def _normalize_fuseki_endpoint(base: str) -> str:
     """
-    Akzeptiert z.B.:
+    Normalizes Fuseki dataset endpoint to Graph Store Protocol /data endpoint.
+    Accepts for example:
       - http://host:3030/ds
       - http://host:3030/ds/
       - http://host:3030/ds/data
       - http://host:3030/ds/data/
-    und liefert die Graph Store Protocol Basis /data zurück.
+    and returns the Graph Store Protocol Base /data.
+    :param base: Base Fuseki dataset URL
+    :return: Normalized /data endpoint URL
     """
     base = base.rstrip("/")
     if base.endswith("/data"):
@@ -139,6 +169,10 @@ def _normalize_fuseki_endpoint(base: str) -> str:
 
 
 def _http_timeout() -> int:
+    """
+    Get HTTP request timeout from environment or default to 60 seconds.
+    :return: Timeout in seconds
+    """
     try:
         return int(os.environ.get(ENV_REQUEST_TIMEOUT, "60"))
     except Exception:
@@ -149,19 +183,34 @@ def _http_timeout() -> int:
 # HTTP (Graph Store Protocol)
 # ---------------------------------------
 def _fuseki_delete_graph(data_endpoint: str, graph_uri: str, auth: Optional[Tuple[str, str]]) -> None:
+    """
+    DELETE deletes the Named Graph in Fuseki.
+    :param data_endpoint: Fuseki /data endpoint
+    :param graph_uri: Named Graph URI to delete
+    :param auth: Optional Basic Auth tuple (user, password)
+    :return: None
+    """
     resp = requests.delete(
         data_endpoint,
         params={"graph": graph_uri},
         auth=auth,
         timeout=_http_timeout(),
     )
-    # 200 oder 204 sind OK; 404 ignorieren wir (Graph existiert evtl. nicht)
+    # Accept 200 or 204 are OK; 404 is ignored (missing graph)
     if resp.status_code not in (200, 204, 404):
         raise RuntimeError(f"DELETE graph failed ({resp.status_code}): {resp.text[:500]}")
 
 
 def _fuseki_put_graph(data_endpoint: str, graph_uri: str, turtle: bytes, auth: Optional[Tuple[str, str]]) -> None:
-    # PUT lädt/ersetzt einen Graphen
+    """
+    PUT loads/replaces a Named Graph in Fuseki.
+    :param data_endpoint: Fuseki /data endpoint
+    :param graph_uri: Named Graph URI to load
+    :param turtle: Turtle data as bytes
+    :param auth: Optional Basic Auth tuple (user, password)
+    :return: None
+    """
+    # PUT loads/replaces the graph
     resp = requests.put(
         data_endpoint,
         params={"graph": graph_uri},
@@ -176,8 +225,13 @@ def _fuseki_put_graph(data_endpoint: str, graph_uri: str, turtle: bytes, auth: O
 
 def _fuseki_post_default(data_endpoint: str, turtle: bytes, auth: Optional[Tuple[str, str]], append: bool) -> None:
     """
-    Default-Graph laden: POST (append) oder PUT (replace) gegen ?default.
-    Viele Fuseki-Setups erlauben POST -> Append in Default Graph.
+    Load default graph in Fuseki: POST (append) or PUT (replace) to ?default.
+    Usually Fuseki setups allow POST -> Append in Default Graph.
+    :param data_endpoint: Fuseki /data endpoint
+    :param turtle: Turtle data as bytes
+    :param auth: Optional Basic Auth tuple (user, password)
+    :param append: If True, use POST to append; if False, use PUT to replace
+    :return: None
     """
     if append:
         resp = requests.post(
@@ -208,8 +262,12 @@ def _fuseki_post_default(data_endpoint: str, turtle: bytes, auth: Optional[Tuple
 # ---------------------------------------
 def _run_legacy_loader(slug: str, ttl_path: Path, endpoint: str) -> int:
     """
-    Fallback: vorhandenen judaicalink-loader als Subprozess benutzen.
-    Erwartet: python -m loader.loader --dataset <slug> --ttl <file> --endpoint <fuseki>
+    Fallback: use existing judaicalink-loader as subprocess.
+    Expects: python -m loader.loader --dataset <slug> --ttl <file> --endpoint <fuseki>
+    :param slug: Dataset slug
+    :param ttl_path: Path to TTL file
+    :param endpoint: Fuseki endpoint
+    :return: Subprocess return code
     """
     cmd = f"python -m loader.loader --dataset {shlex.quote(slug)} --ttl {shlex.quote(str(ttl_path))} --endpoint {shlex.quote(endpoint)}"
     return subprocess.call(cmd, shell=True)
@@ -219,26 +277,28 @@ def _run_legacy_loader(slug: str, ttl_path: Path, endpoint: str) -> int:
 # Public API
 # ---------------------------------------
 def load_to_fuseki(
-    slug: str,
-    ttl_path: str | Path,
-    endpoint: Optional[str] = None,
-    graph: Optional[str] = None,
-    replace: bool = True,
-    only_newer: bool = False,
-    use_legacy: Optional[bool] = None,
-    username: Optional[str] = None,
-    password: Optional[str] = None,
+        slug: str,
+        ttl_path: str | Path,
+        endpoint: Optional[str] = None,
+        graph: Optional[str] = None,
+        replace: bool = True,
+        only_newer: bool = False,
+        use_legacy: Optional[bool] = None,
+        username: Optional[str] = None,
+        password: Optional[str] = None,
 ) -> LoadResult:
     """
-    Lade eine TTL-Datei in Fuseki.
-    - slug:          Datensatz-Slug (für State-Datei & Legacy-CLI)
-    - ttl_path:      Pfad zur Turtle-Datei
-    - endpoint:      Fuseki-Dataset-Basis (ohne /data); wenn None -> ENV JL_FUSEKI_URL
-    - graph:         Named Graph URI; None => Default Graph
-    - replace:       True => Graph ersetzen; False => an Graph anhängen
-    - only_newer:    True => nur laden, wenn Datei sich verändert hat (hash/mtime)
-    - use_legacy:    True => zwinge Legacy-Loader; False => HTTP; None => ENV JL_USE_LEGACY_LOADER
-    - username/password: Basic Auth; wenn None -> ENV JL_FUSEKI_USER/PASSWORD
+    Load a Turtle file into a Fuseki dataset via HTTP Graph Store Protocol or legacy loader.
+    :param slug: Dataset slug (for state file & legacy CLI)
+    :param ttl_path: Path to Turtle file
+    :param endpoint: Fuseki dataset base (without /data); if None -> ENV JL_FUSEKI_URL
+    :param graph: Named Graph URI; None => Default Graph
+    :param replace: True => replace graph; False => append to graph
+    :param only_newer: True => only load if file has changed (hash/mtime)
+    :param use_legacy: True => force legacy loader; False => HTTP; None => ENV JL_USE_LEGACY_LOADER
+    :param username: Basic Auth username; if None -> ENV JL_FUSEKI_USER
+    :param password: Basic Auth password; if None -> ENV JL_FUSEKI_PASSWORD
+    :return: LoadResult
     """
     start_ts = time.time()
     ttl = Path(ttl_path)
@@ -297,12 +357,12 @@ def load_to_fuseki(
 
     if graph:
         if replace:
-            # Löschen & neu setzen (robuster bei vielen Triples)
+            # Delete & set new (more robust for many triples)
             _fuseki_delete_graph(data_endpoint, graph, auth)
             _fuseki_put_graph(data_endpoint, graph, turtle_bytes, auth)
         else:
-            # Anhängen: PUT überschreibt; für Append bräuchte man SPARQL Update INSERT DATA.
-            # Einfache Lösung: POST auf /update mit INSERT DATA.
+            # Attach: PUT overwrites; for Append need SPARQL Update INSERT DATA.
+            # Simple solution: POST to /update with INSERT DATA.
             _sparql_insert_data(endpoint, turtle_bytes, graph, auth)
     else:
         # Default Graph
@@ -324,6 +384,12 @@ def load_to_fuseki(
 
 
 def _persist_state(ttl: Path, slug: str) -> None:
+    """"
+    Persist load state (SHA256, mtime, loaded_at) for given TTL and slug.
+    :param ttl: Path to TTL file
+    :param slug: Dataset slug
+    :return: None
+    """
     state_path = _state_file(ttl)
     state = _load_state(state_path)
     state[slug] = {
@@ -335,21 +401,26 @@ def _persist_state(ttl: Path, slug: str) -> None:
 
 
 def _sparql_insert_data(
-    endpoint_base: str,
-    turtle_bytes: bytes,
-    graph_uri: str,
-    auth: Optional[Tuple[str, str]],
+        endpoint_base: str,
+        turtle_bytes: bytes,
+        graph_uri: str,
+        auth: Optional[Tuple[str, str]],
 ) -> None:
     """
-    Führe INSERT DATA in benannten Graph aus.
-    Nutzt /update Endpoint (SPARQL Update). Erwartet Turtle im Request,
-    konvertiert minimal, indem die Bytes als String eingebettet werden.
-    Hinweis: Für sehr große TTLs ist das nicht ideal – dann lieber
-    Replace-Strategie verwenden.
+    Execute INSERT DATA on named graph.
+    Uses /update endpoint (SPARQL update). Expects Turtle in the request,
+    converts minimally by embedding the bytes as a string.
+    Note: This is not ideal for very large TTLs – in that case, it's better to use
+    a replacement strategy.
+    :param endpoint_base: Fuseki dataset base URL
+    :param turtle_bytes: Turtle data as bytes
+    :param graph_uri: Named Graph URI
+    :param auth: Optional Basic Auth tuple (user, password)
+    :return: None
     """
     update_endpoint = endpoint_base.rstrip("/") + "/update"
 
-    # Turtle als String einbetten (vorsichtig mit '"""' Quotes)
+    # Embedd Turtle as string (cautious with '"""' quotes)
     turtle_str = turtle_bytes.decode("utf-8", errors="ignore")
     sparql = f"INSERT DATA {{ GRAPH <{graph_uri}> {{\n{turtle_str}\n}} }}"
 
@@ -363,23 +434,32 @@ def _sparql_insert_data(
     if resp.status_code not in (200, 204):
         raise RuntimeError(f"SPARQL INSERT DATA failed ({resp.status_code}): {resp.text[:500]}")
 
-# --- NEU: subject-spezifisches UPSERT im gemeinsamen Metadata-Graph ---
+
+# --- subject specific UPSERT in common metadata graph ---
 
 def upsert_metadata_graph(
-    slug: str,
-    ttl_path: str | Path,
-    endpoint: Optional[str] = None,
-    graph: str = "http://data.judaicalink.org/datasets",
-    subject: Optional[str] = None,
-    only_newer: bool = False,
-    username: Optional[str] = None,
-    password: Optional[str] = None,
+        slug: str,
+        ttl_path: str | Path,
+        endpoint: Optional[str] = None,
+        graph: str = "http://data.judaicalink.org/datasets",
+        subject: Optional[str] = None,
+        only_newer: bool = False,
+        username: Optional[str] = None,
+        password: Optional[str] = None,
 ) -> LoadResult:
     """
-    Ersetzt NUR die Metadaten für `subject` innerhalb des gemeinsamen Named Graphs `graph`.
-    Andere Subjects in `graph` bleiben unverändert.
-
-    Erwartung: Die TTL-Datei enthält NUR Tripel zum gewünschten Subject (und dessen Blank Nodes).
+    Replaces ONLY the metadata for `subject` within the shared named graph `graph`.
+    Other subjects in `graph` remain unchanged.
+    Expectation: The TTL file contains ONLY triples for the desired subject (and its blank nodes).
+    :param slug: Dataset slug (for state file)
+    :param ttl_path: Path to Turtle file
+    :param endpoint: Fuseki dataset base (without /data); if None -> ENV JL_FUSEKI_URL
+    :param graph: Named Graph URI (default: common metadata graph)
+    :param subject: Subject URI to upsert; if None -> derived from slug
+    :param only_newer: True => only load if file has changed (hash/mtime)
+    :param username: Basic Auth username; if None -> ENV JL_FUSEKI_USER
+    :param password: Basic Auth password; if None -> ENV JL_FUSEKI_PASSWORD
+    :return: LoadResult
     """
     start_ts = time.time()
     ttl = Path(ttl_path)
@@ -388,13 +468,13 @@ def upsert_metadata_graph(
 
     endpoint = endpoint or os.environ.get(ENV_FUSEKI_URL, "").strip()
     if not endpoint:
-        raise RuntimeError(f"Keine Fuseki-URL gesetzt (ENV {ENV_FUSEKI_URL}).")
+        raise RuntimeError(f"Fuseki URL not set (ENV {ENV_FUSEKI_URL}).")
 
     username = username if username is not None else os.environ.get(ENV_FUSEKI_USER)
     password = password if password is not None else os.environ.get(ENV_FUSEKI_PASSWORD)
     auth = (username, password) if username and password else None
 
-    # Subject ableiten: entweder explizit oder aus Dateinamen/Slug
+    # Derive subject: either explicitly or from filename/slug
     if not subject:
         # Standard: http://data.judaicalink.org/datasets/<slug>
         subject = f"http://data.judaicalink.org/datasets/{slug}"
@@ -414,10 +494,10 @@ def upsert_metadata_graph(
             loaded_at=time.time(),
         )
 
-    # 1) DELETE nur für dieses Subject (inkl. direkt verlinkter Blank Nodes)
-    #    Zwei-Phasen-Löschung:
-    #    (a) alle Tripel mit <subject> als Subjekt
-    #    (b) alle Tripel mit Blanknodes als Subjekt, die als Objekt von <subject> fungieren (eine Ebene)
+    # 1) DELETE only for this subject (including directly linked blank nodes)
+    # Two-phase deletion:
+    # (a) all triples with <subject> as the subject
+    # (b) all triples with blank nodes as the subject that function as objects of <subject> (one level)
     update_endpoint = endpoint.rstrip("/") + "/update"
     delete_subj = f"""
     DELETE WHERE {{
@@ -426,7 +506,7 @@ def upsert_metadata_graph(
       }}
     }}
     """
-    # Blanknode-Tripel, die an <subject> hängen (eine Ebene)
+    # Blank node triples attached to <subject> (one level)
     delete_bnodes = f"""
     DELETE {{
       GRAPH <{graph}> {{
@@ -453,9 +533,9 @@ def upsert_metadata_graph(
         if resp.status_code not in (200, 204):
             raise RuntimeError(f"SPARQL UPDATE failed ({resp.status_code}): {resp.text[:500]}")
 
-    # 2) INSERT DATA mit den neuen Tripeln (aus der TTL-Datei)
-    # Turtle mit @prefix ist in INSERT DATA nicht erlaubt.
-    # -> Wir parsen die Datei und serialisieren nach N-Triples (ohne Prefixes).
+    # 2) INSERT DATA with the new triples (from the TTL file)
+    # Turtle with @prefix is not allowed in INSERT DATA.
+    # -> We parse the file and serialize for N triples (without prefixes).
     if RDFGraph is None:
         raise RuntimeError("rdflib (RDFGraph) is required for upsert_metadata_graph")
 
@@ -484,17 +564,23 @@ def upsert_metadata_graph(
         ttl_path=str(ttl),
         endpoint=endpoint,
         graph=graph,
-        replaced=False,  # wir haben nicht den ganzen Graph ersetzt, nur Subjekt-Teil upserted
+        replaced=False,
         status="success",
         triples=_estimate_triples(ttl),
         message=f"Upsert in metadata graph <{graph}> for subject <{subject}>",
         loaded_at=time.time(),
     )
 
+
 # ---------------------------------------
 # CLI
 # ---------------------------------------
 def _cli(argv: list[str]) -> int:
+    """
+    Command-line interface for loading TTL into Fuseki.
+    :param argv: Command-line arguments
+    :return: Exit code
+    """
     import argparse
 
     p = argparse.ArgumentParser(description="Load a TTL into Fuseki.")
