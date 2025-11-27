@@ -1,4 +1,26 @@
-# JudaicaLink Generator
+# JudaicaLink Generators
+
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
+![license](https://badgen.net/badge/license/MIT/blue)
+![Maintenance](https://img.shields.io/maintenance/yes/2025)
+
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+
+![github](https://badgen.net/badge/icon/github?icon=github&label)
+![release](https://badgen.net/github/release/judaicalink/judaicalink-generators?color=green)
+![releases](https://badgen.net/github/releases/judaicalink/judaicalink-generators)
+![stars](https://badgen.net/github/stars/judaicalink/judaicalink-generators)![forks](https://badgen.net/github/forks/judaicalink/judaicalink-generators)
+![issues](https://badgen.net/github/issues/judaicalink/judaicalink-generators)
+![commits](https://badgen.net/github/commits/judaicalink/judaicalink-generators)
+![last-commit](https://badgen.net/github/last-commit/judaicalink/judaicalink-generators)
+![branches](https://badgen.net/github/branches/judaicalink/judaicalink-generators)
+![contributors](https://badgen.net/github/contributors/judaicalink/judaicalink-generators)
+
+![wiki](https://badgen.net/badge/icon/wiki?icon=wiki&label)
+[![Documentation Status](https://readthedocs.org/projects/judaicalink-docs/badge/?version=latest)](http://judaicalink-docs.readthedocs.io/?badge=latest)
+
+![discord](https://badgen.net/badge/icon/discord?icon=discord&label)
+![Discord](https://img.shields.io/discord/696646598868074576)
 
 This repository is part of the JudaicaLink project (https://judaicalink.org/), which aims to create a comprehensive knowledge base for Jewish studies by integrating various datasets and resources.
 It is used to generate the datasets for the JudaicaLink knowledge graph.
