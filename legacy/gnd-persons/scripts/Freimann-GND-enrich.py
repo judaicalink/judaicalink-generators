@@ -131,7 +131,7 @@ if (u"x",u"label",u"id",u"y",u"birth") in results: #fifth round
 #graphuni.serialize(destination='Freimann-GND-enriched-02.ttl', format="turtle") #the second generated file
 #graphuni.serialize(destination='Freimann-GND-enriched-03.ttl', format="turtle") #the third generated file
 #graphuni.serialize(destination='Freimann-GND-enriched-04.ttl', format="turtle") #the fourth generated file
-graphuni.serialize(destination='Freimann-GND-enriched-05.ttl', format="turtle") #the fourth generated file
+graphuni.serialize(destination='../output/Freimann-GND-enriched-05.ttl', format="turtle") #the fourth generated file
 
 
 

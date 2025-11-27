@@ -82,7 +82,7 @@ results = sparql.query().convert()
 if (u"person",u"occ",u"name",u"occname",u"occont",u"label") in results:
     bindings = results[u"person",u"occ",u"name",u"occname",u"occont",u"label"]
     for b in bindings:
-       print b
+       print(b)
 
        name = b[u"name"].value.encode('utf-8')
        label = b[u"label"].value.encode('utf-8')
@@ -98,26 +98,26 @@ if (u"person",u"occ",u"name",u"occname",u"occont",u"label") in results:
        if ',' and ' ' not in b[u"name"].value: #check if the name has only one part
 
         jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
-        print jlURI
+        print(jlURI)
 
        elif b[u"name"].value.count(',') == 2: #check if the name has more that 3 parts
 
         altname = name.rsplit(',',2)[1].strip() + ' ' + name.rsplit(',',2)[1].strip() + ' ' + name.rsplit(',',2)[2].strip()
         jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
-        print jlURI
+        print(jlURI)
 
        elif b[u"name"].value.count(',') == 1: #check if the name has 2 parts
 
 
         altname = name.rsplit(',',1)[1].strip() + ' ' + name.rsplit(',',1)[0]
         jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
-        print jlURI
+        print(jlURI)
 
        elif ',' not in b[u"name"].value: #check if name parts are separated with space insetad of ','
 
         altname = name.rsplit(' ',1)[1].strip() + ' ' + name.rsplit(' ',1)[0]
         jlURI = 'http://data.judaicalink.org/data/gnd/' + URIending
-        print jlURI
+        print(jlURI)
 
        g.add( (URIRef(jlURI), RDF.type , foaf.Person ) )
        g.add( (URIRef(jlURI), skos.altLabel , Literal(label) ) )
@@ -126,4 +126,4 @@ if (u"person",u"occ",u"name",u"occname",u"occont",u"label") in results:
        g.add( (URIRef(jlURI), gndo.gndIdentifier , URIRef(b[u"person"].value) ) )
        g.add( (URIRef(jlURI), jl.occupation , URIRef(b[u"occont"].value) ) )
 
-g.serialize(destination = 'generated_person_GND_Occontology.ttl' , format="turtle")
+g.serialize(destination = '../output/generated_person_GND_Occontology.ttl' , format="turtle")

@@ -75,6 +75,6 @@ for row in data:
         graph.add((URIRef(uri), jl.Occupation,(Literal(occupation)) ))
 
 
-graph.serialize(destination='Haskala_net.ttl', format="turtle")
+graph.serialize(destination='../output/Haskala_net.ttl', format="turtle")
 
 

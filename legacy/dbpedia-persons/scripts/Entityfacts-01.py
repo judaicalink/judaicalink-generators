@@ -1,17 +1,14 @@
-#this code extarctes the sameAs links from the entityfacts pages.
+# this code extarctes the sameAs links from the entityfacts pages.
 
 
-#import urllib2
+import os
+# import urllib2
 import urllib.request as urllib2
+
+from SPARQLWrapper import SPARQLWrapper2, XML
 from bs4 import BeautifulSoup
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal
-from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON , TURTLE
-from rdflib.namespace import RDF, FOAF , OWL
-import os , glob
-import csv
-import re
-import time
+from rdflib import Namespace, URIRef, Graph
+from rdflib.namespace import RDF
 
 os.chdir(os.getcwd())
 
@@ -23,14 +20,13 @@ foaf = Namespace("http://xmlns.com/foaf/0.1/")
 skos = Namespace("http://www.w3.org/2004/02/skos/core#")
 gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
 jl = Namespace("http://data.judaicalink.org/ontology/")
-owl = Namespace ("http://www.w3.org/2002/07/owl#")
+owl = Namespace("http://www.w3.org/2002/07/owl#")
 
 graph.bind('skos', skos)
-graph.bind ('foaf' , foaf)
-graph.bind ('jl' , jl)
-graph.bind('gndo',gndo)
-graph.bind ('owl' , owl)
-
+graph.bind('foaf', foaf)
+graph.bind('jl', jl)
+graph.bind('gndo', gndo)
+graph.bind('owl', owl)
 
 sparql.setQuery("""
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -68,39 +64,38 @@ sparql.setReturnFormat(XML)
 
 results = sparql.query().convert()
 
-
-for i in range(0,len(results.bindings)):
+for i in range(0, len(results.bindings)):
 
     gnd = results.bindings[i]['gnd'].value
     URI = results.bindings[i]['o'].value
 
     sameURI = 'http://hub.culturegraph.org/entityfacts/' + str(gnd)
-    print (sameURI)
+    print(sameURI)
     try:
         page = urllib2.urlopen(sameURI)
         soup = BeautifulSoup(page)
 
-        lines=[]
+        lines = []
 
         for line in soup.contents[0].splitlines():
-            print (line)
+            print(line)
             lines.append(line)
 
-        print (lines)
+        print(lines)
 
-        for i in range (0,len(lines)):
+        for i in range(0, len(lines)):
             if 'sameAs' in lines[i]:
-                for j in range (i+1 , len(lines)):
+                for j in range(i + 1, len(lines)):
                     if '@id' in lines[j]:
-                        same = lines[j].rsplit('"',2)[1]
-                        graph.add((URIRef(URI), RDF.type ,foaf.Person ))
-                        graph.add((URIRef(URI), owl.sameAs ,(URIRef(same)) ))
-                        graph.add((URIRef(URI), owl.sameAs ,(URIRef(sameURI)) ))
-                        print (same)
+                        same = lines[j].rsplit('"', 2)[1]
+                        graph.add((URIRef(URI), RDF.type, foaf.Person))
+                        graph.add((URIRef(URI), owl.sameAs, (URIRef(same))))
+                        graph.add((URIRef(URI), owl.sameAs, (URIRef(sameURI))))
+                        print(same)
                 break;
     except:
         continue;
 
-#graph.serialize(destination='Entityfacts-freimann-sameas.ttl', format="turtle")
-#graph.serialize(destination='Entityfacts-gnd-sameas.ttl', format="turtle")
-graph.serialize(destination='Entityfacts-ubgnd-sameas.ttl', format="turtle")
+# graph.serialize(destination='Entityfacts-freimann-sameas.ttl', format="turtle")
+# graph.serialize(destination='Entityfacts-gnd-sameas.ttl', format="turtle")
+graph.serialize(destination='../output/Entityfacts-ubgnd-sameas.ttl', format="turtle")

@@ -1,4 +1,3 @@
-import rdflib
 import SPARQLWrapper as sw
 
 prefixes = []
@@ -6,23 +5,27 @@ prefixes.append(('skos', 'http://www.w3.org/2004/02/skos/core#'))
 
 sparql = sw.SPARQLWrapper2("http://localhost:3030/judaicalink/sparql")
 
+
 def get_prefixes():
     return "\n".join(["PREFIX {}: <{}>".format(prefix, url) for prefix, url in prefixes])
+
 
 def sparql_query(q):
     q = get_prefixes() + "\n\n" + q
     sparql.setQuery(q)
     return sparql.query()
 
+
 def get_named_graphs():
     result = sparql_query('SELECT DISTINCT ?g WHERE { GRAPH ?g { ?s ?p ?o } }')
-    return [ b['g'].value for b in result.bindings]
+    return [b['g'].value for b in result.bindings]
 
 
 def get_all_resources(dataset):
     query = "SELECT DISTINCT ?s WHERE {{ GRAPH <{0}> {{?s ?p ?o}} }}".format(dataset)
     result = sparql_query(query)
-    return [ b['s'].value for b in result.bindings]
+    return [b['s'].value for b in result.bindings]
+
 
 def get_labels(uri):
     query = """
@@ -35,7 +38,8 @@ def get_labels(uri):
     }}
     """.format(uri, uri)
     result = sparql_query(query)
-    return [ b['l'].value for b in result.bindings]
+    return [b['l'].value for b in result.bindings]
+
 
 def get_resource_by_label(ds, labels):
     query = """
@@ -49,16 +53,14 @@ def get_resource_by_label(ds, labels):
             
             }}
         }} 
-    """.format(ds, "\n} UNION {\n".join(['{{ ?s skos:prefLabel "{}" }} UNION {{ ?s skos:altLabel "{}" }}'.format(l, l) for l in labels]))
+    """.format(ds, "\n} UNION {\n".join(
+        ['{{ ?s skos:prefLabel "{}" }} UNION {{ ?s skos:altLabel "{}" }}'.format(l, l) for l in labels]))
     # print(query)
     result = sparql_query(query)
-    return [ b['s'].value for b in result.bindings]
+    return [b['s'].value for b in result.bindings]
 
 
-
-
-
-print ("\n".join(get_named_graphs()))
+print("\n".join(get_named_graphs()))
 
 ds1 = 'http://data.judaicalink.org/data/yivo'
 ds2 = 'http://data.judaicalink.org/data/dbpedia-persons'
@@ -94,5 +96,4 @@ for res in yivo_resources:
         print('Error on {} with these labels: {}'.format(res, labels))
 
 len(linked_resources)
-get_resource_by_label(ds3,['Abeles, Shim‘on'])
-
+get_resource_by_label(ds3, ['Abeles, Shim‘on'])

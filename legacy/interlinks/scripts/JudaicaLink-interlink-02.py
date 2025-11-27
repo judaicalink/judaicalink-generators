@@ -1,19 +1,15 @@
-#Maral Dadvar
-#02/10/2017
-#This scripts look sfor sameAs lines between bhr and JudaicaLink
+# Maral Dadvar
+# 02/10/2017
+# This scripts look sfor sameAs lines between bhr and JudaicaLink
 
-import unicodedata
-import os , glob
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal , OWL, RDFS , RDF
-from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
-import re
-import pprint
+import os
+
+from SPARQLWrapper import SPARQLWrapper2, TURTLE
+from rdflib import Namespace, URIRef, Graph
 
 os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://localhost:3030/judaicalink/sparql")
-
 
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 rdf = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
@@ -23,13 +19,12 @@ owl = Namespace("http://www.w3.org/2002/07/owl#")
 
 g = Graph()
 
+g.bind('foaf', foaf)
+g.bind('jl', jl)
+g.bind('skos', skos)
+g.bind('owl', owl)
 
-g.bind('foaf',foaf)
-g.bind('jl',jl)
-g.bind('skos',skos)
-g.bind('owl',owl)
-
-spar1= """
+spar1 = """
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX gndo: <http://d-nb.info/standards/elementset/gnd#>
     PREFIX pro: <http://purl.org/hpi/patchr#>
@@ -70,29 +65,30 @@ sparql.setQuery(spar1)
 sparql.setReturnFormat(TURTLE)
 results = sparql.query().convert()
 
-if (u"x",u"sameas") in results:
-    bindings = results[u"x",u"sameas"]
+if (u"x", u"sameas") in results:
+    bindings = results[u"x", u"sameas"]
     for b in bindings:
-       print b
-       if 'http://data.judaicalink.org/data/bhr' in b[u"sameas"].value:
-            g.add( (URIRef(b[u"x"].value), owl.sameAs , URIRef(b[u"sameas"].value) ) )
+        print(b)
 
-       if 'http://data.judaicalink.org/data/yivo' in b[u"sameas"].value:
-            g.add( (URIRef(b[u"x"].value), owl.sameAs , URIRef(b[u"sameas"].value) ) )
+        if 'http://data.judaicalink.org/data/bhr' in b[u"sameas"].value:
+            g.add((URIRef(b[u"x"].value), owl.sameAs, URIRef(b[u"sameas"].value)))
 
-       if 'http://data.judaicalink.org/data/djh' in b[u"sameas"].value:
-            g.add( (URIRef(b[u"x"].value), owl.sameAs , URIRef(b[u"sameas"].value) ) )
+        if 'http://data.judaicalink.org/data/yivo' in b[u"sameas"].value:
+            g.add((URIRef(b[u"x"].value), owl.sameAs, URIRef(b[u"sameas"].value)))
 
-       if 'http://data.judaicalink.org/data/rujen' in b[u"sameas"].value:
-            g.add( (URIRef(b[u"x"].value), owl.sameAs , URIRef(b[u"sameas"].value) ) )
+        if 'http://data.judaicalink.org/data/djh' in b[u"sameas"].value:
+            g.add((URIRef(b[u"x"].value), owl.sameAs, URIRef(b[u"sameas"].value)))
 
-       if 'http://data.judaicalink.org/data/gnd' in b[u"sameas"].value:
-            g.add( (URIRef(b[u"x"].value), owl.sameAs , URIRef(b[u"sameas"].value) ) )
+        if 'http://data.judaicalink.org/data/rujen' in b[u"sameas"].value:
+            g.add((URIRef(b[u"x"].value), owl.sameAs, URIRef(b[u"sameas"].value)))
 
-       if 'http://data.judaicalink.org/data/dbpedia' in b[u"sameas"].value:
-            g.add( (URIRef(b[u"x"].value), owl.sameAs , URIRef(b[u"sameas"].value) ) )
+        if 'http://data.judaicalink.org/data/gnd' in b[u"sameas"].value:
+            g.add((URIRef(b[u"x"].value), owl.sameAs, URIRef(b[u"sameas"].value)))
 
-spar2= """
+        if 'http://data.judaicalink.org/data/dbpedia' in b[u"sameas"].value:
+            g.add((URIRef(b[u"x"].value), owl.sameAs, URIRef(b[u"sameas"].value)))
+
+spar2 = """
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX gndo: <http://d-nb.info/standards/elementset/gnd#>
     PREFIX pro: <http://purl.org/hpi/patchr#>
@@ -126,30 +122,24 @@ sparql.setQuery(spar2)
 sparql.setReturnFormat(TURTLE)
 results = sparql.query().convert()
 
-if (u"x",u"sameas") in results:
-    bindings = results[u"x",u"sameas"]
+if (u"x", u"sameas") in results:
+    bindings = results[u"x", u"sameas"]
     for b in bindings:
-       print b
-       if 'http://data.judaicalink.org/data/bhr' in b[u"sameas"].value:
-            g.add( (URIRef(b[u"x"].value), owl.sameAs , URIRef(b[u"sameas"].value) ) )
+        print(b)
 
-       if 'http://data.judaicalink.org/data/yivo' in b[u"sameas"].value:
-            g.add( (URIRef(b[u"x"].value), owl.sameAs , URIRef(b[u"sameas"].value) ) )
+        if 'http://data.judaicalink.org/data/bhr' in b[u"sameas"].value:
+            g.add((URIRef(b[u"x"].value), owl.sameAs, URIRef(b[u"sameas"].value)))
 
-       if 'http://data.judaicalink.org/data/djh' in b[u"sameas"].value:
-            g.add( (URIRef(b[u"x"].value), owl.sameAs , URIRef(b[u"sameas"].value) ) )
+        if 'http://data.judaicalink.org/data/yivo' in b[u"sameas"].value:
+            g.add((URIRef(b[u"x"].value), owl.sameAs, URIRef(b[u"sameas"].value)))
 
-       if 'http://data.judaicalink.org/data/rujen' in b[u"sameas"].value:
-            g.add( (URIRef(b[u"x"].value), owl.sameAs , URIRef(b[u"sameas"].value) ) )
+        if 'http://data.judaicalink.org/data/djh' in b[u"sameas"].value:
+            g.add((URIRef(b[u"x"].value), owl.sameAs, URIRef(b[u"sameas"].value)))
 
-       if 'http://data.judaicalink.org/data/gnd' in b[u"sameas"].value:
-            g.add( (URIRef(b[u"x"].value), owl.sameAs , URIRef(b[u"sameas"].value) ) )
+        if 'http://data.judaicalink.org/data/rujen' in b[u"sameas"].value:
+            g.add((URIRef(b[u"x"].value), owl.sameAs, URIRef(b[u"sameas"].value)))
 
+        if 'http://data.judaicalink.org/data/gnd' in b[u"sameas"].value:
+            g.add((URIRef(b[u"x"].value), owl.sameAs, URIRef(b[u"sameas"].value)))
 
-
-
-g.serialize(destination = 'interlinks-03.ttl' , format="turtle")
-
-
-
-
+g.serialize(destination='../output/interlinks-03.ttl', format="turtle")

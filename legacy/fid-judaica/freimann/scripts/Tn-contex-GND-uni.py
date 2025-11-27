@@ -1,18 +1,14 @@
-#Maral Dadvar
-#21/07/2017
-#This script enriches the common UB and GND athors files with GND-id. This is for those with only one GND-ID.
+# Maral Dadvar
+# 21/07/2017
+# This script enriches the common UB and GND athors files with GND-id. This is for those with only one GND-ID.
 
 
+import os
 
-import unicodedata
-import os , glob
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal , OWL, RDFS , RDF
-from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
-import re
-import pprint
+from rdflib import Namespace, URIRef, Graph, Literal, OWL, RDFS, RDF
 
-script_dir = os.path.dirname(os.path.abspath(__file__)); os.chdir(script_dir)
+script_dir = os.path.dirname(os.path.abspath(__file__));
+os.chdir(script_dir)
 
 path = script_dir  # adapted to the list file path
 
@@ -23,26 +19,22 @@ rdf = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
 jl = Namespace("http://data.judaicalink.org/ontology/")
 gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
 skos = Namespace("http://www.w3.org/2004/02/skos/core#")
-dc = Namespace ("http://purl.org/dc/elements/1.1/")
+dc = Namespace("http://purl.org/dc/elements/1.1/")
 edm = Namespace("http://www.europeana.eu/schemas/edm/")
 
 graphout.bind('jl', jl)
-graphout.bind('rdfs',RDFS)
-graphout.bind('foaf',foaf)
-graphout.bind('skos',skos)
-graphout.bind('owl',OWL)
-graphout.bind('gndo',gndo)
-graphout.bind('dc',dc)
-graphout.bind('edm',edm)
-
-
+graphout.bind('rdfs', RDFS)
+graphout.bind('foaf', foaf)
+graphout.bind('skos', skos)
+graphout.bind('owl', OWL)
+graphout.bind('gndo', gndo)
+graphout.bind('dc', dc)
+graphout.bind('edm', edm)
 
 graph = Graph()
 graph.parse(os.path.join(script_dir, 'Tn-gnd-uni.rdf'), format="turtle")
 
-
-
-spar1= """
+spar1 = """
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX gndo: <http://d-nb.info/standards/elementset/gnd#>
         PREFIX pro: <http://purl.org/hpi/patchr#>
@@ -71,13 +63,10 @@ spar1= """
 
 result = graph.query(spar1)
 
-
-
-
 g = Graph()
 g.parse(os.path.join(script_dir, 'Tn-authors.ttl'), format="turtle")
 
-spar= """
+spar = """
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX gndo: <http://d-nb.info/standards/elementset/gnd#>
         PREFIX pro: <http://purl.org/hpi/patchr#>
@@ -103,34 +92,25 @@ spar= """
 
 results = g.query(spar)
 
+for ubitem in results:  # names from UB Freimann
 
-for ubitem in results: #names from UB Freimann
+    # print str(ubitem[0]) , str(ubitem[1]) , str(ubitem[2])
 
-   #print str(ubitem[0]) , str(ubitem[1]) , str(ubitem[2])
+    name = ubitem[1].encode('utf-8')  # name of the author
+    print
+    '.........', name
+    graphout.add((URIRef(ubitem[0]), RDF.type, edm.WebResource))
+    graphout.add((URIRef(ubitem[0]), dc.creator, Literal(name)))
+    graphout.add((URIRef(ubitem[0]), dc.Personidentifier, Literal(ubitem[2])))
 
+    for item in result:  # names from GND generated persons
 
-   name = ubitem[1].encode('utf-8') #name of the author
-   print '.........',name
-   graphout.add((URIRef(ubitem[0]), RDF.type , edm.WebResource ))
-   graphout.add( (URIRef(ubitem[0]), dc.creator , Literal(name) ) )
-   graphout.add( (URIRef(ubitem[0]), dc.Personidentifier , Literal(ubitem[2]) ) )
+        # print item
+        if item[1].encode('utf-8') == name:
+            print
+            item[1], name
 
+            graphout.add((URIRef(ubitem[0]), RDF.type, edm.WebResource))
+            graphout.add((URIRef(ubitem[0]), gndo.gndIdentifier, URIRef(item[0])))
 
-   for item in result: #names from GND generated persons
-
-      #print item
-      if item[1].encode('utf-8') == name:
-
-           print  item[1] , name
-
-           graphout.add((URIRef(ubitem[0]), RDF.type , edm.WebResource ))
-           graphout.add( (URIRef(ubitem[0]), gndo.gndIdentifier , URIRef(item[0]) ) )
-
-
-graphout.serialize(destination = 'Tn-authors-context-GND-uni.rdf' , format="turtle")
-
-
-
-
-
-
+graphout.serialize(destination='../output/Tn-authors-context-GND-uni.rdf', format="turtle")

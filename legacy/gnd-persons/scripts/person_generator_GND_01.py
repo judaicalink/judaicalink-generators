@@ -120,4 +120,4 @@ if (u"person",u"occ",u"name",u"label") in results:
        g.add( (URIRef(jlURI), gndo.gndIdentifier , URIRef(b[u"person"].value) ) )
        g.add( (URIRef(jlURI), gndo.preferredNameForTheSubjectHeading , URIRef(b[u"occ"].value) ) )
 
-g.serialize(destination = 'generated_persons_GND.ttl' , format="turtle")
+g.serialize(destination = '../output/generated_persons_GND.ttl' , format="turtle")

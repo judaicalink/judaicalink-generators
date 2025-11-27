@@ -1,19 +1,15 @@
-#Maral Dadvar
-#02/10/2017
-#This scripts look sfor sameAs lines between bhr and JudaicaLink
+# Maral Dadvar
+# 02/10/2017
+# This scripts look sfor sameAs lines between bhr and JudaicaLink
 
-import unicodedata
-import os , glob
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal , OWL, RDFS , RDF
-from SPARQLWrapper import SPARQLWrapper2, XML  , JSON , TURTLE
-import re
-import pprint
+import os
+
+from SPARQLWrapper import SPARQLWrapper2
+from rdflib import Namespace, URIRef, Graph
 
 os.chdir(os.getcwd())
 
 sparql = SPARQLWrapper2("http://localhost:3030/judaicalink/sparql")
-
 
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 rdf = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
@@ -24,13 +20,12 @@ owl = Namespace("http://www.w3.org/2002/07/owl#")
 g = Graph()
 g.parse('interlinks-03.ttl', format='turtle')
 
+g.bind('foaf', foaf)
+g.bind('jl', jl)
+g.bind('skos', skos)
+g.bind('owl', owl)
 
-g.bind('foaf',foaf)
-g.bind('jl',jl)
-g.bind('skos',skos)
-g.bind('owl',owl)
-
-spar1= """
+spar1 = """
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX gndo: <http://d-nb.info/standards/elementset/gnd#>
     PREFIX pro: <http://purl.org/hpi/patchr#>
@@ -61,12 +56,6 @@ where{
 results = g.query(spar1)
 
 for item in results:
+    g.add((URIRef(item[1]), owl.sameAs, URIRef(item[0])))
 
-
-    g.add( (URIRef(item[1]), owl.sameAs , URIRef(item[0]) ) )
-
-
-g.serialize(destination = 'interlinks-04.ttl' , format="turtle")
-
-
-
+g.serialize(destination='../output/interlinks-04.ttl', format="turtle")

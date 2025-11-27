@@ -1,4 +1,3 @@
-import rdflib
 import SPARQLWrapper as sw
 
 prefixes = []
@@ -7,13 +6,17 @@ prefixes.append(('gndo', 'http://d-nb.info/standards/elementset/gnd#'))
 
 sparql = sw.SPARQLWrapper2("http://zbw.eu/beta/sparql/gnd/query")
 
+
 def get_prefixes():
     return "\n".join(["PREFIX {}: <{}>".format(prefix, url) for prefix, url in prefixes])
+
 
 def sparql_query(q):
     q = get_prefixes() + "\n\n" + q
     sparql.setQuery(q)
     return sparql.query()
+
+
 res = sparql_query('''
 SELECT DISTINCT ?forename ?forename2 WHERE {
         ?s a gndo:UndifferentiatedPerson .
@@ -30,4 +33,3 @@ SELECT DISTINCT ?forename ?forename2 WHERE {
 ''')
 len(res.bindings)
 res.bindings
-

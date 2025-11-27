@@ -1,13 +1,13 @@
 # Maral Dadvar
-#This code extracts further information from GND for the authors of Freimann collection who have an GND-ID assigned to them.
-#15/01/2018
-#Ver. 01
+# This code extracts further information from GND for the authors of Freimann collection who have an GND-ID assigned to them.
+# 15/01/2018
+# Ver. 01
 
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal
-from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON
-from rdflib.namespace import RDF, FOAF , SKOS ,RDFS
 import os
+
+from SPARQLWrapper import SPARQLWrapper2, XML
+from rdflib import Namespace, URIRef, Graph
+from rdflib.namespace import RDF
 
 os.chdir(os.getcwd())
 
@@ -17,19 +17,16 @@ foaf = Namespace("http://xmlns.com/foaf/0.1/")
 skos = Namespace("http://www.w3.org/2004/02/skos/core#")
 gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
 jl = Namespace("http://data.judaicalink.org/ontology/")
-owl = Namespace ("http://www.w3.org/2002/07/owl#")
+owl = Namespace("http://www.w3.org/2002/07/owl#")
 
 graph = Graph()
-#graph.parse('interlinks-04.ttl', format="turtle")
-#graph.parse('interlinks-04-enriched-01.ttl', format="turtle")
-#graph.parse('interlinks-04-enriched-02.ttl', format="turtle")
-#graph.parse('interlinks-04-enriched-03.ttl', format="turtle")
-#graph.parse('interlinks-04-enriched-04.ttl', format="turtle")
-#graph.parse('interlinks-04-enriched-05.ttl', format="turtle")
+# graph.parse('interlinks-04.ttl', format="turtle")
+# graph.parse('interlinks-04-enriched-01.ttl', format="turtle")
+# graph.parse('interlinks-04-enriched-02.ttl', format="turtle")
+# graph.parse('interlinks-04-enriched-03.ttl', format="turtle")
+# graph.parse('interlinks-04-enriched-04.ttl', format="turtle")
+# graph.parse('interlinks-04-enriched-05.ttl', format="turtle")
 graph.parse('interlinks-04-enriched-06.ttl', format='turtle')
-
-
-
 
 sparql.setQuery("""
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -73,18 +70,15 @@ sparql.setReturnFormat(XML)
 
 results = sparql.query().convert()
 
-graph.bind('foaf',foaf)
-graph.bind('skos',skos)
-graph.bind('gndo',gndo)
-graph.bind('jl',jl)
-graph.bind('owl',owl)
+graph.bind('foaf', foaf)
+graph.bind('skos', skos)
+graph.bind('gndo', gndo)
+graph.bind('jl', jl)
+graph.bind('owl', owl)
 
+if (u"x", u"same2") in results:
 
-if (u"x",u"same2") in results:
-
-
-
-    bindings = results[u"x",u"same2"]
+    bindings = results[u"x", u"same2"]
 
     for b in bindings:
 
@@ -92,17 +86,13 @@ if (u"x",u"same2") in results:
         same = b['same2'].value
 
         if uri != same:
-            graph.add( (URIRef(uri),  RDF.type , foaf.Person ) )
-            graph.add( (URIRef(uri) , owl.sameAs ,  URIRef(same2) ))
+            graph.add((URIRef(uri), RDF.type, foaf.Person))
+            graph.add((URIRef(uri), owl.sameAs, URIRef(same2)))
 
-
-#graph.serialize(destination='interlinks-04-enriched-01.ttl', format="turtle")
-#graph.serialize(destination='interlinks-04-enriched-02.ttl', format="turtle")
-#graph.serialize(destination='interlinks-04-enriched-03.ttl', format="turtle")
-#graph.serialize(destination='interlinks-04-enriched-04.ttl', format="turtle")
-#graph.serialize(destination='interlinks-04-enriched-05.ttl', format="turtle")
-#graph.serialize(destination='interlinks-04-enriched-06.ttl', format="turtle")
-graph.serialize(destination='interlinks-04-enriched-07.ttl', format="turtle")
-
-
-
+# graph.serialize(destination='interlinks-04-enriched-01.ttl', format="turtle")
+# graph.serialize(destination='interlinks-04-enriched-02.ttl', format="turtle")
+# graph.serialize(destination='interlinks-04-enriched-03.ttl', format="turtle")
+# graph.serialize(destination='interlinks-04-enriched-04.ttl', format="turtle")
+# graph.serialize(destination='interlinks-04-enriched-05.ttl', format="turtle")
+# graph.serialize(destination='interlinks-04-enriched-06.ttl', format="turtle")
+graph.serialize(destination='../output/interlinks-04-enriched-07.ttl', format="turtle")

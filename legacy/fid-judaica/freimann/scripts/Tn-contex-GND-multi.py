@@ -109,7 +109,7 @@ for ubitem in results: #names from UB Freimann
 
 
    name = ubitem[1].encode('utf-8') #name of the author
-   print '.........',name
+   print('.........',name)
 
 
    for item in result: #names from GND generated persons
@@ -117,7 +117,7 @@ for ubitem in results: #names from UB Freimann
       #print item
       if item[1].encode('utf-8') == name:
 
-           print  item[1] , name
+           print(item[1] , name)
            weblist.append(ubitem[0])
            graphout.add((URIRef(ubitem[0]), RDF.type , edm.WebResource ))
            graphout.add( (URIRef(ubitem[0]), gndo.gndIdentifier , URIRef(item[0]) ) )
@@ -129,7 +129,7 @@ for ubitem in results: #names from UB Freimann
         graphout.add( (URIRef(ubitem[0]), dc.Personidentifier , Literal(ubitem[2]) ) )
 
 
-graphout.serialize(destination = 'Tn-authors-context-GND-multi-2.rdf' , format="turtle")
+graphout.serialize(destination = '../output/Tn-authors-context-GND-multi-2.rdf' , format="turtle")
 
 
 

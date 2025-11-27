@@ -126,4 +126,4 @@ if (u"person",u"occ",u"name",u"occname",u"occont",u"label") in results:
        g.add( (URIRef(jlURI), gndo.gndIdentifier , URIRef(b[u"person"].value) ) )
        g.add( (URIRef(jlURI), jl.occupation , URIRef(b[u"occont"].value) ) )
 
-g.serialize(destination = 'generated_person_GND_Occontology.ttl' , format="turtle") 
+g.serialize(destination = '../output/generated_person_GND_Occontology.ttl' , format="turtle")

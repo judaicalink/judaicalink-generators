@@ -103,5 +103,5 @@ for i in range(0,len(results.bindings)):
 
 #graph.serialize(destination='Entityfacts-freimann-sameas.ttl', format="turtle")
 #graph.serialize(destination='Entityfacts-gnd-sameas.ttl', format="turtle")
-graph.serialize(destination='Entityfacts-ubgnd-sameas.ttl', format="turtle")
+graph.serialize(destination='../output/Entityfacts-ubgnd-sameas.ttl', format="turtle")
 #graph.serialize(destination='Entityfacts-bhr-sameas.ttl', format="turtle")

@@ -19,7 +19,7 @@ owl = Namespace("http://www.w3.org/2002/07/owl#")
 
 g = Graph()
 
-g.parse('EncycBHR-ID-GND-JL.ttl', format='turtle')
+g.parse('../output/EncycBHR-ID-GND-JL.ttl', format='turtle')
 
 g.bind('foaf', foaf)
 g.bind('jl', jl)

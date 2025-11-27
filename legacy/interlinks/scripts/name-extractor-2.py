@@ -1,15 +1,19 @@
 import collections
+
 props = ["gndo:forename", "gndo:surname"]
-cooc = collections.defaultdict(lambda : collections.defaultdict(collections.Counter))
+cooc = collections.defaultdict(lambda: collections.defaultdict(collections.Counter))
 tmp = collections.defaultdict(set)
+
 
 def extract_literal(line):
     start = line.index('"')
     end = line.index('"', start + 1)
     return line[start + 1:end]
 
+
 def bad_name(name):
     return " " in name or "." in name or "-" in name
+
 
 def extract_from_file(filename):
     with open(filename, 'r', encoding='utf-8') as f:
@@ -35,24 +39,28 @@ def extract_from_file(filename):
                     if not bad_name(name):
                         tmp[p].add(name)
 
+
 def get_coocs(prop, name):
     return collections.Counter(cooc[prop][name]).most_common()
+
+
 import json
+
 
 def save_cooc(filename):
     with open(filename, 'w', encoding='utf-8') as fp:
         json.dump(cooc, fp)
-        
+
+
 def load_cooc(filename):
     with open(filename, 'r', encoding='utf-8') as fp:
         return json.load(fp)
+
+
 # extract_from_file('authorities-name_lds.ttl')
 # extract_from_file('authorities-person_lds.ttl')
 # save_cooc('cooc.json')
 cooc = load_cooc('cooc.json')
 len(cooc['gndo:forename'])
 
-
 get_coocs('gndo:surname', 'Abeles')
-        
-

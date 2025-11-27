@@ -1,18 +1,20 @@
-#this code creates triples from the csv file containing information extarcted from the encyclopedia
+# this code creates triples from the csv file containing information extarcted from the encyclopedia
 # 25/July/2017
 # Maral Dadvar
 
 
-import urllib2
-from bs4 import BeautifulSoup
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal
-from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON , TURTLE
-from rdflib.namespace import RDF, FOAF , OWL
-import os , glob
 import csv
+import glob
+import os
 import re
+
+import rdflib
 import unidecode
+import urllib2
+from SPARQLWrapper import SPARQLWrapper2, XML, RDF, JSON, TURTLE
+from bs4 import BeautifulSoup
+from rdflib import Namespace, URIRef, Graph, Literal
+from rdflib.namespace import RDF, FOAF, OWL
 
 os.chdir(os.getcwd())
 
@@ -25,17 +27,16 @@ gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
 owl = Namespace("http://www.w3.org/2002/07/owl#")
 
 graph.bind('skos', skos)
-graph.bind ('foaf' , foaf)
-graph.bind ('jl' , jl)
-graph.bind('gndo',gndo)
-graph.bind ('owl' , owl)
+graph.bind('foaf', foaf)
+graph.bind('jl', jl)
+graph.bind('gndo', gndo)
+graph.bind('owl', owl)
 
-
-data = csv.reader(open('Encycoutput.csv'))
+data = csv.reader(open('../sources/Encycoutput.csv'))
 fields = data.next()
-eventdic={}
+eventdic = {}
 
-dic={}
+dic = {}
 
 listuri = []
 
@@ -48,22 +49,20 @@ for row in data:
         item[name] = value.strip()
 
     fn = item['fn'].strip()
-    fn = fn.replace('.','')
+    fn = fn.replace('.', '')
 
     if '(' in fn:
-        fn = fn.rsplit('(',1)[0].strip()
+        fn = fn.rsplit('(', 1)[0].strip()
 
-    fnuri = fn.replace(' ','') #the fn and ln used in person uri can not have space
-
+    fnuri = fn.replace(' ', '')  # the fn and ln used in person uri can not have space
 
     ln = item['ln'].strip()
-    ln = ln.replace('.','')
+    ln = ln.replace('.', '')
 
     if '(' in ln:
-        ln = ln.rsplit('(',1)[0].strip()
+        ln = ln.rsplit('(', 1)[0].strip()
 
-    lnuri = ln.replace(' ','')
-
+    lnuri = ln.replace(' ', '')
 
     if ln != '':
         name = fn + ', ' + ln
@@ -75,7 +74,6 @@ for row in data:
         name = fn
         nameuri = fnuri
 
-
     geb = item['geb']
     gest = item['gest']
     bhr = item['BHR']
@@ -86,28 +84,27 @@ for row in data:
         listuri.append(uri0)
         uri = uri0
     else:
-        i = i+1
+        i = i + 1
         uri = uri0 + '-' + str(i)
         if uri not in listuri:
             listuri.append(uri)
 
         else:
-            i = i+1
-            uri = uri0 +'-'+ str(i)
+            i = i + 1
+            uri = uri0 + '-' + str(i)
             if uri not in listuri:
                 listuri.append(uri)
 
             else:
-                i = i+1
-                uri = uri0 + '-'+  str(i)
+                i = i + 1
+                uri = uri0 + '-' + str(i)
                 listuri.append(uri)
 
-
-    graph.add((URIRef(uri), RDF.type, foaf.Person ))
-    graph.add((URIRef(uri), jl.birthDate,(Literal(geb)) ))
-    graph.add((URIRef(uri), jl.deathDate,(Literal(gest)) ))
-   # graph.add((URIRef(uri), jl.describedAt ,(Literal(bhr)) ))
-    graph.add((URIRef(uri), skos.prefLabel ,(Literal(name)) ))
-    graph.add((URIRef(uri), jl.occpation ,(URIRef('http://data.judaicalink.org/data/occupation/Rabbi')) ))
+    graph.add((URIRef(uri), RDF.type, foaf.Person))
+    graph.add((URIRef(uri), jl.birthDate, (Literal(geb))))
+    graph.add((URIRef(uri), jl.deathDate, (Literal(gest))))
+    # graph.add((URIRef(uri), jl.describedAt ,(Literal(bhr)) ))
+    graph.add((URIRef(uri), skos.prefLabel, (Literal(name))))
+    graph.add((URIRef(uri), jl.occpation, (URIRef('http://data.judaicalink.org/data/occupation/Rabbi'))))
 
 graph.serialize(destination='Encyc.rdf', format="turtle")

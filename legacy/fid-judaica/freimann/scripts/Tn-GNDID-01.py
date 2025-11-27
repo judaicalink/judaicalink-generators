@@ -1,15 +1,16 @@
 # Maral Dadvar
-#This code looks for common authors in Tn authors at UB dataset and the authors extracted from GND with unique occurance and based on the specified occupations.
-#10.07.2017
-#Ver. 01
+# This code looks for common authors in Tn authors at UB dataset and the authors extracted from GND with unique occurance and based on the specified occupations.
+# 10.07.2017
+# Ver. 01
 
-import rdflib
-from rdflib import Namespace, URIRef, Graph , Literal
-from SPARQLWrapper import SPARQLWrapper2, XML , RDF , JSON
-from rdflib.namespace import RDF, FOAF , SKOS ,RDFS
 import os
 
-script_dir = os.path.dirname(os.path.abspath(__file__)); os.chdir(script_dir)
+from SPARQLWrapper import SPARQLWrapper2, XML
+from rdflib import Namespace, URIRef, Graph, Literal
+from rdflib.namespace import RDF
+
+script_dir = os.path.dirname(os.path.abspath(__file__));
+os.chdir(script_dir)
 
 sparql = SPARQLWrapper2("http://localhost:3030/judaicalink/sparql")
 
@@ -19,7 +20,6 @@ gndo = Namespace("http://d-nb.info/standards/elementset/gnd#")
 
 graphuni = Graph()
 graphmulti = Graph()
-
 
 sparql.setQuery("""
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -64,48 +64,42 @@ sparql.setReturnFormat(XML)
 
 results = sparql.query().convert()
 
-graphuni.bind('foaf',foaf)
-graphuni.bind('skos',skos)
-graphuni.bind('gndo',gndo)
+graphuni.bind('foaf', foaf)
+graphuni.bind('skos', skos)
+graphuni.bind('gndo', gndo)
 
-graphmulti.bind('foaf',foaf)
-graphmulti.bind('skos',skos)
-graphmulti.bind('gndo',gndo)
+graphmulti.bind('foaf', foaf)
+graphmulti.bind('skos', skos)
+graphmulti.bind('gndo', gndo)
 
-names={}
+names = {}
 
-if (u"y",u"label") in results:
-    bindings = results[u"y",u"label"]
+if (u"y", u"label") in results:
+    bindings = results[u"y", u"label"]
     for b in bindings:
         names[b[u"y"]] = b[u"label"].value
 
-        #print b
+        # print b
 
-
-reverse_names = {}  #create a dic to all GNDid and labels.
+reverse_names = {}  # create a dic to all GNDid and labels.
 for key, value in names.items():
-    try:reverse_names[value].append(key)
-    except:reverse_names[value] = [key]
-
+    try:
+        reverse_names[value].append(key)
+    except:
+        reverse_names[value] = [key]
 
 for key, value in reverse_names.items():
-   if len(reverse_names[key]) > 1:  #reverse the dic to check for labels which have multi entries in GND
-        print key , reverse_names[key]
+    if len(reverse_names[key]) > 1:  # reverse the dic to check for labels which have multi entries in GND
+        print
+        key, reverse_names[key]
 
-        for i in range (0, len(reverse_names[key])):
+        for i in range(0, len(reverse_names[key])):
+            graphmulti.add((URIRef(reverse_names[key][i].value), RDF.type, foaf.Person))
+            graphmulti.add((URIRef(reverse_names[key][i].value), skos.prefLabel, Literal(key)))
 
-            graphmulti.add( (URIRef(reverse_names[key][i].value),  RDF.type , foaf.Person ) )
-            graphmulti.add( (URIRef(reverse_names[key][i].value) , skos.prefLabel ,  Literal(key) ))
+    else:
+        graphuni.add((URIRef(reverse_names[key][0].value), RDF.type, foaf.Person))
+        graphuni.add((URIRef(reverse_names[key][0].value), skos.prefLabel, Literal(key)))
 
-   else:
-            graphuni.add( (URIRef(reverse_names[key][0].value),  RDF.type , foaf.Person ) )
-            graphuni.add( (URIRef(reverse_names[key][0].value) , skos.prefLabel ,  Literal(key) ))
-
-
-
-graphmulti.serialize(destination='Tn-gnd-multi.rdf', format="turtle")
-graphuni.serialize(destination='Tn-gnd-uni.rdf', format="turtle")
-
-
-
-
+graphmulti.serialize(destination='../output/Tn-gnd-multi.rdf', format="turtle")
+graphuni.serialize(destination='../output/Tn-gnd-uni.rdf', format="turtle")
