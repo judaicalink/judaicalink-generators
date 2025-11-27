@@ -21,13 +21,12 @@ import logging
 import os
 import shutil
 import sys
-from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
 import pandas as pd
 from rdflib import Graph, Literal, Namespace, URIRef
-from rdflib.namespace import RDF, RDFS, DCTERMS
+from rdflib.namespace import RDF, DCTERMS
 
 # --- Repo-Root für Standalone-Import setzen ---
 REPO_ROOT = Path(__file__).resolve().parents[2]  # .../judaicalink-generators
@@ -44,16 +43,14 @@ from generator.loader import load_to_fuseki, upsert_metadata_graph  # type: igno
 SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 GNDO = Namespace("http://d-nb.info/standards/elementset/gnd#")
-JL_DATA = Namespace("http://data.judaicalink.org/data/")      # Daten-Basis
-JL_DS = Namespace("http://data.judaicalink.org/datasets/")    # Datasets-Basis
+JL_DATA = Namespace("http://data.judaicalink.org/data/")  # Daten-Basis
+JL_DS = Namespace("http://data.judaicalink.org/datasets/")  # Datasets-Basis
 VOID = Namespace("http://rdfs.org/ns/void#")
 
 SLUG = "gba"
 DATASET_URI = URIRef(f"{JL_DS}{SLUG}")  # http://data.judaicalink.org/datasets/gba
 
-# ----------------------------------------------------------------------
-# Logging (einfach, aber ausreichend – Root logger)
-# ----------------------------------------------------------------------
+# Logging
 LOG_DIR = REPO_ROOT / "logs"
 LOG_DIR.mkdir(exist_ok=True)
 LOG_FILE = LOG_DIR / f"{SLUG}.log"
@@ -80,8 +77,18 @@ if not root_logger.handlers:
 logger = logging.getLogger(f"{SLUG}-build")
 logger.info("Logging initialized → %s", LOG_FILE)
 
+
 # ------------- Helpers ------------- #
 def clean_url_string(string: Optional[str]) -> str:
+    """
+    Cleans a string to be URL/URI friendly by replacing problematic characters with underscores.
+    1. Trims whitespace.
+    2. Replaces characters: ' " , < > | . [ ] ( ) { } and spaces with underscores.
+    3. Returns empty string for None or NaN inputs.
+    4. Returns the cleaned string
+    :param string: The input string to clean.
+    :return: A cleaned string suitable for URLs/URIs.
+    """
     if string is None or (isinstance(string, float) and pd.isna(string)):
         return ""
     s = str(string).strip()
@@ -91,6 +98,11 @@ def clean_url_string(string: Optional[str]) -> str:
 
 
 def compress_file(path: Path) -> Path:
+    """
+    Compress a file using gzip and return the path to the compressed file.
+    :param path: Path to the file to compress.
+    :return: Path to the compressed .gz file.
+    """
     gz_path = path.with_suffix(path.suffix + ".gz")
     with path.open("rb") as f_in, gzip.open(gz_path, "wb") as f_out:
         shutil.copyfileobj(f_in, f_out)
@@ -99,9 +111,11 @@ def compress_file(path: Path) -> Path:
 
 def copy_to_dumps(slug: str, files: list[Path]) -> list[Path]:
     """
-    Kopiert Dateien in den Dumps-Ordner:
-    Ziel: $JL_DUMPS_ROOT/<slug>/current/
-    Default JL_DUMPS_ROOT = /mnt/data/dumps
+    Copies given files to the dumps directory for the specified slug.
+    JL_DUMPS_ROOT/<slug>/current/
+    :param slug: The dataset slug (e.g., 'gba').
+    :param files: List of file paths to copy.
+    :return: List of paths to the copied files in the dumps directory.
     """
     dumps_root = Path(os.environ.get("JL_DUMPS_ROOT", "/mnt/data/dumps")).resolve()
     dest_dir = dumps_root / slug / "current"
@@ -114,16 +128,19 @@ def copy_to_dumps(slug: str, files: list[Path]) -> list[Path]:
     return copied
 
 
-# ------------- Daten-Mapping (dein bestehender Code) ------------- #
+# ------------- Data mapping ------------- #
 def generate_rdf_from_csv(g: Graph, csv_path: Path) -> None:
     """
-    Mapping auf Basis deiner bisherigen Logik.
-    Erwartete Spalten: name, gnd, type, birthDate, deathDate, occupation,
-                       hasPublication, relation, alternativeName, hasAbstract
+    Mapping from gidal.csv to RDF triples in the provided graph.
+    Expected columns: name, gnd, type, birthDate, deathDate, occupation,
+                      hasPublication, relation, alternativeName, hasAbstract
+    :param g: RDFLib Graph to populate.
+    :param csv_path: Path to the gidal.csv file.
+    :return: None
     """
     df = pd.read_csv(csv_path, sep=",", encoding="utf-8", header=0)
 
-    # Prefix-Bindings (für lesbare TTL)
+    # Prefix bBindings (for readable TTL)
     g.bind("skos", SKOS)
     g.bind("foaf", FOAF)
     g.bind("gndo", GNDO)
@@ -136,7 +153,7 @@ def generate_rdf_from_csv(g: Graph, csv_path: Path) -> None:
             continue
         uri = URIRef(f"{JL_DATA}gba/{url_name}")
 
-        # Typ
+        # Type
         rtype = str(row.get("type") or "").strip().lower()
         if rtype == "person":
             g.add((uri, RDF.type, FOAF.Person))
@@ -155,7 +172,7 @@ def generate_rdf_from_csv(g: Graph, csv_path: Path) -> None:
         if pd.notna(gnd):
             g.add((uri, GNDO.gndIdentifier, Literal(str(gnd))))
 
-        # Birth/Death (Zahlen, wenn möglich)
+        # Birth/Death
         birth = row.get("birthDate")
         if pd.notna(birth):
             try:
@@ -170,7 +187,7 @@ def generate_rdf_from_csv(g: Graph, csv_path: Path) -> None:
             except Exception:
                 g.add((uri, GNDO.deathDate, Literal(str(death))))
 
-        # occupation ; getrennt
+        # occupation separated by ;
         occs = row.get("occupation")
         if pd.notna(occs):
             for occ in str(occs).split(";"):
@@ -178,7 +195,7 @@ def generate_rdf_from_csv(g: Graph, csv_path: Path) -> None:
                 if occ:
                     g.add((uri, GNDO.occupation, Literal(occ)))
 
-        # hasPublication ; getrennt
+        # hasPublication separated by ;
         pubs = row.get("hasPublication")
         if pd.notna(pubs):
             for pub in str(pubs).split(";"):
@@ -202,11 +219,14 @@ def generate_rdf_from_csv(g: Graph, csv_path: Path) -> None:
             g.add((uri, GNDO.hasAbstract, Literal(str(ab).strip())))
 
 
-# ------------- ABC-Integration ------------- #
+# ------------- ABC integration ------------- #
 class Generator(RDFGeneratorBase):
     """
-    Nutzt die gemeinsame ABC (RDFGeneratorBase).
-    - build() füllt den übergebenen Graphen g (Datengraph)
+    Uses the common ABC (RDFGeneratorBase).
+    - build() fills the graphen g (data graph)
+    :param g: RDFLib Graph to populate.
+    :param ctx: Build context with source_dir etc.
+    :return: None
     """
 
     def build(self, g: Graph, ctx) -> None:
@@ -222,17 +242,33 @@ class Generator(RDFGeneratorBase):
 
 # ------------- CLI ------------- #
 def parse_args(argv: list[str] | None = None):
+    """
+    Parse command-line arguments.
+    :param argv: List of command-line arguments (default: sys.argv).
+    :return: Parsed arguments.
+    """
     p = argparse.ArgumentParser(description="Build RDF for gba and (optionally) load & publish.")
-    p.add_argument("--load", action="store_true", help="Nach Generierung in Fuseki laden")
-    p.add_argument("--graph", default=None, help="Named graph URI; überschreibt Wert aus gba.md")
-    p.add_argument("--append", action="store_true", help="An Graph anhängen statt ersetzen")
-    p.add_argument("--only-newer", action="store_true", help="Nur laden wenn Datei unverändert ist (hash/mtime -> skip)")
-    p.add_argument("--no-dumps", action="store_true", help="Nicht in den Dumps-Ordner kopieren")
-    p.add_argument("--meta-only", action="store_true", help="Nur Metadaten schreiben (kein Datengraph)")
+    p.add_argument("--load", action="store_true", help="Load into Fuseki after generation")
+    p.add_argument("--graph", default=None, help="Named graph URI; overwrites value from gba.md")
+    p.add_argument("--append", action="store_true", help="Append to graph, instead of replacing")
+    p.add_argument("--only-newer", action="store_true",
+                   help="Only load if the file is unchanged (hash/mtime -> skip)")
+    p.add_argument("--no-dumps", action="store_true", help="Do not copy files to dumps")
+    p.add_argument("--meta-only", action="store_true", help="Write only metadata (no data graph)")
     return p.parse_args(argv)
 
 
 def main(argv: list[str] | None = None):
+    """
+    Main build workflow for GBA.
+    1) Build data graph (unless --meta-only).
+    2) Gzip data graph.
+    3) Build metadata graph.
+    4) Optional: Load data graph to Fuseki.
+    5) Optional: Copy files to dumps.
+    :param argv: Command-line arguments (default: sys.argv).
+    :return: None
+    """
     args = parse_args(argv)
 
     ds_root = Path(__file__).resolve().parents[1]  # gba/
@@ -241,11 +277,11 @@ def main(argv: list[str] | None = None):
 
     logger.info("Starting GBA build (meta_only=%s)", args.meta_only)
 
-    # 1) Datengraph bauen (ABC kümmert sich um Basismetadaten im Datengraph)
+    # 1) build data graph bauen
     res = {"status": "success", "ttl": str(out_dir / f"{SLUG}.ttl"), "slug": SLUG}
     if not args.meta_only:
         gen = Generator(ds_root)
-        res = gen.run()  # schreibt output/gba.ttl
+        res = gen.run()  # writes to output/gba.ttl
         print(json.dumps(res, indent=2, ensure_ascii=False))
 
         if res.get("status") != "success":
@@ -258,12 +294,12 @@ def main(argv: list[str] | None = None):
     ttl_path = Path(res["ttl"])
     gz_path: Optional[Path] = None
 
-    # 2) gzip (nur wenn Daten geschrieben)
+    # 2) gzip (onlxy if data graph was generated)
     if ttl_path.exists() and not args.meta_only:
         gz_path = compress_file(ttl_path)
         logger.info("gzipped: %s", gz_path)
 
-    # 3) Metadaten-Graph erzeugen (aus gba.md, falls vorhanden)
+    # 3) metadata graph build
     meta_md = ds_root / f"{SLUG}.md"
     if meta_md.exists():
         meta_front = load_frontmatter_toml(meta_md)
@@ -289,7 +325,7 @@ def main(argv: list[str] | None = None):
     meta_g = build_metadata_graph(metadata, scriptinfo={"slug": SLUG})
     subject = DATASET_URI
 
-    # ggf. zusätzliche Felder aus Frontmatter
+    # additional metadata from frontmatter
     if (author := meta_front.get("author")):
         meta_g.add((subject, DCTERMS.creator, Literal(author)))
     if (authorlink := meta_front.get("authorlink")):
@@ -317,18 +353,18 @@ def main(argv: list[str] | None = None):
         # Graph-URI: CLI-Argument > gba.md:graph > Default
         graph_uri = args.graph or meta_front.get("graph") or "http://data.judaicalink.org/data/gba"
 
-        # Datengraph laden/ersetzen/anhängen
+        # load data graph
         lr = load_to_fuseki(
             slug=SLUG,
             ttl_path=str(ttl_path),
-            endpoint=None,  # JL_FUSEKI_URL aus ENV
+            endpoint=None,
             graph=graph_uri,
             replace=(not args.append),
             only_newer=args.only_newer,
         )
         print(json.dumps(lr.__dict__, indent=2, ensure_ascii=False))
 
-        # Metadaten-Graph in gemeinsamen Datasets-Graph upserten
+        # upsert metadata graph
         lr_meta = upsert_metadata_graph(
             slug=f"{SLUG}-meta",
             ttl_path=str(meta_ttl),
@@ -338,7 +374,7 @@ def main(argv: list[str] | None = None):
         )
         print(json.dumps(lr_meta.__dict__, indent=2, ensure_ascii=False))
 
-    # 5) Optional: in Dumps kopieren
+    # 5) Optional: copy to dumps
     if not args.no_dumps:
         files = [meta_ttl, meta_gz]
         if ttl_path.exists() and not args.meta_only:
