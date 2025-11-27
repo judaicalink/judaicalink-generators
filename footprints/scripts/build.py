@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Generator for Footprints – tracing the history and movement of Jewish books.
-Refactored into the common JudaicaLink build workflow.
 
-Original: API-basierter Generator von Christian Deuschle, 2023.
+Generator by Christian Deuschle, 2023.
 """
 
 from __future__ import annotations
@@ -16,8 +15,8 @@ import logging
 import os
 import shutil
 import sys
-import uuid
 import time
+import uuid
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
@@ -27,22 +26,22 @@ import urllib3
 from rdflib import Graph, Literal, Namespace, URIRef
 from rdflib.namespace import RDF, XSD
 
-# SSL-Warnungen wie im Original unterdrücken
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
 # ---------- Repo-Root ----------
 REPO_ROOT = Path(__file__).resolve().parents[2]  # .../judaicalink-generators
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-# Core-Infrastruktur
+# Core infrastructure
 from generator.base import RDFGeneratorBase  # type: ignore
-from generator.metadata import build_metadata_graph  # type: ignore
 from generator.loader import load_to_fuseki, upsert_metadata_graph  # type: ignore
-from generator.util import ensure_dir, load_frontmatter_toml  # type: ignore
+from generator.metadata import build_metadata_graph  # type: ignore
 from generator.rdf import JL_DATA, JL_DS, DCTERMS, SKOS, FOAF  # type: ignore
+from generator.util import ensure_dir, load_frontmatter_toml  # type: ignore
 
-# Namespaces wie im Original
+# Suppress SSL warnings for requests to Footprints (self-signed cert)
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# Namespaces
 JL_ONTO = Namespace("http://data.judaicalink.org/ontology/")
 GNDO = Namespace("http://d-nb.info/standards/elementset/gnd#")
 OWL = Namespace("http://www.w3.org/2002/07/owl#")
@@ -56,6 +55,16 @@ SLUG = "footprints"
 DATASET_URI = JL_DS[SLUG]
 
 API_BASE = "https://footprints.ctl.columbia.edu/api/person/?format=json&page={page}"
+
+log = logging.getLogger(__name__)
+
+SESSION = requests.Session()
+SESSION.headers.update({
+    "User-Agent": "Mozilla/5.0 (compatible; JudaicaLinkFootprintsBot/1.0)",
+    "Accept": "application/json, text/javascript, */*; q=0.01",
+})
+
+BASE_URL = "https://footprints.ctl.columbia.edu"
 
 # ---------- Logging ----------
 LOG_DIR = REPO_ROOT / "logs"
@@ -87,6 +96,11 @@ logger.info("Logging initialized → %s", LOG_FILE)
 
 # ---------- Helpers ----------
 def compress_file(path: Path) -> Path:
+    """
+    Gzips the given file and returns the path to the .gz file.
+    ️:param path: Path to the file to compress
+    ️:return: Path to the compressed .gz file
+    """
     gz_path = path.with_suffix(path.suffix + ".gz")
     with path.open("rb") as f_in, gzip.open(gz_path, "wb") as f_out:
         shutil.copyfileobj(f_in, f_out)
@@ -95,47 +109,77 @@ def compress_file(path: Path) -> Path:
 
 def copy_to_dumps(slug: str, files: list[Path]) -> list[Path]:
     """
-    Kopiert Dateien in den Dumps-Ordner:
-    $JL_DUMPS_ROOT/<slug>/current/   (Default: /data/dumps)
+    Copy generated dataset files into the dumps directory.
+
+    Directory structure:
+        <DUMPS_ROOT>/<slug>/current/     -> always contains the latest files
+        <DUMPS_ROOT>/<slug>/archive/     -> contains all previous versions
+
+    Before copying new files:
+        - All existing files in <slug>/current/ are moved to <slug>/archive/
+        - Files are renamed using:
+              YYYY-mm-dd-hh-ss-<original_name>
+
+    If a file cannot be copied, the error is logged and processing continues.
+    :param slug: Dataset slug (e.g., 'footprints')
+    :param files: List of Path objects to copy
+    :return: List of Path objects that were successfully copied
     """
+
     dumps_root = Path(os.environ.get("JL_DUMPS_ROOT", "/data/dumps")).resolve()
-    dest_dir = dumps_root / slug / "current"
-    ensure_dir(dest_dir)
-    copied: list[Path] = []
+    slug_dir = dumps_root / slug
+    current_dir = slug_dir / "current"
+    archive_dir = slug_dir / "archive"
+
+    current_dir.mkdir(parents=True, exist_ok=True)
+    archive_dir.mkdir(parents=True, exist_ok=True)
+
+    timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+
+    # 1) Archive existing files in current/
+    for old_file in current_dir.iterdir():
+        if not old_file.is_file():
+            continue
+        try:
+            new_name = f"{timestamp}-{old_file.name}"
+            archived_path = archive_dir / new_name
+            old_file.rename(archived_path)
+        except Exception as e:
+            logger.error(f"[DUMPS] Failed to archive '{old_file}': {e}")
+            # continue even if one file fails
+
+    # 2) Copy new files to current/
+    copied_files = []
     for f in files:
-        dest = dest_dir / f.name
-        shutil.copy2(str(f), str(dest))
-        copied.append(dest)
-    return copied
+        try:
+            destination = current_dir / f.name
+            shutil.copy2(f, destination)
+            copied_files.append(destination)
+        except Exception as e:
+            logger.error(f"[DUMPS] Failed to copy '{f}' to '{destination}': {e}")
+            # continue with next file
+
+    return copied_files
 
 
 def generate_hash_uuid(name: str) -> uuid.UUID:
     """
-    Wie im Originalskript: deterministischer UUID aus dem Namen.
+    Deterministic UUID based on SHA-256 hash of the name.
+    ️:param name: Name string
+    ️:return: UUID5 based on SHA-256 hash of the name
     """
     hashed_string = hashlib.sha256(name.encode("utf-8")).hexdigest()
     return uuid.uuid5(uuid.NAMESPACE_OID, hashed_string)
 
 
-import time
-import logging
-import requests
-
-log = logging.getLogger(__name__)
-
-SESSION = requests.Session()
-SESSION.headers.update({
-    "User-Agent": "Mozilla/5.0 (compatible; JudaicaLinkFootprintsBot/1.0)",
-    "Accept": "application/json, text/javascript, */*; q=0.01",
-})
-
-BASE_URL = "https://footprints.ctl.columbia.edu"
-
-
 def fetch_person_page(page: int, max_polls: int = 10, poll_wait: float = 2.0) -> dict | None:
     """
-    Ruft eine Seite der Personenliste ab.
-    Behandelt 202 Accepted, indem ggf. ein Job-/Redirect-URL gepollt wird.
+    Calls one page of the Footprints person list.
+    Treats 202 Accepted by polling a job/redirect URL if necessary.
+    :param page: Page number to fetch
+    :param max_polls: Maximum number of polls for 202 responses
+    :param poll_wait: Seconds to wait between polls
+    :return: Parsed JSON dict or None on error
     """
     url = f"{BASE_URL}/api/person/?format=json&page={page}"
     log.info("Requesting Footprints page %s -> %s", page, url)
@@ -143,20 +187,20 @@ def fetch_person_page(page: int, max_polls: int = 10, poll_wait: float = 2.0) ->
     resp = SESSION.get(url, timeout=30)
     log.debug("Initial response: %s, headers=%r", resp.status_code, resp.headers)
 
-    # Normalfall: direkt JSON bekommen
+    # Usual case: 200 OK
     if resp.status_code == 200:
         try:
             return resp.json()
         except ValueError:
-            log.error("Footprints page %s: 200 OK aber keine gültige JSON", page)
+            log.error("Footprints page %s: 200 OK but no valid JSON", page)
             return None
 
-    # Asynchroner Fall: 202 Accepted
+    # Asynchronous case: 202 Accepted
     if resp.status_code == 202:
         job_url = (
-            resp.headers.get("Location")
-            or resp.headers.get("Content-Location")
-            or url  # zur Not dieselbe URL pollen
+                resp.headers.get("Location")
+                or resp.headers.get("Content-Location")
+                or url  # Fallback on same URL
         )
         log.info("Footprints returned 202 for page %s, polling %s", page, job_url)
 
@@ -191,7 +235,7 @@ def fetch_person_page(page: int, max_polls: int = 10, poll_wait: float = 2.0) ->
         )
         return None
 
-    # Alles andere ist ein Fehler
+    # Error case
     log.error(
         "Footprints page %s failed: %s %s",
         page, resp.status_code, resp.text[:500],
@@ -199,18 +243,17 @@ def fetch_person_page(page: int, max_polls: int = 10, poll_wait: float = 2.0) ->
     return None
 
 
-# ---------- Footprints-Logik (aus createGraph, aber ABC-konform) ----------
+# ---------- Footprints logic ----------
 def build_footprints_graph(g: Graph) -> None:
     """
-    Holt Personen aus der Footprints-API und fügt sie dem Graphen g hinzu.
-
-    - basiert auf dem ursprünglichen Script (generate_hashUU + Person-URIs)
-    - behandelt 202 (Accepted) mit Polling
-    - folgt Redirects automatisch
-    - bricht bei offensichtlichem Bot-Blocking (403/429) mit Log ab
+    Retrieves people from the Footprints API and adds them to the graph `g`.
+    - Based on the original script (generate_hashUU + person URIs)
+    - Handles 202 (Accepted) errors with polling
+    - Automatically follows redirects
+    - Aborts with a log in case of obvious bot blocking (403/429).
     """
 
-    # Prefixes binden – wichtig, aber nur auf dem vorhandenen Graphen
+    # bind prefixes but only for this graph
     g.bind("skos", SKOS)
     g.bind("foaf", FOAF)
     g.bind("jl", JL_ONTO)
@@ -224,7 +267,7 @@ def build_footprints_graph(g: Graph) -> None:
 
     session = requests.Session()
 
-    # Header möglichst nah an „echtem“ Browser, um Bot-Filter nicht unnötig zu triggern
+    # Header for browser
     session.headers.update({
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -237,9 +280,9 @@ def build_footprints_graph(g: Graph) -> None:
         "X-Requested-With": "XMLHttpRequest",
     })
 
-    REQUEST_TIMEOUT = (10, 60)   # (connect, read) – lang genug, aber kein Overkill
-    MAX_202_POLLS = 2           # wie oft bei 202 nochmal pollen
-    POLL_SLEEP = 3               # Sekunden zwischen Polls
+    REQUEST_TIMEOUT = (10, 60)  # (connect, read) – long, but not infinite
+    MAX_202_POLLS = 2  # retry count for 202 Accepted
+    POLL_SLEEP = 3  # seconds between polls
 
     page = 1
     total_persons = 0
@@ -259,7 +302,7 @@ def build_footprints_graph(g: Graph) -> None:
         status = resp.status_code
         logger.info("Initial response for page %s: HTTP %s", page, status)
 
-        # Mögliche Bot-Blocking-Hinweise
+        # possible bot protection / auth errors
         if status in (401, 403, 429):
             logger.error(
                 "Got HTTP %s for %s – this may be authentication or bot protection. "
@@ -268,7 +311,7 @@ def build_footprints_graph(g: Graph) -> None:
             )
             break
 
-        # 202 = Accepted → Backend arbeitet noch → wir pollen dieselbe URL
+        # 202 = Accepted -> backend still processing
         polls = 0
         while status == 202 and polls < MAX_202_POLLS:
             polls += 1
@@ -300,7 +343,7 @@ def build_footprints_graph(g: Graph) -> None:
             )
             break
 
-        # JSON sicher parsen
+        # parse JSON
         try:
             data = resp.json()
         except ValueError:
@@ -322,7 +365,7 @@ def build_footprints_graph(g: Graph) -> None:
             if not name:
                 continue
 
-            # gleiches URI-Schema wie im ursprünglichen Script
+            # URI scheme
             uu = generate_hash_uuid(name)
             uri = URIRef(f"https://footprints.ctl.columbia.edu/api/person/{uu}/?format=json")
 
@@ -333,12 +376,12 @@ def build_footprints_graph(g: Graph) -> None:
                 (
                     uri,
                     DCTERMS.created,
-                    Literal(datetime.utcnow().isoformat(), datatype=XSD.dateTime),
+                    Literal(datetime.now().isoformat(), datatype=XSD.dateTime),
                 )
             )
             total_persons += 1
 
-        # Pagination: bei klassischer DRF-API gibt es "next"
+        # Pagination: next link
         next_url = data.get("next")
         if not next_url:
             logger.info("No 'next' link after page %s – assuming last page.", page)
@@ -353,28 +396,38 @@ def build_footprints_graph(g: Graph) -> None:
     )
 
 
-# ---------- ABC-Adapter ----------
+# ---------- ABC adapter ----------
 class Generator(RDFGeneratorBase):
+    """
+    RDF Generator for Footprints.
+    """
+
     def build(self, g: Graph, ctx) -> None:
+        """
+        Build the Footprints RDF graph.
+        ️:param g: rdflib Graph to populate
+        ️:param ctx: Context dictionary (not used)
+        ️:return: None
+        """
         build_footprints_graph(g)
 
 
 # ---------- CLI ----------
 def parse_args(argv: list[str] | None = None):
     p = argparse.ArgumentParser(description="Build RDF for Footprints and (optionally) load & publish.")
-    p.add_argument("--load", action="store_true", help="Nach Generierung in Fuseki laden")
-    p.add_argument("--append", action="store_true", help="An Graph anhängen statt ersetzen")
+    p.add_argument("--load", action="store_true", help="Load into Fuseki after generation")
+    p.add_argument("--append", action="store_true", help="Append to graph, instead of replacing")
     p.add_argument(
         "--only-newer",
         action="store_true",
-        help="Nur laden, wenn Datei unverändert ist (hash/mtime)",
+        help="Only load if the file is unchanged (hash/mtime)",
     )
-    p.add_argument("--no-dumps", action="store_true", help="Nicht in den Dumps-Ordner kopieren")
-    p.add_argument("--meta-only", action="store_true", help="Nur Metadaten schreiben (kein Datengraph)")
+    p.add_argument("--no-dumps", action="store_true", help="Do not copy files to dumps")
+    p.add_argument("--meta-only", action="store_true", help="Write only metadata (no data graph)")
     p.add_argument(
         "--graph",
         default=None,
-        help="Named graph URI; Standard aus footprints.md: graph oder Default",
+        help="Named graph URI; Standard from footprints.md: graph or default",
     )
     return p.parse_args(argv)
 
@@ -388,11 +441,11 @@ def main(argv: list[str] | None = None):
 
     logger.info("Starting Footprints build (meta_only=%s)", args.meta_only)
 
-    # 1) Datengraph
+    # 1) data graph
     res: dict = {"status": "success", "ttl": str(out_dir / f"{SLUG}.ttl"), "slug": SLUG}
     if not args.meta_only:
         gen = Generator(ds_root)
-        res = gen.run()  # schreibt output/footprints.ttl
+        res = gen.run()  # writes to output/footprints.ttl
         print(json.dumps(res, indent=2, ensure_ascii=False))
         if res.get("status") != "success":
             logger.error("Footprints generation failed: %s", res.get("error"))
@@ -407,7 +460,7 @@ def main(argv: list[str] | None = None):
         gz_path = compress_file(ttl_path)
         logger.info("gzipped data: %s", gz_path)
 
-    # 2) Metadaten aus footprints.md
+    # 2) from footprints.md
     meta_md = ds_root / f"{SLUG}.md"
     meta_front = load_frontmatter_toml(meta_md) if meta_md.exists() else {}
 
@@ -430,7 +483,7 @@ def main(argv: list[str] | None = None):
     meta_g = build_metadata_graph(metadata, scriptinfo={"slug": SLUG})
     subject = DATASET_URI
 
-    # Extra-Felder aus Frontmatter
+    # extra metadata from frontmatter
     if (author := meta_front.get("author")):
         meta_g.add((subject, DCTERMS.creator, Literal(author)))
     if (authorlink := meta_front.get("authorlink")):
@@ -453,7 +506,7 @@ def main(argv: list[str] | None = None):
     meta_gz = compress_file(meta_ttl)
     logger.info("metadata written: %s (+ .gz)", meta_ttl)
 
-    # 3) Optional: Fuseki-Load
+    # 3) Optional: Fuseki load
     if args.load and not args.meta_only:
         graph_uri = args.graph or meta_front.get("graph") or "http://data.judaicalink.org/data/footprints"
 
@@ -461,13 +514,13 @@ def main(argv: list[str] | None = None):
             slug=SLUG,
             ttl_path=str(ttl_path),
             graph=graph_uri,
-            endpoint=None,  # JL_FUSEKI_URL aus ENV
+            endpoint=None,  # JL_FUSEKI_URL from ENV
             replace=(not args.append),
             only_newer=args.only_newer,
         )
         print(json.dumps(lr_data.__dict__, indent=2, ensure_ascii=False))
 
-        # WICHTIG: Metadaten-Graph immer in http://data.judaicalink.org/datasets
+        # Metadata graph: http://data.judaicalink.org/datasets
         lr_meta = upsert_metadata_graph(
             slug=f"{SLUG}-meta",
             ttl_path=str(meta_ttl),
