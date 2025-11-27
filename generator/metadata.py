@@ -21,9 +21,9 @@ JL_DS = Namespace("http://data.judaicalink.org/datasets/")
 
 def build_metadata_graph(metadata: dict, scriptinfo: Optional[dict] = None) -> Graph:
     """
-    Erzeugt einen RDF-Graphen mit den Metadaten eines JudaicaLink-Datasets.
+    Builds a RDF graph with the metadata of a JudaicaLink dataset.
 
-    Erwartet:
+    Expects:
     metadata = {
         "slug": "gidal",
         "title": "Gidal Image Archive",
@@ -37,6 +37,9 @@ def build_metadata_graph(metadata: dict, scriptinfo: Optional[dict] = None) -> G
             "script": "datasets/gidal/scripts/build.py"
         }
     }
+    :param metadata: Metadata dictionary.
+    :param scriptinfo: Optional script information dictionary.
+    :return: RDF Graph with the metadata.
     """
 
     g = Graph()
@@ -54,7 +57,7 @@ def build_metadata_graph(metadata: dict, scriptinfo: Optional[dict] = None) -> G
     subject = URIRef(f"{JL_DS}{slug}")
     creation_date = datetime.utcnow().isoformat()
 
-    # Grundstruktur
+    # primary structure
     g.add((subject, RDF.type, VOID.Dataset))
     g.add((subject, DCTERMS.date, Literal(creation_date)))
     g.add((subject, DCTERMS.subject, Literal(slug)))
@@ -63,7 +66,7 @@ def build_metadata_graph(metadata: dict, scriptinfo: Optional[dict] = None) -> G
     if title:
         g.add((subject, DCTERMS.title, Literal(title)))
 
-    # Lizenz (URI + Name)
+    # Licence (URI + Name)
     license_info = urlencode(metadata.get("license")) or {}
     if isinstance(license_info, dict):
         if "uri" in license_info:
@@ -71,7 +74,7 @@ def build_metadata_graph(metadata: dict, scriptinfo: Optional[dict] = None) -> G
         if "name" in license_info:
             g.add((subject, DCTERMS.rights, Literal(license_info["name"])))
 
-    # Provenienz (Generator, Commit, Script)
+    # Provenance (Generator, Commit, Script)
     gen_info = metadata.get("generator") or {}
     if gen_info or scriptinfo:
         g.add((subject, RDF.type, PROV.Entity))
@@ -80,7 +83,7 @@ def build_metadata_graph(metadata: dict, scriptinfo: Optional[dict] = None) -> G
         g.add((subject, PROV.wasGeneratedBy, activity))
         g.add((activity, PROV.used, script))
 
-        # Vorrang: metadata["generator"] > scriptinfo
+        # Priority: metadata["generator"] > scriptinfo
         src = {**(scriptinfo or {}), **gen_info}
         if "gitweb" in src:
             g.add((script, JLO.gitWeb, URIRef(src["gitweb"])))
@@ -94,8 +97,11 @@ def build_metadata_graph(metadata: dict, scriptinfo: Optional[dict] = None) -> G
 
 def write_metadata_graph(metadata: dict, out_path: Path, scriptinfo: Optional[dict] = None) -> Path:
     """
-    Schreibt den Metadaten-Graph in eine .ttl-Datei.
-    Gibt den Pfad zurück.
+    Writes the metadata  graph to a .ttl file.
+    Returns the path.
+    :param metadata: Metadata dictionary.
+    :param out_path: Output file path.
+    :param scriptinfo: Optional script information dictionary.
     """
     g = build_metadata_graph(metadata, scriptinfo=scriptinfo)
     out_path.write_text(g.serialize(format="turtle"), encoding="utf-8")
