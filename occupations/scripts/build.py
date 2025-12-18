@@ -60,7 +60,7 @@ OCCUPATION_BASE = URIRef(DATA_PREFIX + "occupation/")
 # EP graph (already in Fuseki)
 EP_GRAPH_URI = "http://data.judaicalink.org/data/ep"
 
-SLUG = "occupations"
+SLUG = "occupation"
 DATASET_URI = JL_DS[SLUG]
 
 # External endpoints (can be overridden by env)
