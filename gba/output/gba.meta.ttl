@@ -8,7 +8,7 @@
         prov:Entity ;
     dcterms:creator <http://wiss.iuk.hdm-stuttgart.de/people/benjamin-schnabel/>,
         "Benjamin Schnabel" ;
-    dcterms:date "2025-11-18T19:12:18.962967" ;
+    dcterms:date "2025-12-01T15:39:00.480263" ;
     dcterms:description "Gidal Image Archive" ;
     dcterms:issued "2022-07-08T15:00:00+02:00" ;
     dcterms:source <http://www.steinheim-institut.de/gba> ;
