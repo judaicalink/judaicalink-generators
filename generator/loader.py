@@ -305,7 +305,7 @@ def load_to_fuseki(
     if not ttl.exists():
         raise FileNotFoundError(f"TTL not found: {ttl}")
 
-    endpoint = endpoint or os.environ.get(ENV_FUSEKI_URL, "").strip()
+    endpoint = endpoint or os.environ.get(ENV_FUSEKI_URL, "http://localhost:3030/judaicalink/query").strip()
     if not endpoint:
         raise RuntimeError(f"Keine Fuseki-URL gesetzt (ENV {ENV_FUSEKI_URL}).")
 
