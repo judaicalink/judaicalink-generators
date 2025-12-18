@@ -29,6 +29,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
 from tqdm import tqdm
+from urllib.parse import urlparse, unquote
+
 
 import requests
 from rdflib import Graph, Literal, Namespace, URIRef
@@ -171,6 +173,31 @@ def slugify(label: str) -> str:
 
 def occupation_uri(label: str) -> URIRef:
     return URIRef(str(OCCUPATION_BASE) + slugify(label))
+
+
+def normalize_occupation_label(raw: str) -> str:
+    s = (raw or "").strip()
+    if not s:
+        return s
+
+    # If a full URI is stored as literal, extract last segment
+    if s.startswith("http://") or s.startswith("https://"):
+        try:
+            p = urlparse(s)
+            path = unquote(p.path or "")
+            # handle .../data/occupation/<slug>
+            marker = "/data/occupation/"
+            if marker in path:
+                tail = path.split(marker, 1)[1].strip("/")
+                # tail may contain slugs -> turn into a readable label
+                return tail.replace("-", " ").strip()
+            # otherwise: take last path segment
+            last = path.rstrip("/").split("/")[-1]
+            return last.replace("-", " ").strip() if last else s
+        except Exception:
+            return s
+
+    return s
 
 
 # ------------------------------------------------------------------------------
@@ -321,9 +348,11 @@ def build_occupations_graph(g: Graph, ctx, do_enrich: bool = True) -> None:
 
     logger.info("Building occupation concepts (enrichment=%s)", do_enrich)
 
-    for i, lab in enumerate(
-            tqdm(labels, desc="Occupations", unit="occ"), start=1
-    ):
+    for i, lab_raw in enumerate(tqdm(labels, desc="Occupations", unit="occ"), start=1):
+        lab = normalize_occupation_label(lab_raw)
+        if not lab:
+            continue
+
         occ_u = occupation_uri(lab)
         if str(occ_u) in seen_uri:
             continue
